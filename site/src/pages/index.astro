@@ -1,48 +1,220 @@
 ---
 import Base from '../layouts/Base.astro';
-import fs from 'node:fs';
-import path from 'node:path';
-import { marked } from 'marked';
 
-const reportPath = path.resolve('..', 'reports', 'pdd-holdings', 'report.md');
-const evidencePath = path.resolve('..', 'reports', 'pdd-holdings', 'evidence.json');
-
-let reportMd = '';
-let evidence: Array<{id: string, url: string, quote: string}> = [];
-
-try {
-  reportMd = fs.readFileSync(reportPath, 'utf-8');
-} catch {
-  reportMd = '# Report Not Yet Generated\n\nRun the deep-research SKILL to generate the PDD Holdings report.';
-}
-
-try {
-  const raw = fs.readFileSync(evidencePath, 'utf-8');
-  evidence = JSON.parse(raw);
-} catch {
-  evidence = [];
-}
-
-// Convert markdown to HTML, then replace [E1] references with footnote links
-let reportHtml = await marked.parse(reportMd);
-reportHtml = reportHtml.replace(/\[E(\d+)\]/g, '<sup><a href="#evidence-$1" id="ref-$1" class="evidence-ref">[$1]</a></sup>');
+const reports = [
+  {
+    slug: 'pdd-holdings',
+    title: 'PDD Holdings: Two Companies, One Price',
+    subtitle: 'Pinduoduo is printing cash. Temu is burning it. The market prices them as one.',
+    authors: 'GX Xu & Claude Code',
+    date: 'March 18, 2026',
+    version: 'V1',
+    tag: 'E-Commerce · China · Deep Dive',
+    readTime: '15 min read',
+  },
+];
 ---
 
-<Base title="PDD Holdings — Deep Research Report">
-  <article set:html={reportHtml} />
+<Base title="Deep Research — E-Commerce Industry">
+  <header class="site-header">
+    <div class="masthead">
+      <h1 class="site-title">Deep Research</h1>
+      <p class="site-tagline">Institutional-quality e-commerce research. Open source. Evidence-backed.</p>
+    </div>
+    <nav class="site-nav">
+      <span class="nav-section active">Latest</span>
+      <span class="nav-section">Companies</span>
+      <span class="nav-section">About</span>
+    </nav>
+  </header>
 
-  {evidence.length > 0 && (
-    <section class="evidence-section">
-      <h2>Sources & Evidence Chain</h2>
-      <p class="evidence-intro">Every claim in this report is backed by a verifiable source. Click any footnote number to jump here; click the URL to verify.</p>
-      {evidence.map((e) => (
-        <div class="evidence-entry" id={`evidence-${e.id.replace('E', '')}`}>
-          <span class="evidence-id">[{e.id}]</span>{' '}
-          <a href={e.url} target="_blank" rel="noopener">{new URL(e.url).hostname}{new URL(e.url).pathname.substring(0, 50)}</a>
-          {e.quote && <div class="evidence-quote">"{e.quote}"</div>}
-          <a href={`#ref-${e.id.replace('E', '')}`} class="back-ref">↩</a>
+  <section class="featured">
+    {reports.map((r) => (
+      <a href={`${import.meta.env.BASE_URL}reports/${r.slug}/`} class="report-card featured-card">
+        <div class="card-tag">{r.tag}</div>
+        <h2 class="card-title">{r.title}</h2>
+        <p class="card-subtitle">{r.subtitle}</p>
+        <div class="card-meta">
+          <span class="card-authors">{r.authors}</span>
+          <span class="card-sep">·</span>
+          <span class="card-date">{r.date}</span>
+          <span class="card-sep">·</span>
+          <span class="card-version">{r.version}</span>
+          <span class="card-sep">·</span>
+          <span class="card-read-time">{r.readTime}</span>
         </div>
-      ))}
-    </section>
-  )}
+      </a>
+    ))}
+  </section>
+
+  <section class="coming-soon">
+    <h3>Coming Soon</h3>
+    <div class="upcoming-list">
+      <div class="upcoming-item">
+        <span class="upcoming-tag">E-Commerce · SE Asia</span>
+        <span class="upcoming-title">Shopee vs Lazada: The Southeast Asian Battlefield</span>
+      </div>
+      <div class="upcoming-item">
+        <span class="upcoming-tag">E-Commerce · Global</span>
+        <span class="upcoming-title">Shein: The $30B Question</span>
+      </div>
+      <div class="upcoming-item">
+        <span class="upcoming-tag">E-Commerce · US</span>
+        <span class="upcoming-title">Amazon Haul: Too Little, Too Late?</span>
+      </div>
+    </div>
+  </section>
 </Base>
+
+<style>
+  .site-header {
+    margin-bottom: 3rem;
+  }
+
+  .masthead {
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid #1a1a1a;
+    margin-bottom: 1rem;
+  }
+
+  .site-title {
+    font-size: 2.8rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.25rem;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+
+  .site-tagline {
+    color: #6b7280;
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  .site-nav {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+  }
+
+  .nav-section {
+    color: #6b7280;
+    cursor: pointer;
+  }
+
+  .nav-section.active {
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+
+  .featured {
+    margin: 2rem 0;
+  }
+
+  .report-card {
+    display: block;
+    padding: 2rem 0;
+    border-bottom: 1px solid #e5e5e5;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s;
+  }
+
+  .report-card:hover {
+    text-decoration: none;
+  }
+
+  .report-card:hover .card-title {
+    color: #2563eb;
+  }
+
+  .card-tag {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #2563eb;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    transition: color 0.15s;
+  }
+
+  .card-subtitle {
+    font-size: 1.1rem;
+    color: #4b5563;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+  }
+
+  .card-meta {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.85rem;
+    color: #9ca3af;
+  }
+
+  .card-sep {
+    margin: 0 0.3rem;
+  }
+
+  .card-version {
+    background: #f3f4f6;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 0.75rem;
+  }
+
+  .coming-soon {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e5e5;
+  }
+
+  .coming-soon h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9ca3af;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .upcoming-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .upcoming-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f3f4f6;
+  }
+
+  .upcoming-tag {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9ca3af;
+  }
+
+  .upcoming-title {
+    font-size: 1.1rem;
+    color: #6b7280;
+    font-style: italic;
+  }
+</style>
