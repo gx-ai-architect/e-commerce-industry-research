@@ -1,0 +1,82 @@
+---
+import Base from '../../../layouts/Base.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { marked } from 'marked';
+
+const reportPath = path.resolve('..', 'reports', 'pdd-holdings', 'report-v2.md');
+const evidencePath = path.resolve('..', 'reports', 'pdd-holdings', 'evidence-v2.json');
+
+let reportMd = '';
+let evidence: Array<{id: string, url: string, quote: string, date: string}> = [];
+
+try {
+  reportMd = fs.readFileSync(reportPath, 'utf-8');
+} catch {
+  reportMd = '# Report Not Yet Generated\n\nRun the deep-research SKILL to generate the PDD Holdings V2 report.';
+}
+
+try {
+  const raw = fs.readFileSync(evidencePath, 'utf-8');
+  evidence = JSON.parse(raw);
+} catch {
+  evidence = [];
+}
+
+let reportHtml = await marked.parse(reportMd);
+reportHtml = reportHtml.replace(/\[E(\d+)\]/g, '<sup><a href="#evidence-$1" id="ref-$1" class="evidence-ref">[$1]</a></sup>');
+---
+
+<Base title="PDD Holdings V2: From Summary to Prediction — E-commerce Analysis">
+  <nav class="report-nav">
+    <a href={`${import.meta.env.BASE_URL}`}>&larr; All Reports</a>
+    <span class="nav-sep">|</span>
+    <a href={`${import.meta.env.BASE_URL}reports/pdd-holdings/`}>V1 Report</a>
+  </nav>
+
+  <article set:html={reportHtml} />
+
+  {evidence.length > 0 && (
+    <section class="evidence-section">
+      <h2>Sources & Evidence Chain</h2>
+      <p class="evidence-intro">Every claim in this report is backed by a verifiable source. Click any footnote number to jump here; click the URL to verify.</p>
+      {evidence.map((e) => (
+        <div class="evidence-entry" id={`evidence-${e.id.replace('E', '')}`}>
+          <span class="evidence-id">[{e.id}]</span>{' '}
+          <a href={e.url} target="_blank" rel="noopener">{new URL(e.url).hostname}{new URL(e.url).pathname.substring(0, 50)}</a>
+          {e.date && <span class="evidence-date">({e.date})</span>}
+          {e.quote && <div class="evidence-quote">"{e.quote}"</div>}
+          <a href={`#ref-${e.id.replace('E', '')}`} class="back-ref">&hookleftarrow;</a>
+        </div>
+      ))}
+    </section>
+  )}
+</Base>
+
+<style>
+  .report-nav {
+    margin-bottom: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+  }
+
+  .report-nav a {
+    color: #6b7280;
+    text-decoration: none;
+  }
+
+  .report-nav a:hover {
+    color: #2563eb;
+  }
+
+  .nav-sep {
+    color: #d1d5db;
+    margin: 0 0.5rem;
+  }
+
+  .evidence-date {
+    color: #9ca3af;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+</style>
