@@ -14,7 +14,23 @@ A Claude SKILL that produces institutional-quality deep research reports on e-co
 Run the /deep-research skill targeting PDD Holdings
 ```
 
-The SKILL runs in 5 phases, saving checkpoints after each phase so you can resume if anything fails.
+The SKILL runs in 6 phases (including Phase 4.5: Mosaic Analysis), saving checkpoints after each phase so you can resume if anything fails.
+
+## V2 Rules (apply to all phases)
+
+### Date Awareness
+- All WebSearch queries MUST include "2025 OR 2026" to ensure fresh results
+- Prefer sources from the current year; flag any data older than 12 months
+
+### Freshness Enforcement
+- Every data point in checkpoint files must have an explicit date: `[DATE: 2026-03-15]` or `[DATE: unknown]`
+- Every evidence.json entry must have a `date` field: `{"id": "E1", "url": "...", "quote": "...", "date": "2026-03-15"}`
+- If publication date cannot be determined, use `"date": "unknown"`
+
+### Freshness Report Card (end of Phase 5)
+- Tally all sources by year
+- Flag if <30% of sources are from the current year
+- Include the report card at the end of the generated report
 
 ---
 
@@ -159,9 +175,38 @@ Save to `reports/pdd-holdings/sources/phase4-competitive.md`. Include comparison
 
 ---
 
+## Phase 4.5: Mosaic Analysis
+
+**Prerequisites:** All 4 phase checkpoint files (phase1-4) exist in `reports/pdd-holdings/sources/`.
+
+**Tool: Analysis (no external tools needed)**
+
+Read all 4 phase checkpoint files and produce `reports/pdd-holdings/sources/mosaic-analysis.md`:
+
+### 4.5.1 Identify Converging Signals
+- Cross-reference data points from different phases that independently point to the same conclusion
+- Look for patterns that no single data source reveals alone
+- Identify 2-3 "mosaics" — each connecting 3-7 data points from different phases into one original insight
+- Each mosaic must have: a thesis statement, the contributing data points (with phase references), why these signals converge, and what the mosaic reveals that individual data points don't
+
+### 4.5.2 Build Prediction Models
+- From the mosaics, derive 3-5 falsifiable predictions
+- Each prediction must have:
+  - A specific, testable claim (e.g., "Temu European GMV will exceed $25B by Q4 2026")
+  - Conviction level: High (>70%), Medium (40-70%), or Low (<40%)
+  - Time horizon: when this prediction can be verified
+  - Supporting evidence: which mosaic(s) and data points support it
+  - "What would change our mind": specific data that would falsify the prediction
+  - Leading indicators: what to watch in the next 3-6 months
+
+### Checkpoint
+Save to `reports/pdd-holdings/sources/mosaic-analysis.md` with clear sections for each mosaic and each prediction.
+
+---
+
 ## Phase 5: Analysis & Report Generation
 
-**Prerequisites:** All 4 phase checkpoint files exist in `reports/pdd-holdings/sources/`.
+**Prerequisites:** All 4 phase checkpoint files AND `mosaic-analysis.md` exist in `reports/pdd-holdings/sources/`.
 
 ### 5.1 Read Reference Docs
 Before writing, read these docs for quality standards and analytical framework:
@@ -183,12 +228,14 @@ Before writing the report, generate `reports/pdd-holdings/evidence.json`:
   {
     "id": "E1",
     "url": "https://...",
-    "quote": "exact quote or data point from the source"
+    "quote": "exact quote or data point from the source",
+    "date": "2026-03-15"
   },
   {
     "id": "E2",
     "url": "https://...",
-    "quote": "..."
+    "quote": "...",
+    "date": "unknown"
   }
 ]
 ```
@@ -238,11 +285,23 @@ Write `reports/pdd-holdings/report.md` following this structure:
 ## Competitive Positioning
 [Head-to-head: PDD vs Alibaba vs JD (domestic), Temu vs Shein vs Amazon (international). Use comparison tables with specific metrics.]
 
+## The Mosaic
+[2-3 mosaic insights from Phase 4.5. Each connects 3-7 data points from different phases into one original, non-obvious conclusion. Show the individual threads and how they weave together.]
+
+## Predictions
+[3-5 falsifiable predictions from Phase 4.5. Each must have: specific testable claim, conviction level (High/Medium/Low), time horizon, supporting evidence, "what would change our mind", and leading indicators to watch.]
+
 ## What the Market Is Missing
 [2-3 non-consensus views, supported by evidence from the report. This is the highest-value section — it should tell the reader something they didn't know.]
 
+## What's Different Since V1
+[Summarize key changes from V1: new data, revised conclusions, updated metrics. Be specific about what moved and why.]
+
 ## Key Risks
 [Bull case, base case, bear case with specific scenarios. Include the "what would have to be true for this to fail?" inversion.]
+
+## Freshness Report Card
+[Tally sources by year. Show percentage from current year. Flag any staleness concerns.]
 
 ## Sources
 [List all evidence entries with URLs. This is the trust mechanism.]
