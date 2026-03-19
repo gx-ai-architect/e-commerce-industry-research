@@ -22,3 +22,6 @@ Available gstack skills:
 - `/retro`
 - `/debug`
 - `/document-release`
+- `/gstack-upgrade`
+
+If gstack skills aren't working, run `cd .claude/skills/gstack && ./setup` to build the binary and register skills.
