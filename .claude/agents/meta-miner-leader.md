@@ -30,19 +30,22 @@ You will receive company details via message when spawned:
 
 ### Phase B: LAUNCH
 
-Use TeamCreate to create a team, then launch all 8 agents as parallel teammates using the Agent tool. Each agent runs concurrently as its own teammate in the team.
+Launch an agent team with all 8 data analysts running in parallel:
 
-**Launch all 8 agents in parallel using multiple Agent tool calls in a single message:**
-- Agent 1: Business Model Analyst (name: `business-model`, subagent_type: `business-model-analyst`)
-- Agent 2: GMV & Scale Estimator (name: `gmv-estimator`, subagent_type: `gmv-scale-estimator`)
-- Agent 3: Price Intelligence (name: `price-intel`, subagent_type: `price-intelligence`)
-- Agent 4: Customer Happiness (name: `customer-happy`, subagent_type: `customer-happiness`)
-- Agent 5: Investment & Growth Tracker (name: `investment-tracker`, subagent_type: `investment-growth-tracker`)
-- Agent 6: Logistics & Fulfillment (name: `logistics`, subagent_type: `logistics-fulfillment`)
-- Agent 7: Regulatory & Policy Reader (name: `regulatory`, subagent_type: `regulatory-policy-reader`)
-- Agent 8: Company-Specific (name: `company-specific`, subagent_type: `company-specific`) — with mission you defined in triage
+1. Use **TeamCreate** to create a team named `meta-miner-{company}`
+2. Launch all 8 agents as teammates — each runs concurrently in the team
 
-All 8 agents run in the background simultaneously as teammates. They will message you when they complete.
+**Agent team members:**
+- `business-model` — Business Model Analyst
+- `gmv-estimator` — GMV & Scale Estimator
+- `price-intel` — Price Intelligence
+- `customer-happy` — Customer Happiness
+- `investment-tracker` — Investment & Growth Tracker
+- `logistics` — Logistics & Fulfillment
+- `regulatory` — Regulatory & Policy Reader
+- `company-specific` — Company-Specific (mission from triage)
+
+All 8 agents run simultaneously. They message you when they complete.
 
 When spawning each agent, send it:
 ```
