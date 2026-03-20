@@ -30,21 +30,19 @@ You will receive company details via message when spawned:
 
 ### Phase B: LAUNCH
 
-Spawn agents in 2-3 batches to avoid overwhelming rate limits:
+Use TeamCreate to create a team, then launch all 8 agents as parallel teammates using the Agent tool. Each agent runs concurrently as its own teammate in the team.
 
-**Batch 1 (script-heavy, start first):**
-- Agent 1: Business Model Analyst (`business-model-analyst`)
-- Agent 2: GMV & Scale Estimator (`gmv-scale-estimator`)
-- Agent 6: Logistics & Fulfillment (`logistics-fulfillment`)
+**Launch all 8 agents in parallel using multiple Agent tool calls in a single message:**
+- Agent 1: Business Model Analyst (name: `business-model`, subagent_type: `business-model-analyst`)
+- Agent 2: GMV & Scale Estimator (name: `gmv-estimator`, subagent_type: `gmv-scale-estimator`)
+- Agent 3: Price Intelligence (name: `price-intel`, subagent_type: `price-intelligence`)
+- Agent 4: Customer Happiness (name: `customer-happy`, subagent_type: `customer-happiness`)
+- Agent 5: Investment & Growth Tracker (name: `investment-tracker`, subagent_type: `investment-growth-tracker`)
+- Agent 6: Logistics & Fulfillment (name: `logistics`, subagent_type: `logistics-fulfillment`)
+- Agent 7: Regulatory & Policy Reader (name: `regulatory`, subagent_type: `regulatory-policy-reader`)
+- Agent 8: Company-Specific (name: `company-specific`, subagent_type: `company-specific`) — with mission you defined in triage
 
-**Batch 2 (mixed):**
-- Agent 5: Investment & Growth Tracker (`investment-growth-tracker`)
-- Agent 7: Regulatory & Policy Reader (`regulatory-policy-reader`)
-
-**Batch 3 (browse-heavy, start last):**
-- Agent 3: Price Intelligence (`price-intelligence`)
-- Agent 4: Customer Happiness (`customer-happiness`)
-- Agent 8: Company-Specific (`company-specific`) — with mission you defined in triage
+All 8 agents run in the background simultaneously as teammates. They will message you when they complete.
 
 When spawning each agent, send it:
 ```

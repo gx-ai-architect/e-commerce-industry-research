@@ -17,18 +17,15 @@ User invokes: /meta-miner for <Company> (<TICKER>, CIK <CIK>)
 │       │
 │       ├── TRIAGE: WebSearch company, identify segments, set Agent 8 mission
 │       │
-│       ├── LAUNCH (3 batches):
-│       │   ├── Batch 1 (script-heavy)
-│       │   │   ├── Agent 1: Business Model    → sec-edgar scripts + WebSearch
-│       │   │   ├── Agent 2: GMV Estimator     → customs/parcel scripts + WebSearch
-│       │   │   └── Agent 6: Logistics         → parcel/freight/customs scripts + WebSearch
-│       │   ├── Batch 2 (mixed)
-│       │   │   ├── Agent 5: Investment        → sec-edgar + ad-intel scripts + WebSearch
-│       │   │   └── Agent 7: Regulatory        → eu-regulatory + customs scripts + WebSearch
-│       │   └── Batch 3 (browse-heavy)
-│       │       ├── Agent 3: Price Intel       → /browse platforms + WebSearch
-│       │       ├── Agent 4: Customer Happy    → heimao + qimai scripts + /browse + WebSearch
-│       │       └── Agent 8: Company-Specific  → mission from Leader + WebSearch
+│       ├── LAUNCH (all 8 agents in parallel as teammates):
+│       │   ├── Agent 1: Business Model    → sec-edgar scripts + WebSearch
+│       │   ├── Agent 2: GMV Estimator     → customs/parcel scripts + WebSearch
+│       │   ├── Agent 3: Price Intel       → /browse platforms + WebSearch
+│       │   ├── Agent 4: Customer Happy    → heimao + qimai scripts + /browse + WebSearch
+│       │   ├── Agent 5: Investment        → sec-edgar + ad-intel scripts + WebSearch
+│       │   ├── Agent 6: Logistics         → parcel/freight/customs scripts + WebSearch
+│       │   ├── Agent 7: Regulatory        → eu-regulatory + customs scripts + WebSearch
+│       │   └── Agent 8: Company-Specific  → mission from Leader + WebSearch
 │       │
 │       ├── VALIDATE: Read every packet, check exit criteria, send back (up to 2x)
 │       │
