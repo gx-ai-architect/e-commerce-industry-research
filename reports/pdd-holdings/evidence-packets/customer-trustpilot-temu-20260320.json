@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-TRUSTPILOT-TEMU-001",
+  "source": {
+    "type": "article",
+    "url": "https://www.trustpilot.com/review/temu.com",
+    "title": "Trustpilot Reviews for Temu + BBB + Sitejabber + PissedConsumer",
+    "retrieved_at": "2026-03-20T06:35:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "Temu Trustpilot rating: 2.0/5 with 48,750 reviews (scraper output)",
+      "evidence": "Rating: 2.0, Total Reviews: 48,750 total. Produced by scrape-trustpilot.py script.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Script output from skills/data-mining/sentiment/scripts/scrape-trustpilot.py --domain temu.com"
+      }
+    },
+    {
+      "claim": "Temu BBB rating improved from C+ (Jan 2024) to B- (Dec 2025)",
+      "evidence": "BBB rating rose from C+ in January 2024 to B- by December 2025. Temu is not BBB accredited.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: bbb.org/us/ma/boston/profile/online-shopping/temucom-0021-553943"
+      }
+    },
+    {
+      "claim": "Temu has 2/5 on Sitejabber (1,760 reviews) and 2.6/5 on PissedConsumer (62,683 reviews)",
+      "evidence": "Sitejabber: 2 stars, 1,760 reviews. PissedConsumer: 2.6/5, 62,683 reviews.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Sources: sitejabber.com, temu.pissedconsumer.com"
+      }
+    },
+    {
+      "claim": "10.9% of Temu Trustpilot reviews are likely AI-generated (up 1,361% from 2022)",
+      "evidence": "AI-generated review rate on Trustpilot for Temu increased from 0.75% in 2022 to 10.90% in 2025 — a 1,361% increase.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Originality.AI analysis of Trustpilot reviews"
+      }
+    },
+    {
+      "claim": "Top Temu complaint themes: product quality, deceptive pricing, bot customer service, refund delays",
+      "evidence": "Common complaints: poor product quality ('poorly made, not as described'), deceptive pricing (extra charges at checkout), terrible AI bot customer service ('you can't reason with a bot'), slow refunds ('can take weeks or months'), misleading product images.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Aggregated from Trustpilot, BBB, Sitejabber reviews"
+      }
+    },
+    {
+      "claim": "34% of Trustpilot users rated Temu 5 stars despite overall 2.0 average",
+      "evidence": "Around 34% of users have rated Temu five stars, creating a polarized distribution. Positive reviews note good bargains on small items.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Trustpilot rating distribution"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["customer-satisfaction", "complaints", "trustpilot", "bbb", "international"]
+  }
+}

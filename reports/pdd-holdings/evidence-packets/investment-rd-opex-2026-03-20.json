@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-INV-001",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "title": "PDD Holdings Q3 2025 Earnings + SEC EDGAR XBRL + Quarterly Earnings Releases",
+    "retrieved_at": "2026-03-20T06:35:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD Holdings R&D spending accelerated sharply in 2025, reaching 41% YoY growth in Q3 2025",
+      "evidence": "Quarterly R&D expenses (GAAP, RMB millions): Q1 2024: 2,909.6 | Q2 2024: 2,909.2 | Q3 2024: 3,063.4 | Q4 2024: 3,777.2 | Q1 2025: 3,577.8 (+23% YoY) | Q2 2025: 3,591.3 (+23% YoY) | Q3 2025: 4,332.2 (+41% YoY). FY2024 total: RMB 12,659M ($1.73B). TTM ending Q3 2025: ~RMB 15,278M (~$2.1B).",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Each quarter's R&D figure cross-referenced against PDD's official earnings press releases on investor.pddholdings.com. Prior-year comparisons extracted from YoY disclosure in each quarter's release."
+      }
+    },
+    {
+      "claim": "PDD's R&D acceleration is driven by increased staff costs and infrastructure (bandwidth/server) costs, indicating platform technology buildout",
+      "evidence": "Q3 2025 earnings release: 'Research and development expenses were RMB4,332.2 million (US$608.5 million), an increase of 41% from RMB3,063.4 million in the same quarter of 2024, primarily due to increased staff-related costs, and bandwidth and server costs.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Direct quote from PDD Q3 2025 earnings release"
+      }
+    },
+    {
+      "claim": "PDD's operating expenses surged 37% in Q1 2025 as company entered investment phase",
+      "evidence": "Q1 2025 earnings: total operating expenses rose 37% YoY. Management stated company will 'continue to invest in R&D in the long run to capture opportunities in supply chain innovation and consumer experience.'",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Q1 2025 earnings call and press release"
+      }
+    },
+    {
+      "claim": "PDD's Q3 2025 sales and marketing expenses held flat at RMB 30.3B despite revenue growth, signaling strategic reallocation from US marketing to R&D and merchant subsidies",
+      "evidence": "Q3 2025: Sales & marketing expenses RMB 30.32B ($4.26B), down from RMB 30.48B YoY. Revenue grew 9% to RMB 108.3B. S&M as % of revenue declined from ~31% to ~28%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Computed from Q3 2025 earnings press release figures"
+      }
+    },
+    {
+      "claim": "PDD annual revenue from EDGAR XBRL: FY2022 $18.9B, FY2023 $34.9B, FY2024 $54.0B — 55% CAGR over two years",
+      "evidence": "{\"FY2022\": {\"revenue\": 18929071000, \"net_income\": 4572589000, \"operating_income\": 4407864000}, \"FY2023\": {\"revenue\": 34879253000, \"net_income\": 8454562000, \"operating_income\": 8267548000}, \"FY2024\": {\"revenue\": 53955324000, \"net_income\": 15403464000, \"operating_income\": 14853871000}}",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Extracted directly from SEC EDGAR XBRL CompanyFacts API for CIK 0001737806"
+      }
+    },
+    {
+      "claim": "PDD employee headcount grew 35% in 2024 to 23,465, following 34% growth in 2023",
+      "evidence": "Employee count from 20-F filings: 2022: 12,992 | 2023: 17,403 (+34%) | 2024: 23,465 (+35%). Primarily R&D and operations staff growth.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From PDD 20-F annual reports filed with SEC. FY2024 20-F filed April 28, 2025."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["investment", "R&D", "opex", "headcount", "revenue", "EDGAR"]
+  }
+}

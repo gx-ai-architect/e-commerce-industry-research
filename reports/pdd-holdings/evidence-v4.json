@@ -1,0 +1,471 @@
+[
+  {
+    "id": "E1",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737806&type=20-F",
+    "quote": "XBRL tag InvestmentIncomeInterest: FY2022 RMB 3,997,100,000; FY2023 RMB 10,238,080,000; FY2024 RMB 20,553,493,000.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E2",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737806&type=20-F",
+    "quote": "XBRL InterestIncomeDepositsWithFinancialInstitutions: FY2022 RMB 2,442,413,000; FY2023 RMB 5,750,934,000; FY2024 RMB 7,314,780,000. InterestIncomeOperating: FY2022 RMB 606,447,000; FY2023 RMB 1,354,785,000; FY2024 RMB 2,827,453,000.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E3",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737806&type=20-F",
+    "quote": "Investment income equals 19% of FY2024 operating income and 18% of net income. FY2024: Investment income RMB 20.55B / Operating income RMB 108.42B = 19.0%.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E4",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737806&type=20-F",
+    "quote": "Q3 2025 interest and investment income was RMB 8.57B; Q2 2025: RMB 10,422.6M. Q1 2025: RMB 223.1M (anomalously low). 9-month total: approximately RMB 19,210.9M.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E5",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737806&type=20-F",
+    "quote": "Cash/equivalents + short-term investments: RMB 331.6B (Dec 2024) -> RMB 364.5B (Mar 2025) -> RMB 387.1B (Jun 2025) -> RMB 423.8B (Sep 2025). Growing at approximately RMB 30B/quarter. Management unanimously agreed no buybacks or dividends anticipated in foreseeable future.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E6",
+    "url": "https://www.macrotrends.net/stocks/charts/PDD/pdd-holdings/revenue",
+    "quote": "PDD's gross margin (~61%) is the highest among Chinese e-commerce peers. PDD Holdings ~60.9% (FY2024). Alibaba ~39-41%. JD.com ~16%.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E7",
+    "url": "https://www.macrotrends.net/stocks/charts/PDD/pdd-holdings/revenue",
+    "quote": "PDD's operating profit in Q1 2024 alone (RMB 25.9B) equaled the combined operating profits of Alibaba (RMB 14.7B) and JD.com (RMB 7.7B), despite PDD's revenue being far smaller.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E8",
+    "url": "https://www.macrotrends.net/stocks/charts/PDD/pdd-holdings/revenue",
+    "quote": "PDD has NO fintech business unlike Alibaba (33% of Ant Group) and JD.com (JD Technology). PDD's RMB 20.55B investment income provides fintech-equivalent profit contribution without the regulatory risk.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E9",
+    "url": "https://www.macrotrends.net/stocks/charts/PDD/pdd-holdings/revenue",
+    "quote": "Market share estimates for Chinese domestic e-commerce (2024): Alibaba ~44%, JD.com ~24%, Pinduoduo ~19%.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E10",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "FY2024: Revenue RMB 393.8B, Gross margin 60.9%, Operating income RMB 108.4B, Operating margin 27.5%. FY2023: Operating margin 23.7%. FY2022: Operating margin 23.3%.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E11",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "Operating margin declined in 2025: Q1 2025 16.8% (vs 29.9%), Q2 2025 24.8% (vs 32.7%), Q3 2025 23.1% (vs 24.5%). 9-month 2025: 21.7% vs 29.3%.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E12",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "FY2024 net margin 28.5% exceeds operating margin 27.5% due to RMB 20.55B investment income.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E13",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "FY2024: Total revenues RMB 393,836.1M (+59% YoY). Online marketing services: RMB 197,934.2M (+29%). Transaction services: RMB 195,901.9M (+108%). Mix shifted from 62%/38% to 50%/50%.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E14",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "Q4 2024: Total revenues RMB 110,610.1M (+24% YoY). OMS RMB 57,011.1M (+17%). TS RMB 53,599.0M (+33%). Net income RMB 27,446.6M (+18%).",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E15",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "Q1 2025: Revenue RMB 95,672.2M (+10%). OMS RMB 48,722.2M (+15%). TS RMB 46,950.0M (+6%). Operating profit RMB 16,085.6M (-38%). Net income RMB 14,741.8M (-47%).",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E16",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "Q2 2025: Revenue RMB 103,984.8M (+7%). TS RMB 48,281.6M (~flat). Operating profit RMB 25,792.9M (-21%). Net income RMB 30,753.5M (-4%).",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E17",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "Q3 2025: Revenue RMB 108,276.5M (+9%). OMS RMB 53,347.6M (+8%). TS RMB 54,928.9M (+10%). Operating profit RMB 25,025.9M (+3%). Net income RMB 29,328.2M (+17%).",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E18",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "Revenue growth decelerated: FY2023 +90%, FY2024 +59%, Q1 2025 +10%, Q2 2025 +7%, Q3 2025 +9%. Transaction services growth collapsed from +108% (FY2024) to +6%/flat/+10%.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E19",
+    "url": "https://nextgeninvestors.substack.com/p/initial-report-pdd-inc-nasdaqpdd",
+    "quote": "PDD's blended take rate is approximately 4-5%. Pinduoduo domestic take rate ~3-4%. Alibaba marketplace take rate ~5%.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E20",
+    "url": "https://nextgeninvestors.substack.com/p/initial-report-pdd-inc-nasdaqpdd",
+    "quote": "Pinduoduo main app could achieve RMB 4.7T GMV in 2025 with an improving take rate approaching 5%, matching Alibaba's level.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E21",
+    "url": "https://nextgeninvestors.substack.com/p/initial-report-pdd-inc-nasdaqpdd",
+    "quote": "Alibaba Taotian take rate ~5%, increasing via 0.6% software service fee + Quanzhantui penetration (now 30%, target 45-50% in FY2026).",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E22",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "PDD operates dual-engine: Pinduoduo (domestic, pure marketplace, revenue NET, estimated GMV ~RMB 4-5T, likely 40%+ segment operating margin) + Temu (international, managed marketplace transitioning to semi-managed, revenue GROSS).",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E23",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "Online marketing services represented 50.3% of FY2024 revenue (RMB 197.9B). This is CPC/CPM advertising revenue with near-100% incremental margin.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1737806/000141057825000951/pdd-20241231x20f.htm",
+    "quote": "VIE accounted for 56.2%, 45.7%, and 22.5% of total revenues for 2022, 2023, and 2024. A RMB 100 Temu order contributes ~RMB 100 to revenue (gross), while a RMB 100 Pinduoduo order contributes ~RMB 4-5 (net).",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E28",
+    "url": "https://www.sec.gov/Archives/edgar/data/1737806/000141057825000951/pdd-20241231x20f.htm",
+    "quote": "PDD Holdings Inc. does not have any equity ownership in the VIE or its subsidiaries. It maintains contractual arrangements (WFOE agreements).",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1737806/000141057825000951/pdd-20241231x20f.htm",
+    "quote": "Temu semi-managed model generated US$5.5B in GMV in Q3 2025, approximately 29% of total Temu GMV. The shift reduces PDD's direct logistics cost exposure and tariff risk.",
+    "date": "2026-03",
+    "provenance": "auto:business-model-analyst"
+  },
+  {
+    "id": "E30",
+    "url": "https://itunes.apple.com/lookup?bundleId=com.einnovation.temu",
+    "quote": "Temu US iOS: 4.67/5 (2,064,730 ratings). UK: 4.71/5 (367,810 ratings). DE: 4.67/5 (193,975 ratings). JP: 4.25/5 (176,739 ratings).",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E33",
+    "url": "https://www.temu.com/shipping-info.html",
+    "quote": "Temu.com US requires login/registration to browse products. Footer: '2022-2026 Whaleco Inc.' Local Warehouse items ship from within US, no import taxes.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E42",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "quote": "Temu 2024 GMV: ~$70.8B. 2025 GMV estimated ~$92.5B. US MAU collapsed 54%: ~34M (May 2024) to <8M (May 2025). 87% of Americans trust Amazon vs only 5% trust Temu.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E43",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "quote": "European GMV on track to surpass $15B in 2025, could top $20B by end of 2026. US accounts for 29% of Temu revenue in 2025. EU MAU grew 74% YoY to 141.6M, surpassing US (133.6M).",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E44",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "quote": "PDD reallocated 20-30% of ad budget to Europe. Temu halted Google Shopping ads in US on April 9, 2025. US ad spend down 31% in two weeks.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E45",
+    "url": "https://investor.pddholdings.com/financial-information/quarterly-results/",
+    "quote": "Lei Chen, Q2 2025: 'We continued to invest in merchant support initiatives, and are encouraged by the progress made towards a healthier and more sustainable platform ecosystem.'",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E48",
+    "url": "https://investor.pddholdings.com/financial-information/quarterly-results/",
+    "quote": "Lei Chen, Q3 2025: 'Today, with a rapid evolution of trade barriers, we are seeing a significant shift in the regulatory environment for the global business. We will inevitably face greater challenges and uncertainties.'",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E52",
+    "url": "https://www.livenowfox.com/news/temu-import-charges-trump-tariffs-what-know",
+    "quote": "De minimis exemption ($800 threshold) ended May 2, 2025 for China/Hong Kong. Expanded to all countries August 29, 2025.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E53",
+    "url": "https://www.livenowfox.com/news/temu-import-charges-trump-tariffs-what-know",
+    "quote": "Temu stated: 'Temu's pricing for U.S. consumers remains unchanged as the platform transitions to a local fulfillment model. All sales in the U.S. are now handled by locally based sellers.'",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E54",
+    "url": "https://www.livenowfox.com/news/temu-import-charges-trump-tariffs-what-know",
+    "quote": "90% of Temu's pre-tariff business relied on the fully managed model using de minimis; only 10% was semi-managed.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E58",
+    "url": "https://seller.temu.com",
+    "quote": "Temu now operates three parallel models: fully-managed, semi-managed (merchant handles logistics), and third-party platform (launched March 2025, merchant has full autonomy).",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E61",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-1-how-is-the-semi-managed",
+    "quote": "Semi-managed model generated approximately $5.5B in GMV, about 29% of Temu's total.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E62",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-1-how-is-the-semi-managed",
+    "quote": "Fully managed model has ~20% loss rate. Temu subsidizes $2.99 per order for goods below $30.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E63",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-1-how-is-the-semi-managed",
+    "quote": "Strategic shift to semi-managed with local warehouses boosted US profit margins from 2% to 4%.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E65",
+    "url": "https://tranco-list.eu/api/ranks/domain/temu.com",
+    "quote": "temu.com ranked #377 globally on Tranco list as of March 19, 2026. Improving from 383 (Mar 15).",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E67",
+    "url": "https://tranco-list.eu/api/ranks/domain/temu.com",
+    "quote": "Temu global MAU peaked at 530 million in August 2025. Cumulative downloads exceeded 1.2 billion by October 2025.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E68",
+    "url": "https://tranco-list.eu/api/ranks/domain/temu.com",
+    "quote": "US MAU declined 28% YoY to 133.6 million (Oct 2025). US daily active users plunged 58% after de minimis ended.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E69",
+    "url": "https://tranco-list.eu/api/ranks/domain/temu.com",
+    "quote": "EU MAU grew 74% YoY to 141.6 million. EU accounts for 34% of global user base in 2025. EU now surpasses US.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E70",
+    "url": "https://tranco-list.eu/api/ranks/domain/temu.com",
+    "quote": "Low customer retention: only 24% of first-time buyers likely to return.",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E71",
+    "url": "https://amzprep.com/where-is-temu-warehouse-located/",
+    "quote": "By October 2025, Temu operated 13 self-owned warehouses globally: 10 in Europe, 2 in the US, 1 near US-Mexico border (120,000 sqm 'Jitu Warehouse').",
+    "date": "2026-03",
+    "provenance": "auto:company-specific"
+  },
+  {
+    "id": "E77",
+    "url": "https://itunes.apple.com/lookup?id=1044283059",
+    "quote": "Pinduoduo iOS App Store rating in CN: 2.9/5 (3,380,424 ratings).",
+    "date": "2026-03",
+    "provenance": "auto:qimai-appdata"
+  },
+  {
+    "id": "E89",
+    "url": "https://itunes.apple.com/lookup",
+    "quote": "Pinduoduo CN: 2.93/5 (3,380,562 ratings). Taobao CN: 4.14/5 (1,679,186 ratings). Gap: -1.21 points.",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E90",
+    "url": "https://itunes.apple.com/lookup",
+    "quote": "Temu US: 4.67/5 (2,064,730 ratings). Amazon US: 4.83/5 (8,344,524 ratings). Temu trails Amazon by only 0.16 points.",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E92",
+    "url": "https://itunes.apple.com/lookup",
+    "quote": "Temu App Store 4.67 vs Trustpilot 2.0 -- 2.67-point gap, largest among shopping apps. 10.9% of Trustpilot reviews likely AI-generated (up 1,361% from 2022).",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E94",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall",
+    "quote": "10 CPSC recalls involve products sold exclusively on Temu.com. All children's safety products.",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E98",
+    "url": "https://tousu.sina.com.cn/company/view?couid=1003609",
+    "quote": "Pinduoduo cumulative complaints on Heimao exceed 1 million. Only 119,620 completed (11.9% resolution rate).",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E99",
+    "url": "https://tousu.sina.com.cn/company/view?couid=1003609",
+    "quote": "Pinduoduo receives approximately 767 complaints per day on Heimao. 30-day completion rate: 3.68%.",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E100",
+    "url": "https://tousu.sina.com.cn/company/view?couid=1003609",
+    "quote": "Pinduoduo replied to only 20% of complaints. JD.com, Douyin, Dewu, Kuaishou: 100%. Taobao: 5%.",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E109",
+    "url": "multiple",
+    "quote": "Amazon: 64% of consumers plan increased spending. Temu: 28% shop monthly. Shein: 23% shop monthly. Amazon Haul: 16% shop monthly.",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E110",
+    "url": "https://www.guancha.cn/economy/2025_04_23_773343.shtml",
+    "quote": "On April 22, 2025, all five major platforms simultaneously cancelled 'refund-only' defaults. SAMR mandated the reform.",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E111",
+    "url": "https://www.guancha.cn/economy/2025_04_23_773343.shtml",
+    "quote": "After reform: Pinduoduo malicious refund-only orders decreased 62%, merchant dispute resolution success rate rose from 18% to 75%.",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E115",
+    "url": "https://www.guancha.cn/economy/2025_04_23_773343.shtml",
+    "quote": "Pinduoduo launched '千亿扶持' program: 100 billion yuan over 3 years in merchant support. Upgraded from previous '百亿减免' (10B fee reduction).",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E117",
+    "url": "https://www.trustpilot.com/review/temu.com",
+    "quote": "Long-time customers report 'a decline in quality, deceptive images.' 'Prices creeping up to levels where other sites are cheaper with far better quality.'",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E120",
+    "url": "https://www.trustpilot.com/review/temu.com",
+    "quote": "Temu Trustpilot: Rating 2.0/5, 48,750 total reviews.",
+    "date": "2026-03",
+    "provenance": "auto:customer-happiness"
+  },
+  {
+    "id": "E126",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "GMV Method 1 (Revenue/Take Rate): Domestic GMV = RMB 3.9-5.4T. Temu GMV ~$50-70B. Total RMB 4.3-5.9T.",
+    "date": "2026-03",
+    "provenance": "auto:gmv-scale-estimator"
+  },
+  {
+    "id": "E127",
+    "url": "https://zto.investorroom.com/2026-03-17-ZTO-Reports-Fourth-Quarter-2025-and-Full-Year-2025-Unaudited-Financial-Results",
+    "quote": "GMV Method 2 (Logistics): ZTO delivered 38.52B parcels in FY2025 (19.4% market share). PDD estimated 25-30% of industry = 50-60B parcels/year. Implied domestic GMV RMB 3.6-5.4T.",
+    "date": "2026-03",
+    "provenance": "auto:gmv-scale-estimator"
+  },
+  {
+    "id": "E128",
+    "url": "https://www.ecommercebridge.com/amazon-pinduoduo-and-tiktok-lead-2025-gmv-ranking/",
+    "quote": "ECDB: Amazon ($845B), Pinduoduo ($817B), and Douyin ($648B) topped global e-commerce by GMV in 2025.",
+    "date": "2026-03",
+    "provenance": "auto:gmv-scale-estimator"
+  },
+  {
+    "id": "E294",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/805/all-info",
+    "quote": "Shoppers confronted with 'import charges' of 130-150%. Temu transitioned to local fulfillment model. Transaction services revenue grew merely 1% YoY in Q2 2025 (vs 234% in Q2 2024). Gross margin shrank to 55.9% from 65.3%.",
+    "date": "2026-03",
+    "provenance": "auto:regulatory-policy-reader"
+  },
+  {
+    "id": "E295",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/805/all-info",
+    "quote": "Transaction services revenue for Q2 2025 grew by merely 1% YoY (vs. 234% YoY in Q2 2024). PDD's gross profit margin shrank to 55.9% in Q2 2025, down from 65.3% in Q2 2024.",
+    "date": "2026-03",
+    "provenance": "auto:regulatory-policy-reader"
+  },
+  {
+    "id": "E296",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/805/all-info",
+    "quote": "US apparel tariff rates are 14.6-16.6% MFN. Section 321 exemption eliminated these duties for shipments under $800.",
+    "date": "2026-03",
+    "provenance": "auto:regulatory-policy-reader"
+  },
+  {
+    "id": "E297",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/805/all-info",
+    "quote": "CBP processed approximately 4.5 million Section 321 entries per day in 2024, representing 95.1% of all US import entries.",
+    "date": "2026-03",
+    "provenance": "auto:regulatory-policy-reader"
+  }
+]

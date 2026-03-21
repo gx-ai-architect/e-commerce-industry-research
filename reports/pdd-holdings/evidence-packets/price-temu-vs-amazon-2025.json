@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-PRICE-004",
+  "source": {
+    "type": "article",
+    "url": "https://www.omnisend.com/temu-vs-amazon-price-trust-report/",
+    "title": "Omnisend Temu vs Amazon price comparison study (Dec 2024 - Jan 2025)",
+    "retrieved_at": "2026-03-19T12:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Pre-tariff (early 2025): Temu was 40% cheaper than Amazon on close-match products but only 1% cheaper on identical branded products",
+      "evidence": "Omnisend study (Dec 2024 - Jan 2025) examined top 25 best-selling products across 23 categories on both platforms. Key findings: 77% of Amazon-listed products have a close match on Temu. Every 10th product (10%) is identical across both platforms. Close-match products average 40% cheaper on Temu (saving ~$13.37 per product). However, identical branded products show almost no price difference (~1% cheaper on Temu). This distinction is critical: Temu's price advantage comes primarily from unbranded/generic alternatives, not from undercutting branded products.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Omnisend comprehensive study with 1,023 US consumer survey (conducted by Cint, Feb 2025). Data collected Dec 1, 2024 - Jan 31, 2025. Pre-tariff baseline."
+      }
+    },
+    {
+      "claim": "Category breakdown: Temu's biggest price advantage is in fashion (55% cheaper, 94% match rate); Amazon wins only in automotive (12% cheaper)",
+      "evidence": "By category: Clothing, shoes and jewelry are 55% less expensive on Temu vs close-match Amazon items, with 94% match rate. Fashion & beauty has the highest product overlap at 94%. Food & beverage has the lowest match rate. Automotive is the ONLY category where Amazon beats Temu on price, averaging 12% cheaper. Camera & photo has 96% match rate on Temu but 0% of Temu matches are the same brand — indicating heavy brand imitation/generic alternatives.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Omnisend study. The camera/photo finding is particularly noteworthy for brand imitation concerns."
+      }
+    },
+    {
+      "claim": "Post-tariff (mid-2025): Temu's pricing approached Amazon/Walmart/Target levels, but local warehouse items remained cheaper for generic goods",
+      "evidence": "After April 2025 tariffs, Temu's pricing for China-shipped items approached traditional US retailers (Amazon, Walmart, Target). Coresight Research noted that even with prices more than doubled, many goods could remain cheaper than American e-commerce sites since Temu was previously 1/3 the price. However, the practical price advantage narrowed dramatically. For local-warehouse items: prices higher than pre-tariff China shipments but still generally below Amazon for generic products. Example: bubble toy at $7.61 (Temu local) vs ~$8/unit on Amazon (2-pack for $16).",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Coresight Research analysis cited by CNBC. Local warehouse example from Yahoo Finance. Post-tariff pricing dynamics from multiple outlets."
+      }
+    },
+    {
+      "claim": "Trust gap: 87% of Americans trust Amazon vs only 5% for Temu; Amazon averages 50,000 reviews per listing vs Temu's 1,500",
+      "evidence": "Omnisend survey of 1,023 US consumers (Feb 2025): 87% trust Amazon, only 5% trust Temu. Amazon products average 50,000 reviews per listing vs 1,500 per listing on Temu. 53% of respondents shopped on Temu in the past year. Omnisend uncovered brand imitation concerns on Temu: 'many products closely resembling well-known brands but with tweaked packaging, blurred logos or branding removed entirely.' This trust deficit matters for total cost: higher return rates and quality issues on Temu erode the sticker-price advantage.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Omnisend/Cint survey Feb 2025 and Omnisend report analysis"
+      }
+    },
+    {
+      "claim": "Amazon launched Haul (sub-$20 products) as direct competitive response to Temu, proving Temu changed the competitive landscape",
+      "evidence": "Amazon launched 'Amazon Haul' featuring products priced mostly under $20 (sometimes as low as $1) as a direct response to Temu and Shein. Greg Zakowicz, senior ecommerce expert at Omnisend: 'Amazon rarely reacts this quickly to competition, but the launch of Amazon Haul proves that Temu and Shein are changing the game.' Amazon Haul decided not to display tariff costs separately. Amazon also signed up sellers in China to ship directly to buyers, mirroring Temu's cross-border model.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Omnisend report, Axios reporting on Amazon Haul tariff display decision, and multiple trade press coverage"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-04",
+    "company_tags": ["PDD", "pdd-holdings", "Temu", "Amazon"],
+    "topic_tags": ["pricing", "price-comparison", "international", "Temu-vs-Amazon", "trust", "competitive"]
+  }
+}

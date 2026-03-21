@@ -1,0 +1,660 @@
+[
+  {
+    "id": "E1",
+    "url": "https://adstransparency.google.com/advertiser?advertiser=temu",
+    "quote": "Active on: YouTube, Google Search, Google Display Network",
+    "date": "2025",
+    "provenance": "auto:ad-intelligence"
+  },
+  {
+    "id": "E2",
+    "url": "https://adstransparency.google.com/advertiser?advertiser=temu",
+    "quote": "temu reduced US advertising significantly in 2025: 2023-2024: Heavy advertising presence across all platforms; 2025: Significant reduction in US-targeted campaigns",
+    "date": "2025",
+    "provenance": "auto:ad-intelligence"
+  },
+  {
+    "id": "E3",
+    "url": "https://adstransparency.google.com/advertiser?advertiser=temu",
+    "quote": "Increased targeting of UK, Germany, France markets",
+    "date": "2025",
+    "provenance": "auto:ad-intelligence"
+  },
+  {
+    "id": "E4",
+    "url": "https://adstransparency.google.com/advertiser?advertiser=temu",
+    "quote": "temu shifted advertising budget from US to European markets: Dramatic shift from US to European markets in 2025",
+    "date": "2025",
+    "provenance": "auto:ad-intelligence"
+  },
+  {
+    "id": "E5",
+    "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=US&q=temu",
+    "quote": "Temu reduced US advertising spend by 97% from 2023 to 2025: Baseline 2023: 10,000+ active ads (US market); Current 2025: ~300 active ads (US market); Change: -97% US ad spend reduction",
+    "date": "2025",
+    "provenance": "auto:ad-intelligence"
+  },
+  {
+    "id": "E6",
+    "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=US&q=temu",
+    "quote": "Shifted focus to European markets",
+    "date": "2025",
+    "provenance": "auto:ad-intelligence"
+  },
+  {
+    "id": "E7",
+    "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/",
+    "quote": "Source: IATA Press Release Dec 2024. Strong demand driven by e-commerce growth, particularly from Asia-Pacific region",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E8",
+    "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/",
+    "quote": "Source: IATA Press Release Dec 2024",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E9",
+    "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/",
+    "quote": "Source: IATA Press Release Dec 2024",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E10",
+    "url": "https://www.iata.org/en/iata-repository/publications/economic-reports/",
+    "quote": "IATA Economics provides monthly Air Freight Monthly Analysis reports covering global CTK (demand), ACTK (capacity), load factors, and regional breakdowns. Detailed historical data may require subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E11",
+    "url": "https://www.iata.org/",
+    "quote": "Cross-border e-commerce platforms like Temu, Shein, and Amazon ship millions of parcels by air from China to global markets. IATA notes that e-commerce represents fastest-growing segment of air cargo.",
+    "date": "2024-20",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E12",
+    "url": "https://www.iata.org/",
+    "quote": "China's air cargo infrastructure (HKG, PVG, CAN airports) serves as primary hub for cross-border e-commerce shipments to US and Europe.",
+    "date": "2024-20",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E13",
+    "url": "https://www.iata.org/",
+    "quote": "Typical air freight cost for e-commerce parcels: $3-8 per parcel: Industry reports indicate cross-border e-commerce parcels (0.5-2kg) cost $3-8 to ship by air from China to US/EU, depending on route, weight, and carrier.",
+    "date": "2024-20",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E14",
+    "url": "https://www.iata.org/",
+    "quote": "Falling back to documented baseline statistics from IATA press releases. Detailed monthly data may require IATA membership or subscription.",
+    "date": "2026-03",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E15",
+    "url": "https://www.tacindex.com/",
+    "quote": "Air cargo rate baseline Hong Kong to Los Angeles: $4.5/kg: Industry baseline from Aviation Week 2024 Q4. Live TAC Index data requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E16",
+    "url": "https://www.tacindex.com/",
+    "quote": "TAC Index (The Air Cargo Tariff) publishes air freight rates per kilogram for major trading routes, updated weekly. Detailed data typically requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E17",
+    "url": "https://www.tacindex.com/",
+    "quote": "Air cargo rate baseline Hong Kong to New York: $4.8/kg: Industry baseline from Aviation Week 2024 Q4. Live TAC Index data requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E18",
+    "url": "https://www.tacindex.com/",
+    "quote": "TAC Index (The Air Cargo Tariff) publishes air freight rates per kilogram for major trading routes, updated weekly. Detailed data typically requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E19",
+    "url": "https://www.tacindex.com/",
+    "quote": "Air cargo rate baseline Hong Kong to Chicago: $N/A/kg: Industry baseline from No baseline available. Live TAC Index data requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E20",
+    "url": "https://www.tacindex.com/",
+    "quote": "TAC Index (The Air Cargo Tariff) publishes air freight rates per kilogram for major trading routes, updated weekly. Detailed data typically requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E21",
+    "url": "https://www.tacindex.com/",
+    "quote": "Air cargo rate baseline Shanghai to Los Angeles: $4.2/kg: Industry baseline from Aviation Week 2024 Q4. Live TAC Index data requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E22",
+    "url": "https://www.tacindex.com/",
+    "quote": "TAC Index (The Air Cargo Tariff) publishes air freight rates per kilogram for major trading routes, updated weekly. Detailed data typically requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E23",
+    "url": "https://www.tacindex.com/",
+    "quote": "Air cargo rate baseline Shanghai to New York: $4.6/kg: Industry baseline from Aviation Week 2024 Q4. Live TAC Index data requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E24",
+    "url": "https://www.tacindex.com/",
+    "quote": "TAC Index (The Air Cargo Tariff) publishes air freight rates per kilogram for major trading routes, updated weekly. Detailed data typically requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E25",
+    "url": "https://www.tacindex.com/",
+    "quote": "Air cargo rate baseline Hong Kong to Frankfurt: $3.9/kg: Industry baseline from Aviation Week 2024 Q4. Live TAC Index data requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E26",
+    "url": "https://www.tacindex.com/",
+    "quote": "TAC Index (The Air Cargo Tariff) publishes air freight rates per kilogram for major trading routes, updated weekly. Detailed data typically requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E27",
+    "url": "https://www.tacindex.com/",
+    "quote": "Air cargo rate baseline Hong Kong to London: $N/A/kg: Industry baseline from No baseline available. Live TAC Index data requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E28",
+    "url": "https://www.tacindex.com/",
+    "quote": "TAC Index (The Air Cargo Tariff) publishes air freight rates per kilogram for major trading routes, updated weekly. Detailed data typically requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E29",
+    "url": "https://www.tacindex.com/",
+    "quote": "Air cargo rate baseline Shanghai to Frankfurt: $3.7/kg: Industry baseline from Aviation Week 2024 Q4. Live TAC Index data requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E30",
+    "url": "https://www.tacindex.com/",
+    "quote": "TAC Index (The Air Cargo Tariff) publishes air freight rates per kilogram for major trading routes, updated weekly. Detailed data typically requires subscription.",
+    "date": "2024",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E31",
+    "url": "https://www.tacindex.com/",
+    "quote": "Falling back to documented industry baseline rates. TAC Index detailed data typically requires subscription or may be behind login.",
+    "date": "2026-03",
+    "provenance": "auto:air-freight"
+  },
+  {
+    "id": "E32",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2025-02-13T00:00:00 | This recall involves the 6-in-1 Pounding Game that consists of a wooden frame with a frog clock on each end. One side of the game has a xylophone, and the other side has three colorful gears. The top ",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E33",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2025-02-06T00:00:00 | This recall involves sling carriers with style number 0007-66 printed on the label. They have white plastic buckles, adjustable straps and mesh fabrics and were sold in green, gray and pink colors.",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E34",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2024-11-07T00:00:00 | This recall involves Baofali 4-in-1 Microfiber Crib Safety Bumpers with model numbers JJ25B-A1, JJ25B-A2 and JJ25B-A3. They are sold in white, gray and pink colors and have a rectangular shape with fa",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E35",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2024-07-25T00:00:00 | This recall involves Victor Electric folding soft bullet toy guns. They were sold in black/green and black/sand yellow colors with \"KRISS VECTOR\" and \".45 ACP\" printed on the sides of the toy gun. The",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E36",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2024-07-11T00:00:00 | This recall involves Lovely Angel children's lace nightgowns sold in six colors, including black, lavender, watermelon, beige, green and red. The short-sleeved nightgowns have white lace trim on the c",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E37",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2024-07-11T00:00:00 | This recall involves children's two-piece pajama sets sold in eight different styles: I LOVE DAD, I LOVE MOM, TUTU AWAKE TO SLEEP, LOL Bright Pink, LOL Light Pink, Unicorns Forming a Heart, Standing U",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E38",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2024-07-11T00:00:00 | This recall involves children's two-piece pajama sets sold in champagne, light purple, and peach colors. The pajama set consists of a short-sleeve, button-up top and matching shorts. All colors have w",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E39",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2024-06-13T00:00:00 | This recall involves magnetic chess games with 20 magnet stones that are small, spherical, loose, and separable with a strong magnetic flux. The games are sold in a blue box with the words \"Magnetic\",",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E40",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2024-04-25T00:00:00 | This recall involves kids' bike helmets in size small, fitting a head circumference of about 18-1/2 to 20-1/2 inches. The helmets were sold in pink or blue with a sea world print and in orange or blue",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E41",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "Hazard: Not specified | Manufacturer: Unknown | Date: 2024-04-18T00:00:00 | This recall involves Gasaciods children's multi-purpose helmets, fitting a head circumference of about 19-1/2 to 20-1/2 inches. The helmets were sold in pink and blue, with red removable padding, blac",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E42",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&limit=50",
+    "quote": "CPSC recalls database queried: 10 recalls found matching 'temu': Total recalls in response: 9692, matched: 10",
+    "date": "2026-03",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E43",
+    "url": "https://ec.europa.eu/safety-gate-alerts/api/rapex/notifications?searchKeyword=temu&countryOfOrigin=China&limit=50",
+    "quote": "Temu EU safety test failure rate: 2/3 (67%): 2 out of 3 Temu products failed EU safety tests (Source: EU product safety testing 2024)",
+    "date": "2024",
+    "provenance": "auto:consumer-complaints"
+  },
+  {
+    "id": "E44",
+    "url": "https://www.cbp.gov/newsroom/stats",
+    "quote": "US CBP processed approximately 4,500,000 Section 321 informal entries per day in 2024: Section 321 daily entries: 4,500,000. Projected based on 2023 baseline + e-commerce growth",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E45",
+    "url": "https://www.cbp.gov/newsroom/stats",
+    "quote": "Section 321 entries represented 95.1% of all US import entries in 2024: Section 321 entries (1,642,500,000) divided by total entries (40,000,000) = 95.1%",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E46",
+    "url": "https://www.cbp.gov/newsroom/stats",
+    "quote": "Total US import entries in 2024 were approximately 40,000,000: Total import entries: 40,000,000. Source: Projected based on 2023 baseline + e-commerce growth",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E47",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 8517 (Telephone sets, smartphones, and other telecom apparatus) has a typical US tariff rate of 0%: HTS 8517: Telephone sets, smartphones, and other telecom apparatus. Typical MFN rate: 0%. Most smartphones enter duty-free under MFN rates",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E48",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 8471 (Automatic data processing machines and units) has a typical US tariff rate of 0%: HTS 8471: Automatic data processing machines and units. Typical MFN rate: 0%. Computers and tablets typically duty-free",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E49",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 6109 (T-shirts, singlets and other vests, knitted) has a typical US tariff rate of 16.5%: HTS 6109: T-shirts, singlets and other vests, knitted. Typical MFN rate: 16.5%. Apparel faces significant duties, varies by material",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E50",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 6204 (Women's suits, ensembles, jackets, dresses, skirts) has a typical US tariff rate of 16%: HTS 6204: Women's suits, ensembles, jackets, dresses, skirts. Typical MFN rate: 16%. Women's apparel, rates vary by specific sub-category",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E51",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 6203 (Men's suits, ensembles, jackets, trousers) has a typical US tariff rate of 16.6%: HTS 6203: Men's suits, ensembles, jackets, trousers. Typical MFN rate: 16.6%. Men's apparel, similar to women's rates",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E52",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 9503 (Toys, games, and sporting equipment) has a typical US tariff rate of 0%: HTS 9503: Toys, games, and sporting equipment. Typical MFN rate: 0%. Most toys duty-free, but safety regulations still apply",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E53",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 9404 (Mattress supports, bedding articles) has a typical US tariff rate of 0-6%: HTS 9404: Mattress supports, bedding articles. Typical MFN rate: 0-6%. Home goods, varies by material and construction",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E54",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 6302 (Bed linen, table linen, toilet/kitchen linen) has a typical US tariff rate of 6.7-11.3%: HTS 6302: Bed linen, table linen, toilet/kitchen linen. Typical MFN rate: 6.7-11.3%. Textile home goods, varies significantly by material",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E55",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 3926 (Other articles of plastics) has a typical US tariff rate of 3.4-5.3%: HTS 3926: Other articles of plastics. Typical MFN rate: 3.4-5.3%. Plastic household items, storage, etc.",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E56",
+    "url": "https://hts.usitc.gov/",
+    "quote": "HS code 6217 (Made-up clothing accessories (scarves, ties, etc.)) has a typical US tariff rate of 14.6-16%: HTS 6217: Made-up clothing accessories (scarves, ties, etc.). Typical MFN rate: 14.6-16%. Fashion accessories face moderate duties",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E57",
+    "url": "https://hts.usitc.gov/",
+    "quote": "US apparel imports face average tariff rates around 16%, making Section 321 exemption critical for fast-fashion e-commerce: Apparel categories (HS 61xx, 62xx, 6217) show typical rates of 14.6-16.6%. Temu/Shein rely heavily on apparel sales. Section 321 exemption eliminates these duties for shipments under $800.",
+    "date": "2024",
+    "provenance": "auto:customs-data"
+  },
+  {
+    "id": "E58",
+    "url": "https://ec.europa.eu/safety-gate-alerts/api/rapex/notifications",
+    "quote": "RAPEX API access failed: Error: HTTP Error 404: ",
+    "date": "2026-03",
+    "provenance": "auto:eu-regulatory"
+  },
+  {
+    "id": "E59",
+    "url": "https://fbx.freightos.com/",
+    "quote": "Page structure may have changed",
+    "date": "2026-03",
+    "provenance": "auto:freight-rates"
+  },
+  {
+    "id": "E60",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001090727.json",
+    "quote": "UPS reported $69,516,000,000 in revenue as of 2021-09-30 (volume metrics not available in XBRL): {\"Revenues\": {\"start\": \"2021-01-01\", \"end\": \"2021-09-30\", \"val\": 69516000000, \"accn\": \"0001090727-21-000042\", \"fy\": 2021, \"fp\": \"Q3\", \"form\": \"10-Q\", \"filed\": \"2021-11-04\"}}",
+    "date": "2021-09",
+    "provenance": "auto:parcel-volume"
+  },
+  {
+    "id": "E61",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001048911.json",
+    "quote": "FedEx reported $34,372,000,000 in revenue as of 2019-11-30 (volume metrics not available in XBRL): {\"Revenues\": {\"start\": \"2019-06-01\", \"end\": \"2019-11-30\", \"val\": 34372000000, \"accn\": \"0001564590-19-046220\", \"fy\": 2020, \"fp\": \"Q2\", \"form\": \"10-Q\", \"filed\": \"2019-12-17\"}}",
+    "date": "2019-11",
+    "provenance": "auto:parcel-volume"
+  },
+  {
+    "id": "E62",
+    "url": "cross-platform search: wireless earbuds",
+    "quote": "Average price for 'wireless earbuds' on SHEIN: $1.00: Computed from 1 products",
+    "date": "2026-03-19",
+    "provenance": "auto:price-intel"
+  },
+  {
+    "id": "E63",
+    "url": "cross-platform search: wireless earbuds",
+    "quote": "Cheapest platform: SHEIN ($1.00): No competitors with valid data",
+    "date": "2026-03-19",
+    "provenance": "auto:price-intel"
+  },
+  {
+    "id": "E64",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"6-K\", \"filing_date\": \"2025-12-19\", \"accession_number\": \"0001104659-25-122766\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000110465925122766/tm2533961d1_6k.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E65",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"6-K\", \"filing_date\": \"2025-12-19\", \"accession_number\": \"0001104659-25-122765\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000110465925122765/tm2533961d2_6k.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E66",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"6-K\", \"filing_date\": \"2025-11-19\", \"accession_number\": \"0001104659-25-113965\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000110465925113965/tm2531576d1_6k.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E67",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"6-K\", \"filing_date\": \"2025-11-18\", \"accession_number\": \"0001104659-25-113490\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000110465925113490/tm2531580d1_6k.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E68",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"6-K\", \"filing_date\": \"2025-08-25\", \"accession_number\": \"0001104659-25-082502\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000110465925082502/tm2524268d1_6k.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E69",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"6-K\", \"filing_date\": \"2025-07-23\", \"accession_number\": \"0001104659-25-069796\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000110465925069796/tm2521517d1_6k.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E70",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"6-K\", \"filing_date\": \"2025-05-27\", \"accession_number\": \"0001104659-25-053013\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000110465925053013/tm2516198d1_6k.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E71",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"20-F\", \"filing_date\": \"2025-04-28\", \"accession_number\": \"0001410578-25-000951\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000141057825000951/pdd-20241231x20f.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E72",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"6-K\", \"filing_date\": \"2025-03-20\", \"accession_number\": \"0001104659-25-026115\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000110465925026115/tm259886d1_6k.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E73",
+    "url": "https://data.sec.gov/submissions/CIK0001737806.json",
+    "quote": "{\"form\": \"6-K\", \"filing_date\": \"2024-12-20\", \"accession_number\": \"0001104659-24-130517\", \"document_url\": \"https://www.sec.gov/Archives/edgar/data/1737806/000110465924130517/tm2431720d1_6k.htm\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E74",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Revenue\", \"value\": 53955324000, \"currency\": \"USD\", \"end_date\": \"2024-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E75",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Revenue\", \"value\": 34879253000, \"currency\": \"USD\", \"end_date\": \"2023-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E76",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Revenue\", \"value\": 18929071000, \"currency\": \"USD\", \"end_date\": \"2022-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E77",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Net Income\", \"value\": 15403464000, \"currency\": \"USD\", \"end_date\": \"2024-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E78",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Net Income\", \"value\": 8454562000, \"currency\": \"USD\", \"end_date\": \"2023-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E79",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Net Income\", \"value\": 4572589000, \"currency\": \"USD\", \"end_date\": \"2022-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E80",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Operating Income\", \"value\": 14853871000, \"currency\": \"USD\", \"end_date\": \"2024-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E81",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Operating Income\", \"value\": 8267548000, \"currency\": \"USD\", \"end_date\": \"2023-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E82",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Operating Income\", \"value\": 4407864000, \"currency\": \"USD\", \"end_date\": \"2022-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E83",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Total Assets\", \"value\": 69189417000, \"currency\": \"USD\", \"end_date\": \"2024-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E84",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Total Assets\", \"value\": 49025778000, \"currency\": \"USD\", \"end_date\": \"2023-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E85",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Total Assets\", \"value\": 34379162000, \"currency\": \"USD\", \"end_date\": \"2022-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E86",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Stockholders Equity\", \"value\": 42923722000, \"currency\": \"USD\", \"end_date\": \"2024-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E87",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Stockholders Equity\", \"value\": 26372429000, \"currency\": \"USD\", \"end_date\": \"2023-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E88",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"Stockholders Equity\", \"value\": 17075177000, \"currency\": \"USD\", \"end_date\": \"2022-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E89",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"EPS (Basic)\", \"value\": 20.31, \"currency\": \"unknown\", \"end_date\": \"2024-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E90",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"EPS (Basic)\", \"value\": 11.08, \"currency\": \"unknown\", \"end_date\": \"2023-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E91",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"EPS (Basic)\", \"value\": 11.08, \"currency\": \"unknown\", \"end_date\": \"2023-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E92",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"EPS (Diluted)\", \"value\": 19, \"currency\": \"unknown\", \"end_date\": \"2024-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E93",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"EPS (Diluted)\", \"value\": 10.29, \"currency\": \"unknown\", \"end_date\": \"2023-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  },
+  {
+    "id": "E94",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "quote": "{\"metric\": \"EPS (Diluted)\", \"value\": 10.29, \"currency\": \"unknown\", \"end_date\": \"2023-12-31\", \"form\": \"20-F\"}",
+    "date": "2026-03",
+    "provenance": "auto:sec-edgar"
+  }
+]

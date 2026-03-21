@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-INV-007",
+  "source": {
+    "type": "article",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-10-logistics-in-times",
+    "title": "Temu Geographic Expansion & GMV Growth Signals 2025-2026",
+    "retrieved_at": "2026-03-20T06:40:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "Temu global GMV estimated at $22-25B in Q3 2025, with 40-60% YoY growth",
+      "evidence": "Temu's global GMV will reach between $22 billion and $25 billion in Q3 2025, representing year-over-year growth of 40% to 60%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Analyst estimate; PDD does not disclose Temu GMV separately"
+      }
+    },
+    {
+      "claim": "Temu's geographic revenue mix shifted: US dropped to 31% of GMV, Europe now 40% and growing 80-100% YoY",
+      "evidence": "The US market currently accounts for 31% of Temu's GMV, but its growth has slowed due to tariff policies. European market has a larger share (40%) and strong growth (80%-100% YoY).",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Analyst estimates based on industry data; PDD does not disclose geographic GMV breakdown"
+      }
+    },
+    {
+      "claim": "Temu launched semi-managed model in Philippines (first Southeast Asian market) in February 2025",
+      "evidence": "On February 20, 2025, Temu announced the launch of its first semi-hosted site in Southeast Asia — the Philippines station — marking a new phase in its global expansion strategy.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From EqualOcean reporting"
+      }
+    },
+    {
+      "claim": "Temu expanding semi-managed and local seller recruitment in Mexico, Australia, and Poland",
+      "evidence": "Temu is now expanding semi-managed and local seller recruitment, particularly in Mexico, Australia, and Poland.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From e-commerce industry analysis"
+      }
+    },
+    {
+      "claim": "EU preparing de minimis reform for July 2026: fixed EUR 3 duty on parcels under EUR 150, impacting Temu's European model",
+      "evidence": "The European Council has agreed to apply a fixed customs duty of EUR 3 on small parcels valued at less than EUR 150 entering the EU from July 1, 2026. Plans to remove the EUR 150 de minimis threshold are being brought forward from 2028 to 2026.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Ecotextile News and EU regulatory reporting"
+      }
+    },
+    {
+      "claim": "PDD Q3 2025 revenue split: online marketing services RMB 53.35B (+8% YoY) and transaction services RMB 54.93B (+10% YoY), totaling RMB 108.3B",
+      "evidence": "Q3 2025: Total revenues RMB 108,276.5M ($15.2B), +9% YoY. Online marketing services: RMB 53.35B ($7.49B), +8% YoY. Transaction services: RMB 54.93B ($7.72B), +10% YoY.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From PDD Q3 2025 earnings press release"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["investment", "growth", "GMV", "geographic-expansion", "europe", "southeast-asia"]
+  }
+}

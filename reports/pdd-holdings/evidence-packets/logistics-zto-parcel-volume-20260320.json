@@ -1,0 +1,117 @@
+[
+  {
+    "packet_id": "PKT-LOG-ZTO-VOLUME-001",
+    "source": {
+      "type": "filing",
+      "url": "https://www.prnewswire.com/news-releases/zto-reports-fourth-quarter-2025-and-full-year-2025-unaudited-financial-results-302716375.html",
+      "title": "ZTO Reports Fourth Quarter 2025 and Full Year 2025 Unaudited Financial Results",
+      "retrieved_at": "2026-03-20T06:35:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "ZTO Express handled 38.52 billion parcels in full year 2025, up 13.3% YoY",
+        "evidence": "ZTO reported a full-year parcel volume of 38.52 billion parcels in 2025, a 13.3% year-over-year increase. The Company grew parcel volume by 4.5 billion, or 13.3% year over year.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ZTO's official Q4/FY2025 earnings release dated March 18, 2026"
+        }
+      },
+      {
+        "claim": "ZTO Q4 2025 parcel volume was 10.56 billion, up 9.2% YoY with market share expanding 0.8pp",
+        "evidence": "ZTO reported parcel volume of 10.56 billion in Q4 2025, up 9.2% year-over-year, and said market share expanded by 0.8 percentage points.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ZTO's official Q4/FY2025 earnings release"
+        }
+      },
+      {
+        "claim": "ZTO FY2025 revenue was RMB 49.1 billion, up 10.9% YoY; adjusted net income RMB 9.5 billion",
+        "evidence": "Total revenue increased 10.9% to CNY 49.1 billion for the year. Adjusted net income reached RMB 9.5 billion. Gross margin declined from 31.0% to 25.0% and operating margin from 26.6% to 21.3%.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ZTO's official FY2025 earnings release"
+        }
+      },
+      {
+        "claim": "ZTO 2026 guidance: parcel volume to grow 10-13% YoY (42.37B-43.52B parcels)",
+        "evidence": "The Company expects its parcel volume for 2026 to increase by 10% to 13% year over year, representing a parcel volume range of 42.37 billion to 43.52 billion.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ZTO's official 2026 guidance in Q4 2025 earnings release"
+        }
+      },
+      {
+        "claim": "ZTO approved $1.5B share repurchase program over 24 months",
+        "evidence": "The board declared a semi-annual cash dividend of US$0.39 per ADS and approved a new share repurchase program of up to US$1.5 billion over 24 months, targeting aggregate annual shareholder returns of at least 50% of prior-year adjusted net income.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ZTO earnings release"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": ["ZTO", "PDD", "pdd-holdings"],
+      "topic_tags": ["logistics", "parcel-volume", "express-delivery", "china", "carrier-earnings"]
+    }
+  },
+  {
+    "packet_id": "PKT-LOG-YTO-YUNDA-VOLUME-001",
+    "source": {
+      "type": "article",
+      "url": "https://thebambooworks.com/growing-profits-shrinking-market-share-test-ztos-strategy/",
+      "title": "Chinese Express Carrier Parcel Volume Rankings 2024-2025",
+      "retrieved_at": "2026-03-20T06:35:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "YTO Express delivered ~26.6 billion parcels in 2024, ranking #2 behind ZTO with 25.33% growth",
+        "evidence": "YTO Express (600233.SH) delivered around 26.6 billion parcels for the year 2024. YTO Express grew by a similarly strong 25.33%.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Morningstar and Bamboo Works analysis of carrier results"
+        }
+      },
+      {
+        "claim": "Yunda Express delivered ~23.8 billion parcels in 2024, ranking #3 with 26.14% growth",
+        "evidence": "Yunda (002120.SZ) was third at 23.8 billion units with growth of 26.14%.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Morningstar and Bamboo Works analysis of carrier results"
+        }
+      },
+      {
+        "claim": "Top 6 private express carriers handle ~80-82% of China's parcel deliveries by volume",
+        "evidence": "The six largest privately owned express delivery companies accounted for around 80% of China's parcel-delivery volume in Q3 2025, based on data from the companies and China's State Post Bureau.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Morningstar analyst Chelsey Tam, October 2025"
+        }
+      },
+      {
+        "claim": "YTO narrowing market share gap with ZTO; STO leads in revenue growth while Yunda lags",
+        "evidence": "As of March 2026, Morningstar notes YTO's parcel volume market share gap has narrowed compared with leader ZTO. STO Express leads revenue growth for China express couriers as Yunda lags behind.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Morningstar analyst reports, March 2026"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": ["YTO", "Yunda", "ZTO", "STO", "PDD", "pdd-holdings"],
+      "topic_tags": ["logistics", "parcel-volume", "express-delivery", "china", "market-share"]
+    }
+  }
+]

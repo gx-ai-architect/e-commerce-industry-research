@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-BM-004",
+  "source": {
+    "type": "filing",
+    "url": "https://www.sec.gov/Archives/edgar/data/1737806/000141057825000951/pdd-20241231x20f.htm",
+    "title": "PDD Holdings FY2024 20-F Annual Report - VIE Structure and Revenue Recognition",
+    "retrieved_at": "2026-03-20T07:00:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "VIE revenue share declined from 56.2% (FY2022) to 45.7% (FY2023) to 22.5% (FY2024), but this does NOT mean Temu is 77.5% of the business -- Temu records revenue GROSS while Pinduoduo records NET",
+      "evidence": "20-F disclosure: VIE and its subsidiaries accounted for 56.2%, 45.7%, and 22.5% of total revenues for 2022, 2023, and 2024 respectively. The VIE entity operates the domestic Pinduoduo platform. International operations (Temu) are conducted through non-VIE subsidiaries. CRITICAL: Temu operates a fully-managed/consignment model where it sets consumer prices and handles logistics, recognizing revenue on a GROSS basis (full selling price). Pinduoduo operates as a marketplace where merchants set prices, recognizing revenue on a NET basis (commissions + ad fees only). This means a RMB 100 Temu order contributes ~RMB 100 to revenue, while a RMB 100 Pinduoduo order contributes only ~RMB 4-5 to revenue. The VIE share declining does NOT proportionally reflect the domestic/international GMV split.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "VIE percentages from 20-F. Gross vs net distinction confirmed by revenue recognition policy and Temu's fully-managed model documentation."
+      }
+    },
+    {
+      "claim": "PDD's two revenue streams -- online marketing services and transaction services -- both represent platform service fees, not merchandise sales",
+      "evidence": "Online Marketing Services: fees from merchants for CPC/CPM advertising on the platform (search results, product listing promotion). Transaction Services: commissions and fees charged to merchants for each completed transaction, including payment processing fees. Both are NET revenue streams. The company does NOT separately disclose which revenue comes from Pinduoduo domestic vs Temu international.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Revenue policy from 20-F. Note: transaction services growth (+108% in FY2024) was driven by Temu's rapid scaling, as Temu charges transaction fees on its gross merchandise flow."
+      }
+    },
+    {
+      "claim": "PDD Holdings is a Cayman Islands holding company with no equity ownership in the VIE -- it controls through contractual arrangements",
+      "evidence": "PDD Holdings Inc. does not have any equity ownership in the VIE or its subsidiaries. It maintains contractual arrangements (WFOE agreements) that allow consolidation under US GAAP. PRC subsidiaries can only receive funding through capital contributions or loans, subject to government approval. This VIE structure creates regulatory risk if PRC authorities challenge the contractual arrangements.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Standard VIE risk disclosure from 20-F"
+      }
+    },
+    {
+      "claim": "Temu's semi-managed model generated ~$5.5B GMV in Q3 2025, about 29% of Temu total, as a hedge against tariff/de minimis risks",
+      "evidence": "Analyst reports indicate Temu expanded its semi-entrusted (semi-managed) model where merchants handle overseas fulfillment and share delivery costs. This model generated US$5.5B in GMV in Q3 2025, approximately 29% of total Temu GMV. The shift reduces PDD's direct logistics cost exposure and tariff risk from the US de minimis exemption changes effective 2025.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Semi-managed GMV figures from analyst research (CMBI), not disclosed by PDD directly. PDD does not provide Temu GMV disclosure."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu", "pinduoduo"],
+    "topic_tags": ["VIE-structure", "revenue-recognition", "gross-vs-net", "temu-model"]
+  }
+}

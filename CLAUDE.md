@@ -62,9 +62,22 @@ User invokes: /deep-research for <Company>
 │       ├── Write report.md (institutional quality, evidence-linked)
 │       └── Quality check against docs/reference-standard-analysis.md
 │
+├── Phase 5.5: Evidence Audit (.claude/agents/evidence-auditor.md)
+│   ├── For EVERY [E_] citation: verify evidence supports the claim
+│   ├── Verdicts: SUPPORTED / OVERCLAIMED / UNSUPPORTED / MISSING
+│   ├── Tighten overclaims to match evidence (add time periods, sources)
+│   ├── Add source notes to every table
+│   ├── Flag uncited quantitative claims
+│   ├── Output: evidence-audit-v{N}.md (audit report)
+│   ├── Output: report-v{N}-audited.md (corrected report)
+│   └── Output: evidence-v{N}-audited.json (corrected evidence)
+│
 ├── Output:
-│   ├── reports/$COMPANY/report-v{N}.md          The report
-│   ├── reports/$COMPANY/evidence-v{N}.json      Citations with URLs
+│   ├── reports/$COMPANY/report-v{N}.md          The report (raw)
+│   ├── reports/$COMPANY/report-v{N}-audited.md  The report (fact-checked)
+│   ├── reports/$COMPANY/evidence-v{N}.json      Citations (raw)
+│   ├── reports/$COMPANY/evidence-v{N}-audited.json  Citations (verified)
+│   ├── reports/$COMPANY/evidence-audit-v{N}.md  Audit findings
 │   ├── reports/$COMPANY/charts-v{N}.json        Chart data
 │   └── reports/$COMPANY/sources/                Phase checkpoints
 
@@ -135,6 +148,6 @@ If gstack skills aren't working, run `cd .claude/skills/gstack && ./setup` to bu
 - `skills/meta-miner/SKILL.md` — Stage 1 entry point
 - `skills/meta-miner/DESIGN.md` — Agent domain knowledge, research findings, architecture rationale
 - `skills/deep-research/SKILL.md` — Stage 2 entry point
-- `.claude/agents/` — 9 agent definitions (1 leader + 8 task agents)
+- `.claude/agents/` — 10 agent definitions (1 leader + 8 task agents + 1 evidence auditor)
 - `skills/evidence-store/schema.json` — Evidence packet JSON schema
 - `docs/reference-standard-analysis.md` — Report writing quality standards

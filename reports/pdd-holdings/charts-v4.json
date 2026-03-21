@@ -1,0 +1,73 @@
+{
+  "revenue-quarterly": {
+    "type": "bar",
+    "title": "PDD Quarterly Revenue (RMB B)",
+    "yLabel": "RMB Billions",
+    "bars": [
+      {"label": "Q1'24", "value": 86.8, "color": "#2563eb"},
+      {"label": "Q2'24", "value": 97.1, "color": "#2563eb"},
+      {"label": "Q3'24", "value": 99.4, "color": "#2563eb"},
+      {"label": "Q4'24", "value": 110.6, "color": "#2563eb"},
+      {"label": "Q1'25", "value": 95.7, "color": "#7c3aed"},
+      {"label": "Q2'25", "value": 104.0, "color": "#7c3aed"},
+      {"label": "Q3'25", "value": 108.3, "color": "#7c3aed"}
+    ]
+  },
+  "margin-trajectory": {
+    "type": "line",
+    "title": "Operating Margin Trajectory (%)",
+    "yLabel": "Operating Margin %",
+    "xLabels": ["Q1'24", "Q2'24", "Q3'24", "Q4'24", "Q1'25", "Q2'25", "Q3'25"],
+    "datasets": [
+      {
+        "label": "Operating Margin",
+        "values": [29.9, 32.7, 24.5, 23.1, 16.8, 24.8, 23.1],
+        "color": "#dc2626"
+      }
+    ]
+  },
+  "investment-income-growth": {
+    "type": "bar",
+    "title": "Investment Income (RMB B) — The Hidden Profit Engine",
+    "yLabel": "RMB Billions",
+    "bars": [
+      {"label": "FY2022", "value": 4.0, "color": "#059669"},
+      {"label": "FY2023", "value": 10.2, "color": "#059669"},
+      {"label": "FY2024", "value": 20.6, "color": "#059669"},
+      {"label": "9M 2025", "value": 19.2, "color": "#10b981"}
+    ]
+  },
+  "temu-geographic-mix": {
+    "type": "bar",
+    "title": "Temu GMV Share by Region (%, 2025)",
+    "yLabel": "% of GMV",
+    "bars": [
+      {"label": "Europe", "value": 40, "color": "#2563eb"},
+      {"label": "US", "value": 31, "color": "#dc2626"},
+      {"label": "Other", "value": 29, "color": "#9ca3af"}
+    ]
+  },
+  "peer-profitability": {
+    "type": "bar",
+    "title": "Operating Income / GMV — Per-GMV Profitability (%)",
+    "yLabel": "Op Income / GMV %",
+    "bars": [
+      {"label": "PDD", "value": 2.3, "color": "#7c3aed"},
+      {"label": "Alibaba", "value": 1.7, "color": "#f97316"},
+      {"label": "JD.com", "value": 1.0, "color": "#dc2626"}
+    ]
+  },
+  "regulatory-timeline": {
+    "type": "line",
+    "title": "Regulatory Impact Timeline — Cumulative Cost Layers (Est. Annual $B)",
+    "yLabel": "Est. Annual Cost ($B)",
+    "xLabels": ["May'25 US Tariff", "Jul'26 EU EUR3", "Nov'26 EU EUR2", "Jul'27 US OBBB", "2028 EU Full"],
+    "datasets": [
+      {
+        "label": "Cumulative Regulatory Cost",
+        "values": [3.0, 4.2, 4.8, 5.0, 5.5],
+        "color": "#dc2626"
+      }
+    ]
+  }
+}

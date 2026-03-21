@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-PEER-COMPARISON-001",
+  "source": {
+    "type": "dataset",
+    "url": "multiple",
+    "title": "Customer Satisfaction Peer Comparison: Domestic (PDD vs Taobao vs JD) and International (Temu vs Amazon vs Shein)",
+    "retrieved_at": "2026-03-20T06:37:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "DOMESTIC iOS App Store peer comparison (China, March 2026)",
+      "evidence": "Taobao: 4.14/5 (1,679,186 ratings). Pinduoduo: 2.93/5 (3,380,562 ratings). JD: data unavailable via iTunes API. Pinduoduo has the LOWEST iOS rating among major Chinese e-commerce apps despite having the most ratings (2x Taobao). Gap: -1.21 points vs Taobao.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=cn. Scripts: scrape-appstore.py, qimai-appdata.py"
+      }
+    },
+    {
+      "claim": "INTERNATIONAL iOS App Store peer comparison (US, March 2026)",
+      "evidence": "Amazon: 4.83/5 (8,344,524 ratings). Temu: 4.67/5 (2,064,730 ratings). Taobao: 3.66/5 (9,556 ratings). Pinduoduo: 2.37/5 (7,004 ratings). Temu trails Amazon by only 0.16 points on iOS. Both significantly outperform Taobao/Pinduoduo in the US market.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=us. Scripts: scrape-appstore.py"
+      }
+    },
+    {
+      "claim": "INTERNATIONAL Trustpilot peer comparison (March 2026)",
+      "evidence": "Temu: 2.0/5 (48,750 reviews). Shein: mixed (350,000 reviews on main profile, Canada 82% 1-star). Temu's Trustpilot rating is significantly lower than its App Store rating (2.0 vs 4.67), reflecting the complaint-driven self-selection bias of Trustpilot.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Trustpilot scraper + WebSearch. Shein's exact TrustScore not directly available from search."
+      }
+    },
+    {
+      "claim": "DOMESTIC Heimao complaint comparison: Pinduoduo #2, improving reply rate",
+      "evidence": "Monthly complaint ranking (Dec 2025): #1 Douyin, #2 Pinduoduo, #3 Taobao. Douyin's complaint volume grew fastest (+78.94% YoY in 2024). Pinduoduo reply rate: 20% (improving). Taobao: 5%. JD/Douyin: 100%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Heimao monthly reports via WebSearch"
+      }
+    },
+    {
+      "claim": "INTERNATIONAL: Temu has 10 CPSC recalls vs Amazon's negligible rate for its own products",
+      "evidence": "Temu: 10 CPSC recalls (all children's safety products). These are disproportionately high for a platform of Temu's age (~3 years). Categories: helmets, pajamas, magnets, carriers, cribs. All sold exclusively on Temu.com by third-party sellers.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "CPSC API via fetch-cpsc.py"
+      }
+    },
+    {
+      "claim": "INTERNATIONAL: Amazon leads customer satisfaction with 64% planning increased spending",
+      "evidence": "Amazon: 64% of consumers plan increased spending (highest). Temu: 28% shop monthly. Shein: 23% shop monthly. Amazon Haul: only 16% shop monthly despite 24% trying it.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: IBKR Campus / industry surveys"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "temu", "taobao", "jd", "amazon", "shein"],
+    "topic_tags": ["peer-comparison", "customer-satisfaction", "domestic-vs-international"]
+  }
+}

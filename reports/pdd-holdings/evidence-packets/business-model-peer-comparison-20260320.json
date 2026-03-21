@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-BM-006",
+  "source": {
+    "type": "article",
+    "url": "https://www.macrotrends.net/stocks/charts/PDD/pdd-holdings/revenue",
+    "title": "PDD vs Alibaba vs JD.com Margin and Business Model Comparison",
+    "retrieved_at": "2026-03-20T07:00:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD's gross margin (~61%) is the highest among Chinese e-commerce peers, confirming its pure marketplace positioning vs JD's 1P retail model (~16%)",
+      "evidence": "Gross margins (latest available): PDD Holdings ~60.9% (FY2024). Alibaba ~39-41% (FY2025, lower because it includes cloud, logistics, and other lower-margin businesses beyond marketplace). JD.com ~16% (FY2025 consolidated; JD Retail Q3 2025: 19.3%). Shopee parent Sea Limited: ~42% (includes gaming/fintech). PDD's 61% gross margin reflects near-pure marketplace revenue (ad fees + transaction commissions) with minimal COGS beyond bandwidth, payment processing, and server costs.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "PDD gross margin from XBRL: (393.8B - 153.9B) / 393.8B = 60.9%. Alibaba and JD from MacroTrends/earnings releases."
+      }
+    },
+    {
+      "claim": "PDD's operating profit in Q1 2024 alone (RMB 25.9B) equaled the combined operating profits of Alibaba (RMB 14.7B) and JD.com (RMB 7.7B)",
+      "evidence": "Q1 2024 operating profits: PDD RMB 25.9B, Alibaba RMB 14.7B, JD.com RMB 7.7B. PDD's operating profit = BABA + JD combined. This is remarkable given PDD's revenue (RMB 86.8B) was far smaller than JD's (RMB 260B) and Alibaba's (RMB 221.8B). PDD achieves this through its lean cost structure with minimal logistics infrastructure and no 1P inventory.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From competitive analysis citing Q1 2024 quarterly reports of all three companies"
+      }
+    },
+    {
+      "claim": "PDD has NO fintech business unlike Alibaba (Ant Group) and JD.com (JD Technology), but its cash float generates equivalent returns through investment income",
+      "evidence": "PDD does not operate consumer lending, merchant lending, digital payments (beyond basic transaction processing), or any financial services business. In contrast: Alibaba owns 33% of Ant Group (Alipay, consumer credit, wealth management). JD.com has JD Technology (formerly JD Finance) offering merchant lending, consumer credit, and digital payments. However, PDD's RMB 20.55B investment income in FY2024 from its ~RMB 400B+ cash pile provides fintech-equivalent profit contribution without the regulatory risk.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "PDD's lack of fintech confirmed by 20-F business description. Cash pile balance and investment income from XBRL."
+      }
+    },
+    {
+      "claim": "China e-commerce market share: Alibaba (Taobao+Tmall) ~44%, JD.com ~24%, Pinduoduo ~19%, with PDD gaining share through price competitiveness",
+      "evidence": "Market share estimates for Chinese domestic e-commerce (2024): Alibaba's Taobao and Tmall together own approximately 44% market share, JD.com follows with approximately 24%, and Pinduoduo with approximately 19%. PDD/Pinduoduo has been gaining share through its C2M (consumer-to-manufacturer) model and aggressive pricing strategy.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Market share estimates from industry reports. Exact figures vary by source. PDD's share has been growing while Alibaba's has been declining."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "alibaba", "jd-com", "shopee"],
+    "topic_tags": ["peer-comparison", "gross-margin", "operating-profit", "market-share", "fintech"]
+  }
+}

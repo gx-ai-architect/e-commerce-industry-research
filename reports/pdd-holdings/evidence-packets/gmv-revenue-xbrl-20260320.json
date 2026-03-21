@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-GMV-001",
+  "source": {
+    "type": "filing",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "title": "PDD Holdings SEC EDGAR XBRL - Revenue & Operating Income (20-F filings)",
+    "retrieved_at": "2026-03-20T06:34:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "PDD Holdings FY2024 total revenue was RMB 393.84 billion (US$53.96 billion), per 20-F filed 2025-04-28",
+      "evidence": "RevenueFromContractWithCustomerExcludingAssessedTax: CNY 393,840,000,000 for period 2024-01-01 to 2024-12-31 (20-F, filed 2025-04-28). USD equivalent: $53,960,000,000.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Directly extracted from SEC EDGAR XBRL API. Primary source."
+      }
+    },
+    {
+      "claim": "PDD Holdings FY2024 operating income was RMB 108.42 billion (US$14.85 billion), per 20-F filed 2025-04-28",
+      "evidence": "OperatingIncomeLoss: CNY 108,420,000,000 for period 2024-01-01 to 2024-12-31 (20-F, filed 2025-04-28). USD equivalent: $14,850,000,000.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Directly extracted from SEC EDGAR XBRL API. Primary source."
+      }
+    },
+    {
+      "claim": "PDD Holdings FY2023 total revenue was RMB 247.64 billion (US$34.88 billion)",
+      "evidence": "RevenueFromContractWithCustomerExcludingAssessedTax: CNY 247,640,000,000 for period 2023-01-01 to 2023-12-31 (20-F, filed 2024-04-25).",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Directly extracted from SEC EDGAR XBRL API. Primary source."
+      }
+    },
+    {
+      "claim": "PDD Holdings FY2022 total revenue was RMB 130.56 billion (US$18.93 billion)",
+      "evidence": "RevenueFromContractWithCustomerExcludingAssessedTax: CNY 130,560,000,000 for period 2022-01-01 to 2022-12-31 (20-F, filed 2023-04-26).",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Directly extracted from SEC EDGAR XBRL API. Primary source."
+      }
+    },
+    {
+      "claim": "PDD Holdings FY2025 Q1-Q3 cumulative revenue was approximately RMB 307.93 billion",
+      "evidence": "Q1 2025: RMB 95,672.2M + Q2 2025: RMB 103,984.8M + Q3 2025: RMB 108,276.5M = RMB 307,933.5M. Source: quarterly 6-K filings.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Sum of three reported quarterly figures from investor.pddholdings.com press releases."
+      }
+    },
+    {
+      "claim": "PDD Holdings FY2025 revenue breakdown shows transaction services nearly equal to online marketing in Q3 2025",
+      "evidence": "Q3 2025: Online marketing services RMB 53,347.6M (8% YoY growth), Transaction services RMB 54,928.9M (10% YoY growth). Transaction services now slightly exceed marketing revenue.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From PDD Holdings Q3 2025 earnings release."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["revenue", "xbrl", "operating-income", "take-rate-input"]
+  }
+}

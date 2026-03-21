@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-INV-005",
+  "source": {
+    "type": "filing",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "title": "PDD Holdings Cash Position & Capital Allocation from SEC EDGAR + Earnings Releases",
+    "retrieved_at": "2026-03-20T06:38:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD Holdings has NO share buyback program and NO dividend, despite holding $59.5B cash as of Q3 2025",
+      "evidence": "Cash, cash equivalents and short-term investments were RMB 423.8 billion (US$59.5 billion) as of September 30, 2025. PDD spokesperson stated: 'the management team has unanimously agreed that this is not the right time for share repurchases or dividends, and such actions are not anticipated in the foreseeable future.' Buyback yield: 0.00%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Fortune/FT reporting and PDD investor communications. Cash figure from Q3 2025 earnings release."
+      }
+    },
+    {
+      "claim": "PDD's operating cash flow surged 66% YoY to $6.4B in Q3 2025, easily funding $1.6B in investing activities",
+      "evidence": "Q3 2025: Net cash from operating activities US$6,413.9 million (+66% YoY). Cash used in investing activities: US$1,623.2 million. Operating cash flow is more than 4x investing cash usage.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Q3 2025 earnings press release"
+      }
+    },
+    {
+      "claim": "PDD's total assets grew from $34.4B (2022) to $49.0B (2023) to $69.2B (2024) per EDGAR XBRL",
+      "evidence": "{\"FY2022\": {\"total_assets\": 34379162000, \"stockholders_equity\": 17075177000}, \"FY2023\": {\"total_assets\": 49025778000, \"stockholders_equity\": 26372429000}, \"FY2024\": {\"total_assets\": 69189417000, \"stockholders_equity\": 42923722000}}",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Extracted directly from SEC EDGAR XBRL CompanyFacts API for CIK 0001737806"
+      }
+    },
+    {
+      "claim": "PDD is an asset-light platform with minimal traditional capex; investments flow through opex (R&D, S&M, merchant subsidies) and financial investments",
+      "evidence": "PDD operates an asset-light e-commerce platform model. Traditional capex (PP&E purchases) is relatively modest compared to operating cash flow. Primary investments flow through operating expenses (R&D, sales & marketing, merchant subsidies) and investing activities (which include financial investments alongside capital expenditures). This contrasts with Alibaba ($53B planned AI/cloud capex over 3 years) and JD.com (capital-intensive logistics infrastructure).",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Asset-light model confirmed by multiple analyst reports and PDD's own financial disclosures"
+      }
+    },
+    {
+      "claim": "PDD's cash pile is the largest net cash position of any public company not paying dividends or buybacks",
+      "evidence": "According to Financial Times analysis, PDD Holdings has the distinction of sitting on the largest net cash position of any public company that doesn't pay a dividend or repurchase shares. The cash pile at $38B+ (as of mid-2024, now $59.5B) exceeded Tesla's.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Fortune and FT reporting. Cash figure has since grown to $59.5B as of Q3 2025."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["investment", "buyback", "cash", "capital-allocation", "balance-sheet"]
+  }
+}

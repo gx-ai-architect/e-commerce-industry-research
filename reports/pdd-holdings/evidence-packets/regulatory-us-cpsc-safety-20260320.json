@@ -1,0 +1,78 @@
+{
+  "packet_id": "PKT-REG-US-002",
+  "source": {
+    "type": "api",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json",
+    "title": "CPSC Product Safety Recalls and Enforcement Actions Against Temu",
+    "retrieved_at": "2026-03-20T06:34:36Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "10 CPSC recalls found matching 'temu' from API query, spanning 2024-2025",
+      "evidence": "CPSC API returned 10 recalls mentioning Temu out of 9,700 total recalls in database. Recalls include: (1) 6-in-1 Pounding Games - ingestion/magnet hazard (2025-02-13), (2) Sling Carriers - fall hazard (2025-02-06), (3) Baofali Crib Bumpers - suffocation hazard (2024-11-07), (4) Toy Guns - eye injury (2024-07-25), (5) Children's Nightgowns - burn/flammability (2024-07-11), (6) Children's Pajama Sets by Fashion Online - burn/flammability (2024-07-11), (7) Children's Pajama Sets by JUVENNO KIDS - burn/flammability (2024-07-11), (8) Magnetic Chess Games - ingestion/magnet (2024-06-13), (9) Kids' Bike Helmets by Chau River - head injury (2024-04-25), (10) Gasaciods Children's Helmets - head injury (2024-04-18).",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: CPSC API via fetch-cpsc.py script. All 10 recalls sold exclusively on Temu.com."
+      }
+    },
+    {
+      "claim": "CPSC launched targeted examination of Temu and Shein in September 2024 for deadly products marketed for babies/toddlers",
+      "evidence": "CPSC launched a targeted examination of Chinese platforms in September 2024, singling out Temu and SHEIN for their large and growing reach and the alarming ease of finding deadly products marketed for babies and toddlers.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: ITIF report April 2025; CPSC official statements"
+      }
+    },
+    {
+      "claim": "7 CPSC-warned dangerous products still listed on Temu 6 months after warnings (vs 0 still on Amazon)",
+      "evidence": "Over a six-month period, CPSC issued 23 public-safety warnings for dangerous products sold by third-party vendors on Amazon. While none of these items remain listed on Amazon, Chinese e-commerce platforms Temu, SHEIN, and AliExpress still list seven of the dangerous products, or indistinguishable copies of them.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: ITIF report, April 2025"
+      }
+    },
+    {
+      "claim": "CPSC set record of 28 recalls/warnings in single week on May 15, 2025, with focus on Chinese-manufactured products",
+      "evidence": "The CPSC set a new benchmark on May 15, 2025 of 28 recalls and warnings in a single week, with many concerning products manufactured in China, highlighting the administration's focus on 'cracking down on foreign violators.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: CPSC 2025 accomplishments press release"
+      }
+    },
+    {
+      "claim": "Consumer Reports found Temu removed unsafe listings and committed to additional safety changes by March 2026",
+      "evidence": "Amazon and Temu both took down unsafe product listings that Consumer Reports found, and have committed to making additional changes expected to be implemented by the end of March 2026.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Consumer Reports advocacy press release"
+      }
+    },
+    {
+      "claim": "New CPSC Certificates of Compliance rule effective July 8, 2026 for all CPSC-regulated consumer products",
+      "evidence": "On January 8, 2025, CPSC issued a final rule to revise the agency's regulation for Certificates of Compliance. For all CPSC-regulated consumer products subject to the final rule, the rule is applicable on July 8, 2026.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Federal Register notice"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "CPSC", "product-safety", "consumer-protection", "recalls"],
+    "severity_assessment": {
+      "action": "CPSC product safety recalls and enforcement examination",
+      "severity": "operational",
+      "rationale": "10 recalls is notable but not extreme for a marketplace this size (Amazon has far more). The deeper concern is CPSC's targeted examination and Temu's slow response to removing dangerous products (7 still listed after warnings). New Certificates of Compliance rule (July 2026) will increase compliance burden. However, CPSC enforcement authority is structurally weak against foreign sellers (1970s-era framework). De minimis elimination helps CPSC by bringing more products through formal customs channels. Industry-wide issue affecting all Chinese platforms.",
+      "status": "active_examination",
+      "next_milestone": "New Certificates of Compliance rule effective July 8, 2026; Consumer Reports safety changes commitment by March 2026; ongoing CPSC examination outcomes TBD"
+    }
+  }
+}

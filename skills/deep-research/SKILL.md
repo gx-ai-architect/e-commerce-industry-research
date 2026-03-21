@@ -40,6 +40,11 @@ The SKILL runs in 6 phases (including Phase 4.5: Mosaic Analysis), saving checkp
 
 Collect and save the following to `reports/pdd-holdings/sources/phase1-financials.md`:
 
+### 1.0 Automated Data Collection (Run First)
+Run: `bash scripts/orchestrate.sh pdd-holdings PDD 0001737806 --phase 1`
+Review output in `reports/pdd-holdings/evidence-packets/sec-edgar-*.json`.
+Then proceed to /browse below to fill gaps (earnings transcripts, analyst quotes).
+
 ### 1.1 PDD Holdings SEC Filings
 - Fetch the most recent 20-F annual report (PDD Holdings, CIK: 0001737806)
 - Extract: revenue by segment, operating expenses, net income, cash position, GMV commentary, risk factors
@@ -75,6 +80,12 @@ Save all collected financial data to `reports/pdd-holdings/sources/phase1-financ
 **Tool: /browse (primary), Freightos (freight rates)**
 
 Collect and save to `reports/pdd-holdings/sources/phase2-alternative.md`:
+
+### 2.0 Automated Data Collection (Run First)
+Run: `bash scripts/orchestrate.sh pdd-holdings PDD 0001737806 --phase 2`
+Runs 11 skills: parcel-volume, customs-data, air-freight, freight-rates, app-intel,
+web-traffic, google-trends, sentiment, job-postings, ad-intelligence, consumer-complaints.
+Review output in `reports/pdd-holdings/evidence-packets/`. Use /browse to supplement stubs and fill gaps.
 
 ### 2.1 App Store & Usage Data
 - `/browse` → Apple App Store: Temu ranking in Shopping category (US, UK, Germany, France, Japan, Brazil)
@@ -117,6 +128,10 @@ Save all collected data to `reports/pdd-holdings/sources/phase2-alternative.md`.
 
 Collect and save to `reports/pdd-holdings/sources/phase3-china.md`:
 
+### 3.0 Automated Data Collection (Run First)
+Run: `bash scripts/orchestrate.sh pdd-holdings PDD 0001737806 --phase 3`
+Runs china-regulatory skill (SAMR, NDRC). Review output, then use /browse for remaining China data.
+
 ### 3.1 China App/Market Data
 - `/browse` → QuestMobile English research reports: https://www.questmobile.com.cn/en/research/reports/
 - Look for: Pinduoduo DAU/MAU, China e-commerce market share reports
@@ -146,6 +161,10 @@ Save to `reports/pdd-holdings/sources/phase3-china.md`. Note if any Chinese-lang
 **Tool: Octagon MCP (primary) + /browse**
 
 Collect and save to `reports/pdd-holdings/sources/phase4-competitive.md`:
+
+### 4.0 Automated Data Collection (Run First)
+Run: `bash scripts/orchestrate.sh pdd-holdings PDD 0001737806 --phase 4`
+Runs eu-regulatory and price-intel skills. Review output, then use /browse and Octagon for competitor filings.
 
 ### 4.1 Alibaba (BABA)
 - Octagon MCP: latest 20-F, recent earnings transcript
@@ -221,15 +240,36 @@ Read all 4 phase checkpoint files. Identify:
 - Contradictions between sources (address these explicitly)
 
 ### 5.3 Generate evidence.json FIRST
-Before writing the report, generate `reports/pdd-holdings/evidence.json`:
 
+**Step 1:** Run the bridge to get auto-collected evidence:
+```bash
+python3 scripts/bridge/packets_to_evidence.py \
+  --packets-dir reports/pdd-holdings/evidence-packets/ \
+  --output reports/pdd-holdings/evidence-auto.json
+```
+
+**Step 2:** Review `evidence-auto.json` — these have machine-verified provenance (`provenance: "auto:<skill-name>"`). URLs came directly from API calls, not LLM memory.
+
+**Step 3:** Manually add entries from /browse research (earnings quotes, news articles, analyst reports). Merge into final `evidence.json`:
+```bash
+python3 scripts/bridge/packets_to_evidence.py \
+  --packets-dir reports/pdd-holdings/evidence-packets/ \
+  --merge-with reports/pdd-holdings/evidence-manual.json \
+  --output reports/pdd-holdings/evidence.json
+```
+Auto entries appear first, then manual entries. Every entry has a `provenance` field:
+- `"auto:<skill-name>"` — URL from a script calling an API directly. Highest confidence.
+- No provenance field — manually added from /browse research. Still verified, but spot-check recommended.
+
+The final `evidence.json` format:
 ```json
 [
   {
     "id": "E1",
     "url": "https://...",
     "quote": "exact quote or data point from the source",
-    "date": "2026-03-15"
+    "date": "2026-03-15",
+    "provenance": "auto:sec-edgar"
   },
   {
     "id": "E2",

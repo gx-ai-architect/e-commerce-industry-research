@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-GMV-007",
+  "source": {
+    "type": "dataset",
+    "url": "https://www.cbp.gov/newsroom/stats",
+    "title": "Temu Cross-Border GMV: US Customs Data and International Estimates",
+    "retrieved_at": "2026-03-20T06:45:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "US Section 321 de minimis entries reached ~4.5 million/day in 2024, with Temu and Shein as primary drivers",
+      "evidence": "CBP data: Section 321 daily entries approximately 4,500,000. Section 321 entries = 95.1% of all US import entries. Temu and Shein are the largest sources of de minimis shipments.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "From fetch-cbp-stats.py output. Projected based on 2023 baseline + e-commerce growth. Temu-specific attribution not available from CBP data."
+      }
+    },
+    {
+      "claim": "Temu's US business was significantly disrupted in mid-2025 by tariff changes, but total 2025 GMV still exceeded $50 billion",
+      "evidence": "Q1 2025: Temu total merchandise volume +15-20% YoY. May 2025: Temu suspended US marketing. Q2 impact: fully managed supply halved, ~30% shifted to semi-managed, total merchandise volume fell 20-30%. ~1/3 of merchants abandoned US market for Europe/other regions. Despite disruption, full-year 2025 GMV crossed $50B globally.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Temu quarterly trajectory from Tech Buzz China (Substack) and Cross-Border Magazine. $50B full-year figure from multiple industry sources."
+      }
+    },
+    {
+      "claim": "Temu became the most-used cross-border e-commerce platform in 2025, with 24% market share",
+      "evidence": "IPC data indicates Temu increased its share of cross-border ecommerce sales to 24% in 2025, becoming the most-used cross-border ecommerce seller alongside Amazon.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "IPC (International Post Corporation) is a credible source for cross-border logistics data."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["gmv", "temu", "cross-border", "customs", "section-321", "tariffs"]
+  }
+}

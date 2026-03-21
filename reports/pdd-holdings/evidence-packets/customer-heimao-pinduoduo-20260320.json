@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-HEIMAO-PDD-001",
+  "source": {
+    "type": "dataset",
+    "url": "https://tousu.sina.com.cn/company/view?couid=1003609",
+    "title": "Heimao (黑猫投诉) - Pinduoduo Complaint Data via WebSearch",
+    "retrieved_at": "2026-03-20T06:35:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo cumulative complaints on Heimao exceed 1 million",
+      "evidence": "Pinduoduo accumulated over 1,004,841 complaints on Heimao, of which only 119,620 were marked 'completed' (11.9% resolution rate).",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Data from Leju Finance reporting on Heimao platform data. Heimao scraper failed due to anti-scraping; data collected via WebSearch of published Heimao reports."
+      }
+    },
+    {
+      "claim": "Pinduoduo receives approximately 767 complaints per day on Heimao",
+      "evidence": "In the most recent 30-day period, there were 22,998 complaints with only 847 completed — approximately 766.6 complaints/day and a completion rate of just 3.68%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Leju Finance analysis of Heimao data"
+      }
+    },
+    {
+      "claim": "Pinduoduo reply rate on Heimao is only 20%",
+      "evidence": "Among top e-commerce platforms, Pinduoduo replied to only 20% of complaints, while JD.com, Douyin, Dewu, and Kuaishou all achieved 100% reply rates. Taobao (incl Tmall) replied to just 5%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Heimao 2024 annual e-commerce complaint report (黑猫投诉2024年电商投诉数据报告)"
+      }
+    },
+    {
+      "claim": "2024 total e-commerce complaints on Heimao exceeded 1.28 million, up 21.5% YoY",
+      "evidence": "2024 Heimao platform e-commerce complaints totaled 1.28M+ valid complaints, a 21.51% increase from 2023. PDD, Taobao, JD, Douyin accounted for 83.3% of all complaints.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: finance.sina.cn 2025-02-26 report"
+      }
+    },
+    {
+      "claim": "Top complaint themes: customer service (40%), goods not matching (15%), refund issues (15%)",
+      "evidence": "Customer service problems accounted for over 40% of all e-commerce complaints, followed by goods not matching descriptions (~15%) and refund refusals (~15%).",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Heimao 2024 annual report"
+      }
+    },
+    {
+      "claim": "December 2025: Pinduoduo ranked #2 in monthly complaint volume",
+      "evidence": "December 2025 e-commerce complaints totaled 134,798 (-9.43% MoM). Top 3 by volume: Douyin, Pinduoduo, Taobao. Pinduoduo reply rate improved vs prior month.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Heimao December 2025 e-commerce report (sx.tousu.sina.com.cn)"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "拼多多"],
+    "topic_tags": ["customer-satisfaction", "complaints", "heimao", "黑猫投诉", "domestic-china"]
+  }
+}

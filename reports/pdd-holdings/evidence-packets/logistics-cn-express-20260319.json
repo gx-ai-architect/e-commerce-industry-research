@@ -1,0 +1,36 @@
+[
+  {
+    "packet_id": "PKT-cnexpress-zto-20260319",
+    "source": {
+      "type": "filing",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001684863&type=20-F",
+      "title": "ZTO Express - SEC EDGAR Financial Data",
+      "retrieved_at": "2026-03-20T06:34:01Z",
+      "collector": "cn-express-earnings"
+    },
+    "extractions": [
+      {
+        "claim": "ZTO XBRL data fetched but no parcel volume metrics found",
+        "evidence": "SEC EDGAR XBRL data for CIK 0001684863 was fetched. Volume metrics may use non-standard taxonomy. Use WebSearch for 'ZTO parcel volume quarterly' as supplement.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "extrapolated",
+          "verifier_notes": "XBRL data available but specific volume concepts not matched"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": [
+        "ZTO"
+      ],
+      "topic_tags": [
+        "logistics",
+        "parcel-volume",
+        "express-delivery",
+        "china",
+        "sec-edgar"
+      ]
+    }
+  }
+]

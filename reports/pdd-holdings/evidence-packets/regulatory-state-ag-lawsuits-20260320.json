@@ -1,0 +1,126 @@
+{
+  "packet_id": "PKT-REG-STATE-AG-001",
+  "source": {
+    "type": "filing",
+    "url": "https://arkansasag.gov/news-release/attorney-general-griffin-sues-chinese-e-commerce-company-temu-for-deceiving-arkansans-illegally-accessing-their-personal-information/",
+    "title": "State Attorney General Lawsuits Against Temu (Multi-State Compilation)",
+    "retrieved_at": "2026-03-20T12:00:00Z",
+    "collector": "regulatory-policy-reader",
+    "additional_sources": [
+      {
+        "url": "https://ago.nebraska.gov/attorney-general-hilgers-files-lawsuit-against-temu-siphoning-nebraskans-phone-data",
+        "title": "Nebraska AG Press Release: Lawsuit Against Temu for Siphoning Nebraskans' Phone Data"
+      },
+      {
+        "url": "https://www.ag.ky.gov/Press%20Release%20Attachments/2025.07.17%20ACCEPTED%20Temu%20Complaint_Kentucky.pdf",
+        "title": "Commonwealth of Kentucky v. PDD Holdings Inc. et al., Woodford Circuit Court, Case No. 25-CI-00232"
+      },
+      {
+        "url": "https://www.azag.gov/press-release/attorney-general-mayes-sues-online-shopping-platform-temu-stealing-arizonans-data-and",
+        "title": "Arizona AG Press Release: Sues Temu for Stealing Arizonans' Data and Misleading Consumers"
+      },
+      {
+        "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-files-fourth-anti-ccp-lawsuit-three-days-suing-temu-deceptive-marketing",
+        "title": "Texas AG Press Release: Sues Temu for Deceptive Marketing and Illegal Data Harvesting"
+      }
+    ]
+  },
+  "extractions": [
+    {
+      "claim": "Five US state attorneys general have filed lawsuits against Temu/PDD Holdings as of March 2026, alleging data theft, deceptive practices, and malware.",
+      "evidence": "Arkansas (June 25, 2024, Cleburne County Circuit Court -- first state to sue), Nebraska (June 12, 2025), Kentucky (July 17, 2025, Woodford Circuit Court, Case No. 25-CI-00232), Arizona (December 1, 2025, Maricopa County Superior Court), Texas (February 19, 2026). All name PDD Holdings Inc. and WhaleCo Inc. as defendants.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Each filing date confirmed via the respective AG office press release or official announcement. Arkansas date confirmed via Arkansas Advocate reporting on June 25, 2024 press conference. Kentucky case number from complaint PDF header on AG website."
+      }
+    },
+    {
+      "claim": "Arkansas AG Tim Griffin was the first state AG to sue Temu, filing June 25, 2024, calling it a 'data-theft business' and 'functionally malware and spyware.'",
+      "evidence": "AG Griffin described Temu as 'functionally malware and spyware' that is 'purposefully designed to gain unrestricted access to a user's phone operating system' and can 'override data privacy settings on users' devices.' Filed under Arkansas Deceptive Trade Practices Act (ADTPA) and Personal Information Protection Act (PIPA). Seeks $10,000 per violation. As of August 25, 2025, Arkansas formally opposed Temu's motion to dismiss; case remains active.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Quotes from Arkansas AG press release and confirmed by Arkansas Advocate reporting. Motion to dismiss timeline confirmed by Family Council reporting (September 2025)."
+      }
+    },
+    {
+      "claim": "Nebraska AG Hilgers filed June 12, 2025, alleging Temu's app secretly installs malware that bypasses device security.",
+      "evidence": "Nebraska AG press release states: 'Temu's app, once downloaded, secretly installs malware that bypasses device security' and the platform 'misrepresents the quality and characteristics of products.' Also alleges 'There is no meaningful return process for Nebraskans to get their hard-earned money back.' Products labeled 'local' are often shipped from China. Seeks to halt unlawful practices, consumer refunds, and penalties under Nebraska law.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Quotes verified from Nebraska AG official press release at ago.nebraska.gov. Complaint PDF also available at ago.nebraska.gov."
+      }
+    },
+    {
+      "claim": "Kentucky AG Coleman filed July 17, 2025, in Woodford Circuit Court (Case No. 25-CI-00232), alleging Temu shares data with the Chinese government.",
+      "evidence": "Kentucky complaint alleges Temu's code 'shares significant similarities with its predecessor app, Pinduoduo, which was banned from U.S. app stores for being malware.' Forensic investigation found Temu collects 'far more PII than necessary for e-commerce operations, including International Mobile Equipment Identity numbers, Media Access Control addresses, and Android Advertising IDs.' Also alleges IP theft of Kentucky brands including University of Kentucky, University of Louisville, Buffalo Trace Distillery, and Churchill Downs. Seeks $2,000 per violation of the Kentucky Consumer Protection Act.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Case number confirmed from complaint PDF header on ag.ky.gov. Forensic investigation details from Kentucky AG announcement. Nachawati Law Group confirmed as co-counsel."
+      }
+    },
+    {
+      "claim": "Arizona AG Mayes filed December 1, 2025, in Maricopa County Superior Court under the Arizona Consumer Fraud Act.",
+      "evidence": "Arizona AG press release states: Temu app 'secretly infiltrates users' devices to access and harvest sensitive information, including the user's precise physical location, the phone's microphone and camera.' Forensic review found 'the app's code has portions recognized by experts as malware or spyware and allows exfiltration of data from a user's mobile device while concealing that the app is doing so.' Also alleges IP theft targeting 'Arizona Cardinals, Fender Guitars, the University of Arizona, Arizona State University, and Northern Arizona University.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Quotes verified from Arizona AG official press release at azag.gov."
+      }
+    },
+    {
+      "claim": "Texas AG Paxton filed February 19, 2026, calling Temu 'Chinese Communist spyware disguised as a shopping app.'",
+      "evidence": "Texas AG press release: AG Paxton stated 'Temu is Chinese Communist spyware disguised as a shopping app.' The complaint alleges the app contains 'dangerous software functions' that create 'a backdoor into user's private data' and personal information is 'stored on servers in China.' Filed under the Texas Deceptive Trade Practices Act (DTPA). Seeks monetary damages up to $10,000 per violation, with enhanced penalties up to $250,000 per violation for victims aged 65+. This was the fourth anti-CCP lawsuit filed by Paxton in three days.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Quotes verified from Texas AG official press release at texasattorneygeneral.gov."
+      }
+    },
+    {
+      "claim": "Common allegations across all five lawsuits center on four themes: malware/spyware, unauthorized data harvesting shared with the Chinese government, deceptive trade practices, and intellectual property infringement.",
+      "evidence": "All five complaints allege (1) Temu's app functions as malware/spyware designed to bypass device security; (2) collected data includes location, device identifiers, installed apps, and is accessible to the Chinese government under Chinese law; (3) deceptive pricing with fake reference prices, fake reviews, and misleading product descriptions; (4) counterfeiting and IP infringement of local brands. Kentucky and Arizona also allege forced labor in product manufacturing. All lawsuits name PDD Holdings Inc. and WhaleCo Inc. as defendants.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Synthesized from the five AG press releases and complaint documents. Each allegation theme appears in all five complaints."
+      }
+    },
+    {
+      "claim": "Severity assessment: State AG lawsuits collectively rated OPERATIONAL -- they require compliance changes but are not existential to Temu's US business.",
+      "evidence": "Per-violation penalties range from $2,000 (Kentucky) to $10,000 (Arkansas, Texas), with Texas adding enhanced penalties up to $250,000 for elderly victims. Even with thousands of violations, total financial exposure is likely in the tens of millions -- material but well under 1% of PDD's $40B+ annual revenue. However, if forensic malware findings are sustained in court, they could trigger federal scrutiny (CFPB, FTC) or legislative action. Temu has already denied all allegations and is fighting motions to dismiss. No case has reached trial as of March 2026. The Arkansas case (oldest) is still in pre-trial motions after 20+ months.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Severity assessment based on penalty structures from each complaint, PDD's disclosed revenue, and the observed pace of litigation. Upgrade to STRUCTURAL risk possible if federal agencies open parallel investigations based on state AG forensic findings."
+      }
+    },
+    {
+      "claim": "Temu's consistent defense across all lawsuits: allegations are 'based on misinformation circulated online, primarily from a short-seller, and are totally unfounded.'",
+      "evidence": "In response to the Kentucky lawsuit, a Temu spokesperson stated: 'The allegations in the Kentucky Attorney General's lawsuit are based on misinformation circulated online, primarily from a short-seller, and are totally unfounded.' Similar denials issued for all other state AG lawsuits. Temu states it 'will defend itself vigorously' and helps 'consumers and families access quality products at affordable prices.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Temu spokesperson quote from Kentucky Today and NKY Tribune reporting on July 17, 2025 response."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu", "WhaleCo"],
+    "topic_tags": ["regulatory", "state-attorney-general", "data-privacy", "malware", "deceptive-practices", "consumer-protection", "forced-labor", "IP-infringement"],
+    "timeline": {
+      "2024-06-25": "Arkansas files first state AG lawsuit (Cleburne County Circuit Court)",
+      "2025-06-12": "Nebraska files lawsuit",
+      "2025-07-17": "Kentucky files lawsuit (Woodford Circuit Court, 25-CI-00232)",
+      "2025-08-25": "Arkansas opposes Temu's motion to dismiss",
+      "2025-12-01": "Arizona files lawsuit (Maricopa County Superior Court)",
+      "2026-02-19": "Texas files lawsuit (fourth anti-CCP suit in three days by AG Paxton)"
+    },
+    "severity_rating": "operational",
+    "severity_rationale": "Financial penalties are manageable relative to PDD revenue. However, the escalating pattern (5 states in 20 months, bipartisan) and forensic malware findings create risk of federal escalation. No case has reached trial yet."
+  }
+}

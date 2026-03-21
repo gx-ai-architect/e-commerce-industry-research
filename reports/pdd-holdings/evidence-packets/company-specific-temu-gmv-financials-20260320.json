@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-CS-GMV-005",
+  "source": {
+    "type": "article",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "title": "PDD Holdings Q3 2025 Financials + Temu GMV Estimates",
+    "retrieved_at": "2026-03-20T06:50:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "PDD Q1 2025: Revenue RMB 95.67B (+10% YoY), operating profit RMB 16.09B (-38% YoY). Operating expenses up 37%.",
+      "evidence": "Q1 2025: Total revenues grew 10% year-over-year to RMB 95.67 billion, but operating profit decreased 38% to RMB 16.09 billion, with operating expenses up 37%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "PDD Holdings official earnings release"
+      }
+    },
+    {
+      "claim": "PDD Q2 2025: Revenue RMB 103.98B (+7% YoY, slowest growth pace). Operating profit RMB 25.79B (-21% YoY).",
+      "evidence": "Q2 2025: Revenue rose 7% year-over-year to RMB 103.98 billion. Operating profit fell 21% to RMB 25.79 billion. Slowest pace of expansion in years.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "PDD Holdings official earnings release. Bloomberg confirmed revenue beat but profit decline."
+      }
+    },
+    {
+      "claim": "PDD Q3 2025: Revenue RMB 108B. EPS: basic RMB 20.96 (US$2.94), diluted RMB 19.70 (US$2.77). Cash/investments: RMB 423.8B as of Sept 30, 2025.",
+      "evidence": "Q3 2025: Revenue RMB 108 billion. Basic EPS RMB 20.96 (US$2.94), diluted RMB 19.70 (US$2.77). Cash, cash equivalents, and short-term investments: RMB 423.8 billion.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Official PDD Holdings Q3 2025 press release"
+      }
+    },
+    {
+      "claim": "Temu 2024 GMV: ~$70.8B. 2025 GMV estimated ~$92.5B (+30% growth, slower than 400%+ in 2023). 2026 projected $125-130B (+35-40%).",
+      "evidence": "Temu 2024 GMV: $70.8B. 2025 GMV: approximately $92.5B on temu.com per ECDB. 2026 growth rate projected 35-40%, implying ~$125-130B.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "ECDB revenue/GMV methodology. PDD does not disclose Temu GMV separately. Growth deceleration from 400%+ (2023) to ~30% (2025) is consistent with maturation."
+      }
+    },
+    {
+      "claim": "European GMV on track to surpass $15B in 2025, could top $20B by end of 2026. US accounts for 29% of Temu revenue in 2025.",
+      "evidence": "Temu's European GMV is on track to surpass $15 billion in 2025 and could top $20 billion by the end of 2026. Temu's main market is the United States, where the retailer generated 29% of revenues in 2025.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Cross-Border Magazine and industry estimates. Notable that Europe's GMV share (~40%) now exceeds US (~30%)."
+      }
+    },
+    {
+      "claim": "PDD reallocated 20-30% of ad budget to Europe. Temu halted Google Shopping ads in US on April 9, 2025. US Facebook/Instagram/TikTok ad spend down 31% in two weeks.",
+      "evidence": "PDD reallocated 20-30% of its ad budget to Europe. Temu shut down all Google Shopping ads in the US on April 9. During March 31 to April 13, Temu's average daily US ad spend on Facebook, Instagram, TikTok, Snap, X and YouTube decreased by 31%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Ad spend data from industry tracking services"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["GMV", "revenue", "financials", "ad-spend", "geographic-mix"]
+  }
+}

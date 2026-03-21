@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-BM-002",
+  "source": {
+    "type": "filing",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001737806&type=20-F",
+    "title": "PDD Holdings XBRL Financial Data from SEC EDGAR + Quarterly Earnings Releases",
+    "retrieved_at": "2026-03-20T07:00:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD's investment income (interest) was RMB 20.55B in FY2024, up from RMB 10.24B in FY2023 and RMB 4.0B in FY2022 -- a 5x increase in 2 years",
+      "evidence": "XBRL tag InvestmentIncomeInterest: FY2022 RMB 3,997,100,000; FY2023 RMB 10,238,080,000; FY2024 RMB 20,553,493,000. This represents interest earned on the company's massive cash pile deployed into short-term investments, bank deposits, and treasury instruments.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Extracted directly from SEC EDGAR XBRL companyfacts API for CIK 0001737806. Cross-verified: Q4 2024 press release states 'Interest and investment income, net: RMB 5,233.2M' for Q4 alone."
+      }
+    },
+    {
+      "claim": "Interest income from bank deposits alone was RMB 7.31B in FY2024 (InterestIncomeDepositsWithFinancialInstitutions), with additional RMB 2.83B in operating interest income",
+      "evidence": "XBRL InterestIncomeDepositsWithFinancialInstitutions: FY2022 RMB 2,442,413,000; FY2023 RMB 5,750,934,000; FY2024 RMB 7,314,780,000. InterestIncomeOperating: FY2022 RMB 606,447,000; FY2023 RMB 1,354,785,000; FY2024 RMB 2,827,453,000.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From SEC EDGAR XBRL. These are subcomponents of the total investment income."
+      }
+    },
+    {
+      "claim": "Investment income equals 19% of FY2024 operating income and 18% of net income -- PDD's cash pile is a significant profit engine",
+      "evidence": "FY2024: Investment income RMB 20.55B / Operating income RMB 108.42B = 19.0%. Investment income RMB 20.55B / Net income RMB 112.43B = 18.3%. The pre-tax income of RMB 132.7B includes this RMB 20.55B + RMB 3.12B other non-operating income on top of the RMB 108.42B operating profit.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Computed from XBRL: InvestmentIncomeInterest / OperatingIncomeLoss for FY2024"
+      }
+    },
+    {
+      "claim": "Q3 2025 interest and investment income was RMB 8.57B; 9-month 2025 interest income can be derived as approximately RMB 19.2B",
+      "evidence": "Q3 2025 press release: Interest and investment income, net: RMB 8,565.2M. Q2 2025: RMB 10,422.6M. Q1 2025: RMB 223.1M (appears anomalously low, likely reflects timing of realized gains or mark-to-market effects). 9-month total: approximately RMB 19,210.9M.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Q1 figure appears anomalously low vs quarterly run-rate (~RMB 5.1B/quarter in FY2024). May reflect unrealized investment losses offsetting interest income in Q1 2025."
+      }
+    },
+    {
+      "claim": "PDD's cash, cash equivalents and short-term investments totaled RMB 423.8B ($59.5B) as of Sept 30, 2025",
+      "evidence": "Balance sheet: Cash/equivalents + short-term investments: RMB 331.6B (Dec 2024) -> RMB 364.5B (Mar 2025) -> RMB 387.1B (Jun 2025) -> RMB 423.8B (Sep 2025). Growing at approximately RMB 30B/quarter from operating cash flow retention.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From quarterly earnings releases. XBRL confirms FY2024 ShortTermInvestments = RMB 273,791,856,000."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["interest-income", "investment-income", "cash-float", "profit-engine"]
+  }
+}

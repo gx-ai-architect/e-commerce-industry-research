@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-GMV-006",
+  "source": {
+    "type": "article",
+    "url": "https://daoinsights.com/news/jd-com-reports-2024-gmv-around-4-5-trillion-rmb/",
+    "title": "Per-GMV Peer Comparison: PDD vs Alibaba vs JD.com (2024-2025)",
+    "retrieved_at": "2026-03-20T06:45:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "Per-GMV comparison shows PDD has highest profit/GMV ratio among Chinese e-commerce platforms",
+      "evidence": "PEER COMPARISON TABLE (FY2024 estimates, domestic operations focus):\n\n| Metric | PDD (domestic) | Alibaba (Taotian) | JD.com |\n|--------|-----------|-----------|--------|\n| Estimated GMV | RMB 4.2-4.8T | RMB 7.5-8.1T | RMB 4.0-4.5T |\n| Revenue | RMB 393.8B* | RMB 441.7B** | RMB 1,159B |\n| Revenue/GMV (Take Rate) | 4.5-5.5%*** | 5.5-6.0% | ~25-28% (1P heavy) |\n| Operating Income | RMB 108.4B | RMB 135.1B** | RMB 42.2B |\n| Op Income/GMV | 2.3-2.6% | 1.7-1.8% | 0.9-1.1% |\n| Marketing Spend/GMV | ~1.5-2.0% | ~2.0-2.5% | ~1.5-2.0% |\n\n* PDD revenue is consolidated (incl Temu). Domestic-only revenue est. ~RMB 210-240B, which would give domestic take rate of 4.4-5.7%\n** Alibaba Taotian Group revenue for FY2025 (ending Mar 2025)\n*** If domestic revenue ~RMB 220B / domestic GMV ~RMB 4.5T = 4.9% take rate\n\nKEY INSIGHT: PDD extracts more operating profit per unit of GMV (2.3-2.6%) than Alibaba (1.7-1.8%) or JD (0.9-1.1%). This is remarkable given PDD's lower AOV and lower take rate, suggesting superior operational efficiency.\n\nNOTE: JD's high revenue/GMV is misleading — JD is primarily 1P (reports gross revenue), while PDD and Alibaba are primarily 3P (report net revenue). Revenue comparisons without GMV normalization overstate JD's size relative to PDD.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "PDD revenue from XBRL (primary). Alibaba and JD figures from earnings releases and analyst reports (secondary). GMV figures are analyst estimates for all three (none disclosed GMV in 2024). Op income/GMV ratios computed."
+      }
+    },
+    {
+      "claim": "JD.com reported 2024 GMV of approximately RMB 4.5 trillion",
+      "evidence": "JD.com reports 2024 GMV around 4.5 trillion RMB, per Dao Insights. JD.com posted Q1 2025 revenue of RMB 301.1B ($41.5B USD), up 15.8% YoY.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "JD.com is one of few Chinese e-commerce platforms still disclosing GMV. Source: Dao Insights."
+      }
+    },
+    {
+      "claim": "Alibaba's domestic GMV (Taotian) estimated at RMB 7.5-8.1 trillion in 2024, with take rate improving",
+      "evidence": "Alibaba's Taotian CMR grew 12% YoY in Q1 2025, more than 2x GMV growth rate — indicating rising monetization/take rate. Analyst estimates put Taotian GMV at RMB 8.1T in 2024. Alibaba is only e-commerce company globally with $1T+ merchandise volume.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Alibaba stopped disclosing GMV. Estimates from Visible Alpha and sell-side research."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "BABA", "alibaba", "JD", "jd-com"],
+    "topic_tags": ["gmv", "peer-comparison", "take-rate", "per-gmv-metrics", "monetization"]
+  }
+}

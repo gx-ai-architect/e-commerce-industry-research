@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-PRICE-005",
+  "source": {
+    "type": "article",
+    "url": "https://www.bloomberg.com/news/articles/2025-09-08/temu-plots-aggressive-us-comeback-with-60-price-cuts",
+    "title": "Temu September 2025 US comeback with 60% price cuts",
+    "retrieved_at": "2026-03-19T12:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Temu cut prices 18% on average (up to 60%) on best-selling US products in September 2025 as part of aggressive comeback strategy",
+      "evidence": "Bloomberg tracked at least two dozen of Temu's best-selling products and found prices dropped 18% on average in early September 2025 compared to late April 2025 (when de minimis exemption ended). Some items saw cuts as deep as 60%. This came after Temu had largely pulled back from the US market following tariff implementation. US sales had plunged >30% during some weeks in June 2025, continuing to fall >10% in July and August. App downloads fell from #1 to #5 in Apple Store; daily active users declined >40%.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Bloomberg reporting (Sep 8, 2025), cited by Business of Fashion, TT News, Quartz, Ecotextile News, and multiple other outlets. Specific product prices behind Bloomberg paywall."
+      }
+    },
+    {
+      "claim": "Temu restructured US logistics: local warehouses handle 15-20% of US volume in 2025, projected 20-25% by 2026",
+      "evidence": "Temu built fulfillment centers in California (91748), Texas, and New Jersey, plus 30+ global distribution points. Nearly 20 officially certified service warehouses in US across five key regions: East, West, Midwest, Great Lakes (Canada), and South Florida. Projected that by 2025, self-operated US warehouses handle 15-20% of total US goods volume, increasing to 20-25% by 2026. Temu encouraged sellers using alternative logistics providers to adopt its managed services. Some merchants use Amazon's fulfillment services (FBA) to ship Temu orders.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From amzprep.com warehouse directory, Supply Chain Dive, and TechBuzzChina Temu Watch analysis"
+      }
+    },
+    {
+      "claim": "Temu advertising resumed aggressively in September 2025 after near-complete pullback: from 'a few dozen' daily new ads in Q2 to 'thousands or 10,000+' by September",
+      "evidence": "According to Appgrowing Global tracking data, Temu's daily new US ad numbers jumped to thousands or exceeded 10,000 on some days in September 2025, up from just a few dozen or less most days in Q2 2025. However, marketing efforts remained subdued vs pre-tariff peak when Temu ran >20,000 new ads per day. The company was also pushing merchants to restock for US holiday season with deep discounts, with seller portal alerts urging price cuts in exchange for better app traffic.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Appgrowing Global data cited by Bloomberg. Merchant push details from Bloomberg merchant interviews."
+      }
+    },
+    {
+      "claim": "Shein captured 45% of fast-fashion app market share while Temu retreated, motivating Temu's comeback despite tariff costs",
+      "evidence": "During Temu's US pullback period, rival Shein returned to growth in the US market. Shein currently holds nearly 45% of the fast-fashion app market. This competitive pressure from Shein — not just Amazon — motivated Temu's aggressive comeback with deep discounts despite the tariff burden. PDD Holdings appears willing to absorb significant margin compression to defend US market position.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Bloomberg and Business of Fashion reporting. Shein market share figure cited in comeback coverage."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-09",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["pricing", "US-market", "tariff-response", "comeback", "logistics", "competitive"]
+  }
+}

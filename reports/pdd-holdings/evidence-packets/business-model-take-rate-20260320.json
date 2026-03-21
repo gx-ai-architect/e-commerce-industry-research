@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-BM-005",
+  "source": {
+    "type": "article",
+    "url": "https://nextgeninvestors.substack.com/p/initial-report-pdd-inc-nasdaqpdd",
+    "title": "PDD Take Rate Analysis and Peer Comparison",
+    "retrieved_at": "2026-03-20T07:00:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD's blended take rate is approximately 4-5%, but this is misleading because it blends Pinduoduo (net) and Temu (gross) revenue recognition models",
+      "evidence": "Analyst estimates of PDD's take rate: ~4% in 2022, projected to reach ~5% by 2025. Alibaba's marketplace take rate: ~5%. However, PDD's reported take rate is NOT directly comparable because: (1) Pinduoduo domestic revenue is NET (commission + ad fees / GMV), (2) Temu revenue includes GROSS merchandise value for fully-managed orders. A proper take rate should be calculated separately: Pinduoduo domestic take rate ~3-4% (marketplace fees on ~$500B+ GMV), Temu effective take rate is distorted by gross recognition.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "PDD does not disclose GMV, making precise take rate calculation impossible. Estimates from analyst reports (NexGen Investors, CMBI). The blended take rate is only meaningful for trend analysis, not cross-platform comparison."
+      }
+    },
+    {
+      "claim": "Pinduoduo's domestic take rate has been rising steadily, from ~3% to an estimated 4-5%, driven by increasing ad monetization (CPC auction density)",
+      "evidence": "Analyst projections suggest Pinduoduo main app could achieve RMB 4.7T GMV in 2025 (approximately 60% of Alibaba) with an improving take rate approaching 5%, matching Alibaba's level. The improvement is driven by: (1) higher CPC ad prices as merchant competition intensifies, (2) introduction of new ad formats, (3) deeper merchant dependency on Pinduoduo's traffic.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Based on analyst estimates. PDD has not disclosed GMV since 2020. Alibaba take rate ~5%, rising with Quanzhantui tool."
+      }
+    },
+    {
+      "claim": "Peer take rate comparison: PDD ~4-5%, Alibaba ~5% (rising), JD.com ~3-5% (1P margins), Shopee ~11-12% (includes logistics)",
+      "evidence": "Take rate benchmarks across Asian e-commerce: Alibaba Taobao/Tmall: ~5%, increasing via 0.6% software service fee + Quanzhantui penetration (now 30%, target 45-50% in FY2026). JD.com: 3-5% effective margin on 1P retail, expanding 3P marketplace. Shopee: ~11-12% (revenue/GMV = $9B/$78.5B), includes logistics and payment fees. PDD: ~4-5% blended, but Pinduoduo domestic likely lower and Temu distorted by gross recognition.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Shopee take rate computed from FY2023 revenue $9B / GMV $78.5B = 11.5%. Alibaba from earnings calls. JD from 1P margin analysis."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "alibaba", "jd-com", "shopee"],
+    "topic_tags": ["take-rate", "peer-comparison", "monetization"]
+  }
+}

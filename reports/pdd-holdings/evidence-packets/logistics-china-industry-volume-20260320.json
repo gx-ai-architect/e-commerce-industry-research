@@ -1,0 +1,117 @@
+[
+  {
+    "packet_id": "PKT-LOG-CHINA-INDUSTRY-001",
+    "source": {
+      "type": "article",
+      "url": "https://en.people.cn/n3/2026/0107/c90000-20411262.html",
+      "title": "China's express deliveries top 200 billion parcels in 2025: official data",
+      "retrieved_at": "2026-03-20T06:36:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "China total postal parcel volume reached 216.51 billion in 2025, up 11.8% YoY (express delivery portion ~199 billion)",
+        "evidence": "Total parcel volume handled by the sector reached 216.51 billion, marking an 11.8% increase YoY. Express delivery parcels specifically reached ~199 billion items. Revenue from express delivery services reached 1.5 trillion yuan ($215 billion), up 6.5% YoY.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From State Post Bureau official data reported by People's Daily, January 7, 2026"
+        }
+      },
+      {
+        "claim": "China 2026 official projection: parcel deliveries to reach 214 billion items, up ~8% YoY",
+        "evidence": "Official projections for 2026 show that parcel deliveries are likely to reach 214 billion items, representing a year-on-year increase of about 8 percent.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From State Post Bureau annual conference January 2026"
+        }
+      },
+      {
+        "claim": "China express delivery volume grew from 80B to nearly 200B parcels during 14th Five-Year Plan (2021-2025)",
+        "evidence": "During the 14th Five-Year Plan period (2021-25), China's express delivery volume increased from over 80 billion parcels annually to nearly 200 billion, contributing more than 60% of global growth. Per capita parcels rose from 59 to 141 per year.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From State Post Bureau data reported across multiple Chinese media outlets"
+        }
+      },
+      {
+        "claim": "China processes 6,200+ parcels per second on average; monthly volume exceeds 16 billion",
+        "evidence": "China now handles more than 16 billion parcels monthly, processing over 6,200 parcels per second on average. Single-day delivery volume hit a record 777 million items.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From China Daily, December 2025"
+        }
+      },
+      {
+        "claim": "China express market valued at $131.84B in 2025, projected $196.47B by 2031 (6.87% CAGR)",
+        "evidence": "China courier express and parcel market valued at USD 131.84 billion in 2025, estimated to grow from USD 140.9 billion in 2026 to USD 196.47 billion by 2031 at 6.87% CAGR.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Mordor Intelligence market research report"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-01",
+      "company_tags": ["PDD", "pdd-holdings"],
+      "topic_tags": ["logistics", "parcel-volume", "china-industry", "state-post-bureau", "market-size"]
+    }
+  },
+  {
+    "packet_id": "PKT-LOG-PDD-DOMESTIC-001",
+    "source": {
+      "type": "article",
+      "url": "https://thelowdown.momentum.asia/pinduoduo-builds-last-mile-parcel-delivery-stations-in-china/",
+      "title": "Pinduoduo Domestic Logistics: Parcel Share and Last-Mile Strategy",
+      "retrieved_at": "2026-03-20T06:36:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "Pinduoduo's parcel volume surpassed Taobao/Tmall in 2023, making it the largest single e-commerce source of express parcels in China",
+        "evidence": "Pinduoduo's parcel volume surpassed that of Taobao/Tmall in 2023, making it a dominant source of express delivery parcels in China. The 150 billionth parcel delivered in China in 2024 was ordered via Pinduoduo.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "Multiple industry sources confirm PDD overtook Taobao as largest parcel generator"
+        }
+      },
+      {
+        "claim": "Pinduoduo investing RMB 10B in instant retail (Duoduo Station) between Sept 2025 - Sept 2026, targeting 20M daily transactions",
+        "evidence": "Before the end of 2025, Pinduoduo expected to cover all provincial capitals and first-tier cities, aiming to achieve 20 million daily transactions. The company held an internal meeting revealing the initial investment in its instant retail project would exceed RMB 10 billion, allocated to infrastructure upgrades, software development, consumer and merchant subsidies, and collaboration with external delivery drivers.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From TechBuzz China reporting on Pinduoduo's instant retail entry, 2025"
+        }
+      },
+      {
+        "claim": "Pinduoduo subsidizes remote area delivery at RMB 0.05-0.12 per parcel; Duoduo Stations handle 25%+ of rural parcel volume",
+        "evidence": "Pinduoduo partnered with local operators, offering subsidies of 0.05 to 0.12 yuan per parcel, as well as guaranteed minimum monthly incomes of ~3,000 yuan for couriers in low-volume areas. In some agricultural regions, Duoduo Stations now account for over 25% of total parcel volume.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Momentum Works analysis of PDD last-mile strategy"
+        }
+      },
+      {
+        "claim": "ESTIMATE: China domestic express delivery cost per parcel is approximately RMB 2-5 (~$0.30-0.70 USD); Pinduoduo often absorbs this cost",
+        "evidence": "China's domestic express delivery costs are generally estimated at around 2-5 yuan per parcel for standard e-commerce deliveries. Pinduoduo often absorbs or subsidizes these costs, offering free shipping on most domestic orders. Package miniaturization trend drives rapid growth for carriers focused on low delivery prices.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "extrapolated",
+          "verifier_notes": "Industry-wide estimate, not PDD-specific disclosure. PDD does not disclose per-parcel logistics cost."
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2025-2026",
+      "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+      "topic_tags": ["logistics", "domestic", "last-mile", "duoduo-station", "instant-retail", "shipping-cost"]
+    }
+  }
+]

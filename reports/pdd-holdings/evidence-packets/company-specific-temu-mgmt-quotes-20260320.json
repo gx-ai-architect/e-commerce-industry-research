@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-CS-MGMTQUOTES-009",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/financial-information/quarterly-results/",
+    "title": "PDD Holdings Q2-Q3 2025 Earnings Call Management Quotes",
+    "retrieved_at": "2026-03-20T06:55:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Lei Chen Q2 2025: 'We continued to invest in merchant support initiatives, and are encouraged by the progress towards a healthier and more sustainable platform ecosystem.' Prioritizing 'long-term impact over short-term results.'",
+      "evidence": "Lei Chen, Q2 2025 earnings call (August 25, 2025): 'In the past quarter, we continued to invest in merchant support initiatives, and are encouraged by the progress made towards a healthier and more sustainable platform ecosystem.' Company is 'prioritizing long-term impact over short-term results.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From official PDD Q2 2025 earnings call transcript via Yahoo Finance, PYMNTS.com"
+      }
+    },
+    {
+      "claim": "Jun Liu Q2 2025: 'Revenues growth further moderated this quarter amid intense competition. Sustained investments may continue to weigh on short-term profitability.'",
+      "evidence": "Jun Liu, VP of Finance, Q2 2025 earnings call: 'Revenues growth further moderated this quarter amid intense competition.' 'As we remain focused on long-term value creation, the sustained investments may continue to weigh on short-term profitability.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Official earnings call transcript"
+      }
+    },
+    {
+      "claim": "Lei Chen on local fulfillment strategy: 'No matter how policies shift, we'll continue to strengthen our operations in the markets we serve, helping more local merchants grow on our platform and enabling more orders to be fulfilled from local warehouses.'",
+      "evidence": "Lei Chen: 'No matter how policies shift, we'll continue to strengthen our operations in the markets we serve, helping more local merchants grow on our platform and enabling more orders to be fulfilled from local warehouses.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Key strategic quote confirming local warehouse expansion as core response to tariffs"
+      }
+    },
+    {
+      "claim": "Lei Chen Q3 2025: 'Today, with rapid evolution of trade barriers, we are seeing a significant shift in the regulatory environment for the global business. We will inevitably face greater challenges and uncertainties.'",
+      "evidence": "Lei Chen, Q3 2025 earnings call (November 18, 2025): 'Today, with a rapid evolution of trade barriers, we are seeing a significant shift in the regulatory environment for the global business. We will inevitably face greater challenges and uncertainties.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Q3 2025 earnings call transcript. PDD stock fell 7.33% on earnings day."
+      }
+    },
+    {
+      "claim": "PDD Q2 2025 fulfillment costs up 36% YoY, reflecting warehouse buildout and local logistics investment. Total costs of revenues were RMB 45.86B.",
+      "evidence": "Q2 2025: Total costs of revenues were RMB 45,858.9 million, an increase of 36%. The increase mainly came from increased fulfilment fees, bandwidth and server costs, and payment processing fees.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "36% cost increase vs 7% revenue growth shows massive margin compression from warehouse/logistics buildout"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["earnings-call", "management-quotes", "strategy", "profitability"]
+  }
+}
