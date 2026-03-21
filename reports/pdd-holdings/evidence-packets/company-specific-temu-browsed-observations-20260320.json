@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-CS-BROWSE-008",
+  "source": {
+    "type": "filing",
+    "url": "https://www.temu.com/shipping-info.html",
+    "title": "Temu.com Direct Browsing Observations - March 2026",
+    "retrieved_at": "2026-03-20T06:38:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Temu.com US requires login/registration to browse products or search (login gate). Footer shows copyright 2022-2026 WhaleCo Inc. Shipping info and policy pages are publicly accessible.",
+      "evidence": "Browsed temu.com on 2026-03-20: Homepage and search results blocked by mandatory sign-in modal. Cannot browse products without account. Footer: '2022-2026 Whaleco Inc.' Shipping info page accessible without login.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Direct observation via headless browser. Login gate is a significant change from earlier Temu (previously allowed anonymous browsing). May reduce casual traffic."
+      }
+    },
+    {
+      "claim": "Temu shipping page promises: Price adjustment within 30 days, Free shipping (excludes local items), Free returns up to 90 days, Delivery guarantee with refund for any issue.",
+      "evidence": "From temu.com header/shipping page: 'Price adjustment Within 30 days', 'Free shipping Excludes local items', 'Free returns Up to 90 days', 'Delivery guarantee Refund for any issue'.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Direct observation from browsing. Note: 'Excludes local items' distinction for free shipping suggests local warehouse items may have different shipping economics."
+      }
+    },
+    {
+      "claim": "Temu shipping page states orders may take 1-3 days to process, delivery times shown at checkout. Items may be handed to local carriers for final delivery. P.O. boxes accepted for most items.",
+      "evidence": "From temu.com/shipping-info.html: 'It may take 1-3 days to process your order.' 'You may choose standard shipping, express shipping or Click & Collect.' 'Orders may be handed over to local carriers for the final leg of delivery.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Direct observation from temu.com shipping info page. Click & Collect option is new, suggesting physical pickup points."
+      }
+    },
+    {
+      "claim": "Items marked 'Local Warehouse' ship from within US, no import taxes or customs fees. Banner on checkout explains import charges for overseas items cover all customs-related processes.",
+      "evidence": "Temu site displays: 'Items marked with the Local Warehouse tag are shipped from within your country or region. This means you do not need to pay any import taxes or customs fees.' For imported items: 'Items imported into the U.S. may be subject to import charges. These charges cover all customs-related processes and costs, including import fees paid to customs authorities on your behalf.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Corroborated by LiveNowFox, CBS News, CNN reports on Temu checkout experience. Two-tier pricing clearly distinguishes local vs imported."
+      }
+    },
+    {
+      "claim": "Temu UK site (temu.com/uk) also requires login gate. Same corporate footer (WhaleCo Inc). Cannot compare UK vs US pricing without accounts.",
+      "evidence": "Browsed temu.com/uk on 2026-03-20: Same login gate blocking product browsing. Footer identical: '2022-2026 Whaleco Inc.' Product/pricing comparison not possible without authenticated sessions.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Direct observation. Login gate across all markets is a notable UX friction point."
+      }
+    },
+    {
+      "claim": "kuajingmaihuo.com (Chinese seller portal) requires QR code login via seller app. Shows links to Seller Academy, Rules Center, Service Market.",
+      "evidence": "Browsed kuajingmaihuo.com on 2026-03-20: Requires QR code login via latest Seller Center app. Shows: '商家入驻' (merchant onboarding), '服务市场' (service market), '卖家课堂' (seller academy), '规则中心' (rules center). License: 沪ICP备2024047725号-6.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Direct observation. Chinese portal distinct from seller.temu.com (US-facing portal)."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["browse-observation", "shipping", "pricing", "UX", "seller-portal"]
+  }
+}

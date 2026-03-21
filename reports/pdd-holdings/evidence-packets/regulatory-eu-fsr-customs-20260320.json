@@ -1,0 +1,87 @@
+{
+  "packet_id": "PKT-REG-EU-002",
+  "source": {
+    "type": "article",
+    "url": "https://www.bloomberg.com/news/articles/2025-12-10/temu-s-europe-hq-raided-as-part-of-eu-foreign-subsidy-probe",
+    "title": "EU Foreign Subsidies Regulation Investigation and Customs Reform Impact on Temu",
+    "retrieved_at": "2026-03-20T06:37:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "EC raided Temu's Dublin HQ on December 10, 2025 under the Foreign Subsidies Regulation (FSR)",
+      "evidence": "The European Commission confirmed that it 'has carried out an unannounced inspection at the premises of a company active in the e-commerce sector in the EU, under the Foreign Subsidies Regulation.' Reuters reported Temu as the company inspected. This was the second FSR dawn raid ever conducted.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed by Irish Times, RTE, Bloomberg, and multiple EU law firm analyses"
+      }
+    },
+    {
+      "claim": "FSR targets foreign subsidies including zero-interest loans, below-cost financing, tax breaks, and preferential treatment",
+      "evidence": "The FSR came into force on 12 July 2023 as a means to limit potential distortions of competition in the EU internal market as a result of financial contributions from non-EU governments. Foreign subsidies may take the form of zero-interest loans, other below-cost financing, tax breaks, or preferential tax treatment.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Van Doorne legal analysis of FSR"
+      }
+    },
+    {
+      "claim": "EU to impose €3 flat customs fee on parcels under €150 starting July 1, 2026; full elimination of de minimis by 2028",
+      "evidence": "The new fee will take effect July 1, 2026, and will apply to all low-value parcels purchased online and shipped from non-EU nations. The fee applies per parcel, not per item. An additional €2 handling fee for platforms planned for November 2026. Full customs duty system via Customs Data Hub launching 2028.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: European Commission December 11 release; Euronews reporting"
+      }
+    },
+    {
+      "claim": "4.6 billion parcels valued under €150 entered the EU in 2024; over 90% from China; 65%+ undervalued or split",
+      "evidence": "The European Commission estimates that roughly 4.6 billion parcels valued under €150 entered the EU in 2024, more than 90% of which came from China. Furthermore, more than 65% of those parcels were undervalued or split into multiple packages to stay under the €150 threshold.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: European Commission estimates"
+      }
+    },
+    {
+      "claim": "Temu has ~116 million average monthly users in the EU despite launching only in April 2023",
+      "evidence": "Temu has drawn in tens of millions of shoppers globally with rock-bottom prices, and already has around 116 million average monthly users in the EU, despite only launching in the market in April 2023.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Bloomberg/Irish Times FSR coverage"
+      }
+    },
+    {
+      "claim": "France imposed up to €5/item eco-tax in 2025 rising to €10 by 2030, plus €40M Shein fine; Italy fined Shein €1M",
+      "evidence": "France imposed up to €5 per item eco-tax in 2025, rising to €10 by 2030, plus ad/influencer bans for ultra-fast fashion, and a €40m fine on Shein for deceptive promotions. Italy fined Shein €1m for misleading environmental claims.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "National-level enforcement actions in EU member states"
+      }
+    },
+    {
+      "claim": "New EU Digital Fairness Act and revamped CPC Regulation announced for 2026 targeting dark patterns and addictive design",
+      "evidence": "Commissioner McGrath announced two major enforcement initiatives for 2026: a revamped CPC Regulation giving the EU stronger centralised powers to pursue cross-border breaches, and a new Digital Fairness Act to crack down on dark patterns, addictive design features, and unfair personalised advertising.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: EU enforcement outlook reporting"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "FSR", "customs", "EU", "trade-policy", "foreign-subsidies"],
+    "severity_assessment": {
+      "action": "EU FSR investigation (dawn raid) + customs reform (€150 de minimis elimination)",
+      "severity": "operational",
+      "rationale": "FSR investigation is early-stage (dawn raid only, no formal charges yet). Outcome uncertain but could force disclosure of any Chinese government financial support. Customs reform (€3/parcel fee from July 2026) is manageable but adds cost. Temu already adapting with local EU warehousing, similar to US pivot. National-level fines ($1.7M Poland) are cosmetic. Cumulative pressure across DSA + FSR + customs is the real concern.",
+      "status": "investigation_underway",
+      "next_milestone": "FSR formal investigation decision expected H1-H2 2026; €3 customs fee takes effect July 1, 2026; Digital Fairness Act proposal expected 2026"
+    }
+  }
+}

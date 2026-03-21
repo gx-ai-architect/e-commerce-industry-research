@@ -1,0 +1,126 @@
+[
+  {
+    "packet_id": "PKT-LOG-AIRFREIGHT-001",
+    "source": {
+      "type": "dataset",
+      "url": "https://www.aircargonews.net/supply-chains/china-us-airfreight-rates-rise-ahead-of-trade-dispute-restart/1080772.article",
+      "title": "China-US Air Freight Rates 2025-2026",
+      "retrieved_at": "2026-03-20T06:40:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "China-US air freight rate reached $5/kg in mid-Oct 2025 (TAC Index), up 2.5% WoW",
+        "evidence": "TAC Index figures show average airfreight rates from China to US increased 2.5% week on week to $5 per kg as of mid-October 2025. First time rates reached $5/kg since mid-August. Rate increase driven by Trump threatening 100% tariffs on China from November 1.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Air Cargo News citing TAC Index data"
+        }
+      },
+      {
+        "claim": "China-US air cargo rates fell 16% to ~$6.25/kg by late December 2025",
+        "evidence": "By late December 2025, China-US air cargo prices fell 16% to about $6.25/kg, their lowest level since early November. South East Asia-US rates fell 19% to $4.60/kg.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Freightos weekly freight update, December 30, 2025"
+        }
+      },
+      {
+        "claim": "Typical China-US air freight range in 2025: $3.10-$4.70/kg (general), $4-7/kg (spot), $8-12/kg (express/door-to-door)",
+        "evidence": "In 2025, typical China-USA air freight charges per kg ranged $3.10-$4.70 depending on route, airline, season, and weight break. Spot rates $4-7/kg. Express/door-to-door rates $8-12/kg.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "Aggregated from multiple freight forwarder rate guides"
+        }
+      },
+      {
+        "claim": "Typical air freight cost per e-commerce parcel from China to US: $3-8 per parcel (0.5-2kg weight range)",
+        "evidence": "Industry reports indicate cross-border e-commerce parcels (0.5-2kg) cost $3-8 to ship by air from China to US/EU, depending on route, weight, and carrier.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "extrapolated",
+          "verifier_notes": "Based on per-kg rates and typical parcel weight range for e-commerce"
+        }
+      },
+      {
+        "claim": "Global air cargo demand (CTK) grew 13.6% in 2024; air cargo load factor 48.3% (IATA)",
+        "evidence": "Global air cargo demand (CTK) growth 2024: +13.6%. Global air cargo capacity (ACTK) growth 2024: +8.5%. Air cargo load factor 2024: 48.3%. Strong demand driven by e-commerce growth, particularly from Asia-Pacific region.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From IATA Press Release December 2024"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2025-2026",
+      "company_tags": ["PDD", "pdd-holdings", "temu"],
+      "topic_tags": ["air-freight", "logistics", "shipping-costs", "tac-index", "iata"]
+    }
+  },
+  {
+    "packet_id": "PKT-LOG-DEMINIMIS-001",
+    "source": {
+      "type": "article",
+      "url": "https://redstagfulfillment.com/how-many-packages-are-sent-under-de-minimis/",
+      "title": "De Minimis End: Impact on Temu and Cross-Border E-Commerce 2025-2026",
+      "retrieved_at": "2026-03-20T06:40:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "Section 321 de minimis timeline: Feb 1 2025 EO for China → May 2 2025 China/HK exclusion → Aug 29 2025 all countries suspended → July 1 2027 permanent repeal",
+        "evidence": "Feb 1, 2025: Trump EO eliminating de minimis for China imports. May 2, 2025: Section 321 eliminated for China/HK. July 30, 2025: EO 14324 suspending de minimis for all countries effective Aug 29. July 4, 2025: Congress passed 'One Big Beautiful Bill Act' permanently repealing Section 321 effective July 1, 2027.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From multiple legal and trade policy sources"
+        }
+      },
+      {
+        "claim": "CBP processed ~4.5 million Section 321 entries per day in 2024 (95.1% of all US import entries); volume jumped from 220M in 2016 to over 1 billion",
+        "evidence": "US CBP processed approximately 4,500,000 Section 321 informal entries per day in 2024. Section 321 entries represented 95.1% of all US import entries. Volume jumped from 220 million in 2016 to over a billion, with Chinese platforms accounting for ~600,000 daily shipments.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From CBP statistics and Red Stag Fulfillment analysis"
+        }
+      },
+      {
+        "claim": "Post-de-minimis: 30% decline in Section 321 filings; processing time increased from 2-4 hours to 2-4 days; additional $10-20 brokerage/handling fees per parcel",
+        "evidence": "30% decline in total Section 321 filings. Processing times for formerly exempt shipments increased from 2-4 hours to 2-4 days. Brands must budget for new brokerage and handling fees from carriers/customs brokers, adding $10-20 to each parcel.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Stord de minimis guide and industry reporting"
+        }
+      },
+      {
+        "claim": "Nearly 40% of online shoppers likely to abandon carts when faced with tariff/duty surcharges at checkout",
+        "evidence": "Nearly 40% of online shoppers are likely to abandon their carts when faced with extra tariff and duty surcharges at checkout.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From consumer survey data cited by multiple trade publications"
+        }
+      },
+      {
+        "claim": "US consumer spending on Temu fell ~36% in May 2025 following de minimis end; company pivoted focus toward European markets",
+        "evidence": "U.S. consumer spending on Temu fell approximately 36 percent in May 2025. The company has strategically shifted focus toward European markets.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From market research data cited by E-Commerce Germany News"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2025-2026",
+      "company_tags": ["PDD", "pdd-holdings", "temu", "shein"],
+      "topic_tags": ["logistics", "de-minimis", "section-321", "tariffs", "customs", "regulatory"]
+    }
+  }
+]

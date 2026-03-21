@@ -1,0 +1,78 @@
+{
+  "packet_id": "PKT-REG-US-001",
+  "source": {
+    "type": "article",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/805/all-info",
+    "title": "US Section 321 De Minimis Reform and Tariff Impact on PDD/Temu",
+    "retrieved_at": "2026-03-20T06:35:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "Section 321 de minimis exemption for Chinese goods ended May 2, 2025 via Executive Order; global suspension effective August 29, 2025",
+      "evidence": "For products of China and Hong Kong, de minimis ended on May 2, 2025. Effective August 29, 2025, an Executive Order suspended duty-free treatment for low-value shipments (valued at or under $800) from all countries.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed via Congress.gov CRS report R48380 and White & Case analysis"
+      }
+    },
+    {
+      "claim": "One Big Beautiful Bill (signed July 4, 2025) legislatively phases out de minimis by July 2027 with civil fines for misuse effective August 3, 2025",
+      "evidence": "When Congress signed H.R. 1 on July 4, 2025, it tightened de minimis in two ways: Civil fines for misuse take effect August 3, 2025. Anyone who splits a large order into many $799 parcels or misstates value faces up to $5,000 in fines for a first violation and $10,000 for repeat offenses. The One Big Beautiful Bill Act phases out the exemption entirely by July 2027.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed via Congress.gov and multiple legal analyses"
+      }
+    },
+    {
+      "claim": "145% tariff on Chinese goods forced Temu to add 130-150% import charges, then pivot to local fulfillment model",
+      "evidence": "Shoppers who attempted to purchase Temu products shipped from China were confronted with 'import charges' of between 130% and 150%. The fees often cost more than the individual item. Temu ultimately transitioned to 'a local fulfillment model' with all U.S. sales now handled by local sellers and fulfilled from within the country.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: CNBC reports April-May 2025"
+      }
+    },
+    {
+      "claim": "Temu transaction services revenue grew only 1% YoY in Q2 2025 (vs 234% YoY in Q2 2024); gross margin shrank from 65.3% to 55.9%",
+      "evidence": "Transaction services revenue for Q2 2025 grew by merely 1% YoY (vs. 234% YoY in Q2 2024), owing to the change in the de minimis exemption policy in the U.S. market. PDD's gross profit margin shrank to 55.9% in Q2 2025, down from 65.3% in Q2 2024.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: PDD Holdings earnings and analyst reports"
+      }
+    },
+    {
+      "claim": "US apparel tariff rates are 14.6-16.6% MFN, making de minimis critical for fast-fashion e-commerce",
+      "evidence": "HTS tariff data: T-shirts (6109) 16.5%, Women's apparel (6204) 16%, Men's apparel (6203) 16.6%, Accessories (6217) 14.6-16%. Section 321 exemption eliminated these duties for shipments under $800.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: fetch-tariff-rates.py script output from USITC HTS data"
+      }
+    },
+    {
+      "claim": "CBP processed approximately 4.5 million Section 321 entries per day in 2024, representing 95.1% of all US import entries",
+      "evidence": "Section 321 daily entries: 4,500,000. Section 321 entries represented 95.1% of all US import entries in 2024. Total import entries approximately 40,000,000.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Source: fetch-cbp-stats.py script output; projected from 2023 baseline"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "tariff", "de-minimis", "section-321", "customs", "trade-policy"],
+    "severity_assessment": {
+      "action": "US de minimis elimination + 145% China tariff",
+      "severity": "structural",
+      "rationale": "Fundamentally changed Temu's cross-border economics. Forced complete business model pivot from direct-from-China to local fulfillment. Q2 2025 transaction revenue growth collapsed from 234% to 1% YoY. Gross margin declined 940bps. However, company adapted with local warehousing, showing operational resilience.",
+      "status": "enacted_and_enforced",
+      "next_milestone": "Full legislative phase-out by July 2027 under OBBB; ad valorem only methodology effective Feb 28, 2026"
+    }
+  }
+}

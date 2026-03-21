@@ -1,0 +1,64 @@
+[
+  {
+    "packet_id": "PKT-LOG-TEMU-US-VOLUME-001",
+    "source": {
+      "type": "article",
+      "url": "https://www.supplychaindive.com/news/temu-shein-shipping-delivery-industry-impact/725215/",
+      "title": "Temu and Shein US Package Volume - ShipMatrix Data",
+      "retrieved_at": "2026-03-20T06:38:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "Temu shipped ~1 million packages/day in US during late 2023 holiday season (ShipMatrix)",
+        "evidence": "Shein and Temu were each shipping an estimated one million packages a day on average in the U.S., according to parcel-shipping consultant ShipMatrix. The average daily parcel volume in the U.S. was around 82 million that season.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ShipMatrix data cited by WSJ and Supply Chain Dive"
+        }
+      },
+      {
+        "claim": "Temu US daily volume ~900K packages in July 2024 (ShipMatrix)",
+        "evidence": "In July 2024, the e-commerce marketplaces each provided carriers with about 900,000 packages daily in the U.S., according to ShipMatrix data.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ShipMatrix data cited by Supply Chain Dive/Fashion Dive"
+        }
+      },
+      {
+        "claim": "Post-de-minimis: Temu US daily shipments dropped to 250K-300K packages/day in 2025",
+        "evidence": "Temu's marketplace platform ships roughly 250,000-300,000 packages daily in 2025, likely reflecting the impact of de minimis policy changes. The May 2, 2025 exclusion of China and Hong Kong reduced de minimis volumes by 30-35%.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "extrapolated",
+          "verifier_notes": "Lower figure likely reflects post-de-minimis reality. Cross-referenced with 30-35% decline in Section 321 filings."
+        }
+      },
+      {
+        "claim": "US total domestic parcel market: 23.9 billion packages in 2025, $196B revenue (+4.1%), ~91M weekday average",
+        "evidence": "The total U.S. domestic parcel market reached 23.9 billion packages in 2025, with revenue of $196 billion (+4.1%), showing low marginal growth. Average volumes were 91 million per weekday.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ShipMatrix press release March 16, 2026"
+        }
+      },
+      {
+        "claim": "ShipMatrix projects US parcel market to grow at 3.9% CAGR to 26.8B packages by 2028",
+        "evidence": "ShipMatrix is forecasting that the U.S. parcel market volume will grow at 3.9% CAGR over the next 3 years, reaching 26.8 billion in 2028.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ShipMatrix March 2026 press release"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": ["PDD", "pdd-holdings", "temu"],
+      "topic_tags": ["logistics", "parcel-volume", "us-market", "shipmatrix", "de-minimis-impact"]
+    }
+  }
+]

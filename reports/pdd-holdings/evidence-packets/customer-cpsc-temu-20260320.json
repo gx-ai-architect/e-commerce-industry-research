@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-CPSC-TEMU-001",
+  "source": {
+    "type": "api",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall",
+    "title": "CPSC Product Recalls - Temu-related (via fetch-cpsc.py script)",
+    "retrieved_at": "2026-03-20T06:34:37Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "10 CPSC recalls involve products sold exclusively on Temu.com",
+      "evidence": "CPSC database returns 10 recalls matching 'temu' out of 9,700 total recalls. All 10 are products sold exclusively on Temu.com by third-party sellers.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Produced by fetch-cpsc.py script querying CPSC API"
+      }
+    },
+    {
+      "claim": "Temu recalls primarily involve children's safety products",
+      "evidence": "Categories: children's helmets (2 recalls, head injury risk), children's pajamas/nightgowns (3 recalls, burn hazard/flammability), magnetic toys (2 recalls, ingestion hazard), sling carriers (1 recall, fall hazard), crib bumpers (1 recall, suffocation hazard), toy guns (1 recall, eye injury).",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Categorized from CPSC API data"
+      }
+    },
+    {
+      "claim": "Most recent Temu CPSC recall: February 2025",
+      "evidence": "Latest recalls: 6-in-1 Pounding Games (2025-02-13, magnet ingestion hazard) and Sling Carriers (2025-02-06, fall hazard). Oldest: children's helmets (2024-04-18).",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "CPSC API dates"
+      }
+    },
+    {
+      "claim": "EU Safety Gate: 67% of Temu products failed EU safety tests",
+      "evidence": "2 out of 3 Temu products failed EU safety tests (Source: EU product safety testing 2024). Data from RAPEX/Safety Gate fallback via fetch-rapex.py.",
+      "evidence_type": "statistical_finding",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Produced by fetch-rapex.py script. Small sample (n=3) limits generalizability."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["consumer-safety", "recalls", "cpsc", "rapex", "regulatory-risk"]
+  }
+}

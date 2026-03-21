@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-CS-WAREHOUSE-004",
+  "source": {
+    "type": "article",
+    "url": "https://amzprep.com/where-is-temu-warehouse-located/",
+    "title": "Temu Warehouse Locations 2026 Directory",
+    "retrieved_at": "2026-03-20T06:45:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "By October 2025, Temu operated 13 self-owned warehouses globally: 10 in Europe, 2 in the US, 1 near US-Mexico border (120,000 sqm 'Jitu Warehouse').",
+      "evidence": "By October 2025, Temu operated 13 self-owned warehouses globally, including 10 in Europe, 2 in the United States, and one near the US-Mexico border. The Mexico border warehouse is a 120,000-square-meter 'Jitu Warehouse.'",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple sources confirm warehouse count and locations"
+      }
+    },
+    {
+      "claim": "US warehouse locations: California (Rowland Heights - WINIT America at 18501 Arenth Ave), Texas (Dallas), Georgia. Partners include WINIT and Easy Export as 3PL fulfillment.",
+      "evidence": "California warehouse in Rowland Heights (WINIT America at 18501 Arenth Ave, CA 91748). Texas (Dallas) as central US hub. Georgia also has fulfillment centers. Temu partnered with WINIT and Easy Export for 3PL fulfillment.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "WINIT address is publicly confirmed. Other locations from industry reports."
+      }
+    },
+    {
+      "claim": "Pre-tariff stockpiling: Temu pre-shipped large volumes by sea and stocked 3 months of inventory in US hubs before May 2 de minimis expiration.",
+      "evidence": "Ahead of the May 2 end to the U.S. de minimis exemption, the company pre-shipped large volumes of popular items by sea and stocked three months of inventory in U.S. hubs.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple sources including Marketplace Pulse and chinesellers.substack confirm pre-stockpiling strategy"
+      }
+    },
+    {
+      "claim": "European warehouses projected to handle 80% of European orders domestically by 2026, positioned in UK, Germany, Austria, Italy, Spain, France.",
+      "evidence": "Warehouses positioned in the UK, Germany, Austria, Italy, Spain, and France are projected to handle 80% of European orders domestically by 2026.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Projection based on current trajectory and EU de minimis changes expected 2026"
+      }
+    },
+    {
+      "claim": "Self-operated US warehouses projected to handle 15-20% of US volume in 2025, potentially 20-25% by 2026. Will not be primary delivery method in US.",
+      "evidence": "By 2025, Temu's self-operated warehouses in the US will handle 15% to 20% of total US goods volume, and this proportion may increase to 20% to 25% by 2026. Self-operated warehousing will not become the primary delivery method in the US.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Industry analyst projection. Majority of US fulfillment relies on 3PL partners and semi-managed merchant warehouses."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["warehousing", "logistics", "fulfillment", "US-operations", "Europe"]
+  }
+}

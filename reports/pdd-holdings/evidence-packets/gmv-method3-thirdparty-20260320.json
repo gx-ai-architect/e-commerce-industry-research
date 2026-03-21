@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-GMV-004",
+  "source": {
+    "type": "article",
+    "url": "https://www.ecommercebridge.com/amazon-pinduoduo-and-tiktok-lead-2025-gmv-ranking/",
+    "title": "GMV Estimation Method 3: Third-Party Estimates (ECDB, Analyst Reports, Industry Data)",
+    "retrieved_at": "2026-03-20T06:40:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "ECDB ranks Pinduoduo at $817 billion GMV in 2025, making it the world's #2 e-commerce platform by GMV",
+      "evidence": "According to ECDB data cited in ecommercebridge.com: 'Amazon ($845bn), Pinduoduo ($817bn) and Douyin, operated by ByteDance ($648bn), topped the global e-commerce ranking by GMV in 2025.' This $817B figure (~RMB 5.9T at 7.25 CNY/USD) represents total Pinduoduo platform GMV including domestic and may or may not include Temu.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "ECDB is a respected e-commerce database. However, methodology not fully transparent. The $817B figure is higher than most analyst estimates of domestic-only GMV (4.5-4.8T yuan / $620-660B), suggesting it may include Temu GMV."
+      }
+    },
+    {
+      "claim": "Analyst consensus for PDD domestic GMV in 2025 clusters around RMB 4.5-4.8 trillion ($620-660B)",
+      "evidence": "Multiple analyst theses: (1) PDD main app GMV projected at 4.7T yuan in 2025 (60% of Alibaba). (2) Another estimate: 4.5T yuan in 2025 at 10% CAGR from 2022. (3) In 2024, analysts expected PDD GMV to rise 23% YoY reaching 4.8T yuan. These are domestic Pinduoduo only, excluding Temu.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Aggregated from multiple analyst reports found via WebSearch. Individual analyst sources: Visible Alpha, Next Gen Investors (Substack), various sell-side notes."
+      }
+    },
+    {
+      "claim": "Temu crossed $50 billion GMV in 2025, with H1 2025 alone at ~$35 billion",
+      "evidence": "Temu crossed $50 billion in GMV in 2025. H1 2025 GMV approximately $35 billion. ECDB reports temu.com generated revenue of $92.5B in 2025 (likely GMV, not net revenue). IPC data: Temu's share of cross-border ecommerce = 24% in 2025.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Temu GMV figures vary significantly across sources. The $50B figure is more conservative and widely cited. The $92.5B ECDB figure may use a different definition. US tariff disruptions in mid-2025 significantly impacted Temu's US business."
+      }
+    },
+    {
+      "claim": "METHOD 3 (Third-Party Consensus): PDD consolidated GMV in 2025 estimated at RMB 5.0-6.3 trillion ($690-870B)",
+      "evidence": "CALCULATION:\n- Domestic Pinduoduo GMV: RMB 4.5-4.8T (analyst consensus)\n- Temu international GMV: ~$50-70B = RMB 360-510B\n- Total consolidated: RMB 4.9-5.3T (conservative) to RMB 5.3-6.3T (including higher Temu estimates)\n- Cross-check with ECDB $817B: RMB 5.9T — within the upper range\n\nRANGE: RMB 5.0-6.3 trillion consolidated ($690-870B)\nDOMESTIC: RMB 4.5-4.8 trillion ($620-660B)\nTEMU: RMB 360-510B ($50-70B)",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Synthesized from multiple third-party sources. Domestic estimate is higher confidence (multiple analyst convergence). Temu estimate is lower confidence (rapidly changing business, tariff disruptions)."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "temu"],
+    "topic_tags": ["gmv", "third-party-estimates", "triangulation", "method-3"]
+  }
+}

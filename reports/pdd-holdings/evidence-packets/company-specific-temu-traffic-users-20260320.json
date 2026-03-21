@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-CS-TRAFFIC-003",
+  "source": {
+    "type": "dataset",
+    "url": "https://tranco-list.eu/api/ranks/domain/temu.com",
+    "title": "Temu Traffic & User Data - Multi-Source",
+    "retrieved_at": "2026-03-20T06:33:58Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "temu.com ranked #377 globally on Tranco list as of March 19, 2026. Rank history shows slight improvement: 383 (Mar 15) -> 377 (Mar 19).",
+      "evidence": "Tranco API data: rank 377 on 2026-03-19, 378 on 2026-03-18, 379 on 2026-03-17, 382 on 2026-03-16, 383 on 2026-03-15.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Live API data from Tranco ranking service, retrieved 2026-03-20"
+      }
+    },
+    {
+      "claim": "Temu.com received 1.2 billion visits in February 2026, down 25.66% from January 2026. Average session duration 08:38.",
+      "evidence": "SemRush data: In February 2026, temu.com received 1.2 billion visits with the average session duration of 08:38. Compared to January, traffic decreased by 25.66%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "SemRush website analytics data for temu.com"
+      }
+    },
+    {
+      "claim": "Temu global MAU peaked at 530 million in August 2025. Cumulative downloads exceeded 1.2 billion by October 2025.",
+      "evidence": "Sensor Tower data: Temu's monthly global active users reached a record high of 530 million in August 2025. Cumulative global downloads exceeded 1.2 billion by October 2025.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Sensor Tower app analytics"
+      }
+    },
+    {
+      "claim": "US MAU declined 28% YoY to 133.6 million as of October 2025. US daily active users plunged 58% after de minimis ended.",
+      "evidence": "As of October 2025, Temu has 133.6 million monthly active users in the US, showing a 28% year-over-year decrease. Daily active users of Temu's US site declined as much as 58%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Sensor Tower and Bain & Company data. 58% DAU decline specifically tied to post-tariff period."
+      }
+    },
+    {
+      "claim": "EU MAU grew 74% YoY to 141.6 million. EU accounts for 34% of global user base in 2025. EU now surpasses US in user count.",
+      "evidence": "In the EU, Temu has 141.6 million monthly active users, an increase of 74% year-over-year. In 2025, the EU accounts for 34% of Temu's global user base.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "EU MAU (141.6M) now exceeds US MAU (133.6M), reflecting geographic diversification"
+      }
+    },
+    {
+      "claim": "Low customer retention: only 24% of first-time buyers likely to return.",
+      "evidence": "Customer retention remains a key challenge with only 24% of first-time buyers likely to return.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Industry analysis figure. Implies high customer acquisition cost relative to LTV."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["traffic", "MAU", "user-growth", "geographic-mix"]
+  }
+}

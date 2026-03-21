@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-INV-003",
+  "source": {
+    "type": "api",
+    "url": "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=US&q=temu",
+    "title": "Meta Ad Library + Google Ads Transparency Center — Temu Ad Spend Analysis",
+    "retrieved_at": "2026-03-20T06:34:01Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "Temu reduced US advertising spend by ~97% from 2023 to 2025 based on Meta Ad Library data",
+      "evidence": "Meta Ad Library (US): Baseline 2023: 10,000+ active ads; Current 2025: ~300 active ads. Change: -97% US ad reduction. Google Ads Transparency Center confirms: 2023-2024 heavy advertising across YouTube, Search, Display; 2025 significant reduction in US-targeted campaigns.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Data from Meta Ad Library API and Google Ads Transparency Center scripts. Both platforms independently confirm the dramatic US ad reduction."
+      }
+    },
+    {
+      "claim": "Temu shifted advertising focus from US to European markets in 2025",
+      "evidence": "Meta Ad Library: Shifted focus to European markets. Google Ads Transparency: Increased targeting of UK, Germany, France markets. Dramatic shift from US to European markets in 2025.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Both Meta and Google ad transparency tools confirm geographic reallocation"
+      }
+    },
+    {
+      "claim": "Temu's US Google Shopping ad impressions fell from 19% share to 0% after tariff changes",
+      "evidence": "Temu, a significant Super Bowl advertiser in 2024, drastically cut ad spending following the tariffs and de minimis policy changes, with their U.S. Google Shopping ad impressions falling from 19% to 0% in a short period.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Modern Retail and industry reporting on tariff impact"
+      }
+    },
+    {
+      "claim": "PDD's overall sales & marketing spend held flat in Q3 2025 despite ad cut in US, suggesting reallocation to merchant subsidies and non-US markets",
+      "evidence": "Q3 2025 S&M: RMB 30.32B vs RMB 30.48B prior year (-0.5% YoY). Yet US ad spend collapsed. This means either: (a) European ad spend increased proportionally, or (b) merchant subsidy spending (counted in S&M) increased significantly, or (c) both. The RMB 100B merchant support program announced in 2025 confirms the subsidy channel.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "S&M figure from Q3 2025 earnings. The reallocation interpretation is analyst inference based on ad library data + S&M flat trajectory."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["investment", "advertising", "ad-spend", "marketing", "meta-ads", "google-ads"]
+  }
+}

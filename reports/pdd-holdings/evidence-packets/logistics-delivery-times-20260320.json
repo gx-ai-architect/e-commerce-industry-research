@@ -1,0 +1,64 @@
+[
+  {
+    "packet_id": "PKT-LOG-DELIVERY-TIMES-001",
+    "source": {
+      "type": "article",
+      "url": "https://www.alibaba.com/product-insights/temu-vs-shein-vs-amazon-who-actually-has-the-best-shipping-times-right-now.html",
+      "title": "Temu vs Shein vs Amazon Delivery Time Comparison 2025-2026",
+      "retrieved_at": "2026-03-20T06:39:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "Temu standard delivery: 7-15 business days (free); express: 3-7 days (~$12.90, waived over $129); real delivery often 6-28 days",
+        "evidence": "Standard delivery takes 7-15 business days and is usually free. Express delivery takes 3-7 business days and costs around $12.90, often waived if order is over $129. Some have received orders within 6 days, while shipping issues including 3-4 week delays have also been reported.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From multiple shipping comparison sources, 2025-2026"
+        }
+      },
+      {
+        "claim": "Amazon Prime: 1-2 business days; standard: 3-5 days. Same-day delivery zones expanding.",
+        "evidence": "Amazon Prime shipping 1-2 business days for members. Standard shipping typically 3-5 business days. Amazon continues expanding same-day delivery zones.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "Well-established Amazon delivery benchmarks"
+        }
+      },
+      {
+        "claim": "Shein standard: 8-11 business days; 94% on-time delivery rate vs Temu's 82%",
+        "evidence": "Shein standard shipping takes 8-11 business days. Shein excels in consistency - 94% of packages arrived within estimated window, higher than Temu's 82%. Shein plans two more US distribution centers by late 2025.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From comparative shipping analysis"
+        }
+      },
+      {
+        "claim": "Cross-border delivery getting faster: parcels taking 15+ days declined from 29% in 2020 to 7% in 2025",
+        "evidence": "The proportion of parcels taking 15 days or more decreased sharply from 29% in 2020 to 7% in 2025. 20% of cross-border shoppers said 10-14 day transit common, 19% said 4-5 day transit common.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From cross-border e-commerce shipping survey data"
+        }
+      },
+      {
+        "claim": "Temu matched Amazon in cross-border e-commerce market share (24% each) in 2025, up from 1% in 2022",
+        "evidence": "Temu matched Amazon in cross-border e-commerce sales during 2025 with a 24% share of the market, highlighting the company's growth from just 1% in 2022.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From IndexBox market analysis"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2025-2026",
+      "company_tags": ["PDD", "pdd-holdings", "temu", "amazon", "shein"],
+      "topic_tags": ["logistics", "delivery-times", "peer-comparison", "cross-border"]
+    }
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-CS-DEMINIMIS-001",
+  "source": {
+    "type": "article",
+    "url": "https://www.livenowfox.com/news/temu-import-charges-trump-tariffs-what-know",
+    "title": "Temu adds import charges after Trump tariffs",
+    "retrieved_at": "2026-03-20T06:40:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Temu began adding import charges to US orders on April 25, 2025, stating: 'Due to recent changes in global trade rules and tariffs, our operating expenses have gone up. We will be making price adjustments.'",
+      "evidence": "Temu announcement on April 25, 2025: 'Due to recent changes in global trade rules and tariffs, our operating expenses have gone up. To keep offering the products you love without compromising on quality, we will be making price adjustments starting April 25, 2025.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Corroborated by CBS News, CNN, NPR, NewsNation reports"
+      }
+    },
+    {
+      "claim": "Import charges on Temu can exceed the product price itself. Example: Pancerka handheld steam iron listed at $25.80 had a $32.10 import charge. A garden bed planter at $124.13 had $142.73 in import charges.",
+      "evidence": "One top-selling item — the Pancerka handheld steam iron — is listed at $25.80. But when added to the cart, the site reveals a $32.10 import charge. A raised garden bed planter priced at $124.13 had an import charge of $142.73, bringing total to over $266.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Import charges reflect approximately 120-145% tariff rate on Chinese goods consistent with Trump's 145% tariff on China"
+      }
+    },
+    {
+      "claim": "De minimis exemption ($800 threshold) ended May 2, 2025 for China/Hong Kong. Expanded to all countries August 29, 2025. Further tightened February 24, 2026.",
+      "evidence": "May 2 2025: US eliminated de minimis for China/HK. Aug 29 2025: Extended to all countries via Executive Order 14324. Feb 2026: Postal carve-out ($80-$200 flat duty) expired Feb 28, 2026.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "White House executive orders, taxcloud.com, marketplace.org confirmed timeline"
+      }
+    },
+    {
+      "claim": "Temu halted direct China-to-US shipments in May 2025 and stated all US sales now handled by locally based sellers with orders fulfilled from within the country.",
+      "evidence": "Temu stated: 'Temu's pricing for U.S. consumers remains unchanged as the platform transitions to a local fulfillment model. All sales in the U.S. are now handled by locally based sellers, with orders fulfilled from within the country.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "CBS News, CNN confirmed Temu halted China shipments. However CNN noted products are still made in China, just pre-shipped to US warehouses."
+      }
+    },
+    {
+      "claim": "90% of Temu's pre-tariff business relied on the fully managed model using de minimis; only 10% was semi-managed.",
+      "evidence": "90% of Temu's business relied on the fully managed model that used the de minimis policy, and only 10% was the semi-managed model.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzz China analysis. Consistent with timeline: semi-managed launched March 2024, only 1 year before tariff shock."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["de-minimis", "tariffs", "import-charges", "pricing", "regulatory"]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-BM-CMBIGM-SOTP-001",
+  "source": {
+    "type": "article",
+    "url": "https://hk-official.cmbi.info/upload/c7cf65b8-a7e1-43e4-9e4d-d116b85b5925.pdf",
+    "title": "CMBIGM Equity Research: PDD Holdings (PDD US) - Company Update, August 26, 2025",
+    "retrieved_at": "2026-03-20T12:00:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "CMBIGM uses a Sum-of-the-Parts (SOTP) valuation for PDD Holdings, with the August 2025 report setting TP at US$146.3",
+      "evidence": "CMBIGM lifted 2025E non-GAAP net profit by 10%, while maintaining 2026-2027E largely unchanged, and lifted the SOTP-based target price by 9% to US$146.3 (from US$134.5). Analyst: Saiyi He, CMB International Securities. Date: August 26, 2025. Rating: BUY.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed via CMBIGM official PDF at hk-official.cmbi.info and corroborated by Yahoo Finance, Insider Monkey, ainvest.com, finviz.com all reporting same TP and date."
+      }
+    },
+    {
+      "claim": "SOTP breakdown (August 2025 report): Pinduoduo main app $94.0, Duoduo Grocery $1.9, Temu $20.5, Net Cash $29.8, Total $146.3 per ADS",
+      "evidence": "SOTP valuation breakdown: US$94.0 per ADS for the main Pinduoduo app based on 12.5x 2025E P/E; US$1.9 for Duoduo Grocery; US$20.5 for Temu based on 1.0x 2025E P/S; and US$29.8 for net cash (including financial assets). Total: US$146.3 per ADS.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "SOTP components sourced from CMBIGM official research PDF. Sum: 94.0 + 1.9 + 20.5 + 29.8 = 146.2 (rounding to 146.3). The $94 main app, $20.5 Temu, and $29.8 cash figures match the user's claim exactly. The report also includes $1.9 for Duoduo Grocery which the user's summary omitted."
+      }
+    },
+    {
+      "claim": "SOTP valuation multiples: Main app at 12.5x 2025E P/E, Temu at 1.0x 2025E P/S",
+      "evidence": "Main Pinduoduo app valued at 12.5x 2025E P/E = US$94.0/ADS. Temu valued at 1.0x 2025E P/S = US$20.5/ADS. Duoduo Grocery not separately valued with disclosed multiple.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiples from CMBIGM official PDF. 12.5x P/E for main app is conservative vs peers (Alibaba trades at ~10-12x, JD at ~8-10x, but PDD has higher growth). 1.0x P/S for Temu reflects early-stage, unprofitable business."
+      }
+    },
+    {
+      "claim": "CMBIGM raised SOTP-based TP to US$154.3 after Q3 2025 results (November 19, 2025)",
+      "evidence": "On November 19, 2025, CMB International Securities analyst Saiyi He raised the price target from US$146.3 to US$154.3, maintaining BUY rating, representing ~30% upside. Updated SOTP: US$100.7 for main app (from US$94.0, same 12.5x P/E but higher earnings), US$1.9 for Duoduo Grocery (unchanged), US$20.7 for Temu (from US$20.5, same 1.0x P/S). Remainder to $154.3 attributed to net cash/financial assets.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "The $154.3 TP and November 19, 2025 date are corroborated by TipRanks. The updated SOTP components (100.7, 1.9, 20.7) appeared in one web search synthesis but the original PDF for the Q3 update was not directly accessed. The PDF URL for the Q3 update was not found publicly indexed. Confidence: moderate-high."
+      }
+    },
+    {
+      "claim": "CMBIGM TP history for PDD: $170.40 (Mar 2025) -> $134.50 (pre-Aug) -> $146.30 (Aug 26, 2025) -> $154.30 (Nov 19, 2025)",
+      "evidence": "March 21, 2025: TP US$170.40, BUY. Pre-August 2025: TP US$134.50 (downward revision from $170.40 likely due to de minimis policy changes and Temu headwinds). August 26, 2025 (post Q2 results): TP raised 9% to US$146.30 from US$134.50. November 19, 2025 (post Q3 results): TP raised 6% to US$154.30 from US$146.30.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "All four TP data points corroborated across multiple sources: Yahoo Finance, TipRanks, Insider Monkey, ainvest.com. The March $170.40 figure from TipRanks. The $134.50 -> $146.30 revision from CMBIGM official PDF. The $146.30 -> $154.30 from TipRanks."
+      }
+    },
+    {
+      "claim": "The user's report claim of '$146/ADS with 31% upside' matches the August 2025 CMBIGM report",
+      "evidence": "The claim in the user's report -- Main app $94/ADS, Temu $20.5/ADS, Cash $29.8/ADS, Total $146/ADS with 31% upside -- corresponds to the August 26, 2025 CMBIGM report (TP US$146.3). The 31% upside implies a stock price of approximately US$111.5 at time of report. PDD traded around US$111-113 in late August 2025, confirming the upside calculation. Note: an updated report from November 2025 raised the TP to $154.3 with updated SOTP. The user's report should specify which version is being cited.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Cross-checked: $146.3 / 1.31 = ~$111.7 stock price. PDD closed at approximately $112 on August 26, 2025, consistent with the 31% upside claim. The SOTP figures ($94, $20.5, $29.8) match the August report exactly. The Duoduo Grocery component ($1.9) was omitted in the user's summary."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-11",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["SOTP-valuation", "analyst-report", "CMBIGM", "CMB-International", "target-price", "business-model"]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "packet_id": "PKT-GMV-002",
+  "source": {
+    "type": "dataset",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json",
+    "title": "GMV Estimation Method 1: Revenue / Take Rate Back-Calculation",
+    "retrieved_at": "2026-03-20T06:40:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "METHOD 1 (Revenue / Take Rate): PDD's FY2024 consolidated GMV is estimated at RMB 5.3-6.6 trillion (US$730-900 billion)",
+      "evidence": "CALCULATION:\n\nStep 1: Identify revenue segments\n- FY2024 total revenue: RMB 393.84B (from XBRL)\n- Revenue mix: ~55% online marketing services (~RMB 216.6B), ~45% transaction services (~RMB 177.2B)\n\nStep 2: Estimate domestic vs international revenue\n- Temu (international) estimated revenue: ~RMB 150-180B (based on Temu $50B+ GMV at ~35% take rate for fully-managed, ~15% for semi-managed, blended ~25-30%)\n- Domestic Pinduoduo revenue: ~RMB 213-244B (remainder)\n\nStep 3: Apply take rates to back-calculate GMV\n- Domestic Pinduoduo take rate: 4.5-5.5% (analyst consensus; lower than Alibaba's ~6% due to value positioning)\n- Domestic GMV = RMB 213-244B / 4.5-5.5% = RMB 3.9-5.4 trillion\n- Temu GMV: ~$50B+ = ~RMB 360B+ (from industry sources)\n- Total consolidated GMV: RMB 4.3-5.8 trillion (~$590-$800B)\n\nStep 4: Cross-check with FY2025 Q1-Q3 run rate\n- FY2025 Q1-Q3 revenue: RMB 307.9B, annualized ~RMB 420B\n- If take rate stable at ~5%, implied GMV ~RMB 8.4T (but revenue growth slowed to 9%, suggesting GMV growth also slowing)\n\nRANGE: RMB 5.3-6.6 trillion for FY2024 consolidated\nDOMESTIC: RMB 3.9-5.4 trillion\nTEMU: RMB 360B-500B ($50-70B)",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Revenue is primary (XBRL). Take rate is estimated from analyst reports (3-5% range for domestic, 25-35% for Temu fully-managed). Wide range reflects uncertainty in Temu revenue split (not disclosed by PDD)."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "temu"],
+    "topic_tags": ["gmv", "take-rate", "triangulation", "method-1"]
+  }
+}

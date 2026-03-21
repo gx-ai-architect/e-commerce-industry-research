@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-CS-SEMIMANAGED-002",
+  "source": {
+    "type": "article",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-1-how-is-the-semi-managed",
+    "title": "TechBuzz China - Semi-Managed Model Analysis",
+    "retrieved_at": "2026-03-20T06:45:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Semi-managed model launched March 2024. Merchants ship to local warehouses (primarily by sea freight), Temu handles traffic, promotion, pricing, and after-sales.",
+      "evidence": "In the semi-managed model, merchants ship products to the consumer's country or region (primarily by sea freight), store them in local warehouses, and deliver them to the buyer. Temu still takes care of platform traffic, promotion, pricing, and after-sales service.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Corroborated by multiple sources including darwynnfulfillment.com, chinesellers.substack.com, amzprep.com"
+      }
+    },
+    {
+      "claim": "In US search results, 70% of traffic allocated to semi-managed products. Semi-managed products make up 50-70% of 'Top Sellers in 7 Days' section.",
+      "evidence": "In the US search scenario, 70% of the traffic is allocated to semi-managed products. In the Bestseller section, selecting 'Top Sellers in 7 Days' shows that semi-managed products make up 50-70%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzz China analysis of Temu platform data"
+      }
+    },
+    {
+      "claim": "Semi-managed model generated approximately $5.5B in GMV, about 29% of Temu's total, per analyst estimates.",
+      "evidence": "The semi-entrusted model generated US$5.5bn in GMV — about 29% of Temu's total.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Analyst estimate, not disclosed by PDD. Implies total Temu GMV of ~$19B for the period measured."
+      }
+    },
+    {
+      "claim": "Fully managed model has ~20% loss rate. Semi-managed expected to break even soon. Temu subsidizes $2.99 per order for goods below $30.",
+      "evidence": "The fully managed model has high costs and a loss rate of about 20%. For goods below $30 the platform subsidizes merchants $2.99 per order.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Loss rate and subsidy data from industry analysis, not PDD disclosures"
+      }
+    },
+    {
+      "claim": "Strategic shift to semi-managed with local warehouses boosted US profit margins from 2% to 4%.",
+      "evidence": "The strategic shift to a 'half-managed' model with local warehouses boosted U.S. profit margins from 2% to 4%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Analyst estimate of margin improvement. PDD does not disclose segment profitability."
+      }
+    },
+    {
+      "claim": "Third-party platform model launched March 2025: sellers independently select products, set prices, ship directly. Temu profits through commissions only.",
+      "evidence": "Temu planned to launch a third-party platform model in March 2025. The new model allows sellers to independently select products, set prices, and ship directly to overseas markets, while the platform profits through commissions.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Represents Temu's third operating model alongside fully-managed and semi-managed"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["semi-managed", "business-model", "unit-economics", "fulfillment"]
+  }
+}

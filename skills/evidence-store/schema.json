@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Packet",
+  "type": "object",
+  "required": ["packet_id", "source", "extractions", "metadata"],
+  "properties": {
+    "packet_id": {
+      "type": "string",
+      "pattern": "^PKT-[0-9]+$"
+    },
+    "source": {
+      "type": "object",
+      "required": ["type", "url", "title", "retrieved_at", "collector"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["table", "article", "filing", "dataset", "api", "image"]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "title": {
+          "type": "string"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "collector": {
+          "type": "string"
+        }
+      }
+    },
+    "extractions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim", "evidence", "evidence_type"],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "evidence_type": {
+            "type": "string",
+            "enum": ["direct_quote", "table_slice", "computed_metric"]
+          },
+          "verification": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": ["supported", "extrapolated", "unsupported"]
+              },
+              "verifier_notes": {
+                "type": "string"
+              },
+              "verified_at": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["freshness"],
+      "properties": {
+        "freshness": {
+          "type": "string"
+        },
+        "company_tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "topic_tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

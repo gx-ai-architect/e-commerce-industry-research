@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-PRICE-003",
+  "source": {
+    "type": "article",
+    "url": "https://www.cnbc.com/2025/04/28/temu-adds-import-charges-after-trump-tariffs.html",
+    "title": "Temu import charges post-tariff: product-level price impact analysis",
+    "retrieved_at": "2026-03-19T12:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Temu added 130-150% import charges on China-shipped products after April 2025 tariffs, more than doubling prices on many items",
+      "evidence": "Starting April 25, 2025, Temu added 'import charges' to products shipped from China in response to Trump's 145% tariff on Chinese goods and the end of de minimis exemption (previously allowing sub-$800 shipments duty-free). Specific product examples: (1) Summer dress: $18.47 base + $26.21 import charge = $44.68 total (142% surcharge). (2) Child's bathing suit: $12.44 base + $18.68 import charge = $31.12 total (150% surcharge). (3) Handheld vacuum: $16.93 base + $21.68 import charge = $40.11 total (128% surcharge). (4) Succulent pots: $12.25 base, rose to ~$30 total (~145% surcharge). Temu stated: 'Due to recent changes in global trade rules and tariffs, our operating expenses have gone up.'",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Prices from CNBC reporting (April 28, 2025), cross-referenced with Fox News, TechCrunch, and AllAroundWorlds reporting the same data points"
+      }
+    },
+    {
+      "claim": "Temu halted direct China-to-US shipments in May 2025 and pivoted to US local warehouse fulfillment to avoid import charges",
+      "evidence": "On May 2, 2025, Temu reportedly halted all direct shipments from China to US consumers. The platform shifted its US-facing storefront to display almost exclusively locally-warehoused items marked with 'no import charges' banner. Over 75% of promoted items on Temu's lightning deals page were flagged as locally shipped. However, prices on local warehouse items are higher than pre-tariff China-shipped prices. Example: a bubble toy that cost $4.22 from China was listed at $7.61 from a local US warehouse (81% markup). Amazon sells a two-pack of the same toy for ~$16.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From CNBC (May 2, 2025), Supply Chain Dive, and Yahoo Finance reporting. Local warehouse pricing example from Yahoo Finance user account."
+      }
+    },
+    {
+      "claim": "Temu's US user base collapsed 54% after tariffs: from ~34M monthly active users (May 2024) to <8M (May 2025)",
+      "evidence": "Sensor Tower reported a 54% drop in Temu's US monthly active users after tariff implementation. Users dropped from nearly 34 million in May 2024 to fewer than 8 million in May 2025. Temu's ranking in Apple's App Store fell from top 10 to No. 73. PDD Holdings saw Q1 2025 profits plunge 47%. 29% of American survey respondents said they would immediately stop buying or buy less if prices rose on Chinese marketplaces.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Sensor Tower data cited by CNBC, ecommercenorthamerica.org, and multiple outlets. Q1 profit decline from PDD earnings reports."
+      }
+    },
+    {
+      "claim": "A 90-day tariff truce in May 2025 temporarily reduced US tariffs on Chinese goods from 145% to 30%, providing Temu temporary relief",
+      "evidence": "In May 2025, the US and China agreed to a 90-day tariff truce that temporarily reduced tariffs from 145% to 30%. This provided Temu breathing room to restructure its logistics. However, the underlying de minimis exemption elimination remained in effect. A new law signed in July 2025 will permanently eliminate the de minimis exemption for all commercial shipments from all countries, effective July 1, 2027.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzzChina Temu Watch coverage and multiple trade policy reporting outlets"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-05",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["pricing", "tariff", "import-charges", "US-market", "de-minimis", "competitive"]
+  }
+}

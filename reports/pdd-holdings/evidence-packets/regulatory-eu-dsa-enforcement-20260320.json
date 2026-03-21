@@ -1,0 +1,87 @@
+{
+  "packet_id": "PKT-REG-EU-001",
+  "source": {
+    "type": "article",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1913",
+    "title": "EU DSA Enforcement Against Temu - Preliminary Findings and Ongoing Investigation",
+    "retrieved_at": "2026-03-20T06:36:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "EC preliminarily found Temu in breach of DSA Article 34 (risk assessment obligation) on July 28, 2025",
+      "evidence": "The Commission preliminarily found Temu in breach of the obligation under the Digital Services Act (DSA) to properly assess the risks of illegal products being disseminated on its marketplace. Evidence showed that there is a high risk for consumers in the EU to encounter illegal products on the platform.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: EC press release IP/25/1913, July 28, 2025"
+      }
+    },
+    {
+      "claim": "Temu's October 2024 risk assessment was deemed 'inaccurate' by the Commission - relied on general industry data not platform-specific details",
+      "evidence": "According to the Commission's analysis, Temu's risk assessment of October 2024 was inaccurate and relying on general industry information rather than on specific details about its own marketplace. This may therefore have led to inadequate mitigation measures against the dissemination of illegal products.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: EC official press release"
+      }
+    },
+    {
+      "claim": "Mystery shopping exercise found consumers very likely to encounter non-compliant products including baby toys and small electronics",
+      "evidence": "The analysis of a mystery shopping exercise conducted by the Commission found that consumers shopping on Temu are very likely to find non-compliant products among the offer, such as baby toys and small electronics.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: EC official communication"
+      }
+    },
+    {
+      "claim": "DSA non-compliance decision could result in fines up to 6% of global annual turnover",
+      "evidence": "If the Commission's preliminary views were to be ultimately confirmed, the Commission would adopt a non-compliance decision finding that Temu is in breach of Article 34 of the DSA. Such a decision could entail fines of up to 6% of the total worldwide annual turnover of the provider.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "PDD FY2024 revenue was ~$53.5B, so 6% = up to ~$3.2B theoretical maximum"
+      }
+    },
+    {
+      "claim": "Ongoing DSA investigation also covers addictive design features, recommendation system transparency, and researcher data access",
+      "evidence": "The EU investigation continues in relation to Temu's other suspected breaches of the DSA, including the effectiveness of its mitigation measures, the use of addictive design features, the transparency of its recommendation systems, and its access to data for researchers.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: EC official press release"
+      }
+    },
+    {
+      "claim": "Temu has 93.7 million average monthly active users in the EU (27 countries)",
+      "evidence": "Temu has 93.7 million average monthly active users in the 27-country bloc, making it a designated Very Large Online Platform (VLOP) under the DSA.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "User figure from DSA VLOP designation context"
+      }
+    },
+    {
+      "claim": "Poland fined Temu 6 million zloty ($1.7M) in January 2026 for misleading pricing practices",
+      "evidence": "Poland's competition watchdog fined PDD Holdings Inc.'s shopping platform Temu nearly 6 million zloty ($1.7 million) for misleading pricing practices. Both Temu and Zalando failed to safeguard consumers by omitting the lowest price of a product from the previous 30 days alongside promotional offers.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Caixin Global, January 15, 2026"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "DSA", "EU", "compliance", "product-safety", "consumer-protection"],
+    "severity_assessment": {
+      "action": "EU DSA preliminary breach finding + ongoing investigation",
+      "severity": "operational",
+      "rationale": "Preliminary finding is serious but not yet a final decision. Maximum fine of 6% of turnover (~$3.2B) is theoretical ceiling rarely applied. Investigation still ongoing for additional breaches (addictive design, transparency). Company can still respond and remedy. Poland fine of $1.7M is cosmetic. However, cumulative EU regulatory pressure (DSA + FSR + customs reform) creates significant operational burden. Industry-wide: Shein and AliExpress face similar DSA proceedings.",
+      "status": "preliminary_finding_issued",
+      "next_milestone": "Final DSA non-compliance decision expected H2 2026; Temu written response deadline TBD"
+    }
+  }
+}

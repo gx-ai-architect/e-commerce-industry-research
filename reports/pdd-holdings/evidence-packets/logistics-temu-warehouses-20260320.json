@@ -1,0 +1,126 @@
+[
+  {
+    "packet_id": "PKT-LOG-TEMU-US-WAREHOUSE-001",
+    "source": {
+      "type": "article",
+      "url": "https://amzprep.com/where-is-temu-warehouse-located/",
+      "title": "Temu Warehouse Locations: 2026 Directory of US, Europe & Global Distribution Centers",
+      "retrieved_at": "2026-03-20T06:37:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "Temu operates 3 major US warehouse facilities: California (Rowland Heights), Dallas (Texas), Georgia; via 3PL partners WINIT and Easy Export",
+        "evidence": "Temu operates three major warehouse facilities in the US: California (Rowland Heights, WINIT America at 18501 Arenth Ave), Dallas Texas as central distribution hub, and Georgia. These aren't Temu-owned warehouses but 3PL partnerships with WINIT and Easy Export.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From AMZPrep 2026 directory and corroborated by multiple sources"
+        }
+      },
+      {
+        "claim": "By October 2025, Temu operated 13 self-owned warehouses globally: 10 in Europe, 2 in US, 1 near US-Mexico border",
+        "evidence": "By October 2025, Temu operated 13 self-owned warehouses globally, including 10 in Europe, 2 in the United States, and one near the US-Mexico border.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From multiple industry reports citing Temu warehouse count as of Oct 2025"
+        }
+      },
+      {
+        "claim": "Temu pre-shipped 3 months of inventory to US warehouses ahead of May 2025 de minimis deadline; shifted from Guangdong to US-based warehouses",
+        "evidence": "Ahead of the May 2 end to the U.S. de minimis exemption, the company pre-shipped large volumes of popular items by sea and stocked three months of inventory in U.S. hubs. Since November 2024, Temu planned fully-managed warehouse operations, shifting some stock from Guangdong to U.S. warehouses based on data.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From ChinaSellers Substack and industry reporting"
+        }
+      },
+      {
+        "claim": "Temu US warehouses projected to handle 15-20% of US volume in 2025, rising to 20-25% by 2026",
+        "evidence": "By 2025, Temu's self-operated warehouses in the US will handle 15% to 20% of total US goods volume, and this proportion may increase to 20% to 25% by 2026.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "extrapolated",
+          "verifier_notes": "Industry analyst projections, not confirmed by Temu"
+        }
+      },
+      {
+        "claim": "Temu also uses 'family warehouses' - fulfillment centers run from personal residences of overseas Chinese immigrants",
+        "evidence": "Temu also uses 'family warehouses,' fulfillment centers run out of personal residences, often those of overseas Chinese immigrants.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From AMZPrep reporting on Temu's unconventional logistics model"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": ["PDD", "pdd-holdings", "temu"],
+      "topic_tags": ["logistics", "warehouses", "us-fulfillment", "3pl", "de-minimis"]
+    }
+  },
+  {
+    "packet_id": "PKT-LOG-TEMU-EU-WAREHOUSE-001",
+    "source": {
+      "type": "article",
+      "url": "https://ecommercenews.eu/temu-80-of-european-sales-via-local-warehouses/",
+      "title": "Temu European Warehouse Strategy: 80% Local Fulfillment Target",
+      "retrieved_at": "2026-03-20T06:37:00Z",
+      "collector": "logistics-fulfillment"
+    },
+    "extractions": [
+      {
+        "claim": "Temu aims to ship 80% of European orders from within the EU; 10 self-owned warehouses in Europe (Rotterdam, Frankfurt as main hubs)",
+        "evidence": "Temu aims to ship up to 80% of European orders from within the EU. Rotterdam, Netherlands, and Frankfurt, Germany have been established with maximum floor space and advanced integration. Temu has begun using local warehouses in Germany, France, Spain, Netherlands, Italy, and Austria.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From E-Commerce News Europe and Lengow analysis"
+        }
+      },
+      {
+        "claim": "Temu targets 50% local order fulfillment in UK by end of 2025",
+        "evidence": "In the UK specifically, the platform targets 50 percent local order fulfillment by the end of 2025, with plans to expand this approach across the continent.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From E-Commerce News Europe reporting"
+        }
+      },
+      {
+        "claim": "EU fixed EUR 3 customs duty on sub-EUR 150 parcels effective July 1, 2026 is driving Temu's localization",
+        "evidence": "On December 12, 2025, the European Council agreed to impose a fixed 3 euro customs duty on small parcels valued under 150 euros entering the EU, effective July 1, 2026. Temu appears to have read these signals earlier than many competitors.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From EU Council announcement and E-Commerce Germany News"
+        }
+      },
+      {
+        "claim": "Bulk shipping to UK 3PL warehouses reduced per-item logistics costs 40-60% vs air freight; partners include DHL, FedEx, Royal Mail, bpostgroup",
+        "evidence": "Temu reports bulk shipping to UK third-party warehouses has reduced per-item logistics costs by 40-60 percent compared to traditional air freight. Partnerships with DHL, FedEx, Royal Mail, and bpostgroup.",
+        "evidence_type": "direct_quote",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From Lengow Blog analysis of Temu's EU strategy"
+        }
+      },
+      {
+        "claim": "Germany is Temu's largest EU market: 16.3M monthly recipients, 19M+ German users; Temu EU GMV projected >$15B in 2025, >$20B by 2026",
+        "evidence": "Germany is Temu's largest market in the EU with 16.3 million monthly average recipients. In H1 2025, Temu attracted an average of 116 million Europeans monthly, including 19M+ Germans and 16M+ French. EU GMV projected to exceed $15 billion in 2025 and could surpass $20 billion by end of 2026.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "supported",
+          "verifier_notes": "From E-Commerce Germany News and industry projections"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": ["PDD", "pdd-holdings", "temu"],
+      "topic_tags": ["logistics", "warehouses", "europe", "localization", "eu-regulation", "de-minimis"]
+    }
+  }
+]

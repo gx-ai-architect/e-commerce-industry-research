@@ -1,0 +1,103 @@
+---
+interface Bar {
+  label: string;
+  value: number;
+  color?: string;
+}
+
+interface Props {
+  title: string;
+  bars: Bar[];
+  yLabel?: string;
+}
+
+const { title, bars, yLabel } = Astro.props;
+
+const DEFAULT_COLOR = '#2563eb';
+
+const W = 680;
+const H = 320;
+const PAD = { top: 40, right: 20, bottom: 50, left: 70 };
+const plotW = W - PAD.left - PAD.right;
+const plotH = H - PAD.top - PAD.bottom;
+
+const maxVal = Math.max(...bars.map(b => b.value));
+const yMax = maxVal * 1.15; // headroom for value labels
+
+const barGap = 0.3;
+const barWidth = (plotW / bars.length) * (1 - barGap);
+const barStep = plotW / bars.length;
+
+function scaleY(v: number): number {
+  return PAD.top + plotH - (v / yMax) * plotH;
+}
+
+function barX(i: number): number {
+  return PAD.left + i * barStep + (barStep - barWidth) / 2;
+}
+
+// ~5 gridlines
+const gridCount = 5;
+const gridStep = yMax / gridCount;
+const gridLines = Array.from({ length: gridCount + 1 }, (_, i) => i * gridStep);
+
+function formatValue(v: number): string {
+  if (Math.abs(v) >= 1e9) return (v / 1e9).toFixed(1) + 'B';
+  if (Math.abs(v) >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+  if (Math.abs(v) >= 1e3) return (v / 1e3).toFixed(1) + 'K';
+  if (v % 1 !== 0) return v.toFixed(1);
+  return v.toFixed(0);
+}
+---
+
+<figure class="chart-figure">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${W} ${H}`} width={W} height={H} class="bar-chart">
+    <!-- Title -->
+    <text x={W / 2} y={20} text-anchor="middle" font-size="13" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#1a1a1a">{title}</text>
+
+    <!-- Y-axis label -->
+    {yLabel && (
+      <text x={14} y={PAD.top + plotH / 2} text-anchor="middle" font-size="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280" transform={`rotate(-90, 14, ${PAD.top + plotH / 2})`}>{yLabel}</text>
+    )}
+
+    <!-- Gridlines + Y labels -->
+    {gridLines.map(v => (
+      <g>
+        <line x1={PAD.left} y1={scaleY(v)} x2={PAD.left + plotW} y2={scaleY(v)} stroke="#e5e5e5" stroke-width="1" />
+        <text x={PAD.left - 8} y={scaleY(v) + 4} text-anchor="end" font-size="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">{formatValue(v)}</text>
+      </g>
+    ))}
+
+    <!-- Bars -->
+    {bars.map((bar, i) => {
+      const barColor = bar.color || DEFAULT_COLOR;
+      const barH = (bar.value / yMax) * plotH;
+      return (
+        <g>
+          <rect x={barX(i)} y={scaleY(bar.value)} width={barWidth} height={barH} fill={barColor} rx="2" />
+          <text x={barX(i) + barWidth / 2} y={scaleY(bar.value) - 6} text-anchor="middle" font-size="10" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#1a1a1a">{formatValue(bar.value)}</text>
+        </g>
+      );
+    })}
+
+    <!-- X labels -->
+    {bars.map((bar, i) => (
+      <text x={barX(i) + barWidth / 2} y={PAD.top + plotH + 20} text-anchor="middle" font-size="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">{bar.label}</text>
+    ))}
+
+    <!-- Axes -->
+    <line x1={PAD.left} y1={PAD.top} x2={PAD.left} y2={PAD.top + plotH} stroke="#d1d5db" stroke-width="1" />
+    <line x1={PAD.left} y1={PAD.top + plotH} x2={PAD.left + plotW} y2={PAD.top + plotH} stroke="#d1d5db" stroke-width="1" />
+  </svg>
+</figure>
+
+<style>
+  .chart-figure {
+    margin: 2rem 0;
+  }
+  .bar-chart {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>

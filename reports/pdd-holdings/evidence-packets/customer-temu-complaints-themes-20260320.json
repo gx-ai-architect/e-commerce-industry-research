@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-TEMU-COMPLAINTS-001",
+  "source": {
+    "type": "article",
+    "url": "https://www.trustpilot.com/review/temu.com",
+    "title": "Temu Complaint Themes Synthesis (Trustpilot + BBB + Reddit + PissedConsumer)",
+    "retrieved_at": "2026-03-20T06:37:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "Top 3 Temu complaint themes: (1) product quality, (2) customer service bots, (3) deceptive pricing",
+      "evidence": "Theme 1 - Product Quality: 'poorly made, not as described', coats 'shrunken and misshapen', items 'nothing like product shown.' Theme 2 - Bot Customer Service: 'all very bad bots, you can't reason with them', different agents give different answers. Theme 3 - Deceptive Pricing: extra charges at checkout, shipping costs exceeding product cost, fake discounts, 'bait and switch on everything.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Aggregated from Trustpilot, BBB, Reddit, Sitejabber, PissedConsumer reviews"
+      }
+    },
+    {
+      "claim": "Complaint velocity trend: worsening quality perception alongside rising prices",
+      "evidence": "Long-time customers report 'a decline in quality, deceptive images' over the past year. 'Prices creeping up to levels where other sites are cheaper with far better quality.' 'It used to be simple to order; now it's bait and switch on everything' (2026 reviews). This suggests deteriorating satisfaction as Temu reduces subsidies.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Qualitative trend from recent reviews. No quantitative complaint velocity data available for Temu specifically."
+      }
+    },
+    {
+      "claim": "US state attorneys general filed lawsuits against Temu in 2025",
+      "evidence": "Multiple U.S. state attorneys general filed lawsuits against Temu in 2025, alleging data privacy breaches, deceptive trade practices, and selling products made with forced labor.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: joingerald.com, reddit discussions"
+      }
+    },
+    {
+      "claim": "Temu has 0% complaint resolution rate on at least one platform",
+      "evidence": "According to one complaints platform, 0% of 150 complaints were resolved, suggesting the support team may have poor customer service skills or lack training to handle complaints.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: complaintsboard.com"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["customer-satisfaction", "complaint-themes", "international", "sentiment"]
+  }
+}

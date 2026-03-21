@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-REFUND-POLICY-001",
+  "source": {
+    "type": "article",
+    "url": "https://www.guancha.cn/economy/2025_04_23_773343.shtml",
+    "title": "Refund-Only Policy Reform (仅退款取消) — Merchant Satisfaction Impact",
+    "retrieved_at": "2026-03-20T06:36:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "All 5 major Chinese e-commerce platforms cancelled 'refund-only' default on April 22, 2025",
+      "evidence": "On April 22, 2025, Taobao, Pinduoduo, JD.com, Douyin, and Kuaishou simultaneously announced they would no longer proactively intervene in consumer 'refund-only' requests — merchants would handle them independently.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: guancha.cn, finance.sina.com.cn, multiple Chinese media outlets"
+      }
+    },
+    {
+      "claim": "Post-reform: malicious refund-only orders on Pinduoduo dropped 62%",
+      "evidence": "After the new rules took effect, Pinduoduo malicious refund-only order volume decreased 62%, and merchant dispute resolution success rate rose from 18% to 75%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: E-commerce industry association data, December 2025"
+      }
+    },
+    {
+      "claim": "Merchant complaints about 'refund-only' dropped from 50.36% to 37.09% of total complaints",
+      "evidence": "'电诉宝' data shows 'arbitrary refund-only' complaints as share of total merchant complaints: Q1 2025: 50.36%, Q3 2025: 35.85%, Q4 2025: 37.09% — significant improvement.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: 电诉宝 platform quarterly data"
+      }
+    },
+    {
+      "claim": "Prior to reform, 7.9% of merchants had 80%+ refund-only rates",
+      "evidence": "网经社 2024 survey: 7.9% of merchants experienced 80%+ refund-only rates in the past year. 10.09% had 50%+ rates. Only 1.06% had never experienced refund-only. Pinduoduo merchant appeal success rate was under 5%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: 网经社电子商务研究中心《2024年电商平台仅退款调查报告》"
+      }
+    },
+    {
+      "claim": "Market regulator (SAMR) mandated refund-only policy reform",
+      "evidence": "The State Administration for Market Regulation (SAMR) vice director Shu Wei stated that SAMR summoned major e-commerce platforms to address 'refund-only' rules that squeezed merchant survival space and promoted low-quality/low-price competition.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: 21jingji.com (21st Century Business Herald)"
+      }
+    },
+    {
+      "claim": "April 2025: Pinduoduo launched '千亿扶持' (100B yuan) merchant support program",
+      "evidence": "In April 2025, Pinduoduo launched a '千亿扶持' program to invest over 100 billion yuan over 3 years in merchant support, upgrading from the previous '百亿减免' (10B fee reduction). Focus: demand aggregation, cost reduction, fair traffic distribution.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Zhihu (zhuanlan.zhihu.com)"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "拼多多"],
+    "topic_tags": ["merchant-satisfaction", "refund-only-policy", "regulatory", "仅退款", "domestic-china"]
+  }
+}

@@ -1,0 +1,111 @@
+---
+interface Dataset {
+  label: string;
+  values: number[];
+  color: string;
+}
+
+interface Props {
+  title: string;
+  datasets: Dataset[];
+  xLabels: string[];
+  yLabel?: string;
+}
+
+const { title, datasets, xLabels, yLabel } = Astro.props;
+
+const W = 680;
+const H = 320;
+const PAD = { top: 40, right: 20, bottom: 50, left: 60 };
+const plotW = W - PAD.left - PAD.right;
+const plotH = H - PAD.top - PAD.bottom;
+
+// Compute min/max across all datasets
+const allValues = datasets.flatMap(d => d.values);
+const rawMin = Math.min(...allValues);
+const rawMax = Math.max(...allValues);
+const yRange = rawMax - rawMin || 1;
+const yMin = rawMin - yRange * 0.1;
+const yMax = rawMax + yRange * 0.1;
+
+function scaleX(i: number): number {
+  return PAD.left + (i / Math.max(xLabels.length - 1, 1)) * plotW;
+}
+
+function scaleY(v: number): number {
+  return PAD.top + plotH - ((v - yMin) / (yMax - yMin)) * plotH;
+}
+
+// Generate ~5 gridlines
+const gridCount = 5;
+const gridStep = (yMax - yMin) / gridCount;
+const gridLines = Array.from({ length: gridCount + 1 }, (_, i) => yMin + i * gridStep);
+
+function formatValue(v: number): string {
+  if (Math.abs(v) >= 1e9) return (v / 1e9).toFixed(1) + 'B';
+  if (Math.abs(v) >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+  if (Math.abs(v) >= 1e3) return (v / 1e3).toFixed(1) + 'K';
+  return v.toFixed(0);
+}
+---
+
+<figure class="chart-figure">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${W} ${H}`} width={W} height={H} class="line-chart">
+    <!-- Title -->
+    <text x={W / 2} y={20} text-anchor="middle" font-size="13" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#1a1a1a">{title}</text>
+
+    <!-- Y-axis label -->
+    {yLabel && (
+      <text x={14} y={PAD.top + plotH / 2} text-anchor="middle" font-size="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280" transform={`rotate(-90, 14, ${PAD.top + plotH / 2})`}>{yLabel}</text>
+    )}
+
+    <!-- Gridlines + Y labels -->
+    {gridLines.map(v => (
+      <g>
+        <line x1={PAD.left} y1={scaleY(v)} x2={PAD.left + plotW} y2={scaleY(v)} stroke="#e5e5e5" stroke-width="1" />
+        <text x={PAD.left - 8} y={scaleY(v) + 4} text-anchor="end" font-size="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">{formatValue(v)}</text>
+      </g>
+    ))}
+
+    <!-- X labels -->
+    {xLabels.map((label, i) => (
+      <text x={scaleX(i)} y={PAD.top + plotH + 20} text-anchor="middle" font-size="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">{label}</text>
+    ))}
+
+    <!-- Data lines and dots -->
+    {datasets.map(ds => {
+      const points = ds.values.map((v, i) => `${scaleX(i)},${scaleY(v)}`).join(' ');
+      return (
+        <g>
+          <polyline points={points} fill="none" stroke={ds.color} stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+          {ds.values.map((v, i) => (
+            <circle cx={scaleX(i)} cy={scaleY(v)} r="3.5" fill={ds.color} stroke="#fff" stroke-width="1.5" />
+          ))}
+        </g>
+      );
+    })}
+
+    <!-- Legend -->
+    {datasets.length > 1 && datasets.map((ds, i) => (
+      <g transform={`translate(${PAD.left + i * 120}, ${PAD.top + plotH + 38})`}>
+        <rect x="0" y="-6" width="12" height="3" rx="1.5" fill={ds.color} />
+        <text x="16" y="0" font-size="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" fill="#6b7280">{ds.label}</text>
+      </g>
+    ))}
+
+    <!-- Axes -->
+    <line x1={PAD.left} y1={PAD.top} x2={PAD.left} y2={PAD.top + plotH} stroke="#d1d5db" stroke-width="1" />
+    <line x1={PAD.left} y1={PAD.top + plotH} x2={PAD.left + plotW} y2={PAD.top + plotH} stroke="#d1d5db" stroke-width="1" />
+  </svg>
+</figure>
+
+<style>
+  .chart-figure {
+    margin: 2rem 0;
+  }
+  .line-chart {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>

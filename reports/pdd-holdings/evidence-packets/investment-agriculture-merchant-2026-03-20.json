@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-INV-004",
+  "source": {
+    "type": "article",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "title": "PDD Holdings Agricultural Technology & Merchant Ecosystem Investment",
+    "retrieved_at": "2026-03-20T06:37:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD committed RMB 100 billion ($13.7B) over three years to merchant support, farmer subsidies, and 'new quality supply' upgrades",
+      "evidence": "In 2025, PDD Holdings committed to a RMB 100 billion (approximately $13.7 billion USD) support program over three years. This is a strategic move to upgrade merchants, support farmers, and drive 'new quality supply.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Announced in PDD earnings call / investor communications in 2025"
+      }
+    },
+    {
+      "claim": "Pinduoduo connects 16 million+ farmers directly to consumers, bypassing traditional distribution layers",
+      "evidence": "PDD's direct-to-consumer supply chain bypasses layers of distributors, especially in agriculture, connecting over 16 million farmers directly to consumers.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Widely cited figure from PDD corporate communications and analyst reports"
+      }
+    },
+    {
+      "claim": "Pinduoduo runs Smart Agriculture Competition (3rd edition) partnering with China Agricultural University and Zhejiang University",
+      "evidence": "Pinduoduo launched a vertical farming challenge as part of its Smart Agriculture Competition, aimed at enhancing agricultural technology through contests. Focus includes growing lettuce in shipping containers with LED lighting and crop modeling, with partners including China Agricultural University and Zhejiang University.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From PDD/Pinduoduo press releases via StockTitan"
+      }
+    },
+    {
+      "claim": "Temu launched three-model platform structure in 2025: fully managed, semi-managed, and third-party",
+      "evidence": "Temu launched a third-party platform model in March 2025, allowing sellers to independently select products, set prices, and ship directly. This forms a new pattern of three parallel operating models: full hosting, semi-hosted, and third-party platforms.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From e-commerce industry reporting and Temu seller communications"
+      }
+    },
+    {
+      "claim": "70% of Temu platform traffic shifted toward semi-managed SKUs, away from fully managed products",
+      "evidence": "Temu now prioritizes Semi-Managed products in both homepage exposure and search results. According to internal estimates, up to 70% of platform traffic is shifting toward Semi-Managed SKUs.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Internal estimate cited by industry analysts; exact figure may vary"
+      }
+    },
+    {
+      "claim": "Temu's semi-managed model reduces seller costs by 20-30% and achieves 95% order fulfillment rate per European operational data",
+      "evidence": "European operational data shows semi-managed model reduces seller costs by 20%-30% and boosts order fulfillment rates to 95%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "From industry analysis sources; company has not officially confirmed these exact figures"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "temu"],
+    "topic_tags": ["investment", "agriculture", "merchant-ecosystem", "business-model", "semi-managed"]
+  }
+}

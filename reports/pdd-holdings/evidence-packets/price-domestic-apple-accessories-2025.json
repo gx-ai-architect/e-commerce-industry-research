@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-PRICE-002",
+  "source": {
+    "type": "article",
+    "url": "https://ori.hangzhou.com.cn/ornews/content/2025-09/15/content_9083120.htm",
+    "title": "Pinduoduo 百亿补贴 Apple product pricing: AirPods Pro 3, iPhone 17, Apple Watch Ultra 3",
+    "retrieved_at": "2026-03-19T12:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "AirPods Pro 3 pricing: Pinduoduo 百亿补贴 at 1,599 RMB vs JD self-operated at 1,443-1,698 RMB vs Apple official at 1,899 RMB",
+      "evidence": "AirPods Pro 3 official Apple price: 1,899 RMB. Pinduoduo 百亿补贴 offered stable price of 1,599 RMB (300 RMB coupon reduction) at September 2025 launch — simple no-conditions discount. JD.com self-operated: 1,698 RMB with PLUS member 100 RMB coupon, or as low as 1,443 RMB during Double 11 2025 with 12-month interest-free + Shanghai 85-fold national subsidy (limited to specific regions). Tmall Apple flagship: approximately 1,599-1,799 RMB during promotions, with 100-300 RMB off during year-end sales.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Prices from hangzhou.com.cn (Sep 2025 launch), sina.com.cn (Nov 2025 Double 11), and chnfund.com reporting. JD's lowest price (1,443) requires regional national subsidy availability."
+      }
+    },
+    {
+      "claim": "iPhone 17 launch pricing on Pinduoduo 百亿补贴: up to 1,000 RMB below Apple official on day one (Sep 12, 2025)",
+      "evidence": "On September 12, 2025 at 8 PM, Pinduoduo 百亿补贴 launched Apple's full autumn 2025 lineup with same-day subsidies. iPhone 17 subsidized at 4,999 RMB, iPhone 17 Pro at 7,999 RMB, iPhone 17 Pro Max at 8,999 RMB. Discounts stacked via: base subsidy + no-threshold coupon (up to 700 RMB) + points redemption coupon (100 RMB) = cumulative 1,000 RMB off. Platform guarantees included: authentic product assurance, nationwide warranty, 10x compensation for counterfeits, double compensation if lower price found elsewhere.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed across chnfund.com, sina.com.cn, stcn.com, and hangzhou.com.cn. Multiple outlets covered the same launch event. Official Apple prices for iPhone 17 not separately verified in these sources but implied by discount amount."
+      }
+    },
+    {
+      "claim": "Apple Watch Ultra 3 on Pinduoduo 百亿补贴: 5,999 RMB after 500 RMB coupon reduction at September 2025 launch",
+      "evidence": "Apple Watch Ultra 3 was listed on Pinduoduo 百亿补贴 at 5,999 RMB after a direct 500 RMB coupon reduction, available from the September 12, 2025 launch event.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From hangzhou.com.cn and chnfund.com September 2025 launch coverage"
+      }
+    },
+    {
+      "claim": "Pinduoduo 百亿补贴 3.0 launched for Double 11 2025 with iPhone 17 discounted 800 RMB and Dyson appliances at 50% off",
+      "evidence": "For 2025 Double 11, Pinduoduo launched an upgraded '百亿补贴 3.0' version starting October 14 (nearly a month before traditional Double 11). iPhone 17 was discounted by 800 RMB, and Dyson appliances were subsidized at 50% off. This early start extended the promotional period significantly.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From insight.xiaoduoai.com Double 11 2025 coverage"
+      }
+    },
+    {
+      "claim": "AirPods 4 noise-canceling version: Pinduoduo 百亿补贴 offered at 1,105 RMB vs Apple official 1,399 RMB — a 21% discount (January 2025)",
+      "evidence": "During the January 2025 New Year festival, AirPods 4 noise-canceling version was priced at 1,399 RMB on Apple's official website. On Pinduoduo 百亿补贴, after an official subsidy of 234 RMB and a store discount of 60 RMB, the price dropped to 1,105 RMB — a 294 RMB (21%) savings. Government trade-in subsidies (国补) could be stacked for additional savings, as China's central government pre-allocated 81 billion RMB for consumer trade-in subsidies in 2025.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From news.qq.com January 2025 New Year festival coverage. Government subsidy amount from official policy reporting."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-09",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["pricing", "price-comparison", "domestic-china", "AirPods", "iPhone-17", "百亿补贴", "competitive"]
+  }
+}

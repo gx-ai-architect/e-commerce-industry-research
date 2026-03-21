@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-CS-SELLERFEES-007",
+  "source": {
+    "type": "article",
+    "url": "https://seller.temu.com",
+    "title": "Temu Seller Portal + Fee Structure Research",
+    "retrieved_at": "2026-03-20T06:42:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Temu seller portal (seller.temu.com) advertises: no registration fees, 50% of new sellers make first sale within 20 days, accepts US individual and business sellers.",
+      "evidence": "From seller.temu.com browsed 2026-03-20: 'Temu does not charge any registration fees.' '50% of new sellers make their first sale within 20 days.' Accepts Corporation, Partnership, Sole Proprietorship, and individual sellers.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Direct observation from browsing seller.temu.com on 2026-03-20"
+      }
+    },
+    {
+      "claim": "Temu seller commission rates: 2-5% early stage, rising to 8-15% as platform matures. 2026 sellers should budget 8-15% total fees (commissions + advertising + fulfillment).",
+      "evidence": "Commission rates range 2-5% per sale initially. As of 2026, sellers should budget for 8-15% total fees. UK zero-commission model offered in 2025 for market entry.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple seller guide sources: m2ecloud, inriver, litcommerce, getonecart. Rates vary by category and seller tier."
+      }
+    },
+    {
+      "claim": "Semi-managed model fees: storage $0.12/cubic foot/day, order fulfillment ~$0.85/order, plus PayPal processing 2.9% + $0.30/transaction.",
+      "evidence": "Storage fees: $0.12 per cubic foot per day. Order fulfillment: approximately $0.85 per order. PayPal processing: 2.9% + $0.30 per transaction.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From semi-managed model fee guides. Competitive vs Amazon FBA storage ($0.87/cubic foot/month = $0.029/day)."
+      }
+    },
+    {
+      "claim": "Temu now operates three parallel models: fully-managed (Temu controls everything), semi-managed (merchant handles logistics), and third-party platform (merchant has full autonomy, launched March 2025).",
+      "evidence": "Three operating models: (1) Full hosting - Temu controls pricing, logistics, customer service. (2) Semi-hosted - merchant handles warehouse/shipping, Temu handles traffic/pricing/after-sales. (3) Third-party platform (launched March 2025) - sellers independently select products, set prices, ship directly.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Evolution from single fully-managed model to three models in under 2 years represents significant strategic flexibility."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["seller-fees", "commission", "semi-managed", "business-model"]
+  }
+}

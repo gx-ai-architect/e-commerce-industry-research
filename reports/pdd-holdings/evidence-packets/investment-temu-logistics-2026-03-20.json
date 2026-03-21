@@ -1,0 +1,80 @@
+{
+  "packet_id": "PKT-INV-002",
+  "source": {
+    "type": "article",
+    "url": "https://chinesellers.substack.com/p/temu-activates-forward-warehouses",
+    "title": "Temu Warehouse Network Expansion & Logistics Strategy 2025-2026",
+    "retrieved_at": "2026-03-20T06:36:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "Temu operates 13 self-owned warehouses globally as of October 2025: 10 in Europe, 2 in US, 1 near US-Mexico border",
+      "evidence": "By October 2025, Temu operated 13 self-owned warehouses globally, including 10 in Europe, 2 in the United States, and one near the US-Mexico border. A 14th warehouse is planned in Rio de Janeiro, Brazil.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple sources confirm warehouse count and locations. US facilities in Los Angeles, Dallas, and Newark."
+      }
+    },
+    {
+      "claim": "Temu pre-shipped 3 months of inventory to US warehouses ahead of May 2 de minimis deadline",
+      "evidence": "Ahead of the May 2 end to the U.S. de minimis exemption, the company pre-shipped large volumes of popular items by sea and stocked three months of inventory in U.S. hubs. Since last November, Temu has planned fully-managed warehouse operations, shifting some stock from Guangdong to U.S. warehouses.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ChineSellers and Supply Chain Dive reporting"
+      }
+    },
+    {
+      "claim": "Temu's US self-operated warehouses projected to handle 15-20% of US volume in 2025, rising to 20-25% in 2026",
+      "evidence": "It is projected that by 2025, Temu's self-operated warehouses in the US will handle 15% to 20% of total US goods volume, and this proportion may increase to 20% to 25% by 2026.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Industry projection from logistics analysis sources"
+      }
+    },
+    {
+      "claim": "Temu Mexico warehouse is a 120,000 sqm facility; South Korea logistics center is 165,000 sqm",
+      "evidence": "Mexico: 120,000-square-meter facility known as the 'Jitu Warehouse.' South Korea: 165,000-square-meter logistics center in Gimpo, Gyeonggi Province.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From multiple warehouse location tracking sources"
+      }
+    },
+    {
+      "claim": "Temu plans to handle 80% of European orders through local warehouses",
+      "evidence": "Temu plans to handle 80% of European orders through local warehouses, but this ambitious goal remains a work in progress. Key European facilities in Rotterdam (Netherlands) and Frankfurt (Germany). Local warehouse services confirmed in Germany, France, Spain, Netherlands, Italy, Austria, and UK.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Target figure cited in multiple logistics industry sources; actual achievement level unclear"
+      }
+    },
+    {
+      "claim": "Temu fully suspended its US fully-managed model at end of April 2025 in response to de minimis policy end",
+      "evidence": "At the end of April, days before the de minimis tax exemption closed on May 2, Temu suspended its fully managed model in the US. By June 2025, the proportion of fully managed business in the US market had fallen to 20%-30%. Under the fully managed model, cross-border parcels are subject to a 54% tariff or a $100 flat fee.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple news sources confirm the timeline and tariff rate"
+      }
+    },
+    {
+      "claim": "Temu introduced Y2 model as tariff adaptation: merchants handle shipping/customs/delivery without pre-stocking inventory",
+      "evidence": "The Y2 model was introduced in response to complex tariff policies. Under this new framework, merchants remain responsible for the initial shipping, customs clearance, and final delivery, but unlike the semi-managed model, they no longer need to pre-stock inventory.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ChineSellers analysis and TechBuzzChina reporting"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["investment", "logistics", "warehousing", "de-minimis", "tariffs", "fulfillment"]
+  }
+}

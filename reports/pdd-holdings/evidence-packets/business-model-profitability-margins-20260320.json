@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-BM-003",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "title": "PDD Holdings Quarterly Earnings + SEC EDGAR XBRL",
+    "retrieved_at": "2026-03-20T07:00:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD FY2024 operating margin was 27.5%, with gross margin of 60.9% -- consistent with a pure marketplace model",
+      "evidence": "FY2024: Revenue RMB 393.8B, Cost of revenue RMB 153.9B, Gross profit RMB 239.9B, Gross margin 60.9%. Operating income RMB 108.4B, Operating margin 27.5%. FY2023: Revenue RMB 247.6B, Operating income RMB 58.7B, Operating margin 23.7%. FY2022: Revenue RMB 130.6B, Operating income RMB 30.4B, Operating margin 23.3%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "FY2024 operating margin improved from 23.7% to 27.5% due to operating leverage as revenue scaled +59%"
+      }
+    },
+    {
+      "claim": "Operating margin declined sharply in 2025 as PDD invested heavily in merchant support: Q1 2025 16.8%, Q2 2025 24.8%, Q3 2025 23.1%",
+      "evidence": "Q1 2025: Op profit RMB 16.1B / Revenue RMB 95.7B = 16.8% (vs 29.9% in Q1 2024). Q2 2025: RMB 25.8B / RMB 104.0B = 24.8% (vs 32.7% in Q2 2024). Q3 2025: RMB 25.0B / RMB 108.3B = 23.1% (vs 24.5% in Q3 2024). 9-month 2025 operating margin: 21.7% vs 29.3% in 9M 2024.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Computed from quarterly earnings releases. Q1 2025 margin compression driven by 43% increase in sales and marketing expenses."
+      }
+    },
+    {
+      "claim": "PDD's net income margin was 28.5% in FY2024, higher than operating margin due to massive interest income contribution",
+      "evidence": "FY2024: Net income RMB 112.4B / Revenue RMB 393.8B = 28.5% net margin. Operating margin was 27.5%. The 1.0pp uplift comes from RMB 20.55B investment income + RMB 3.12B other income, partially offset by RMB ~20.3B income tax.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "XBRL: Pre-tax income RMB 132.7B = Operating income RMB 108.4B + Investment income RMB 20.55B + Other income RMB 3.12B + Equity method income RMB 0.02B."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["operating-margin", "gross-margin", "net-margin", "profitability"]
+  }
+}

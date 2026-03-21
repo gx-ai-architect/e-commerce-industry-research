@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-PRICE-001",
+  "source": {
+    "type": "article",
+    "url": "https://m.tech.china.com/jinji/2025/0518/1673849.html",
+    "title": "iPhone 16 price comparison across PDD, JD, Tmall during 618 2025",
+    "retrieved_at": "2026-03-19T12:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "iPhone 16 Pro 128GB pricing during 618 2025: Pinduoduo lowest at 5,398 RMB vs JD 5,499 RMB vs Tmall 5,199 RMB (all with national subsidies stacked)",
+      "evidence": "During China's 618 shopping festival (June 2025), iPhone 16 Pro 128GB prices were observed as follows: Pinduoduo 百亿补贴 channel offered iPhone 16 Pro 128GB at 5,498 RMB with platform coupon, dropping to 5,398 RMB when stacked with national subsidy (guobao) — a 2,601 RMB discount from official 7,999 RMB price. JD.com self-operated offered iPhone 16 Pro 128GB at 5,499 RMB with 20% national subsidy, or as low as 4,799 RMB with PLUS member coupon + national subsidy + trade-in. Tmall Apple flagship store offered iPhone 16 Pro 128GB at 5,199 RMB with brand store coupon + livestream red packet. Apple official price: 7,999 RMB.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Prices from multiple Chinese media reports covering 618 2025 promotions. Cross-referenced across zhonghua.com, stcn.com, and pconline.com.cn"
+      }
+    },
+    {
+      "claim": "iPhone 16 128GB base model: Tmall offered lowest at 4,299 RMB for 88VIP members with national subsidy during 618 2025",
+      "evidence": "Tmall offered iPhone 16 128GB at 4,299 RMB after stacking 88VIP membership coupon and national subsidy — a 1,700 RMB discount from 5,999 RMB official price. Pinduoduo's 百亿补贴 listed iPhone 16 starting at 5,399 RMB. During a special midnight event (零点红包雨), Tmall price dropped to as low as 4,099 RMB.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Prices from m.tech.china.com 618 coverage and cross-referenced with Zhihu user reports"
+      }
+    },
+    {
+      "claim": "iPhone 16 Pro Max 256GB: JD.com offered at ~7,499 RMB with PLUS coupon + national subsidy; Tmall at 7,408 RMB via education channel; Pinduoduo at 7,899 RMB via 百亿补贴",
+      "evidence": "During 618 2025, iPhone 16 Pro Max 256GB (official price 9,999 RMB) was priced: JD.com at 7,499 RMB using PLUS member coupon (满6000减600) + 20% national subsidy. Tmall education discount channel at 7,408 RMB with 淘金币 deduction + consumer coupon + local subsidy — a 2,607 RMB discount. Pinduoduo 百亿补贴 at 7,899 RMB — a 2,100 RMB discount. For this high-end model, Tmall/JD actually beat Pinduoduo.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Prices from multiple 618 coverage reports. Notable: for premium models, Pinduoduo does NOT always offer the lowest price"
+      }
+    },
+    {
+      "claim": "During 618 2025, iPhone 16 series saw record price drops of 20%+ across all major Chinese platforms, with price differences between platforms narrowing to 100-500 RMB",
+      "evidence": "Multiple media reports characterized the 618 2025 period as the 'best iPhone purchase window in three years' with iPhone 16 Pro models entering the 5,000 RMB range for the first time. The intense platform competition resulted in prices converging, with typical inter-platform differences of only 100-500 RMB depending on model and promotional mechanism used. Pinduoduo's advantage was simplicity (no complex coupon stacking needed), while JD/Tmall could match or beat on price through membership + subsidy combinations.",
+      "evidence_type": "metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Consistent across 36kr, thepaper, stcn, and tech.china.com reporting on 618 2025"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-06",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["pricing", "price-comparison", "domestic-china", "iPhone", "618", "competitive"]
+  }
+}
