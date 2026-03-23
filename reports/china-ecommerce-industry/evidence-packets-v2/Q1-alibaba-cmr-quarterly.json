@@ -1,0 +1,36 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q1",
+  "question": "What is the actual all-in cost of selling on each major Chinese e-commerce platform?",
+  "company": "Alibaba Group",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Alibaba Taobao/Tmall Customer Management Revenue (CMR) quarterly trend shows take rate inflection from software service fee, but impact phasing out by Dec 2025",
+      "data": "Q4 FY2025 (Mar 2025): CMR grew 12% YoY. Q1 FY2026 (Jun 2025): CMR returned to 10% growth. Q2 FY2026 (Sep 2025): CMR grew 10% YoY to RMB78,927M, driven by Quanzhantui penetration and software service fee. Q3 FY2026 (Dec 2025): CMR grew only 1% YoY to RMB102,664M due to weaker transactions and phaseout of software service fee impact. Full FY2025 revenue: ~996.4 billion yuan (+6% YoY). CMR growth expected at 9%/7%/6% in FY26F/27F/28F per DBS.",
+      "source_url": "https://www.businesswire.com/news/home/20260318501558/en/Alibaba-Group-Announces-December-Quarter-2025-Results",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Alibaba Q2 FY2026 China E-commerce adjusted EBITA decreased 76% due to quick commerce investment",
+      "data": "Taobao and Tmall Group adjusted EBITA increased by 1% to RMB196,232M in FY2025. But in Q2 FY2026, China E-commerce adjusted EBITA decreased by 76%, primarily due to investment in quick commerce, user experiences, and technology. Alibaba generating ~40.4% of revenue via domestic e-commerce (subscriptions, commissions, transaction-based fees, value-added services, advertising).",
+      "source_url": "https://www.businesswire.com/news/home/20251124757764/en/Alibaba-Group-Announces-September-Quarter-2025-Results",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Taobao app achieved double-digit YoY increase in monthly active consumers; 88VIP members surpassed 59 million",
+      "data": "The Taobao app achieved a double-digit year-over-year increase in monthly active consumers. 88VIP members surpassed 59 million. These engagement metrics support the narrative of stabilization after years of concern about structural decline.",
+      "source_url": "https://www.businesswire.com/news/home/20260318501558/en/Alibaba-Group-Announces-December-Quarter-2025-Results",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

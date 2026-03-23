@@ -1,0 +1,27 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q2",
+  "question": "How much capital has the food delivery subsidy war burned, and what are the per-order economics?",
+  "company": "JD.com",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "JD.com Q3 2025 net service revenues grew 30.8% YoY, indicating rapid marketplace and food delivery scaling",
+      "data": "Q3 2025: net revenues increased 14.9% to RMB299.1 billion. Net product revenues increased 10.5%. Net service revenues increased 30.8%. JD.com's marketplace and marketing revenues accelerated throughout 2024-2025: up 13% YoY in Q4 2024, with 3P order volume and 3P active users maintaining robust YoY increases, outpacing overall JD Retail growth.",
+      "source_url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "JD.com full year 2024 revenue was RMB1,158.8 billion, with service revenues growing 8% and marketplace/marketing up 6% for full year",
+      "data": "FY2024: Net revenues RMB1,158.8B (+6.8% YoY). Product revenues +5.9%. Service revenues +10.8% in Q4, +8% for full year. Marketplace and marketing up 13% in Q4, 6% for full year. JD now reports three segments: JD Retail, JD Logistics, New Businesses.",
+      "source_url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-fourth-quarter-and-full-year-2024-results-and",
+      "source_date": "2025-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

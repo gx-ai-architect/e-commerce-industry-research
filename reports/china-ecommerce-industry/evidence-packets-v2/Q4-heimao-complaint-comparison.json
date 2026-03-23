@@ -1,0 +1,71 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q4",
+  "question": "What do consumer complaint patterns on Heimao reveal about relative platform quality and merchant treatment?",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "In 2024, total valid e-commerce complaints on Heimao exceeded 1.28 million, up 21.51% YoY. Top 4 platforms account for 83.3% of complaints",
+      "data": "Total valid e-commerce complaints in 2024: >1.28 million, a 21.51% increase YoY from 2023. Pinduoduo, Taobao (including Tmall), JD.com, and Douyin (TikTok Shop) accounted for 83.3% of all e-commerce complaints. During major events like 618 and Double 11, peak daily complaints exceeded 5,000.",
+      "source_url": "https://tousu.sina.com.cn/articles/view/404230/",
+      "source_date": "2025-01",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "During 2025 Double 11, Douyin Shop led complaints at 28.61%, followed by Taobao (24.50%), Pinduoduo (18.27%), JD.com (16.09%)",
+      "data": "2025 Double 11 period (Oct 9 - Nov 14): total complaints 183,867, up 22.72% from previous period. Douyin Shop: ~53,000 complaints (28.61%). Taobao (including Tmall): >45,000 (24.50%). Pinduoduo: 18.27% (~33,600). JD.com: 16.09% (~29,600). Response rates: Douyin Shop ~99%, Pinduoduo ~70%, JD.com <30%, Taobao <10%.",
+      "source_url": "https://tousu.sina.com.cn/articles/view/424621/",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Taobao/Tmall has the worst complaint response rate at under 10%, while Douyin has ~99% response rate",
+      "data": "Response rates (Double 11 2025): Douyin Shop, Dewu, Kuaishou Shop, Xiaohongshu Shop: ~99%. Pinduoduo: ~70%. JD.com: <30%. Taobao (including Tmall): <10%. In December 2025, JD.com response rate dropped to ~20%. Taobao and Tmall did not respond at all. Pinduoduo's response rate improved slightly.",
+      "source_url": "https://tousu.sina.com.cn/articles/view/428100/",
+      "source_date": "2025-12",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "December 2025 monthly complaints were 134,798 with top issues being customer service, refund problems, and fake shipping (虚假发货)",
+      "data": "December 2025: total valid e-commerce complaints 134,798, down 9.43% from November (post-Double 11 decline). Top three complained-about platforms: Douyin, Pinduoduo, Taobao. Most common issues: customer service problems, refund issues, fake shipping (虚假发货).",
+      "source_url": "https://tousu.sina.com.cn/articles/view/428100/",
+      "source_date": "2026-01",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "iOS App Store ratings show stark quality divergence: Pinduoduo 2.9/5, Taobao 4.1/5, Temu 4.7/5",
+      "data": "Pinduoduo China App Store: 2.9/5 (3,383,826 ratings). Taobao China App Store: 4.1/5 (1,680,978 ratings). Temu US App Store: 4.7/5 (2,067,322 ratings). Data from iTunes Lookup API, retrieved 2026-03-23.",
+      "source_url": "https://itunes.apple.com/lookup",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "May 2025 cumulative complaints reached 173,800, up 21% from April, with daily volume rising 30%+ from mid-May (pre-618 pressure)",
+      "data": "May 2025: cumulative valid complaints 173,800, up 21% from April. Daily complaint volume rose over 30% from mid-May onward, reflecting pre-618 promotion pressures.",
+      "source_url": "https://m.chinabgao.com/info/1271943.html",
+      "source_date": "2025-05",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Pinduoduo appears on Heimao 'black list' ranking as #1 worst platform in March 2025",
+      "data": "In the March 2025 Heimao complaint enterprise rankings, Pinduoduo became the #1 entry on the 'black list' (黑榜第一).",
+      "source_url": "https://www.hstong.com/news/detail/21040809451046075",
+      "source_date": "2025-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

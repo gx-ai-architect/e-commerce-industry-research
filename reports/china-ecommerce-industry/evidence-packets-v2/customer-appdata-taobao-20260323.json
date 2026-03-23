@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-qimai-taobao-20260323",
+  "source": {
+    "type": "api",
+    "url": "https://itunes.apple.com/lookup?id=387682726",
+    "title": "App Intelligence: taobao (淘宝) - Ratings & Rankings",
+    "retrieved_at": "2026-03-23T17:07:47Z",
+    "collector": "qimai-appdata"
+  },
+  "extractions": [
+    {
+      "claim": "taobao iOS App Store rating in CN",
+      "evidence": "Rating: 4.1/5. (1,680,978 ratings). Current version: 4.1/5. Version: 10.59.20. Price: 免费",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=cn"
+      }
+    },
+    {
+      "claim": "Qimai (七麦数据) coverage for taobao",
+      "evidence": "Qimai (qimai.cn) tracks taobao across 155 countries and 9 Chinese Android stores (Huawei, Xiaomi, OPPO, Vivo, Tencent MyApp, etc.). Free tier shows: current ranking, rating trend, category rank history. Paid tier adds: download estimates, DAU/MAU, revenue estimates, keyword rankings. For Chinese domestic rankings (critical for Pinduoduo), Qimai is the primary source since Google Play is not available in China. URL: https://www.qimai.cn/app/rank/index/brand/free/device/iphone/country/cn/genre/6024 (Shopping category, China, iPhone, Free)",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Qimai full API requires paid subscription. iTunes Lookup used as free alternative for iOS data."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": [
+      "taobao",
+      "淘宝"
+    ],
+    "topic_tags": [
+      "app-intelligence",
+      "ratings",
+      "rankings",
+      "downloads",
+      "china"
+    ]
+  }
+}

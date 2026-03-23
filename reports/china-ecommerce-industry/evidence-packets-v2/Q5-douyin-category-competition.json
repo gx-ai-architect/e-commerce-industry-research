@@ -1,0 +1,35 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q5",
+  "question": "What competitive threat does Douyin's shift to shelf commerce pose to Taobao and Pinduoduo?",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Double 11 2025 category share: Apparel -- Tmall 57.5%, Douyin 26%, JD 17%. Electronics -- JD dominated (phones 56.9%, computers 62.7%)",
+      "data": "Double 11 2025: Apparel remained highly competitive. Tmall captured 57.5% market share, Douyin took 26%, JD secured 17%. Mobile phones: JD 56.9%. Computers: JD 62.7%. AI glasses sales jumped 25x YoY. Total Double 11 2025 GMV: RMB 1.7 trillion.",
+      "source_url": "https://www.ciw.news/p/double-11-2025",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Douyin GMV (~3.5-4T yuan) is approaching ~44-50% the size of Taobao/Tmall (~8T yuan), growing at 30-34% vs single-digit for Taobao",
+      "data": "Douyin 2024 GMV: ~3.5 trillion yuan. Taotian (Taobao+Tmall) 2024 GMV: ~8 trillion yuan. Douyin GMV = ~44% of Taotian. Douyin growing at 30-34% YoY vs Taotian single-digit growth. JD.com 2024 GMV: ~4.5 trillion yuan. Douyin is third-largest e-commerce player, approaching Pinduoduo scale.",
+      "source_url": "https://daoinsights.com/news/jd-com-reports-2024-gmv-around-4-5-trillion-rmb/",
+      "source_date": "2025-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Douyin's strength in beauty, fashion, and impulse categories; Tmall dominates premium; JD dominates electronics",
+      "data": "Content platforms like Douyin are likely to gain greater share in beauty, apparel, and impulse categories. Beauty, fashion, and wellness brands particularly benefit from Douyin's creator-driven discovery path. Premium fashion, electronics, and beauty often do well on Tmall and JD. Overall market share (mid-2023): Taobao/Tmall 44%, JD 24%, Pinduoduo 19%. Apparel & footwear category held 60% of China's e-commerce market in 2024.",
+      "source_url": "https://gatekaizen.com/china-ecommerce-platforms-2025/",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

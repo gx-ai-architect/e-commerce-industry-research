@@ -1,6 +1,9 @@
 # Meta-Miner: Agent-Based Data Mining
 
-An agent team that produces institutional-quality primary source data for e-commerce company research. Replaces the sequential `orchestrate.sh` with 8 mission-driven domain experts coordinated by a Leader agent.
+An agent team that produces institutional-quality primary source data for e-commerce research. Supports two modes:
+
+- **Company mode:** 8 domain-expert agents deep-dive a single company
+- **Industry mode:** Question-driven research with thesis-organized agents that iterate until evidence is sufficient
 
 ## Prerequisites
 
@@ -10,57 +13,89 @@ An agent team that produces institutional-quality primary source data for e-comm
 
 ## How to Run
 
+### Company Mode (single company deep-dive)
 ```
 Run the /meta-miner skill for PDD Holdings (PDD, CIK 0001737806)
 ```
-
 Or for any company:
 ```
 Run /meta-miner for <Company Name> (<TICKER>, CIK <CIK_NUMBER>)
 ```
 
-## What It Does
+### Industry Mode (cross-company thematic research)
+```
+Run /meta-miner for Chinese E-Commerce Industry
+```
+Or for any industry topic:
+```
+Run /meta-miner for <Topic Name>
+```
 
-1. Parses company inputs (name, ticker, CIK)
-2. Creates the evidence-packets output directory
-3. Creates a team of 8 domain-expert agents + 1 Leader
-4. Leader triages the company, launches agents in batches, validates output
-5. Each agent runs tool scripts + WebSearch + /browse to collect primary source data
-6. All agents write evidence packets to `reports/$COMPANY/evidence-packets/`
-7. Bridge script converts packets to `evidence-auto.json`
+## Mode Detection
+
+- **Company mode:** Invocation includes a stock ticker and/or CIK number
+- **Industry mode:** Invocation has no ticker/CIK — just a topic name
 
 ## Execution Protocol
 
 ### Step 1: Parse Inputs
 
-Extract from the user's invocation:
+**Company mode:**
 - `COMPANY` — slug form (e.g., `pdd-holdings`)
 - `TICKER` — stock ticker (e.g., `PDD`)
 - `CIK` — SEC CIK number (e.g., `0001737806`)
+- `MODE` = `company`
+
+**Industry mode:**
+- `TOPIC` — slug form (e.g., `china-ecommerce-industry`)
+- `MODE` = `industry`
 
 ### Step 2: Setup
 
 ```bash
 REPO_ROOT=$(git rev-parse --show-toplevel)
-OUTDIR="$REPO_ROOT/reports/$COMPANY/evidence-packets"
+
+# Company mode
+if [ "$MODE" = "company" ]; then
+  OUTDIR="$REPO_ROOT/reports/$COMPANY/evidence-packets"
+else
+  OUTDIR="$REPO_ROOT/reports/$TOPIC/evidence-packets"
+fi
+
 mkdir -p "$OUTDIR"
 ```
 
 ### Step 3: Create Team and Spawn Leader
 
-Use TeamCreate to create a team named `meta-miner-$COMPANY`.
+Use TeamCreate to create a team named `meta-miner-$SLUG` (where SLUG is the company or topic slug).
 
 Then spawn the Leader agent (`.claude/agents/meta-miner-leader.md`) with this message:
 
+**Company mode:**
 ```
 You are the Meta-Miner Leader for researching:
+- Mode: company
 - Company: $COMPANY_NAME
 - Ticker: $TICKER
 - CIK: $CIK
 - Output directory: $OUTDIR
 - Repo root: $REPO_ROOT
 
-Execute your full protocol: TRIAGE -> LAUNCH -> VALIDATE -> CONVERGE.
+Execute your COMPANY MODE protocol: TRIAGE -> LAUNCH -> VALIDATE -> CONVERGE.
+```
+
+**Industry mode:**
+```
+You are the Meta-Miner Leader for researching:
+- Mode: industry
+- Topic: $TOPIC_NAME
+- Output directory: $OUTDIR
+- Repo root: $REPO_ROOT
+
+Execute your INDUSTRY MODE protocol:
+QUESTION FORMATION -> INITIAL COLLECTION -> EVIDENCE COURT -> TARGETED FOLLOW-UP (up to 3 rounds) -> SYNTHESIS.
+
+Remember: formulate genuine QUESTIONS, not claims. Evaluate evidence INTELLECTUALLY — does it answer the question? — not just structurally. Iterate until you have real answers or have honestly determined a question is unanswerable.
 ```
 
 ### Step 4: Monitor
@@ -73,10 +108,12 @@ After all agents complete, the Leader runs:
 ```bash
 python3 $REPO_ROOT/scripts/bridge/packets_to_evidence.py \
   --packets-dir $OUTDIR \
-  --output $REPO_ROOT/reports/$COMPANY/evidence-auto.json
+  --output $REPO_ROOT/reports/$SLUG/evidence-auto.json
 ```
 
-## Agent Team
+## Agent Teams
+
+### Company Mode (8 domain experts)
 
 | # | Agent | Definition | Domain |
 |---|-------|-----------|--------|
@@ -90,15 +127,35 @@ python3 $REPO_ROOT/scripts/bridge/packets_to_evidence.py \
 | 7 | Regulatory | `.claude/agents/regulatory-policy-reader.md` | Legal actions, tariffs, policy |
 | 8 | Company-Specific | `.claude/agents/company-specific.md` | Leader decides mission |
 
+### Industry Mode (3-5 thesis agents)
+
+| # | Agent | Definition | Domain |
+|---|-------|-----------|--------|
+| 0 | Leader | `.claude/agents/meta-miner-leader.md` | Question formation, evidence court, iteration |
+| 1-5 | Thesis Agents | `.claude/agents/thesis-agent.md` | One agent per research question, cross-company |
+
+In industry mode, the Leader dynamically creates each agent's mission during Phase 0 (Question Formation). The thesis-agent.md template provides the evidence standards and tool inventory; the Leader fills in the specific question, evidence requirements, and companies to investigate.
+
 ## Output
 
+### Company Mode
 ```
 reports/$COMPANY/
 ├── evidence-packets/          # Raw JSON packets from all agents
 │   ├── business-model-*.json
 │   ├── gmv-*.json
-│   ├── price-*.json
 │   └── ...
+└── evidence-auto.json         # Bridged evidence for report generation
+```
+
+### Industry Mode
+```
+reports/$TOPIC/
+├── evidence-packets/          # Raw JSON packets from thesis agents
+│   ├── Q1-merchant-profitability-*.json
+│   ├── Q2-food-delivery-*.json
+│   └── ...
+├── research-board.md          # Questions, verdicts, evidence inventory, handoff notes
 └── evidence-auto.json         # Bridged evidence for report generation
 ```
 

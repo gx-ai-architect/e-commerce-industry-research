@@ -2,8 +2,11 @@
 """
 Bridge: Convert evidence packets (data mining output) to evidence.json entries (report input).
 
-Evidence packets use the schema: {packet_id, source, extractions[], metadata}
-Evidence.json entries use: {id: "E1", url, quote, date, provenance}
+Supports two packet formats:
+1. Formal schema: {packet_id, source, extractions[], metadata}
+2. Simple format: {agent, company, findings[]} (used by thesis agents and early company agents)
+
+Evidence.json entries use: {id: "E1", url, quote, date, provenance, question_id?, source_tier?}
 
 Only includes extractions with verification.status "supported" or "extrapolated".
 Deduplicates by URL when merging with an existing evidence.json.
@@ -69,6 +72,107 @@ def should_include(extraction):
     return status in ("supported", "extrapolated")
 
 
+def is_formal_packet(data):
+    """Check if a packet uses the formal schema (has packet_id and source)."""
+    return "packet_id" in data and "source" in data and "extractions" in data
+
+
+def convert_formal_packet(packet):
+    """Convert a formal-schema packet to evidence entries."""
+    entries = []
+    source = packet.get("source", {})
+    metadata = packet.get("metadata", {})
+    collector = source.get("collector", "unknown")
+    url = source.get("url", "")
+
+    # Determine date: prefer freshness, fallback to retrieved_at
+    freshness_date = parse_date_from_freshness(metadata.get("freshness", ""))
+    retrieved_date = parse_date_from_retrieved_at(source.get("retrieved_at", ""))
+    date = freshness_date if freshness_date != "unknown" else retrieved_date
+
+    # New fields from industry mode
+    question_id = metadata.get("question_id")
+    source_tier = metadata.get("source_tier")
+    evidence_direction = metadata.get("evidence_direction")
+
+    for extraction in packet.get("extractions", []):
+        if not should_include(extraction):
+            continue
+
+        quote = build_quote(extraction)
+        if not quote:
+            continue
+
+        entry = {
+            "id": None,  # assigned later
+            "url": url,
+            "quote": quote,
+            "date": date,
+            "provenance": f"auto:{collector}"
+        }
+
+        if question_id:
+            entry["question_id"] = question_id
+        if source_tier:
+            entry["source_tier"] = source_tier
+        if evidence_direction:
+            entry["evidence_direction"] = evidence_direction
+
+        entries.append(entry)
+
+    return entries
+
+
+def convert_simple_packet(packet):
+    """Convert a simple-format packet (agent/findings) to evidence entries."""
+    entries = []
+    collector = packet.get("agent", "unknown")
+    question_id = packet.get("question_id")
+    collected_at = packet.get("collected_at", "unknown")
+
+    for finding in packet.get("findings", []):
+        claim = finding.get("claim", "")
+        data = finding.get("data", "")
+        url = finding.get("source_url", "")
+        date = finding.get("source_date", collected_at)
+        source_tier = finding.get("source_tier")
+        evidence_direction = finding.get("evidence_direction")
+        confidence = finding.get("confidence", "medium")
+
+        # Skip low-confidence findings
+        if confidence == "low":
+            continue
+
+        # Build quote from claim + data
+        if claim and data:
+            quote = f"{claim}: {data}"
+        elif data:
+            quote = data
+        elif claim:
+            quote = claim
+        else:
+            continue
+
+        entry = {
+            "id": None,  # assigned later
+            "url": url,
+            "quote": quote,
+            "date": date,
+            "provenance": f"auto:{collector}"
+        }
+
+        if question_id:
+            entry["question_id"] = question_id
+        if source_tier:
+            entry["source_tier"] = source_tier
+        if evidence_direction:
+            entry["evidence_direction"] = evidence_direction
+
+        entries.append(entry)
+
+    return entries
+
+
 def load_packets(packets_dir):
     """Load all JSON evidence packet files from a directory."""
     packets = []
@@ -101,36 +205,16 @@ def load_packets(packets_dir):
 def convert_packets(packets, start_id=1):
     """Convert evidence packets to evidence.json entries."""
     entries = []
-    current_id = start_id
 
     for packet in packets:
-        source = packet.get("source", {})
-        metadata = packet.get("metadata", {})
-        collector = source.get("collector", "unknown")
-        url = source.get("url", "")
+        if is_formal_packet(packet):
+            entries.extend(convert_formal_packet(packet))
+        else:
+            entries.extend(convert_simple_packet(packet))
 
-        # Determine date: prefer freshness, fallback to retrieved_at
-        freshness_date = parse_date_from_freshness(metadata.get("freshness", ""))
-        retrieved_date = parse_date_from_retrieved_at(source.get("retrieved_at", ""))
-        date = freshness_date if freshness_date != "unknown" else retrieved_date
-
-        for extraction in packet.get("extractions", []):
-            if not should_include(extraction):
-                continue
-
-            quote = build_quote(extraction)
-            if not quote:
-                continue
-
-            entry = {
-                "id": f"E{current_id}",
-                "url": url,
-                "quote": quote,
-                "date": date,
-                "provenance": f"auto:{collector}"
-            }
-            entries.append(entry)
-            current_id += 1
+    # Assign IDs
+    for i, entry in enumerate(entries):
+        entry["id"] = f"E{start_id + i}"
 
     return entries
 
@@ -175,6 +259,29 @@ def merge_with_existing(new_entries, existing_path):
     return existing + deduped
 
 
+def group_by_question(entries):
+    """Group entries by question_id for industry-mode output."""
+    grouped = {}
+    ungrouped = []
+
+    for entry in entries:
+        qid = entry.get("question_id")
+        if qid:
+            if qid not in grouped:
+                grouped[qid] = []
+            grouped[qid].append(entry)
+        else:
+            ungrouped.append(entry)
+
+    # Return entries ordered by question_id, then ungrouped
+    result = []
+    for qid in sorted(grouped.keys()):
+        result.extend(grouped[qid])
+    result.extend(ungrouped)
+
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Convert evidence packets to evidence.json entries"
@@ -198,6 +305,11 @@ def main():
         "--merge-with",
         help="Existing evidence.json to append to"
     )
+    parser.add_argument(
+        "--group-by-question",
+        action="store_true",
+        help="Group output entries by question_id (for industry-mode reports)"
+    )
 
     args = parser.parse_args()
 
@@ -209,6 +321,9 @@ def main():
 
     if args.merge_with:
         entries = merge_with_existing(entries, args.merge_with)
+
+    if args.group_by_question:
+        entries = group_by_question(entries)
 
     output = json.dumps(entries, indent=2)
 

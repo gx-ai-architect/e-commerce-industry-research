@@ -1,0 +1,80 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q1",
+  "question": "What is the actual all-in cost of selling on each major Chinese e-commerce platform, and how has it changed?",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Chinese e-commerce platform all-in merchant costs (commissions + advertising) are approximately 4-5% of GMV on Alibaba and Pinduoduo, and up to ~10% on Douyin",
+      "data": "Reconstructions of Chinese platforms' accounts suggest commissions plus advertising amount to roughly 4-5% of GMV for Alibaba and Pinduoduo, close to 10% for short-video marketplaces like Douyin. Sponsored listings account for 1-3% of GMV for Indian marketplaces, 4-5% for Alibaba and Pinduoduo, close to 10% for short-video platforms.",
+      "source_url": "https://indiadispatch.com/p/meesho-pinduoduo-shopee-value-commerce",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Alibaba introduced 0.6% software service fee on all Taobao and Tmall transactions starting September 1, 2024, replacing fixed annual fees for Tmall merchants",
+      "data": "Alibaba began charging a basic software service fee of 0.6% on confirmed transactions for vendors on both Tmall and Taobao platforms starting September 1, 2024. Previously, Alibaba charged a fixed annual fee (30,000-60,000 yuan) to Tmall merchants, which was waived. Taobao C2C stores were previously exempt from transaction-based fees. Small merchants earning less than 120,000 yuan annually receive full refunds of the service fee.",
+      "source_url": "https://finance.yahoo.com/news/alibaba-shares-jump-plans-boost-061012116.html",
+      "source_date": "2024-09",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Alibaba's Quanzhantui (full-site promotion) penetration rate near 30% in 2025, expected to reach 45-50% in FY2026",
+      "data": "The penetration rate of full-site promotion (Quanzhantui) is now close to 30%, and it is expected to reach 45%-50% in fiscal year 2026. The software service fee will continue to drive up the take rate.",
+      "source_url": "https://eu.36kr.com/en/p/3293770268395525",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD Holdings charges merchants a technical service fee of approximately 0.6-1% of GMV since 2020, with a 10 billion yuan fee waiver pledge for 'high-quality' merchants",
+      "data": "PDD started charging merchants a technical service fee of about 0.6%-1% of GMV since 2020. PDD chairman Chen Lei said it would waive 10 billion yuan in transaction fees for 'high-quality' merchants over the next year, willing to accept short-term profitability declines. After policy changes, Pinduoduo began returning some service fees to merchants in promotional campaigns.",
+      "source_url": "https://www.scmp.com/tech/big-tech/article/3276622/pinduoduo-returns-some-service-fees-sellers-after-parent-pdd-pledges-us14-bln-waiver",
+      "source_date": "2024-08",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Traffic promotion costs account for over 50% of a typical Tmall merchant's total operating costs",
+      "data": "Traffic promotion costs account for over 50% of a typical merchant's total operating costs on Tmall. Platform service fees consume another 5-7%. After-sales and logistics add 5%. This means roughly 60-70% of operating budget goes to costs beyond platform fees and product costs.",
+      "source_url": "https://www.shanghaijungle.com/blog/monthly-costs-china-ecommerce-store",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Tmall commission rates range from 0.5-10% depending on category, typically 2-5%",
+      "data": "Some categories of merchants on Tmall need to pay a software service fee according to a certain percentage of their sales. This fee is typically either charged at 2% and 5%. However, this can vary between 0.5% to 10% for some edge cases. JD.com charges 2-5% commission for the majority of categories.",
+      "source_url": "https://www.tmogroup.asia/insights/chinese-online-marketplace-fees/",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Douyin invested 5.5 billion yuan in merchant subsidies in Q1 2025 alone, with total merchant cost savings of 32 billion yuan for full year 2025",
+      "data": "Following over 3 billion yuan in cost reductions for merchants in Jan-Feb, Douyin increased support in March, reducing commissions and costs by over 2 billion yuan in that single month. Total cost savings for Q1 2025: 5.5 billion yuan. By end of August 2025, Douyin subsidized merchants by more than 19 billion yuan. For full year 2025, cumulative merchant cost savings exceeded 32 billion yuan.",
+      "source_url": "https://chineseseoshifu.com/blog/douyin-e-commerce-invests-55-billion-in-merchant-subsidies",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "SAMR drafted 28-article guidelines to regulate e-commerce platform fees, requiring transparency and banning unfair practices",
+      "data": "SAMR released 'Compliance Guide for Online Trading Platform Fees' covering commissions, membership fees, technical service charges, information fees, and marketing expenses. Key provisions: platforms must publish commission fees prominently; solicit public opinion for 7 days before pricing changes; keep historical pricing records for 3 years; ban on duplicate charging, passing costs to merchants, unreasonable security deposits. Comment period ended June 3, 2025.",
+      "source_url": "https://www.chinadaily.com.cn/a/202505/26/WS6833adb1a310a04af22c1692.html",
+      "source_date": "2025-05",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

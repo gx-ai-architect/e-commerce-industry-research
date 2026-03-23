@@ -1,0 +1,27 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q1",
+  "question": "What is the actual all-in cost of selling on each major Chinese e-commerce platform?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "PDD Holdings quarterly revenue breakdown showing transaction services now exceeding online marketing services (Q1 2024 through Q3 2025)",
+      "data": "Q1 2024: Total RMB86.8B (OMS: 42.5B, TS: 44.4B). Q2 2024: Total RMB97.1B (OMS: 49.1B, TS: 47.9B). Q3 2024: Total RMB99.4B (OMS: 49.4B, TS: 50.0B). Q4 2024: Total RMB110.6B (OMS: 57.0B, TS: 53.6B). Q1 2025: Total RMB95.7B (OMS: 48.7B, TS: 47.0B, +10% YoY). Q2 2025: Total RMB104.0B (OMS: 55.7B, TS: 48.3B, +7% YoY). Q3 2025: Total RMB108.3B (OMS: 53.3B, TS: 54.9B, +9% YoY). Revenue growth decelerated from +131% YoY in Q1 2024 to +7-10% in 2025.",
+      "source_url": "https://investor.pddholdings.com/news-releases",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD Q1 2025 operating profit fell 38% YoY to RMB16.1B due to merchant support investments",
+      "data": "Q1 2025 operating profit was RMB16,085.6 million, a decrease of 38% compared to Q1 2024. Management stated company was 'prepared to make short-term sacrifices and accept declines in profitability' for merchant ecosystem. Cash position as of Sep 30, 2025: RMB423.8 billion.",
+      "source_url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-first-quarter-2025-unaudited-financial/",
+      "source_date": "2025-05",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

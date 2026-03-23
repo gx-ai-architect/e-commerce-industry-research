@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-qimai-temu-20260323",
+  "source": {
+    "type": "api",
+    "url": "https://itunes.apple.com/lookup?id=1641486558",
+    "title": "App Intelligence: temu (Temu) - Ratings & Rankings",
+    "retrieved_at": "2026-03-23T17:07:48Z",
+    "collector": "qimai-appdata"
+  },
+  "extractions": [
+    {
+      "claim": "temu iOS App Store rating in US",
+      "evidence": "Rating: 4.7/5. (2,067,322 ratings). Current version: 4.7/5. Version: 4.38.0. Price: Free",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=us"
+      }
+    },
+    {
+      "claim": "Qimai (七麦数据) coverage for temu",
+      "evidence": "Qimai (qimai.cn) tracks temu across 155 countries and 9 Chinese Android stores (Huawei, Xiaomi, OPPO, Vivo, Tencent MyApp, etc.). Free tier shows: current ranking, rating trend, category rank history. Paid tier adds: download estimates, DAU/MAU, revenue estimates, keyword rankings. For Chinese domestic rankings (critical for Pinduoduo), Qimai is the primary source since Google Play is not available in China. URL: https://www.qimai.cn/app/rank/index/brand/free/device/iphone/country/cn/genre/6024 (Shopping category, China, iPhone, Free)",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Qimai full API requires paid subscription. iTunes Lookup used as free alternative for iOS data."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": [
+      "temu",
+      "Temu"
+    ],
+    "topic_tags": [
+      "app-intelligence",
+      "ratings",
+      "rankings",
+      "downloads",
+      "us"
+    ]
+  }
+}

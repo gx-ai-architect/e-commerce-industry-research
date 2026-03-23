@@ -1,0 +1,138 @@
+[
+  {
+    "packet_id": "PKT-cnexpress-zto-20260323",
+    "source": {
+      "type": "filing",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001684863&type=20-F",
+      "title": "ZTO Express - SEC EDGAR Financial Data",
+      "retrieved_at": "2026-03-23T17:07:48Z",
+      "collector": "cn-express-earnings"
+    },
+    "extractions": [
+      {
+        "claim": "ZTO XBRL data fetched but no parcel volume metrics found",
+        "evidence": "SEC EDGAR XBRL data for CIK 0001684863 was fetched. Volume metrics may use non-standard taxonomy. Use WebSearch for 'ZTO parcel volume quarterly' as supplement.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "extrapolated",
+          "verifier_notes": "XBRL data available but specific volume concepts not matched"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": [
+        "ZTO"
+      ],
+      "topic_tags": [
+        "logistics",
+        "parcel-volume",
+        "express-delivery",
+        "china",
+        "sec-edgar"
+      ]
+    }
+  },
+  {
+    "packet_id": "PKT-cnexpress-yto-20260323",
+    "source": {
+      "type": "dataset",
+      "url": "https://finance.yahoo.com/quote/600233.SS/",
+      "title": "YTO (圆通速递) - Express Delivery Volumes",
+      "retrieved_at": "2026-03-23T17:07:48Z",
+      "collector": "cn-express-earnings"
+    },
+    "extractions": [
+      {
+        "claim": "YTO (圆通速递) is listed on Shanghai/Shenzhen exchange",
+        "evidence": "Stock: 600233.SS. Financial data not available via SEC EDGAR. Use WebSearch for '圆通速递 快递业务量 2025 2026' to find quarterly volume data.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "extrapolated",
+          "verifier_notes": "Non-EDGAR carrier — requires WebSearch for volume data"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": [
+        "YTO",
+        "圆通速递"
+      ],
+      "topic_tags": [
+        "logistics",
+        "parcel-volume",
+        "express-delivery",
+        "china"
+      ]
+    }
+  },
+  {
+    "packet_id": "PKT-cnexpress-yunda-20260323",
+    "source": {
+      "type": "dataset",
+      "url": "https://finance.yahoo.com/quote/002120.SZ/",
+      "title": "Yunda (韵达股份) - Express Delivery Volumes",
+      "retrieved_at": "2026-03-23T17:07:48Z",
+      "collector": "cn-express-earnings"
+    },
+    "extractions": [
+      {
+        "claim": "Yunda (韵达股份) is listed on Shanghai/Shenzhen exchange",
+        "evidence": "Stock: 002120.SZ. Financial data not available via SEC EDGAR. Use WebSearch for '韵达股份 快递业务量 2025 2026' to find quarterly volume data.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "extrapolated",
+          "verifier_notes": "Non-EDGAR carrier — requires WebSearch for volume data"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": [
+        "Yunda",
+        "韵达股份"
+      ],
+      "topic_tags": [
+        "logistics",
+        "parcel-volume",
+        "express-delivery",
+        "china"
+      ]
+    }
+  },
+  {
+    "packet_id": "PKT-cnexpress-sto-20260323",
+    "source": {
+      "type": "dataset",
+      "url": "https://finance.yahoo.com/quote/002468.SZ/",
+      "title": "STO (申通快递) - Express Delivery Volumes",
+      "retrieved_at": "2026-03-23T17:07:48Z",
+      "collector": "cn-express-earnings"
+    },
+    "extractions": [
+      {
+        "claim": "STO (申通快递) is listed on Shanghai/Shenzhen exchange",
+        "evidence": "Stock: 002468.SZ. Financial data not available via SEC EDGAR. Use WebSearch for '申通快递 快递业务量 2025 2026' to find quarterly volume data.",
+        "evidence_type": "computed_metric",
+        "verification": {
+          "status": "extrapolated",
+          "verifier_notes": "Non-EDGAR carrier — requires WebSearch for volume data"
+        }
+      }
+    ],
+    "metadata": {
+      "freshness": "2026-03",
+      "company_tags": [
+        "STO",
+        "申通快递"
+      ],
+      "topic_tags": [
+        "logistics",
+        "parcel-volume",
+        "express-delivery",
+        "china"
+      ]
+    }
+  }
+]

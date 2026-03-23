@@ -1,0 +1,158 @@
+[
+  {
+    "id": "merchant-cost-comparison",
+    "type": "bar",
+    "title": "All-In Merchant Cost by Platform (% of Revenue)",
+    "subtitle": "Traffic/advertising costs dominate on Taobao/Tmall — commissions are the distraction",
+    "x_axis": "Platform",
+    "y_axis": "% of Revenue",
+    "evidence_ids": ["E4", "E5", "E6", "E8"],
+    "data": {
+      "categories": ["Taobao/Tmall", "Pinduoduo (best)", "Pinduoduo (worst)", "JD.com (3P)", "Douyin"],
+      "series": [
+        {
+          "name": "Commission/Service Fee",
+          "values": [5.6, 0.8, 0.8, 5.0, 3.5],
+          "color": "#4A90D9"
+        },
+        {
+          "name": "Traffic/Advertising",
+          "values": [20.0, 1.0, 15.0, 8.0, 5.0],
+          "color": "#E74C3C"
+        },
+        {
+          "name": "After-Sales/Logistics",
+          "values": [5.0, 3.2, 5.0, 4.0, 1.5],
+          "color": "#F39C12"
+        }
+      ],
+      "stacked": true
+    },
+    "notes": "Taobao/Tmall commission includes 0.6% base software fee + 2-5% Tmall commission. PDD 'best' = price-competitive merchants getting algorithmic traffic. JD take rate of ~2.4% reflects 1P/3P mix. Douyin estimates based on ~10% all-in with subsidies."
+  },
+  {
+    "id": "food-delivery-subsidy-burn",
+    "type": "line",
+    "title": "Food Delivery War: Meituan Profit Swing and Market Share Shift",
+    "subtitle": "Meituan swung from RMB 35.8B profit to RMB 24.3B loss in one year",
+    "x_axis": "Period",
+    "y_axis_left": "Net Income (RMB Billion)",
+    "y_axis_right": "Market Share (%)",
+    "evidence_ids": ["E18", "E19", "E22"],
+    "data": {
+      "labels": ["FY2024", "Q1 2025", "Q2 2025", "Q3 2025", "FY2025E"],
+      "series": [
+        {
+          "name": "Meituan Net Income (RMB B)",
+          "values": [35.8, 5.0, -5.0, -19.8, -24.3],
+          "axis": "left",
+          "color": "#FFCC00"
+        },
+        {
+          "name": "Meituan Market Share (%)",
+          "values": [85, 78, 68, 60, 57],
+          "axis": "right",
+          "color": "#E74C3C"
+        },
+        {
+          "name": "Taobao Flash Buy Share (%)",
+          "values": [15, 18, 27, 33, 36],
+          "axis": "right",
+          "color": "#FF6600"
+        },
+        {
+          "name": "JD Share (%)",
+          "values": [0, 4, 5, 7, 7],
+          "axis": "right",
+          "color": "#C0392B"
+        }
+      ]
+    },
+    "notes": "Meituan FY2024 net income from annual results. Q1-Q3 figures are quarterly operating results. Market share figures are estimates from UBS and industry analysts. Meituan FY2025E net loss of 23.3-24.3B yuan per Caixin (Feb 2026)."
+  },
+  {
+    "id": "heimao-response-rates",
+    "type": "bar",
+    "title": "Heimao Complaint Response Rate by Platform (Double 11 2025)",
+    "subtitle": "Taobao responds to fewer than 1 in 10 consumer complaints",
+    "x_axis": "Platform",
+    "y_axis": "Response Rate (%)",
+    "evidence_ids": ["E35", "E36"],
+    "data": {
+      "categories": ["Douyin Shop", "Dewu/Kuaishou/XHS", "Pinduoduo", "JD.com", "Taobao/Tmall"],
+      "series": [
+        {
+          "name": "Response Rate",
+          "values": [99, 99, 70, 28, 8],
+          "color": ["#27AE60", "#27AE60", "#F39C12", "#E74C3C", "#C0392B"]
+        }
+      ]
+    },
+    "notes": "Response rate = percentage of consumer complaints on Heimao that received a response from the platform. Data from Heimao Double 11 2025 report (Oct 9 - Nov 14) and December 2025 monthly report. Taobao/Tmall <10% rounded to 8% for visualization. JD <30% rounded to 28%. Douyin and smaller platforms at ~99%."
+  },
+  {
+    "id": "douyin-shelf-progression",
+    "type": "line",
+    "title": "Douyin Shelf Commerce as % of Total GMV (2023-2025)",
+    "subtitle": "Three-year plan achieved on schedule: 30% → 40% → 50%",
+    "x_axis": "Year",
+    "y_axis": "% of Total GMV",
+    "evidence_ids": ["E46", "E47", "E48"],
+    "data": {
+      "labels": ["2023", "H1 2024", "2024", "H1 2025 (618)", "2025E"],
+      "series": [
+        {
+          "name": "Shelf Commerce",
+          "values": [30, 35, 40, 50, 50],
+          "color": "#3498DB"
+        },
+        {
+          "name": "Merchant-Led Livestream",
+          "values": [25, 28, 30, 25, 25],
+          "color": "#9B59B6"
+        },
+        {
+          "name": "Influencer-Led Livestream",
+          "values": [45, 37, 30, 25, 25],
+          "color": "#E74C3C"
+        }
+      ],
+      "stacked": true
+    },
+    "notes": "Douyin's 3-year plan for shelf e-commerce: 30% year 1 (2023, achieved), 40% year 2 (2024, achieved), 50% year 3 (2025, achieved by 618). Shelf GMV grew 49% YoY vs 34% overall. Influencer share declining as merchant self-hosted streams grow. H1/H2 splits are estimates based on available data points."
+  },
+  {
+    "id": "temu-dau-recovery",
+    "type": "line",
+    "title": "Temu US DAU/MAU Recovery Trajectory After De Minimis Elimination",
+    "subtitle": "85% parcel volume drop, 58% DAU drop — then partial recovery",
+    "x_axis": "Month (2025)",
+    "y_axis_left": "US DAU (Millions)",
+    "y_axis_right": "US MAU (Millions)",
+    "evidence_ids": ["E29", "E30", "E32"],
+    "data": {
+      "labels": ["Mar 2025", "Apr 2025", "May 2025", "Jun 2025", "Jul 2025", "Aug 2025", "Sep 2025", "Oct 2025"],
+      "series": [
+        {
+          "name": "US DAU (M)",
+          "values": [70, 50, 30, 35, 45, 50, 55, 55],
+          "axis": "left",
+          "color": "#E74C3C"
+        },
+        {
+          "name": "US MAU (M)",
+          "values": [185, 120, 80, 40, 90, 110, 125, 134],
+          "axis": "right",
+          "color": "#3498DB"
+        },
+        {
+          "name": "Global MAU (M)",
+          "values": [400, 410, 416, 416, 500, 530, 510, 500],
+          "axis": "right",
+          "color": "#27AE60"
+        }
+      ]
+    },
+    "notes": "US DAU dropped 52-58% in May 2025 (from ~70M to ~30M). US MAU dropped 51% to 40.2M between March and June. Recovery to 60-70% of peak by July (Prime Day). October US MAU at 133.6M (still -28% YoY). Global MAU hit record 530M in August 2025 despite US decline. 90% of global MAU from outside US per HSBC. Monthly figures are interpolated from available data points."
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q1",
+  "question": "What is the actual all-in cost of selling on each major Chinese e-commerce platform?",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Taobao/Tmall merchant total operating costs: 20-40%+ of revenue, with traffic/advertising being 10-30%+ of revenue (>50% of total operating costs)",
+      "data": "Taobao/Tmall cost breakdown: Store/tool fees <1%. Platform service fees 5-7% (0.6% base software fee + 2-5% Tmall commission + points fees). Traffic promotion 10-30%+ of revenue (over 50% of total operating costs). After-sales/logistics ~5%. Total: ~20-40%+ of revenue. Commission-to-traffic income ratio: approximately 1:2.4. One fashion brand founder reported return rates rose from 30-40% to 70-80% since 2021 while traffic costs increased tenfold.",
+      "source_url": "https://www.shanghaijungle.com/blog/monthly-costs-china-ecommerce-store",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Pinduoduo merchant costs can be as low as 5-7% for price-competitive merchants vs 12-27% on other platforms",
+      "data": "Pinduoduo's traffic distribution based on single-product low pricing -- merchants who offer lower prices get more traffic. SME merchants can redirect ~15% of marketing expenses into lower prices for algorithmic recommendations. With price advantage: combined commission + after-sales + traffic costs of 5-7%. Without: 12-27%. This is significantly lower than Taobao/Tmall's 20-40%.",
+      "source_url": "https://www.ciw.news/p/operating-costs-china-e-commerce-giants",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "JD.com overall take rate ~2.4% on GMV in 2023; 3P commission rates typically 2-8%, some POP merchants reduced to 0.6%",
+      "data": "JD 2023 GMV: US$485 billion. Take rate: 2.4% (low due to hybrid 1P/3P model -- 1P generates high revenue at thin margins). Standard 3P commission: 2-8% depending on category (can range 1-30%). POP merchants selected for low-price strategy program had commission reduced to 0.6%. 1P vs 3P split (2024): 1P 27%, 3P 73% of total GMV. JD.com also charges $15,000 refundable deposit and $1,000 annual platform fee for JD Worldwide sellers.",
+      "source_url": "https://www.tmogroup.asia/insights/chinese-online-marketplace-fees/",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "A lamp factory owner's example: promotion fees nearly consuming 70% of profits, needing 400-500 RMB daily (up from 100 RMB)",
+      "data": "A lamp factory owner reported spending 100 RMB/day on promotion previously, now needs 400-500 RMB daily. Over a recent 30-day period, promotion fees reached 11,400 RMB -- nearly consuming 70% of her profits. Multiple merchants report traffic promotion fees at 50%+ of cost structure, some reaching 70%.",
+      "source_url": "https://finance.sina.com.cn/xwzmt/2024-12-20/doc-ineaavuv5917717.shtml",
+      "source_date": "2024-12",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

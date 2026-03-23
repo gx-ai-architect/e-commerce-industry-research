@@ -1,0 +1,62 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q2",
+  "question": "How much capital has the food delivery/instant commerce subsidy war actually burned, and what are the per-order economics?",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Combined food delivery subsidy spending by Meituan, Alibaba, and JD exceeded RMB100 billion ($14B) across Q2-Q3 2025",
+      "data": "In Q2 2025 alone, the three companies' combined sales and marketing expenses totaled 102.7 billion yuan (Alibaba: 53.2B, JD: 27B, Meituan: 22.5B). Combined profits fell by nearly RMB80 billion ($11.27B) compared with the previous year across Q2-Q3 2025.",
+      "source_url": "https://technode.com/2025/12/01/chinas-food-delivery-price-war-sees-meituan-alibaba-jd-com-incur-14b-in-costs-across-two-quarters/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Meituan expects full-year 2025 net loss of 23.3-24.3 billion yuan ($3.5B), reversing from 35.8 billion yuan profit in 2024",
+      "data": "Meituan projects net loss between 23.3B and 24.3B yuan for 2025, versus 35.8B yuan profit in 2024. Core Local Commerce segment swung from 52.4B yuan profit in 2024 to 6.8B yuan loss in 2025. Q3 2025 operating loss was 19.8B yuan ($2.7B), the largest since listing. Sales and marketing expenses surged 90.9% YoY to 34.3B yuan in Q3 2025 (35.9% of revenue vs 19.2% prior year).",
+      "source_url": "https://www.caixinglobal.com/2026-02-14/meituan-warns-of-loss-as-high-as-35-billion-amid-subsidy-war-102414811.html",
+      "source_date": "2026-02",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "JD.com food delivery may have generated 10+ billion yuan loss in Q2 2025 alone per Nomura analysis",
+      "data": "JD founder Richard Liu photographed delivering food in Beijing publicity stunt. JD announced 10 billion yuan first round of subsidies. Nomura estimated JD's food delivery push generated a loss of more than 10 billion yuan in Q2 alone.",
+      "source_url": "https://www.cnbc.com/2025/07/11/china-instant-commerce-price-war-billions-subsidies-jd-alibaba-meituan-ele-me.html",
+      "source_date": "2025-07",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Alibaba announced RMB50 billion ($7B) subsidy plan for Taobao Flash Buy (instant commerce) in July 2025",
+      "data": "In July 2025, Alibaba's Taobao announced it would inject RMB50 billion ($7B) over the next year into subsidies for consumers and businesses on its food delivery and quick commerce platform. Alibaba's free cash flow swung to a net outflow of 18.815B yuan, versus inflow of 17.372B yuan in same period 2024.",
+      "source_url": "https://www.scmp.com/tech/big-tech/article/3316646/alibabas-us7-billion-subsidy-deepens-chinas-instant-e-commerce-war-jdcom-meituan",
+      "source_date": "2025-07",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Food delivery market share restructured: Meituan 55-58%, Taobao Instant Commerce 35-37%, JD 5-8%",
+      "data": "UBS estimated Meituan's market share fell from 85% before the subsidy war to 65%. By year-end, market restructured into three-way contest: Meituan (55-58%), Taobao Instant Commerce (35-37%), JD.com (5-8%). On August 7, during 'First Autumn Milk Tea' promotion, Taobao's DAU outpaced Pinduoduo's by over 100 million in a single day. Alibaba Q2 FY2026 China E-commerce adjusted EBITA decreased by 76% due to quick commerce investment.",
+      "source_url": "https://www.baiguan.news/p/china-food-delivery-war-alibaba-vs-meituan-jd-taobao-flash-buy-subsidy-strategy-dau-growth-rider-network-luckin-coffee-heytea-yum-china-investors-2025-ecommerce-retail-market-share",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Chinese regulators intervened: SAMR summoned JD, Meituan, Ele.me in May 2025 over 'irrational competition'; State Council Anti-Monopoly Committee set tone for combating internal competition in Jan 2026",
+      "data": "In May 2025, SAMR together with multiple agencies held a meeting with JD.com, Meituan, and Ele.me regarding prominent issues in food delivery competition. On January 9, 2026, the State Council's Anti-Monopoly and Anti-Unfair Competition Committee stated intent to combat internal competition in food delivery market. Alibaba stated on Jan 8, 2026 that Taobao Flash Purchase strategy for 2026 is 'continued increased investment with goal of achieving absolute market leadership'. Coffee prices dropped to as low as 2 yuan ($0.28) on Meituan.",
+      "source_url": "https://news.futunn.com/en/post/67213632/to-counter-the-excessive-competition-in-food-delivery-the-government",
+      "source_date": "2026-01",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

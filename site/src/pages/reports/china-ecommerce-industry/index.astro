@@ -1,0 +1,245 @@
+---
+import Base from '../../../layouts/Base.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { marked } from 'marked';
+
+const reportPath = path.resolve('..', 'reports', 'china-ecommerce-industry', 'report-v2.md');
+const evidencePath = path.resolve('..', 'reports', 'china-ecommerce-industry', 'evidence-v2.json');
+
+let reportMd = '';
+let evidence: Array<{id: string, url?: string, source_url?: string, quote?: string, claim?: string, date: string, provenance?: string, question_id?: string, source_tier?: string}> = [];
+
+try {
+  reportMd = fs.readFileSync(reportPath, 'utf-8');
+} catch {
+  reportMd = '# Report Not Yet Generated\n\nRun the research pipeline to generate the China E-Commerce Industry report.';
+}
+
+try {
+  const raw = fs.readFileSync(evidencePath, 'utf-8');
+  evidence = JSON.parse(raw);
+} catch {
+  evidence = [];
+}
+
+let reportHtml = await marked.parse(reportMd);
+
+// Handle grouped citations like [E1][E2]
+reportHtml = reportHtml.replace(/\[(E\d+(?:,\s*E\d+)*)\]/g, (_match: string, group: string) => {
+  return group.split(/,\s*/).map((ref: string) => `[${ref}]`).join('');
+});
+
+// Handle range citations like [E6-E10]
+reportHtml = reportHtml.replace(/\[E(\d+)-E(\d+)\]/g, (_match: string, start: string, end: string) => {
+  const refs = [];
+  for (let i = parseInt(start); i <= parseInt(end); i++) {
+    refs.push(`[E${i}]`);
+  }
+  return refs.join('');
+});
+
+// Convert each [E1] to a clickable link
+reportHtml = reportHtml.replace(/\[E(\d+)\]/g, '<sup><a href="#evidence-$1" id="ref-$1" class="evidence-ref">[$1]</a></sup>');
+---
+
+<Base title="Chinese E-Commerce: The Traffic Tax, the Subsidy Trap, and the Regulatory Reset">
+  <nav class="report-nav">
+    <a href={`${import.meta.env.BASE_URL}`}>&larr; All Reports</a>
+    <span class="nav-sep">|</span>
+    <a href={`${import.meta.env.BASE_URL}reports/pdd-holdings-v4/`}>PDD V4 Report</a>
+  </nav>
+
+  <article>
+    <Fragment set:html={reportHtml} />
+  </article>
+
+  {evidence.length > 0 && (
+    <section class="evidence-section">
+      <h2>Sources & Evidence Chain</h2>
+      <p class="evidence-intro">Every claim in this report is backed by a verifiable source. Click any footnote number to jump here; click the URL to verify.</p>
+      <div class="evidence-legend">
+        <span class="legend-item"><span class="legend-swatch legend-green"></span> Machine-collected with verified provenance</span>
+        <span class="legend-item"><span class="legend-swatch legend-blue"></span> Manually collected by researcher</span>
+      </div>
+      {evidence.map((e) => {
+        const isAuto = e.provenance && e.provenance.startsWith('auto:');
+        const idNum = e.id.replace('E', '');
+        const sourceUrl = e.url || e.source_url || '';
+        const quoteText = e.quote || e.claim || '';
+        return (
+          <div class={`evidence-entry ${isAuto ? 'evidence-auto' : ''}`} id={`evidence-${idNum}`}>
+            <span class="evidence-id">[{e.id}]</span>{' '}
+            {isAuto && (
+              <span class="prov-auto">{e.provenance!.replace('auto:', '')}</span>
+            )}
+            {!isAuto && (
+              <span class="prov-manual">manual</span>
+            )}
+            {e.source_tier && (
+              <span class={`prov-tier prov-tier-${e.source_tier}`}>{e.source_tier}</span>
+            )}
+            <a href={sourceUrl} target="_blank" rel="noopener">{(() => { try { const u = new URL(sourceUrl); return u.hostname + u.pathname.substring(0, 50); } catch { return sourceUrl.substring(0, 60); } })()}</a>
+            {e.date && <span class="evidence-date">({e.date})</span>}
+            {quoteText && <div class="evidence-quote">"{quoteText.substring(0, 200)}{quoteText.length > 200 ? '...' : ''}"</div>}
+            <a href={`#ref-${idNum}`} class="back-ref">&hookleftarrow;</a>
+          </div>
+        );
+      })}
+    </section>
+  )}
+</Base>
+
+<style>
+  .report-nav {
+    margin-bottom: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+  }
+
+  .report-nav a {
+    color: #6b7280;
+    text-decoration: none;
+  }
+
+  .report-nav a:hover {
+    color: #2563eb;
+  }
+
+  .nav-sep {
+    color: #d1d5db;
+    margin: 0 0.5rem;
+  }
+
+  .evidence-date {
+    color: #9ca3af;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+
+  .evidence-intro {
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .evidence-legend {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #6b7280;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .legend-swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }
+
+  .legend-green {
+    background: #059669;
+  }
+
+  .legend-blue {
+    background: #2563eb;
+  }
+
+  .evidence-entry {
+    margin-bottom: 1.2rem;
+    font-size: 0.9rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    border-left: 4px solid transparent;
+  }
+
+  .evidence-auto {
+    border-left: 4px solid #059669;
+    background: #f0fdf4;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .prov-auto,
+  .prov-manual {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-right: 0.3rem;
+  }
+
+  .prov-auto {
+    background: #d1fae5;
+    color: #065f46;
+  }
+
+  .prov-manual {
+    background: #dbeafe;
+    color: #1d4ed8;
+  }
+
+  .prov-tier {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-right: 0.3rem;
+  }
+
+  .prov-tier-primary {
+    background: #d1fae5;
+    color: #065f46;
+  }
+
+  .prov-tier-secondary {
+    background: #fef3c7;
+    color: #92400e;
+  }
+
+  .prov-tier-tertiary {
+    background: #fee2e2;
+    color: #991b1b;
+  }
+
+  .evidence-id {
+    font-weight: 700;
+    color: #2563eb;
+  }
+
+  .evidence-auto .evidence-id {
+    color: #059669;
+  }
+
+  .evidence-quote {
+    color: #6b7280;
+    font-style: italic;
+  }
+
+  .back-ref {
+    color: #9ca3af;
+    font-size: 0.8rem;
+    margin-left: 0.3rem;
+    text-decoration: none;
+  }
+
+  .back-ref:hover {
+    color: #2563eb;
+  }
+</style>
