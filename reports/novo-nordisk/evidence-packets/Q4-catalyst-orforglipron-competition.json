@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "What specific events could re-rate or further de-rate NVO in the next 6 months?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "CATALYST (DE-RATE): Eli Lilly orforglipron FDA target action date is April 10, 2026 — a direct oral GLP-1 competitor to oral Wegovy.",
+      "data": "Lilly submitted NDA for orforglipron (oral GLP-1 for obesity) in mid-December 2025. FDA granted a 'national priority' voucher for accelerated review. Original PDUFA date March 28 was pushed to April 10, 2026. CEO David Ricks confirmed Q2 2026 decision. Lilly plans $149 self-pay pricing via LillyDirect, matching Novo's oral Wegovy price.",
+      "source_url": "https://www.biopharmadive.com/news/lilly-obesity-pill-orforglipron-fda-decision-dtc-sales/809598/",
+      "source_date": "2026-01-30",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Orforglipron approval would end Novo's oral GLP-1 monopoly within ~4 months of oral Wegovy launch, compressing the first-mover advantage window.",
+      "data": "Oral Wegovy launched early Jan 2026. Orforglipron decision April 10, 2026. If approved, Lilly would likely launch within weeks. GlobalData forecasts orforglipron as $13B mega-blockbuster by 2031. HSBC downgraded Lilly to Reduce on March 17, 2026, citing 'overestimated obesity drug market growth' — suggesting broader market skepticism about oral GLP-1 TAM that could also hurt NVO.",
+      "source_url": "https://www.ainvest.com/news/eli-lilly-orforglipron-fda-decision-march-2026-catalyst-market-disruption-investor-alpha-2512/",
+      "source_date": "2026-01-30",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Orforglipron has a structural advantage: it is a small molecule (not a peptide), making it cheaper to manufacture and potentially easier to produce generics later.",
+      "data": "Unlike semaglutide (a peptide biologic requiring biosimilar pathway, $100-300M and 5-8 years), orforglipron is a small molecule eligible for standard ANDA generic pathway. This could give Lilly a long-term manufacturing cost advantage.",
+      "source_url": "https://www.lilly.com/news/stories/what-to-know-about-orforglipron",
+      "source_date": "2026-01-01",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

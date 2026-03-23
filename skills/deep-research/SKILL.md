@@ -239,52 +239,48 @@ Read all 4 phase checkpoint files. Identify:
 - Gaps where data was not available (note these honestly in the report)
 - Contradictions between sources (address these explicitly)
 
-### 5.3 Generate evidence.json FIRST
+### 5.3 Generate evidence.json
 
-**Step 1:** Run the bridge to get auto-collected evidence:
+**CRITICAL: The report writer owns E-IDs.** The auto-generated evidence file uses temporary IDs (AUTO-1, AUTO-2...) that do NOT correspond to the [E1], [E2] citations in the report. You must build the final evidence.json yourself, assigning E-IDs that match your report citations exactly.
+
+**Step 1:** Run the bridge to get auto-collected evidence as a reference pool:
 ```bash
 python3 scripts/bridge/packets_to_evidence.py \
-  --packets-dir reports/pdd-holdings/evidence-packets/ \
-  --output reports/pdd-holdings/evidence-auto.json
+  --packets-dir reports/$SLUG/evidence-packets/ \
+  --auto-prefix \
+  --output reports/$SLUG/evidence-auto.json
 ```
+This produces entries with IDs like AUTO-1, AUTO-2, etc. These are a searchable pool of verified data — NOT the final evidence file.
 
-**Step 2:** Review `evidence-auto.json` — these have machine-verified provenance (`provenance: "auto:<skill-name>"`). URLs came directly from API calls, not LLM memory.
+**Step 2:** Review `evidence-auto.json`. These have machine-verified provenance (`provenance: "auto:<skill-name>"`). URLs came directly from API calls, not LLM memory.
 
-**Step 3:** Manually add entries from /browse research (earnings quotes, news articles, analyst reports). Merge into final `evidence.json`:
-```bash
-python3 scripts/bridge/packets_to_evidence.py \
-  --packets-dir reports/pdd-holdings/evidence-packets/ \
-  --merge-with reports/pdd-holdings/evidence-manual.json \
-  --output reports/pdd-holdings/evidence.json
-```
-Auto entries appear first, then manual entries. Every entry has a `provenance` field:
-- `"auto:<skill-name>"` — URL from a script calling an API directly. Highest confidence.
-- No provenance field — manually added from /browse research. Still verified, but spot-check recommended.
+**Step 3:** As you write the report (Phase 5.4), build the final `evidence.json` simultaneously. For each [E_] citation you place in the report:
+1. Find the matching data point in evidence-auto.json (search by quote content, not by AUTO-ID)
+2. Create an entry in evidence.json with the **correct E-ID that matches your citation**
+3. Set the URL to the most specific, verifiable link for that claim
+4. Set the quote to a concise description that makes the citation self-explanatory
+
+**The contract:** `report.md` says `[E49]` → `evidence.json` has `{"id": "E49", ...}` → the quote/URL in E49 must directly support the sentence containing `[E49]`. If these three don't match, the evidence chain is broken.
 
 The final `evidence.json` format:
 ```json
 [
   {
     "id": "E1",
-    "url": "https://...",
-    "quote": "exact quote or data point from the source",
+    "url": "https://specific-source-url.com/...",
+    "quote": "concise description of the evidence supporting this citation",
     "date": "2026-03-15",
     "provenance": "auto:sec-edgar"
-  },
-  {
-    "id": "E2",
-    "url": "https://...",
-    "quote": "...",
-    "date": "unknown"
   }
 ]
 ```
 
 Rules:
-- Every entry must have a real, verifiable URL from the source collection phases
-- The quote must be an actual excerpt or data point, not a paraphrase
+- **E-IDs in evidence.json MUST match the [E_] citations in report.md. No exceptions.**
+- Every entry must have a real, verifiable URL — not a generic homepage
+- The quote must describe what the evidence says, not just the topic
 - NEVER fabricate a URL or citation — if you're not sure of the exact source, omit the entry and note the gap
-- Aim for 30-50 evidence entries covering all major claims in the report
+- Aim for 30-60 evidence entries covering all major claims in the report
 
 ### 5.4 Write the Report
 Write `reports/pdd-holdings/report.md` following this structure:
@@ -380,13 +376,15 @@ Check for `reports/$TOPIC/research-board.md`. If it exists, you are in industry 
 
 2. **Organize report around answered questions, not data domains.** The report structure should follow the questions that survived evidence testing. Each major section corresponds to an answered question, not a data category.
 
-3. **Evidence is tagged with `question_id`.** Use `--group-by-question` when running the bridge:
+3. **Evidence is tagged with `question_id`.** Use `--group-by-question --auto-prefix` when running the bridge:
    ```bash
    python3 scripts/bridge/packets_to_evidence.py \
      --packets-dir reports/$TOPIC/evidence-packets/ \
      --group-by-question \
+     --auto-prefix \
      --output reports/$TOPIC/evidence-auto.json
    ```
+   This produces AUTO-1, AUTO-2 IDs grouped by question. You must reassign to E1, E2, etc. when building the final evidence.json (see Phase 5.3 for the contract).
 
 4. **Write with appropriate confidence:**
    - **ANSWERED questions:** Write confidently. Evidence is sufficient and primarily primary-sourced.

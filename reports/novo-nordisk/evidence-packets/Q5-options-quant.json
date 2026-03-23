@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is Novo Nordisk's technical/options/quant setup?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Options market shows bullish bias despite the crash: put-to-call volume ratio was 0.16 (heavily skewed to calls), and put-to-call open interest ratio was 0.67. This suggests options traders are betting on a rebound rather than further decline.",
+      "data": "Put volume: 679, Call volume: 4,400. Put/call volume ratio: 0.16. Put/call OI ratio: 0.67 (across 51 outstanding contracts for Apr 17 expiry, data from Macroaxis). 30-day implied volatility (calls): 0.5189 as of Jan 30, 2026. IV percentile: 15.67% (Low) as of Jan 8, 2026.",
+      "source_url": "https://www.macroaxis.com/stock-options/NVO/Novo-Nordisk-AS",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Short interest is low and declining: only 0.84% of shares short (27M shares), down from 31.7M previously. Days-to-cover ratio is 1.87. This is NOT a crowded short — there is no short squeeze setup.",
+      "data": "Short interest decreased from 31.69M to 26.97M shares. 0.84% of outstanding shares sold short. 0.79% of float sold short. Days-to-cover: 1.87x average daily volume. For context, a typical short squeeze candidate would have >15% of float short and days-to-cover >5.",
+      "source_url": "https://www.marketbeat.com/stocks/NYSE/NVO/short-interest/",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Barchart's technical rating is 100% Sell with strong continuation signal, while analyst consensus is Hold with average price target of $42-$51 (14-38% upside from current). Wide dispersion in targets ($31-$160) reflects extreme uncertainty.",
+      "data": "Analyst targets by source: StockAnalysis: $51 avg (4 analysts, Hold), TipRanks: $42.80 avg ($40-47 range, 7 analysts, Hold), Investing.com: $47.25 avg ($39.85-63.60, 11 analysts), Public.com: Buy consensus (6 analysts). Guggenheim recently downgraded to Neutral. Benzinga shows widest range: $31-$160 (14 analysts).",
+      "source_url": "https://stockanalysis.com/stocks/nvo/forecast/",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    }
+  ]
+}

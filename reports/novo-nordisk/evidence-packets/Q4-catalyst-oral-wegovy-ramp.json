@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "What specific events could re-rate or further de-rate NVO in the next 6 months?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Oral Wegovy (semaglutide pill) was FDA-approved on December 22, 2025, making it the first oral GLP-1 for obesity in the US. US launch began early January 2026.",
+      "data": "FDA approved once-daily Wegovy pill based on OASIS 4 Phase 3 trial (307 adults, 64 weeks). Oral semaglutide 25mg achieved 16.6% mean weight loss at 64 weeks vs 2.7% for placebo. One-third of adherent participants achieved >=20% weight loss. Weight loss comparable to injectable Wegovy 2.4mg.",
+      "source_url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-302648344.html",
+      "source_date": "2025-12-22",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Oral Wegovy uptake has been exceptionally strong — 170,000+ patients in approximately 4 weeks, more than double prior branded anti-obesity drug launches.",
+      "data": "CEO Doustdar at Q4 2025 earnings (Feb 4, 2026): 'Put plainly, there are now more than 170,000 people on the Wegovy pill in about four weeks. This uptake is more than double the previous branded anti-obesity drugs launched in the U.S.'",
+      "source_url": "https://www.cnbc.com/2026/02/04/novo-nordisk-stock-ceo-earnings-guidance-ozempic-wegovy.html",
+      "source_date": "2026-02-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Oral Wegovy starting price set at $149/month for self-pay, far below injectable pricing, which pressures ASP but drives volume.",
+      "data": "Starting dose of 1.5mg available at $149/month through pharmacies and telehealth providers. Hims & Hers opened waitlist for $149 branded Wegovy and Ozempic via Novo Nordisk deal (announced March 18, 2026).",
+      "source_url": "https://www.benzinga.com/news/health-care/26/03/51327094/hims-hers-opens-waitlist-for-149-branded-wegovy-and-ozempic-via-novo-nordisk-deal",
+      "source_date": "2026-03-18",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "CATALYST: Oral Wegovy prescription volume trend will be a key metric at Q1 2026 earnings (May 6, 2026). Strong ramp = potential re-rating catalyst.",
+      "data": "170,000 patients in ~4 weeks is a strong signal, but sustainability and conversion to higher doses is uncertain. Next data point: May 6 earnings. Direction: RE-RATE (if volume exceeds expectations) or DE-RATE (if growth plateaus or cannibalization of injectable is severe).",
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings",
+      "source_date": "2026-03-23",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

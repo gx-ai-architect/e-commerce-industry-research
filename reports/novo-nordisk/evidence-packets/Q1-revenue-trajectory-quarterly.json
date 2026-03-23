@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is Novo Nordisk's revenue decline (-7.6% YoY) temporary or structural?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "NVO FY2025 total sales were DKK 309,064 million, up 6% in DKK and 10% at CER — a sharp deceleration from 25%+ growth in FY2024",
+      "data": "Full-year 2025 net sales DKK 309,064 million (approx USD 46.8B), +6% DKK / +10% CER. FY2024 net sales were DKK 290.4B (+26% DKK). Growth halved year-over-year. The company cut its full-year guidance three times during 2025.",
+      "source_url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+      "source_date": "2026-02-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Quarterly revenue growth decelerated from +19% in Q1 2025 to +5.2% in Q3 2025, with Q4 roughly flat",
+      "data": "Q1 2025: DKK 78,087M (+19% DKK / +18% CER). Q2 2025: DKK 76,813M (implied, +16% DKK for H1). Q3 2025: DKK 74,980M (+5.2%). Q4 2025: DKK 79,100M (slightly beat consensus of DKK 77,800M). Ozempic Q4: DKK 31,800M (+1% CER). Wegovy Q4: DKK 21,900M (+17% CER). Operating profit Q4: DKK 31,700M (-14% YoY).",
+      "source_url": "https://www.cnbc.com/2026/02/03/novo-nordisk-2025-earnings-wegovy-ozempic.html",
+      "source_date": "2026-02-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Revenue growth peaked in Q1 2024 at ~36% CER and has decelerated for 7 consecutive quarters",
+      "data": "Growth trajectory (CER): Q1 2024 ~36% → Q2 2024 ~25% → Q3 2024 ~21% → Q4 2024 ~18% → Q1 2025 +18% → Q2 2025 ~+14% → Q3 2025 +5% → Q4 2025 ~flat. The deceleration accelerated sharply in H2 2025 as Eli Lilly gained market share and pricing pressures intensified.",
+      "source_url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+      "source_date": "2026-02-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Ozempic full-year 2025 sales DKK 127,089M (+6% DKK / +10% CER); Wegovy FY2025 obesity care ~DKK 82B (+31%); Rybelsus DKK 22,093M (-5% DKK)",
+      "data": "Product breakdown FY2025: Ozempic DKK 127,089M. Rybelsus DKK 22,093M. Total GLP-1 diabetes DKK 152,202M (+2% DKK / +6% CER). Obesity care (Wegovy+Saxenda) ~DKK 82,000M (+31%). Wegovy alone was the growth driver; Saxenda is declining. International Wegovy sales reached DKK 28B (+134%).",
+      "source_url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+      "source_date": "2026-02-04",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    }
+  ]
+}

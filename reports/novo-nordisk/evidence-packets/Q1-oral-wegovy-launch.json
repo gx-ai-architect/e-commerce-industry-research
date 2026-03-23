@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is Novo Nordisk's revenue decline (-7.6% YoY) temporary or structural?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Oral Wegovy (semaglutide 25mg pill) approved Dec 22, 2025 and launched in US Jan 5, 2026 — first oral GLP-1 for obesity",
+      "data": "FDA approved oral Wegovy on December 22, 2025. US launch began January 5, 2026 with starter dose (1.5mg), additional strengths released by end of first week. Manufactured at Novo's North Carolina facility. This is the first and only oral GLP-1 for weight loss.",
+      "source_url": "https://www.prnewswire.com/news-releases/novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-now-broadly-available-across-america-302652205.html",
+      "source_date": "2026-01-05",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Oral Wegovy reached 170,000+ patients by ~Jan 23 (3 weeks post-launch) and ~400,000 by mid-March 2026 (~10 weeks) — fastest drug launch in history",
+      "data": "By Jan 23, 2026 (~3 weeks): 170,000+ patients on oral Wegovy, ~50,000 Rx/week. By mid-March 2026 (~10 weeks): ~400,000 patients. Jefferies confirmed it became 'the fastest drug launch in history.' Uptake was 2x any previous branded anti-obesity drug. Roughly 90% of prescriptions were paid out-of-pocket (not through insurance). Week 2 prescriptions (~18,400-20,000) were numerically higher than injectable Wegovy (~1,600) and Zepbound (~7,300) at the same point in their launches.",
+      "source_url": "https://www.nbcnews.com/health/health-news/170000-people-us-are-taking-wegovy-pill-novo-nordisk-says-rcna257395",
+      "source_date": "2026-02",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "FDA approved higher-dose Wegovy HD (injectable semaglutide 7.2mg) on March 19, 2026 — rollout expected in April",
+      "data": "FDA approved Wegovy HD (once-weekly injectable semaglutide 7.2mg, higher than current max 2.4mg) on March 19, 2026. Expected to reach US pharmacies in April 2026. This higher dose should boost weight loss for patients already on Wegovy who want greater efficacy.",
+      "source_url": "https://www.benzinga.com/news/fda/26/03/51363862/novo-nordisk-secures-fda-approval-for-higher-dose-wegovy",
+      "source_date": "2026-03-19",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Medicare Part D coverage for obesity medicines begins via pilot program April 1, 2026 — could unlock major new patient pool",
+      "data": "Medicare Part D coverage for anti-obesity medicines (including Wegovy) will be available through a pilot program beginning April 1, 2026. This is significant because Medicare beneficiaries were previously largely excluded from GLP-1 obesity coverage. The Medicare price will be $245/month with copays capped at $50.",
+      "source_url": "https://www.amcp.org/letters-statements-analysis/federal-update-trump-administration-announces-deal-bring-most-favored-nation-pricing-glp-1s",
+      "source_date": "2026-02",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    }
+  ]
+}

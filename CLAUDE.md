@@ -40,8 +40,8 @@ User invokes: /meta-miner for <Company> or <Industry Topic>
 ├── Agents write evidence packets ─────→ reports/$SLUG/evidence-packets/*.json
 │   (schema: skills/evidence-store/schema.json)
 │
-└── Bridge script ─────────────────────→ reports/$SLUG/evidence-auto.json
-    (scripts/bridge/packets_to_evidence.py)
+└── Bridge script (--auto-prefix) ─────→ reports/$SLUG/evidence-auto.json
+    (scripts/bridge/packets_to_evidence.py)   IDs: AUTO-1, AUTO-2, ... (temporary)
 
 
 STAGE 2: WRITE REPORT (/deep-research)                   ~30-60 min
@@ -63,14 +63,19 @@ User invokes: /deep-research for <Company>
 │   │
 │   └── Phase 5: Report Generation
 │       ├── Read all checkpoints + reference docs
-│       ├── Generate evidence.json (merge auto + manual entries)
+│       ├── CRITICAL: Report writer OWNS E-IDs. evidence-auto.json has
+│       │   AUTO-1, AUTO-2 (temporary). Writer assigns E1, E2 to match
+│       │   the [E1], [E2] citations placed in the report. The contract:
+│       │   report.md [E49] → evidence.json E49 → quote supports the claim.
+│       ├── Generate evidence.json (E-IDs match report citations exactly)
 │       ├── Generate charts.json
 │       ├── Write report.md (institutional quality, evidence-linked)
 │       └── Quality check against docs/reference-standard-analysis.md
 │
 ├── Phase 5.5: Evidence Audit (.claude/agents/evidence-auditor.md)
+│   ├── Step 1.5: Detect systemic ID misalignment (spot-check 5 citations)
 │   ├── For EVERY [E_] citation: verify evidence supports the claim
-│   ├── Verdicts: SUPPORTED / OVERCLAIMED / UNSUPPORTED / MISSING
+│   ├── Verdicts: SUPPORTED / OVERCLAIMED / UNSUPPORTED / MISALIGNED / MISSING
 │   ├── Tighten overclaims to match evidence (add time periods, sources)
 │   ├── Add source notes to every table
 │   ├── Flag uncited quantitative claims

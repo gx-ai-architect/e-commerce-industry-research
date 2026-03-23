@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "How does Novo stack up vs Eli Lilly in the GLP-1 race, and is the 3x valuation gap justified?",
+  "company": "NVO vs LLY",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Oral Wegovy (semaglutide 25mg pill) FDA approved Dec 22, 2025 — first oral GLP-1 for obesity. 16.6% weight loss at 64 weeks. Hit 50K weekly prescriptions within 3 weeks of launch.",
+      "data": "FDA approved Dec 22, 2025. Oral semaglutide 25mg: 16.6% mean weight loss at 64 weeks (adherent patients), 13.6% all patients. 1/3 of adherent patients achieved >20% loss. Must be taken on empty stomach. Priced at $149/month (limited savings offer). Full US launch Jan 2026. 50,000 weekly prescriptions in under 3 weeks post-launch. 246K patients as of early 2026.",
+      "source_url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-302648344.html",
+      "source_date": "2025-12-22",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lilly's orforglipron (oral, non-peptide, small molecule GLP-1): FDA decision expected April 10, 2026. ~12% weight loss at highest dose — less potent but no food restrictions.",
+      "data": "Orforglipron: non-peptide, once-daily, no food/water restrictions. Phase 3 data: ~12% weight loss at highest dose (initial therapy). Maintenance trial (ATTAIN-MAINTAIN): patients switching from Wegovy maintained all but 0.9kg of prior loss. Pre-launch inventory: $1.5B as of Dec 31, 2025. FDA decision delayed to April 10, 2026. Planned pricing: $149 lowest dose, up to $399. FDA granted 'national priority' voucher.",
+      "source_url": "https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically",
+      "source_date": "2025",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Oral GLP-1 market projected to reach $22B by 2030 (Goldman Sachs). Novo has first-mover advantage but orforglipron's convenience (no fasting) may offset.",
+      "data": "Goldman Sachs forecast: oral GLP-1 segment $22B by 2030. Key trade-offs: Oral Wegovy (16.6% weight loss, must fast) vs orforglipron (12% weight loss, no food restriction). Oral Wegovy has CV outcomes data (SELECT trial); orforglipron does not yet. Both priced similarly at ~$149-399/month.",
+      "source_url": "https://www.cnbc.com/2025/12/16/healthy-returns-obesity-pills-from-novo-nordisk-eli-lilly-are-coming.html",
+      "source_date": "2025-12-16",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    }
+  ]
+}

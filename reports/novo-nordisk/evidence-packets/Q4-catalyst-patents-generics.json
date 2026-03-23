@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "What specific events could re-rate or further de-rate NVO in the next 6 months?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Semaglutide compound patent ('122) expired March 20, 2026 — but key US patent ('343) extends to December 5, 2031 due to PTA/PTE. US generics unlikely before 2031-2033.",
+      "data": "Two key compound patents: US Patent 8,129,343 (expires Dec 5, 2031 with extensions) and US Patent 8,536,122 (expired March 20, 2026). Novo holds 29 total patents on semaglutide in US, some extending to 2033-2035. 49 granted follow-on patents extend protection to 2042. Semaglutide is a peptide biologic requiring biosimilar pathway ($100-300M, 5-8 years). Earliest realistic US generic: 2032-2033. Viatris won a patent litigation victory July 22, 2025, potentially accelerating biosimilar to before 2032.",
+      "source_url": "https://www.iqvia.com/locations/emea/blogs/2025/07/off-patent-semaglutide",
+      "source_date": "2025-07-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "International patent expiries already happening: India, Canada, China, Brazil all seeing generic/biosimilar semaglutide in 2026.",
+      "data": "Canada: generic launches expected Jan 2026, Sandoz using Canada as launchpad. India: Lupin developing injectable+tablet forms for 2026 launch. Indian generics already pricing 70% below Novo (news March 23, 2026). Brazil: Supreme Court refused patent extension, expiry March 2026. China: patent expiring 2026, multiple domestic companies in late-stage trials. These markets = ~40% of world population, ~33% of adults with obesity. Canadian prices could drop 50-80%.",
+      "source_url": "https://www.labiotech.eu/in-depth/novo-nordisk-semaglutide-patent-expiration-canada/",
+      "source_date": "2026-01-15",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "CATALYST (DE-RATE within 6 months): India generic wave is live NOW (March 2026). Prices already 70% below Novo. Canada generics imminent. These won't kill US revenue but will compress International Operations growth.",
+      "data": "Benzinga (March 23, 2026): 'India's drugmakers roll out low-cost copies for Novo Nordisk's semaglutide, slashing prices up to 70%.' International Operations was DKK 112B in 2024 under Doustdar's leadership. Patent-related LOE in these markets directly impacts the International segment that was NVO's growth engine.",
+      "source_url": "https://www.benzinga.com/news/health-care/26/03/51404013/india-generic-wave-hits-ozempic-wegovy-prices-drop",
+      "source_date": "2026-03-23",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

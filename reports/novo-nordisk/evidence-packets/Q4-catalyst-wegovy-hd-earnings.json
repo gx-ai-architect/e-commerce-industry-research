@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "What specific events could re-rate or further de-rate NVO in the next 6 months?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Wegovy HD (semaglutide 7.2mg) FDA-approved March 19, 2026 under accelerated Commissioner's National Priority Voucher (54 days from filing). Launching April 2026.",
+      "data": "STEP UP trial: 20.7% mean weight loss at 72 weeks in 1,407 adults without diabetes (vs ~18% for 2.4mg, ~2% placebo). One-third of patients lost >=25%. T2D cohort (STEP UP T2D): 14.1% weight loss, 21.3% achieving >=20%. Eligible for patients who tolerated 2.4mg for >=4 weeks. Side effects: nausea/vomiting; dysesthesia in 22% (vs 6% for 2.4mg). Available April 2026 through 70,000+ pharmacies. Already approved in EU/UK.",
+      "source_url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-new-wegovy-hd-injection-delivering-the-highest-weight-loss-to-date-for-a-wegovy-injection-adding-to-its-already-expansive-clinical-profile-302718982.html",
+      "source_date": "2026-03-19",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "CATALYST: Wegovy HD (20.7% weight loss) narrows the gap with Zepbound/tirzepatide, potentially recapturing patients who switched to Lilly for superior efficacy.",
+      "data": "Wegovy 2.4mg: ~18% weight loss. Wegovy HD 7.2mg: 20.7%. Zepbound (tirzepatide 15mg): ~22.5% in SURMOUNT-1. The gap has narrowed from ~4.5pp to ~1.8pp. CagriSema at 23% (REDEFINE-4) was not non-inferior to tirzepatide 25.5%, but Wegovy HD at 20.7% as a single-agent injectable is competitive enough for patients wanting to stay within semaglutide ecosystem.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/19/3259259/0/en/Novo-Nordisk-A-S-Wegovy-HD-semaglutide-7-2-mg-approved-in-the-US-providing-20-7-mean-weight-loss.html",
+      "source_date": "2026-03-19",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Q1 2026 earnings on May 6, 2026 (confirmed, before market open). Analyst EPS estimates: $0.86-$0.93.",
+      "data": "Q4 2025 reported Feb 4, 2026: EPS $1.00 vs $0.89 consensus (beat by 12.36%). Stock fell 6.18% post-earnings despite the beat, due to guidance. Q1 2026 will be the first quarter to capture full impact of oral Wegovy launch and pricing changes. November 4, 2026: next major report (Q1-Q3 2026 results).",
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lexicon Pharmaceuticals and Novo Nordisk initiated Phase 1 study of LX9851, an oral non-incretin candidate for obesity (March 23, 2026) — early-stage pipeline diversification.",
+      "data": "Phase 1 study of LX9851, an oral non-incretin development candidate for obesity and associated metabolic disorders. Early stage (Phase 1), unlikely to be material within 6 months, but signals Novo's pipeline diversification beyond GLP-1.",
+      "source_url": "https://www.benzinga.com/general/biotech/26/03/51401793/lexicon-pharmaceuticals-and-novo-nordisk-initiate-phase-1-study-with-lx9851-an-oral-non-incretin-",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "low"
+    }
+  ]
+}

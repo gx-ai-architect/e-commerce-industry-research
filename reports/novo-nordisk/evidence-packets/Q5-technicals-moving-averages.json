@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is Novo Nordisk's technical/options/quant setup?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "NVO is trading massively below both key moving averages: 50-day SMA at $47.90 (price 23.1% below) and 200-day SMA at $54.73 (price 32.7% below), confirming a strong downtrend",
+      "data": "Computed from 251 daily bars (2025-03-24 to 2026-03-23). Latest close: $36.84. 50-day SMA: $47.90. 200-day SMA: $54.73. Death cross has been in effect since at least 50 days ago (2026-01-09: 50SMA=$49.49 vs 200SMA=$59.34).",
+      "source_url": "Alpaca Markets API daily bars",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "52-week range is $35.85 to $81.41 — current price is only 2.7% above the 52-week low ($35.85 on 2026-03-03), and 54.8% below the 52-week high",
+      "data": "52-week high: $81.41 (2025-06-13). 52-week low: $35.85 (2026-03-03). Current: $36.84 (2026-03-23). Note: the all-time ADR high was ~$147 in mid-2024, making this a 75% drawdown from peak.",
+      "source_url": "Alpaca Markets API daily bars",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "RSI(14) is at 32.1, approaching oversold territory (below 30) but not yet there, suggesting the selling is persistent but not at full capitulation",
+      "data": "RSI(14) computed via Wilder's smoothing method from 251 daily closes: 32.1. Neutral RSI is 50; below 30 is considered oversold. The stock has been grinding lower rather than flash-crashing in recent days.",
+      "source_url": "Alpaca Markets API daily bars",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

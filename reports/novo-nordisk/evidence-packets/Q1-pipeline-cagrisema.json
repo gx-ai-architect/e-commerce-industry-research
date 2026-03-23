@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is Novo Nordisk's revenue decline (-7.6% YoY) temporary or structural?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "CagriSema achieved 22.7% weight loss at 68 weeks in REDEFINE 1 trial — better than semaglutide alone (14%) but fell short of 25% target",
+      "data": "REDEFINE 1 (3,417 adults with obesity, no diabetes): CagriSema achieved 20.4% mean weight reduction vs 3.0% placebo (ITT). On-treatment estimate: 22.7%. Weight loss >=20%: 60.2%, >=25%: 40.4%, >=30%: 23.1% of patients. Published in NEJM. GI adverse events: 79.6% vs 39.9% placebo. Investors were disappointed as ~25% had been the expectation — shares fell on announcement.",
+      "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502081",
+      "source_date": "2025-12",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "CagriSema NDA filed with FDA in December 2025, approval expected late 2026 or early 2027",
+      "data": "Novo filed NDA for CagriSema on December 18, 2025. CagriSema is a fixed-dose combination of semaglutide 2.4mg + cagrilintide 2.4mg (amylin analog). REDEFINE 2 (T2D patients): 13.7% weight loss, 73.5% reaching HbA1c <=6.5%. Head-to-head trial vs Zepbound ongoing. REDEFINE 11 trial initiated for longer-duration study.",
+      "source_url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645862.html",
+      "source_date": "2025-12-18",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Novo initiated Phase 1 study for LX9851, an oral non-incretin obesity candidate, with Lexicon Pharmaceuticals",
+      "data": "On March 23, 2026, Novo Nordisk and Lexicon Pharmaceuticals announced initiation of a Phase 1 study with LX9851, an oral non-incretin development candidate for obesity and metabolic disorders. This diversifies Novo's pipeline beyond GLP-1 mechanisms.",
+      "source_url": "https://www.benzinga.com/general/biotech/26/03/51401793/lexicon-pharmaceuticals-and-novo-nordisk-initiate-phase-1-study-with-lx9851-an-oral-non-incretin-",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "low"
+    },
+    {
+      "claim": "Semaglutide failed to show benefit in early Alzheimer's disease trial, narrowing its beyond-obesity potential",
+      "data": "At AD/PD 2026 conference, Novo Nordisk's semaglutide failed to demonstrate any benefit for early Alzheimer's disease. This was a setback for the thesis that semaglutide could expand into large neurological indications beyond metabolic disease.",
+      "source_url": "https://www.clinicaltrialsarena.com/analyst-comment/ad-pd-2026-novo-nordisk-semaglutide-early-alzheimers/",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

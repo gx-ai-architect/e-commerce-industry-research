@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is Novo Nordisk's technical/options/quant setup?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Three distinct capitulation-level selling events occurred: (1) Jul 29-30 2025 (-21.8% then -7.2%), (2) Feb 3-5 2026 (-14.6%, -6.1%, -8.3% over 3 days), and (3) Feb 23-24 2026 (-16.4%, -2.6%). Each on 3-5x average volume.",
+      "data": "High-volume selloff days (vol > 2x avg AND drop > 2%): 2025-07-29: -21.8% vol 1.94M (2.9x), 2025-07-30: -7.2% vol 1.57M (2.3x), 2025-11-06: -4.0% vol 1.78M (2.6x), 2025-11-24: -5.6% vol 2.38M (3.5x), 2026-02-03: -14.6% vol 2.38M (3.5x), 2026-02-04: -6.1% vol 1.88M (2.8x), 2026-02-05: -8.3% vol 2.47M (3.7x), 2026-02-23: -16.4% vol 3.37M (5.0x avg!), 2026-02-24: -2.6% vol 2.23M (3.3x). Average daily volume across full period: 673K.",
+      "source_url": "Alpaca Markets API daily bars",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Recent volume is 51% above average (1.02M vs 673K avg), indicating sustained selling pressure, not exhaustion. True capitulation typically ends with a massive volume spike followed by declining volume — this pattern has not yet completed.",
+      "data": "Average daily volume (full 251-day period): 673,281. Average daily volume (last 20 days): 1,018,800. Volume ratio: +51.3%. The Feb 23 event at 5.0x avg volume ($3.37M shares) was the single highest-volume selloff but was followed by continued selling at elevated volume, suggesting forced/institutional liquidation rather than panic retail selling.",
+      "source_url": "Alpaca Markets API daily bars",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "The Feb 2026 crash was likely triggered by CagriSema Phase 3 (REDEFINE-4) trial disappointment: drug achieved only 23% weight loss vs Zepbound's 25.5%, missing primary endpoint. This was followed by Ozempic failing Alzheimer's trials.",
+      "data": "CagriSema was positioned as Novo's key weapon to recapture market share from Eli Lilly's Zepbound. Phase 3 REDEFINE-4 results: CagriSema achieved 23% weight loss over 84 weeks vs Zepbound's 25.5%, missing the study's primary endpoint. Separately, oral Ozempic failed to slow cognitive decline in Alzheimer's patients in two large-scale trials. JPMorgan downgraded from Overweight to Neutral, cutting PT from 350 to 250 DKK. Deutsche Bank cut from Buy to Hold, PT 400->275 DKK.",
+      "source_url": "https://www.bitget.com/academy/novo-nordisk-stock-news-price-ozempic-trial-failure-2025",
+      "source_date": "2026-02",
+      "source_tier": "tertiary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    }
+  ]
+}

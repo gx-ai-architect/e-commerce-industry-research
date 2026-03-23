@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is Novo Nordisk's revenue decline (-7.6% YoY) temporary or structural?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "NVO stock at $36.84 as of March 23, 2026 — down ~75% from mid-2024 peak of ~$145",
+      "data": "Alpaca live quote: NVO $36.84 (March 23, 2026). 52-week range: per sources ~$49.57 was recent trading level. Stock fell 46.5% in 2025, then continued declining into 2026. The Feb 4 earnings triggered a ~15-18% single-day drop. Current price implies market is pricing in structural, not temporary, headwinds.",
+      "source_url": "https://www.kavout.com/market-lens/why-did-novo-nordisk-stock-plummet-recently",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Two top Novo executives departed alongside the weak 2026 guidance — leadership instability signals deeper issues",
+      "data": "Alongside the Feb 4, 2026 earnings report and weak 2026 guidance, two senior executives headed for the door. This compounded investor concerns, suggesting the problems may be deeper than a transient pricing reset.",
+      "source_url": "https://www.fiercepharma.com/pharma/novo-shares-plummet-sales-profit-warning-26",
+      "source_date": "2026-02-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "HSBC downgraded Eli Lilly citing overhyped obesity drug expectations — suggests the ENTIRE GLP-1 sector faces a reckoning, not just Novo",
+      "data": "On March 17, 2026, HSBC downgraded Eli Lilly to 'reduce', citing pricing pressure, rising competition, and overestimated obesity drug market growth expectations. This suggests the bearish thesis is not Novo-specific but sector-wide — both incumbents face pricing and competition headwinds. If true, this is more structural than temporary.",
+      "source_url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/03/51304475/eli-lilly-analyst-flags-overhyped-obesity-drug-expectations",
+      "source_date": "2026-03-17",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Indian generic semaglutide prices 70-80% cheaper create global reference pricing risk even for protected US market",
+      "data": "As of March 23, 2026, Indian drugmakers have launched semaglutide generics at 70-80% below Novo's price. While US patents are protected until 2031, these low international prices create political pressure (especially under MFN framing) and could accelerate the 'race to the bottom' on pricing. Chinese companies that previously supplied compounders are now manufacturing generics for patent-expiry markets.",
+      "source_url": "https://www.benzinga.com/news/health-care/26/03/51404013/india-generic-wave-hits-ozempic-wegovy-prices-drop",
+      "source_date": "2026-03-23",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

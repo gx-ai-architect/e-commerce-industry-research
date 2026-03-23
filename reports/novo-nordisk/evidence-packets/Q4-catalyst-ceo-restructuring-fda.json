@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "What specific events could re-rate or further de-rate NVO in the next 6 months?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "New CEO Doustdar (appointed Aug 7, 2025) is executing major restructuring: 9,000 layoffs targeting $1.3B annual savings by late 2026, refocusing on diabetes/obesity.",
+      "data": "Doustdar announced layoffs of ~9,000 from 78,400 global workforce (~11.5%), including 5,000 in Denmark. $1.3B/year savings target by late 2026. Three priorities: focus on diabetes/obesity, strengthen commercial execution, realign cost base. Wound down early-stage programs in liver disease, oncology, stem cells. JPM26 (Jan 13, 2026): 'curse of a leader' — acknowledged difficult 2025, ceded US lead to Lilly.",
+      "source_url": "https://www.fiercepharma.com/pharma/novo-nordisk-lay-9000-workers-new-ceo-aims-save-13b-year-late-2026",
+      "source_date": "2026-01-13",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "FDA warning letter dated March 5, 2026 for 'systemic failures' in adverse event reporting — third FDA strike for NVO. Involves unreported deaths, strokes, suicides on semaglutide.",
+      "data": "Plainsboro NJ facility inspection (Jan-Feb 2025). Violations: (1) rejecting adverse events based on staff's causal assessment, (2) invalidating cases with available patient identifiers (including an unreported death), (3) failure to investigate a semaglutide patient suicide, (4) imposing consent requirements not required by law. FDA expressed 'serious concerns' affecting entire product portfolio. NVO says it won't impact production or guidance. Next step: if response inadequate, FDA can pursue fines, seizures, or injunctions.",
+      "source_url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/novo-nordisk-inc-717576-03052026",
+      "source_date": "2026-03-05",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Compounded semaglutide remains a competitive threat despite FDA enforcement — prescriptions increased after shortage resolution, with ~80% now including supplemental ingredients to evade 'essentially a copy' restriction.",
+      "data": "FDA resolved semaglutide shortage Feb 21, 2025. Enforcement deadlines: 503A pharmacies April 22, 2025; 503B facilities May 22, 2025. OFA lawsuit delayed enforcement. Despite crackdown, IQVIA Oct 2025 report showed compounded semaglutide prescriptions INCREASED after shortage ended. ~80% of compounded GLP-1 Rx now include B vitamins to bypass 'essentially a copy' rule. FDA sent 'thousands' of warning letters since Sept 2025.",
+      "source_url": "https://www.healthcare-brew.com/stories/2026/03/23/fda-crackdown-unapproved-glp-1s",
+      "source_date": "2026-03-23",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "CATALYST: Novo-HIMS deal (March 2026) is a strategic response to compounding — channels branded product at $149/month through telehealth, potentially recapturing compounding market share.",
+      "data": "March 18, 2026: Hims & Hers opened waitlist for $149/month branded Wegovy and Ozempic via Novo Nordisk deal. This directly targets the ~$149-200/month compounded semaglutide market by offering FDA-approved branded product at comparable pricing through DTC telehealth channels.",
+      "source_url": "https://www.benzinga.com/news/health-care/26/03/51327094/hims-hers-opens-waitlist-for-149-branded-wegovy-and-ozempic-via-novo-nordisk-deal",
+      "source_date": "2026-03-18",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}
