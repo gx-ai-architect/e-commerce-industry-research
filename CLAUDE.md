@@ -9,32 +9,38 @@ The full pipeline has 3 stages: **Mine** → **Write** → **Publish**.
 ```
 STAGE 1: MINE DATA (/meta-miner)                         ~1-2 hours
 ══════════════════════════════════
-User invokes: /meta-miner for <Company> (<TICKER>, CIK <CIK>)
+User invokes: /meta-miner for <Company> or <Industry Topic>
 │
-├── skills/meta-miner/SKILL.md        Parse inputs, create team
+├── skills/meta-miner/SKILL.md        Parse inputs, setup
 │   │
-│   └── Leader Agent                  .claude/agents/meta-miner-leader.md
-│       │
-│       ├── TRIAGE: WebSearch company, identify segments, set Agent 8 mission
-│       │
-│       ├── LAUNCH (all 8 agents in parallel as teammates):
-│       │   ├── Agent 1: Business Model    → sec-edgar scripts + WebSearch
-│       │   ├── Agent 2: GMV Estimator     → customs/parcel scripts + WebSearch
-│       │   ├── Agent 3: Price Intel       → /browse platforms + WebSearch
-│       │   ├── Agent 4: Customer Happy    → heimao + qimai scripts + /browse + WebSearch
-│       │   ├── Agent 5: Investment        → sec-edgar + ad-intel scripts + WebSearch
-│       │   ├── Agent 6: Logistics         → parcel/freight/customs scripts + WebSearch
-│       │   ├── Agent 7: Regulatory        → eu-regulatory + customs scripts + WebSearch
-│       │   └── Agent 8: Company-Specific  → mission from Leader + WebSearch
-│       │
-│       ├── VALIDATE: Read every packet, check exit criteria, send back (up to 2x)
-│       │
-│       └── CONVERGE: Run bridge, produce coverage matrix
+│   ├── CRITICAL: Main session IS the Leader (never spawn a leader agent)
+│   │   Read .claude/agents/meta-miner-leader.md for protocol instructions
+│   │
+│   ├── COMPANY MODE: /meta-miner for PDD Holdings (PDD, CIK 0001737806)
+│   │   ├── TRIAGE: WebSearch company, identify segments, set Agent 8 mission
+│   │   ├── LAUNCH (all 8 agents in parallel as teammates):
+│   │   │   ├── Agent 1: Business Model    → sec-edgar scripts + WebSearch
+│   │   │   ├── Agent 2: GMV Estimator     → customs/parcel scripts + WebSearch
+│   │   │   ├── Agent 3: Price Intel       → /browse platforms + WebSearch
+│   │   │   ├── Agent 4: Customer Happy    → heimao + qimai scripts + /browse + WebSearch
+│   │   │   ├── Agent 5: Investment        → sec-edgar + ad-intel scripts + WebSearch
+│   │   │   ├── Agent 6: Logistics         → parcel/freight/customs scripts + WebSearch
+│   │   │   ├── Agent 7: Regulatory        → eu-regulatory + customs scripts + WebSearch
+│   │   │   └── Agent 8: Company-Specific  → mission from triage + WebSearch
+│   │   ├── VALIDATE: Read every packet, check exit criteria, send back (up to 2x)
+│   │   └── CONVERGE: Run bridge, produce coverage matrix
+│   │
+│   └── INDUSTRY MODE: /meta-miner for Chinese E-Commerce Industry
+│       ├── QUESTION FORMATION: WebSearch topic, formulate 3-5 questions
+│       ├── INITIAL COLLECTION: Spawn 3-5 thesis agents (one per question)
+│       ├── EVIDENCE COURT: Read packets, evaluate if questions are answered
+│       ├── TARGETED FOLLOW-UP: Re-dispatch agents for gaps (up to 3 rounds)
+│       └── SYNTHESIS: Run bridge, write research board, produce coverage matrix
 │
-├── Agents write evidence packets ─────→ reports/$COMPANY/evidence-packets/*.json
+├── Agents write evidence packets ─────→ reports/$SLUG/evidence-packets/*.json
 │   (schema: skills/evidence-store/schema.json)
 │
-└── Bridge script ─────────────────────→ reports/$COMPANY/evidence-auto.json
+└── Bridge script ─────────────────────→ reports/$SLUG/evidence-auto.json
     (scripts/bridge/packets_to_evidence.py)
 
 
