@@ -280,6 +280,18 @@ Intrinsic value is materially higher than the 12-month target. At 15x normalized
 
 BABA offers similar headline cheapness: negative FCF, 26% debt/equity, -48% EPS decline, conglomerate diluted by RMB 66B in minority interests. JD offers deeper headline value (0.03x EV/Revenue): 9.3% gross margins, negative FCF, food delivery losses consuming all operating profit. PDD is the only name where valuation is cheap, the balance sheet is a fortress, FCF is growing, margins are high, and the company has optionality on capital returns, Temu disclosure, and international growth. [E5][E6][E30][E31][E38]
 
+### The Amazon Parallel: Why the Market Is Wrong in a Familiar Way
+
+PDD's mispricing follows the same pattern as Amazon circa 2014-2015 — and for the same structural reason.
+
+For years, AWS revenue was buried inside Amazon's "Other" line. The market valued Amazon as a low-margin retailer trading at "infinite P/E." In April 2015, Amazon broke out AWS as a separate segment — and the market realized a 25%+ operating margin cloud business growing 50% YoY had been hiding inside a "retailer" the entire time. The stock went from ~$300 to $2,000 in three years. The business didn't change. The disclosure did.
+
+**Temu is PDD's AWS.** A high-growth international business buried inside consolidated numbers with zero segment disclosure. The market prices PDD as "decelerating Chinese e-commerce" at 4.4x EV/FCF. It cannot see whether Temu is profitable (reportedly turned profitable in 2026), what Temu's GMV is by geography, or what the supply chain infrastructure is worth standalone. When PDD eventually discloses Temu — and the pressure to do so grows with every quarter of RMB 28B cash accumulation — the market will reprice the sum-of-parts. Domestic Pinduoduo alone (mature, 56.6% gross margin, dominant) could justify the current market cap. Temu becomes pure upside.
+
+The parallels run deeper. Bezos famously said "we're willing to be misunderstood for long periods of time" while reinvesting everything into fulfillment and cloud infrastructure. PDD management warns about "continued financial fluctuations," provides zero guidance, and accepts the stock falling 7% after a 27% EPS beat. Both deliberately sacrifice short-term stock performance for long-term strategic flexibility. Amazon was "an online bookstore." PDD is "cheap Taobao." Both are platform infrastructure companies — Amazon built the logistics and cloud layer for the internet; PDD is building the supply chain layer connecting Chinese manufacturing to global consumers.
+
+The difference: Amazon's mispricing took a decade to correct because Amazon *chose* not to show profits. PDD's mispricing has a harder floor — $50/ADS in cash, $15.7B/year in FCF, cash growing $2.75/ADS every quarter. The market can ignore narrative. It cannot ignore arithmetic forever.
+
 ### What We Don't Know (And What It Means for Sizing)
 
 1. **Temu's actual financials** — the single largest uncertainty. No segment disclosure. If Temu is breakeven, PDD is dramatically undervalued. If burning RMB 30-40B/year, the domestic business is even more profitable. Either interpretation is bullish at 4.4x EV/FCF. **Sizing impact: moderate.** [E29]
