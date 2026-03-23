@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "How does Novo stack up vs Eli Lilly in the GLP-1 race, and is the 3x valuation gap justified?",
+  "company": "NVO vs LLY",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Lilly's retatrutide (triple agonist GIP/GLP-1/glucagon) Phase 3 TRIUMPH-4: 23.7% weight loss (ITT) / 28.7% (completers) at 68 weeks — the most potent obesity drug in development",
+      "data": "TRIUMPH-4 (Dec 2025): Adults with obesity + knee osteoarthritis. Highest dose: 23.7% weight loss (ITT), 28.7% (on-treatment). Pain reduction: 62.6%. BUT: 18.2% discontinuation rate at high dose (vs 4% placebo). Dysesthesia in ~1/5 patients at 12mg dose. TRANSCEND-T2D-1 (March 2026): up to 2.0% A1C reduction, ~17% weight loss at 40 weeks. 7 more Phase 3 readouts expected in 2026. Filing projected late 2025-Q1 2026, approval ~late 2026-mid 2027.",
+      "source_url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average",
+      "source_date": "2025-12-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Novo's amycretin (zenagamtide) is the counter — mid-stage win, planning Phase 3 in Q1 2026 for both subQ and oral formulations",
+      "data": "Novo rebounded from Alzheimer's setback with mid-stage win for amycretin (renamed zenagamtide). Planning subcutaneous and oral Phase 3 for obesity in Q1 2026. Details on efficacy data pending.",
+      "source_url": "https://www.pharmavoice.com/news/glp-1-pharma-obesity-pill-drug-novo-viking-structure-lilly/808195/",
+      "source_date": "2026-01",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Amgen MariTide Phase 2: ~20% weight loss (completers) / ~16% (full data) at 52 weeks — comparable to Wegovy but inferior to Zepbound. Monthly dosing is differentiator.",
+      "data": "MariTide: bispecific GLP-1 agonist / GIPR antagonist, peptide-antibody conjugate. Phase 2 (ADA June 2025): up to 20% weight loss (completers), ~16% full analysis set. Monthly dosing. No weight loss plateau at 52 weeks. Phase 3 MARITIME program: 4 studies underway (72 weeks). Wall Street disappointed — stock fell 4% on full data. Phase 3 outcomes studies for ASCVD and HF initiated 2025.",
+      "source_url": "https://www.amgen.com/newsroom/press-releases/2025/06/results-from-amgens-phase-2-obesity-study-of-monthly-maritide-presented-at-the-american-diabetes-association-85th-scientific-sessions",
+      "source_date": "2025-06",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Broader pipeline: 193+ obesity assets in development. Viking VK2735 oral: 10.9% weight loss in 13 weeks (Phase 2). Pfizer re-entered via $10B Metsera acquisition. Roche Phase II, expected ~2029.",
+      "data": "IQVIA estimates 193+ assets in obesity development as of Oct 2025. Viking: oral VK2735 Phase 2 — 10.9% placebo-adjusted weight loss in 13 weeks. Pfizer: discontinued danuglipron (April 2025, safety), acquired Metsera ($10B, Nov 2025). Structure Therapeutics: aleniglipron, end-of-Phase-2 FDA meeting early 2026. Roche: multiple Phase II candidates, market entry ~2029. Global GLP-1 market: $45.3B (2024) projected to $122.3B by 2030 (18% CAGR).",
+      "source_url": "https://www.iqvia.com/locations/emea/blogs/2026/01/outlook-for-obesity-in-2026",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "How does Novo stack up vs Eli Lilly in the GLP-1 race, and is the 3x valuation gap justified?",
+  "company": "NVO vs LLY",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Both Novo and Lilly struck TrumpRx deals: Medicare/Medicaid price drops to $245/month, self-pay ~$349-350/month. The $1,000+ weight loss shot era is over.",
+      "data": "TrumpRx deals: Medicare/Medicaid prices $245/month for Ozempic, Wegovy, Zepbound, Mounjaro. Medicare co-pay: $50/month. Self-pay: Novo $349/month (from $499, 30% cut), new patients $199 for first 2 months. Lilly Zepbound: $299-449/month via LillyDirect. CMS negotiated semaglutide Maximum Fair Price: $274/30 days (71% discount), effective Jan 1, 2027. Medicare obesity coverage expected by July 2026 for 40M beneficiaries. Both deals include 3-year tariff relief.",
+      "source_url": "https://www.pharmacytimes.com/view/eli-lilly-novo-nordisk-strike-mfn-deals-with-trump-administration-to-lower-glp-1-prices",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lilly has committed >$50B in US manufacturing since 2020 vs Novo's ~$18B in 2024 alone. Both investing at historic levels but different strategies.",
+      "data": "Lilly: $27B new US investment (Feb 2025), total >$50B since 2020. Key sites: $6.5B Houston TX (API), $6B Alabama (orforglipron), $5B Virginia, $3B Wisconsin (injectable fill-finish), $1.7B Concord NC, $2.5B Germany. Pre-launch orforglipron inventory: $1.5B. Also $3B in China for oral GLP-1. Novo: $18B in 2024 (capex + acquisitions). $11B Catalent acquisition (3 fill-finish sites, 11→14 total). $4.1B Clayton NC expansion (2027-2029). $1.2B Odense Denmark (2027). Semaglutide shortage resolved Feb 2025 per FDA.",
+      "source_url": "https://www.cnbc.com/2025/02/26/eli-lilly-to-invest-27-billion-in-new-us-manufacturing.html",
+      "source_date": "2025-02-26",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Compounding competition is a bigger threat to Novo than Lilly — compounders sell semaglutide copies and the impact was 'significantly bigger than anticipated' per Novo",
+      "data": "Part of Novo's GLP-1 sales decrease attributed to compounders selling copycat semaglutide. Novo management said impact was 'significantly bigger than what we had anticipated.' Tirzepatide is not as widely compounded. Novo faces patent expiry in China, Brazil, Canada. Lilly's tirzepatide patents protected 'into the back half of the 2030s' in major markets.",
+      "source_url": "https://www.emarketer.com/content/slower-growing-glp-1-drug-sales-force-novo-nordisk-cut-forecast-again",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "How does Novo stack up vs Eli Lilly in the GLP-1 race, and is the 3x valuation gap justified?",
+  "company": "NVO vs LLY",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Lilly overtook Novo in GLP-1 market share in 2025, reaching 57% in Q2 2025 vs Novo's declining share from 55.7% to 49.3%",
+      "data": "Lilly secured 53% of GLP-1 market in early 2025, rising to 57% in Q2 2025 (per investor presentation). Novo's global GLP-1 share fell from 55.7% to 49.3% as of August 2025. Lilly total prescriptions up 41% YoY in Q2 2025. Tirzepatide became world's best-selling drug in Q3 2025 with YTD sales of $24.8B, surpassing Keytruda.",
+      "source_url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+      "source_date": "2026-02-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "By brand, Ozempic still leads at 31.5% share, but Mounjaro (23.4%) + Zepbound (11.6%) = 35% combined gives Lilly the edge",
+      "data": "Brand market share: Ozempic 31.5%, Mounjaro 23.4%, Wegovy 16.5%, Zepbound 11.6%, Trulicity 8.4%, Rybelsus 6.0%. Novo brands (Ozempic+Wegovy+Rybelsus) = 54%, Lilly brands (Mounjaro+Zepbound+Trulicity) = 43.4%. But Lilly gaining rapidly.",
+      "source_url": "https://www.pharmavoice.com/news/glp-1-market-changes-eli-lilly-novo-nordisk-earnings/757312/",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "2026 guidance diverges sharply: Lilly forecasts $80-83B revenue (~25% growth) vs Novo guiding for 5-13% sales and profit DECLINE",
+      "data": "Lilly 2026 guidance: $80-83B sales (midpoint ~25% growth), beat analyst expectations of $77.62B. Novo 2026 guidance: sales and profit declining 5-13%, driven by US price cuts, patent expiry in China/Brazil/Canada, and compounding competition. Novo's compounding impact 'significantly bigger than anticipated.'",
+      "source_url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+      "source_date": "2026-02-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Novo's semaglutide franchise could still reach ~$36B in 2026, up from ~$33B in 2025, despite price cuts",
+      "data": "Analysts forecast semaglutide franchise reaching ~$36B in 2026 vs ~$33B in 2025, as volume growth offsets price cuts. Q3 2025: Wegovy sales ~$3.1B (up 18% YoY), Ozempic sales $4.7B (up 9% YoY). Novo said price cuts would have only 'low single digit' negative impact on global sales growth.",
+      "source_url": "https://www.drugdiscoverytrends.com/novo-slashes-us-glp-1-prices-by-up-to-70-but-2026-semaglutide-revenue-could-hold-steady-or-even-grow/",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

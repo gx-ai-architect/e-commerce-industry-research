@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "What specific events could re-rate or further de-rate NVO in the next 6 months?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Medicare GLP-1 coverage bridge program launching July 2026, with full Part D pilot (BALANCE Model) in January 2027. Medicare price: $245/month, copay: $50/month.",
+      "data": "CMS bridge program runs July-December 2026, no deductible required. BALANCE Model launches in Medicaid May 2026 and Medicare Part D January 2027. Under Trump agreement, Medicare/Medicaid price for Ozempic, Wegovy, Zepbound, Mounjaro = $245/month. Patient copay = $50/month. Eligibility: BMI >=27 with prediabetes/CVD history, or BMI >=30 with HF/uncontrolled HTN/CKD.",
+      "source_url": "https://www.cms.gov/newsroom/press-releases/cms-launches-voluntary-model-expand-access-life-changing-medicines-promote-healthier-living",
+      "source_date": "2026-02-01",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Medicare coverage could unlock significant volume: only 9% of adults 65+ use GLP-1s vs 22% of 50-64 year olds. Medicaid GLP-1 Rx grew 7x from 2019-2025.",
+      "data": "KFF poll: 9% of adults 65+ using GLP-1s vs 22% of 50-64 year olds. Medicaid prescriptions for GLP-1s increased 7x from 2019 to 2025. Volume upside from Medicare coverage is significant but comes at $245/month vs prior ~$1,000-1,350 list prices.",
+      "source_url": "https://polarbearmeds.com/insurance-coverage-changes-for-glp-1-meds-in-2026/",
+      "source_date": "2026-01-15",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Novo Nordisk announced January 2027 US list price cut to $675/month for Wegovy, Ozempic, Rybelsus — halving Wegovy list price and cutting Ozempic by ~35%.",
+      "data": "Announced February 24, 2026. Effective January 1, 2027. All three medications priced at $675/month across all doses. Current self-pay price remains $149/month for starting doses. This is separate from the Medicare/TrumpRx price of $245. The list price cut directly impacts high-deductible and coinsurance patients.",
+      "source_url": "https://www.usnews.com/news/health-news/articles/2026-02-25/novo-nordisk-cuts-prices-of-ozempic-and-wegovy-starting-january-2027",
+      "source_date": "2026-02-25",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "2026 guidance: Sales and operating profit both expected to decline 5-13% at CER. Novo framing 2026 as a 'trough year' — down before it comes back up.",
+      "data": "Q4 2025 earnings (Feb 4, 2026): 2026 guidance for sales and operating profit decline of 5-13% CER. 8% and 10% below consensus midpoints (Citi). 2025 semaglutide base ~$33B. Pre-deal 2026 estimate ~$37.5B, post-deal central case ~$36.5B. NVO stock fell 18% on day of guidance, erasing ~$50B market cap. CEO: 'People should expect that it goes down before it comes back up.'",
+      "source_url": "https://www.euronews.com/business/2026/02/04/novo-nordisk-stock-sinks-by-17-after-bleak-2026-forecast",
+      "source_date": "2026-02-04",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    }
+  ]
+}

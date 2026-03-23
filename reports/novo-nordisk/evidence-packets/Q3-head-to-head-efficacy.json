@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "How does Novo stack up vs Eli Lilly in the GLP-1 race, and is the 3x valuation gap justified?",
+  "company": "NVO vs LLY",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "SURMOUNT-5 head-to-head trial (NEJM, May 2025): Tirzepatide achieved 20.2% weight loss vs semaglutide's 13.7% — 47% greater relative efficacy",
+      "data": "Phase 3b, open-label, 751 participants randomized 1:1. Tirzepatide max tolerated dose (10/15mg) vs semaglutide max dose (1.7/2.4mg) for 72 weeks. Tirzepatide: -20.2% body weight (LS mean), -50.3 lbs absolute. Semaglutide: -13.7%, -33.1 lbs. 31.6% of tirzepatide patients lost >25% vs 16.1% semaglutide. P<0.001. Funded by Eli Lilly. NCT05822830.",
+      "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2416394",
+      "source_date": "2025-05-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "CagriSema (Novo's next-gen) FAILED non-inferiority vs tirzepatide in REDEFINE 4 trial (Feb 2026): 20.2% vs 23.6% weight loss",
+      "data": "REDEFINE 4 trial: CagriSema did NOT achieve primary endpoint of non-inferiority to tirzepatide at 84 weeks. CagriSema: 20.2% weight loss, tirzepatide: 23.6%. NVO stock fell 16% on the news (Feb 23, 2026). Barclays cut CagriSema peak sales estimate from $12B to $2B (>80% reduction). JPMorgan: results 'will make it difficult for the product to gain market share.' Morningstar cut NVO fair value from DKK 372 to DKK 343.",
+      "source_url": "https://www.cnbc.com/2026/02/23/novo-nordisk-stock-cagrisema-trial-fails-weight-loss.html",
+      "source_date": "2026-02-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Earlier CagriSema disappointment (Dec 2024): Only 22.7% weight loss vs 25% target, with only 57.3% of patients on full dose",
+      "data": "CagriSema Phase 3 initial readout: 22.7% average weight loss, below 25% target. Only 57.3% of participants took full dose throughout trial, potentially explaining the miss. NVO lost 30% of value in 6 months following this result. CagriSema filed with FDA Dec 2025; decision expected late 2026.",
+      "source_url": "https://www.cnbc.com/2025/03/24/novo-nordisks-next-gen-obesity-drug-cagrisema-trial-results-disappoint-investors.html",
+      "source_date": "2025-03-24",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Meta-analysis confirms tirzepatide superiority: mean difference of 4.23 percentage points more weight loss vs semaglutide across clinical and real-world data",
+      "data": "Systematic review and meta-analysis of clinical trials + real-world data. Tirzepatide MD = 4.23 percentage points more weight loss (95% CI: 3.22-5.25, P<0.01) vs semaglutide. Dose- and duration-dependent effect.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12151102/",
+      "source_date": "2025",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

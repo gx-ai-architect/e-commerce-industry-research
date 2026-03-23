@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "E1",
+    "url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-shares-tumble-18-after-2026-sales-dip-warning/",
+    "quote": "NVO guided FY2026 sales decline of -5% to -13% at CER, far worse than consensus expectations: 2026 guidance issued Feb 4, 2026: Sales and operating profit both expected to decline -5% to -13% at constant exchange rates. Analysts had expected roughly flat to low-single-digit growth. This triggered a ~15-18% single-day stock drop. Key management assumptions: lower US realized prices, MFN pricing impact, mix shift toward cash-pay/lower-priced channels, loss of exclusivity in international markets, and ~DKK 4.2B reversal of US 340B rebate provisions (one-off 2025 benefit not recurring).",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E2",
+    "url": "https://www.drugdiscoverytrends.com/novo-slashes-us-glp-1-prices-by-up-to-70-but-2026-semaglutide-revenue-could-hold-steady-or-even-grow/",
+    "quote": "Management attributed the sales decline to price, not volume \u2014 US volumes still growing but offset by lower realized prices: US Wegovy sales grew 16% in FY2025 driven by volume, but offset by lower realized prices. Weekly Ozempic prescriptions ~610,000. US injectable Wegovy prescriptions ~270,000/week in Q3 2025 (down from 280,000 in Q2). Self-pay is ~30% of total injectable Wegovy Rx. Cash-pay pricing dropped from $499 to $349/month. The decline is primarily a PRICE story, not a volume collapse.",
+    "date": "2026-02-05",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E3",
+    "url": "https://www.fiercepharma.com/pharma/novo-shares-plummet-sales-profit-warning-26",
+    "quote": "DKK 4.2B 340B rebate reversal inflated 2025 results, creating a tough comp for 2026: Novo highlighted a DKK 4.2 billion (~$600M USD) reversal of US 340B rebate provisions as a one-off benefit that boosted 2025 results. This will not recur in 2026, meaning the underlying growth gap is somewhat smaller than headline guidance suggests. Adjusting for this, the 'true' decline is more like -3% to -11%.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E4",
+    "url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+    "quote": "NVO also warned of DKK 8 billion restructuring costs in 2025 that compressed margins: Operating profit FY2025 decreased 1% in DKK, increased 6% at CER to DKK 127,658M. Approximately DKK 8 billion in one-off restructuring costs impacted 2025. Excluding restructuring, operating profit growth would have been +6% DKK / +13% CER. Q4 2025 operating profit was DKK 31.7B, down 14% YoY.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E5",
+    "url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+    "quote": "Eli Lilly now commands 58% of US GLP-1 prescriptions vs Novo's 42% \u2014 a complete reversal from 2024 when Novo had 69%: Market share shift: Novo held 69% global GLP-1 share in Q2 2024. By Q1 2025, Lilly overtook with 53%. By Q2 2025, Lilly had ~57%. As of late 2025, Lilly held 58% of US GLP-1 Rx vs Novo's 42%. Novo's global GLP-1 share dropped from 55.7% to 49.3% between Aug 2024 and Aug 2025. Key driver: tirzepatide (Mounjaro/Zepbound) achieves ~20% weight loss vs semaglutide's ~14% in trials.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E6",
+    "url": "https://247wallst.com/investing/2026/02/04/eli-lilly-is-dominating-the-glp-1-wars-as-novo-nordisk-sales-tank/",
+    "quote": "Lilly guided +27% revenue growth in 2026 ($80-83B) while Novo guided -5% to -13% \u2014 a 30-40 point divergence: Lilly 2026 guidance: Revenue $80-83B, +27% growth. Mounjaro projected $22.8B, Zepbound projected $18.1B in 2026. Lilly's Q4 2025: Revenue +43% to $19.3B; Mounjaro +110% to $7.4B; Zepbound +123% to $4.3B. FY2025 combined Mounjaro+Zepbound: $36.5B (~56% of total Lilly revenue). Novo 2026: -5% to -13% CER. This is the widest growth divergence between the two companies.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E7",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize",
+    "quote": "Compounded semaglutide shipments dropped 90% after FDA removed semaglutide from shortage list in Feb 2025: FDA removed semaglutide from drug shortage list Feb 21, 2025. Enforcement deadlines: 503A pharmacies (April 22, 2025), 503B outsourcing facilities (May 22, 2025). Shipments of compounded semaglutide dropped 90% from June 2024 to June 2025 per FDA data. However, 503A pharmacies still compound under patient-specific prescriptions. The Outsourcing Facilities Association (OFA) is suing the FDA. Chinese API suppliers pivoted to generic manufacturing for patent-expiry markets.",
+    "date": "2025-02",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E8",
+    "url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+    "quote": "Lilly plans to launch orforglipron (oral GLP-1 for obesity) in US in Q2 2026 \u2014 a direct competitor to oral Wegovy: Eli Lilly expects to launch orforglipron, an oral non-peptide GLP-1, for obesity in the US in Q2 2026. This would directly compete with Novo's oral Wegovy. Unlike semaglutide, orforglipron is a small molecule (not a peptide), meaning it could be cheaper to manufacture and potentially more convenient.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E9",
+    "url": "https://www.prnewswire.com/news-releases/novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-now-broadly-available-across-america-302652205.html",
+    "quote": "Oral Wegovy (semaglutide 25mg pill) approved Dec 22, 2025 and launched in US Jan 5, 2026 \u2014 first oral GLP-1 for obesity: FDA approved oral Wegovy on December 22, 2025. US launch began January 5, 2026 with starter dose (1.5mg), additional strengths released by end of first week. Manufactured at Novo's North Carolina facility. This is the first and only oral GLP-1 for weight loss.",
+    "date": "2026-01-05",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E10",
+    "url": "https://www.nbcnews.com/health/health-news/170000-people-us-are-taking-wegovy-pill-novo-nordisk-says-rcna257395",
+    "quote": "Oral Wegovy reached 170,000+ patients by ~Jan 23 (3 weeks post-launch) and ~400,000 by mid-March 2026 (~10 weeks) \u2014 fastest drug launch in history: By Jan 23, 2026 (~3 weeks): 170,000+ patients on oral Wegovy, ~50,000 Rx/week. By mid-March 2026 (~10 weeks): ~400,000 patients. Jefferies confirmed it became 'the fastest drug launch in history.' Uptake was 2x any previous branded anti-obesity drug. Roughly 90% of prescriptions were paid out-of-pocket (not through insurance). Week 2 prescriptions (~18,400-20,000) were numerically higher than injectable Wegovy (~1,600) and Zepbound (~7,300) at the same point in their launches.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E11",
+    "url": "https://www.benzinga.com/news/fda/26/03/51363862/novo-nordisk-secures-fda-approval-for-higher-dose-wegovy",
+    "quote": "FDA approved higher-dose Wegovy HD (injectable semaglutide 7.2mg) on March 19, 2026 \u2014 rollout expected in April: FDA approved Wegovy HD (once-weekly injectable semaglutide 7.2mg, higher than current max 2.4mg) on March 19, 2026. Expected to reach US pharmacies in April 2026. This higher dose should boost weight loss for patients already on Wegovy who want greater efficacy.",
+    "date": "2026-03-19",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E12",
+    "url": "https://www.amcp.org/letters-statements-analysis/federal-update-trump-administration-announces-deal-bring-most-favored-nation-pricing-glp-1s",
+    "quote": "Medicare Part D coverage for obesity medicines begins via pilot program April 1, 2026 \u2014 could unlock major new patient pool: Medicare Part D coverage for anti-obesity medicines (including Wegovy) will be available through a pilot program beginning April 1, 2026. This is significant because Medicare beneficiaries were previously largely excluded from GLP-1 obesity coverage. The Medicare price will be $245/month with copays capped at $50.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E13",
+    "url": "https://www.fiercepharma.com/pharma/novos-semaglutide-losing-patent-protection-indian-drugmakers-set-launch-their-generics",
+    "quote": "Semaglutide patents expired in India (March 20, 2026), with generics launched at 70-80% discounts by 5+ manufacturers: India patent expired March 20, 2026. At least 5 domestic drugmakers launched generics undercutting Novo's price by up to 80%. 50+ generic brands expected in coming months. Indian market represents only a small fraction of Novo's revenue, but the precedent matters. Manufacturers: Zydus, Lupin, Dr. Reddy's among them.",
+    "date": "2026-03-20",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E14",
+    "url": "https://www.iqvia.com/locations/emea/blogs/2025/07/off-patent-semaglutide",
+    "quote": "Semaglutide patents also expiring in 2026 in Canada, Brazil, China, and Turkey \u2014 collectively 40% of world population: Patent expiry timeline: India (March 2026), Brazil (March 2026), Canada (2026-2027, after Novo failed to pay maintenance fees), China (2026-2028, with 15+ Chinese companies developing generics, 11 in final-stage trials), Turkey (2027). These markets collectively represent 40% of global population and ~33% of adults with obesity. However, they are lower-revenue markets compared to US/EU.",
+    "date": "2025-07",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E15",
+    "url": "https://www.markmanadvisors.com/blog/2025/2/7/what-is-the-patent-landscape-for-novo-nordisks-semaglutide-products-ozempic-wegovy-and-rybelsus",
+    "quote": "US semaglutide compound patent protected until December 2031, with method-of-use patents to 2033 \u2014 no US generics before 2032: Main US compound patent expires December 2031 (extended from March 2026 via PTA and PTE of 5+ years). Method-of-use patents extend to 2033. No generic semaglutide expected in US until 2032-2033 at earliest. EU/Japan protection also extends to 2031-2032. Novo projected to earn ~$166B from Ozempic/Wegovy during this extended protection window.",
+    "date": "2025-02",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E16",
+    "url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+    "quote": "Lilly's tirzepatide patent protection extends into 'the back half of the 2030s' \u2014 giving Lilly a longer competitive moat: Tirzepatide (Mounjaro/Zepbound) patents extend into the late 2030s in major markets \u2014 approximately 5-7 years longer than semaglutide. This gives Lilly a structural advantage: by the time semaglutide faces US generics (2032+), tirzepatide will still be patent-protected.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E17",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502081",
+    "quote": "CagriSema achieved 22.7% weight loss at 68 weeks in REDEFINE 1 trial \u2014 better than semaglutide alone (14%) but fell short of 25% target: REDEFINE 1 (3,417 adults with obesity, no diabetes): CagriSema achieved 20.4% mean weight reduction vs 3.0% placebo (ITT). On-treatment estimate: 22.7%. Weight loss >=20%: 60.2%, >=25%: 40.4%, >=30%: 23.1% of patients. Published in NEJM. GI adverse events: 79.6% vs 39.9% placebo. Investors were disappointed as ~25% had been the expectation \u2014 shares fell on announcement.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E18",
+    "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645862.html",
+    "quote": "CagriSema NDA filed with FDA in December 2025, approval expected late 2026 or early 2027: Novo filed NDA for CagriSema on December 18, 2025. CagriSema is a fixed-dose combination of semaglutide 2.4mg + cagrilintide 2.4mg (amylin analog). REDEFINE 2 (T2D patients): 13.7% weight loss, 73.5% reaching HbA1c <=6.5%. Head-to-head trial vs Zepbound ongoing. REDEFINE 11 trial initiated for longer-duration study.",
+    "date": "2025-12-18",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E19",
+    "url": "https://www.clinicaltrialsarena.com/analyst-comment/ad-pd-2026-novo-nordisk-semaglutide-early-alzheimers/",
+    "quote": "Semaglutide failed to show benefit in early Alzheimer's disease trial, narrowing its beyond-obesity potential: At AD/PD 2026 conference, Novo Nordisk's semaglutide failed to demonstrate any benefit for early Alzheimer's disease. This was a setback for the thesis that semaglutide could expand into large neurological indications beyond metabolic disease.",
+    "date": "2026-03",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E20",
+    "url": "https://www.ajmc.com/view/trump-announces-deals-with-eli-lilly-novo-nordisk-for-lower-weight-loss-drug-prices",
+    "quote": "Novo struck a Most Favored Nation pricing deal with the Trump administration, cutting Ozempic/Wegovy prices to $350/month via TrumpRx (from ~$1,000-1,350 list): Under the MFN deal: Ozempic and Wegovy available at $350/month through TrumpRx.gov (launched Feb 5, 2026). Medicare price: $245/month, with copays capped at $50. Starting Jan 1, 2027, list prices for Wegovy, Ozempic, and Rybelsus will be $675 across the board \u2014 a 50% cut for Wegovy (from $1,349) and 34% cut for Ozempic/Rybelsus (from $1,027). Both Novo and Lilly received 3 years of tariff relief in exchange.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E21",
+    "url": "https://www.drugdiscoverytrends.com/novo-slashes-us-glp-1-prices-by-up-to-70-but-2026-semaglutide-revenue-could-hold-steady-or-even-grow/",
+    "quote": "Cash-pay pricing already dropped 30%: from $499 to $349/month, with first 2 months for new patients at $199: Novo reduced its direct-to-consumer pricing to $349/month for Ozempic and Wegovy (from $499), with $199 intro pricing for new patients' first two months at low doses. This predates the MFN deal and reflects competitive pressure from compounders and Eli Lilly.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E22",
+    "url": "https://www.benzinga.com/news/health-care/26/03/51327094/hims-hers-opens-waitlist-for-149-branded-wegovy-and-ozempic-via-novo-nordisk-deal",
+    "quote": "Hims & Hers announced partnership with Novo to distribute branded Wegovy and Ozempic at $149/month: On March 18, 2026, Hims & Hers opened a waitlist for branded Wegovy and Ozempic at $149/month via a direct deal with Novo Nordisk. This DTC channel bypasses PBMs entirely and represents potentially the lowest-ever price for branded semaglutide.",
+    "date": "2026-03-18",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E23",
+    "url": "https://www.drugdiscoverytrends.com/novo-slashes-us-glp-1-prices-by-up-to-70-but-2026-semaglutide-revenue-could-hold-steady-or-even-grow/",
+    "quote": "Management said MFN pricing impact on global sales growth is 'low single digit' negative \u2014 suggesting volume could offset most price cuts: Novo told investors the combined effect of U.S. price negotiations and new discount programs should have only a 'low single digit' negative impact on global sales growth in 2026. This implies management believes expanded access will drive volume growth to substantially offset lower prices.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E24",
+    "url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+    "quote": "NVO FY2025 total sales were DKK 309,064 million, up 6% in DKK and 10% at CER \u2014 a sharp deceleration from 25%+ growth in FY2024: Full-year 2025 net sales DKK 309,064 million (approx USD 46.8B), +6% DKK / +10% CER. FY2024 net sales were DKK 290.4B (+26% DKK). Growth halved year-over-year. The company cut its full-year guidance three times during 2025.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E25",
+    "url": "https://www.cnbc.com/2026/02/03/novo-nordisk-2025-earnings-wegovy-ozempic.html",
+    "quote": "Quarterly revenue growth decelerated from +19% in Q1 2025 to +5.2% in Q3 2025, with Q4 roughly flat: Q1 2025: DKK 78,087M (+19% DKK / +18% CER). Q2 2025: DKK 76,813M (implied, +16% DKK for H1). Q3 2025: DKK 74,980M (+5.2%). Q4 2025: DKK 79,100M (slightly beat consensus of DKK 77,800M). Ozempic Q4: DKK 31,800M (+1% CER). Wegovy Q4: DKK 21,900M (+17% CER). Operating profit Q4: DKK 31,700M (-14% YoY).",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E26",
+    "url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+    "quote": "Revenue growth peaked in Q1 2024 at ~36% CER and has decelerated for 7 consecutive quarters: Growth trajectory (CER): Q1 2024 ~36% \u2192 Q2 2024 ~25% \u2192 Q3 2024 ~21% \u2192 Q4 2024 ~18% \u2192 Q1 2025 +18% \u2192 Q2 2025 ~+14% \u2192 Q3 2025 +5% \u2192 Q4 2025 ~flat. The deceleration accelerated sharply in H2 2025 as Eli Lilly gained market share and pricing pressures intensified.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E27",
+    "url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+    "quote": "Ozempic full-year 2025 sales DKK 127,089M (+6% DKK / +10% CER); Wegovy FY2025 obesity care ~DKK 82B (+31%); Rybelsus DKK 22,093M (-5% DKK): Product breakdown FY2025: Ozempic DKK 127,089M. Rybelsus DKK 22,093M. Total GLP-1 diabetes DKK 152,202M (+2% DKK / +6% CER). Obesity care (Wegovy+Saxenda) ~DKK 82,000M (+31%). Wegovy alone was the growth driver; Saxenda is declining. International Wegovy sales reached DKK 28B (+134%).",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E28",
+    "url": "https://www.kavout.com/market-lens/why-did-novo-nordisk-stock-plummet-recently",
+    "quote": "NVO stock at $36.84 as of March 23, 2026 \u2014 down ~75% from mid-2024 peak of ~$145: Alpaca live quote: NVO $36.84 (March 23, 2026). 52-week range: per sources ~$49.57 was recent trading level. Stock fell 46.5% in 2025, then continued declining into 2026. The Feb 4 earnings triggered a ~15-18% single-day drop. Current price implies market is pricing in structural, not temporary, headwinds.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E29",
+    "url": "https://www.fiercepharma.com/pharma/novo-shares-plummet-sales-profit-warning-26",
+    "quote": "Two top Novo executives departed alongside the weak 2026 guidance \u2014 leadership instability signals deeper issues: Alongside the Feb 4, 2026 earnings report and weak 2026 guidance, two senior executives headed for the door. This compounded investor concerns, suggesting the problems may be deeper than a transient pricing reset.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E30",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/26/03/51304475/eli-lilly-analyst-flags-overhyped-obesity-drug-expectations",
+    "quote": "HSBC downgraded Eli Lilly citing overhyped obesity drug expectations \u2014 suggests the ENTIRE GLP-1 sector faces a reckoning, not just Novo: On March 17, 2026, HSBC downgraded Eli Lilly to 'reduce', citing pricing pressure, rising competition, and overestimated obesity drug market growth expectations. This suggests the bearish thesis is not Novo-specific but sector-wide \u2014 both incumbents face pricing and competition headwinds. If true, this is more structural than temporary.",
+    "date": "2026-03-17",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E31",
+    "url": "https://www.benzinga.com/news/health-care/26/03/51404013/india-generic-wave-hits-ozempic-wegovy-prices-drop",
+    "quote": "Indian generic semaglutide prices 70-80% cheaper create global reference pricing risk even for protected US market: As of March 23, 2026, Indian drugmakers have launched semaglutide generics at 70-80% below Novo's price. While US patents are protected until 2031, these low international prices create political pressure (especially under MFN framing) and could accelerate the 'race to the bottom' on pricing. Chinese companies that previously supplied compounders are now manufacturing generics for patent-expiry markets.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E98",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO net debt expanded to DKK 104.0B (Q4 2025) from DKK 76.5B (Q4 2024), a 36% increase in 12 months: Q4 2024: cash+ST investments DKK 26.3B, total debt DKK 102.8B, net debt DKK 76.5B. Q4 2025: cash+ST investments DKK 27.0B, total debt DKK 131.0B, net debt DKK 104.0B. Debt rose DKK 28.2B while liquid assets flat.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E99",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO Q4 2025 FCF collapsed to negative DKK 36.2B, driven by DKK 43.8B capex (2.7x the prior quarter average of DKK 15.7B): Q4 2025: operatingCashFlow DKK 7.6B, capitalExpenditure DKK -43.8B, freeCashFlow DKK -36.2B. Prior 3 quarters (Q1-Q3 2025) capex averaged DKK 15.4B. Q4 capex was 2.85x Q1-Q3 average.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E100",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO TTM operating cash flow was DKK 119.1B (FY2025), but TTM FCF was only DKK 29.0B due to DKK 90.1B in total capex: FY2025 quarterly OpCF: 24.6 + 40.8 + 46.1 + 7.6 = DKK 119.1B. FY2025 quarterly capex: 14.6 + 16.3 + 15.4 + 43.8 = DKK 90.1B. FCF = 119.1 - 90.1 = DKK 29.0B (matches sum of quarterly FCF: 10.0 + 24.5 + 30.7 - 36.2 = DKK 29.0B).",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E101",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO financed its capex surge with DKK 103.9B in gross debt issuance during FY2025, while repaying only DKK 79.2B: FY2025 issuanceOfDebt: 27.4 + 45.2 + 0.7 + 30.6 = DKK 103.9B. repaymentOfDebt: 12.0 + 64.9 + 1.1 + 1.2 = DKK 79.2B. Net new borrowing: DKK 24.7B.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E102",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO's long-term debt grew from DKK 84.2B to DKK 111.7B (+33%) while short-term debt stayed roughly flat (DKK 11.8B to DKK 10.7B): Q4 2024: LT debt DKK 84.2B, current debt DKK 11.8B. Q4 2025: LT debt DKK 111.7B, current debt DKK 10.7B. The company termed out borrowings.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E103",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO has persistent negative working capital (DKK -43.2B in Q4 2025), with accounts payable of DKK 153.1B dwarfing receivables of DKK 70.9B: Q4 2025: currentAssets DKK 172.5B, currentLiabilities DKK 215.7B, workingCapital DKK -43.2B. Accounts payable DKK 153.1B vs accounts receivable DKK 70.9B. Inventory DKK 49.6B.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E104",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO stockholders' equity grew 35% to DKK 194.0B (Q4 2025), driven by retained earnings of DKK 195.3B, giving debt/equity of 67.5%: Q4 2024: equity DKK 143.5B, retained earnings DKK 144.4B. Q4 2025: equity DKK 194.0B, retained earnings DKK 195.3B. Debt/equity 67.5% per Yahoo stats.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E105",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO interest expense was DKK 10.8B in FY2025 (H1 only: Q1 DKK 5.2B + Q2 DKK 5.0B), while interest income was DKK 13.0B, resulting in net interest income: Interest expense: Q4 2024 DKK 5.1B, Q1 2025 DKK 5.2B, Q2 2025 DKK 5.0B, Q3 missing, Q4 2025 DKK -4.4B (likely data anomaly). Interest income: Q4 2024 DKK 3.9B, Q1 DKK 3.4B, Q2 DKK 5.3B, Q3 DKK 1.8B, Q4 DKK 2.4B (FY2025 total: DKK 13.0B).",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E106",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "LLY net debt was $35.2B (Q4 2025): $7.3B cash vs $42.5B total debt \u2014 a higher leverage ratio with debt/equity of 165.3%: Q4 2025: cash DKK 7.3B, total debt $42.5B (LT $40.9B, current $1.6B). Stockholders' equity $26.5B. Debt/equity 165.3% per Yahoo stats.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E107",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "LLY TTM FCF was $6.4B (FY2025) on $16.8B OpCF minus $10.8B capex \u2014 LLY's capex run-rate is also elevated for manufacturing: FY2025 quarterly OpCF: 1.7 + 3.1 + 8.8 + 3.2 = $16.8B. Capex: 3.3 + 1.8 + 2.8 + 3.0 = $10.8B (est). FCF: -1.6 + 1.3 + 6.0 + 0.3 = $6.0B. Yahoo stats report TTM FCF at $1.95B.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E108",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "LLY returned $10.3B to shareholders in FY2025: $4.1B buybacks + $5.4B dividends (est), absorbing 61% of TTM OpCF: FY2025 buybacks: 1.2 + 0.7 + 0.7 + 1.5 = $4.1B. Dividends: 1.3 + 1.3 + 1.3 + 1.3 = $5.4B (est). Total: $9.5B. OpCF was $16.8B. Capital return / OpCF = 57%.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E109",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO capex surged in Q4 2025 to DKK 43.8B \u2014 likely reflecting the Catalent acquisition close (~$16.5B / ~DKK 115B) partially hitting capex/investing lines: Q4 2025 investingCashFlow was DKK -42.8B and capex DKK -43.8B. Q4 2025 also saw DKK 30.6B in debt issuance (financingCashFlow DKK +29.5B). Catalent acquisition announced Dec 2023, closed Feb 2025 per public filings.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E110",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO inventory grew steadily from DKK 40.8B to DKK 49.6B (+22%) over 5 quarters, consistent with GLP-1 production ramp: Inventory: Q4 2024 DKK 40.8B \u2192 Q1 2025 DKK 42.9B \u2192 Q2 DKK 45.7B \u2192 Q3 DKK 47.5B \u2192 Q4 DKK 49.6B. +21.5% in 12 months.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E111",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "LLY inventory grew even faster: from $7.6B to $13.7B (+81%) over 5 quarters, reflecting tirzepatide manufacturing ramp: Inventory: Q4 2024 $7.6B \u2192 Q1 $9.3B \u2192 Q2 $11.0B \u2192 Q3 $12.2B \u2192 Q4 $13.7B. +81% in 12 months.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E112",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO can fund operations from OpCF alone ($119B DKK) but CANNOT self-fund capex ($90B) + shareholder returns, requiring ongoing debt issuance: FY2025 OpCF DKK 119.1B. Capex DKK 90.1B. Buybacks (partial data) DKK 8.9B minimum. Dividends not captured but substantial. Total uses exceed OpCF, hence DKK 24.7B net new debt.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E113",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "NVO stock price at $36.84 implies market cap ~$164B (ADR shares ~4.44B * $36.84), while enterprise value is $266B including DKK 104B net debt: Alpaca quote: NVO $36.835. Yahoo stats: EV $266.3B, shares outstanding 3.37B (B-shares basis). ADR = 1 B-share. Total shares including A+B = 4.44B.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E114",
+    "url": "https://finance.yahoo.com/quote/NVO/financials/",
+    "quote": "LLY stock price at $910.42 implies market cap ~$813B (895M shares * $910), with EV $847B \u2014 3.2x NVO's EV despite only 4.2x higher revenue in USD terms: Alpaca quote: LLY $910.42. Yahoo stats: EV $846.7B, shares outstanding 893M. NVO EV $266B. LLY revenue $65.2B vs NVO $309B DKK (~$42B USD at 7.3 DKK/USD). LLY/NVO revenue ratio ~1.55x, but EV ratio 3.18x.",
+    "date": "2026-03-23",
+    "provenance": "auto:balance-sheet-analyst",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E32",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2416394",
+    "quote": "SURMOUNT-5 head-to-head trial (NEJM, May 2025): Tirzepatide achieved 20.2% weight loss vs semaglutide's 13.7% \u2014 47% greater relative efficacy: Phase 3b, open-label, 751 participants randomized 1:1. Tirzepatide max tolerated dose (10/15mg) vs semaglutide max dose (1.7/2.4mg) for 72 weeks. Tirzepatide: -20.2% body weight (LS mean), -50.3 lbs absolute. Semaglutide: -13.7%, -33.1 lbs. 31.6% of tirzepatide patients lost >25% vs 16.1% semaglutide. P<0.001. Funded by Eli Lilly. NCT05822830.",
+    "date": "2025-05-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E33",
+    "url": "https://www.cnbc.com/2026/02/23/novo-nordisk-stock-cagrisema-trial-fails-weight-loss.html",
+    "quote": "CagriSema (Novo's next-gen) FAILED non-inferiority vs tirzepatide in REDEFINE 4 trial (Feb 2026): 20.2% vs 23.6% weight loss: REDEFINE 4 trial: CagriSema did NOT achieve primary endpoint of non-inferiority to tirzepatide at 84 weeks. CagriSema: 20.2% weight loss, tirzepatide: 23.6%. NVO stock fell 16% on the news (Feb 23, 2026). Barclays cut CagriSema peak sales estimate from $12B to $2B (>80% reduction). JPMorgan: results 'will make it difficult for the product to gain market share.' Morningstar cut NVO fair value from DKK 372 to DKK 343.",
+    "date": "2026-02-23",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E34",
+    "url": "https://www.cnbc.com/2025/03/24/novo-nordisks-next-gen-obesity-drug-cagrisema-trial-results-disappoint-investors.html",
+    "quote": "Earlier CagriSema disappointment (Dec 2024): Only 22.7% weight loss vs 25% target, with only 57.3% of patients on full dose: CagriSema Phase 3 initial readout: 22.7% average weight loss, below 25% target. Only 57.3% of participants took full dose throughout trial, potentially explaining the miss. NVO lost 30% of value in 6 months following this result. CagriSema filed with FDA Dec 2025; decision expected late 2026.",
+    "date": "2025-03-24",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E35",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12151102/",
+    "quote": "Meta-analysis confirms tirzepatide superiority: mean difference of 4.23 percentage points more weight loss vs semaglutide across clinical and real-world data: Systematic review and meta-analysis of clinical trials + real-world data. Tirzepatide MD = 4.23 percentage points more weight loss (95% CI: 3.22-5.25, P<0.01) vs semaglutide. Dose- and duration-dependent effect.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E36",
+    "url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+    "quote": "Lilly overtook Novo in GLP-1 market share in 2025, reaching 57% in Q2 2025 vs Novo's declining share from 55.7% to 49.3%: Lilly secured 53% of GLP-1 market in early 2025, rising to 57% in Q2 2025 (per investor presentation). Novo's global GLP-1 share fell from 55.7% to 49.3% as of August 2025. Lilly total prescriptions up 41% YoY in Q2 2025. Tirzepatide became world's best-selling drug in Q3 2025 with YTD sales of $24.8B, surpassing Keytruda.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E37",
+    "url": "https://www.pharmavoice.com/news/glp-1-market-changes-eli-lilly-novo-nordisk-earnings/757312/",
+    "quote": "By brand, Ozempic still leads at 31.5% share, but Mounjaro (23.4%) + Zepbound (11.6%) = 35% combined gives Lilly the edge: Brand market share: Ozempic 31.5%, Mounjaro 23.4%, Wegovy 16.5%, Zepbound 11.6%, Trulicity 8.4%, Rybelsus 6.0%. Novo brands (Ozempic+Wegovy+Rybelsus) = 54%, Lilly brands (Mounjaro+Zepbound+Trulicity) = 43.4%. But Lilly gaining rapidly.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E38",
+    "url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+    "quote": "2026 guidance diverges sharply: Lilly forecasts $80-83B revenue (~25% growth) vs Novo guiding for 5-13% sales and profit DECLINE: Lilly 2026 guidance: $80-83B sales (midpoint ~25% growth), beat analyst expectations of $77.62B. Novo 2026 guidance: sales and profit declining 5-13%, driven by US price cuts, patent expiry in China/Brazil/Canada, and compounding competition. Novo's compounding impact 'significantly bigger than anticipated.'",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E39",
+    "url": "https://www.drugdiscoverytrends.com/novo-slashes-us-glp-1-prices-by-up-to-70-but-2026-semaglutide-revenue-could-hold-steady-or-even-grow/",
+    "quote": "Novo's semaglutide franchise could still reach ~$36B in 2026, up from ~$33B in 2025, despite price cuts: Analysts forecast semaglutide franchise reaching ~$36B in 2026 vs ~$33B in 2025, as volume growth offsets price cuts. Q3 2025: Wegovy sales ~$3.1B (up 18% YoY), Ozempic sales $4.7B (up 9% YoY). Novo said price cuts would have only 'low single digit' negative impact on global sales growth.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E40",
+    "url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-302648344.html",
+    "quote": "Oral Wegovy (semaglutide 25mg pill) FDA approved Dec 22, 2025 \u2014 first oral GLP-1 for obesity. 16.6% weight loss at 64 weeks. Hit 50K weekly prescriptions within 3 weeks of launch.: FDA approved Dec 22, 2025. Oral semaglutide 25mg: 16.6% mean weight loss at 64 weeks (adherent patients), 13.6% all patients. 1/3 of adherent patients achieved >20% loss. Must be taken on empty stomach. Priced at $149/month (limited savings offer). Full US launch Jan 2026. 50,000 weekly prescriptions in under 3 weeks post-launch. 246K patients as of early 2026.",
+    "date": "2025-12-22",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E41",
+    "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically",
+    "quote": "Lilly's orforglipron (oral, non-peptide, small molecule GLP-1): FDA decision expected April 10, 2026. ~12% weight loss at highest dose \u2014 less potent but no food restrictions.: Orforglipron: non-peptide, once-daily, no food/water restrictions. Phase 3 data: ~12% weight loss at highest dose (initial therapy). Maintenance trial (ATTAIN-MAINTAIN): patients switching from Wegovy maintained all but 0.9kg of prior loss. Pre-launch inventory: $1.5B as of Dec 31, 2025. FDA decision delayed to April 10, 2026. Planned pricing: $149 lowest dose, up to $399. FDA granted 'national priority' voucher.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E42",
+    "url": "https://www.cnbc.com/2025/12/16/healthy-returns-obesity-pills-from-novo-nordisk-eli-lilly-are-coming.html",
+    "quote": "Oral GLP-1 market projected to reach $22B by 2030 (Goldman Sachs). Novo has first-mover advantage but orforglipron's convenience (no fasting) may offset.: Goldman Sachs forecast: oral GLP-1 segment $22B by 2030. Key trade-offs: Oral Wegovy (16.6% weight loss, must fast) vs orforglipron (12% weight loss, no food restriction). Oral Wegovy has CV outcomes data (SELECT trial); orforglipron does not yet. Both priced similarly at ~$149-399/month.",
+    "date": "2025-12-16",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E43",
+    "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average",
+    "quote": "Lilly's retatrutide (triple agonist GIP/GLP-1/glucagon) Phase 3 TRIUMPH-4: 23.7% weight loss (ITT) / 28.7% (completers) at 68 weeks \u2014 the most potent obesity drug in development: TRIUMPH-4 (Dec 2025): Adults with obesity + knee osteoarthritis. Highest dose: 23.7% weight loss (ITT), 28.7% (on-treatment). Pain reduction: 62.6%. BUT: 18.2% discontinuation rate at high dose (vs 4% placebo). Dysesthesia in ~1/5 patients at 12mg dose. TRANSCEND-T2D-1 (March 2026): up to 2.0% A1C reduction, ~17% weight loss at 40 weeks. 7 more Phase 3 readouts expected in 2026. Filing projected late 2025-Q1 2026, approval ~late 2026-mid 2027.",
+    "date": "2025-12-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E44",
+    "url": "https://www.pharmavoice.com/news/glp-1-pharma-obesity-pill-drug-novo-viking-structure-lilly/808195/",
+    "quote": "Novo's amycretin (zenagamtide) is the counter \u2014 mid-stage win, planning Phase 3 in Q1 2026 for both subQ and oral formulations: Novo rebounded from Alzheimer's setback with mid-stage win for amycretin (renamed zenagamtide). Planning subcutaneous and oral Phase 3 for obesity in Q1 2026. Details on efficacy data pending.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E45",
+    "url": "https://www.amgen.com/newsroom/press-releases/2025/06/results-from-amgens-phase-2-obesity-study-of-monthly-maritide-presented-at-the-american-diabetes-association-85th-scientific-sessions",
+    "quote": "Amgen MariTide Phase 2: ~20% weight loss (completers) / ~16% (full data) at 52 weeks \u2014 comparable to Wegovy but inferior to Zepbound. Monthly dosing is differentiator.: MariTide: bispecific GLP-1 agonist / GIPR antagonist, peptide-antibody conjugate. Phase 2 (ADA June 2025): up to 20% weight loss (completers), ~16% full analysis set. Monthly dosing. No weight loss plateau at 52 weeks. Phase 3 MARITIME program: 4 studies underway (72 weeks). Wall Street disappointed \u2014 stock fell 4% on full data. Phase 3 outcomes studies for ASCVD and HF initiated 2025.",
+    "date": "2025-06",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E46",
+    "url": "https://www.iqvia.com/locations/emea/blogs/2026/01/outlook-for-obesity-in-2026",
+    "quote": "Broader pipeline: 193+ obesity assets in development. Viking VK2735 oral: 10.9% weight loss in 13 weeks (Phase 2). Pfizer re-entered via $10B Metsera acquisition. Roche Phase II, expected ~2029.: IQVIA estimates 193+ assets in obesity development as of Oct 2025. Viking: oral VK2735 Phase 2 \u2014 10.9% placebo-adjusted weight loss in 13 weeks. Pfizer: discontinued danuglipron (April 2025, safety), acquired Metsera ($10B, Nov 2025). Structure Therapeutics: aleniglipron, end-of-Phase-2 FDA meeting early 2026. Roche: multiple Phase II candidates, market entry ~2029. Global GLP-1 market: $45.3B (2024) projected to $122.3B by 2030 (18% CAGR).",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E47",
+    "url": "https://www.pharmacytimes.com/view/eli-lilly-novo-nordisk-strike-mfn-deals-with-trump-administration-to-lower-glp-1-prices",
+    "quote": "Both Novo and Lilly struck TrumpRx deals: Medicare/Medicaid price drops to $245/month, self-pay ~$349-350/month. The $1,000+ weight loss shot era is over.: TrumpRx deals: Medicare/Medicaid prices $245/month for Ozempic, Wegovy, Zepbound, Mounjaro. Medicare co-pay: $50/month. Self-pay: Novo $349/month (from $499, 30% cut), new patients $199 for first 2 months. Lilly Zepbound: $299-449/month via LillyDirect. CMS negotiated semaglutide Maximum Fair Price: $274/30 days (71% discount), effective Jan 1, 2027. Medicare obesity coverage expected by July 2026 for 40M beneficiaries. Both deals include 3-year tariff relief.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E48",
+    "url": "https://www.cnbc.com/2025/02/26/eli-lilly-to-invest-27-billion-in-new-us-manufacturing.html",
+    "quote": "Lilly has committed >$50B in US manufacturing since 2020 vs Novo's ~$18B in 2024 alone. Both investing at historic levels but different strategies.: Lilly: $27B new US investment (Feb 2025), total >$50B since 2020. Key sites: $6.5B Houston TX (API), $6B Alabama (orforglipron), $5B Virginia, $3B Wisconsin (injectable fill-finish), $1.7B Concord NC, $2.5B Germany. Pre-launch orforglipron inventory: $1.5B. Also $3B in China for oral GLP-1. Novo: $18B in 2024 (capex + acquisitions). $11B Catalent acquisition (3 fill-finish sites, 11\u219214 total). $4.1B Clayton NC expansion (2027-2029). $1.2B Odense Denmark (2027). Semaglutide shortage resolved Feb 2025 per FDA.",
+    "date": "2025-02-26",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E49",
+    "url": "https://www.emarketer.com/content/slower-growing-glp-1-drug-sales-force-novo-nordisk-cut-forecast-again",
+    "quote": "Compounding competition is a bigger threat to Novo than Lilly \u2014 compounders sell semaglutide copies and the impact was 'significantly bigger than anticipated' per Novo: Part of Novo's GLP-1 sales decrease attributed to compounders selling copycat semaglutide. Novo management said impact was 'significantly bigger than what we had anticipated.' Tirzepatide is not as widely compounded. Novo faces patent expiry in China, Brazil, Canada. Lilly's tirzepatide patents protected 'into the back half of the 2030s' in major markets.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E50",
+    "url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+    "quote": "The valuation gap is PARTIALLY justified by growth divergence but likely OVERSHOOT: Lilly grows ~25% in 2026, Novo declines 5-13%, but Novo still earns $16B+ on $49B revenue at 10x PE: Bull case for gap: Lilly 2026E revenue $80-83B (+25%), Novo 2026E revenue declining 5-13%. Lilly pipeline (retatrutide, orforglipron) deeper. Lilly won SURMOUNT-5 head-to-head. CagriSema failed non-inferiority. Lilly patents protected to late 2030s vs Novo facing expiry. Bear case (gap too wide): NVO at 10x PE is cheapest in a decade (10-yr avg 26.5x). Still earns $16B annually. ROE 60.7%, ROIC 41.1%. Oral Wegovy first to market with 246K patients. Zenagamtide (amycretin) entering Phase 3. Semaglutide franchise still ~$36B even with cuts. At $36.84/share, market prices in permanent structural decline \u2014 but GLP-1 TAM growing from $45B to $122B by 2030.",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E51",
+    "url": "https://www.fiercepharma.com/pharma/2030-eli-lilly-will-generate-113b-drug-sales-including-62b-mounjaro-zepbound-evaluate",
+    "quote": "Long-term projections: Lilly forecast to reach $113B in drug sales by 2030, Novo at $84B \u2014 Lilly leads but Novo still a massive franchise: Evaluate projects: Lilly prescription drug sales $113B by 2030, Novo $84B by 2030 (still #2 globally). Global GLP-1 market: $52B (2024) \u2192 $187B (2032). Medicare coverage starting July 2026 opens 40M beneficiaries. Both companies benefit from massive TAM expansion even if share shifts to Lilly.",
+    "date": "2025-08",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E52",
+    "url": "https://www.cnbc.com/2026/02/24/novo-nordisk-nvo-stock-lilly-lly-cagrisema-zepbound-buy-sell.html",
+    "quote": "Key risk: NVO stock down 60% in 12 months reflects compounding negative catalysts \u2014 CagriSema failure, compounding competition, guidance cuts, price reductions. Sentiment may have overshot to downside.: NVO 12-month decline: ~60%. At least 7 analysts cut price targets post-REDEFINE 4. But analyst consensus still has price targets $39.61-$63.22, implying 7-71% upside from $36.84. Morningstar fair value DKK 343 (~$49/ADR). NVO now trades below peer average PE (18.1x for pharma). The question is whether this is a value trap (structural decline) or mean-reversion opportunity (10x PE for a $50B revenue company with 33% margins in a $120B+ TAM).",
+    "date": "2026-02-24",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E53",
+    "url": "https://stockanalysis.com/stocks/nvo/statistics/",
+    "quote": "NVO trades at trailing P/E of ~10.4x vs LLY at ~44.7x trailing P/E \u2014 a 4.3x gap in trailing earnings multiples: NVO: $36.84 stock price, trailing P/E 10.08-10.74, forward P/E 11.52. LLY: $910.42 stock price, trailing P/E 44.66-50.02, forward P/E 29.9-34.5. NVO market cap ~$160B (est.), LLY market cap ~$810-870B. NVO 52-week decline: -55.8%. LLY 52-week decline: -6.4%.",
+    "date": "2026-03-20",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E54",
+    "url": "https://www.macrotrends.net/stocks/charts/NVO/novo-nordisk/pe-ratio",
+    "quote": "NVO's P/E has compressed from 49.3x (June 2024) to 10.1x (March 2026) \u2014 a 79.5% multiple compression, far below its 10-year average of 26.5x: NVO P/E history: 10-year average 26.5x, 5-year average 21.37x. Current 10.08x is 62% below historical average. EV/EBITDA: 7.72x. ROE: 60.7%, ROIC: 41.1%. LTM revenue: $48.59B, LTM profit: $16.1B.",
+    "date": "2026-03-20",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E55",
+    "url": "https://www.gurufocus.com/term/forward-pe-ratio/LLY",
+    "quote": "LLY's forward P/E of ~30x is below its own 5-year average of 40.8x and 10-year average of 58.0x, but still 2.6x NVO's forward P/E: LLY forward P/E: 29.9-34.5x. LLY 5-year avg P/E: 68.6x trailing. LLY ROE: 108.3%, ROIC: 42.2%. LLY LTM revenue: $65.18B, LTM profit: $20.64B. LLY has $9.91B cash, $42.58B debt (net debt ~$32.3B).",
+    "date": "2026-02-24",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E56",
+    "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-nvo/novo-nordisk/valuation",
+    "quote": "DCF analysis suggests NVO is significantly undervalued \u2014 trading at $38 vs estimated fair value of $60-97 depending on methodology: Simply Wall St fair price: $59.77-$89.67 (relative valuation). DCF fair value: $96.95 vs current $38.43. Analyst price targets: $39.61-$63.22. NVO considered 'undervalued' relative to peer average P/E of 18.1x and US pharma industry avg of 18x.",
+    "date": "2026-03-20",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E57",
+    "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645862.html",
+    "quote": "CagriSema NDA submitted to FDA in December 2025; FDA decision anticipated late 2026.: CagriSema (cagrilintide + semaglutide combination) was submitted to US FDA for weight management in Dec 2025, based on REDEFINE 1 and REDEFINE 2 pivotal trials. FDA decision expected late 2026. REDEFINE 1: 22.7% mean weight loss at 68 weeks (3,417 participants). REDEFINE 2: 13.7% in T2D patients.",
+    "date": "2025-12-19",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E58",
+    "url": "https://www.globenewswire.com/news-release/2026/02/23/3242381/0/en/Novo-Nordisk-A-S-CagriSema-demonstrated-23-weight-loss-in-an-open-label-head-to-head-REDEFINE-4-trial-in-people-with-obesity-the-primary-endpoint-was-not-achieved.html",
+    "quote": "REDEFINE 4 head-to-head vs tirzepatide FAILED primary endpoint (Feb 23, 2026) \u2014 CagriSema 23.0% vs tirzepatide 25.5% weight loss at 84 weeks.: Open-label Phase 3 REDEFINE 4 trial: CagriSema 2.4mg/2.4mg achieved 23.0% weight loss at 84 weeks vs tirzepatide 15mg at 25.5%. Primary endpoint of non-inferiority/superiority vs tirzepatide was NOT achieved. JPMorgan downgraded NVO from Overweight to Neutral, slashing CagriSema forecasts by 40-63% for 2027-2030.",
+    "date": "2026-02-23",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E59",
+    "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=916501",
+    "quote": "REDEFINE 11 (CagriSema 'full weight-loss potential') readout expected H1 2027 \u2014 outside 6-month window but the FDA decision on current NDA could come in late 2026.: REDEFINE 11 Phase 3 trial exploring CagriSema 2.4/2.4mg 'full weight-loss potential' is expected to report H1 2027. High-dose CagriSema 2.4mg/7.2mg phase 3 trial planned to initiate H2 2026. The late-2026 FDA decision on current CagriSema NDA is a key binary catalyst. If approved, it gives NVO a combination product; if rejected or delayed, it confirms pipeline weakness narrative.",
+    "date": "2025-12-19",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E60",
+    "url": "https://www.fiercepharma.com/pharma/novo-nordisk-lay-9000-workers-new-ceo-aims-save-13b-year-late-2026",
+    "quote": "New CEO Doustdar (appointed Aug 7, 2025) is executing major restructuring: 9,000 layoffs targeting $1.3B annual savings by late 2026, refocusing on diabetes/obesity.: Doustdar announced layoffs of ~9,000 from 78,400 global workforce (~11.5%), including 5,000 in Denmark. $1.3B/year savings target by late 2026. Three priorities: focus on diabetes/obesity, strengthen commercial execution, realign cost base. Wound down early-stage programs in liver disease, oncology, stem cells. JPM26 (Jan 13, 2026): 'curse of a leader' \u2014 acknowledged difficult 2025, ceded US lead to Lilly.",
+    "date": "2026-01-13",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E61",
+    "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/novo-nordisk-inc-717576-03052026",
+    "quote": "FDA warning letter dated March 5, 2026 for 'systemic failures' in adverse event reporting \u2014 third FDA strike for NVO. Involves unreported deaths, strokes, suicides on semaglutide.: Plainsboro NJ facility inspection (Jan-Feb 2025). Violations: (1) rejecting adverse events based on staff's causal assessment, (2) invalidating cases with available patient identifiers (including an unreported death), (3) failure to investigate a semaglutide patient suicide, (4) imposing consent requirements not required by law. FDA expressed 'serious concerns' affecting entire product portfolio. NVO says it won't impact production or guidance. Next step: if response inadequate, FDA can pursue fines, seizures, or injunctions.",
+    "date": "2026-03-05",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E62",
+    "url": "https://www.healthcare-brew.com/stories/2026/03/23/fda-crackdown-unapproved-glp-1s",
+    "quote": "Compounded semaglutide remains a competitive threat despite FDA enforcement \u2014 prescriptions increased after shortage resolution, with ~80% now including supplemental ingredients to evade 'essentially a copy' restriction.: FDA resolved semaglutide shortage Feb 21, 2025. Enforcement deadlines: 503A pharmacies April 22, 2025; 503B facilities May 22, 2025. OFA lawsuit delayed enforcement. Despite crackdown, IQVIA Oct 2025 report showed compounded semaglutide prescriptions INCREASED after shortage ended. ~80% of compounded GLP-1 Rx now include B vitamins to bypass 'essentially a copy' rule. FDA sent 'thousands' of warning letters since Sept 2025.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E63",
+    "url": "https://www.benzinga.com/news/health-care/26/03/51327094/hims-hers-opens-waitlist-for-149-branded-wegovy-and-ozempic-via-novo-nordisk-deal",
+    "quote": "CATALYST: Novo-HIMS deal (March 2026) is a strategic response to compounding \u2014 channels branded product at $149/month through telehealth, potentially recapturing compounding market share.: March 18, 2026: Hims & Hers opened waitlist for $149/month branded Wegovy and Ozempic via Novo Nordisk deal. This directly targets the ~$149-200/month compounded semaglutide market by offering FDA-approved branded product at comparable pricing through DTC telehealth channels.",
+    "date": "2026-03-18",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E64",
+    "url": "https://www.cms.gov/newsroom/press-releases/cms-launches-voluntary-model-expand-access-life-changing-medicines-promote-healthier-living",
+    "quote": "Medicare GLP-1 coverage bridge program launching July 2026, with full Part D pilot (BALANCE Model) in January 2027. Medicare price: $245/month, copay: $50/month.: CMS bridge program runs July-December 2026, no deductible required. BALANCE Model launches in Medicaid May 2026 and Medicare Part D January 2027. Under Trump agreement, Medicare/Medicaid price for Ozempic, Wegovy, Zepbound, Mounjaro = $245/month. Patient copay = $50/month. Eligibility: BMI >=27 with prediabetes/CVD history, or BMI >=30 with HF/uncontrolled HTN/CKD.",
+    "date": "2026-02-01",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E65",
+    "url": "https://polarbearmeds.com/insurance-coverage-changes-for-glp-1-meds-in-2026/",
+    "quote": "Medicare coverage could unlock significant volume: only 9% of adults 65+ use GLP-1s vs 22% of 50-64 year olds. Medicaid GLP-1 Rx grew 7x from 2019-2025.: KFF poll: 9% of adults 65+ using GLP-1s vs 22% of 50-64 year olds. Medicaid prescriptions for GLP-1s increased 7x from 2019 to 2025. Volume upside from Medicare coverage is significant but comes at $245/month vs prior ~$1,000-1,350 list prices.",
+    "date": "2026-01-15",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E66",
+    "url": "https://www.usnews.com/news/health-news/articles/2026-02-25/novo-nordisk-cuts-prices-of-ozempic-and-wegovy-starting-january-2027",
+    "quote": "Novo Nordisk announced January 2027 US list price cut to $675/month for Wegovy, Ozempic, Rybelsus \u2014 halving Wegovy list price and cutting Ozempic by ~35%.: Announced February 24, 2026. Effective January 1, 2027. All three medications priced at $675/month across all doses. Current self-pay price remains $149/month for starting doses. This is separate from the Medicare/TrumpRx price of $245. The list price cut directly impacts high-deductible and coinsurance patients.",
+    "date": "2026-02-25",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E67",
+    "url": "https://www.euronews.com/business/2026/02/04/novo-nordisk-stock-sinks-by-17-after-bleak-2026-forecast",
+    "quote": "2026 guidance: Sales and operating profit both expected to decline 5-13% at CER. Novo framing 2026 as a 'trough year' \u2014 down before it comes back up.: Q4 2025 earnings (Feb 4, 2026): 2026 guidance for sales and operating profit decline of 5-13% CER. 8% and 10% below consensus midpoints (Citi). 2025 semaglutide base ~$33B. Pre-deal 2026 estimate ~$37.5B, post-deal central case ~$36.5B. NVO stock fell 18% on day of guidance, erasing ~$50B market cap. CEO: 'People should expect that it goes down before it comes back up.'",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E68",
+    "url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-wegovy-pill-the-first-and-only-oral-glp-1-for-weight-loss-in-adults-302648344.html",
+    "quote": "Oral Wegovy (semaglutide pill) was FDA-approved on December 22, 2025, making it the first oral GLP-1 for obesity in the US. US launch began early January 2026.: FDA approved once-daily Wegovy pill based on OASIS 4 Phase 3 trial (307 adults, 64 weeks). Oral semaglutide 25mg achieved 16.6% mean weight loss at 64 weeks vs 2.7% for placebo. One-third of adherent participants achieved >=20% weight loss. Weight loss comparable to injectable Wegovy 2.4mg.",
+    "date": "2025-12-22",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E69",
+    "url": "https://www.cnbc.com/2026/02/04/novo-nordisk-stock-ceo-earnings-guidance-ozempic-wegovy.html",
+    "quote": "Oral Wegovy uptake has been exceptionally strong \u2014 170,000+ patients in approximately 4 weeks, more than double prior branded anti-obesity drug launches.: CEO Doustdar at Q4 2025 earnings (Feb 4, 2026): 'Put plainly, there are now more than 170,000 people on the Wegovy pill in about four weeks. This uptake is more than double the previous branded anti-obesity drugs launched in the U.S.'",
+    "date": "2026-02-04",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E70",
+    "url": "https://www.benzinga.com/news/health-care/26/03/51327094/hims-hers-opens-waitlist-for-149-branded-wegovy-and-ozempic-via-novo-nordisk-deal",
+    "quote": "Oral Wegovy starting price set at $149/month for self-pay, far below injectable pricing, which pressures ASP but drives volume.: Starting dose of 1.5mg available at $149/month through pharmacies and telehealth providers. Hims & Hers opened waitlist for $149 branded Wegovy and Ozempic via Novo Nordisk deal (announced March 18, 2026).",
+    "date": "2026-03-18",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E71",
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings",
+    "quote": "CATALYST: Oral Wegovy prescription volume trend will be a key metric at Q1 2026 earnings (May 6, 2026). Strong ramp = potential re-rating catalyst.: 170,000 patients in ~4 weeks is a strong signal, but sustainability and conversion to higher doses is uncertain. Next data point: May 6 earnings. Direction: RE-RATE (if volume exceeds expectations) or DE-RATE (if growth plateaus or cannibalization of injectable is severe).",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E72",
+    "url": "https://www.biopharmadive.com/news/lilly-obesity-pill-orforglipron-fda-decision-dtc-sales/809598/",
+    "quote": "CATALYST (DE-RATE): Eli Lilly orforglipron FDA target action date is April 10, 2026 \u2014 a direct oral GLP-1 competitor to oral Wegovy.: Lilly submitted NDA for orforglipron (oral GLP-1 for obesity) in mid-December 2025. FDA granted a 'national priority' voucher for accelerated review. Original PDUFA date March 28 was pushed to April 10, 2026. CEO David Ricks confirmed Q2 2026 decision. Lilly plans $149 self-pay pricing via LillyDirect, matching Novo's oral Wegovy price.",
+    "date": "2026-01-30",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E73",
+    "url": "https://www.ainvest.com/news/eli-lilly-orforglipron-fda-decision-march-2026-catalyst-market-disruption-investor-alpha-2512/",
+    "quote": "Orforglipron approval would end Novo's oral GLP-1 monopoly within ~4 months of oral Wegovy launch, compressing the first-mover advantage window.: Oral Wegovy launched early Jan 2026. Orforglipron decision April 10, 2026. If approved, Lilly would likely launch within weeks. GlobalData forecasts orforglipron as $13B mega-blockbuster by 2031. HSBC downgraded Lilly to Reduce on March 17, 2026, citing 'overestimated obesity drug market growth' \u2014 suggesting broader market skepticism about oral GLP-1 TAM that could also hurt NVO.",
+    "date": "2026-01-30",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E74",
+    "url": "https://www.lilly.com/news/stories/what-to-know-about-orforglipron",
+    "quote": "Orforglipron has a structural advantage: it is a small molecule (not a peptide), making it cheaper to manufacture and potentially easier to produce generics later.: Unlike semaglutide (a peptide biologic requiring biosimilar pathway, $100-300M and 5-8 years), orforglipron is a small molecule eligible for standard ANDA generic pathway. This could give Lilly a long-term manufacturing cost advantage.",
+    "date": "2026-01-01",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E75",
+    "url": "https://www.iqvia.com/locations/emea/blogs/2025/07/off-patent-semaglutide",
+    "quote": "Semaglutide compound patent ('122) expired March 20, 2026 \u2014 but key US patent ('343) extends to December 5, 2031 due to PTA/PTE. US generics unlikely before 2031-2033.: Two key compound patents: US Patent 8,129,343 (expires Dec 5, 2031 with extensions) and US Patent 8,536,122 (expired March 20, 2026). Novo holds 29 total patents on semaglutide in US, some extending to 2033-2035. 49 granted follow-on patents extend protection to 2042. Semaglutide is a peptide biologic requiring biosimilar pathway ($100-300M, 5-8 years). Earliest realistic US generic: 2032-2033. Viatris won a patent litigation victory July 22, 2025, potentially accelerating biosimilar to before 2032.",
+    "date": "2025-07-01",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E76",
+    "url": "https://www.labiotech.eu/in-depth/novo-nordisk-semaglutide-patent-expiration-canada/",
+    "quote": "International patent expiries already happening: India, Canada, China, Brazil all seeing generic/biosimilar semaglutide in 2026.: Canada: generic launches expected Jan 2026, Sandoz using Canada as launchpad. India: Lupin developing injectable+tablet forms for 2026 launch. Indian generics already pricing 70% below Novo (news March 23, 2026). Brazil: Supreme Court refused patent extension, expiry March 2026. China: patent expiring 2026, multiple domestic companies in late-stage trials. These markets = ~40% of world population, ~33% of adults with obesity. Canadian prices could drop 50-80%.",
+    "date": "2026-01-15",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E77",
+    "url": "https://www.benzinga.com/news/health-care/26/03/51404013/india-generic-wave-hits-ozempic-wegovy-prices-drop",
+    "quote": "CATALYST (DE-RATE within 6 months): India generic wave is live NOW (March 2026). Prices already 70% below Novo. Canada generics imminent. These won't kill US revenue but will compress International Operations growth.: Benzinga (March 23, 2026): 'India's drugmakers roll out low-cost copies for Novo Nordisk's semaglutide, slashing prices up to 70%.' International Operations was DKK 112B in 2024 under Doustdar's leadership. Patent-related LOE in these markets directly impacts the International segment that was NVO's growth engine.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E78",
+    "url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-new-wegovy-hd-injection-delivering-the-highest-weight-loss-to-date-for-a-wegovy-injection-adding-to-its-already-expansive-clinical-profile-302718982.html",
+    "quote": "Wegovy HD (semaglutide 7.2mg) FDA-approved March 19, 2026 under accelerated Commissioner's National Priority Voucher (54 days from filing). Launching April 2026.: STEP UP trial: 20.7% mean weight loss at 72 weeks in 1,407 adults without diabetes (vs ~18% for 2.4mg, ~2% placebo). One-third of patients lost >=25%. T2D cohort (STEP UP T2D): 14.1% weight loss, 21.3% achieving >=20%. Eligible for patients who tolerated 2.4mg for >=4 weeks. Side effects: nausea/vomiting; dysesthesia in 22% (vs 6% for 2.4mg). Available April 2026 through 70,000+ pharmacies. Already approved in EU/UK.",
+    "date": "2026-03-19",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E79",
+    "url": "https://www.globenewswire.com/news-release/2026/03/19/3259259/0/en/Novo-Nordisk-A-S-Wegovy-HD-semaglutide-7-2-mg-approved-in-the-US-providing-20-7-mean-weight-loss.html",
+    "quote": "CATALYST: Wegovy HD (20.7% weight loss) narrows the gap with Zepbound/tirzepatide, potentially recapturing patients who switched to Lilly for superior efficacy.: Wegovy 2.4mg: ~18% weight loss. Wegovy HD 7.2mg: 20.7%. Zepbound (tirzepatide 15mg): ~22.5% in SURMOUNT-1. The gap has narrowed from ~4.5pp to ~1.8pp. CagriSema at 23% (REDEFINE-4) was not non-inferior to tirzepatide 25.5%, but Wegovy HD at 20.7% as a single-agent injectable is competitive enough for patients wanting to stay within semaglutide ecosystem.",
+    "date": "2026-03-19",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E80",
+    "url": "https://www.nasdaq.com/market-activity/stocks/nvo/earnings",
+    "quote": "Q1 2026 earnings on May 6, 2026 (confirmed, before market open). Analyst EPS estimates: $0.86-$0.93.: Q4 2025 reported Feb 4, 2026: EPS $1.00 vs $0.89 consensus (beat by 12.36%). Stock fell 6.18% post-earnings despite the beat, due to guidance. Q1 2026 will be the first quarter to capture full impact of oral Wegovy launch and pricing changes. November 4, 2026: next major report (Q1-Q3 2026 results).",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E81",
+    "url": "https://novoholdings.dk/news/novo-holdings-announces-2025-annual-results",
+    "quote": "Novo Nordisk Foundation (via Novo Holdings) controls 77% of voting rights \u2014 this is the dominant shareholder. Novo Holdings' AUM fell from DKK 1,060B to DKK 694B ($93B) in 2025, primarily due to Novo Nordisk's stock decline.: Novo Holdings controls ~77% of voting rights via the Novo Nordisk Foundation. Total AUM dropped from DKK 1,060B (\u20ac142B) to DKK 694B (\u20ac93B) in 2025 \u2014 a DKK 366B decline driven by NVO share price collapse. The Foundation's net worth is ~$220B as of Feb 2026.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E82",
+    "url": "https://amwatch.com/AMNews/Pension/article18398985.ece",
+    "quote": "Danish pension funds lost nearly DKK 10 billion on Novo Nordisk in 2025. AkademikerPension noted it had been overweight Novo for years and 'had to give back some of this gain.' No evidence of major institutional accumulation during the decline.: AMWatch/FinansWatch reported Danish pension companies collectively lost ~DKK 10B on Novo Nordisk's decline. AkademikerPension stated: 'But in 2025 we had to give back some of this gain.' The selloff was described as institutional rotation OUT of healthcare into tech and cyclicals \u2014 the opposite of accumulation.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E83",
+    "url": "https://www.tradingview.com/news/reuters.com,2025:newsml_L6N3WM0F6:0-norway-s-sovereign-wealth-fund-to-abstain-from-novo-nordisk-board-vote/",
+    "quote": "Norway's sovereign wealth fund (NBIM) abstained from Novo Nordisk board vote amid governance turmoil \u2014 Novo Foundation tried to install ex-CEO Lars Rebien Sorensen as chair, causing 7 independent directors to step down. This governance crisis added to selling pressure.: Current chair Helge Lund and 6 other independent directors stepped down after clashing with the Novo Nordisk Foundation over pace of change. NBIM abstained from voting. Foundation planned to install Lars Rebien Sorensen (CEO 2000-2016) as chair. Boardroom clash described as adding to 'turmoil' with shares down 51% since start of 2025.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E84",
+    "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-2-27-the-valuation-reset-a-deep-dive-into-novo-nordisk-nvo-in-2026",
+    "quote": "NVO's valuation has compressed to 14x forward earnings vs healthcare sector average of 18.4x. P/E declined from 26.9x (FY2024) to 14.3x (FY2025). Revenue grew 10% to DKK 309B (~$45.9B) in 2025 but decelerated from 30% growth in 2023. 2026 guidance forecasts 5-13% sales AND profit decline \u2014 first since 2017.: Forward P/E: ~14x vs healthcare sector avg 18.4x. Trailing P/E compressed from 26.92x (FY2024) to 14.26x (FY2025). Revenue: DKK 309B (~$45.9B), +10% YoY. 2023 revenue growth was ~30%. 2026 guidance: sales and operating profit decline of 5-13%, the company's first projected annual decline since 2017. Zacks Rank #5 (Strong Sell).",
+    "date": "2026-02-27",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E85",
+    "url": "WebSearch result - multiple sources",
+    "quote": "Hims & Hers partnership announcement (offering FDA-approved Ozempic and Wegovy) caused HIMS shares to surge 46%, suggesting the GLP-1 channel is expanding which could be positive for NVO volumes long-term.: Hims & Hers shares surged 46% after partnering with Novo Nordisk to offer FDA-approved Ozempic and Wegovy through its platform. This expands the distribution channel for NVO's drugs beyond traditional pharmacy.",
+    "date": "2026-03",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E86",
+    "url": "https://www.macroaxis.com/stock-options/NVO/Novo-Nordisk-AS",
+    "quote": "Options market shows bullish bias despite the crash: put-to-call volume ratio was 0.16 (heavily skewed to calls), and put-to-call open interest ratio was 0.67. This suggests options traders are betting on a rebound rather than further decline.: Put volume: 679, Call volume: 4,400. Put/call volume ratio: 0.16. Put/call OI ratio: 0.67 (across 51 outstanding contracts for Apr 17 expiry, data from Macroaxis). 30-day implied volatility (calls): 0.5189 as of Jan 30, 2026. IV percentile: 15.67% (Low) as of Jan 8, 2026.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E87",
+    "url": "https://www.marketbeat.com/stocks/NYSE/NVO/short-interest/",
+    "quote": "Short interest is low and declining: only 0.84% of shares short (27M shares), down from 31.7M previously. Days-to-cover ratio is 1.87. This is NOT a crowded short \u2014 there is no short squeeze setup.: Short interest decreased from 31.69M to 26.97M shares. 0.84% of outstanding shares sold short. 0.79% of float sold short. Days-to-cover: 1.87x average daily volume. For context, a typical short squeeze candidate would have >15% of float short and days-to-cover >5.",
+    "date": "2026-03",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E88",
+    "url": "https://stockanalysis.com/stocks/nvo/forecast/",
+    "quote": "Barchart's technical rating is 100% Sell with strong continuation signal, while analyst consensus is Hold with average price target of $42-$51 (14-38% upside from current). Wide dispersion in targets ($31-$160) reflects extreme uncertainty.: Analyst targets by source: StockAnalysis: $51 avg (4 analysts, Hold), TipRanks: $42.80 avg ($40-47 range, 7 analysts, Hold), Investing.com: $47.25 avg ($39.85-63.60, 11 analysts), Public.com: Buy consensus (6 analysts). Guggenheim recently downgraded to Neutral. Benzinga shows widest range: $31-$160 (14 analysts).",
+    "date": "2026-03",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E89",
+    "url": "Alpaca Markets API daily bars",
+    "quote": "NVO is trading massively below both key moving averages: 50-day SMA at $47.90 (price 23.1% below) and 200-day SMA at $54.73 (price 32.7% below), confirming a strong downtrend: Computed from 251 daily bars (2025-03-24 to 2026-03-23). Latest close: $36.84. 50-day SMA: $47.90. 200-day SMA: $54.73. Death cross has been in effect since at least 50 days ago (2026-01-09: 50SMA=$49.49 vs 200SMA=$59.34).",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E90",
+    "url": "Alpaca Markets API daily bars",
+    "quote": "52-week range is $35.85 to $81.41 \u2014 current price is only 2.7% above the 52-week low ($35.85 on 2026-03-03), and 54.8% below the 52-week high: 52-week high: $81.41 (2025-06-13). 52-week low: $35.85 (2026-03-03). Current: $36.84 (2026-03-23). Note: the all-time ADR high was ~$147 in mid-2024, making this a 75% drawdown from peak.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E91",
+    "url": "Alpaca Markets API daily bars",
+    "quote": "RSI(14) is at 32.1, approaching oversold territory (below 30) but not yet there, suggesting the selling is persistent but not at full capitulation: RSI(14) computed via Wilder's smoothing method from 251 daily closes: 32.1. Neutral RSI is 50; below 30 is considered oversold. The stock has been grinding lower rather than flash-crashing in recent days.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E92",
+    "url": "Alpaca Markets API daily bars",
+    "quote": "Key support level at ~$36, which is the 52-week low area ($35.85 on Mar 3). Stock bounced from $35.85 and is currently testing this zone again at $36.84. A break below would be a new low with no nearby support.: Bounce points computed from daily bars: 2026-03-03 low $35.85, 2026-03-13 low $37.74. Current price $36.84 is only $1 above the 52-week low. Recent hourly bars show the stock briefly dipped to $36.18 on 2026-03-20 before recovering to $36.84.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E93",
+    "url": "Alpaca Markets API daily bars",
+    "quote": "First resistance at ~$39 (recent rejection), then $43-44 (Feb bounce), then $48-50 (major consolidation zone where stock spent 35 days). The gap between current price and first meaningful resistance at $48 is massive (30%+ upside needed).: Rejection points: 2026-03-09 high $39.88, 2026-03-17 high $39.26. Feb bounce low at $43.24 (2026-02-05). Price level frequency shows $48-50 zone had 45 combined days of trading, making it the strongest resistance cluster.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E94",
+    "url": "Alpaca Markets API daily bars",
+    "quote": "The stock has formed a staircase of lower highs and lower lows since mid-2024, with each bounce failing at a lower level. Recent bounces: $64 (Jan 23) -> $51 (Feb 9) -> $39 (Mar 9/17). This is textbook bearish structure.: Sequential rejection points: 2026-01-23 high $64.16, 2026-02-09 high $51.08, 2026-02-17 high $49.84, 2026-03-09 high $39.88, 2026-03-17 high $39.26. Each rally fails at a lower level. Sequential bounce lows: 2025-12-09 low $46.09, 2026-02-05 low $43.24, 2026-03-03 low $35.85.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E95",
+    "url": "Alpaca Markets API daily bars",
+    "quote": "Three distinct capitulation-level selling events occurred: (1) Jul 29-30 2025 (-21.8% then -7.2%), (2) Feb 3-5 2026 (-14.6%, -6.1%, -8.3% over 3 days), and (3) Feb 23-24 2026 (-16.4%, -2.6%). Each on 3-5x average volume.: High-volume selloff days (vol > 2x avg AND drop > 2%): 2025-07-29: -21.8% vol 1.94M (2.9x), 2025-07-30: -7.2% vol 1.57M (2.3x), 2025-11-06: -4.0% vol 1.78M (2.6x), 2025-11-24: -5.6% vol 2.38M (3.5x), 2026-02-03: -14.6% vol 2.38M (3.5x), 2026-02-04: -6.1% vol 1.88M (2.8x), 2026-02-05: -8.3% vol 2.47M (3.7x), 2026-02-23: -16.4% vol 3.37M (5.0x avg!), 2026-02-24: -2.6% vol 2.23M (3.3x). Average daily volume across full period: 673K.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E96",
+    "url": "Alpaca Markets API daily bars",
+    "quote": "Recent volume is 51% above average (1.02M vs 673K avg), indicating sustained selling pressure, not exhaustion. True capitulation typically ends with a massive volume spike followed by declining volume \u2014 this pattern has not yet completed.: Average daily volume (full 251-day period): 673,281. Average daily volume (last 20 days): 1,018,800. Volume ratio: +51.3%. The Feb 23 event at 5.0x avg volume ($3.37M shares) was the single highest-volume selloff but was followed by continued selling at elevated volume, suggesting forced/institutional liquidation rather than panic retail selling.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E97",
+    "url": "https://www.bitget.com/academy/novo-nordisk-stock-news-price-ozempic-trial-failure-2025",
+    "quote": "The Feb 2026 crash was likely triggered by CagriSema Phase 3 (REDEFINE-4) trial disappointment: drug achieved only 23% weight loss vs Zepbound's 25.5%, missing primary endpoint. This was followed by Ozempic failing Alzheimer's trials.: CagriSema was positioned as Novo's key weapon to recapture market share from Eli Lilly's Zepbound. Phase 3 REDEFINE-4 results: CagriSema achieved 23% weight loss over 84 weeks vs Zepbound's 25.5%, missing the study's primary endpoint. Separately, oral Ozempic failed to slow cognitive decline in Alzheimer's patients in two large-scale trials. JPMorgan downgraded from Overweight to Neutral, cutting PT from 350 to 250 DKK. Deutsche Bank cut from Buy to Hold, PT 400->275 DKK.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "context"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is Novo Nordisk's technical/options/quant setup?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Key support level at ~$36, which is the 52-week low area ($35.85 on Mar 3). Stock bounced from $35.85 and is currently testing this zone again at $36.84. A break below would be a new low with no nearby support.",
+      "data": "Bounce points computed from daily bars: 2026-03-03 low $35.85, 2026-03-13 low $37.74. Current price $36.84 is only $1 above the 52-week low. Recent hourly bars show the stock briefly dipped to $36.18 on 2026-03-20 before recovering to $36.84.",
+      "source_url": "Alpaca Markets API daily bars",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "First resistance at ~$39 (recent rejection), then $43-44 (Feb bounce), then $48-50 (major consolidation zone where stock spent 35 days). The gap between current price and first meaningful resistance at $48 is massive (30%+ upside needed).",
+      "data": "Rejection points: 2026-03-09 high $39.88, 2026-03-17 high $39.26. Feb bounce low at $43.24 (2026-02-05). Price level frequency shows $48-50 zone had 45 combined days of trading, making it the strongest resistance cluster.",
+      "source_url": "Alpaca Markets API daily bars",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "The stock has formed a staircase of lower highs and lower lows since mid-2024, with each bounce failing at a lower level. Recent bounces: $64 (Jan 23) -> $51 (Feb 9) -> $39 (Mar 9/17). This is textbook bearish structure.",
+      "data": "Sequential rejection points: 2026-01-23 high $64.16, 2026-02-09 high $51.08, 2026-02-17 high $49.84, 2026-03-09 high $39.88, 2026-03-17 high $39.26. Each rally fails at a lower level. Sequential bounce lows: 2025-12-09 low $46.09, 2026-02-05 low $43.24, 2026-03-03 low $35.85.",
+      "source_url": "Alpaca Markets API daily bars",
+      "source_date": "2026-03-23",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

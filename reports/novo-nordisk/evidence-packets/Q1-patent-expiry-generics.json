@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is Novo Nordisk's revenue decline (-7.6% YoY) temporary or structural?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Semaglutide patents expired in India (March 20, 2026), with generics launched at 70-80% discounts by 5+ manufacturers",
+      "data": "India patent expired March 20, 2026. At least 5 domestic drugmakers launched generics undercutting Novo's price by up to 80%. 50+ generic brands expected in coming months. Indian market represents only a small fraction of Novo's revenue, but the precedent matters. Manufacturers: Zydus, Lupin, Dr. Reddy's among them.",
+      "source_url": "https://www.fiercepharma.com/pharma/novos-semaglutide-losing-patent-protection-indian-drugmakers-set-launch-their-generics",
+      "source_date": "2026-03-20",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Semaglutide patents also expiring in 2026 in Canada, Brazil, China, and Turkey — collectively 40% of world population",
+      "data": "Patent expiry timeline: India (March 2026), Brazil (March 2026), Canada (2026-2027, after Novo failed to pay maintenance fees), China (2026-2028, with 15+ Chinese companies developing generics, 11 in final-stage trials), Turkey (2027). These markets collectively represent 40% of global population and ~33% of adults with obesity. However, they are lower-revenue markets compared to US/EU.",
+      "source_url": "https://www.iqvia.com/locations/emea/blogs/2025/07/off-patent-semaglutide",
+      "source_date": "2025-07",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "US semaglutide compound patent protected until December 2031, with method-of-use patents to 2033 — no US generics before 2032",
+      "data": "Main US compound patent expires December 2031 (extended from March 2026 via PTA and PTE of 5+ years). Method-of-use patents extend to 2033. No generic semaglutide expected in US until 2032-2033 at earliest. EU/Japan protection also extends to 2031-2032. Novo projected to earn ~$166B from Ozempic/Wegovy during this extended protection window.",
+      "source_url": "https://www.markmanadvisors.com/blog/2025/2/7/what-is-the-patent-landscape-for-novo-nordisks-semaglutide-products-ozempic-wegovy-and-rybelsus",
+      "source_date": "2025-02",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lilly's tirzepatide patent protection extends into 'the back half of the 2030s' — giving Lilly a longer competitive moat",
+      "data": "Tirzepatide (Mounjaro/Zepbound) patents extend into the late 2030s in major markets — approximately 5-7 years longer than semaglutide. This gives Lilly a structural advantage: by the time semaglutide faces US generics (2032+), tirzepatide will still be patent-protected.",
+      "source_url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+      "source_date": "2026-02-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

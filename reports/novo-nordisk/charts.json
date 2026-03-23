@@ -1,0 +1,110 @@
+[
+  {
+    "id": "nvo-price-12m",
+    "type": "line",
+    "title": "NVO ADR Price",
+    "subtitle": "12-Month Decline from $81 to $37 (Alpaca Markets API)",
+    "yLabel": "USD",
+    "series": [
+      {
+        "name": "NVO Stock Price",
+        "color": "#dc2626",
+        "points": [
+          {"x": "Apr 2025", "y": 75.2},
+          {"x": "May 2025", "y": 72.8},
+          {"x": "Jun 2025", "y": 81.4},
+          {"x": "Jul 2025", "y": 62.1},
+          {"x": "Aug 2025", "y": 58.3},
+          {"x": "Sep 2025", "y": 55.7},
+          {"x": "Oct 2025", "y": 53.2},
+          {"x": "Nov 2025", "y": 49.8},
+          {"x": "Dec 2025", "y": 48.5},
+          {"x": "Jan 2026", "y": 55.1},
+          {"x": "Feb 2026", "y": 39.9},
+          {"x": "Mar 2026", "y": 36.8}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nvo-vs-lly-balance-sheet",
+    "type": "bar",
+    "title": "NVO vs LLY Balance Sheet Comparison",
+    "subtitle": "Q4 2025 (Yahoo Finance API, USD billions)",
+    "yLabel": "USD Billions",
+    "data": [
+      {"label": "NVO Cash", "value": 3.7, "color": "#2563eb"},
+      {"label": "LLY Cash", "value": 7.3, "color": "#7c3aed"},
+      {"label": "NVO Debt", "value": 17.9, "color": "#dc2626"},
+      {"label": "LLY Debt", "value": 42.5, "color": "#f97316"},
+      {"label": "NVO Equity", "value": 26.6, "color": "#059669"},
+      {"label": "LLY Equity", "value": 26.5, "color": "#10b981"}
+    ]
+  },
+  {
+    "id": "nvo-quarterly-revenue",
+    "type": "line",
+    "title": "NVO Quarterly Revenue",
+    "subtitle": "8 Quarters, DKK Billions (Novo Annual Report 2025)",
+    "yLabel": "DKK Billions",
+    "series": [
+      {
+        "name": "Revenue (DKK B)",
+        "color": "#2563eb",
+        "points": [
+          {"x": "Q1 2024", "y": 65.5},
+          {"x": "Q2 2024", "y": 66.8},
+          {"x": "Q3 2024", "y": 71.3},
+          {"x": "Q4 2024", "y": 86.8},
+          {"x": "Q1 2025", "y": 78.1},
+          {"x": "Q2 2025", "y": 76.8},
+          {"x": "Q3 2025", "y": 75.0},
+          {"x": "Q4 2025", "y": 79.1}
+        ]
+      },
+      {
+        "name": "CER Growth (%)",
+        "color": "#dc2626",
+        "points": [
+          {"x": "Q1 2024", "y": 36},
+          {"x": "Q2 2024", "y": 25},
+          {"x": "Q3 2024", "y": 21},
+          {"x": "Q4 2024", "y": 18},
+          {"x": "Q1 2025", "y": 18},
+          {"x": "Q2 2025", "y": 14},
+          {"x": "Q3 2025", "y": 5},
+          {"x": "Q4 2025", "y": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nvo-quarterly-capex",
+    "type": "bar",
+    "title": "NVO Quarterly Capex",
+    "subtitle": "Q4 2025 Spike: DKK 43.8B vs Q1-Q3 Average of DKK 15.4B (Yahoo Finance API)",
+    "yLabel": "DKK Billions",
+    "data": [
+      {"label": "Q1 2025", "value": 14.6, "color": "#2563eb"},
+      {"label": "Q2 2025", "value": 16.3, "color": "#2563eb"},
+      {"label": "Q3 2025", "value": 15.4, "color": "#2563eb"},
+      {"label": "Q4 2025", "value": 43.8, "color": "#dc2626"}
+    ]
+  },
+  {
+    "id": "glp1-market-share",
+    "type": "bar",
+    "title": "GLP-1 Market Share by Brand",
+    "subtitle": "US Prescription Share, Late 2025 (CNBC, PharmaVoice)",
+    "yLabel": "Share (%)",
+    "data": [
+      {"label": "Ozempic (NVO)", "value": 31.5, "color": "#2563eb"},
+      {"label": "Mounjaro (LLY)", "value": 23.4, "color": "#7c3aed"},
+      {"label": "Wegovy (NVO)", "value": 16.5, "color": "#60a5fa"},
+      {"label": "Zepbound (LLY)", "value": 11.6, "color": "#a78bfa"},
+      {"label": "Trulicity (LLY)", "value": 8.4, "color": "#c4b5fd"},
+      {"label": "Rybelsus (NVO)", "value": 6.0, "color": "#93c5fd"},
+      {"label": "Other", "value": 2.6, "color": "#d1d5db"}
+    ]
+  }
+]

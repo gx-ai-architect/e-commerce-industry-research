@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "What specific events could re-rate or further de-rate NVO in the next 6 months?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "CagriSema NDA submitted to FDA in December 2025; FDA decision anticipated late 2026.",
+      "data": "CagriSema (cagrilintide + semaglutide combination) was submitted to US FDA for weight management in Dec 2025, based on REDEFINE 1 and REDEFINE 2 pivotal trials. FDA decision expected late 2026. REDEFINE 1: 22.7% mean weight loss at 68 weeks (3,417 participants). REDEFINE 2: 13.7% in T2D patients.",
+      "source_url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645862.html",
+      "source_date": "2025-12-19",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "REDEFINE 4 head-to-head vs tirzepatide FAILED primary endpoint (Feb 23, 2026) — CagriSema 23.0% vs tirzepatide 25.5% weight loss at 84 weeks.",
+      "data": "Open-label Phase 3 REDEFINE 4 trial: CagriSema 2.4mg/2.4mg achieved 23.0% weight loss at 84 weeks vs tirzepatide 15mg at 25.5%. Primary endpoint of non-inferiority/superiority vs tirzepatide was NOT achieved. JPMorgan downgraded NVO from Overweight to Neutral, slashing CagriSema forecasts by 40-63% for 2027-2030.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/02/23/3242381/0/en/Novo-Nordisk-A-S-CagriSema-demonstrated-23-weight-loss-in-an-open-label-head-to-head-REDEFINE-4-trial-in-people-with-obesity-the-primary-endpoint-was-not-achieved.html",
+      "source_date": "2026-02-23",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "REDEFINE 11 (CagriSema 'full weight-loss potential') readout expected H1 2027 — outside 6-month window but the FDA decision on current NDA could come in late 2026.",
+      "data": "REDEFINE 11 Phase 3 trial exploring CagriSema 2.4/2.4mg 'full weight-loss potential' is expected to report H1 2027. High-dose CagriSema 2.4mg/7.2mg phase 3 trial planned to initiate H2 2026. The late-2026 FDA decision on current CagriSema NDA is a key binary catalyst. If approved, it gives NVO a combination product; if rejected or delayed, it confirms pipeline weakness narrative.",
+      "source_url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=916501",
+      "source_date": "2025-12-19",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

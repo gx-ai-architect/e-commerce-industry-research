@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is Novo Nordisk's technical/options/quant setup?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Novo Nordisk Foundation (via Novo Holdings) controls 77% of voting rights — this is the dominant shareholder. Novo Holdings' AUM fell from DKK 1,060B to DKK 694B ($93B) in 2025, primarily due to Novo Nordisk's stock decline.",
+      "data": "Novo Holdings controls ~77% of voting rights via the Novo Nordisk Foundation. Total AUM dropped from DKK 1,060B (€142B) to DKK 694B (€93B) in 2025 — a DKK 366B decline driven by NVO share price collapse. The Foundation's net worth is ~$220B as of Feb 2026.",
+      "source_url": "https://novoholdings.dk/news/novo-holdings-announces-2025-annual-results",
+      "source_date": "2026-02",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Danish pension funds lost nearly DKK 10 billion on Novo Nordisk in 2025. AkademikerPension noted it had been overweight Novo for years and 'had to give back some of this gain.' No evidence of major institutional accumulation during the decline.",
+      "data": "AMWatch/FinansWatch reported Danish pension companies collectively lost ~DKK 10B on Novo Nordisk's decline. AkademikerPension stated: 'But in 2025 we had to give back some of this gain.' The selloff was described as institutional rotation OUT of healthcare into tech and cyclicals — the opposite of accumulation.",
+      "source_url": "https://amwatch.com/AMNews/Pension/article18398985.ece",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Norway's sovereign wealth fund (NBIM) abstained from Novo Nordisk board vote amid governance turmoil — Novo Foundation tried to install ex-CEO Lars Rebien Sorensen as chair, causing 7 independent directors to step down. This governance crisis added to selling pressure.",
+      "data": "Current chair Helge Lund and 6 other independent directors stepped down after clashing with the Novo Nordisk Foundation over pace of change. NBIM abstained from voting. Foundation planned to install Lars Rebien Sorensen (CEO 2000-2016) as chair. Boardroom clash described as adding to 'turmoil' with shares down 51% since start of 2025.",
+      "source_url": "https://www.tradingview.com/news/reuters.com,2025:newsml_L6N3WM0F6:0-norway-s-sovereign-wealth-fund-to-abstain-from-novo-nordisk-board-vote/",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "NVO's valuation has compressed to 14x forward earnings vs healthcare sector average of 18.4x. P/E declined from 26.9x (FY2024) to 14.3x (FY2025). Revenue grew 10% to DKK 309B (~$45.9B) in 2025 but decelerated from 30% growth in 2023. 2026 guidance forecasts 5-13% sales AND profit decline — first since 2017.",
+      "data": "Forward P/E: ~14x vs healthcare sector avg 18.4x. Trailing P/E compressed from 26.92x (FY2024) to 14.26x (FY2025). Revenue: DKK 309B (~$45.9B), +10% YoY. 2023 revenue growth was ~30%. 2026 guidance: sales and operating profit decline of 5-13%, the company's first projected annual decline since 2017. Zacks Rank #5 (Strong Sell).",
+      "source_url": "https://markets.financialcontent.com/stocks/article/finterra-2026-2-27-the-valuation-reset-a-deep-dive-into-novo-nordisk-nvo-in-2026",
+      "source_date": "2026-02-27",
+      "source_tier": "tertiary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Hims & Hers partnership announcement (offering FDA-approved Ozempic and Wegovy) caused HIMS shares to surge 46%, suggesting the GLP-1 channel is expanding which could be positive for NVO volumes long-term.",
+      "data": "Hims & Hers shares surged 46% after partnering with Novo Nordisk to offer FDA-approved Ozempic and Wegovy through its platform. This expands the distribution channel for NVO's drugs beyond traditional pharmacy.",
+      "source_url": "WebSearch result - multiple sources",
+      "source_date": "2026-03",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

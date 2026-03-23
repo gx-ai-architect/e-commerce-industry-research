@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "How does Novo stack up vs Eli Lilly in the GLP-1 race, and is the 3x valuation gap justified?",
+  "company": "NVO vs LLY",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "The valuation gap is PARTIALLY justified by growth divergence but likely OVERSHOOT: Lilly grows ~25% in 2026, Novo declines 5-13%, but Novo still earns $16B+ on $49B revenue at 10x PE",
+      "data": "Bull case for gap: Lilly 2026E revenue $80-83B (+25%), Novo 2026E revenue declining 5-13%. Lilly pipeline (retatrutide, orforglipron) deeper. Lilly won SURMOUNT-5 head-to-head. CagriSema failed non-inferiority. Lilly patents protected to late 2030s vs Novo facing expiry. Bear case (gap too wide): NVO at 10x PE is cheapest in a decade (10-yr avg 26.5x). Still earns $16B annually. ROE 60.7%, ROIC 41.1%. Oral Wegovy first to market with 246K patients. Zenagamtide (amycretin) entering Phase 3. Semaglutide franchise still ~$36B even with cuts. At $36.84/share, market prices in permanent structural decline — but GLP-1 TAM growing from $45B to $122B by 2030.",
+      "source_url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+      "source_date": "2026-02-04",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Long-term projections: Lilly forecast to reach $113B in drug sales by 2030, Novo at $84B — Lilly leads but Novo still a massive franchise",
+      "data": "Evaluate projects: Lilly prescription drug sales $113B by 2030, Novo $84B by 2030 (still #2 globally). Global GLP-1 market: $52B (2024) → $187B (2032). Medicare coverage starting July 2026 opens 40M beneficiaries. Both companies benefit from massive TAM expansion even if share shifts to Lilly.",
+      "source_url": "https://www.fiercepharma.com/pharma/2030-eli-lilly-will-generate-113b-drug-sales-including-62b-mounjaro-zepbound-evaluate",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Key risk: NVO stock down 60% in 12 months reflects compounding negative catalysts — CagriSema failure, compounding competition, guidance cuts, price reductions. Sentiment may have overshot to downside.",
+      "data": "NVO 12-month decline: ~60%. At least 7 analysts cut price targets post-REDEFINE 4. But analyst consensus still has price targets $39.61-$63.22, implying 7-71% upside from $36.84. Morningstar fair value DKK 343 (~$49/ADR). NVO now trades below peer average PE (18.1x for pharma). The question is whether this is a value trap (structural decline) or mean-reversion opportunity (10x PE for a $50B revenue company with 33% margins in a $120B+ TAM).",
+      "source_url": "https://www.cnbc.com/2026/02/24/novo-nordisk-nvo-stock-lilly-lly-cagrisema-zepbound-buy-sell.html",
+      "source_date": "2026-02-24",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

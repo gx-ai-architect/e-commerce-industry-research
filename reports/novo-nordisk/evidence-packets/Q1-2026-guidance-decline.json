@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is Novo Nordisk's revenue decline (-7.6% YoY) temporary or structural?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "NVO guided FY2026 sales decline of -5% to -13% at CER, far worse than consensus expectations",
+      "data": "2026 guidance issued Feb 4, 2026: Sales and operating profit both expected to decline -5% to -13% at constant exchange rates. Analysts had expected roughly flat to low-single-digit growth. This triggered a ~15-18% single-day stock drop. Key management assumptions: lower US realized prices, MFN pricing impact, mix shift toward cash-pay/lower-priced channels, loss of exclusivity in international markets, and ~DKK 4.2B reversal of US 340B rebate provisions (one-off 2025 benefit not recurring).",
+      "source_url": "https://www.pharmaceutical-technology.com/news/novo-nordisk-shares-tumble-18-after-2026-sales-dip-warning/",
+      "source_date": "2026-02-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Management attributed the sales decline to price, not volume — US volumes still growing but offset by lower realized prices",
+      "data": "US Wegovy sales grew 16% in FY2025 driven by volume, but offset by lower realized prices. Weekly Ozempic prescriptions ~610,000. US injectable Wegovy prescriptions ~270,000/week in Q3 2025 (down from 280,000 in Q2). Self-pay is ~30% of total injectable Wegovy Rx. Cash-pay pricing dropped from $499 to $349/month. The decline is primarily a PRICE story, not a volume collapse.",
+      "source_url": "https://www.drugdiscoverytrends.com/novo-slashes-us-glp-1-prices-by-up-to-70-but-2026-semaglutide-revenue-could-hold-steady-or-even-grow/",
+      "source_date": "2026-02-05",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "DKK 4.2B 340B rebate reversal inflated 2025 results, creating a tough comp for 2026",
+      "data": "Novo highlighted a DKK 4.2 billion (~$600M USD) reversal of US 340B rebate provisions as a one-off benefit that boosted 2025 results. This will not recur in 2026, meaning the underlying growth gap is somewhat smaller than headline guidance suggests. Adjusting for this, the 'true' decline is more like -3% to -11%.",
+      "source_url": "https://www.fiercepharma.com/pharma/novo-shares-plummet-sales-profit-warning-26",
+      "source_date": "2026-02-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "NVO also warned of DKK 8 billion restructuring costs in 2025 that compressed margins",
+      "data": "Operating profit FY2025 decreased 1% in DKK, increased 6% at CER to DKK 127,658M. Approximately DKK 8 billion in one-off restructuring costs impacted 2025. Excluding restructuring, operating profit growth would have been +6% DKK / +13% CER. Q4 2025 operating profit was DKK 31.7B, down 14% YoY.",
+      "source_url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+      "source_date": "2026-02-04",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    }
+  ]
+}

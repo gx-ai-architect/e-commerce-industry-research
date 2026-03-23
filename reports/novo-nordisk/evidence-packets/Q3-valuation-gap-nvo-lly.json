@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "How does Novo stack up vs Eli Lilly in the GLP-1 race, and is the 3x valuation gap justified?",
+  "company": "NVO vs LLY",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "NVO trades at trailing P/E of ~10.4x vs LLY at ~44.7x trailing P/E — a 4.3x gap in trailing earnings multiples",
+      "data": "NVO: $36.84 stock price, trailing P/E 10.08-10.74, forward P/E 11.52. LLY: $910.42 stock price, trailing P/E 44.66-50.02, forward P/E 29.9-34.5. NVO market cap ~$160B (est.), LLY market cap ~$810-870B. NVO 52-week decline: -55.8%. LLY 52-week decline: -6.4%.",
+      "source_url": "https://stockanalysis.com/stocks/nvo/statistics/",
+      "source_date": "2026-03-20",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "NVO's P/E has compressed from 49.3x (June 2024) to 10.1x (March 2026) — a 79.5% multiple compression, far below its 10-year average of 26.5x",
+      "data": "NVO P/E history: 10-year average 26.5x, 5-year average 21.37x. Current 10.08x is 62% below historical average. EV/EBITDA: 7.72x. ROE: 60.7%, ROIC: 41.1%. LTM revenue: $48.59B, LTM profit: $16.1B.",
+      "source_url": "https://www.macrotrends.net/stocks/charts/NVO/novo-nordisk/pe-ratio",
+      "source_date": "2026-03-20",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "LLY's forward P/E of ~30x is below its own 5-year average of 40.8x and 10-year average of 58.0x, but still 2.6x NVO's forward P/E",
+      "data": "LLY forward P/E: 29.9-34.5x. LLY 5-year avg P/E: 68.6x trailing. LLY ROE: 108.3%, ROIC: 42.2%. LLY LTM revenue: $65.18B, LTM profit: $20.64B. LLY has $9.91B cash, $42.58B debt (net debt ~$32.3B).",
+      "source_url": "https://www.gurufocus.com/term/forward-pe-ratio/LLY",
+      "source_date": "2026-02-24",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "DCF analysis suggests NVO is significantly undervalued — trading at $38 vs estimated fair value of $60-97 depending on methodology",
+      "data": "Simply Wall St fair price: $59.77-$89.67 (relative valuation). DCF fair value: $96.95 vs current $38.43. Analyst price targets: $39.61-$63.22. NVO considered 'undervalued' relative to peer average P/E of 18.1x and US pharma industry avg of 18x.",
+      "source_url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nyse-nvo/novo-nordisk/valuation",
+      "source_date": "2026-03-20",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

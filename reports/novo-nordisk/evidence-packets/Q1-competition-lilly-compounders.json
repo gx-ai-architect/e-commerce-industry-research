@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is Novo Nordisk's revenue decline (-7.6% YoY) temporary or structural?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Eli Lilly now commands 58% of US GLP-1 prescriptions vs Novo's 42% — a complete reversal from 2024 when Novo had 69%",
+      "data": "Market share shift: Novo held 69% global GLP-1 share in Q2 2024. By Q1 2025, Lilly overtook with 53%. By Q2 2025, Lilly had ~57%. As of late 2025, Lilly held 58% of US GLP-1 Rx vs Novo's 42%. Novo's global GLP-1 share dropped from 55.7% to 49.3% between Aug 2024 and Aug 2025. Key driver: tirzepatide (Mounjaro/Zepbound) achieves ~20% weight loss vs semaglutide's ~14% in trials.",
+      "source_url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+      "source_date": "2026-02-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lilly guided +27% revenue growth in 2026 ($80-83B) while Novo guided -5% to -13% — a 30-40 point divergence",
+      "data": "Lilly 2026 guidance: Revenue $80-83B, +27% growth. Mounjaro projected $22.8B, Zepbound projected $18.1B in 2026. Lilly's Q4 2025: Revenue +43% to $19.3B; Mounjaro +110% to $7.4B; Zepbound +123% to $4.3B. FY2025 combined Mounjaro+Zepbound: $36.5B (~56% of total Lilly revenue). Novo 2026: -5% to -13% CER. This is the widest growth divergence between the two companies.",
+      "source_url": "https://247wallst.com/investing/2026/02/04/eli-lilly-is-dominating-the-glp-1-wars-as-novo-nordisk-sales-tank/",
+      "source_date": "2026-02-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Compounded semaglutide shipments dropped 90% after FDA removed semaglutide from shortage list in Feb 2025",
+      "data": "FDA removed semaglutide from drug shortage list Feb 21, 2025. Enforcement deadlines: 503A pharmacies (April 22, 2025), 503B outsourcing facilities (May 22, 2025). Shipments of compounded semaglutide dropped 90% from June 2024 to June 2025 per FDA data. However, 503A pharmacies still compound under patient-specific prescriptions. The Outsourcing Facilities Association (OFA) is suing the FDA. Chinese API suppliers pivoted to generic manufacturing for patent-expiry markets.",
+      "source_url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize",
+      "source_date": "2025-02",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Lilly plans to launch orforglipron (oral GLP-1 for obesity) in US in Q2 2026 — a direct competitor to oral Wegovy",
+      "data": "Eli Lilly expects to launch orforglipron, an oral non-peptide GLP-1, for obesity in the US in Q2 2026. This would directly compete with Novo's oral Wegovy. Unlike semaglutide, orforglipron is a small molecule (not a peptide), meaning it could be cheaper to manufacture and potentially more convenient.",
+      "source_url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+      "source_date": "2026-02-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

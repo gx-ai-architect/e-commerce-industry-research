@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is Novo Nordisk's revenue decline (-7.6% YoY) temporary or structural?",
+  "company": "Novo Nordisk",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Novo struck a Most Favored Nation pricing deal with the Trump administration, cutting Ozempic/Wegovy prices to $350/month via TrumpRx (from ~$1,000-1,350 list)",
+      "data": "Under the MFN deal: Ozempic and Wegovy available at $350/month through TrumpRx.gov (launched Feb 5, 2026). Medicare price: $245/month, with copays capped at $50. Starting Jan 1, 2027, list prices for Wegovy, Ozempic, and Rybelsus will be $675 across the board — a 50% cut for Wegovy (from $1,349) and 34% cut for Ozempic/Rybelsus (from $1,027). Both Novo and Lilly received 3 years of tariff relief in exchange.",
+      "source_url": "https://www.ajmc.com/view/trump-announces-deals-with-eli-lilly-novo-nordisk-for-lower-weight-loss-drug-prices",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Cash-pay pricing already dropped 30%: from $499 to $349/month, with first 2 months for new patients at $199",
+      "data": "Novo reduced its direct-to-consumer pricing to $349/month for Ozempic and Wegovy (from $499), with $199 intro pricing for new patients' first two months at low doses. This predates the MFN deal and reflects competitive pressure from compounders and Eli Lilly.",
+      "source_url": "https://www.drugdiscoverytrends.com/novo-slashes-us-glp-1-prices-by-up-to-70-but-2026-semaglutide-revenue-could-hold-steady-or-even-grow/",
+      "source_date": "2026-02",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Hims & Hers announced partnership with Novo to distribute branded Wegovy and Ozempic at $149/month",
+      "data": "On March 18, 2026, Hims & Hers opened a waitlist for branded Wegovy and Ozempic at $149/month via a direct deal with Novo Nordisk. This DTC channel bypasses PBMs entirely and represents potentially the lowest-ever price for branded semaglutide.",
+      "source_url": "https://www.benzinga.com/news/health-care/26/03/51327094/hims-hers-opens-waitlist-for-149-branded-wegovy-and-ozempic-via-novo-nordisk-deal",
+      "source_date": "2026-03-18",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Management said MFN pricing impact on global sales growth is 'low single digit' negative — suggesting volume could offset most price cuts",
+      "data": "Novo told investors the combined effect of U.S. price negotiations and new discount programs should have only a 'low single digit' negative impact on global sales growth in 2026. This implies management believes expanded access will drive volume growth to substantially offset lower prices.",
+      "source_url": "https://www.drugdiscoverytrends.com/novo-slashes-us-glp-1-prices-by-up-to-70-but-2026-semaglutide-revenue-could-hold-steady-or-even-grow/",
+      "source_date": "2026-02",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}
