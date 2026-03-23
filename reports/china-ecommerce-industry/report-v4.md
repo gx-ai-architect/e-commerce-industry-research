@@ -223,15 +223,21 @@ The two structural risks — SAMR pricing rules (Apr 10) and EU de minimis (Jul 
 
 ## Investment Thesis: The Numbers Behind the Position
 
-### "Create Another PDD in Three Years"
+### Temu Phase 3: Building a New Pinduoduo Abroad
 
-On December 19, 2025, PDD announced a strategic pivot under co-CEOs Zhao Jiazhen and Chen Lei: shift from growth-driven expansion to supply-chain-driven development. The explicit goal — "create another PDD in three years" — is not marketing language. It is a structural bet that China's manufacturing base, connected through PDD's C2M infrastructure and Temu's 90-country distribution, can generate a second business of comparable scale to domestic Pinduoduo.
+Temu's evolution has three distinct phases, each with different economics and strategic intent:
 
-The foundation is already built. Revenue tripled from ~RMB 130B pre-Temu to RMB 418B TTM. Net cash quintupled from ~RMB 90B (Dec 2022) to RMB 484B (Sep 2025) — PDD funded the entire Temu launch from operating cash flow, while *accumulating* cash. 23% operating margins and 30.5% ROE survived the most aggressive international expansion in e-commerce history, while BABA and JD saw margins collapse from far less ambitious food delivery bets. [E14][E29][E4][E8][E38]
+**Phase 1 (Sep 2022 - May 2024): C2M + fully managed.** Temu handled pricing, marketing, and logistics. Factories shipped to Guangdong warehouses. The model eliminated cross-border operational burden — manufacturers just produced. Low prices enabled aggressive user acquisition across 90+ countries, reaching 530M MAU.
 
-Now PDD is pivoting from "spend to acquire users" to "leverage the supply chain." The full-management model (PDD handles logistics, warehousing, operations; merchants focus on production) and semi-managed model (34% of transactions) are both supply-chain plays — using consumer data to guide precision manufacturing (C2M) at scale. Merchants like Sijiao Group (tissue) and Gongniu Shijia (footwear, RMB 600M in 2025 online sales) are already replicating domestic success across Southeast Asia through Temu's infrastructure. [E25]
+**Phase 2 (May 2024 - 2025): Local warehousing + semi-managed.** Shift to local forward warehouses. Semi-managed model (now 34% of transactions) gave merchants operational control while reducing Temu's logistics cost and tariff exposure. Faster delivery, broader assortment. This phase was about operational maturity and survival through the US tariff shock. [E24][E25]
 
-The market prices this at 4.4x EV/FCF. It prices the three-year bet as if it has zero probability of working. The company's track record — tripling revenue while quintupling cash in the last three years — suggests otherwise.
+**Phase 3 (2026-2029): "Create another PDD in three years."** Announced December 19, 2025. This is not a growth play — it is a supply-chain play. PDD's bet: China is the only country with all UN industrial classification categories, enabling entire product lifecycles to be completed domestically. The platform relays consumer trends from 90 countries back to Chinese industrial clusters within 48 hours. Factories can sample and launch new products within 7 days. This C2M loop — global demand → algorithmic insight → precision manufacturing → direct-to-consumer — is what PDD is scaling for the next three years. [E14][E29]
+
+The foundation: revenue tripled from ~RMB 130B pre-Temu to RMB 418B TTM. Net cash quintupled from ~RMB 90B (Dec 2022) to RMB 484B (Sep 2025) — PDD funded the entire Temu launch from operating cash flow while *accumulating* cash. 23% operating margins survived the most aggressive international expansion in e-commerce history. [E4][E8][E38]
+
+**Why the supply chain is the moat.** Traffic, technology, logistics, and brands can all be replicated. Supply chain relationships with China's industrial clusters — built over a decade by Pinduoduo, connecting millions of factories to algorithmic demand signals — cannot. Amazon doesn't have this. Shein has it for apparel but not across all categories. This is PDD's structural advantage, and Phase 3 is the attempt to make it global and permanent.
+
+The market prices this at 4.4x EV/FCF. It prices the three-year bet as if it has zero probability of working.
 
 ### What You Pay vs What You Get
 
