@@ -202,8 +202,13 @@ def load_packets(packets_dir):
     return packets
 
 
-def convert_packets(packets, start_id=1):
-    """Convert evidence packets to evidence.json entries."""
+def convert_packets(packets, start_id=1, auto_prefix=False):
+    """Convert evidence packets to evidence.json entries.
+
+    If auto_prefix=True, IDs are assigned as AUTO-1, AUTO-2, etc. to signal
+    they are temporary and must be reassigned by the report writer when
+    creating the final evidence.json with [E1], [E2] citations.
+    """
     entries = []
 
     for packet in packets:
@@ -213,8 +218,9 @@ def convert_packets(packets, start_id=1):
             entries.extend(convert_simple_packet(packet))
 
     # Assign IDs
+    prefix = "AUTO-" if auto_prefix else "E"
     for i, entry in enumerate(entries):
-        entry["id"] = f"E{start_id + i}"
+        entry["id"] = f"{prefix}{start_id + i}"
 
     return entries
 
@@ -310,6 +316,11 @@ def main():
         action="store_true",
         help="Group output entries by question_id (for industry-mode reports)"
     )
+    parser.add_argument(
+        "--auto-prefix",
+        action="store_true",
+        help="Use AUTO-1, AUTO-2 IDs instead of E1, E2 (signals IDs are temporary)"
+    )
 
     args = parser.parse_args()
 
@@ -317,7 +328,7 @@ def main():
     if not packets:
         print("Warning: no evidence packets found", file=sys.stderr)
 
-    entries = convert_packets(packets, start_id=args.start_id)
+    entries = convert_packets(packets, start_id=args.start_id, auto_prefix=args.auto_prefix)
 
     if args.merge_with:
         entries = merge_with_existing(entries, args.merge_with)

@@ -137,13 +137,20 @@ This is the most critical phase. You are NOT checking packet count or schema com
    - [PKT file] Company: PDD | Claim: Z | Source tier: secondary | Direction: contradicts
    ```
 
-3. **Evaluate on three dimensions:**
+3. **Evaluate on four dimensions:**
 
-   a. **Source quality:** What fraction is primary vs tertiary? If >50% is tertiary (media articles), the evidence is weak regardless of quantity.
+   a. **Source quality:** What fraction is primary vs tertiary? If >50% is tertiary (media articles), the evidence is weak regardless of quantity. Send agent back: "Find the original filing/announcement, not the media article about it."
 
    b. **Answer completeness:** Does the evidence actually ANSWER the question, or just touch the topic? "Douyin merchant profit rate dropped from 32% to 18%" touches the topic. A comparison table of merchant profitability across all 5 platforms with trend data ANSWERS the question.
 
    c. **Evidence breadth:** Do we have BOTH top-down (platform data) AND bottom-up (merchant/consumer data)? If we only have one side, the picture is incomplete.
+
+   d. **Freshness — be ruthless:** For EVERY data point, check the date. Apply these rules like an investment bank supervisor:
+      - If the most recent quarter's data is available and the agent gave you last year's, REJECT. Example: "JD reported Q3 2025 results in November — why are you giving me Q1 2025 data?"
+      - If two data points cover the same metric, keep only the fresher one unless the older one shows a trend.
+      - Market share, revenue, user counts: must be from the most recent reported quarter. 6-month-old data is stale for a near-term investment question.
+      - Regulatory actions: must include the latest development, not just the initial announcement.
+      - When rejecting, be SPECIFIC: "This market share data is from Q1 2025. Meituan reported Q3 2025 in November. Go find the Q3 numbers."
 
 4. **Render verdict for each question:**
 
@@ -204,8 +211,11 @@ Final verdicts. Any question not ANSWERED after 3 rounds is marked:
    ```bash
    python3 {repo_root}/scripts/bridge/packets_to_evidence.py \
      --packets-dir {outdir} \
+     --auto-prefix \
+     --group-by-question \
      --output {repo_root}/reports/{topic}/evidence-auto.json
    ```
+   IDs are AUTO-1, AUTO-2, etc. The report writer reassigns to E1, E2 in Phase 5.3.
 
 3. **Produce coverage matrix:**
    ```
@@ -309,8 +319,10 @@ After all 8 agents complete (or hit their send-back limit):
    ```bash
    python3 {repo_root}/scripts/bridge/packets_to_evidence.py \
      --packets-dir {outdir} \
+     --auto-prefix \
      --output {repo_root}/reports/{company}/evidence-auto.json
    ```
+   IDs are AUTO-1, AUTO-2, etc. The report writer reassigns to E1, E2 in Phase 5.3.
 
 2. **Produce a coverage matrix:**
    ```
@@ -356,9 +368,19 @@ UNIVERSAL RULES — READ BEFORE STARTING:
 
 ## Leader-Specific Rules
 
+- **You are the supervisor, not the researcher.** Your job is to conceive questions and grill the analysts on their evidence. You NEVER do the research yourself. If you find yourself running WebSearch to answer a question, STOP — that's the agent's job.
 - **Quality over speed.** An agent that returns "I couldn't find X" has failed. Send it back with a different angle.
 - **Read the packets.** Don't trust agent self-reports. Read the actual JSON files they wrote.
 - **In industry mode, evaluate ANSWERS not OUTPUTS.** "Did the evidence answer my question?" not "Did the agent submit enough packets?"
 - **Kill questions early.** If Phase 2 reveals a question is unanswerable (data doesn't exist), kill it in Round 2 and redirect agent effort to a more productive question.
-- **Validate freshness.** Reject packets where data is only from 2024 with no 2025/2026 data.
+- **Grill like an investment bank supervisor.** When you read a data point, ask:
+  1. "Is this the most recent available?" — If Q4 2025 earnings are out and the agent gave you Q2, reject.
+  2. "Is this primary source?" — If it's a media article paraphrasing a filing, send back for the filing.
+  3. "Does this have a specific date?" — Undated claims are worthless for near-term analysis.
+  4. "Is this the right granularity?" — Annual data is useless when quarterly is available.
+  5. "Can I cross-check this?" — A single analyst estimate needs a second source or the underlying data.
 - **Demand primary sources.** When agents come back with media articles, send them back: "Find the original filing/announcement that this article references."
+- **Freshness rejection examples:**
+  - "You gave me Meituan's market share from a January 2025 report. Their Q3 2025 results are public. Go get the actual numbers from the earnings release."
+  - "This PDD revenue figure is from Q1 2025. Q3 2025 results were released in November. I need the latest quarter."
+  - "This analyst estimate is from 6 months ago. Consensus has likely shifted. Find the current Bloomberg/FactSet consensus or at least 2 recent analyst notes."

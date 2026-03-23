@@ -19,6 +19,19 @@ Read a research report and its evidence file. For every citation [E_], verify th
 
 Read the evidence JSON file. Build a lookup map: E1 → {url, quote, date, provenance}.
 
+### Step 1.5: Detect ID Misalignment (CRITICAL)
+
+Before scanning citations, verify that the evidence IDs are not misaligned. This is the most common and most damaging evidence chain failure.
+
+**Test:** Pick 5 citations spread across the report (e.g., E5, E15, E30, E45, E55). For each:
+1. Read the sentence containing [E_] — what topic is it about?
+2. Read the evidence entry with that ID — what does the quote say?
+3. Do they match topically?
+
+If **3 or more** of the 5 test citations are topically mismatched (e.g., [E49] in the report is about SAMR regulations but E49 in evidence.json is about JD's EV/Revenue), the evidence file has **systemic ID misalignment**. This means the auto-generated IDs were never reassigned to match the report's citation numbering.
+
+**If misalignment detected:** STOP the audit. Report the misalignment and instruct the report writer to rebuild evidence.json with IDs that match their citations. Do NOT proceed with citation-level verdicts — every verdict would be wrong.
+
 ### Step 2: Scan Every Citation
 
 For each [E_] reference in the report:
@@ -29,6 +42,7 @@ For each [E_] reference in the report:
    - **SUPPORTED**: Evidence directly states or implies the claim. No changes needed.
    - **OVERCLAIMED**: Evidence exists but the report claim goes beyond it. The claim must be tightened, qualified, or sourced more precisely.
    - **UNSUPPORTED**: The evidence entry doesn't relate to this claim at all. Citation is wrong.
+   - **MISALIGNED**: The evidence entry is about a completely different topic — likely systemic ID misalignment (see Step 1.5).
    - **MISSING_URL**: Evidence entry has no URL or a placeholder URL. Cannot be verified.
    - **MISSING_ENTRY**: The [E_] number doesn't exist in the evidence file.
 
