@@ -362,8 +362,78 @@ If any check fails, revise the relevant section before finalizing.
 
 ---
 
+## Industry Mode: Question-Driven Reports
+
+When writing an industry report (not a single-company report), the meta-miner produces question-driven evidence instead of domain-organized evidence. The deep-research skill adapts accordingly.
+
+### Detecting Industry Mode
+
+Check for `reports/$TOPIC/research-board.md`. If it exists, you are in industry mode.
+
+### How Industry Mode Differs
+
+1. **Read the Research Board first.** The research board (`research-board.md`) contains:
+   - The research questions that were investigated
+   - Verdicts: ANSWERED, PARTIALLY ANSWERED, or UNANSWERABLE
+   - Evidence inventory per question
+   - Handoff notes from the Leader
+
+2. **Organize report around answered questions, not data domains.** The report structure should follow the questions that survived evidence testing. Each major section corresponds to an answered question, not a data category.
+
+3. **Evidence is tagged with `question_id`.** Use `--group-by-question` when running the bridge:
+   ```bash
+   python3 scripts/bridge/packets_to_evidence.py \
+     --packets-dir reports/$TOPIC/evidence-packets/ \
+     --group-by-question \
+     --output reports/$TOPIC/evidence-auto.json
+   ```
+
+4. **Write with appropriate confidence:**
+   - **ANSWERED questions:** Write confidently. Evidence is sufficient and primarily primary-sourced.
+   - **PARTIALLY ANSWERED questions:** Write with explicit caveats. State what you know, what you don't, and why.
+   - **UNANSWERABLE questions:** Mention as open questions or gaps. Do NOT fabricate answers.
+
+5. **Mosaic analysis (Phase 4.5) looks for connections BETWEEN questions.** The most valuable mosaic insights come from connecting the answer to Q1 with the answer to Q3 — revealing a pattern that no single question's evidence shows alone.
+
+6. **Evidence audit priority:** Focus fact-checking on claims from PARTIALLY ANSWERED questions, where overclaiming risk is highest.
+
+### Industry Report Structure
+
+```markdown
+# [Topic]: [Thesis Title]
+
+*Published [date] | Deep Research Report*
+
+## Executive Thesis
+[1-2 paragraphs: the bold, specific claim about the industry. Based on the questions that were answered.]
+
+## [Section per ANSWERED question]
+[Each major section corresponds to an answered research question. Evidence-dense, cross-company comparison, takes a clear position.]
+
+## The Mosaic: What Connects These Findings
+[2-3 insights that emerge from connecting answers across questions. This is where the report's unique value lives.]
+
+## Predictions
+[3-5 falsifiable predictions derived from the evidence.]
+
+## What We Couldn't Answer
+[Honest accounting of UNANSWERABLE and PARTIALLY ANSWERED questions. What data doesn't exist, what we couldn't access, what remains uncertain.]
+
+## Key Risks
+[Bull/base/bear scenarios.]
+
+## Freshness Report Card
+[Source tally by year and by source_tier (primary/secondary/tertiary).]
+
+## Sources
+[All evidence entries with URLs, grouped by question_id.]
+```
+
+---
+
 ## Output Files
 
+### Company Mode
 After running all 5 phases, the following files should exist:
 
 ```
@@ -375,4 +445,17 @@ reports/pdd-holdings/
 │   └── phase4-competitive.md     (BABA, JD, Shein, AMZN, Douyin)
 ├── report.md                     (the final research report)
 └── evidence.json                 (structured citations)
+```
+
+### Industry Mode
+```
+reports/$TOPIC/
+├── evidence-packets/             (raw JSON from thesis agents)
+├── research-board.md             (questions, verdicts, handoff notes)
+├── evidence-auto.json            (bridged, grouped by question_id)
+├── sources/
+│   └── mosaic-analysis.md        (cross-question insights)
+├── report-v{N}.md                (the report)
+├── evidence-v{N}.json            (final citations)
+└── charts-v{N}.json              (chart data)
 ```

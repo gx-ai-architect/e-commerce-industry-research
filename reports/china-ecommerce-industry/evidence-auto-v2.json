@@ -1,0 +1,572 @@
+[
+  {
+    "id": "E1",
+    "url": "https://www.businesswire.com/news/home/20260318501558/en/Alibaba-Group-Announces-December-Quarter-2025-Results",
+    "quote": "Alibaba Taobao/Tmall Customer Management Revenue (CMR) quarterly trend shows take rate inflection from software service fee, but impact phasing out by Dec 2025: Q4 FY2025 (Mar 2025): CMR grew 12% YoY. Q1 FY2026 (Jun 2025): CMR returned to 10% growth. Q2 FY2026 (Sep 2025): CMR grew 10% YoY to RMB78,927M, driven by Quanzhantui penetration and software service fee. Q3 FY2026 (Dec 2025): CMR grew only 1% YoY to RMB102,664M due to weaker transactions and phaseout of software service fee impact. Full FY2025 revenue: ~996.4 billion yuan (+6% YoY). CMR growth expected at 9%/7%/6% in FY26F/27F/28F per DBS.",
+    "date": "2026-03",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E2",
+    "url": "https://www.businesswire.com/news/home/20251124757764/en/Alibaba-Group-Announces-September-Quarter-2025-Results",
+    "quote": "Alibaba Q2 FY2026 China E-commerce adjusted EBITA decreased 76% due to quick commerce investment: Taobao and Tmall Group adjusted EBITA increased by 1% to RMB196,232M in FY2025. But in Q2 FY2026, China E-commerce adjusted EBITA decreased by 76%, primarily due to investment in quick commerce, user experiences, and technology. Alibaba generating ~40.4% of revenue via domestic e-commerce (subscriptions, commissions, transaction-based fees, value-added services, advertising).",
+    "date": "2025-11",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E3",
+    "url": "https://www.businesswire.com/news/home/20260318501558/en/Alibaba-Group-Announces-December-Quarter-2025-Results",
+    "quote": "Taobao app achieved double-digit YoY increase in monthly active consumers; 88VIP members surpassed 59 million: The Taobao app achieved a double-digit year-over-year increase in monthly active consumers. 88VIP members surpassed 59 million. These engagement metrics support the narrative of stabilization after years of concern about structural decline.",
+    "date": "2026-03",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E4",
+    "url": "https://www.shanghaijungle.com/blog/monthly-costs-china-ecommerce-store",
+    "quote": "Taobao/Tmall merchant total operating costs: 20-40%+ of revenue, with traffic/advertising being 10-30%+ of revenue (>50% of total operating costs): Taobao/Tmall cost breakdown: Store/tool fees <1%. Platform service fees 5-7% (0.6% base software fee + 2-5% Tmall commission + points fees). Traffic promotion 10-30%+ of revenue (over 50% of total operating costs). After-sales/logistics ~5%. Total: ~20-40%+ of revenue. Commission-to-traffic income ratio: approximately 1:2.4. One fashion brand founder reported return rates rose from 30-40% to 70-80% since 2021 while traffic costs increased tenfold.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E5",
+    "url": "https://www.ciw.news/p/operating-costs-china-e-commerce-giants",
+    "quote": "Pinduoduo merchant costs can be as low as 5-7% for price-competitive merchants vs 12-27% on other platforms: Pinduoduo's traffic distribution based on single-product low pricing -- merchants who offer lower prices get more traffic. SME merchants can redirect ~15% of marketing expenses into lower prices for algorithmic recommendations. With price advantage: combined commission + after-sales + traffic costs of 5-7%. Without: 12-27%. This is significantly lower than Taobao/Tmall's 20-40%.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E6",
+    "url": "https://www.tmogroup.asia/insights/chinese-online-marketplace-fees/",
+    "quote": "JD.com overall take rate ~2.4% on GMV in 2023; 3P commission rates typically 2-8%, some POP merchants reduced to 0.6%: JD 2023 GMV: US$485 billion. Take rate: 2.4% (low due to hybrid 1P/3P model -- 1P generates high revenue at thin margins). Standard 3P commission: 2-8% depending on category (can range 1-30%). POP merchants selected for low-price strategy program had commission reduced to 0.6%. 1P vs 3P split (2024): 1P 27%, 3P 73% of total GMV. JD.com also charges $15,000 refundable deposit and $1,000 annual platform fee for JD Worldwide sellers.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E7",
+    "url": "https://finance.sina.com.cn/xwzmt/2024-12-20/doc-ineaavuv5917717.shtml",
+    "quote": "A lamp factory owner's example: promotion fees nearly consuming 70% of profits, needing 400-500 RMB daily (up from 100 RMB): A lamp factory owner reported spending 100 RMB/day on promotion previously, now needs 400-500 RMB daily. Over a recent 30-day period, promotion fees reached 11,400 RMB -- nearly consuming 70% of her profits. Multiple merchants report traffic promotion fees at 50%+ of cost structure, some reaching 70%.",
+    "date": "2024-12",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E8",
+    "url": "https://indiadispatch.com/p/meesho-pinduoduo-shopee-value-commerce",
+    "quote": "Chinese e-commerce platform all-in merchant costs (commissions + advertising) are approximately 4-5% of GMV on Alibaba and Pinduoduo, and up to ~10% on Douyin: Reconstructions of Chinese platforms' accounts suggest commissions plus advertising amount to roughly 4-5% of GMV for Alibaba and Pinduoduo, close to 10% for short-video marketplaces like Douyin. Sponsored listings account for 1-3% of GMV for Indian marketplaces, 4-5% for Alibaba and Pinduoduo, close to 10% for short-video platforms.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E9",
+    "url": "https://finance.yahoo.com/news/alibaba-shares-jump-plans-boost-061012116.html",
+    "quote": "Alibaba introduced 0.6% software service fee on all Taobao and Tmall transactions starting September 1, 2024, replacing fixed annual fees for Tmall merchants: Alibaba began charging a basic software service fee of 0.6% on confirmed transactions for vendors on both Tmall and Taobao platforms starting September 1, 2024. Previously, Alibaba charged a fixed annual fee (30,000-60,000 yuan) to Tmall merchants, which was waived. Taobao C2C stores were previously exempt from transaction-based fees. Small merchants earning less than 120,000 yuan annually receive full refunds of the service fee.",
+    "date": "2024-09",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E10",
+    "url": "https://eu.36kr.com/en/p/3293770268395525",
+    "quote": "Alibaba's Quanzhantui (full-site promotion) penetration rate near 30% in 2025, expected to reach 45-50% in FY2026: The penetration rate of full-site promotion (Quanzhantui) is now close to 30%, and it is expected to reach 45%-50% in fiscal year 2026. The software service fee will continue to drive up the take rate.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E11",
+    "url": "https://www.scmp.com/tech/big-tech/article/3276622/pinduoduo-returns-some-service-fees-sellers-after-parent-pdd-pledges-us14-bln-waiver",
+    "quote": "PDD Holdings charges merchants a technical service fee of approximately 0.6-1% of GMV since 2020, with a 10 billion yuan fee waiver pledge for 'high-quality' merchants: PDD started charging merchants a technical service fee of about 0.6%-1% of GMV since 2020. PDD chairman Chen Lei said it would waive 10 billion yuan in transaction fees for 'high-quality' merchants over the next year, willing to accept short-term profitability declines. After policy changes, Pinduoduo began returning some service fees to merchants in promotional campaigns.",
+    "date": "2024-08",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E12",
+    "url": "https://www.shanghaijungle.com/blog/monthly-costs-china-ecommerce-store",
+    "quote": "Traffic promotion costs account for over 50% of a typical Tmall merchant's total operating costs: Traffic promotion costs account for over 50% of a typical merchant's total operating costs on Tmall. Platform service fees consume another 5-7%. After-sales and logistics add 5%. This means roughly 60-70% of operating budget goes to costs beyond platform fees and product costs.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E13",
+    "url": "https://www.tmogroup.asia/insights/chinese-online-marketplace-fees/",
+    "quote": "Tmall commission rates range from 0.5-10% depending on category, typically 2-5%: Some categories of merchants on Tmall need to pay a software service fee according to a certain percentage of their sales. This fee is typically either charged at 2% and 5%. However, this can vary between 0.5% to 10% for some edge cases. JD.com charges 2-5% commission for the majority of categories.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E14",
+    "url": "https://chineseseoshifu.com/blog/douyin-e-commerce-invests-55-billion-in-merchant-subsidies",
+    "quote": "Douyin invested 5.5 billion yuan in merchant subsidies in Q1 2025 alone, with total merchant cost savings of 32 billion yuan for full year 2025: Following over 3 billion yuan in cost reductions for merchants in Jan-Feb, Douyin increased support in March, reducing commissions and costs by over 2 billion yuan in that single month. Total cost savings for Q1 2025: 5.5 billion yuan. By end of August 2025, Douyin subsidized merchants by more than 19 billion yuan. For full year 2025, cumulative merchant cost savings exceeded 32 billion yuan.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E15",
+    "url": "https://www.chinadaily.com.cn/a/202505/26/WS6833adb1a310a04af22c1692.html",
+    "quote": "SAMR drafted 28-article guidelines to regulate e-commerce platform fees, requiring transparency and banning unfair practices: SAMR released 'Compliance Guide for Online Trading Platform Fees' covering commissions, membership fees, technical service charges, information fees, and marketing expenses. Key provisions: platforms must publish commission fees prominently; solicit public opinion for 7 days before pricing changes; keep historical pricing records for 3 years; ban on duplicate charging, passing costs to merchants, unreasonable security deposits. Comment period ended June 3, 2025.",
+    "date": "2025-05",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E16",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "PDD Holdings quarterly revenue breakdown showing transaction services now exceeding online marketing services (Q1 2024 through Q3 2025): Q1 2024: Total RMB86.8B (OMS: 42.5B, TS: 44.4B). Q2 2024: Total RMB97.1B (OMS: 49.1B, TS: 47.9B). Q3 2024: Total RMB99.4B (OMS: 49.4B, TS: 50.0B). Q4 2024: Total RMB110.6B (OMS: 57.0B, TS: 53.6B). Q1 2025: Total RMB95.7B (OMS: 48.7B, TS: 47.0B, +10% YoY). Q2 2025: Total RMB104.0B (OMS: 55.7B, TS: 48.3B, +7% YoY). Q3 2025: Total RMB108.3B (OMS: 53.3B, TS: 54.9B, +9% YoY). Revenue growth decelerated from +131% YoY in Q1 2024 to +7-10% in 2025.",
+    "date": "2025-11",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E17",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-first-quarter-2025-unaudited-financial/",
+    "quote": "PDD Q1 2025 operating profit fell 38% YoY to RMB16.1B due to merchant support investments: Q1 2025 operating profit was RMB16,085.6 million, a decrease of 38% compared to Q1 2024. Management stated company was 'prepared to make short-term sacrifices and accept declines in profitability' for merchant ecosystem. Cash position as of Sep 30, 2025: RMB423.8 billion.",
+    "date": "2025-05",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E18",
+    "url": "https://technode.com/2025/12/01/chinas-food-delivery-price-war-sees-meituan-alibaba-jd-com-incur-14b-in-costs-across-two-quarters/",
+    "quote": "Combined food delivery subsidy spending by Meituan, Alibaba, and JD exceeded RMB100 billion ($14B) across Q2-Q3 2025: In Q2 2025 alone, the three companies' combined sales and marketing expenses totaled 102.7 billion yuan (Alibaba: 53.2B, JD: 27B, Meituan: 22.5B). Combined profits fell by nearly RMB80 billion ($11.27B) compared with the previous year across Q2-Q3 2025.",
+    "date": "2025-12",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E19",
+    "url": "https://www.caixinglobal.com/2026-02-14/meituan-warns-of-loss-as-high-as-35-billion-amid-subsidy-war-102414811.html",
+    "quote": "Meituan expects full-year 2025 net loss of 23.3-24.3 billion yuan ($3.5B), reversing from 35.8 billion yuan profit in 2024: Meituan projects net loss between 23.3B and 24.3B yuan for 2025, versus 35.8B yuan profit in 2024. Core Local Commerce segment swung from 52.4B yuan profit in 2024 to 6.8B yuan loss in 2025. Q3 2025 operating loss was 19.8B yuan ($2.7B), the largest since listing. Sales and marketing expenses surged 90.9% YoY to 34.3B yuan in Q3 2025 (35.9% of revenue vs 19.2% prior year).",
+    "date": "2026-02",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E20",
+    "url": "https://www.cnbc.com/2025/07/11/china-instant-commerce-price-war-billions-subsidies-jd-alibaba-meituan-ele-me.html",
+    "quote": "JD.com food delivery may have generated 10+ billion yuan loss in Q2 2025 alone per Nomura analysis: JD founder Richard Liu photographed delivering food in Beijing publicity stunt. JD announced 10 billion yuan first round of subsidies. Nomura estimated JD's food delivery push generated a loss of more than 10 billion yuan in Q2 alone.",
+    "date": "2025-07",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E21",
+    "url": "https://www.scmp.com/tech/big-tech/article/3316646/alibabas-us7-billion-subsidy-deepens-chinas-instant-e-commerce-war-jdcom-meituan",
+    "quote": "Alibaba announced RMB50 billion ($7B) subsidy plan for Taobao Flash Buy (instant commerce) in July 2025: In July 2025, Alibaba's Taobao announced it would inject RMB50 billion ($7B) over the next year into subsidies for consumers and businesses on its food delivery and quick commerce platform. Alibaba's free cash flow swung to a net outflow of 18.815B yuan, versus inflow of 17.372B yuan in same period 2024.",
+    "date": "2025-07",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E22",
+    "url": "https://www.baiguan.news/p/china-food-delivery-war-alibaba-vs-meituan-jd-taobao-flash-buy-subsidy-strategy-dau-growth-rider-network-luckin-coffee-heytea-yum-china-investors-2025-ecommerce-retail-market-share",
+    "quote": "Food delivery market share restructured: Meituan 55-58%, Taobao Instant Commerce 35-37%, JD 5-8%: UBS estimated Meituan's market share fell from 85% before the subsidy war to 65%. By year-end, market restructured into three-way contest: Meituan (55-58%), Taobao Instant Commerce (35-37%), JD.com (5-8%). On August 7, during 'First Autumn Milk Tea' promotion, Taobao's DAU outpaced Pinduoduo's by over 100 million in a single day. Alibaba Q2 FY2026 China E-commerce adjusted EBITA decreased by 76% due to quick commerce investment.",
+    "date": "2025-12",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E23",
+    "url": "https://news.futunn.com/en/post/67213632/to-counter-the-excessive-competition-in-food-delivery-the-government",
+    "quote": "Chinese regulators intervened: SAMR summoned JD, Meituan, Ele.me in May 2025 over 'irrational competition'; State Council Anti-Monopoly Committee set tone for combating internal competition in Jan 2026: In May 2025, SAMR together with multiple agencies held a meeting with JD.com, Meituan, and Ele.me regarding prominent issues in food delivery competition. On January 9, 2026, the State Council's Anti-Monopoly and Anti-Unfair Competition Committee stated intent to combat internal competition in food delivery market. Alibaba stated on Jan 8, 2026 that Taobao Flash Purchase strategy for 2026 is 'continued increased investment with goal of achieving absolute market leadership'. Coffee prices dropped to as low as 2 yuan ($0.28) on Meituan.",
+    "date": "2026-01",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E24",
+    "url": "https://www.anbound.com/Section/ArticleView_35102_1.htm",
+    "quote": "China food delivery AOV is RMB50-65 ($7-9), rider cost per order RMB7-9 (14-18% of AOV): National average order value: RMB 50-65 (~$7-9 USD). Rider cost per order: RMB 7-9 (14-18% of order value). Total 2024 food delivery GMV: RMB 1.6 trillion. Total rider-related costs: RMB 80-100 billion (10-15% of total GMV). ~70 million orders per day on Meituan alone.",
+    "date": "2025-08",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E25",
+    "url": "https://www.itiger.com/news/1149209055",
+    "quote": "Meituan's unit economics turned negative around May 2025, with estimated losses of 1.4-3 yuan per order from June onward: Meituan's food delivery UE turned negative in Q2 2025. Unit economics likely reached zero around May 2025, with estimated losses of 1.4 yuan per order starting June. Q3 food delivery losses expected to expand to approximately 2-3 yuan per order. Social insurance policy implementation adding RMB 0.3-0.5 per order in labor costs.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E26",
+    "url": "https://www.eurasiareview.com/02082025-current-food-delivery-model-in-china-may-only-last-for-a-decade-analysis/",
+    "quote": "By 2030, rider costs could rise to 40-60% of order value, making the current delivery model unsustainable: Should delivery-service costs climb to 40% of order price, the model would collapse. By ~2030, rider costs could rise to 40-60% of an order's value. A 30-yuan meal today would need to be priced at 45-50+ yuan just to preserve platform unit economics. Local governments gradually implementing mandatory social insurance for riders starting 2025.",
+    "date": "2025-08",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E27",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
+    "quote": "JD.com Q3 2025 net service revenues grew 30.8% YoY, indicating rapid marketplace and food delivery scaling: Q3 2025: net revenues increased 14.9% to RMB299.1 billion. Net product revenues increased 10.5%. Net service revenues increased 30.8%. JD.com's marketplace and marketing revenues accelerated throughout 2024-2025: up 13% YoY in Q4 2024, with 3P order volume and 3P active users maintaining robust YoY increases, outpacing overall JD Retail growth.",
+    "date": "2025-11",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E28",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-fourth-quarter-and-full-year-2024-results-and",
+    "quote": "JD.com full year 2024 revenue was RMB1,158.8 billion, with service revenues growing 8% and marketplace/marketing up 6% for full year: FY2024: Net revenues RMB1,158.8B (+6.8% YoY). Product revenues +5.9%. Service revenues +10.8% in Q4, +8% for full year. Marketplace and marketing up 13% in Q4, 6% for full year. JD now reports three segments: JD Retail, JD Logistics, New Businesses.",
+    "date": "2025-03",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E29",
+    "url": "https://www.pymnts.com/news/ecommerce/2025/report-temu-loses-58-of-us-daily-users-due-to-tariffs/",
+    "quote": "Temu US DAU dropped 52-58% from ~70M to ~30M in May 2025 after de minimis ended; partial recovery to 60-70% of peak by July: Pre-tariff US DAU: ~70 million. May 2025: DAU dropped 52% vs March (Sensor Tower data). Other reports show 58% decline. US MAU dropped 51% to 40.2M between March and June. US ad spend fell 95% YoY in May. Temu shut down Google Shopping ads on April 9. App Store ranking fell to 132nd from top-3. Recovery timeline: 60-70% of past levels during Prime Day (July 8-11); expected 80-90% by Aug-Sep. By October 2025, US MAU recovered to 133.6M (still -28% YoY).",
+    "date": "2025-06",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E30",
+    "url": "https://www.cbp.gov/newsroom/national-media-release/cbp-collects-1-billion-end-de-minimis-loophole",
+    "quote": "CBP de minimis daily parcel volume dropped 85% from ~4 million to ~600,000 per day after May 2025: Chris Mabelitini, director of CBP's IP rights and e-commerce division: 'We've gone from almost 4 million a day to maybe around 600,000 a day.' Annual de minimis volumes were 1.36 billion parcels in FY2024 valued at $64.6 billion. China accounted for 60% of de minimis shipments. CBP collected $1 billion in duty revenue from 246 million low-cost shipments after phaseout. CBP seizures of unsafe goods increased 82%.",
+    "date": "2025-12",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E31",
+    "url": "https://chinesellers.substack.com/p/y2-model-temus-newest-answer-to-rising",
+    "quote": "Temu pivoted from fully-managed to semi-managed and Y2 models; operates 13 warehouses globally (10 EU, 2 US, 1 Mexico): Temu introduced fully-managed model at US launch (Sep 2022). Started scaling back in H2 2024, urging sellers to transition to semi-managed. Y2 model launched April 27, 2025: merchants ship after confirmed orders, handle customs clearance themselves. Temu operates 13 self-owned warehouses globally (10 Europe, 2 US, 1 Mexico). Projected: US self-operated warehouses handle 15-20% of US volume in 2025, rising to 20-25% by 2026. After tariff reduction to 54% on May 12, Temu restarted fully managed business.",
+    "date": "2025-05",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E32",
+    "url": "https://backlinko.com/temu-stats",
+    "quote": "Temu global MAU hit record 530M in August 2025 despite US decline; cumulative downloads exceeded 1.2 billion: Global MAU: 416.5M in Q2 2025 (up 68% YoY). Record 530M in August 2025. Global DAU: 70.5M in Q2 2025 (up 65% YoY). Cumulative global downloads exceeded 1.2 billion by October 2025. 90% of global MAU from outside the US per HSBC. A third of merchants abandoned US market and turned to Europe or other regions after tariff shock.",
+    "date": "2025-10",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E33",
+    "url": "https://www.avalara.com/blog/en/europe/2025/11/eu-end-150-customs-duty-exemption-2026.html",
+    "quote": "EU de minimis removal planned for July 1, 2026 with EUR3 flat-rate customs duty per consignment: From July 1, 2026, small parcels entering the EU will be subject to a EUR3 flat-rate customs duty per consignment under an interim system. All goods will ultimately be subject to full customs duties once the EU customs data hub is operational (expected 2028). UK signaled removal of GBP135 customs duty relief by March 2029. Temu expanding semi-managed and bulk-shipping capabilities using German warehouses as central hub.",
+    "date": "2025-11",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E34",
+    "url": "https://tousu.sina.com.cn/articles/view/404230/",
+    "quote": "In 2024, total valid e-commerce complaints on Heimao exceeded 1.28 million, up 21.51% YoY. Top 4 platforms account for 83.3% of complaints: Total valid e-commerce complaints in 2024: >1.28 million, a 21.51% increase YoY from 2023. Pinduoduo, Taobao (including Tmall), JD.com, and Douyin (TikTok Shop) accounted for 83.3% of all e-commerce complaints. During major events like 618 and Double 11, peak daily complaints exceeded 5,000.",
+    "date": "2025-01",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E35",
+    "url": "https://tousu.sina.com.cn/articles/view/424621/",
+    "quote": "During 2025 Double 11, Douyin Shop led complaints at 28.61%, followed by Taobao (24.50%), Pinduoduo (18.27%), JD.com (16.09%): 2025 Double 11 period (Oct 9 - Nov 14): total complaints 183,867, up 22.72% from previous period. Douyin Shop: ~53,000 complaints (28.61%). Taobao (including Tmall): >45,000 (24.50%). Pinduoduo: 18.27% (~33,600). JD.com: 16.09% (~29,600). Response rates: Douyin Shop ~99%, Pinduoduo ~70%, JD.com <30%, Taobao <10%.",
+    "date": "2025-11",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E36",
+    "url": "https://tousu.sina.com.cn/articles/view/428100/",
+    "quote": "Taobao/Tmall has the worst complaint response rate at under 10%, while Douyin has ~99% response rate: Response rates (Double 11 2025): Douyin Shop, Dewu, Kuaishou Shop, Xiaohongshu Shop: ~99%. Pinduoduo: ~70%. JD.com: <30%. Taobao (including Tmall): <10%. In December 2025, JD.com response rate dropped to ~20%. Taobao and Tmall did not respond at all. Pinduoduo's response rate improved slightly.",
+    "date": "2025-12",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E37",
+    "url": "https://tousu.sina.com.cn/articles/view/428100/",
+    "quote": "December 2025 monthly complaints were 134,798 with top issues being customer service, refund problems, and fake shipping (\u865a\u5047\u53d1\u8d27): December 2025: total valid e-commerce complaints 134,798, down 9.43% from November (post-Double 11 decline). Top three complained-about platforms: Douyin, Pinduoduo, Taobao. Most common issues: customer service problems, refund issues, fake shipping (\u865a\u5047\u53d1\u8d27).",
+    "date": "2026-01",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E38",
+    "url": "https://itunes.apple.com/lookup",
+    "quote": "iOS App Store ratings show stark quality divergence: Pinduoduo 2.9/5, Taobao 4.1/5, Temu 4.7/5: Pinduoduo China App Store: 2.9/5 (3,383,826 ratings). Taobao China App Store: 4.1/5 (1,680,978 ratings). Temu US App Store: 4.7/5 (2,067,322 ratings). Data from iTunes Lookup API, retrieved 2026-03-23.",
+    "date": "2026-03",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E39",
+    "url": "https://m.chinabgao.com/info/1271943.html",
+    "quote": "May 2025 cumulative complaints reached 173,800, up 21% from April, with daily volume rising 30%+ from mid-May (pre-618 pressure): May 2025: cumulative valid complaints 173,800, up 21% from April. Daily complaint volume rose over 30% from mid-May onward, reflecting pre-618 promotion pressures.",
+    "date": "2025-05",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E40",
+    "url": "https://www.hstong.com/news/detail/21040809451046075",
+    "quote": "Pinduoduo appears on Heimao 'black list' ranking as #1 worst platform in March 2025: In the March 2025 Heimao complaint enterprise rankings, Pinduoduo became the #1 entry on the 'black list' (\u9ed1\u699c\u7b2c\u4e00).",
+    "date": "2025-04",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E41",
+    "url": "https://pandayoo.com/post/why-chinas-e-commerce-giants-just-scrapped-the-refund-only-safety-net/",
+    "quote": "All major Chinese e-commerce platforms reversed 'refund-only' (\u4ec5\u9000\u6b3e) policies by July 2025 under regulator pressure: Pinduoduo introduced \u4ec5\u9000\u6b3e in 2021. By late 2023, Taobao and JD had also adopted it. Problems: one merchant reported 50% after-sales rate (20 refund-only + 80 returns out of 200 orders). Fraudulent refund services emerged on Xianyu. By April 2025, major platforms announced cancellation. By July 2025, all platforms terminated the policy. Regulators summoned platforms, criticizing the race to bottom.",
+    "date": "2025-04",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E42",
+    "url": "https://news.futunn.com/en/post/55827880/the-platform-officially-announced-the-implementation-of-refund-only-rectification",
+    "quote": "Pinduoduo now supports seller-consumer negotiation as first step; platform intervention in 'refund without return' deemed non-essential unless negotiation fails: After policy reversal, Pinduoduo explicitly supports seller-consumer negotiation as first step. Platform intervention deemed non-essential unless negotiation fails or sellers miss response deadlines. Taobao/Tmall providing expedited appeal channels and upgraded AI for abnormal refund detection. JD removed language stating 'platform has the right to execute refund without return'. PDD Q1 2025 growth rate further declined to below 15%, stock fell 10%+ after earnings.",
+    "date": "2025-07",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E43",
+    "url": "https://www.ciw.news/p/double-11-2025",
+    "quote": "Double 11 2025 category share: Apparel -- Tmall 57.5%, Douyin 26%, JD 17%. Electronics -- JD dominated (phones 56.9%, computers 62.7%): Double 11 2025: Apparel remained highly competitive. Tmall captured 57.5% market share, Douyin took 26%, JD secured 17%. Mobile phones: JD 56.9%. Computers: JD 62.7%. AI glasses sales jumped 25x YoY. Total Double 11 2025 GMV: RMB 1.7 trillion.",
+    "date": "2025-11",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E44",
+    "url": "https://daoinsights.com/news/jd-com-reports-2024-gmv-around-4-5-trillion-rmb/",
+    "quote": "Douyin GMV (~3.5-4T yuan) is approaching ~44-50% the size of Taobao/Tmall (~8T yuan), growing at 30-34% vs single-digit for Taobao: Douyin 2024 GMV: ~3.5 trillion yuan. Taotian (Taobao+Tmall) 2024 GMV: ~8 trillion yuan. Douyin GMV = ~44% of Taotian. Douyin growing at 30-34% YoY vs Taotian single-digit growth. JD.com 2024 GMV: ~4.5 trillion yuan. Douyin is third-largest e-commerce player, approaching Pinduoduo scale.",
+    "date": "2025-03",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E45",
+    "url": "https://gatekaizen.com/china-ecommerce-platforms-2025/",
+    "quote": "Douyin's strength in beauty, fashion, and impulse categories; Tmall dominates premium; JD dominates electronics: Content platforms like Douyin are likely to gain greater share in beauty, apparel, and impulse categories. Beauty, fashion, and wellness brands particularly benefit from Douyin's creator-driven discovery path. Premium fashion, electronics, and beauty often do well on Tmall and JD. Overall market share (mid-2023): Taobao/Tmall 44%, JD 24%, Pinduoduo 19%. Apparel & footwear category held 60% of China's e-commerce market in 2024.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E46",
+    "url": "https://kr-asia.com/douyin-reshapes-strategy-to-cut-merchant-costs-as-gmv-grows",
+    "quote": "Douyin shelf commerce share grew from 30% (2023) to 40% (2024) to 50% (mid-2025), on track with 3-year plan: Douyin's 3-year plan for shelf e-commerce: 30% in year 1 (2023, achieved), 40% in year 2 (2024, achieved), 50% in year 3 (2025, achieved by 618). Current GMV breakdown: shelf ~40-50%, merchant-led livestream ~30%, influencer-led livestream ~30%. Shelf-based e-commerce GMV grew 49% YoY (Aug 2024-Jul 2025), outpacing overall 34% growth.",
+    "date": "2025-11",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E47",
+    "url": "https://eu.36kr.com/en/p/3166066575158018",
+    "quote": "Douyin e-commerce GMV reached ~3.5 trillion yuan in 2024, targeting 4.2 trillion in 2025; growth 34% YoY; approaching Pinduoduo scale: 2024 GMV: ~3.5 trillion yuan (+30% YoY). 2025 target: 4.2 trillion yuan. Aug 2024-Jul 2025 growth: 34% YoY. First 10 months of 2025 exceeded 30% growth; annual GMV expected to surpass 4 trillion yuan. Douyin has become the third-largest e-commerce player behind Tmall and Pinduoduo.",
+    "date": "2025-01",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E48",
+    "url": "https://daoinsights.com/news/merchant-led-livestreams-take-over-douyin-e-commerce/",
+    "quote": "Douyin's reliance on top-tier influencer live broadcasts has significantly decreased; merchant-led and smaller streamers replace them: Reliance on top-tier influencer live broadcasts has significantly decreased, primarily due to rise of shelf-based shopping. In 2024, shelf-based shopping accounted for over 40% of GMV, store-hosted live broadcasts exceeded 30%, and remaining ~30% came from influencer live broadcasts. Top influencer streamers susceptible to controversies; merchant-led streaming and smaller streamers have become preferred replacements.",
+    "date": "2025",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E49",
+    "url": "https://eu.36kr.com/en/p/3480136952077441",
+    "quote": "Douyin invested 32 billion yuan in merchant cost savings in 2025, including commission waivers, promotion fee rebates, and reduced shipping insurance: 2025 cumulative merchant cost savings: >32 billion yuan. By August 2025, direct subsidies to merchants: >19 billion yuan. Q1 2025 alone: 5.5 billion yuan in cost reductions. Nine merchant support policies introduced early 2025: commission waivers for product cards, promotion fee rebates, reduced shipping insurance and security deposits, Small Merchant Support Fund. In March 2025, Ocean Engine (advertising arm) was merged into Douyin E-commerce. Two separate algorithm teams combined.",
+    "date": "2025-11",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E50",
+    "url": "https://eu.36kr.com/en/p/3480136952077441",
+    "quote": "Douyin e-commerce's 2026 strategy focuses on further merchant support policy upgrades: In 2026, Douyin E-commerce will upgrade its merchant support policies. Reducing merchant operating costs remains the central goal, continuing from 2025 strategy.",
+    "date": "2025-11",
+    "provenance": "auto:meta-miner-leader",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E51",
+    "url": "https://itunes.apple.com/lookup?id=1044283059",
+    "quote": "pinduoduo iOS App Store rating in CN: Rating: 2.9/5. (3,383,826 ratings). Current version: 2.9/5. Version: 8.0.0. Price: \u514d\u8d39",
+    "date": "2026-03",
+    "provenance": "auto:qimai-appdata"
+  },
+  {
+    "id": "E52",
+    "url": "https://itunes.apple.com/lookup?id=1044283059",
+    "quote": "Qimai (\u4e03\u9ea6\u6570\u636e) coverage for pinduoduo: Qimai (qimai.cn) tracks pinduoduo across 155 countries and 9 Chinese Android stores (Huawei, Xiaomi, OPPO, Vivo, Tencent MyApp, etc.). Free tier shows: current ranking, rating trend, category rank history. Paid tier adds: download estimates, DAU/MAU, revenue estimates, keyword rankings. For Chinese domestic rankings (critical for Pinduoduo), Qimai is the primary source since Google Play is not available in China. URL: https://www.qimai.cn/app/rank/index/brand/free/device/iphone/country/cn/genre/6024 (Shopping category, China, iPhone, Free)",
+    "date": "2026-03",
+    "provenance": "auto:qimai-appdata"
+  },
+  {
+    "id": "E53",
+    "url": "https://itunes.apple.com/lookup?id=387682726",
+    "quote": "taobao iOS App Store rating in CN: Rating: 4.1/5. (1,680,978 ratings). Current version: 4.1/5. Version: 10.59.20. Price: \u514d\u8d39",
+    "date": "2026-03",
+    "provenance": "auto:qimai-appdata"
+  },
+  {
+    "id": "E54",
+    "url": "https://itunes.apple.com/lookup?id=387682726",
+    "quote": "Qimai (\u4e03\u9ea6\u6570\u636e) coverage for taobao: Qimai (qimai.cn) tracks taobao across 155 countries and 9 Chinese Android stores (Huawei, Xiaomi, OPPO, Vivo, Tencent MyApp, etc.). Free tier shows: current ranking, rating trend, category rank history. Paid tier adds: download estimates, DAU/MAU, revenue estimates, keyword rankings. For Chinese domestic rankings (critical for Pinduoduo), Qimai is the primary source since Google Play is not available in China. URL: https://www.qimai.cn/app/rank/index/brand/free/device/iphone/country/cn/genre/6024 (Shopping category, China, iPhone, Free)",
+    "date": "2026-03",
+    "provenance": "auto:qimai-appdata"
+  },
+  {
+    "id": "E55",
+    "url": "https://itunes.apple.com/lookup?id=1641486558",
+    "quote": "temu iOS App Store rating in US: Rating: 4.7/5. (2,067,322 ratings). Current version: 4.7/5. Version: 4.38.0. Price: Free",
+    "date": "2026-03",
+    "provenance": "auto:qimai-appdata"
+  },
+  {
+    "id": "E56",
+    "url": "https://itunes.apple.com/lookup?id=1641486558",
+    "quote": "Qimai (\u4e03\u9ea6\u6570\u636e) coverage for temu: Qimai (qimai.cn) tracks temu across 155 countries and 9 Chinese Android stores (Huawei, Xiaomi, OPPO, Vivo, Tencent MyApp, etc.). Free tier shows: current ranking, rating trend, category rank history. Paid tier adds: download estimates, DAU/MAU, revenue estimates, keyword rankings. For Chinese domestic rankings (critical for Pinduoduo), Qimai is the primary source since Google Play is not available in China. URL: https://www.qimai.cn/app/rank/index/brand/free/device/iphone/country/cn/genre/6024 (Shopping category, China, iPhone, Free)",
+    "date": "2026-03",
+    "provenance": "auto:qimai-appdata"
+  },
+  {
+    "id": "E57",
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001684863&type=20-F",
+    "quote": "ZTO XBRL data fetched but no parcel volume metrics found: SEC EDGAR XBRL data for CIK 0001684863 was fetched. Volume metrics may use non-standard taxonomy. Use WebSearch for 'ZTO parcel volume quarterly' as supplement.",
+    "date": "2026-03",
+    "provenance": "auto:cn-express-earnings"
+  },
+  {
+    "id": "E58",
+    "url": "https://finance.yahoo.com/quote/600233.SS/",
+    "quote": "YTO (\u5706\u901a\u901f\u9012) is listed on Shanghai/Shenzhen exchange: Stock: 600233.SS. Financial data not available via SEC EDGAR. Use WebSearch for '\u5706\u901a\u901f\u9012 \u5feb\u9012\u4e1a\u52a1\u91cf 2025 2026' to find quarterly volume data.",
+    "date": "2026-03",
+    "provenance": "auto:cn-express-earnings"
+  },
+  {
+    "id": "E59",
+    "url": "https://finance.yahoo.com/quote/002120.SZ/",
+    "quote": "Yunda (\u97f5\u8fbe\u80a1\u4efd) is listed on Shanghai/Shenzhen exchange: Stock: 002120.SZ. Financial data not available via SEC EDGAR. Use WebSearch for '\u97f5\u8fbe\u80a1\u4efd \u5feb\u9012\u4e1a\u52a1\u91cf 2025 2026' to find quarterly volume data.",
+    "date": "2026-03",
+    "provenance": "auto:cn-express-earnings"
+  },
+  {
+    "id": "E60",
+    "url": "https://finance.yahoo.com/quote/002468.SZ/",
+    "quote": "STO (\u7533\u901a\u5feb\u9012) is listed on Shanghai/Shenzhen exchange: Stock: 002468.SZ. Financial data not available via SEC EDGAR. Use WebSearch for '\u7533\u901a\u5feb\u9012 \u5feb\u9012\u4e1a\u52a1\u91cf 2025 2026' to find quarterly volume data.",
+    "date": "2026-03",
+    "provenance": "auto:cn-express-earnings"
+  }
+]

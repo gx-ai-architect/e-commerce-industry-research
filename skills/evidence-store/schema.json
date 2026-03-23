@@ -81,6 +81,20 @@
         "topic_tags": {
           "type": "array",
           "items": { "type": "string" }
+        },
+        "question_id": {
+          "type": "string",
+          "description": "Which research question this evidence addresses (e.g., Q1, Q2). Used in industry-mode research."
+        },
+        "source_tier": {
+          "type": "string",
+          "enum": ["primary", "secondary", "tertiary"],
+          "description": "primary=company filing/regulator/platform data, secondary=analyst report/data provider, tertiary=media article"
+        },
+        "evidence_direction": {
+          "type": "string",
+          "enum": ["supports", "contradicts", "context"],
+          "description": "Whether this evidence supports or contradicts the emerging answer to the research question"
         }
       }
     }

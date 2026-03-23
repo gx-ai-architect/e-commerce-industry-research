@@ -1,0 +1,26 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q4",
+  "question": "What do consumer complaint patterns reveal about merchant treatment across platforms?",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "All major Chinese e-commerce platforms reversed 'refund-only' (仅退款) policies by July 2025 under regulator pressure",
+      "data": "Pinduoduo introduced 仅退款 in 2021. By late 2023, Taobao and JD had also adopted it. Problems: one merchant reported 50% after-sales rate (20 refund-only + 80 returns out of 200 orders). Fraudulent refund services emerged on Xianyu. By April 2025, major platforms announced cancellation. By July 2025, all platforms terminated the policy. Regulators summoned platforms, criticizing the race to bottom.",
+      "source_url": "https://pandayoo.com/post/why-chinas-e-commerce-giants-just-scrapped-the-refund-only-safety-net/",
+      "source_date": "2025-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Pinduoduo now supports seller-consumer negotiation as first step; platform intervention in 'refund without return' deemed non-essential unless negotiation fails",
+      "data": "After policy reversal, Pinduoduo explicitly supports seller-consumer negotiation as first step. Platform intervention deemed non-essential unless negotiation fails or sellers miss response deadlines. Taobao/Tmall providing expedited appeal channels and upgraded AI for abnormal refund detection. JD removed language stating 'platform has the right to execute refund without return'. PDD Q1 2025 growth rate further declined to below 15%, stock fell 10%+ after earnings.",
+      "source_url": "https://news.futunn.com/en/post/55827880/the-platform-officially-announced-the-implementation-of-refund-only-rectification",
+      "source_date": "2025-07",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

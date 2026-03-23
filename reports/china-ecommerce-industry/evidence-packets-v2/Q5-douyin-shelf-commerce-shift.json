@@ -1,0 +1,53 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q5",
+  "question": "How is Douyin's shift from livestream to shelf commerce progressing, and what competitive threat does it pose?",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Douyin shelf commerce share grew from 30% (2023) to 40% (2024) to 50% (mid-2025), on track with 3-year plan",
+      "data": "Douyin's 3-year plan for shelf e-commerce: 30% in year 1 (2023, achieved), 40% in year 2 (2024, achieved), 50% in year 3 (2025, achieved by 618). Current GMV breakdown: shelf ~40-50%, merchant-led livestream ~30%, influencer-led livestream ~30%. Shelf-based e-commerce GMV grew 49% YoY (Aug 2024-Jul 2025), outpacing overall 34% growth.",
+      "source_url": "https://kr-asia.com/douyin-reshapes-strategy-to-cut-merchant-costs-as-gmv-grows",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Douyin e-commerce GMV reached ~3.5 trillion yuan in 2024, targeting 4.2 trillion in 2025; growth 34% YoY; approaching Pinduoduo scale",
+      "data": "2024 GMV: ~3.5 trillion yuan (+30% YoY). 2025 target: 4.2 trillion yuan. Aug 2024-Jul 2025 growth: 34% YoY. First 10 months of 2025 exceeded 30% growth; annual GMV expected to surpass 4 trillion yuan. Douyin has become the third-largest e-commerce player behind Tmall and Pinduoduo.",
+      "source_url": "https://eu.36kr.com/en/p/3166066575158018",
+      "source_date": "2025-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Douyin's reliance on top-tier influencer live broadcasts has significantly decreased; merchant-led and smaller streamers replace them",
+      "data": "Reliance on top-tier influencer live broadcasts has significantly decreased, primarily due to rise of shelf-based shopping. In 2024, shelf-based shopping accounted for over 40% of GMV, store-hosted live broadcasts exceeded 30%, and remaining ~30% came from influencer live broadcasts. Top influencer streamers susceptible to controversies; merchant-led streaming and smaller streamers have become preferred replacements.",
+      "source_url": "https://daoinsights.com/news/merchant-led-livestreams-take-over-douyin-e-commerce/",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Douyin invested 32 billion yuan in merchant cost savings in 2025, including commission waivers, promotion fee rebates, and reduced shipping insurance",
+      "data": "2025 cumulative merchant cost savings: >32 billion yuan. By August 2025, direct subsidies to merchants: >19 billion yuan. Q1 2025 alone: 5.5 billion yuan in cost reductions. Nine merchant support policies introduced early 2025: commission waivers for product cards, promotion fee rebates, reduced shipping insurance and security deposits, Small Merchant Support Fund. In March 2025, Ocean Engine (advertising arm) was merged into Douyin E-commerce. Two separate algorithm teams combined.",
+      "source_url": "https://eu.36kr.com/en/p/3480136952077441",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Douyin e-commerce's 2026 strategy focuses on further merchant support policy upgrades",
+      "data": "In 2026, Douyin E-commerce will upgrade its merchant support policies. Reducing merchant operating costs remains the central goal, continuing from 2025 strategy.",
+      "source_url": "https://eu.36kr.com/en/p/3480136952077441",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

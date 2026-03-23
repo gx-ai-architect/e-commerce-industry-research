@@ -1,0 +1,53 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q3",
+  "question": "How is Temu's business model actually restructuring post-de minimis, and what do the logistics and financial numbers reveal?",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "Temu US DAU dropped 52-58% from ~70M to ~30M in May 2025 after de minimis ended; partial recovery to 60-70% of peak by July",
+      "data": "Pre-tariff US DAU: ~70 million. May 2025: DAU dropped 52% vs March (Sensor Tower data). Other reports show 58% decline. US MAU dropped 51% to 40.2M between March and June. US ad spend fell 95% YoY in May. Temu shut down Google Shopping ads on April 9. App Store ranking fell to 132nd from top-3. Recovery timeline: 60-70% of past levels during Prime Day (July 8-11); expected 80-90% by Aug-Sep. By October 2025, US MAU recovered to 133.6M (still -28% YoY).",
+      "source_url": "https://www.pymnts.com/news/ecommerce/2025/report-temu-loses-58-of-us-daily-users-due-to-tariffs/",
+      "source_date": "2025-06",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "CBP de minimis daily parcel volume dropped 85% from ~4 million to ~600,000 per day after May 2025",
+      "data": "Chris Mabelitini, director of CBP's IP rights and e-commerce division: 'We've gone from almost 4 million a day to maybe around 600,000 a day.' Annual de minimis volumes were 1.36 billion parcels in FY2024 valued at $64.6 billion. China accounted for 60% of de minimis shipments. CBP collected $1 billion in duty revenue from 246 million low-cost shipments after phaseout. CBP seizures of unsafe goods increased 82%.",
+      "source_url": "https://www.cbp.gov/newsroom/national-media-release/cbp-collects-1-billion-end-de-minimis-loophole",
+      "source_date": "2025-12",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu pivoted from fully-managed to semi-managed and Y2 models; operates 13 warehouses globally (10 EU, 2 US, 1 Mexico)",
+      "data": "Temu introduced fully-managed model at US launch (Sep 2022). Started scaling back in H2 2024, urging sellers to transition to semi-managed. Y2 model launched April 27, 2025: merchants ship after confirmed orders, handle customs clearance themselves. Temu operates 13 self-owned warehouses globally (10 Europe, 2 US, 1 Mexico). Projected: US self-operated warehouses handle 15-20% of US volume in 2025, rising to 20-25% by 2026. After tariff reduction to 54% on May 12, Temu restarted fully managed business.",
+      "source_url": "https://chinesellers.substack.com/p/y2-model-temus-newest-answer-to-rising",
+      "source_date": "2025-05",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu global MAU hit record 530M in August 2025 despite US decline; cumulative downloads exceeded 1.2 billion",
+      "data": "Global MAU: 416.5M in Q2 2025 (up 68% YoY). Record 530M in August 2025. Global DAU: 70.5M in Q2 2025 (up 65% YoY). Cumulative global downloads exceeded 1.2 billion by October 2025. 90% of global MAU from outside the US per HSBC. A third of merchants abandoned US market and turned to Europe or other regions after tariff shock.",
+      "source_url": "https://backlinko.com/temu-stats",
+      "source_date": "2025-10",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "EU de minimis removal planned for July 1, 2026 with EUR3 flat-rate customs duty per consignment",
+      "data": "From July 1, 2026, small parcels entering the EU will be subject to a EUR3 flat-rate customs duty per consignment under an interim system. All goods will ultimately be subject to full customs duties once the EU customs data hub is operational (expected 2028). UK signaled removal of GBP135 customs duty relief by March 2029. Temu expanding semi-managed and bulk-shipping capabilities using German warehouses as central hub.",
+      "source_url": "https://www.avalara.com/blog/en/europe/2025/11/eu-end-150-customs-duty-exemption-2026.html",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

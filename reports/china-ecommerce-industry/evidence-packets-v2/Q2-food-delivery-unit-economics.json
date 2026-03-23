@@ -1,0 +1,35 @@
+{
+  "agent": "meta-miner-leader",
+  "question_id": "Q2",
+  "question": "What are the per-order economics of Chinese food delivery?",
+  "collected_at": "2026-03-23",
+  "findings": [
+    {
+      "claim": "China food delivery AOV is RMB50-65 ($7-9), rider cost per order RMB7-9 (14-18% of AOV)",
+      "data": "National average order value: RMB 50-65 (~$7-9 USD). Rider cost per order: RMB 7-9 (14-18% of order value). Total 2024 food delivery GMV: RMB 1.6 trillion. Total rider-related costs: RMB 80-100 billion (10-15% of total GMV). ~70 million orders per day on Meituan alone.",
+      "source_url": "https://www.anbound.com/Section/ArticleView_35102_1.htm",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Meituan's unit economics turned negative around May 2025, with estimated losses of 1.4-3 yuan per order from June onward",
+      "data": "Meituan's food delivery UE turned negative in Q2 2025. Unit economics likely reached zero around May 2025, with estimated losses of 1.4 yuan per order starting June. Q3 food delivery losses expected to expand to approximately 2-3 yuan per order. Social insurance policy implementation adding RMB 0.3-0.5 per order in labor costs.",
+      "source_url": "https://www.itiger.com/news/1149209055",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "By 2030, rider costs could rise to 40-60% of order value, making the current delivery model unsustainable",
+      "data": "Should delivery-service costs climb to 40% of order price, the model would collapse. By ~2030, rider costs could rise to 40-60% of an order's value. A 30-yuan meal today would need to be priced at 45-50+ yuan just to preserve platform unit economics. Local governments gradually implementing mandatory social insurance for riders starting 2025.",
+      "source_url": "https://www.eurasiareview.com/02082025-current-food-delivery-model-in-china-may-only-last-for-a-decade-analysis/",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}
