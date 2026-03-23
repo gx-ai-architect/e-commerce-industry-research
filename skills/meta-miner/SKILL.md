@@ -5,6 +5,20 @@ An agent team that produces institutional-quality primary source data for e-comm
 - **Company mode:** 8 domain-expert agents deep-dive a single company
 - **Industry mode:** Question-driven research with thesis-organized agents that iterate until evidence is sufficient
 
+## CRITICAL: YOU (the main session) ARE THE LEADER
+
+**DO NOT spawn a separate "leader" agent.** You — the main Claude Code session running this skill — act as the Leader. You directly:
+- Formulate research questions (industry mode) or run triage (company mode)
+- Spawn research agents as teammates using the Agent tool
+- Read their evidence packets from disk when they complete
+- Evaluate evidence quality yourself
+- Send agents back with targeted follow-up
+- Write the research board and run the bridge
+
+The `.claude/agents/meta-miner-leader.md` file contains your instructions for HOW to lead. Read it and follow its protocol — but execute it yourself, do not delegate leadership to a sub-agent.
+
+**Why:** Sub-agents that are told to spawn their own sub-agents take shortcuts. They skip the multi-agent loop and do all the research themselves in a single pass. The main session must be the orchestrator to ensure agents are actually spawned, evidence is actually evaluated, and iteration actually happens.
+
 ## Prerequisites
 
 - Claude Code with `/browse` skill (gstack)
@@ -17,18 +31,10 @@ An agent team that produces institutional-quality primary source data for e-comm
 ```
 Run the /meta-miner skill for PDD Holdings (PDD, CIK 0001737806)
 ```
-Or for any company:
-```
-Run /meta-miner for <Company Name> (<TICKER>, CIK <CIK_NUMBER>)
-```
 
 ### Industry Mode (cross-company thematic research)
 ```
 Run /meta-miner for Chinese E-Commerce Industry
-```
-Or for any industry topic:
-```
-Run /meta-miner for <Topic Name>
 ```
 
 ## Mode Detection
@@ -55,7 +61,6 @@ Run /meta-miner for <Topic Name>
 ```bash
 REPO_ROOT=$(git rev-parse --show-toplevel)
 
-# Company mode
 if [ "$MODE" = "company" ]; then
   OUTDIR="$REPO_ROOT/reports/$COMPANY/evidence-packets"
 else
@@ -65,59 +70,50 @@ fi
 mkdir -p "$OUTDIR"
 ```
 
-### Step 3: Create Team and Spawn Leader
+### Step 3: Read Your Instructions
 
-Use TeamCreate to create a team named `meta-miner-$SLUG` (where SLUG is the company or topic slug).
+Read `.claude/agents/meta-miner-leader.md` — this contains your full protocol for both company and industry modes. Follow it step by step.
 
-Then spawn the Leader agent (`.claude/agents/meta-miner-leader.md`) with this message:
+### Step 4: Execute the Protocol YOURSELF
 
-**Company mode:**
-```
-You are the Meta-Miner Leader for researching:
-- Mode: company
-- Company: $COMPANY_NAME
-- Ticker: $TICKER
-- CIK: $CIK
-- Output directory: $OUTDIR
-- Repo root: $REPO_ROOT
+**Industry mode — you do each phase:**
 
-Execute your COMPANY MODE protocol: TRIAGE -> LAUNCH -> VALIDATE -> CONVERGE.
-```
+1. **Phase 0 (Question Formation):** YOU research the topic via WebSearch, formulate 3-5 questions, write the research board to disk.
 
-**Industry mode:**
-```
-You are the Meta-Miner Leader for researching:
-- Mode: industry
-- Topic: $TOPIC_NAME
-- Output directory: $OUTDIR
-- Repo root: $REPO_ROOT
+2. **Phase 1 (Initial Collection):** YOU create a team with TeamCreate, then spawn 3-5 thesis agents using the Agent tool (one per question, `subagent_type: "thesis-agent"`). Each agent runs in parallel. Wait for all to complete.
 
-Execute your INDUSTRY MODE protocol:
-QUESTION FORMATION -> INITIAL COLLECTION -> EVIDENCE COURT -> TARGETED FOLLOW-UP (up to 3 rounds) -> SYNTHESIS.
+3. **Phase 2 (Evidence Court):** YOU read every evidence packet the agents wrote to disk. YOU evaluate whether the evidence answers each question. YOU update the research board with verdicts and follow-up questions.
 
-Remember: formulate genuine QUESTIONS, not claims. Evaluate evidence INTELLECTUALLY — does it answer the question? — not just structurally. Iterate until you have real answers or have honestly determined a question is unanswerable.
-```
+4. **Phase 3 (Targeted Follow-up):** YOU re-dispatch agents via SendMessage with specific follow-up instructions. Wait for completion.
 
-### Step 4: Monitor
+5. **Repeat Phases 2-3** up to 3 rounds total.
 
-The Leader agent handles all coordination. Wait for it to complete, then report results to the user.
+6. **Phase 4 (Synthesis):** YOU run the bridge script, write final research board, produce coverage matrix.
 
-### Step 5: Bridge
+**Company mode — you do each phase:**
 
-After all agents complete, the Leader runs:
-```bash
-python3 $REPO_ROOT/scripts/bridge/packets_to_evidence.py \
-  --packets-dir $OUTDIR \
-  --output $REPO_ROOT/reports/$SLUG/evidence-auto.json
-```
+1. **Phase A (Triage):** YOU WebSearch the company, identify segments, decide Agent 8's mission.
 
-## Agent Teams
+2. **Phase B (Launch):** YOU create a team with TeamCreate, spawn all 8 domain agents using the Agent tool. Each runs in parallel.
+
+3. **Phase C (Validate):** YOU read every evidence packet from disk. YOU score each agent's output. YOU send agents back via SendMessage if output is THIN.
+
+4. **Phase D (Converge):** YOU run the bridge script, produce coverage matrix.
+
+### Step 5: Verify Your Own Work
+
+Before reporting results to the user, confirm:
+- [ ] Research agents were actually spawned (not just you doing the research)
+- [ ] Evidence packets on disk show different agent names (not all "meta-miner-leader")
+- [ ] At least one round of Evidence Court evaluation was performed (industry mode)
+- [ ] Research board has verdicts per question (industry mode)
+
+## Agent Definitions
 
 ### Company Mode (8 domain experts)
 
 | # | Agent | Definition | Domain |
 |---|-------|-----------|--------|
-| 0 | Leader | `.claude/agents/meta-miner-leader.md` | Coordination, quality gate |
 | 1 | Business Model | `.claude/agents/business-model-analyst.md` | Revenue decomposition, take rates |
 | 2 | GMV Estimator | `.claude/agents/gmv-scale-estimator.md` | GMV triangulation, scale metrics |
 | 3 | Price Intelligence | `.claude/agents/price-intelligence.md` | Platform price comparison |
@@ -125,16 +121,15 @@ python3 $REPO_ROOT/scripts/bridge/packets_to_evidence.py \
 | 5 | Investment Tracker | `.claude/agents/investment-growth-tracker.md` | Capex, hiring, new businesses |
 | 6 | Logistics | `.claude/agents/logistics-fulfillment.md` | Parcel volumes, warehouses |
 | 7 | Regulatory | `.claude/agents/regulatory-policy-reader.md` | Legal actions, tariffs, policy |
-| 8 | Company-Specific | `.claude/agents/company-specific.md` | Leader decides mission |
+| 8 | Company-Specific | `.claude/agents/company-specific.md` | You decide mission during triage |
 
 ### Industry Mode (3-5 thesis agents)
 
 | # | Agent | Definition | Domain |
 |---|-------|-----------|--------|
-| 0 | Leader | `.claude/agents/meta-miner-leader.md` | Question formation, evidence court, iteration |
 | 1-5 | Thesis Agents | `.claude/agents/thesis-agent.md` | One agent per research question, cross-company |
 
-In industry mode, the Leader dynamically creates each agent's mission during Phase 0 (Question Formation). The thesis-agent.md template provides the evidence standards and tool inventory; the Leader fills in the specific question, evidence requirements, and companies to investigate.
+In industry mode, you dynamically create each agent's mission during Phase 0 (Question Formation). The thesis-agent.md template provides evidence standards and tool inventory; you fill in the specific question, evidence requirements, and companies to investigate.
 
 ## Output
 

@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "E1",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "Q4 2025 consensus EPS is RMB 21.08 (CNY), based on 13 analysts. Range: RMB 18.34 (low) to RMB 24.16 (high). Revenue consensus RMB 124.9B from 15 analysts.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E2",
+    "url": "https://finance.yahoo.com/quote/PDD/",
+    "quote": "PDD stock price $96.25 (Alpaca Markets API, Mar 23 close). Analyst consensus target $148.42. 52-week range: $87.11-$164.69.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E3",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD beat estimates in 3 of last 4 quarters: Q4 2024 +2.4%, Q1 2025 -39.8% (miss), Q2 2025 +49.1%, Q3 2025 +27.2%.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E4",
+    "url": "https://finance.yahoo.com/quote/PDD/financials/",
+    "quote": "PDD balance sheet Sep 30, 2025: Cash & equivalents RMB 92.4B, restricted cash RMB 71.0B, short-term investments RMB 331.4B. Total liquid: RMB 494.8B ($69.5B). Total debt: RMB 10.7B. Net cash: RMB 484.1B ($68.0B).",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E5",
+    "url": "https://finance.yahoo.com/quote/BABA/financials/",
+    "quote": "BABA balance sheet Dec 31, 2025: Cash+ST investments RMB 380.5B ($53.4B). Total debt RMB 262.7B ($36.9B). Net cash: RMB 117.7B ($16.5B).",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E6",
+    "url": "https://finance.yahoo.com/quote/JD/financials/",
+    "quote": "JD balance sheet (quoteSummary, mostRecentQuarter Dec 31, 2025): Cash+ST investments RMB 213.2B ($29.9B). Total debt RMB 107.1B ($15.0B). Net cash: RMB 106.1B ($14.9B).",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E7",
+    "url": "https://finance.yahoo.com/quote/PDD/",
+    "quote": "Comparative market data: PDD $96.25 (market cap $136.6B), BABA $126.07 ($300.9B), JD $27.52 ($37.7B). Source: Alpaca Markets API + Yahoo Finance quoteSummary.",
+    "date": "2026-03-23",
+    "provenance": "auto:alpaca-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E8",
+    "url": "https://finance.yahoo.com/quote/PDD/financials/",
+    "quote": "PDD net cash grew from RMB 353.2B (Mar 2025) to RMB 376.2B (Jun 2025) to RMB 413.1B (Sep 2025). Change: +RMB 59.9B (+17%) in 9 months.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E9",
+    "url": "https://finance.yahoo.com/quote/BABA/financials/",
+    "quote": "BABA net cash declined: Mar 2025 RMB 180.0B → Jun 2025 RMB 184.3B → Sep 2025 RMB 92.0B → Dec 2025 RMB 75.4B. Change: -RMB 104.6B (-58%). Driven by AI/cloud capex, debt increase, buybacks, negative FCF.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E10",
+    "url": "https://finance.yahoo.com/quote/BABA/financials/",
+    "quote": "BABA minority interest: RMB 66.3B ($9.3B) as of Dec 31, 2025. Outside shareholders' claims on Cainiao, local services subsidiaries.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E11",
+    "url": "https://finance.yahoo.com/quote/JD/financials/",
+    "quote": "JD minority interest: RMB 72.5B ($10.2B) from JD Logistics, JD Health, JD Industrials. PDD minority interest: zero (no consolidated subsidiaries with minority holders).",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E12",
+    "url": "https://finance.yahoo.com/quote/PDD/financials/",
+    "quote": "PDD interestIncomeNonOperating: Q2-2025 RMB 10,423M (33.9% of NI), Q3-2025 RMB 8,565M (29.2% of NI). Annualized ~RMB 35-40B from ~RMB 331B in short-term investments.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E13",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "Q4 2025 consensus: EPS RMB 21.08 (13 analysts), range 18.34-24.16. Revenue RMB 124.9B (15 analysts), range 119.7B-143.4B. Implied growth: +4.6% EPS, +12.9% revenue.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E14",
+    "url": "https://finance.yahoo.com/quote/PDD/financials/",
+    "quote": "PDD quarterly revenue: Q4 2024 RMB 110.6B (+24%), Q1 2025 RMB 95.7B (+10%), Q2 2025 RMB 104.0B (+7%), Q3 2025 RMB 108.3B (+9%). Growth deceleration from 131% to single digits.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E15",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD earnings history: Q4 2024 actual 20.15 vs est 19.67 (+2.4%), Q1 2025 actual 11.41 vs est 18.96 (-39.8%), Q2 2025 actual 22.07 vs est 14.80 (+49.1%), Q3 2025 actual 21.08 vs est 16.57 (+27.2%).",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E16",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "PDD stock fell 7.33% after Q3 2025 earnings (Nov 18, 2025) despite 17% net income growth and 27.2% EPS beat. Sell-the-news pattern consistent with prior quarters.",
+    "date": "2025-11-18",
+    "provenance": "auto:thesis-agent-Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E17",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD FY2026 EPS 90 days ago: CNY 87.21, now: CNY 86.08. Change: -1.3%. 30-day revisions: 0 up, 3 down. Most stable estimate among peers.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E18",
+    "url": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "quote": "BABA FY2026 EPS 90 days ago: CNY 46.30, now: CNY 33.74. Change: -27.1%. 30-day revisions: 0 up, 5 down. Estimates eviscerated.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E19",
+    "url": "https://finance.yahoo.com/quote/JD/analysis/",
+    "quote": "JD FY2026 EPS 90 days ago: CNY 25.50, now: CNY 20.36. Change: -20.2%. 30-day revisions: 11 up, 13 down.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E20",
+    "url": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "quote": "BABA missed earnings four consecutive quarters with progressively worse misses: -2.3%, -4.7%, -24.6%, -35.2%.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E21",
+    "url": "https://finance.yahoo.com/quote/PDD/financials/",
+    "quote": "PDD interest income by quarter: Q3 2024 RMB 5,416M (21.7% of NI), Q4 2024 RMB 5,233M (19.1%), Q1 2025 RMB 223M (1.5%, anomaly), Q2 2025 RMB 10,423M (33.9%), Q3 2025 RMB 8,565M (29.2%).",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E22",
+    "url": "https://finance.yahoo.com/quote/PDD/financials/",
+    "quote": "PDD SGA by quarter: Q4 2024 RMB 33.4B (30.2% of rev), Q1 2025 RMB 35.1B (36.6%), Q2 2025 RMB 28.7B (27.6%), Q3 2025 RMB 32.1B (29.6%).",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E23",
+    "url": "https://techbuzzchina.substack.com/",
+    "quote": "Temu's Google Shopping ad impressions dropped from 19% market share (Mar 31, 2025) to 0% by April 12 after tariff shock. Recovery since has been partial.",
+    "date": "2025-05",
+    "provenance": "auto:thesis-agent-Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E24",
+    "url": "https://chinatalk.substack.com/",
+    "quote": "After May 2025 tariff shock (daily users dropped ~48%), Temu resumed fully-managed US operations when tariffs dropped from 145% to ~54%. Sales recovered to April levels by July.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E25",
+    "url": "https://momentumworks.co/",
+    "quote": "Temu's semi-managed model now handles 34% of global transactions, up from near-zero. Reduces logistics cost exposure but also revenue per transaction.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E26",
+    "url": "https://www.baiguan.news/",
+    "quote": "Taobao overtook Pinduoduo by ~50M DAU by July 2025 (QuestMobile data), driven by food delivery subsidies and 88VIP growth.",
+    "date": "2025-08",
+    "provenance": "auto:thesis-agent-Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E27",
+    "url": "https://www.alphaspread.com/security/nasdaq/pdd/summary",
+    "quote": "PDD has never paid a dividend or conducted a buyback. Recently added 'foreseeable future' to statements about absence of capital returns.",
+    "date": "2026-02-20",
+    "provenance": "auto:thesis-agent-Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E28",
+    "url": "",
+    "quote": "Analytical assessment: 60-65% probability PDD beats Q4 EPS consensus, based on interest income tailwinds, Q4 seasonality, and Temu US recovery.",
+    "date": "2026-03-23",
+    "provenance": "manual",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E29",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial",
+    "quote": "PDD Q3 2025: revenue RMB 108.3B (+9% YoY), net income RMB 29.3B (+17% YoY). Operating profit RMB 25.0B.",
+    "date": "2025-11-18",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E30",
+    "url": "https://www.businesswire.com/news/home/20260318501558/en/Alibaba-Group-Announces-December-Quarter-2025-Results",
+    "quote": "Alibaba fiscal Q3 FY26 (Dec 2025): revenue RMB 284.8B (+1.7% reported), GAAP net income RMB 15.6B (-66% YoY). Adjusted EBITDA decreased 57%.",
+    "date": "2026-03-18",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E31",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-fourth-quarter-and-full-year-2025-results",
+    "quote": "JD Q4 2025: revenue RMB 352.3B (+1.5% YoY), net loss of RMB 2.7B. Full year revenue RMB 1,309.1B (+13%).",
+    "date": "2026-03-05",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E32",
+    "url": "https://finance.yahoo.com/quote/3690.HK/",
+    "quote": "Meituan Q3 2025: revenue RMB 95.5B (+2% YoY), net loss RMB 18.6B. Food delivery segment lost RMB 15.3B.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E33",
+    "url": "https://www.businesswire.com/news/home/20260318501558/en/Alibaba-Group-Announces-December-Quarter-2025-Results",
+    "quote": "Alibaba quick commerce revenue surged 56% YoY to RMB 20.8B. E-commerce adjusted EBITA fell RMB 25.8B YoY (from RMB 60.4B to RMB 34.6B).",
+    "date": "2026-03-18",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E34",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-fourth-quarter-and-full-year-2025-results",
+    "quote": "JD new business segment (primarily food delivery) lost RMB 14.8B in Q4, roughly equal to combined operating profit of JD Retail and JD Logistics (RMB 15.9B).",
+    "date": "2026-03-05",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E35",
+    "url": "https://vino-joy.com/2025/12/03/price-war-drives-meituan-to-record-quarterly-loss-pressuring-chinas-food-delivery-sector/",
+    "quote": "Meituan food delivery segment lost RMB 15.3B in Q3 2025, a record quarterly loss driven by price war with Alibaba and JD.",
+    "date": "2025-12-03",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E36",
+    "url": "",
+    "quote": "Analytical computation: combined food delivery losses across BABA, JD, and Meituan exceeded RMB 100B in 2025.",
+    "date": "2026-03-23",
+    "provenance": "manual",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E37",
+    "url": "https://ir.jd.com/news-releases",
+    "quote": "JD CEO Xu Ran on Q4 2025 earnings call: 'Total investment in food delivery in 2026 is expected to be lower than in 2025.'",
+    "date": "2026-03-05",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E38",
+    "url": "https://finance.yahoo.com/quote/PDD/",
+    "quote": "Gross margins from Yahoo quoteSummary: PDD 56.6%, BABA 40.8%, JD 9.3%. PDD's margin reflects platform model vs JD's 1P retail.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E39",
+    "url": "https://app.alpaca.markets/",
+    "quote": "PDD closed $96.25 on Mar 23. 50d SMA $104.20 (price 7.6% below), 125d SMA $116.31 (17.2% below). Death cross. RSI(14) 38.3. Selling volume 1.28x buying over 20 sessions.",
+    "date": "2026-03-23",
+    "provenance": "auto:alpaca-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E40",
+    "url": "https://www.tipranks.com/stocks/pdd/forecast",
+    "quote": "Implied move of +/-8.70% around March 25 earnings. At $96.25, implies post-earnings range of $87.87-$104.63.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E41",
+    "url": "https://fintel.io/ss/us/pdd",
+    "quote": "OI put/call ratio flipped from 0.35 at Nov earnings (heavily bullish) to 1.05 now (mildly bearish). Complete sentiment reversal.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E42",
+    "url": "https://www.nasdaq.com/market-activity/stocks/pdd/short-interest",
+    "quote": "Short interest 2.68-4.09% of float, well below peer average of 9.36%. Not a crowded short. 262 institutions added vs 308 decreased positions.",
+    "date": "2026-03-15",
+    "provenance": "auto:thesis-agent-Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E43",
+    "url": "https://www.dataroma.com/m/holdings.php?m=HIMA",
+    "quote": "Li Lu's Himalaya Capital initiated $483M PDD position at ~$104.92 in Q2 2025, making PDD its 2nd largest holding at 17.93%. Has not sold despite stock falling 14% below cost.",
+    "date": "2026-02-14",
+    "provenance": "auto:thesis-agent-Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E44",
+    "url": "https://investor.pddholdings.com/investor-events",
+    "quote": "PDD Q4/FY2025 earnings scheduled for March 25, 2026 before US market open (7:30 AM ET).",
+    "date": "2026-03-18",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E45",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/11/customs-reform/",
+    "quote": "EU Council approved EUR 3 flat customs duty on parcels under EUR 150, effective July 1, 2026. 91% of 4.6 billion small shipments in 2024 came from China.",
+    "date": "2026-02-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E46",
+    "url": "https://www.scmp.com/tech/policy/article/3291234",
+    "quote": "SAMR/NDRC/CAC 'Rules for Price Behavior on Internet Platforms' take effect April 10, 2026. Ban platforms from imposing lowest-price agreements on merchants.",
+    "date": "2025-12-09",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E47",
+    "url": "https://www.cnbc.com/2026/03/16/trump-china-iran-xi-war-trade.html",
+    "quote": "Trump-Xi summit delayed approximately one month from original March 31 date. Trade deal optionality remains.",
+    "date": "2026-03-16",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E48",
+    "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases",
+    "quote": "USTR initiated two new Section 301 investigations targeting China. Hearings scheduled April 28 (forced labor) and May 5 (overcapacity).",
+    "date": "2026-03-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E49",
+    "url": "https://www.scmp.com/tech/policy/article/3291234",
+    "quote": "SAMR rules explicitly ban: leveraging dominant scale to impose lowest-price agreements, traffic throttling to pressure price-cutting, forced promotion participation. Direct hit on Pinduoduo's core mechanism.",
+    "date": "2025-12-09",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E50",
+    "url": "https://www.chinadaily.com.cn/a/202512/31/WS69547f25a310d6866eb3159c.html",
+    "quote": "SAMR pricing rules run for 5 years (through April 10, 2031). Article 26 safe harbor: 'minor' violations corrected promptly face no administrative punishment.",
+    "date": "2025-12-31",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E51",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/11/customs-reform/",
+    "quote": "EUR 3 duty impact: 30% cost increase on EUR 10 item, 6% on EUR 50 item. Romania (25 lei/~EUR 5, Jan 1) and France (EUR 2, Mar 1) already implemented own levies.",
+    "date": "2026-02-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E52",
+    "url": "https://blog.getbyrd.com/en/de-minimis-eu",
+    "quote": "Quantified impact of EU de minimis elimination: 10-30% cost increase on low-value items from China. Far less severe than US tariffs (47.5-145%).",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E53",
+    "url": "https://www.avalara.com/blog/en/europe/2025/11/eu-end-150-customs-duty-exemption-2026.html",
+    "quote": "De minimis elimination timeline: US ended Aug 29, 2025; EU ends Jul 1, 2026; UK plans removal by Mar 2029. Tariff-free cross-border e-commerce model being systematically shut down.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E54",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD FY2025 consensus EPS: CNY 75.38. FY2026 consensus EPS: CNY 86.08 (+14.2% growth). PDD trades at ~9.1x FY2025 EPS.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E55",
+    "url": "https://finance.yahoo.com/quote/PDD/",
+    "quote": "PDD forward P/E ~9.3x. BABA FY2026 consensus implies -48.4% EPS decline. PDD's valuation is cheapest on ex-cash basis among peers.",
+    "date": "2026-03-23",
+    "provenance": "auto:yahoo-finance-api",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E56",
+    "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260316_1962783.html",
+    "quote": "China NBS: Jan-Feb 2026 retail sales +2.8% YoY, beating consensus expectations.",
+    "date": "2026-03-16",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E57",
+    "url": "https://www.benzinga.com/markets/tech/26/03/51261552/jd-com-launches-joybuy-in-europe-to-take-on-amazon",
+    "quote": "JD launched Joybuy in Europe on March 16, 2026, directly competing with Temu and Amazon in EU market.",
+    "date": "2026-03-16",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E58",
+    "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-files-fourth-anti-ccp-lawsuit",
+    "quote": "Texas AG sued Temu Feb 19, 2026 over data practices. Governor Abbott banned Temu from state devices Jan 26, 2026.",
+    "date": "2026-02-19",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E59",
+    "url": "https://www.whitehouse.gov/",
+    "quote": "US-China tariff truce: ~47.5% tariff rate through November 10, 2026. Framework at risk of expiration.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E60",
+    "url": "https://www.scmp.com/",
+    "quote": "Food delivery market share estimates: Meituan ~70%, Alibaba (Ele.me/Flash Buy) ~25-30%, JD ~5%. PDD does not participate.",
+    "date": "2025-07",
+    "provenance": "auto:thesis-agent-Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E61",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-fourth-quarter-and-full-year-2025-results-and",
+    "quote": "JD.com swung to Q4 2025 net loss of RMB 2.7B (vs RMB 9.9B profit YoY), its first loss in nearly 4 years, driven by food delivery: Q4 2025: net loss RMB 2.7B vs net income RMB 9.9B in Q4 2024. Non-GAAP net profit: RMB 1.084B (-90.4% YoY), margin of 0.31%. The new business segment (primarily food delivery) operating loss was RMB 14.8B in Q4, roughly equal to JD Retail + JD Logistics combined operating profit of RMB 15.9B.",
+    "date": "2026-03-05",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E62",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-fourth-quarter-and-full-year-2025-results-and",
+    "quote": "JD.com FY2025 net income fell 53% to RMB 19.6B, with food delivery losses offsetting core business growth: FY2025 net income attributable to shareholders: RMB 19.6B (-52.66% YoY). JD Retail full-year operating margin expanded 52bps to 4.6% with strong double-digit revenue and profit growth. Full-year gross margin increased to 16%. Free cash flow: RMB 6B for full year.",
+    "date": "2026-03-05",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E63",
+    "url": "https://news.futunn.com/en/post/69686782/jdcom-total-investment-in-food-delivery-will-decrease-by-2026",
+    "quote": "JD food delivery burned through ~RMB 34B+ in 2025, but losses narrowed 20% QoQ in Q4; management expects lower investment in 2026: Q4 food delivery losses: RMB 14.8B (narrowing ~20% from Q3). CEO Xu Ran: 'Total investment in food delivery in 2026 is expected to be lower than in 2025.' JD plans to monetize by providing services to merchants in 2026. Food delivery launched February 2025, daily orders reached 25M by June 18.",
+    "date": "2026-03-05",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E64",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-fourth-quarter-and-full-year-2025-results-and",
+    "quote": "JD.com's user base exceeded 700M annual active customers, with shopping frequency up 40%+ in 2025: Annual active customers surpassed 700M in 2025. Shopping frequency increased over 40% YoY. Q4 gross margin expanded 32bps to 15.6%. JD declared annual dividend of US$0.5/share ($1.0/ADS, ~$1.4B total). Repurchased 6.3% of outstanding shares ($3B) in 2025.",
+    "date": "2026-03-05",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E65",
+    "url": "https://www.foodtalks.cn/en/news/57734",
+    "quote": "JD food delivery captured ~5% market share in under a year, reaching 25M daily orders by June 2025: JD food delivery launched February 2025. By June 18, daily orders reached 25M. Market share estimated at ~5% of food delivery orders by mid-2025. JD leveraged zero-commission offers for merchants, 100,000 full-time riders, and RMB 100B subsidy campaign.",
+    "date": "2025-09",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E66",
+    "url": "https://finance.yahoo.com/news/meituan-mpngf-q3-2025-earnings-170042754.html",
+    "quote": "Meituan Q3 2025 revenue was RMB 95.5B, up only 2% YoY, with operating loss of RMB 19.8B — its first loss in three years: Q3 2025 total revenue: RMB 95.5B (+2% YoY). Operating loss: RMB 19.8B (vs profit in Q3 2024). Net loss: RMB 18.6B. Adjusted net loss: RMB 16B. Cost of revenue ratio rose 12.9 ppts YoY to 73.6%. Cash from operations turned negative at RMB -22.1B. This was driven by massive subsidies to defend market share against JD and Alibaba.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E67",
+    "url": "https://vino-joy.com/2025/12/03/price-war-drives-meituan-to-record-quarterly-loss-pressuring-chinas-alcohol-retailers/",
+    "quote": "Meituan's food delivery segment alone lost RMB 15.3B in Q3 2025 due to subsidy war with JD and Alibaba: Food delivery segment operating loss: RMB 15.3B in Q3 2025. Alibaba launched RMB 50B subsidy plan for Taobao Flash Delivery in July 2025. JD launched RMB 100B subsidy campaign in April 2025. Meituan was forced to increase courier incentives and user subsidies to defend position.",
+    "date": "2025-12-03",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E68",
+    "url": "https://www.scmp.com/tech/big-tech/article/3315095/meituans-food-delivery-market-dominance-china-remains-stable-70-report-says",
+    "quote": "Meituan maintained ~64-70% food delivery market share despite losses, with record 150M daily orders in July 2025: Meituan's food delivery market share remained stable at approximately 70% by order volume (some analysts say 64-67% when including instant retail). Record daily orders: 120M on July 5, rising to 150M on July 12, 2025 (avg delivery 34 min). DAU and MTU hit all-time highs in Q3.",
+    "date": "2025-07",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E69",
+    "url": "https://finance.yahoo.com/news/meituan-mpngf-q3-2025-earnings-170042754.html",
+    "quote": "Meituan's overseas arm Keeta turned profitable in Hong Kong in October 2025, 29 months after launch: Keeta in Hong Kong reached profitability in October 2025, having launched in May 2023. This is a milestone that validates the international model, though the scale is far smaller than the domestic business.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E70",
+    "url": "https://finance.yahoo.com/news/meituan-mpngf-q3-2025-earnings-170042754.html",
+    "quote": "Meituan expects losses peaked in Q3 2025 but anticipates continued substantial losses in Q4; Q4/FY2025 results due March 26, 2026: Management guidance: food delivery losses expected to have peaked in Q3 2025. Q4 will still see 'continued substantial losses.' Long-term expectation is that food delivery profits will return to 'a reasonable level.' Results scheduled for March 26, 2026 after market close.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E71",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "quote": "PDD Q3 2025 revenue was RMB 108.3B, up 9% YoY, continuing a deceleration trend from 59% full-year 2024 growth: Q1 2025: RMB 95.7B (+10% YoY), Q2 2025: RMB 104.0B (+7% YoY), Q3 2025: RMB 108.3B (+9% YoY). Full year 2024 revenue was RMB 393.8B with 59% growth. Revenue growth has collapsed from ~60% to single digits in three quarters.",
+    "date": "2025-11-18",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E72",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "quote": "PDD Q3 2025 operating profit was RMB 25.0B with 23% operating margin, roughly flat YoY despite revenue growth: Operating profit: RMB 25,025.9M (vs RMB 24,292.5M in Q3 2024). Non-GAAP operating profit: RMB 27,079.4M (vs RMB 26,770.5M). Non-GAAP operating margin was 25%, down from 27% YoY. Cost of revenues increased 18% to RMB 46.8B.",
+    "date": "2025-11-18",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E73",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "quote": "PDD Q3 2025 net income rose 17% YoY to RMB 29.3B despite margin compression, partly due to strong operating cash flow: Net income attributable to ordinary shareholders: RMB 29,328.2M (+17% YoY from RMB 24,980.7M). Basic EPS: RMB 20.96/ADS. Net cash from operations: RMB 45,660.5M (vs RMB 27,522.3M YoY). Cash position: RMB 423.8B as of Sep 30, 2025.",
+    "date": "2025-11-18",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E74",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "quote": "PDD's profitability recovered in Q3 after sharp declines in Q1 — Q1 net income fell 47% YoY, Q2 fell 4%, Q3 rose 17%: Q1 2025: operating profit -38% YoY, net income -47% YoY. Q2 2025: operating profit -21% YoY, net income -4% YoY. Q3 2025: operating profit roughly flat YoY, net income +17% YoY. The RMB 100B merchant support program weighed most heavily on Q1.",
+    "date": "2025-11-18",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E75",
+    "url": "https://www.baiguan.news/p/china-food-delivery-war-alibaba-vs-meituan-jd-taobao-flash-buy-subsidy-strategy-dau-growth-rider-network-luckin-coffee-heytea-yum-china-investors-2025-ecommerce-retail-market-share",
+    "quote": "Pinduoduo's DAU fell behind Taobao by mid-2025 after being roughly equal in April, a significant engagement reversal: April 2025 (QuestMobile): Taobao DAU averaged 374M, only 5.5M above Pinduoduo. By July, the gap had widened to ~50M. On August 7 ('First Autumn Milk Tea' promotion), Taobao DAU exceeded Pinduoduo by 100M+ in a single day. The divergence was driven by Taobao's food delivery subsidies pulling users to the app.",
+    "date": "2025-08",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E76",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-report-fourth-quarter-and-fiscal-year-2025",
+    "quote": "PDD Q4 2025 results due March 25, 2026 — will reveal whether revenue deceleration continued and impact of tariff headwinds on Temu: PDD Holdings to report Q4 and full fiscal year 2025 results before U.S. markets open on March 25, 2026.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E77",
+    "url": "https://www.stats.gov.cn/english/PressRelease/202603/t20260316_1962783.html",
+    "quote": "China Jan-Feb 2026 retail sales rose 2.8% YoY to RMB 8.61 trillion, beating consensus of 2.5% and accelerating from 0.9% in December 2025: NBS reported March 16, 2026: China retail sales +2.8% YoY in Jan-Feb 2026, the strongest growth since October 2025. Clothing/footwear/textiles surged 10.4% (vs 0.6% in Dec). Home appliances rebounded to +3.3% (vs -18.7% in Dec). Service retail sales grew 5.6% YoY. However, auto sales continued declining (-7.3%), and unemployment crept up to 5.3%, the highest since August. Industrial production rose 6.3% and fixed asset investment +1.8%.",
+    "date": "2026-03-16",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E78",
+    "url": "https://www.scmp.com/economy/economic-indicators/article/3346697/chinas-economy-starts-2026-strongly-retail-sales-investment-rise",
+    "quote": "Capital Economics warns fiscal policy may provide less impulse in 2026 vs 2025, which 'will likely weigh on growth later in the year': Capital Economics noted that while 'growth accelerated at the start of the year, driven by both strong exports and a pickup in domestic demand,' fiscal policy may provide less impulse in 2026 compared to 2025. This is a headwind for domestic e-commerce platforms like Pinduoduo that depend on consumer spending growth.",
+    "date": "2026-03-16",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E79",
+    "url": "https://www.benzinga.com/markets/tech/26/03/51261552/jd-com-launches-joybuy-in-europe-to-take-on-amazon-alibaba-groups-aliexpress-and-pdd-holdings-temu",
+    "quote": "JD.com launched Joybuy in Europe (March 16, 2026) to compete with Temu — increasing competitive pressure in Temu's growth markets: JD.com launched its Joybuy platform in several European markets as of March 16, 2026, aiming to compete directly with Amazon, Alibaba's AliExpress, and PDD's Temu. This increases competitive pressure in the EU market right as the de minimis exemption removal adds cost headwinds.",
+    "date": "2026-03-16",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E80",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-report-fourth-quarter-and-fiscal-year-2025",
+    "quote": "PDD Holdings reports Q4 and FY2025 earnings before US market open on March 25, 2026, with conference call at 7:30 AM ET: PDD Holdings announced on March 18, 2026 that it will report unaudited financial results for Q4 and fiscal year ended December 31, 2025, before U.S. markets open on Wednesday, March 25, 2026. Management will hold an earnings conference call at 7:30 AM ET (11:30 AM GMT, 7:30 PM HKT).",
+    "date": "2026-03-18",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E81",
+    "url": "https://www.tipranks.com/stocks/pdd/earnings",
+    "quote": "Analyst consensus estimates Q4 2025 EPS at $3.04-$3.21 and quarterly revenue at ~$17.93B: TipRanks estimates Q4 2025 EPS at $3.04. Benzinga/Nasdaq consensus shows EPS of $3.21 and quarterly revenue of $17.93B. In Q3 2025, PDD beat EPS estimates ($2.96 vs $1.99 expected) by 49%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E82",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-pdd-holdings-misses-q3-2025-forecasts-stock-drops-93CH-4365318",
+    "quote": "PDD stock has historically dropped after earnings even when beating estimates — Q3 2025 fell 7.33% post-earnings despite 17% YoY net income growth: Q3 2025 results on Nov 18, 2025 showed revenue of RMB 108.3B (up 9% YoY) and 17% YoY net income growth to RMB 29.3B, yet stock fell 7.33%. Revenue missed consensus (RMB 108.3B vs expected 145.2B by some estimates). Management warned of continued financial fluctuations due to merchant support investments and explicitly declined to provide forward guidance.",
+    "date": "2025-11-18",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E83",
+    "url": "https://www.alphaspread.com/security/nasdaq/pdd/investor-returns/i/buybacks",
+    "quote": "PDD sits on $59.5B cash and has never paid a dividend or conducted buybacks — any capital return announcement would be a major positive surprise: PDD holds RMB 420B+ ($59.5B) in cash and short-term investments, the largest net cash position of any public company that doesn't pay dividends or repurchase shares. Buyback yield is 0.00%. For the first time, PDD explicitly added 'foreseeable future' to statements about absence of dividends/buybacks. Forward P/E is 8.44x with 34 analysts giving average price target of $148.53 (vs ~$96.61 current). A buyback or dividend would be a significant positive catalyst given the massive cash pile.",
+    "date": "2026-02-20",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E84",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "quote": "Key earnings watch items: (1) Temu segment disclosure, (2) capital return policy, (3) RMB 100B merchant support program spending trajectory, (4) guidance on tariff impacts: PDD has never separately disclosed Temu financials. Management has committed to RMB 100B merchant support program which compresses margins. No forward guidance given in Q3. Any positive surprise on these fronts — especially Temu disclosure or capital return — would be a significant catalyst. Stock is down ~24% over past year and ~15% YTD, creating low expectations.",
+    "date": "2025-11-18",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E85",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/02/11/council-gives-final-green-light-to-new-customs-duty-rules-for-small-parcels/",
+    "quote": "EU abolishes EUR 150 de minimis customs duty exemption on July 1, 2026, imposing EUR 3 flat duty per item category on low-value e-commerce parcels — directly impacts Temu's EU business: EU Council formally approved (February 11, 2026) a EUR 3 flat customs duty on small parcels valued under EUR 150 entering the EU, effective July 1, 2026 through July 1, 2028. The duty is levied on each different tariff sub-heading in a parcel. 91% of the 4.6 billion small shipments entering the EU in 2024 came from China. The duty applies to goods for which non-EU sellers are registered in the IOSS (Import One-Stop Shop), encompassing 93% of all e-commerce flows to the EU.",
+    "date": "2026-02-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E86",
+    "url": "https://www.vatcalc.com/eu/eu-e3-levy-low-value-e-commerce-import-package-july-2026/",
+    "quote": "Some EU member states already implemented national measures ahead of the EU-wide July 1 date: Romania (January 1, 2026) and France (March 1, 2026): Romania introduced a logistics fee of 25 lei (~EUR 5) on sub-EUR 150 goods effective January 1, 2026. France introduced a temporary Small Parcels Tax (SPT) of EUR 2 per unique HS6 item category effective March 1, 2026. These early-mover measures already affect Temu's business in these markets before the EU-wide rule takes effect.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E87",
+    "url": "https://blog.getbyrd.com/en/de-minimis-eu",
+    "quote": "Quantified impact: EUR 3 per item on a typical Temu basket would add 10-30% cost to low-value items, but far less severe than US 145% tariff experience: A EUR 3 flat duty on a EUR 10 item = 30% cost increase; on a EUR 50 item = 6% cost increase. By comparison, US tariffs peaked at 145% before settling at ~47.5%. Temu's EU growth target for 2026 was ~30%. The EUR 3 duty is an interim measure (2 years) before normal customs tariffs replace it when the EU Customs Data Hub is operational. A separate handling fee is still under negotiation. The impact is meaningful but manageable compared to the US tariff shock.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E88",
+    "url": "https://www.avalara.com/blog/en/europe/2025/11/eu-end-150-customs-duty-exemption-2026.html",
+    "quote": "Global trend: US ended de minimis August 29, 2025; EU July 1, 2026; UK plans removal by March 2029 — shrinking the tariff-free cross-border e-commerce model globally: US ended $800 de minimis exemption August 29, 2025. EU abolishes EUR 150 threshold July 1, 2026. UK confirmed it will remove GBP 135 threshold by March 2029. This represents a structural headwind for Temu's cross-border model in all three major Western markets within 3 years.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E89",
+    "url": "https://www.scmp.com/tech/tech-trends/article/3337315/china-bans-e-commerce-platforms-forcing-lowest-prices-or-abusing-algorithms",
+    "quote": "SAMR/NDRC/CAC 'Rules for Price Behavior on Internet Platforms' take effect April 10, 2026, banning forced lowest-price practices — directly targeting Pinduoduo's core competitive strategy: Three Chinese agencies (NDRC, SAMR, CAC) jointly issued the 'Rules for Price Behavior on Internet Platforms' (Development and Reform Price Regulation [2025] No. 1607) on December 9, 2025, effective April 10, 2026 through April 10, 2031. Key provisions: (1) Ban on platforms leveraging dominant scale to impose 'lowest price' agreements on merchants; (2) Ban on traffic throttling, search ranking demotions, or algorithm penalties to pressure merchants into predatory price-cutting; (3) Ban on forced promotion participation or exclusive pricing arrangements; (4) Requirement for minimum 7-day notice for fee changes; (5) Fair fee standards based on actual costs.",
+    "date": "2025-12-09",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E90",
+    "url": "https://ppc.land/china-mandates-new-rules-targeting-platform-pricing-and-behavioral-tracking-compliance/",
+    "quote": "These rules directly target Pinduoduo's 'lowest price' mechanism which has been its core competitive advantage and a key source of merchant complaints: Pinduoduo's platform model relies heavily on algorithmic traffic allocation that rewards the lowest-priced listings, effectively forcing merchants into price wars. The new rules explicitly ban this practice. Article 26 provides a minor safe harbor: 'Where the illegal acts are minor and corrected in a timely manner without causing harmful consequences, no administrative punishment shall be imposed.' Article 27 extends rules beyond traditional marketplaces to 'self-built website operators.' Enforcement approach may be initially lenient given the safe harbor provision, but the legal framework fundamentally challenges PDD's business model.",
+    "date": "2025-12-09",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E91",
+    "url": "https://www.chinadaily.com.cn/a/202512/31/WS69547f25a310d6866eb3159c.html",
+    "quote": "Impact assessment: The rules could force PDD to restructure its core traffic allocation algorithm, potentially reducing its price competitiveness advantage, but enforcement severity remains uncertain: The regulations aim to 'standardize relevant price behavior, protect the legitimate rights and interests of consumers and operators, and promote the innovation and healthy development of the platform economy.' The 5-year validity period (through April 10, 2031) signals this is structural, not temporary. However, the safe harbor clause (Article 26) and the fact that Chinese regulatory enforcement is often gradual mean the near-term stock impact could be muted if PDD signals compliance without fundamental model changes.",
+    "date": "2025-12-31",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E92",
+    "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-files-fourth-anti-ccp-lawsuit-three-days-suing-temu-deceptive-marketing",
+    "quote": "Texas AG Paxton sued PDD Holdings/Temu on February 19, 2026, calling it 'spyware disguised as a shopping app' — seeks up to $250K per violation for elderly consumers: Filed in Collin County District Court on February 19, 2026. Allegations: (1) Temu is 'spyware disguised as a shopping app'; (2) Fake discount pricing (showing 'sale' prices that are actually regular market prices); (3) Illegal data harvesting. Four violations of Texas Deceptive Trade Practices Act cited. Seeks injunction + potentially more than $1M in monetary relief, with up to $10,000 per violation ($250,000 per violation targeting consumers 65+). This was the 4th anti-CCP lawsuit by Paxton that week.",
+    "date": "2026-02-19",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E93",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-updates-texas-prohibited-technologies-list",
+    "quote": "Texas Governor Abbott banned Temu/PDD from state government devices on January 26, 2026, alongside 25 other Chinese tech firms: Governor Abbott updated Texas's Prohibited Technologies List on January 26, 2026 in consultation with Texas Cyber Command (TXCC). PDD (Pinduoduo/Temu) added alongside Alibaba, Shein, SenseTime, Megvii, Xiaomi, Baidu, TP-Link, Hisense, TCL, and others. Restrictions apply to state employees and government-issued devices. This follows the 2022 TikTok ban template.",
+    "date": "2026-01-26",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E94",
+    "url": "https://news.bloomberglaw.com/us-law-week/texas-sues-temu-over-spyware-disguised-as-a-shopping-app",
+    "quote": "No specific hearing date found for Texas v. Temu lawsuit — case is in early procedural stage; federal class action in arbitration: The Texas state lawsuit was filed February 19, 2026, and appears to still be in early stages with no publicly available hearing date. Separately, a federal class action on Temu data privacy has been sent to arbitration per Temu's arbitration clause (as of March 16, 2026). The Texas case is a state AG enforcement action, not a class action, which gives it a different procedural posture but also means it may take months to reach a hearing.",
+    "date": "2026-02-20",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E95",
+    "url": "https://www.benzinga.com/markets/equities/26/03/51126230/amazon-rival-pdd-value-score-inches-higher-despite-texas-tech-ban-and-over-10-ytd-decline",
+    "quote": "Impact assessment: Texas legal risk is headline risk rather than financial risk in the near term — but it signals a broader US political pattern of targeting Chinese tech: PDD stock declined ~10% YTD through early March 2026, partly attributed to the Texas ban and lawsuits. The stock value score reached 89.99 (top 10th percentile) indicating the sell-off may have been excessive relative to fundamentals. Texas is one state AG action — financial exposure is limited ($1M+ range), but the pattern (TikTok ban template, 4 anti-CCP lawsuits in 3 days) suggests other states may follow. The headline risk affects sentiment more than fundamentals.",
+    "date": "2026-03-09",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E96",
+    "url": "https://www.cnbc.com/2026/03/16/trump-china-iran-xi-war-trade.html",
+    "quote": "Trump's planned Beijing visit (originally March 31-April 2) has been delayed ~1 month due to Iran conflict — a trade deal breakthrough would be a major positive catalyst for PDD: Trump was scheduled to visit Beijing March 31-April 2, 2026 for talks with Xi Jinping. On March 16-18, Trump confirmed the visit is delayed by 'a month or so' due to the Iran war, stating 'We are resetting the meeting.' Pre-summit negotiations were underway in Paris. Expected deliverables had narrowed to commercial purchases (soybeans) rather than grand bargains. Any tariff reduction or broader trade truce extension would be a significant positive catalyst for PDD given Temu's US exposure.",
+    "date": "2026-03-16",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E97",
+    "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/",
+    "quote": "Current US tariff on China stands at ~47.5% under November 2025 trade truce, down from 145% peak; truce suspends heightened reciprocal tariffs until November 10, 2026: After Trump-Xi meeting in South Korea (October 30, 2025), tariffs on Chinese exports to US set at ~47.5%, down from 145% peak. US lowered fentanyl tariffs by 10pp effective November 10, 2025. Reciprocal tariff suspension lasts until November 10, 2026. Product exclusions on 178 items extended to November 10, 2026. Supreme Court struck down IEEPA tariffs on Feb 20, 2026; Trump imposed replacement Section 122 tariffs of 10% (rising to 15%). Multiple tariff layers remain: steel/aluminum (50%), Section 301, Section 122 (10-15%), advanced chips (25%).",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E98",
+    "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production",
+    "quote": "USTR launched two new Section 301 investigations in March 2026 targeting China; hearings scheduled April 28 and May 5 — could result in new tariffs post-investigation: On March 11-12, 2026, USTR initiated: (1) Manufacturing overcapacity investigation targeting 16 economies including China — comments due April 15, hearing May 5, 2026 at ITC in Washington DC; (2) Forced labor investigation targeting 60 economies including China — comments due April 15, hearing April 28, 2026. These investigations follow the Supreme Court IEEPA ruling and could result in tariffs 'of the same breadth and level as the terminated IEEPA tariffs.' USTR Greer: 'Responsive actions can take several forms — tariffs, fees on services, negotiations or other measures.'",
+    "date": "2026-03-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E99",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-8-how-temu-responded-to",
+    "quote": "Quantified Temu US impact: estimated $5-10B revenue loss from tariffs depending on resolution timing; Temu already shifted to local US sellers with domestic fulfillment: If 145% tariff had continued through 2025, the estimated loss was ~$10B; with tariff reduction to 30% in May 2025, the impact was reduced. Other regions compensated at most $5B. Temu's growth target was 40-60% for 2025, revised to 30% for 2026. Temu shifted to local US sellers with domestic fulfillment model. Google Shopping ad impressions went from 19% (March 31) to 0% (April 12) in 2025 before recovering after tariff reduction.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E100",
+    "url": "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-march-23-march-27-2026",
+    "quote": "Options market is pricing an implied move of +/-8.70% for PDD around the March 25 earnings release: The at-the-money straddle for the closest post-earnings expiry prices an implied move of ~8.70%. At $96.25 close, this implies a range of roughly $87.87 to $104.63 post-earnings. This is based on standard straddle pricing methodology.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E101",
+    "url": "https://fintel.io/sopt/us/pdd",
+    "quote": "OI Put/Call Ratio is 1.05, indicating mildly bearish sentiment via options positioning: Open interest put/call ratio of 1.05 means slightly more put open interest than call OI. Puts are generally bearish bets, calls bullish. A ratio >1 indicates net bearish positioning. For context, PDD's Nov 2025 earnings had a much more bullish P/C ratio of 0.35.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E102",
+    "url": "https://www.dailypolitical.com/2026/03/18/pdd-sees-unusually-large-options-volume-nasdaqpdd.html",
+    "quote": "Unusual call options volume: 98,707 calls traded on a single day, 59% above normal daily average of 62,129: Stock traders acquired 98,707 call options on PDD in a single session — an increase of 59% compared to the typical daily volume of 62,129 call options. This could indicate speculative bullish bets ahead of earnings or hedging activity.",
+    "date": "2026-03-18",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E103",
+    "url": "https://www.marketbeat.com/stocks/NASDAQ/PDD/earnings/",
+    "quote": "Consensus analyst price target of $139.87 implies ~45% upside from current levels, but analysts are split (4 buy, 11 hold, 0 sell): 4 buy ratings, 11 hold ratings, 0 sell ratings. Average target: $139.87 (vs $96.25 current). Morgan Stanley target: $148.00 (Jan 15 report). Loop Capital target: $170.00 (Jan 6 report). The wide gap between analyst targets and current price suggests either deep value or structural risk not captured by sell-side models.",
+    "date": "2026-03-18",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E104",
+    "url": "https://marketchameleon.com/Overview/PDD/Earnings/Earnings-Charts/",
+    "quote": "Historical earnings moves have been large: Nov 2025 implied move was 7.0% ($9.15 on ~$131), current implied move of 8.7% is even larger: Nov 2025 earnings: implied move 7.0%, max OI at $140 call, P/C ratio 0.35 (very bullish). Current: implied move 8.7%, P/C ratio 1.05 (mildly bearish). The sentiment has flipped from heavily bullish to neutral-bearish between the two earnings events, while the expected magnitude of the move has increased.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E105",
+    "url": "https://www.nasdaq.com/market-activity/stocks/pdd/short-interest",
+    "quote": "Short interest is moderate at 2.68-4.09% of float (28.58M-33.78M shares), below peer average of 9.36%: Multiple data sources show varying short interest figures due to different reporting periods: (1) 22.86M shares / 2.68% of float (most recent NASDAQ report, showing decline from 23.72M). (2) 28.58M shares / 3.35% of outstanding. (3) 33.78M shares / 4.09% of float (with 9.95% increase). Short ratio (days to cover): 1.21-3.07 days depending on period. Peer group average short interest: 9.36% of float — PDD is well below peers.",
+    "date": "2026-03-15",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E106",
+    "url": "https://fintel.io/so/us/pdd",
+    "quote": "718 institutional owners hold 417.4M shares. Net activity is mildly negative: 262 added positions vs 308 decreased in most recent quarter.: 718 institutional owners/shareholders filed 13D/G or 13F forms. Total institutional shares: 417,426,734. In the most recent quarter: 262 institutions added shares, 308 decreased. Notable: MIRAE ASSET removed 39.3M shares (-99.1%) in Q2 2025. FMR LLC removed 12.7M shares (-45.9%) in Q2 2025. Major holders: BlackRock, Vanguard, Baillie Gifford, FMR, State Street.",
+    "date": "2026-02-15",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E107",
+    "url": "https://valuesider.com/guru/li-lu-himalaya-capital-management/portfolio",
+    "quote": "Li Lu's Himalaya Capital holds PDD as 4th largest position (14.64% of portfolio), initiated at $104.92 in Q2 2025, unchanged through Q4 2025 despite 14% decline: Q2 2025: Himalaya Capital initiated $483M position in PDD at avg price $104.92 — immediately 2nd largest holding at 17.93% of portfolio. Q3 2025: No changes. Q4 2025: Position weight declined to 14.64% (now 4th largest) due to share price decline, NOT selling. Li Lu is a prominent value investor known as the 'Chinese Warren Buffett'. His willingness to hold through drawdown signals conviction. Current price ($96.25) is ~8.3% below his estimated entry price.",
+    "date": "2026-02-14",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E108",
+    "url": "https://simplywall.st/stocks/us/retail/nasdaq-pdd/pdd-holdings/news/pdd-holdings-pdd-valuation-check-as-options-volatility-climb",
+    "quote": "PDD trades at approximately 8x forward earnings, suggesting deep value if growth holds: PDD currently trades at 8 times forward earnings. Analyst consensus projects CN¥555.7B revenue and CN¥147.1B earnings by 2028, requiring 10.7% yearly revenue growth. Fair value estimate: $148.52 (45% upside). Most pessimistic analysts assume 7.5% annual revenue growth and ~20% profit margins.",
+    "date": "2026-03-20",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E109",
+    "url": "Alpaca Markets API — daily bars",
+    "quote": "PDD closed at $96.25 on March 23, 2026, down 30.3% from its 6-month high of $138.10 (Oct 29, 2025): Daily close: $96.25. 6-month high: $138.10 on 2025-10-29. Intraday low on 3/23: $95.41. The stock has been in a persistent downtrend since late October 2025.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E110",
+    "url": "Alpaca Markets API — computed from daily bars",
+    "quote": "PDD is trading well below both its 50-day SMA ($104.20) and 125-day SMA ($116.31), in Death Cross territory: 50-day SMA: $104.20 (price 7.6% below). 125-day SMA (proxy for 200-day): $116.31 (price 17.2% below). The 50-day SMA is below the 125-day SMA, confirming Death Cross — a bearish technical signal. Computed from Alpaca daily close data.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E111",
+    "url": "Alpaca Markets API — computed from daily bars",
+    "quote": "RSI(14) at 38.3 — approaching oversold but not yet there: RSI(14) computed from last 14 daily closes = 38.3. Below 40 indicates bearish momentum but not yet in oversold territory (below 30). The stock is leaning bearish but has room to fall further before hitting classic oversold signals.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E112",
+    "url": "Alpaca Markets API — daily bars volume data",
+    "quote": "Selling volume is elevated: down-day volume 1.28x higher than up-day volume over last 20 days, with recent 5-day volume 1.36x the 20-day average: Last 20 days: 10 down days (avg vol 207,733) vs 10 up days (avg vol 162,237). Down/up volume ratio: 1.28x. Last 5-day avg volume: 252,481 vs 20-day avg: 184,985 (1.36x). March 19 saw a volume spike of 489,621 shares — the highest in recent weeks — on a -3.3% down day ($100.72 to $97.44).",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E113",
+    "url": "Alpaca Markets API — computed from daily bars",
+    "quote": "Key support at $95 (psychological + 6-month low zone), resistance at $100 (former support now broken), $105, and $110: 6-month low: $96.18 (Mar 20, 2026). Intraday low: $95.41 (Mar 23). The $100 level was tested and held multiple times in Feb 2026 before breaking down on Mar 18-19. Next support is the $95 psychological level. Above, $100 is now resistance (former support), with $105 as the Feb-Mar consolidation zone and $110 as prior support turned resistance.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "E114",
+    "url": "Alpaca Markets API — 1-hour bars",
+    "quote": "Hourly chart shows persistent selling pressure: stock fell from $105 on Mar 17 to $96.25 on Mar 23, a 3-day decline of 7.8%: Hourly bars: Mar 17 open $105.04, closed $104.38. Mar 18: opened $103.69, broke down through $101, closed $100.72. Mar 19: gapped down to $99.06, sold off to $96.90 intraday, closed $97.44. Mar 20: continued selling, closed $96.18. Mar 23: tested $95.41 intraday, closed $96.25. Each day saw lower highs and lower lows — a textbook downtrend.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E115",
+    "url": "Alpaca Markets API — computed from daily bars",
+    "quote": "30-day price momentum is -6.8%, with the 30-day average ($102.58) significantly below the prior 30-day average ($110.08): Last 30 trading days average close: $102.58. Prior 30 trading days average close: $110.08. Momentum = -6.8%. This confirms accelerating downtrend — the stock is not just declining, it's declining faster.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E116",
+    "url": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "quote": "BABA FY2026 (ending Mar 2026) consensus EPS is CNY 33.74 from 23 analysts, showing -48.4% YoY decline from CNY 65.41. Revenue consensus is CNY 1,026B from 36 analysts, +3.0% growth. The massive EPS decline likely reflects heavy AI capex and Temu competitive spending.: FY2026 earningsEstimate avg: 33.74442 CNY, yearAgoEps: 65.41, growth: -48.41%. revenueEstimate avg: 1,026,407,205,560 CNY, yearAgoRevenue: 996,347,000,000, growth: 3.02%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E117",
+    "url": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "quote": "BABA FY2027 consensus EPS is CNY 55.34 from 33 analysts, +64% YoY recovery. Revenue consensus is CNY 1,145B, +11.6% growth. Analysts project a strong earnings recovery as investment spending normalizes.: FY2027 earningsEstimate avg: 55.34228 CNY, yearAgoEps: 33.74442, growth: 64.0%. revenueEstimate avg: 1,145,211,800,480 CNY, growth: 11.57%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E118",
+    "url": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "quote": "BABA EPS estimates have been cut dramatically over 90 days. FY2026 consensus fell from CNY 46.30 to 33.74 — a 27% cut. FY2027 fell from CNY 65.64 to 55.34 — a 16% cut. In the last 30 days alone, 5 analysts revised down and 0 revised up for both FY2026 and FY2027.: FY2026 epsTrend: current 33.74, 7d 42.83, 30d 43.17, 60d 43.48, 90d 46.30. FY2026 epsRevisions: upLast30days 0, downLast30days 5. FY2027 epsTrend: current 55.34, 90d 65.64. FY2027 epsRevisions: upLast30days 0, downLast30days 5.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E119",
+    "url": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "quote": "BABA has missed EPS estimates for four consecutive quarters, with misses getting progressively worse: Q1 FY26 -2.3%, Q2 -4.7%, Q3 -24.6%, Q4 (Dec 2025) -35.2%. This is a deteriorating trend that undermines analyst credibility on BABA earnings.: Q1 FY26 (Mar'25): actual 12.52, est 12.81, surprise -2.30%. Q2 (Jun'25): actual 14.75, est 15.47, surprise -4.66%. Q3 (Sep'25): actual 4.36, est 5.78, surprise -24.55%. Q4 (Dec'25): actual 7.09, est 10.94, surprise -35.18%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E120",
+    "url": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "quote": "BABA mean price target is $191.96 (range $126.65-$258.23) from 41 analysts vs current $126.06, implying 52.3% upside. Recommendation is Strong Buy at 1.38 — the most bullish consensus among the three companies.: targetMeanPrice: 191.96428, targetLowPrice: 126.65242, targetHighPrice: 258.23248, currentPrice: 126.06, recommendationMean: 1.38095, recommendationKey: strong_buy, numberOfAnalystOpinions: 41.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E121",
+    "url": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "quote": "BABA financial profile shows lower margins than PDD: gross margin 40.8%, operating margin 7.1%, profit margin 8.9%, ROE 8.2%. Debt-to-equity is 25.9% with CNY 338B cash vs CNY 287B debt.: grossMargins: 0.40755, operatingMargins: 0.07078, profitMargins: 0.08912, returnOnEquity: 0.08233, totalCash: 338,109,988,864, totalDebt: 286,528,995,328, debtToEquity: 25.908. earningsQuarterlyGrowth: -66.7%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E122",
+    "url": "https://finance.yahoo.com/quote/JD/analysis/",
+    "quote": "JD FY2026 (calendar year) consensus EPS is CNY 20.36 from 29 analysts, +14.3% YoY growth from CNY 17.82. Revenue consensus is CNY 1,391B from 38 analysts, +6.2% growth. JD shows moderate top-line growth with meaningful EPS expansion.: FY2026 earningsEstimate avg: 20.36325 CNY, yearAgoEps: 17.82, growth: 14.27%. revenueEstimate avg: 1,390,558,854,520 CNY, yearAgoRevenue: 1,309,085,000,000, growth: 6.22%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E123",
+    "url": "https://finance.yahoo.com/quote/JD/analysis/",
+    "quote": "JD FY2027 consensus EPS is CNY 29.01 from 28 analysts, +42.5% YoY growth. Revenue consensus is CNY 1,480B, +6.4% growth. Analysts expect accelerating margin expansion despite modest top-line.: FY2027 earningsEstimate avg: 29.01256 CNY, yearAgoEps: 20.36325, growth: 42.48%. revenueEstimate avg: 1,479,612,798,710 CNY, growth: 6.40%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E124",
+    "url": "https://finance.yahoo.com/quote/JD/analysis/",
+    "quote": "JD FY2026 EPS estimates have been cut 20% over 90 days — from CNY 25.50 to 20.36. In the last 30 days, revisions are mixed: 11 up, 13 down. FY2027 EPS also cut from CNY 33.72 to 29.01 (14% decline).: FY2026 epsTrend: current 20.36, 30d 21.15, 60d 22.64, 90d 25.50. FY2026 epsRevisions: upLast30days 11, downLast30days 13. FY2027 epsTrend: current 29.01, 90d 33.72. FY2027 epsRevisions: upLast30days 11, downLast30days 9.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E125",
+    "url": "https://finance.yahoo.com/quote/JD/analysis/",
+    "quote": "JD beat earnings estimates for three consecutive quarters (Q1-Q3 2025) before missing in Q4 2025. Q1'25 +18.7%, Q2'25 +39.8%, Q3'25 +29.2%, Q4'25 -14.6%. The Q4 miss ended a strong beat streak.: Q1'25 (Mar): actual 8.41, est 7.09, surprise +18.65%. Q2'25 (Jun): actual 4.97, est 3.56, surprise +39.78%. Q3'25 (Sep): actual 3.73, est 2.89, surprise +29.19%. Q4'25 (Dec): actual 0.57, est 0.67, surprise -14.55%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E126",
+    "url": "https://finance.yahoo.com/quote/JD/analysis/",
+    "quote": "JD mean price target is $38.68 (range $22.04-$60.23) from 35 analysts vs current $27.54, implying 40.5% upside. Recommendation is Strong Buy at 1.43.: targetMeanPrice: 38.684933, targetLowPrice: 22.035116, targetHighPrice: 60.230225, currentPrice: 27.54, recommendationMean: 1.43243, recommendationKey: strong_buy, numberOfAnalystOpinions: 35.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E127",
+    "url": "https://finance.yahoo.com/quote/JD/analysis/",
+    "quote": "JD has the lowest margins of the three: gross margin 9.3%, operating margin -1.3% (negative), profit margin 1.5%, ROE 7.6%. This reflects JD's 1P-heavy model. Cash of CNY 213B vs debt CNY 107B.: grossMargins: 0.09308, operatingMargins: -0.0129, profitMargins: 0.015, returnOnEquity: 0.07624, totalCash: 213,231,992,832, totalDebt: 107,105,001,472, debtToEquity: 36.457.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E128",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD Q4 2025 (ending Dec 2025) consensus EPS is CNY 21.08 from 13 analysts, implying +4.6% YoY growth vs CNY 20.15 year-ago. Revenue consensus is CNY 124.9B from 15 analysts, implying +12.9% YoY growth.: earningsEstimate avg: 21.08486 CNY, yearAgoEps: 20.15, growth: 4.64%. revenueEstimate avg: 124,887,046,140 CNY, yearAgoRevenue: 110,610,106,000, growth: 12.91%. Currency: CNY.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E129",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD FY2025 consensus EPS is CNY 75.38 from 29 analysts, showing -8.9% YoY decline from CNY 82.71. Revenue consensus is CNY 432.3B from 36 analysts, +9.8% YoY growth. The EPS decline despite revenue growth reflects PDD's elevated spending on merchant subsidies and Temu investment.: FY2025 earningsEstimate avg: 75.37943 CNY, yearAgoEps: 82.71, growth: -8.86%. revenueEstimate avg: 432,264,589,210 CNY, yearAgoRevenue: 393,836,097,000, growth: 9.76%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E130",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD FY2026 consensus EPS is CNY 86.08 from 32 analysts, implying +14.2% YoY recovery. Revenue consensus is CNY 491.2B from 37 analysts, +13.6% growth. Analysts expect a return to EPS growth in FY2026.: FY2026 earningsEstimate avg: 86.07854 CNY, yearAgoEps: 75.37943, growth: 14.19%. revenueEstimate avg: 491,245,461,430 CNY, yearAgoRevenue: 432,264,589,210, growth: 13.64%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E131",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD FY2025 EPS estimates have been essentially flat over 90 days (CNY 75.51 to 75.38), but FY2026 EPS estimates are drifting down — from CNY 87.21 (90 days ago) to 86.08 (current), a 1.3% cut. FY2026 revisions are 0 up, 3 down in the last 30 days.: FY2025 epsTrend: current 75.38, 30d 75.38, 60d 75.57, 90d 75.51. FY2026 epsTrend: current 86.08, 30d 86.92, 60d 87.10, 90d 87.21. FY2026 epsRevisions: upLast30days 0, downLast30days 3.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "E132",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD earnings surprises show extreme volatility: Q1 2025 missed by -39.8%, then Q2 2025 beat by +49.1%, Q3 2025 beat by +27.2%. Q4 2024 was a modest +2.4% beat. This pattern reflects large swings in spending intensity that are hard for analysts to model.: Q4'24: actual 20.15, est 19.67, surprise +2.43%. Q1'25: actual 11.41, est 18.96, surprise -39.82%. Q2'25: actual 22.07, est 14.80, surprise +49.13%. Q3'25: actual 21.08, est 16.57, surprise +27.22%.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E133",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD mean price target is $148.42 (range $119.37-$204.87) from 35 analysts vs current price $96.25, implying 54.2% upside. Recommendation mean is 1.76 (Buy).: targetMeanPrice: 148.42351, targetLowPrice: 119.36688, targetHighPrice: 204.87196, currentPrice: 96.25, recommendationMean: 1.76316, recommendationKey: buy, numberOfAnalystOpinions: 35.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E134",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD forward P/E appears anomalously low at 1.12x per Yahoo Finance. This reflects a currency mismatch: PDD's ADS price is in USD ($96.25) but forward EPS is reported in CNY (75.38). Adjusting for ~7.25 CNY/USD, the implied forward P/E is approximately 9.3x on FY2025 EPS.: forwardPE: 1.1181649, currentPrice: 96.25 USD, forwardEps: 12.498518 (converted to ADS-level USD by Yahoo), trailingEps: 10.02 USD. FY2025 consensus EPS: CNY 75.38 per ADS = ~$10.40 USD at 7.25 rate. P/E = 96.25/10.40 = 9.3x.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E135",
+    "url": "https://finance.yahoo.com/quote/PDD/analysis/",
+    "quote": "PDD financial profile: gross margin 56.6%, operating margin 23.1%, profit margin 24.4%, ROE 30.5%. Cash of CNY 423.8B vs debt CNY 10.7B — essentially net-cash balance sheet.: grossMargins: 0.56649, operatingMargins: 0.23113, profitMargins: 0.24435, returnOnEquity: 0.30533, totalCash: 423,769,276,416, totalDebt: 10,673,639,424, debtToEquity: 2.727. financialCurrency: CNY.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E136",
+    "url": "https://finance.yahoo.com/",
+    "quote": "All three Chinese e-commerce giants face EPS estimate downgrades, but the severity differs dramatically. BABA saw the worst cuts: FY2026 EPS slashed 27% over 90 days (CNY 46.30 to 33.74). JD cut 20% (CNY 25.50 to 20.36). PDD was most stable with only a 1.3% FY2026 cut (CNY 87.21 to 86.08).: 90-day EPS revision magnitude: BABA FY2026 -27.1% (46.30→33.74), JD FY2026 -20.2% (25.50→20.36), PDD FY2026 -1.3% (87.21→86.08). All from Yahoo Finance epsTrend data as of 2026-03-23.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E137",
+    "url": "https://finance.yahoo.com/",
+    "quote": "Earnings beat/miss patterns diverge sharply. PDD shows extreme volatility (range -39.8% to +49.1%) but net positive surprises in 3 of 4 quarters. JD beat 3 of 4 quarters before a Q4 miss. BABA missed ALL four quarters with progressively worse misses (-2.3% to -35.2%). BABA is the only company with a sustained negative surprise pattern.: PDD surprises: +2.4%, -39.8%, +49.1%, +27.2% (3 beats/1 miss). JD surprises: +18.7%, +39.8%, +29.2%, -14.6% (3 beats/1 miss). BABA surprises: -2.3%, -4.7%, -24.6%, -35.2% (0 beats/4 misses).",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E138",
+    "url": "https://finance.yahoo.com/",
+    "quote": "Despite BABA's worst earnings execution, it carries the most bullish analyst consensus (Strong Buy, 1.38). JD is also Strong Buy (1.43). PDD is merely Buy (1.76). This disconnect between BABA's deteriorating earnings and analyst optimism suggests price targets may be stale or reflect strategic positioning expectations.: Recommendation scores (lower=more bullish): BABA 1.38 (Strong Buy, 41 analysts), JD 1.43 (Strong Buy, 35 analysts), PDD 1.76 (Buy, 35 analysts).",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E139",
+    "url": "https://finance.yahoo.com/",
+    "quote": "Price target upside is highest for PDD at 54.2%, followed by BABA at 52.3% and JD at 40.5%. PDD's larger upside combined with the most stable estimate revisions makes it the most consensus-aligned bull case. However, even JD's LOW target ($22.04) is below current ($27.54), while PDD's low target ($119.37) and BABA's low target ($126.65) are both above current prices.: PDD: current $96.25, target mean $148.42, upside 54.2%. BABA: current $126.06, target mean $191.96, upside 52.3%. JD: current $27.54, target mean $38.68, upside 40.5%. Low targets: PDD $119.37 (24% above current), BABA $126.65 (0.5% above current), JD $22.04 (20% below current).",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E140",
+    "url": "https://finance.yahoo.com/",
+    "quote": "Forward earnings growth comparison favors PDD and JD over BABA in the near term. PDD expects FY2025 EPS to dip 8.9% then recover +14.2% in FY2026. JD expects +14.3% in FY2026 and +42.5% in FY2027. BABA faces a -48.4% EPS decline in FY2026 before a +64% recovery in FY2027. BABA's recovery is the largest but starts from the deepest trough.: EPS growth: PDD FY2025 -8.9%, FY2026 +14.2%. JD FY2026 +14.3%, FY2027 +42.5%. BABA FY2026 -48.4%, FY2027 +64.0%. Note: fiscal year ends differ (PDD/JD = Dec, BABA = Mar).",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E141",
+    "url": "https://finance.yahoo.com/",
+    "quote": "Profitability comparison: PDD has by far the highest margins (gross 56.6%, operating 23.1%, net 24.4%, ROE 30.5%) and strongest balance sheet (CNY 413B net cash). BABA is mid-tier (gross 40.8%, operating 7.1%, net 8.9%, ROE 8.2%, CNY 52B net cash). JD has razor-thin margins (gross 9.3%, operating -1.3%, net 1.5%, ROE 7.6%, CNY 106B net cash) reflecting its 1P model.: PDD: gross 56.6%, op 23.1%, net 24.4%, ROE 30.5%, net cash CNY 413B. BABA: gross 40.8%, op 7.1%, net 8.9%, ROE 8.2%, net cash CNY 52B. JD: gross 9.3%, op -1.3%, net 1.5%, ROE 7.6%, net cash CNY 106B. All from Yahoo Finance stats, financialCurrency CNY.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "E142",
+    "url": "https://finance.yahoo.com/",
+    "quote": "Revenue growth comparison: PDD leads with FY2025 +9.8% and FY2026 +13.6%. JD shows moderate +6.2% (FY2026) and +6.4% (FY2027). BABA has the slowest current growth at +3.0% (FY2026) but analysts expect acceleration to +11.6% in FY2027.: Revenue growth: PDD FY2025 +9.76%, FY2026 +13.64%. JD FY2026 +6.22%, FY2027 +6.40%. BABA FY2026 +3.02%, FY2027 +11.57%. Note: PDD's 10% revenue growth is a deceleration from historical 50%+ growth rates.",
+    "date": "2026-03-23",
+    "provenance": "auto:thesis-agent-Q6",
+    "question_id": "Q6",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  }
+]
