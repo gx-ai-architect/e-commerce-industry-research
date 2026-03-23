@@ -1,0 +1,129 @@
+[
+  {
+    "id": "net-cash-comparison",
+    "type": "bar",
+    "title": "Net Cash: PDD vs BABA vs JD (USD Billions)",
+    "subtitle": "PDD 4.1x Alibaba's net cash. Yahoo Finance API.",
+    "xLabel": "",
+    "yLabel": "USD Billions",
+    "data": [
+      { "label": "PDD", "value": 68.0, "color": "#2563eb" },
+      { "label": "BABA", "value": 16.5, "color": "#6b7280" },
+      { "label": "JD", "value": 14.9, "color": "#9ca3af" }
+    ],
+    "footnote": "Net Cash = Cash + ST Investments + Restricted Cash - Total Debt. BABA debt: RMB 262.7B. Yahoo Finance API. RMB/USD 7.12."
+  },
+  {
+    "id": "adj-net-cash-per-ads",
+    "type": "bar",
+    "title": "Adj. Net Cash per ADS (minus minority interest)",
+    "subtitle": "PDD: $47.90 (49.8% of price)",
+    "xLabel": "",
+    "yLabel": "USD per ADS",
+    "data": [
+      { "label": "PDD", "value": 47.90, "color": "#2563eb" },
+      { "label": "JD", "value": 3.44, "color": "#6b7280" },
+      { "label": "BABA", "value": 3.02, "color": "#9ca3af" }
+    ],
+    "footnote": "Adj Net Cash = Net Cash - Minority Interest. PDD: 0 minority. BABA: RMB 66.3B. JD: ~RMB 72.5B."
+  },
+  {
+    "id": "pdd-quarterly-revenue",
+    "type": "line",
+    "title": "PDD Quarterly Revenue + Operating Income (RMB Billions)",
+    "subtitle": "Revenue growth decelerated but operating income recovered. Yahoo Finance API.",
+    "xLabel": "Quarter",
+    "yLabel": "RMB Billions",
+    "series": [
+      {
+        "name": "Revenue",
+        "color": "#2563eb",
+        "points": [
+          { "x": "Q4 2024", "y": 110.6 },
+          { "x": "Q1 2025", "y": 95.7 },
+          { "x": "Q2 2025", "y": 104.0 },
+          { "x": "Q3 2025", "y": 108.3 }
+        ]
+      },
+      {
+        "name": "Operating Income",
+        "color": "#059669",
+        "points": [
+          { "x": "Q4 2024", "y": 25.6 },
+          { "x": "Q1 2025", "y": 16.1 },
+          { "x": "Q2 2025", "y": 25.8 },
+          { "x": "Q3 2025", "y": 25.0 }
+        ]
+      }
+    ],
+    "annotations": [
+      { "x": "Q4 2024", "text": "+24% rev" },
+      { "x": "Q1 2025", "text": "+10%" },
+      { "x": "Q2 2025", "text": "+7%" },
+      { "x": "Q3 2025", "text": "+9%" }
+    ]
+  },
+  {
+    "id": "peer-net-income",
+    "type": "bar",
+    "title": "Net Income: Most Recent Quarter",
+    "subtitle": "PDD is the only profitable platform. Source: Yahoo Finance API + earnings releases.",
+    "xLabel": "",
+    "yLabel": "Net Income (RMB Billions)",
+    "data": [
+      { "label": "PDD Q3'25", "value": 29.3, "color": "#059669" },
+      { "label": "BABA Dec'25", "value": 15.6, "color": "#f59e0b" },
+      { "label": "JD Q4'25", "value": -2.7, "color": "#dc2626" },
+      { "label": "Meituan Q3'25", "value": -18.6, "color": "#dc2626" }
+    ],
+    "footnote": "All from company earnings releases."
+  },
+  {
+    "id": "pdd-price-action",
+    "type": "line",
+    "title": "PDD 30-Day Price Action",
+    "subtitle": "Down 10.8% in 30 days. Source: Alpaca Markets API.",
+    "xLabel": "",
+    "yLabel": "Price (USD)",
+    "series": [
+      {
+        "name": "PDD Close",
+        "color": "#dc2626",
+        "points": [
+          { "x": "Feb 21", "y": 107.98 },
+          { "x": "Feb 24", "y": 106.51 },
+          { "x": "Feb 26", "y": 105.23 },
+          { "x": "Feb 28", "y": 104.89 },
+          { "x": "Mar 3", "y": 103.45 },
+          { "x": "Mar 5", "y": 102.78 },
+          { "x": "Mar 7", "y": 101.92 },
+          { "x": "Mar 10", "y": 102.67 },
+          { "x": "Mar 12", "y": 103.11 },
+          { "x": "Mar 14", "y": 103.85 },
+          { "x": "Mar 17", "y": 100.72 },
+          { "x": "Mar 19", "y": 97.44 },
+          { "x": "Mar 21", "y": 96.18 },
+          { "x": "Mar 23", "y": 96.25 }
+        ]
+      }
+    ],
+    "annotations": [
+      { "x": "Mar 14", "text": "50d MA: $104.20" },
+      { "x": "Mar 23", "text": "52w low: $87.11" }
+    ]
+  },
+  {
+    "id": "pdd-cash-composition",
+    "type": "bar",
+    "title": "PDD Cash Composition (Sep 30, 2025)",
+    "subtitle": "RMB 494.8B ($69.5B) total. Source: Yahoo Finance fundamentalsTimeSeries API.",
+    "xLabel": "",
+    "yLabel": "RMB Billions",
+    "data": [
+      { "label": "Cash & Equivalents", "value": 92.4, "color": "#2563eb" },
+      { "label": "Restricted Cash", "value": 71.0, "color": "#60a5fa" },
+      { "label": "Short-term Investments", "value": 331.4, "color": "#1d4ed8" }
+    ],
+    "footnote": "Total debt: RMB 10.7B. Net cash: RMB 484.1B ($68.0B)."
+  }
+]
