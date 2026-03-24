@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-NETWORK-EFFECTS-20260324",
+  "source": {
+    "type": "article",
+    "url": "https://www.chinanews.com.cn/cj/2026/03-16/10587632.shtml",
+    "title": "Pinduoduo Network Effects, Flywheel, and Category Penetration (2025-2026)",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "PDD flywheel: C2M demand aggregation -> lower supply chain costs -> lower prices -> more consumers -> more data -> better matching. Agricultural supply chain: farm-to-table delivery cut from 7 days to 3 days, 50%+ efficiency gain.",
+      "evidence": "拼多多通过C2M模式聚合需求降低成本。农产品从果园到消费者手中的时间从平均7天缩短至3天，物流效率提升超50%。平台连接超1600万农户直接面向消费者。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Chinanews.com article on PDD agricultural supply chain (March 2026)"
+      }
+    },
+    {
+      "claim": "Category expansion: PDD testing 'Baiyibao Supermarket' (百亿超市) for daily groceries/FMCG — high-frequency categories as traffic engine. Also launched instant retail (Sep 2025) with 10B RMB investment.",
+      "evidence": "拼多多正内测百亿超市业务，覆盖水果蔬菜、坚果零食、乳饮冲调、母婴用品等品类。2025年9月至2026年9月计划投入100亿元用于即时零售基础设施。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Sina Finance and 21jingji.com articles"
+      }
+    },
+    {
+      "claim": "Rural last-mile: PDD fully subsidizes second-leg delivery to village stations. 71 PDD stations in Shaanxi Fufeng County alone, some upgraded to 'digital village micro-hubs'. 2026 Central Document #1 mandates 'express delivery to villages'.",
+      "evidence": "拼多多全额承担中转仓到村级驿站的二段中转费。陕西扶风县引入拼多多送货进村服务，建成71个驿站。2026年中央一号文件明确推动快递进村。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Sina Finance (March 2026) and government policy document"
+      }
+    },
+    {
+      "claim": "Diminishing returns evidence: DAU growth only 3%, MAU growth 5% (Q2 2025). Down-market penetration at 89%. CAC up 1,067% (18 RMB to 210 RMB, 2020-2025). Network effects plateauing at user scale, now pivoting to deepening per-user engagement.",
+      "evidence": "DAU增长仅3%，月活增速降至5%。下沉市场渗透率已达89%。获客成本从2020年18元增至2025年210元。未来增长需依赖客单价和消费频次提升。",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From OFweek and financial analysis articles. Network effects not declining but growth ceiling reached."
+      }
+    },
+    {
+      "claim": "Competitive threat from Douyin e-commerce: market share projected at 24% (Goldman Sachs 2025). 'Three-strong' format (Taobao-JD-PDD) breaking into four-way battle with Douyin.",
+      "evidence": "高盛预测2025年抖音电商市场份额有望达到24%。传统的淘天、京东、拼多多三强格局已被打破。2025 Double 11: Taobao 37%, JD 25%, Douyin 15%, PDD 9%.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From 21jingji.com and Sina Finance Double 11 report"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["network-effects", "flywheel", "category-penetration", "agricultural", "competitive-dynamics"]
+  }
+}

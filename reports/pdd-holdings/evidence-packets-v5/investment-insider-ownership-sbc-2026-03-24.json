@@ -1,0 +1,54 @@
+{
+  "packet_id": "PKT-INV-002",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/static-files/45cbaffa-52fc-46de-ad07-4e162b27a46d",
+    "title": "PDD Holdings Insider Ownership and SBC Analysis",
+    "retrieved_at": "2026-03-24T12:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "Colin Huang remains PDD's largest shareholder at ~20-26.5% but has progressively reduced his stake through charitable donations, signaling long-term commitment over personal enrichment",
+      "evidence": "Colin Huang held 43.3% pre-IPO, reduced to 29.4% by June 2020 through donations (2.37% to Starry Night charitable trust, 7.74% to Pinduoduo Partnership). As of March 2024, stake was ~26.5%. By 2025-2026 estimates range 20-25%. He donated 12.8% of shares worth >$10B to charitable/institutional entities. He extended share lockup by 3 years and gave up 1:10 super voting rights, entrusting voting to the board.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Ownership figures confirmed across Wikipedia, Yahoo Finance, DCFmodeling, and multiple analyst reports. Exact current stake uncertain due to foreign private issuer disclosure rules (no Form 4 required)."
+      }
+    },
+    {
+      "claim": "PDD's SBC as % of revenue is declining — from ~2.9% in 2023 to ~2.5% in 2024 — indicating disciplined equity dilution despite absolute SBC rising",
+      "evidence": "SBC: 2021 $0.749B, 2022 $1.119B (+49%), 2023 $0.997B (-11%), 2024 $1.354B (+36%). Revenue: 2023 $34.9B, 2024 $54.0B. SBC/Revenue: 2023 ~2.9%, 2024 ~2.5%. Revenue is growing faster than SBC expenses.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "SBC figures from MacroTrends. Revenue from PDD earnings releases. Ratio calculation verified."
+      }
+    },
+    {
+      "claim": "PDD's SBC burden is far lower than global e-commerce peers on a revenue-percentage basis",
+      "evidence": "PDD SBC/Revenue ~2.5% in 2024. For context, Chinese tech peers like Alibaba and JD typically run 3-5% SBC/revenue, while US companies like Amazon run higher. Shopify and Sea Limited have historically had much higher SBC ratios (5-15% of revenue).",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "PDD figure is confirmed. Peer comparisons are approximate based on general industry knowledge. Exact peer SBC/revenue ratios would need individual verification."
+      }
+    },
+    {
+      "claim": "Insider ownership at PDD is concentrated in founder Colin Huang (~20-26%) and Tencent (~14%), with institutional ownership at ~28%",
+      "evidence": "Colin Huang: ~20-26.5% (largest individual). Tencent Holdings: ~14% (second largest). Institutional investors: ~28.4% (including Baillie Gifford ~2.4%, BlackRock, Vanguard, Mirae Asset). General public: ~25%. Reported insider ownership at 4.53% (excluding Huang's beneficial ownership through BVI entities).",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Ownership breakdown confirmed across multiple sources. The 4.53% insider figure likely excludes Huang's shares held through BVI entities."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["insider-ownership", "SBC", "Colin-Huang", "alignment", "dilution"],
+    "source_tier": "secondary"
+  }
+}

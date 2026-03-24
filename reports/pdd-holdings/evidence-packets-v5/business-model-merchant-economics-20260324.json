@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-BM-005",
+  "source": {
+    "type": "article",
+    "url": "https://www.ainvest.com/news/pinduoduo-merchant-support-gambit-short-term-cost-long-term-commerce-edge-2507/",
+    "title": "Pinduoduo Merchant Economics, Refund-Only Policy Reform, and 100B Yuan Support Program",
+    "retrieved_at": "2026-03-24T10:25:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo has the lowest all-in merchant cost among major Chinese e-commerce platforms: ~1% commission + performance ads",
+      "evidence": "Platform take rate comparison: Pinduoduo 4-5% (of which ~1% is commission, rest is advertising). Taobao/Tmall 3-5% (setup fees + commissions). JD.com 8-10% (includes logistics). Douyin 5-10% (livestream service fees). Top Pinduoduo merchants spend 3-5x more on ads in 2025 vs 2022, showing rising ad monetization.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Take rates are industry estimates from multiple analyst and industry sources. Individual merchant experiences vary by category. The ~1% commission rate is from PDD's own platform documentation."
+      }
+    },
+    {
+      "claim": "Pinduoduo's refund-only policy was the most controversial merchant pain point — now being phased out across Chinese e-commerce",
+      "evidence": "The 'refund-only' (仅退款) policy allowed consumers to get refunds without returning products. By July 2025, all major Chinese platforms — Pinduoduo, JD, Taobao, Douyin, Kuaishou — terminated refund-only policies after regulatory pressure. This was a significant source of merchant dissatisfaction, with merchants fearing consumer exploitation and higher costs.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple news sources confirm the July 2025 policy change across all platforms."
+      }
+    },
+    {
+      "claim": "PDD launched 100 billion yuan merchant support program over 3 years, causing operating profit to drop 38% in Q1 2025",
+      "evidence": "The Merchant Rights Protection Committee announced >RMB 100B in funds, traffic, and resources over 3 years. Specific measures: category guarantees reduced from 20,000 yuan to 500 yuan, promotion fee refund ratio increased to 3-4%, technical service fee reductions. Q1 2025 impact: operating profit fell 38% YoY, GAAP operating expenses surged 37%, stock fell 13.64% after earnings.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From PDD earnings release and multiple news sources. The 38% operating profit decline in Q1 2025 is confirmed from the earnings release."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Pinduoduo"],
+    "topic_tags": ["merchant-economics", "refund-only", "merchant-support", "platform-fees", "commission-rates"]
+  }
+}

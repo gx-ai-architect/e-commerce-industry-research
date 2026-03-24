@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-BM-009",
+  "source": {
+    "type": "article",
+    "url": "https://ashleydudarenok.com/what-is-pinduoduo/",
+    "title": "Pinduoduo Recommendation Algorithm and Traffic Allocation Mechanism",
+    "retrieved_at": "2026-03-24T10:50:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo's traffic allocation is fundamentally price-first and algorithm-driven, not search-driven like Taobao",
+      "evidence": "Unlike traditional e-commerce platforms, Pinduoduo does not wait for a search query — it creates a reason to act now. Group pricing thresholds, invite mechanics, and reward loops turn browsing into coordinated action. The algorithm is heavily price-oriented: merchants who offer the most competitive pricing through supply chain efficiency gain the most organic and algorithmic traffic. This differs from Taobao (search + paid placement) and Douyin (content/live-stream driven).",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple industry analyses confirm Pinduoduo's feed-first, price-driven recommendation model."
+      }
+    },
+    {
+      "claim": "The Pinduoduo flywheel: price compression drives conversion, which drives merchant competition for visibility, which drives monetization",
+      "evidence": "The platform flywheel: Incentive -> Participation -> Demand clustering -> Supplier certainty -> Price compression -> Higher conversion -> Merchant competition -> Increased monetization. Feed placement becomes premium real estate funded by merchant competition. Merchants compete for traffic through: (1) competitive pricing, (2) paid keyword bidding (like Alibaba ads), (3) C2M model efficiency, and (4) social viral sharing via WeChat.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Flywheel description from multiple analyst and industry sources."
+      }
+    },
+    {
+      "claim": "PDD's C2M model aggregates demand to inform factory production, bypassing distributors — this is the structural price advantage",
+      "evidence": "Through algorithmic advantages, Pinduoduo can quickly capture large demand and inform manufacturers which styles, sizes, colours, and prices sell fastest. The C2M (Consumer-to-Manufacturer) model aggregates massive consumer demand, provides direct data insights to manufacturers, allowing them to produce at scale with minimal inventory risk, bypassing traditional layers of distributors and retailers. Between 2024 and 2026, AI-driven forecasting tools deepened this alignment.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "C2M model is well documented across PDD's own filings and industry analyses."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Pinduoduo"],
+    "topic_tags": ["recommendation-algorithm", "traffic-allocation", "C2M", "flywheel", "platform-mechanism"]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "packet_id": "PKT-BM-012",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "title": "PDD Quarterly Financial Trends Q1 2024 - Q3 2025 for Plotting",
+    "retrieved_at": "2026-03-24T11:05:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "Comprehensive quarterly financial data for trend plotting: revenue, margins, OMS/TS split, interest income",
+      "evidence": "Quarterly Data (RMB millions):\n\nQ1 2024: Rev 86,812 | OMS 42,456 | TS 44,356 | GP 54,177 | OpProfit 27,989 | NetIncome 27,979 | IntIncome N/A\nQ2 2024: Rev 97,060 | OMS 49,116 | TS 47,944 | GP 57,977 | OpProfit 32,581 | NetIncome 32,039 | IntIncome N/A\nQ3 2024: Rev 99,354 | OMS 49,351 | TS 50,003 | GP 60,101 | OpProfit 24,261 | NetIncome 24,981 | IntIncome N/A\nQ4 2024: Rev 110,610 | OMS 57,011 | TS 53,599 | GP 62,812 | OpProfit 25,592 | NetIncome 27,447 | IntIncome 5,233\nQ1 2025: Rev 95,672 | OMS 48,722 | TS 46,950 | GP 54,725 | OpProfit 16,086 | NetIncome 14,742 | IntIncome 223\nQ2 2025: Rev 103,985 | OMS 55,703 | TS 48,282 | GP 58,126 | OpProfit 25,793 | NetIncome 30,753 | IntIncome 10,423\nQ3 2025: Rev 108,277 | OMS 53,348 | TS 54,929 | GP 61,437 | OpProfit 25,026 | NetIncome 29,328 | IntIncome 8,565\n\nMargins:\nQ1 2024: GM 62.4% | OM 32.2% | NM 32.2%\nQ2 2024: GM 59.7% | OM 33.6% | NM 33.0%\nQ3 2024: GM 60.5% | OM 24.4% | NM 25.1%\nQ4 2024: GM 56.8% | OM 23.1% | NM 24.8%\nQ1 2025: GM 57.2% | OM 16.8% | NM 15.4%\nQ2 2025: GM 55.9% | OM 24.8% | NM 29.6%\nQ3 2025: GM 56.7% | OM 23.1% | NM 27.1%\n\nOMS share of revenue:\nQ1 2024: 48.9% | Q2: 50.6% | Q3: 49.7% | Q4: 51.5%\nQ1 2025: 50.9% | Q2: 53.6% | Q3: 49.3%",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "All figures from official PDD Holdings quarterly earnings press releases. Gross profit computed as revenue minus cost of revenues. Interest income for Q1-Q3 2024 not individually reported in search results (FY2024 total was RMB 20,553M)."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["quarterly-trends", "plotting-data", "margins", "OMS-TS-split", "interest-income"]
+  }
+}

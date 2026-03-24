@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-BM-006",
+  "source": {
+    "type": "article",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-9-temu-rebounds",
+    "title": "Temu Business Model Evolution: Fully Managed to Semi-Managed Transition",
+    "retrieved_at": "2026-03-24T10:30:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "Temu operates two distinct business models with fundamentally different unit economics",
+      "evidence": "Fully managed: merchant supplies product to Temu warehouse at supply price, Temu sets retail price, handles sales/marketing/logistics/after-sales. Temu keeps the spread (estimated 35-40% of retail price). Semi-managed (launched March 2024): merchant ships to consumer country via sea freight, stores in local warehouses, delivers to buyer. Temu handles traffic, promotion, pricing, after-sales. Commission estimated at low double-digits of GMV.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Model descriptions confirmed across multiple sources including TechBuzz China, ChinaTalk, and merchant guides."
+      }
+    },
+    {
+      "claim": "US tariff elimination of de minimis exemption in mid-2025 caused Temu to halve fully-managed US supply, shift 30% to semi-managed",
+      "evidence": "Temu temporarily halted fully managed business (China-to-US direct shipping) when 120% tariffs applied. Restarted when tariffs dropped to 54% on May 12, 2025. Result: fully managed supply halved in Q2 2025, 30% converted to semi-managed, total merchandise volume fell 20-30%. Temu suspended US marketing investment on May 1, 2025.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed by TechBuzz China Temu Watch series and multiple industry sources."
+      }
+    },
+    {
+      "claim": "Semi-managed now represents ~34% of Temu's global transaction volume, expected to grow to primary model",
+      "evidence": "As of mid-2025, semi-managed accounts for 34% of global Temu transaction volume. Semi-managed expected to contribute >$10B in revenue. Self-operated US warehouses projected to handle 15-20% of US volume in 2025, 20-25% by 2026. EU becoming ~40% of Temu's GMV as US becomes more hostile.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Industry analyst estimates. Temu does not disclose official segment splits."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["temu-business-model", "fully-managed", "semi-managed", "tariff-impact", "unit-economics"]
+  }
+}

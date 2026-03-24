@@ -1,0 +1,73 @@
+{
+  "packet_id": "PKT-REG-US-001",
+  "source": {
+    "type": "article",
+    "url": "https://www.whitecase.com/insight-alert/united-states-begins-restrain-cross-border-e-commerce",
+    "title": "Multiple sources: White & Case, Avalara, Cart.com, Easyship on de minimis reform",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "US eliminated de minimis exemption for China/HK effective May 2, 2025, then globally effective August 29, 2025",
+      "evidence": "The U.S. suspended the de minimis exemption for China and Hong Kong effective May 2, 2025. On July 30, 2025, President Trump signed an executive order suspending de minimis treatment for ALL countries effective August 29, 2025. The One Big Beautiful Bill Act signed July 4 permanently repeals de minimis with original timeline of July 1, 2027, now accelerated.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Cross-referenced across multiple legal sources (White & Case, Avalara, Easyship). Timeline confirmed."
+      }
+    },
+    {
+      "claim": "Temu experienced 32% sales decline in first 5 days after initial tariff changes in February 2025",
+      "evidence": "Between February 5 and February 10, 2025, Temu experienced a 32% decline in sales following initial tariff policy changes.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Cited by Forest Shipping and ChinaTalk from Consumer Edge research data."
+      }
+    },
+    {
+      "claim": "145% tariff on Chinese goods caused Temu's fully managed supply to halve in Q2 2025, total merchandise volume fell 20-30%",
+      "evidence": "In April 2025, tariffs rose from 20% to 145%. This led to a halving of Temu's fully managed supply in Q2, with 30% converting to semi-managed, causing total merchandise volume to fall by 20% to 30%. Q1 2025 profits fell ~47% due to tariff blowback.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Sourced from TechBuzzChina Temu Watch series and cross-referenced with PDD Q1 2025 earnings (operating profit -38% YoY)."
+      }
+    },
+    {
+      "claim": "US tariff cost to Temu estimated at $10B annual revenue reduction if 145% tariff persists; $5B if resolved by mid-year",
+      "evidence": "The US market was expected to be reduced by $10 billion throughout the year under sustained 145% tariff. If resolved between July-August, full-year impact reduced to $5 billion. Other regions compensate at most $5 billion.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "From TechBuzzChina analysis. Actual impact moderated by 90-day tariff truce reducing rates to 30-54%."
+      }
+    },
+    {
+      "claim": "Per-order tariff burden: apparel categories face 16-16.6% MFN duty PLUS additional China-specific tariffs totaling up to 145%",
+      "evidence": "HTS tariff rates for key Temu categories: T-shirts (HS 6109) 16.5% MFN, Women's apparel (HS 6204) 16%, Men's apparel (HS 6203) 16.6%, Accessories (HS 6217) 14.6-16%. With 145% China-specific tariff, total duty on a $10 garment could be $16.15 (161.5% effective rate). Under truce: 30-54% on small packages.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "MFN rates from USITC HTS schedule. China-specific rates from executive orders. Combined rate calculation is straightforward addition."
+      }
+    },
+    {
+      "claim": "Temu pivoted to semi-managed model with US warehouses; 2 US warehouses operational, targeting 15-20% of US volume in 2025, 20-25% by 2026",
+      "evidence": "Temu operates 13 self-owned warehouses globally (10 Europe, 2 US, 1 Mexico). US self-operated warehouses projected to handle 15-20% of total US goods volume in 2025, rising to 20-25% by 2026. Semi-managed model prices increased 50-70% for most categories.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzzChina Temu Watch and Supply Chain Dive reporting."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "tariff", "de-minimis", "section-321", "US-trade-policy"],
+    "severity": "structural",
+    "jurisdiction": "US"
+  }
+}

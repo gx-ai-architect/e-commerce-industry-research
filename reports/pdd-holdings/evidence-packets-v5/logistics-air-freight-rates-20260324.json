@@ -1,0 +1,55 @@
+{
+  "packet_id": "PKT-logistics-007",
+  "source": {
+    "type": "article",
+    "url": "https://www.freightos.com/freight-industry-updates/freightos-news/what-2025-means-for-2026-ocean-and-air-freight-forecast/",
+    "title": "Air Freight Rate Trends China-US 2025-2026",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "China-US air freight rates spiked 50% in April 2025 ahead of de minimis deadline, then collapsed",
+      "evidence": "In the rush to move air cargo before the May 2 de minimis deadline, the rate from Hong Kong to the US in mid-April shot up 50% compared with the previous week to $7.95/kg. In February 2025, when de minimis was briefly removed, spot rates from Shanghai to US dropped 29% month-on-month.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Bertling air freight market reports"
+      }
+    },
+    {
+      "claim": "E-commerce accounted for 50%+ of trans-Pacific air freight shipments in 2024; ~100K tons/month before de minimis end",
+      "evidence": "E-commerce shipments accounted for more than 50% of trans-Pacific air freight shipments in 2024. By the end of April 2025, around 100,000 tons a month of de minimis-type traffic was moving across the Pacific on more than 60 freighters dedicated to carrying e-commerce.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From aviation industry reports and S&P Global"
+      }
+    },
+    {
+      "claim": "Global air cargo spot rates down just 1% YoY to $2.56/kg in January 2026; NE Asia to NA down 3% YoY",
+      "evidence": "Global air cargo spot rates were down just 1% year-on-year to USD 2.56 per kg in January 2026. Northeast Asia to North America saw only a modest 3% year-on-year decline.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Freightos and stattimes.com air freight analysis"
+      }
+    },
+    {
+      "claim": "Chinese e-commerce platforms pivoting to European market to offset US volume losses",
+      "evidence": "With the US market increasingly hostile to their air-freight-dependent business model, Chinese cross-border e-commerce giants are accelerating their pivot toward Europe, where Chinese e-commerce activity has been growing to offset the higher cost of importing goods into the United States.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Structural shift confirmed by multiple freight industry sources"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["logistics", "air-freight", "freight-rates", "cross-border"],
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  }
+}

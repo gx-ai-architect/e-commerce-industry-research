@@ -1,0 +1,64 @@
+{
+  "packet_id": "PKT-logistics-004",
+  "source": {
+    "type": "article",
+    "url": "https://kr-asia.com/pinduoduo-signals-interest-in-developing-new-logistics-system-after-generating-33-of-all-parcels-in-china",
+    "title": "Pinduoduo signals interest in developing new logistics system after generating 33% of all parcels in China",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo generates 33% of all packages shipped in China, making it the largest e-commerce platform by parcel volume",
+      "evidence": "Pinduoduo currently generates 33% of packages shipped in China. Pinduoduo's parcel volume surpassed that of Taobao/Tmall in 2023.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From KrASIA; 33% of ~199B parcels in 2025 implies ~66B annual parcels or ~180M/day"
+      }
+    },
+    {
+      "claim": "Pinduoduo operates an asset-light logistics model relying entirely on third-party carriers (ZTO, YTO, Yunda, STO, J&T)",
+      "evidence": "Pinduoduo does not own its own logistics infrastructure. It relies on Chinese express delivery companies for fulfillment. CEO Chen Lei noted 'conditions are ripe to reimagine logistics' and referenced the existing 'hub-and-spoke system that was created over the past decade.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed across multiple sources; PDD has no owned logistics unlike JD"
+      }
+    },
+    {
+      "claim": "ESTIMATE: Pinduoduo daily parcel volume ~180M/day based on 33% of 199B annual parcels",
+      "evidence": "33% of 199B annual parcels = ~66B parcels/year. 66B / 365 = ~180M parcels per day. For context, China processes 6,200 parcels per second on average.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "ESTIMATE: 33% share figure may be from 2023 disclosure; actual 2025 share could differ. Low AOV means high parcel-to-GMV ratio."
+      }
+    },
+    {
+      "claim": "Pinduoduo launched 'Duoduo Station' last-mile network in 2025 offering pick-up and home delivery",
+      "evidence": "In 2025, Pinduoduo rebranded its parcel collection service under Duoduo Maicai as 'Duoduo Station', offering both pick-up and home delivery. In some agricultural regions, Duoduo Stations now account for over 25% of total parcel volume. In areas with low daily parcel volume, Pinduoduo combines per-parcel subsidies with daily minimum guarantees, raising monthly station income by as much as RMB 3,000 yuan.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Momentum Works and TechBuzz China reports"
+      }
+    },
+    {
+      "claim": "Pinduoduo's logistics efficiency lags behind JD Logistics and SF Express; entering instant retail to close the gap",
+      "evidence": "Pinduoduo's primary reason for considering entering the instant retail market is suboptimal logistics efficiency. Despite establishing a strategic partnership with Jitu Express, its performance still lags behind SF Express, YTO Express, and JD Logistics. PDD planned to officially launch a fast-delivery retail service between August and September 2025, with an initial investment estimated at RMB 10 billion.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzz China 'Pinduoduo enters the instant retail market'"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Pinduoduo"],
+    "topic_tags": ["logistics", "parcel-volume", "domestic", "last-mile", "instant-retail"],
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  }
+}

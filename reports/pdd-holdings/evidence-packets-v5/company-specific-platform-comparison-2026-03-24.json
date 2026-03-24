@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-CS-002",
+  "source": {
+    "type": "article",
+    "url": "https://www.greatwallstreet.net/p/the-algorithm-eats-the-search-bar-ai-chinese-ecommerce",
+    "title": "The Algorithm Eats the Search Bar - AI Is Rewriting Chinese E-Commerce",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Three fundamentally different e-commerce models: Taobao (search-led), Pinduoduo (feed/social discovery), Douyin (content/livestream conversion).",
+      "evidence": "Taobao structures search-led discovery and merchant competition - search defines intent, users compare products within a rich SKU ecosystem. Pinduoduo aggregates demand through social participation - privileges feed discovery and social incentives over typed queries. Douyin converts content attention into transactions - discovery, validation, and purchase can occur in the same interface within minutes.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed by multiple industry analyses from gatekaizen.com, ashleydudarenok.com, and greatwallstreet.net"
+      }
+    },
+    {
+      "claim": "Pinduoduo monetizes distribution power rather than product margins - merchants bid for algorithmic placement in its feed-centric discovery engine.",
+      "evidence": "Pinduoduo does not depend on simple search-based ads. Instead, it sells visibility inside its feed-centric discovery engine. Merchants bid for algorithmic placement where users are already highly engaged and ready to convert. As seller density rises, competition for these placements increases, directly boosting advertising revenue without increasing consumer fees.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple sources confirm this monetization model"
+      }
+    },
+    {
+      "claim": "Pinduoduo's internal team competition structure for algorithm optimization: 500+ engineers divided into 3 groups competing on incremental GMV.",
+      "evidence": "By 2018, the main search recommendation ads on Pinduoduo had organized team competitions. Over 500 people were divided into three groups and competed based on GMV. The competition logic was to allocate a certain share of total traffic to each group, with monthly assessments. Ultimately, only incremental GMV was assessed. In algorithm iterations such as recommendation, search, and advertising categories, the internal competition often directly divides the traffic.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From baiguan.news article on PDD internal management. Internal competition is a known PDD organizational feature."
+      }
+    },
+    {
+      "claim": "Pinduoduo hosts significantly fewer SKUs than Taobao but achieves higher per-SKU conversion by concentrating demand.",
+      "evidence": "Traditional e-commerce platforms simulate a shopping experience by offering a large number of SKUs, including many similar products, allowing consumers to compare. However, PDD takes the opposite approach by hosting a much smaller selection of SKUs compared to Taobao and Tmall. This concentrated SKU strategy forces merchants to compete on price for fewer product slots, creating higher demand density per listing.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple industry reports confirm PDD's deliberately lean SKU strategy vs Taobao's long-tail approach"
+      }
+    },
+    {
+      "claim": "Douyin live commerce generated over 1 trillion yuan GMV in 2024, capturing ~47% of livestream GMV share by 2022.",
+      "evidence": "In 2024, Douyin's live-streaming e-commerce generated over 1 trillion yuan in GMV. By 2022, Douyin made up nearly half (47%) of the total GMV of leading live commerce platforms. However, Taobao/Diantao still leads in user penetration at 74% vs Douyin's 51%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ecdb.com and globenewswire industry reports"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "alibaba", "douyin"],
+    "topic_tags": ["platform-comparison", "algorithm", "monetization", "competitive-dynamics"]
+  }
+}

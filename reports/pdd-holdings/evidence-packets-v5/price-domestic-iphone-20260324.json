@@ -1,0 +1,38 @@
+{
+  "packet_id": "PKT-PRICE-001",
+  "source": {
+    "type": "article",
+    "url": "https://eu.36kr.com/en/p/3343308055591433",
+    "title": "iPhone 16 price comparison across PDD, Taobao, JD during 618 2025",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "iPhone 16 Pro 128GB pricing: Pinduoduo 5,398 RMB (with national subsidy stacking) vs Taobao 百亿补贴 ~5,500 RMB vs JD ~5,500 RMB (758 USD). Pinduoduo offers up to 2,601 RMB discount off official 7,999 RMB price.",
+      "evidence": "During 618 2025: PDD百亿补贴 channel iPhone 16 Pro 128GB at 5,398 RMB after stacking national subsidies (reduction of 2,601 RMB vs official 7,999 RMB). JD.com selling 128GB iPhone 16 Pro at ~$758 (~5,500 RMB), ~$350 below regular price. Taobao百亿补贴 iPhone 16 Pro Max 256GB at 7,558 RMB and 512GB at 9,548 RMB (2,441-2,451 RMB cheaper than official). On Pro Max models, PDD and Taobao prices are basically the same.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Prices from 36kr 618 2025 analysis and Benzinga reports on iPhone 16 China pricing. Multiple sources confirm PDD and Taobao compete neck-and-neck on flagship iPhones, JD slightly higher."
+      }
+    },
+    {
+      "claim": "iPhone 17 series (Nov 2025): Pinduoduo百亿补贴 pushed 256GB price below 5,000 RMB — nearly 1,000 RMB below official price. JD Pro Max/Pro versions saw 300 RMB direct cut from 5,999 RMB launch price.",
+      "evidence": "Per Sina Finance (Nov 2025): PDD百亿补贴 strategy pulled iPhone 17 256GB to below 5,000 RMB. JD iPhone 17 Pro Max 12+512GB at 8,699 RMB after coupons. PDD subsidy timing is unpredictable and prices fluctuate more than JD.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Sina Finance November 2025 report on iPhone 17 pricing across platforms"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-11",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["pricing", "price-comparison", "iphone", "domestic-china", "百亿补贴"],
+    "question_id": "price-domestic-electronics",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  }
+}

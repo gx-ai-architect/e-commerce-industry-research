@@ -1,0 +1,73 @@
+{
+  "packet_id": "PKT-logistics-003",
+  "source": {
+    "type": "article",
+    "url": "https://zto.investorroom.com/2025-08-19-ZTO-Reports-Second-Quarter-2025-Unaudited-Financial-Results",
+    "title": "ZTO Express Full Year 2025 Results and China Express Industry Data",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "ZTO Express quarterly parcel volumes in 2025: Q1 8.5B (+19.1%), Q2 9.85B (+16.5%), Q3 ~9.6B (+9.8%), Q4 10.56B (+9.2%)",
+      "evidence": "Q1 2025: parcel volume increasing 19.1% to 8.5 billion. Q2: parcel volume was 9,847 million, an increase of 16.5%. Q3: 9.8% growth in parcel volume. Q4: Parcel volume was 10,558 million, increased 9.2% from 9,665 million in the same period of 2024. Full year: 38.5 billion, up 13.3%.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ZTO investor relations press releases and earnings call"
+      }
+    },
+    {
+      "claim": "ZTO's gross margin declined from 31% to 25% in FY2025, partly due to serving key account customers",
+      "evidence": "Parcel volume grew 13.3% for 2025, but gross margin declined from 31.0% to 25.0% and operating margin from 26.6% to 21.3% as other costs nearly doubled, mainly from serving key account customers.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ZTO Q4 2025 earnings release; 'key account customers' likely includes PDD"
+      }
+    },
+    {
+      "claim": "ZTO guides 10-13% volume growth for 2026 (42.4B-43.5B parcels) vs 8% industry guidance from State Post Bureau",
+      "evidence": "The Company expects its parcel volume for 2026 to increase by 10% to 13% year over year, representing a parcel volume range of 42.37 billion to 43.52 billion. CEO referenced the State Post Bureau's estimate of 8% industry growth for 2026.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ZTO Q4 2025 earnings call, March 2026"
+      }
+    },
+    {
+      "claim": "China total express delivery volume reached ~199B parcels in 2025, up 13.7% YoY; 2026 projected at 214B (+8%)",
+      "evidence": "China's parcel delivery sector set a new record in handling nearly 200 billion parcels in 2025, up 13.7 percent year-on-year, according to the State Post Bureau. Revenue from express delivery services reached 1.5 trillion yuan. Official projections for 2026: 214 billion items, +8% YoY.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "State Post Bureau official data via Global Times and Xinhua"
+      }
+    },
+    {
+      "claim": "YTO Express delivered ~26.6B parcels in 2024, growing 25.33%, narrowing gap with ZTO",
+      "evidence": "YTO Express (600233.SH) delivered around 26.6 billion parcels for the year, growing 25.33%. Morningstar noted that YTO's parcel volume market share gap has narrowed compared with leader ZTO.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Morningstar company reports and Bamboo Works analysis"
+      }
+    },
+    {
+      "claim": "J&T Express hit 30B parcel volume in 2025 with 22.2% YoY growth",
+      "evidence": "J&T Express Hits Record 30 Billion Parcel Volume in 2025 with 22.2% YoY Growth.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From PR Newswire / Manila Times, January 2026"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["ZTO", "YTO", "J&T", "PDD"],
+    "topic_tags": ["logistics", "parcel-volume", "express-delivery", "china", "carrier-volumes"],
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  }
+}

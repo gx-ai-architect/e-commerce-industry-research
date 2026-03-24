@@ -1,0 +1,47 @@
+{
+  "packet_id": "PKT-PRICE-005",
+  "source": {
+    "type": "article",
+    "url": "https://cross-border-magazine.com/u-s-tariffs-impact-on-temu-2025/",
+    "title": "US tariff and de minimis impact on Temu pricing and business model 2025-2026",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "De minimis exemption ($800 threshold) ended May 2, 2025 for China/HK shipments, eliminating Temu's key cost advantage. New tariff on low-value packages: 90% of value or $75/item (rising to $150 after June 2025). Combined tariffs on some categories up to 145-170%.",
+      "evidence": "Executive order Feb 2025 suspended de minimis for China/HK, effective May 2. Original duty: 30% or $25/item. White House tripled to 90% or $75 (rising to $150 after June 1). Knitwear categories face up to 170% combined tariffs. A $10 T-shirt could go to $22; $200 luggage to $300 if tariffs fully passed through. New law signed July 2025 eliminates de minimis for ALL countries effective July 2027.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Axios, GovFacts, Supply Chain Dive, Cross-Border Magazine all confirm timeline and rates"
+      }
+    },
+    {
+      "claim": "Temu pivoted to local fulfillment model in US: suspended fully managed direct-from-China model end of April 2025. Claims all US sales now handled by locally based sellers. US warehouses projected to handle 15-20% of volume in 2025, 20-25% by 2026.",
+      "evidence": "Supply Chain Dive/Bloomberg: End of April 2025, Temu suspended fully managed model in US (direct C2C packages). Temu now says all US sales via locally based sellers. Temu slashed prices on popular items by up to 60% and stopped charging import fees to recapture share. Projected: 15-20% US volume through self-operated warehouses in 2025, 20-25% by 2026.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Bloomberg and Supply Chain Dive reporting. TechBuzzChina Temu Watch 10 confirms logistics pivot."
+      }
+    },
+    {
+      "claim": "Temu's US market share under pressure: US = 31% of Temu GMV but growth slowed due to tariffs. Europe = 40% of GMV with 80-100% growth. EU plans to remove EUR 150 de minimis threshold, moved forward from 2028 to 2026.",
+      "evidence": "Cross-Border Magazine: US accounts for 31% of Temu GMV. European market 40% share with 80-100% growth. EU removing EUR 150 de minimis, timeline accelerated from 2028 to 2026. 29% of consumers say they would stop buying or buy less if prices rise on budget marketplaces.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Cross-Border Magazine and Modern Retail analysis of tariff winners/losers"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-12",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["pricing", "tariffs", "de-minimis", "international", "temu", "local-fulfillment"],
+    "question_id": "temu-tariff-pricing-impact",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  }
+}

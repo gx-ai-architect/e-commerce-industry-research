@@ -1,0 +1,54 @@
+{
+  "packet_id": "PKT-INV-007",
+  "source": {
+    "type": "dataset",
+    "url": "https://stockanalysis.com/stocks/pdd/statistics/",
+    "title": "PDD Holdings Valuation and Comparable Multiples Analysis",
+    "retrieved_at": "2026-03-24T12:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD trades at extreme discount to all global e-commerce peers: Forward P/E 8-9x vs BABA 19.6x, Coupang 60-71x, Sea Limited 34x, industry median ~15-20x",
+      "evidence": "PDD: Forward P/E 8.44x, trailing P/E 10.53x. BABA forward P/E 19.57x. Coupang trailing P/E 82.72x, forward P/E 60-71x. Sea Limited ~34x forward P/E. PDD EV/EBITDA 5.30-6.63 vs industry median 9.37-10.44. Coupang EV/EBITDA 38.8x. Amazon EV/EBITDA ~22.5x.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "PDD multiples from StockAnalysis, GuruFocus. Peer multiples from respective sources. All as of early 2026."
+      }
+    },
+    {
+      "claim": "PDD's EV/FCF of 5.37 implies the market expects earnings to decline — yet analyst consensus is for return to double-digit earnings growth from 2026",
+      "evidence": "EV/FCF ratio 5.37. Earnings growth forecast at 0.13% for 2025, but return to double-digit earnings growth anticipated from 2026 onwards. Revenue CAGR 2024-2027E is 12%. Analyst consensus: 7 Buys, 4 Holds, average target $124-127. Loop Capital target $170. Stock trading $90-110, down ~15% YTD.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Valuation ratios from multiple financial data providers. Analyst targets from Seeking Alpha, FinViz."
+      }
+    },
+    {
+      "claim": "Smart money accumulating: Dodge & Cox, Hillhouse (HHLR), David Tepper's Appaloosa significantly increased PDD positions in late 2025, signaling value floor",
+      "evidence": "Dodge & Cox and Hillhouse (HHLR) significantly increased positions in late 2025. PDD is one of billionaire David Tepper's top stock picks heading into 2026. Baillie Gifford holds ~2.4%. Institutional ownership ~28.4%. DCF valuation suggests 42% upside ($200.99 vs $116.79 market price).",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Institutional buying from Seeking Alpha and 13F filings analysis. David Tepper pick from financial media."
+      }
+    },
+    {
+      "claim": "Adjusting for net cash (~$60B), PDD's operating business trades at roughly 1-2x operating earnings — an absurdly cheap multiple for a 25%+ margin platform business",
+      "evidence": "Market cap ~$80B. Net cash ~$60B. Implied operating business value ~$20B. Operating income TTM ~$12-13B. This implies ~1.5-2x operating earnings for the core business. For comparison, Coupang trades at 38x EV/EBITDA and Sea Limited at ~34x P/E. Even Alibaba, widely considered cheap, trades at ~20x forward earnings.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Back-of-envelope calculation using publicly available data. The exact calculation depends on how you treat merchant deposits, restricted cash, and other balance sheet items. Directionally correct but simplified."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "BABA", "JD", "CPNG", "SE", "MELI"],
+    "topic_tags": ["valuation", "comparables", "multiples", "smart-money", "institutional-buying"],
+    "source_tier": "secondary"
+  }
+}

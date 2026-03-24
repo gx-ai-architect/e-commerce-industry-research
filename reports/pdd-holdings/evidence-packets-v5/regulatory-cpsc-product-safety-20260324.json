@@ -1,0 +1,37 @@
+{
+  "packet_id": "PKT-REG-US-003",
+  "source": {
+    "type": "dataset",
+    "url": "https://www.saferproducts.gov/RestWebServices/Recall",
+    "title": "CPSC Recalls Database — Temu-specific recalls",
+    "retrieved_at": "2026-03-24T16:44:48Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "CPSC has issued 10 product recalls for items sold exclusively on Temu.com (2024-2025)",
+      "evidence": "10 recalls found matching 'temu' in CPSC database. Products include: magnetic toys (ingestion hazard), sling carriers (fall hazard), crib bumpers (suffocation hazard, violation of federal ban), toy guns (eye injury), children's nightgowns and pajamas (burn hazard, flammability standards violation), children's helmets (head injury, safety regulation violation). Most recent: February 2025.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Direct CPSC API query. All recalls are for products sold exclusively on Temu.com. Categories indicate systematic product safety compliance failures, particularly in children's products."
+      }
+    },
+    {
+      "claim": "CPSC recalls concentrated in children's products — highest liability category — suggesting systematic safety screening gaps",
+      "evidence": "Of 10 Temu recalls: 3 involve children's clothing (flammability), 3 involve children's toys (magnets, projectiles), 2 involve children's helmets (safety standards), 1 involves crib bumpers (banned product), 1 involves baby carriers (fall hazard). 100% of recalls are children's products.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Categorized from CPSC recall data. All 10 recalls involve products intended for children, indicating systematic failure to screen for children's product safety standards."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "product-safety", "CPSC", "recalls", "children-products"],
+    "severity": "operational",
+    "jurisdiction": "US"
+  }
+}

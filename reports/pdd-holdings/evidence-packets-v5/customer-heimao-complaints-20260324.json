@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-HEIMAO-PDD-20260324",
+  "source": {
+    "type": "article",
+    "url": "https://tousu.sina.com.cn/articles/view/404230/",
+    "title": "Heimao (Black Cat) Complaints Platform - Pinduoduo Data 2024-2025",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo 2024 annual Heimao complaint volume was 119,036, ranking #1 among e-commerce platforms",
+      "evidence": "2024年拼多多黑猫投诉量为119,036件，位列电商行业榜首。拼多多投诉回复率仅为15.07%，远低于京东的99%。",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Heimao 2024 annual e-commerce complaints report. Cross-referenced with multiple sources."
+      }
+    },
+    {
+      "claim": "2025 full-year e-commerce complaints on Heimao totaled 1,673,402, up 30.73% YoY from 2024's 1.28M",
+      "evidence": "2025年黑猫投诉平台共收到电商相关投诉1,673,402单，较2024年上涨30.73%。抖音、淘宝（含天猫）、拼多多等几大电商平台投诉占2025年电商领域总投诉量的84.2%。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Heimao 2025 annual comprehensive e-commerce complaint report"
+      }
+    },
+    {
+      "claim": "Top e-commerce complaint themes (2025): customer service attitude (40%+), product quality/mismatch (22%), refund difficulties, non-shipment, false advertising",
+      "evidence": "2025年全年电商领域投诉中，客服态度问题占比最高，超过40%，其次是商品质量差与货不对板问题，占比约22%，退款困难、不发货、虚假宣传等问题分列三、四、五位。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Heimao 2025 annual report"
+      }
+    },
+    {
+      "claim": "Pinduoduo complaint reply rate was only 20% in 2024 vs JD 99%, Taobao only 5%",
+      "evidence": "头部投诉商家中，拼多多回复了20%的投诉，淘宝（含天猫）只回复了5%的投诉，其余商家处理良好。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Heimao 2024 annual report. Note: two sources cite slightly different reply rates (15% vs 20%) for PDD."
+      }
+    },
+    {
+      "claim": "Complaint velocity: 2025 monthly peak was May at 173,804 (up 21% MoM), December was 134,798. Peaks correlate with 618 and Double 11 promotions.",
+      "evidence": "2025年5月电商平台有效投诉总量为173,804单，相比4月增长21%，受6·18预热活动影响。12月为134,798单。投诉量前三的商家为抖音、拼多多和淘宝。",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Heimao monthly reports for May and December 2025"
+      }
+    },
+    {
+      "claim": "Counterfeit goods complaints account for ~59% of Pinduoduo's Heimao complaints (as of March 2025)",
+      "evidence": "截止撰稿时，共有22,512条关于假货的投诉，占到了拼多多在该平台的总投诉量（38,274条）的约59%。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "This figure may reference a specific time window rather than cumulative total. Source: news.qq.com article on PDD earnings."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["customer-satisfaction", "complaints", "heimao", "domestic"]
+  }
+}

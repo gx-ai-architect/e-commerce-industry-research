@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-BM-007",
+  "source": {
+    "type": "filing",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
+    "title": "Peer Comparison: PDD vs Alibaba vs JD.com — Take Rate, Margins, Business Model Quality",
+    "retrieved_at": "2026-03-24T10:40:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD has the highest operating margin among major Chinese e-commerce platforms at 22-27%, compared to Alibaba's 11-16% and JD's 0-5%",
+      "evidence": "PDD operating margin: FY2024 27.5%, 9M 2025 22.1% (compressed by merchant subsidies). Alibaba operating margin: FY2025 (Mar) ~15.6%, Sep 2025 quarter ~11.3% (pressured by quick commerce investment). JD.com operating margin: FY2025 consolidated near breakeven (~0-1% due to food delivery losses), JD Retail segment 4.6%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "PDD margins from earnings releases. Alibaba margins from MacroTrends and earnings. JD margins from Q3 2025 earnings release. All three companies are currently investing heavily in new initiatives, compressing margins."
+      }
+    },
+    {
+      "claim": "PDD's gross margin (~57%) far exceeds JD (~15%) and is higher than Alibaba (~40%), reflecting pure marketplace model",
+      "evidence": "PDD 9M 2025 gross margin: 56.6%. Alibaba gross margin: ~39-41% (includes cloud, logistics). JD.com gross margin: ~15.3% (includes 1P retail with product COGS). PDD's high gross margin reflects its pure marketplace model — no inventory ownership, no logistics network.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "All from latest quarterly earnings. JD's low margin reflects 1P retail model. Alibaba's mid-range reflects diversified business mix."
+      }
+    },
+    {
+      "claim": "Take rate comparison: PDD domestic ~4-5%, Alibaba Taobao/Tmall ~5%, JD ~8-10%, Douyin ~5-10%",
+      "evidence": "PDD domestic (Pinduoduo): Bernstein est. 4.2% (FY2023), trending toward 5%. Alibaba: ~5% take rate with improving CMR from Quanzhantui. JD.com: 8-10% including logistics fees. Douyin: 5-10% including livestream service fees. PDD's take rate is lowest but growing; Temu's effective take rate is structurally different (35-40% fully managed).",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Take rates are analyst estimates since none of these companies disclose official take rates. PDD and Alibaba are closest; JD charges more because logistics is bundled."
+      }
+    },
+    {
+      "claim": "PDD's net income margin (~27%) is the highest in Chinese e-commerce, boosted by interest income from RMB 424B cash pile",
+      "evidence": "PDD 9M 2025 net margin: ~24.3% (RMB 74.8B net income / RMB 307.9B revenue). FY2024 net margin: 28.5%. Alibaba net margin: ~9-11%. JD.com net margin: ~3-4%. PDD's net income consistently exceeds operating profit because interest/investment income (RMB 19.2B in 9M 2025) more than offsets taxes.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Net income from earnings releases. The interest income boost is a distinctive PDD feature among Chinese e-commerce peers."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Alibaba", "BABA", "JD.com", "JD"],
+    "topic_tags": ["peer-comparison", "take-rate", "margins", "business-model-quality"]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "packet_id": "PKT-logistics-008",
+  "source": {
+    "type": "article",
+    "url": "https://techbuzzchina.substack.com/p/pinduoduo-enters-the-instant-retail",
+    "title": "Pinduoduo enters the instant retail market - TechBuzz China",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo planned RMB 10 billion investment for instant retail launch in Aug-Sep 2025",
+      "evidence": "PDD planned to officially launch a fast-delivery retail service between August and September 2025, with an initial investment estimated at RMB 10 billion, primarily for building a delivery network and warehousing facilities.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzz China and ChinaTalk reports"
+      }
+    },
+    {
+      "claim": "Duoduo Maicai GMV surged 340% YoY in July 2025 after Meituan Youxuan's exit",
+      "evidence": "Following Meituan Youxuan's exit, Duoduo Maicai experienced its first significant growth in July 2025, with GMV increasing by a staggering 340% year-over-year and 30% month-over-month, as it picked up former Meituan Youxuan merchants and market share.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ChinaTalk; growth may be temporary windfall"
+      }
+    },
+    {
+      "claim": "Pinduoduo integrating Duoduo Maicai and instant retail in H2 2025; RMB 100B support program partly directed to this",
+      "evidence": "The company plans to integrate Duoduo Maicai and its instant retail business in the second half of 2025. The RMB 100 billion support program is heavily directed toward Duoduo Maicai and Instant Retail.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzz China; RMB 100B program is multi-year"
+      }
+    },
+    {
+      "claim": "Duoduo Maicai is the last major CGB platform still operating across China after Meituan and Alibaba exited",
+      "evidence": "Today, Pinduoduo's Duoduo Maicai is the last major platform still offering group-buy grocery deals across China, after Meituan and Alibaba exited the CGB market.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Meituan Youxuan exit confirmed in 2025"
+      }
+    },
+    {
+      "claim": "Instant retail in China delivers within 30-60 minutes; Meituan's 30-minute promise is the benchmark",
+      "evidence": "Meituan's 30-minute delivery promise is described as 'a game changer compared to JD's traditional same-day model — while customers who do not mind waiting to save a buck go to Pinduoduo and Taobao.' Expectations for deliveries to arrive within the hour or even within 30 minutes now stretch beyond food to all retail.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzz China 'Need for Speed: Instant Retail'"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Pinduoduo", "Duoduo Maicai"],
+    "topic_tags": ["logistics", "instant-retail", "warehouses", "last-mile", "domestic"],
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  }
+}

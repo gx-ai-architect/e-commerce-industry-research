@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-BM-008",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "title": "PDD Holdings 5-Year Financial History FY2020-9M2025 Revenue Decomposition",
+    "retrieved_at": "2026-03-24T10:45:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD revenue grew 7x from FY2020 to annualized 2025, driven by Temu launch and advertising monetization acceleration",
+      "evidence": "Revenue (RMB millions): FY2020: 59,492. FY2021: 93,950. FY2022: 130,558. FY2023: 247,639. FY2024: 393,836. 9M 2025: 307,934 (annualized ~410,579). YoY growth: FY2021 +58%, FY2022 +39%, FY2023 +90%, FY2024 +59%, 9M2025 annualized ~+4% (growth deceleration).",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "All revenue figures from official earnings releases. Annualized 2025 is a simple estimate (9M * 4/3)."
+      }
+    },
+    {
+      "claim": "Revenue mix shifted dramatically from 81% OMS in FY2020 to ~51% OMS / 49% TS in 9M 2025, driven by Temu's transaction services",
+      "evidence": "Revenue mix (OMS / TS / Merchandise): FY2020: 80.6% / 9.7% / 9.7%. FY2021: 77.2% / 15.1% / 7.7%. FY2022: 78.8% / 21.2% / 0% (merchandise discontinued). FY2023: 62.0% / 38.0%. FY2024: 50.3% / 49.7%. 9M 2025: 51.2% / 48.8%. The shift to transaction services correlates with Temu's September 2022 US launch and rapid global expansion.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Mix percentages computed from reported revenue segments. FY2020-2021 included a third segment (merchandise sales from Duoduo Grocery) that was later reclassified."
+      }
+    },
+    {
+      "claim": "PDD turned profitable in FY2021 and operating profit has grown from RMB 7.0B to RMB 108.4B in four years",
+      "evidence": "Operating profit (RMB millions): FY2020: -7,177 (loss). FY2021: 7,039. FY2022: 30,387. FY2023: 60,025. FY2024: 108,423. 9M 2025: 67,904. The inflection to profitability in FY2021 coincided with PDD reducing S&M spending after achieving scale.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Operating profit from annual earnings releases. FY2020 loss reflects heavy user acquisition spending."
+      }
+    },
+    {
+      "claim": "Temu launched September 2022 and was the primary driver of transaction services revenue explosion from RMB 27.6B (2022) to RMB 195.9B (2024)",
+      "evidence": "Transaction services revenue: FY2022: RMB 27,627M. FY2023: RMB 94,099M (+241% YoY). FY2024: RMB 195,902M (+108% YoY). This 7x growth in 2 years directly corresponds to Temu scaling from launch to $30-60B estimated GMV. Temu revenue is captured in transaction services; Pinduoduo revenue is primarily in OMS.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Revenue from earnings releases. Temu/Pinduoduo attribution is industry consensus (PDD does not formally disclose segment split)."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["5-year-history", "revenue-evolution", "profitability-inflection", "temu-launch-impact"]
+  }
+}

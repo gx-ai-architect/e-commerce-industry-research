@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-PEER-COMPARISON-20260324",
+  "source": {
+    "type": "article",
+    "url": "https://pro.morningconsult.com/analysis/low-cost-retailers-temu-shein",
+    "title": "Customer Satisfaction Peer Comparison: Domestic (PDD vs Taobao vs JD) and International (Temu vs Amazon vs Shein)",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "DOMESTIC PEER COMPARISON: PDD iOS CN rating 2.9/5 (3.4M ratings). JD and Taobao NPS both 20%+, PDD lower. JD complaint reply rate 99% vs PDD 15-20% vs Taobao 5%. PDD leads in user engagement time (36.1% share of e-commerce time).",
+      "evidence": "Pinduoduo CN App Store: 2.9/5 (3.38M ratings). JD/Taobao NPS >20%. Heimao reply rates: JD 99%, PDD 15-20%, Taobao 5%. PDD engagement: 36.1% time share in Double 11 2024, 323.5 min/month, 96.5 sessions/month.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Cross-referenced from QuestMobile, Heimao, and iTunes API data"
+      }
+    },
+    {
+      "claim": "INTERNATIONAL PEER COMPARISON: Temu iOS 4.67/5 vs Amazon (implied high) vs Shein. Trustpilot: Temu 2.0-2.5/5. 64% of consumers plan to spend more on Amazon. 44% of US adults used Temu, 31% used Shein (Jan 2025). 28% shop Temu monthly vs 23% Shein.",
+      "evidence": "Amazon: 64% plan to increase spend. Temu: 44% US adult usage, 28% monthly purchase. Shein: 31% US adult usage, 23% monthly. Temu App Store 4.67/5. Return policies: Amazon 90 days free, Temu 30 days free, Shein 45 days customer pays.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Morning Consult, IBKR Campus, and cross-border magazine comparison articles (2025)"
+      }
+    },
+    {
+      "claim": "Key differentiator: Temu wins on discovery (45% browse without specific item vs Amazon's 23%), Amazon wins on trust/speed. 66% of Temu/Shein shoppers cite lower prices as primary reason. 42% believe product quality is worse than US retailers.",
+      "evidence": "45% of Temu shoppers visit without specific item vs Amazon's 23%. 66% cite lower prices as key reason for shopping overseas platforms. 42% believe quality is worse than US retailers.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Morning Consult and Retail TouchPoints articles"
+      }
+    },
+    {
+      "claim": "2025 Double 11 GMV market share: Taobao/Tmall 37%, JD 25%, Douyin 15%, PDD 9%. Alternate source (Yiguan): Taobao/Tmall 50%+, JD 18.9%, PDD 14.8%, Douyin 12.2%.",
+      "evidence": "Sina Finance: 天猫淘宝37%，京东25%，抖音15%，拼多多9%。易观分析：淘宝/天猫过半，京东18.9%，拼多多14.8%，抖音12.2%。",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Two different measurement methodologies yield different figures. Both are from reputable Chinese data providers."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "temu", "taobao", "jd", "amazon", "shein"],
+    "topic_tags": ["peer-comparison", "customer-satisfaction", "market-share", "domestic", "international"]
+  }
+}

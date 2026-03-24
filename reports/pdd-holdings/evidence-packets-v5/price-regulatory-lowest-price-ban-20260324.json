@@ -1,0 +1,47 @@
+{
+  "packet_id": "PKT-PRICE-006",
+  "source": {
+    "type": "article",
+    "url": "https://tech.ifeng.com/c/8prGzEKMviI",
+    "title": "2026: E-commerce platforms ban on forced lowest-price policies (全网最低价禁令)",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Three Chinese government departments issued 互联网平台价格行为规则 (Internet Platform Price Behavior Rules) effective April 2026, banning platforms from forcing merchants to offer '全网最低价' (lowest price on the internet), auto-price-matching systems, or penalizing merchants with traffic restrictions for higher prices.",
+      "evidence": "New regulation effective April 2026 prohibits: (1) forcing merchants to lower prices, (2) mandating auto-price-matching systems, (3) using traffic restrictions or search ranking penalties to coerce merchants into price competition or cross-platform price matching. Companion regulations: 网络交易平台规则监督管理办法 and 直播电商监督管理办法 effective Feb 1, 2026. 互联网平台反垄断合规指引 also issued, flagging '全网最低价' as antitrust risk.",
+      "evidence_type": "qualitative",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Widely reported by iFeng, Jiemian, 21jingji, Pengpai, Sina Finance. Official NDRC regulation."
+      }
+    },
+    {
+      "claim": "Pinduoduo had already dropped '全网最低价' requirement during 618 2025, replacing with '同款同价' (same product, same price) policy. JD was caught in Nov 2025 'price patrol team' incident — monitoring merchant prices on rival platforms and threatening fines for lower prices elsewhere.",
+      "evidence": "PDD dropped '全网最低价' during 618 2025, shifted to '同款同价'. JD exposed during Double 11 2025 for organizing 'price patrol teams' to monitor merchant pricing on other platforms, threatening fines if merchants offered lower prices elsewhere. Platforms have shifted 'low price' from explicit to implicit mechanisms — including auto-follow-price algorithms.",
+      "evidence_type": "qualitative",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "2026 media coverage from Pengpai, 21jingji, and multiple outlets"
+      }
+    },
+    {
+      "claim": "Post-regulation challenge for e-commerce: 'If not competing on price, what do platforms compete on?' Industry shifting from absolute lowest price to GMV-priority strategy, service quality, and platform differentiation.",
+      "evidence": "Multiple outlets note that while platforms stopped explicitly demanding '全网最低价,' they created 'invisible pressure' through algorithms including auto-follow-price features. Taobao, JD, Douyin have weakened absolute low-price strategies, returning to GMV-priority approach.",
+      "evidence_type": "qualitative",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Analysis from iFeng, Jiemian, 21jingji"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-02",
+    "company_tags": ["PDD", "pdd-holdings", "BABA", "JD"],
+    "topic_tags": ["pricing", "regulation", "全网最低价", "antitrust", "price-competition"],
+    "question_id": "regulatory-pricing-shift",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "packet_id": "PKT-logistics-009",
+  "source": {
+    "type": "article",
+    "url": "https://www.supplychaindive.com/news/temu-shein-shipping-delivery-industry-impact/725215/",
+    "title": "Temu and Shein packages flooding delivery networks - Supply Chain Dive / ShipMatrix",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "Temu peak US daily package volume: ~900K-1M/day (late 2023 to mid-2024) before de minimis changes",
+      "evidence": "Shein and Temu each were shipping an estimated one million packages a day on average in the U.S. (late 2023, per ShipMatrix). In July 2024, each provided carriers about 900,000 packages daily. SHEIN and Temu alone were shipping over one million packages per day to the US via air before the de minimis policy change.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "ShipMatrix data; multiple time points confirm ~1M/day peak"
+      }
+    },
+    {
+      "claim": "US total parcel market: 23.9B shipments in 2025 (+0.4%), $196B revenue (+4.1%), 91M packages/weekday average",
+      "evidence": "Total U.S. domestic parcel market revenue reached $196 billion (up 4.1% annually), with volume growing to 23.9 billion parcels (up 0.4%), a new all-time high. Average volumes were 91 million per weekday.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ShipMatrix press release March 2026"
+      }
+    },
+    {
+      "claim": "Amazon became US parcel volume leader in 2025 at 6.7B packages, surpassing USPS (6.6B)",
+      "evidence": "Amazon broke the record of becoming the market leader in parcel volume by delivering more packages than each of the Big 3. In 2025, Amazon's volume of 6.7 billion exceeded that of USPS (6.6 billion).",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ShipMatrix 2025 parcel market analysis, March 2026"
+      }
+    },
+    {
+      "claim": "25% of Temu's US GMV now from sellers with local US/EU warehouse inventory",
+      "evidence": "Roughly 25% of U.S. GMV now comes from sellers stocking inventory in local U.S. and European warehouses, reducing reliance on small shipments from China and helping navigate import tariffs.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Analyst estimate from financial research; not official PDD disclosure"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu", "Amazon", "USPS"],
+    "topic_tags": ["logistics", "parcel-volume", "US-market", "delivery"],
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "packet_id": "PKT-PRICE-004",
+  "source": {
+    "type": "article",
+    "url": "https://www.omnisend.com/temu-vs-amazon-price-trust-report/",
+    "title": "Omnisend study: Temu vs Amazon price, trust, and competition (Dec 2024-Jan 2025)",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Temu close-match products average 40% cheaper than Amazon ($13.37 savings per product). But identical branded products show only ~1% price difference. The 40% gap is driven by unbranded/white-label goods, not brand-for-brand competition.",
+      "evidence": "Omnisend study (Dec 2024-Jan 2025) analyzing 23 categories: 77% of Amazon products have close match on Temu. 1 in 10 are identical. Close-match products ~40% cheaper on Temu. Identical branded products ~1% cheaper. Fashion/apparel 55% cheaper, automotive 12% cheaper on Amazon. 94% match rate in fashion, lowest in food/beverage.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Omnisend research published Jan 2025, widely cited by Yahoo Finance, TechRadar, BeBold Digital. Methodology: cross-platform price comparison across 23 categories."
+      }
+    },
+    {
+      "claim": "Temu discount strategy more aggressive than Amazon: 65% of Temu listings marked down (avg 43% discount) vs 47% of Amazon listings (avg 18% discount). Some Temu discounts up to 98%.",
+      "evidence": "Omnisend data: 65% of Temu products discounted vs 47% on Amazon. Temu average discount rate ~43%, Amazon ~18%. Maximum discounts: Temu 98%, Amazon 67%.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Omnisend study data, corroborated by Debutify and BeBold analyses"
+      }
+    },
+    {
+      "claim": "Trust gap massive: only 5% of US consumers trust Temu despite 53% shopping there in past year. Amazon average product has ~50,000 reviews vs Temu's ~1,500. Signs of review manipulation on Temu (disappearing negative reviews, relisted products).",
+      "evidence": "Omnisend consumer survey: 53% shopped on Temu in past year, 5% shop several times per week, but only 5% say they trust Temu. Average Amazon product: ~50,000 reviews. Average Temu product: ~1,500 reviews. Researchers found signs of review manipulation.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Omnisend survey data. Trust gap corroborated by Chain Store Age survey and Probolsky Research."
+      }
+    },
+    {
+      "claim": "Brand imitation concerns on Temu: many products closely resemble well-known brands but with tweaked packaging, blurred logos, or branding removed. In camera/photo category, 96% match rate but 0% same brand.",
+      "evidence": "Omnisend: 'uncovered brand imitation concerns on Temu, with many products closely resembling well-known brands—but with tweaked packaging, blurred logos or branding removed entirely.' Camera/photo: 96% close match rate, 0.0% same brand.",
+      "evidence_type": "qualitative",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Omnisend study finding, also covered by Tech Digest"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-01",
+    "company_tags": ["PDD", "pdd-holdings", "Temu", "Amazon"],
+    "topic_tags": ["pricing", "price-comparison", "international", "temu-vs-amazon", "trust", "brand-imitation"],
+    "question_id": "price-international-comparison",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  }
+}

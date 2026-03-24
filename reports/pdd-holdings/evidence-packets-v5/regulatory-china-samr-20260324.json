@@ -1,0 +1,55 @@
+{
+  "packet_id": "PKT-REG-CN-001",
+  "source": {
+    "type": "article",
+    "url": "https://www.scmp.com/tech/big-tech/article/3290555/why-beijing-has-put-e-commerce-sectors-refund-only-policy-and-pdd-under-scrutiny",
+    "title": "SCMP, Caixin, Rest of World: SAMR investigation and refund-only reform",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "SAMR investigated PDD over refund-only policy; physical altercation between PDD staff and regulators in December 2025",
+      "evidence": "SAMR officials came to PDD's Shanghai premises to investigate 'refunds first' policy. SAMR told PDD the policy undercuts small businesses on its platform. At least two fistfights occurred between PDD staff and SAMR officials. PDD fired dozens of government relations employees. Stock fell 6.48% on the news.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Reported by Caixin Global (December 16, 2025), confirmed by Business of Fashion, Sourcing Journal. Physical altercation is extraordinary and unprecedented for a major tech company."
+      }
+    },
+    {
+      "claim": "Shanghai tax authority fined PDD subsidiary 100,000 yuan ($14,359) for tax reporting violations in January 2026",
+      "evidence": "Shanghai Xunmeng Information Technology (PDD subsidiary operating Pinduoduo) fined 100,000 yuan for failing to report information about platform operators and employees for Q3 2025. Fine follows the SAMR fistfight incident.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "SCMP January 2026 report. Fine amount is cosmetic ($14K) but signals regulatory displeasure."
+      }
+    },
+    {
+      "claim": "China ended refund-only policies industry-wide by April 2025; all major platforms (PDD, Taobao, JD, Douyin, Kuaishou) announced cancellation",
+      "evidence": "On January 10, 2025, regulators publicly stated platforms were interviewed about refund-only issues. By April 22, 2025, Taobao, Pinduoduo, JD.com, and Douyin all announced policy revisions canceling refund-only. China Electronic Commerce Association led new network retail service standards. High-rated merchants (4.8+) given final decision-making power over refund requests.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed across SCMP, 36kr, Futunn, ecommercenorthamerica.org. Industry-wide change, not PDD-specific."
+      }
+    },
+    {
+      "claim": "Refund-only cancellation removes PDD's competitive differentiator but also removes merchant burden — net effect ambiguous for PDD",
+      "evidence": "PDD pioneered refund-only in 2021 to attract price-sensitive consumers. Over 160,000 complaints filed by merchants about abuse. Courts settled 1,400+ related cases. Now all platforms must eliminate the policy, leveling the playing field. However, PDD's merchant ecosystem was most stressed by the policy, so cancellation may improve merchant retention.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Complaint data from Sina consumer complaint website. Net impact assessment is analyst interpretation — could help or hurt PDD depending on whether consumer acquisition or merchant retention matters more."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Pinduoduo"],
+    "topic_tags": ["regulatory", "SAMR", "refund-only", "tax-compliance", "China-domestic"],
+    "severity": "operational",
+    "jurisdiction": "China"
+  }
+}

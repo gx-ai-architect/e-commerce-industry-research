@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-TEMU-APPSTORE-20260324",
+  "source": {
+    "type": "api",
+    "url": "https://itunes.apple.com/search?term=temu&entity=software&country=us&limit=1",
+    "title": "Temu App Store Rating and International Review Data (2025-2026)",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "Temu iOS App Store rating: 4.67/5.0 with 2.07M ratings (US, March 2026)",
+      "evidence": "averageUserRating: 4.67302, userRatingCount: 2,069,130. Version 4.39.0. Primary genre: Shopping.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Search API, country=us, retrieved 2026-03-24"
+      }
+    },
+    {
+      "claim": "Temu app downloads: 1B+ cumulative by late 2025, top-3 most downloaded shopping app in US App Store (March 2026)",
+      "evidence": "Over 1 billion cumulative downloads by late 2025. Temu has returned to the top of the App Store charts, ranking third in the most-downloaded shopping apps after resuming ad spend.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Modern Retail report, March 2026"
+      }
+    },
+    {
+      "claim": "Stark divergence: Temu iOS rating 4.67/5 vs Trustpilot 2.0-2.5/5 vs Sitejabber 2.0/5. App store reviews skew positive (prompted after purchase), complaint sites skew negative (self-selection).",
+      "evidence": "App Store: 4.67/5 (2.07M ratings). Trustpilot: 2.0-2.5/5 (~49K reviews). Sitejabber: 2.0/5 (1,760 reviews). BBB: 2.29/5 (1,805 reviews). hellopeter: 2.8 TrustIndex.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Cross-platform comparison. Divergence is consistent with known bias patterns: app store ratings prompted after positive experiences; Trustpilot/Sitejabber self-selected complaint-driven."
+      }
+    },
+    {
+      "claim": "Pinduoduo iOS App Store rating in China: 2.9/5 with 3.38M ratings — notably lower than Temu's US rating (4.67/5)",
+      "evidence": "Pinduoduo CN App Store: 2.9/5 (3,384,490 ratings). Pinduoduo US: 2.4/5 (7,017 ratings). Temu US: 4.67/5 (2,069,130 ratings).",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API. PDD's domestic app has significantly more ratings but lower score, likely reflecting mature user base with higher complaint rates."
+      }
+    },
+    {
+      "claim": "Temu regulatory actions (2025-2026): Netherlands banned ads targeting children (Mar 2025), Belgium reprimanded for biometric data harvesting (Jan 2026), FTC $2M fine resolved (Sep 2025), Texas AG sued for 'spyware' (Feb 2026)",
+      "evidence": "Netherlands banned targeted ads to children under 16 (March 2025). Belgium DPA formal reprimand for unlawful biometric data via AR 'Try-On' (January 2026). Whaleco Inc resolved FTC INFORM Act issues with $2M fine (September 2025). NCC Group audit: Medium Risk rating, only 12% 2FA adoption.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Aggregated from multiple regulatory and news sources"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["app-ratings", "international", "regulatory", "customer-satisfaction"]
+  }
+}

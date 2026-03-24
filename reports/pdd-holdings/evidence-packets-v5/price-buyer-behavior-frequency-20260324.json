@@ -1,0 +1,56 @@
+{
+  "packet_id": "PKT-PRICE-007",
+  "source": {
+    "type": "article",
+    "url": "https://www.bain.com/insights/china-shopper-report-2025-volume-2/",
+    "title": "Consumer behavior and purchase frequency: why shoppers choose Pinduoduo",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo and Douyin now contribute over 40% of total FMCG e-commerce sales in China. Online channels grew +7% in 2025 with penetration rebounding to 39% (from 37% in 2024), led by PDD and Douyin.",
+      "evidence": "Bain & Company China Shopper Report 2025 Vol. 2: online channels +7%, online penetration rebounded to 39% (from 37% in 2024). PDD and Douyin contribute over 40% of total FMCG e-commerce sales. PDD's low-price model and Douyin's short-video marketing reignited trial and frequency, reversing prior decline.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Bain & Company is primary source (Tier 1 consulting firm). China Shopper Report is their annual flagship study."
+      }
+    },
+    {
+      "claim": "Pinduoduo was the most-used e-commerce app in China by 2025-2026, surpassing Taobao in individual app usage (though Alibaba still leads when combining Taobao+Tmall). Key driver: high purchase frequency builds habit.",
+      "evidence": "Business of Apps 2026 data: Alibaba had most app users combining Taobao+Tmall, but Pinduoduo was the most used ecommerce app in China individually. High purchase frequency is a key PDD characteristic — builds habit and repeat usage.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Business of Apps 2026 statistics and multiple analyst reports"
+      }
+    },
+    {
+      "claim": "Why consumers choose PDD over Taobao: (1) prices approximately half of Taobao for similar goods, (2) C2M eliminates middlemen, (3) PDD originally captured underserved 3rd-4th tier cities Taobao/JD ignored, (4) merchants migrating from Taobao to PDD due to better support and lower fees.",
+      "evidence": "Lemon8 consumer review: PDD 'sells products at almost half the price of Taobao.' EConsultancy: PDD realized enormous underserved customer base in 3rd-tier cities and below. Merchant migration from Taobao villages to PDD and Douyin. Merchants compare Alibaba's 'hands-off approach' unfavorably to PDD's 'more direct support.' Since PDD's rise, it has taken consumer groups that 'originally belonged to Taobao.'",
+      "evidence_type": "qualitative",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Consumer and merchant testimonials from Lemon8, EConsultancy, and industry reports"
+      }
+    },
+    {
+      "claim": "Cross-platform shopping behavior in 2026: consumers discover on Douyin (impulse/livestream), validate on Tmall (brand trust), and convert on PDD (lowest price). PDD benefits from price comparison behavior — attention elsewhere drives value-seeking on PDD.",
+      "evidence": "WPIC 2026 analysis: 'A burst of attention on Douyin can lead shoppers to compare prices on Pinduoduo. A spike in branded search on Tmall can soften the ground for value-driven conversions on Pinduoduo. Consumers move across platforms as they validate products, compare prices, and decide how much conviction they truly have.'",
+      "evidence_type": "qualitative",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "WPIC Top 5 Chinese E-Commerce Platforms 2026 analysis"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-12",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["buyer-behavior", "purchase-frequency", "FMCG", "cross-platform", "consumer-choice"],
+    "question_id": "buyer-behavior-platform-choice",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  }
+}

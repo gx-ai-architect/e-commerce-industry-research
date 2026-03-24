@@ -1,0 +1,55 @@
+{
+  "packet_id": "PKT-logistics-006",
+  "source": {
+    "type": "article",
+    "url": "https://www.alibaba.com/product-insights/temu-vs-shein-vs-amazon-who-actually-has-the-best-shipping-times-right-now.html",
+    "title": "Temu vs Shein vs Amazon: Delivery Time Comparison 2025-2026",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "Delivery time comparison: Amazon 1-2 days (Prime), Shein 4.2 days avg (US warehouse), Temu 7.9 days avg",
+      "evidence": "Amazon Prime: 1-2 day delivery, same-day available. Shein: apparel items from US warehouse arrived in 4.2 days on average; US warehousing handles 60%+ of American orders; 94% on-time rate. Temu: average delivery time was 7.9 days; only 38% of orders arrived within advertised 3-5 day window; 82% on-time rate.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From consumer testing data across multiple review sites"
+      }
+    },
+    {
+      "claim": "Temu cross-border standard shipping: 6-20 business days; local warehouse orders: 3-12 days; target 1-3 days from DCs",
+      "evidence": "Temu's standard shipping time is 6 to 20 business days for most international orders. Orders from regional warehouses arrive within 3-12 days. Temu aims to offer 1-3 day delivery from its distribution centers for nearby customers.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From dsers.com and dodropshipping.com shipping guides"
+      }
+    },
+    {
+      "claim": "Temu European local warehouse delivery: 1-8 business days vs weeks for cross-border",
+      "evidence": "Temu has now started using local warehouses in several European countries (including Germany, France, Spain, Netherlands, Italy, Austria), bringing delivery time down to just 1 to 8 business days.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ecommercenews.eu"
+      }
+    },
+    {
+      "claim": "JD Logistics offers same-day and next-day delivery in China via self-operated network; Pinduoduo lags",
+      "evidence": "JD's same-day and next-day delivery services are supported by self-built logistics network encompassing vast warehousing infrastructure and proprietary last-mile delivery. Pinduoduo's primary reason for entering instant retail is 'suboptimal logistics efficiency' — its performance still lags behind SF Express and JD Logistics.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzz China and TYCORUN analysis"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu", "Amazon", "Shein", "JD"],
+    "topic_tags": ["logistics", "delivery-time", "comparison", "peer-analysis"],
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  }
+}

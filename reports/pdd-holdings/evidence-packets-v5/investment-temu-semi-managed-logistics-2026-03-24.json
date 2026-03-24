@@ -1,0 +1,54 @@
+{
+  "packet_id": "PKT-INV-004",
+  "source": {
+    "type": "article",
+    "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-24-pdd-holdings-pdd-deep-dive-the-value-kings-global-gauntlet",
+    "title": "Temu Semi-Managed Model and Logistics Investment",
+    "retrieved_at": "2026-03-24T12:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "Temu's transition to semi-managed model in 2025 is a capital-light pivot that shifts logistics costs to merchants with local warehouse capabilities, fundamentally changing Temu's economics",
+      "evidence": "In 2025, PDD successfully transitioned Temu to a 'Semi-Managed' model. Merchants with local warehouse capabilities (particularly in U.S. and EU) take over logistics, shortening delivery from weeks to days and shifting last-mile costs away from PDD. By end of 2024, semi-managed was expected to account for 1/3 of GMV and had already achieved breakeven in U.S. By end of 2025, non-China exported products ~15% of GMV.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Semi-managed model transition confirmed across multiple sources including Seeking Alpha, FinancialContent analyses, and CMBI research note."
+      }
+    },
+    {
+      "claim": "R&D spending hit record levels in 2025 focused on autonomous warehousing robotics in US and EU hubs — a direct investment to mitigate rising labor costs",
+      "evidence": "R&D spending hit a record in 2025, focused on 'Autonomous Warehousing' — deploying sorting robotics in U.S. and EU hubs. Q3 2025 GAAP R&D was RMB 4.33B ($608.5M), up 41% YoY from RMB 3.06B. Annual R&D exceeded RMB 10B for third consecutive year, likely reaching ~RMB 16-17B for FY2025 at this run rate.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "R&D figures from Q3 2025 earnings release. 'Autonomous warehousing' focus from multiple analyst reports."
+      }
+    },
+    {
+      "claim": "EU regulatory pressure (EUR 3/item duty from July 2026) is forcing massive warehousing buildout in Europe — PDD racing to localize inventory",
+      "evidence": "EU's new duty regime imposes interim EUR 3 fee per item starting July 1, 2026. The 'Temu model' of shipping $5 trinkets becomes economically impossible under this regime. PDD is racing to move items into European warehouses to bypass the per-item fee. This is described as 'a massive logistical undertaking that will test margins.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "EU duty regime confirmed in multiple 2026 analyses. Specific July 1 date and EUR 3 amount referenced consistently."
+      }
+    },
+    {
+      "claim": "Operating expenses rose 37% in Q1 2025 due to heavy platform ecosystem investment, with management explicitly prioritizing long-term ecosystem health over short-term profits",
+      "evidence": "Operating expenses increased 37% in Q1 2025. Transaction services revenue in Q2 2025 grew only 1% YoY due to de minimis policy changes and merchant support investments. Operating profit decreased 21% in Q2 2025 to RMB 25.8B. Net income fell 4% to RMB 30.8B in Q2 2025. Despite this, net margin remained >25%.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Figures from PDD quarterly earnings releases and analyst reports."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["investment", "semi-managed", "logistics", "warehousing", "R&D", "EU-regulation"],
+    "source_tier": "secondary"
+  }
+}

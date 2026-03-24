@@ -1,0 +1,47 @@
+{
+  "packet_id": "PKT-PRICE-009",
+  "source": {
+    "type": "article",
+    "url": "https://ashleydudarenok.com/what-is-pinduoduo/",
+    "title": "Pinduoduo group buying (拼团) evolution: from discount tool to demand-aggregation engine",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Group buying (拼团) remains foundational to PDD but has evolved through 4 phases: (1) 2015-2017 viral group buying via WeChat, (2) 2018-2020 fresh produce/agriculture, (3) 2021-2023 trust/quality control, (4) 2024-2026 AI-driven demand forecasting and supply-side digitization. No longer just a discount mechanic — now a demand-aggregation engine.",
+      "evidence": "Platform evolved: 2015-2017 group-buying viral growth via WeChat; 2018-2020 fresh produce and agricultural supply chains; 2021-2023 trust, quality control, merchant verification; 2024-2026 AI-driven demand forecasting, supply-side digitization, cross-border via Temu. By 2026, PDD is 'a demand-aggregation engine, a data-driven supply chain optimizer, and a social commerce blueprint.'",
+      "evidence_type": "qualitative",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple analyst sources including Ashley Dudarenok, Miracuves, EConsultancy confirm evolution timeline"
+      }
+    },
+    {
+      "claim": "PDD's instant retail push: internal meeting (May-June 2025) revealed initial investment exceeding 10B RMB for front-end warehouses and infrastructure, deployed September 2025 to September 2026. Signals shift from pure price competition to logistics/speed competition.",
+      "evidence": "TechBuzzChina: Between May and June 2025, PDD held internal meeting revealing instant retail project initial investment exceeding RMB 10 billion, primarily for front-end warehouses. Investment period: September 2025 to September 2026. Also testing '百亿超市' (Billion Supermarket) within app.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "TechBuzzChina reporting based on internal meeting leaks, corroborated by 九方智投 coverage of 百亿超市 beta"
+      }
+    },
+    {
+      "claim": "PDD crossed $48 billion (RMB 108.3B Q3 2025) in annual revenue, up 9% YoY. Revenue growth slowing from hyper-growth phase. Earnings growth forecast at 0.13% for 2025 but double-digit growth anticipated from 2026 as investment cycle completes.",
+      "evidence": "PDD Holdings Q3 2025 revenues: RMB 108.3 billion (US$15.2B), up 9% YoY. Full-year 2025 revenue crossed $48B. Earnings growth 0.13% for 2025 due to heavy investment. Double-digit earnings growth expected from 2026.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Q3 2025 earnings data from PDD Holdings official results. Growth forecasts from analyst estimates."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-12",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["group-buying", "拼团", "instant-retail", "百亿超市", "evolution", "revenue"],
+    "question_id": "group-buying-evolution",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  }
+}

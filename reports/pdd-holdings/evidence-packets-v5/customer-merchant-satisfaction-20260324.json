@@ -1,0 +1,80 @@
+{
+  "packet_id": "PKT-MERCHANT-SATISFACTION-20260324",
+  "source": {
+    "type": "article",
+    "url": "https://m.thepaper.cn/newsDetail_forward_30501347",
+    "title": "Pinduoduo Merchant Satisfaction, Refund-Only Reform, and Subsidy Programs (2024-2026)",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo has 14.2M merchants on its platform as of 2025, creating 55.3M jobs.",
+      "evidence": "中国社科院大学报告显示，拼多多平台商家数量已达1420万家，在国内累计激发就业岗位达到5532.1万个。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Chinese Academy of Social Sciences report"
+      }
+    },
+    {
+      "claim": "Refund-only (仅退款) policy reform timeline: PDD added 36-hour merchant negotiation period (2024), all major platforms collectively ended proactive refund-only support (April 2025), regulation formalized in 2026.",
+      "evidence": "2024年拼多多针对已发货订单设置商家36小时协商期。2025年4月淘宝、京东、拼多多、抖音、快手集体更新售后规则。2026年市场监管总局发布《网络交易平台规则监督管理办法》，明确规定平台不得强制经营者承担退款不退货责任。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From multiple sources including The Paper, Sina Finance"
+      }
+    },
+    {
+      "claim": "Refund-only complaints dropped from 50.36% of merchant complaints (Q1 2025) to 35.85% (Q3 2025) and 37.09% (Q4 2025), but remain the #1 merchant complaint category by far.",
+      "evidence": "电诉宝显示，2025年Q3、Q4全国电商平台商家投诉中，仅退款占比分别为35.85%、37.09%，相较于Q1的50.36%已大幅改善。但任意仅退款在商家投诉问题中仍然位于断层第一。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From 电诉宝 (e-commerce complaints platform) quarterly data"
+      }
+    },
+    {
+      "claim": "PDD launched 'Hundred Billion Fee Reduction' (Aug 2024) saving merchants 10B+ RMB in service fees. Followed by 'Thousand Billion Support' (Apr 2025): 1,000B RMB over 3 years.",
+      "evidence": "2024年8月拼多多宣布百亿元资源包减免。推行一年来已为千万商家节省海量经营成本，仅推广服务费退返就达上百亿元。2025年4月推出千亿扶持，未来三年拟投入超1000亿元。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From 21jingji.com, thepaper.cn, and company announcements"
+      }
+    },
+    {
+      "claim": "Despite subsidies, merchant activity only grew 7% while fee reductions expanded 40% (Q2 2025). Monetization rate at 7.9% (2024) approaching 8% churn threshold.",
+      "evidence": "2025年Q2国内商家技术服务费减免规模同比扩大40%，但商家活跃度仅增长7%。平台货币化率超过8%将触发商家流失临界点，拼多多2024年达7.9%（抖音电商6.2%）。",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From OFweek analysis article. Monetization rate threshold is analytical estimate, not confirmed empirically."
+      }
+    },
+    {
+      "claim": "Customer acquisition cost surged from 18 RMB (2020) to 210 RMB (2025), a 1,067% increase. Monthly active user growth slowed from 21% (2022) to 5% (Q2 2025).",
+      "evidence": "获客边际成本从2020年的18元增长至2025年的210元，上涨1067%。月活增速从2022年的21%降至2025年Q2的5%，下沉市场渗透率已达89%。",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From OFweek and financial analysis articles"
+      }
+    },
+    {
+      "claim": "AI fake-photo fraud countermeasures: Taobao launched AI detection (Jan 2026), PDD and Douyin building similar systems. Over 4,000 merchants have sued 'wool-pulling' fraudsters.",
+      "evidence": "2026年1月淘宝率先上线售后AI假图识别模型。拼多多表示将继续加强售后技术支持。被逼疯的商家起诉了4000多个羊毛党。",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From bjnews.com.cn and stcn.com"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["merchant-satisfaction", "refund-only-reform", "subsidies", "merchant-churn"]
+  }
+}
