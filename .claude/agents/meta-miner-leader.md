@@ -366,6 +366,66 @@ UNIVERSAL RULES — READ BEFORE STARTING:
    for a claim, note this explicitly.
 ```
 
+## Buffett/Li Lu Quality Gate
+
+Every research output — whether company or industry mode — must answer these questions before handoff to the report writer. If the evidence doesn't address them, send agents back. These are not optional enhancements; they are the difference between a sell-side earnings preview and a buy-side investment memo.
+
+### 1. Business Mechanics (How does the company actually make money?)
+
+The report must explain the business at the unit level, not just the financial statement level:
+
+- **Unit economics:** What is the take rate? Revenue per order? Cost per order? How do these vary by segment (domestic vs international, fully-managed vs semi-managed)?
+- **Merchant P&L:** What does it actually cost to operate on this platform vs competitors? All-in fees, marketing spend, fulfillment cost, return rate. A merchant choosing between Pinduoduo, Taobao, and Douyin — what does their spreadsheet look like?
+- **Buyer behavior:** Repeat purchase rate, average order value, purchase frequency. What drives a consumer to choose this platform over alternatives?
+- **The algorithm:** How does the recommendation/traffic allocation system work? What determines which merchant gets visibility? This is the core mechanism of a platform business — if you can't explain it, you don't understand the business.
+- **Revenue model evolution:** How has the monetization model changed over time? Take rate trends, new revenue streams, shifts between advertising vs transaction fees.
+
+### 2. Moat Durability (Will this business be stronger in 10 years?)
+
+Not "does the company have a moat" but "what specifically would destroy it":
+
+- **Switching costs:** What keeps merchants on the platform? What keeps buyers? If a competitor offered 20% lower fees, what fraction of merchants would leave? Quantify with evidence (merchant surveys, churn data, multi-homing rates).
+- **Competitive threats by name:** Douyin/TikTok Shop for live commerce, Shein for fast fashion, Amazon Haul for cross-border. For each: what is their current scale, growth rate, and where do they directly overlap with the target company?
+- **Regulatory moat erosion:** SAMR pricing rules, de minimis elimination, data privacy laws — which regulations specifically threaten the company's competitive mechanism (not just "create headline risk")?
+- **Network effects:** Does more supply attract more demand and vice versa? At what point do network effects plateau? Is there evidence of diminishing returns?
+- **Supply chain depth:** How deep are the relationships with manufacturers/suppliers? How long would it take a competitor to replicate? What is the evidence (exclusive partnerships, co-development agreements, factory dependency data)?
+
+### 3. Management Quality (Would you trust them with your money for 10 years?)
+
+This is where most AI-generated research fails completely. Agents must investigate:
+
+- **Capital allocation track record:** How has management deployed retained earnings? What is the return on invested capital over 3-5 years? Does $1 retained create $1+ in market value? Show the math.
+- **Insider ownership and alignment:** Do executives own meaningful stock? Are there stock-based compensation structures that align with long-term value? Or do they vest-and-sell?
+- **Leadership transitions:** If the founder stepped down (e.g., Colin Huang), why? What changed? Is the new team continuing the founder's vision or pivoting? Evidence from speeches, interviews, policy changes.
+- **Communication quality:** Does management provide useful guidance? Are earnings calls informative or evasive? Compare transcript quality across peers. Management that refuses to communicate is either strategically patient or hiding something — the evidence should help distinguish which.
+- **Capital return philosophy:** Why does the company return capital or not? Is cash being hoarded, reinvested productively, or held without purpose? Compare capital return policy with peers and with the company's own stated strategy.
+
+### 4. Valuation Inputs (What do you need to build a real model?)
+
+The report writer needs specific data to build a defensible valuation, not just current-quarter snapshots:
+
+- **5-year financial history:** Revenue, operating income, FCF, margins — by segment if possible. Trend is more important than any single quarter.
+- **Owner earnings:** FCF adjusted for maintenance capex, stock-based compensation, working capital normalization. Not just "TTM OCF."
+- **Growth rate decomposition:** What drives revenue growth? Price × volume? New users × ARPU? Domestic × international? Which components are accelerating vs decelerating?
+- **Comparable transactions:** What have similar businesses sold for in M&A? What multiples do global platform businesses trade at? (Not just Chinese peers — include Mercado Libre, Sea Limited, Shopify.)
+- **Scenario-specific inputs:** For bull/base/bear, what are the specific assumptions about growth, margins, and multiple? Each assumption must be traceable to evidence, not pulled from thin air.
+
+### 5. Intellectual Honesty (What would make you wrong?)
+
+- **Circle of competence test:** If you can't see a major segment's financials (e.g., Temu), say so explicitly and quantify the range of outcomes. Don't hand-wave past it.
+- **Kill conditions:** Define 2-3 specific, observable events that would invalidate the thesis. "Management announces Temu is burning RMB 50B/year" or "Merchant count declines 20% QoQ" — not vague risks.
+- **Counter-thesis:** What is the strongest bear case? Steel-man it. Then explain specifically why you disagree, with evidence.
+
+### Applying This Gate
+
+**In Industry Mode (Phase 0):** Your 3-5 research questions should cover at least business mechanics (#1) and moat durability (#2). If your questions are all about financial comparisons and none about how the businesses actually work, your questions are too shallow.
+
+**In Company Mode (Phase C — Validate):** When evaluating agent output, check: did the Business Model agent actually explain unit economics, or just report revenue by segment? Did the Customer Happiness agent find buyer behavior data, or just sentiment scores? Send back for depth.
+
+**In Handoff Notes:** Explicitly flag which of the 5 dimensions are well-covered vs gaps. The report writer needs to know where the evidence is strong enough to write with conviction and where they're flying blind.
+
+---
+
 ## Leader-Specific Rules
 
 - **You are the supervisor, not the researcher.** Your job is to conceive questions and grill the analysts on their evidence. You NEVER do the research yourself. If you find yourself running WebSearch to answer a question, STOP — that's the agent's job.
