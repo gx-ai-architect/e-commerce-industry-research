@@ -1,0 +1,36 @@
+{
+  "packet_id": "PKT-CUST-003",
+  "source": {
+    "type": "article",
+    "url": "https://news.qq.com/rain/a/20250328A02IUK00",
+    "title": "Pinduoduo Counterfeit Goods Complaints Analysis (March 2025)",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "Counterfeit goods complaints accounted for ~59% of Pinduoduo's total Heimao complaints (22,512 out of 38,274) as of March 2025",
+      "evidence": "拼多多假货投诉22,512件，占其平台总投诉量38,274件的约59%",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Tencent News analysis of Heimao data. Counterfeits remain Pinduoduo's dominant complaint category domestically."
+      }
+    },
+    {
+      "claim": "Pinduoduo's cumulative complaint volume on Heimao exceeded 210,000 cases, making it one of the most-complained-about merchants",
+      "evidence": "拼多多累计投诉量已超过21万件",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Cumulative figure, not annualized. Should be contextualized against transaction volume (billions of orders/year)."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2025-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["customer-satisfaction", "complaints", "counterfeit", "quality", "domestic"],
+    "source_tier": "secondary"
+  }
+}

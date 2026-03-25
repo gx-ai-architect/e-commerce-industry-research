@@ -1,0 +1,54 @@
+{
+  "packet_id": "PKT-L04",
+  "source": {
+    "type": "article",
+    "url": "https://www.supplychaindive.com/news/de-minimis-status-supreme-court-trump/812785/",
+    "title": "De minimis still shelved after Supreme Court's tariff ruling",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "SCOTUS ruled 6-3 on Feb 20, 2026 that IEEPA does not grant the president authority to impose tariffs, invalidating 'reciprocal tariffs' and 'fentanyl tariffs' imposed since Feb 2025.",
+      "evidence": "On February 20, 2026, the Court ruled 6-3 that the International Emergency Economic Powers Act (IEEPA) does not give the president authority to impose tariffs — invalidating the 'reciprocal tariffs,' 'fentanyl tariffs,' and virtually every new tariff imposed since February 2025.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "SCOTUS ruling confirmed by multiple legal and news sources including Congress.gov CRS report"
+      }
+    },
+    {
+      "claim": "Despite SCOTUS ruling, de minimis exemption remains suspended. Trump signed replacement 10% global tariff under Section 122 and continued de minimis suspension. The One Big Beautiful Bill Act (signed July 4, 2025) permanently repeals de minimis effective July 1, 2027.",
+      "evidence": "The day of the ruling, Trump signed three executive actions: one terminating IEEPA tariffs, one imposing a new 10% global 'temporary import surcharge' under Section 122 of the Trade Act of 1974, and one continuing the suspension of the de minimis exemption. The One Big Beautiful Bill Act, signed July 4, 2025, permanently repeals the statutory basis for de minimis effective July 1, 2027.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple legal sources including Covington & Burling, Brownstein, and Congress.gov confirm the replacement tariff structure"
+      }
+    },
+    {
+      "claim": "De minimis timeline: China/Hong Kong lost de minimis May 2, 2025; all remaining countries lost it August 29, 2025. At peak, 4M+ de minimis packages entered the US daily.",
+      "evidence": "China and Hong Kong lost de minimis treatment on May 2, 2025. All remaining countries lost it on August 29, 2025. At their peak, more than 4 million de minimis packages entered the U.S. daily.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Timeline confirmed by Supply Chain Dive and EcomCPA; 4M daily volume from multiple industry sources"
+      }
+    },
+    {
+      "claim": "Cross-border direct-ship from China has NOT resumed despite SCOTUS ruling. US effective tariff rate remains the highest since 1946, with cumulative rates on Chinese goods exceeding 50%.",
+      "evidence": "The U.S. effective tariff rate remains the highest since 1946, the $800 de minimis exemption is gone for all countries, and sellers sourcing from China still face cumulative rates that can exceed 50%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Post-SCOTUS tariff landscape confirmed by multiple legal and trade sources. Cross-border model remains unviable for low-value goods."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["tariffs", "de-minimis", "SCOTUS", "regulatory", "logistics"],
+    "source_tier": "primary"
+  }
+}

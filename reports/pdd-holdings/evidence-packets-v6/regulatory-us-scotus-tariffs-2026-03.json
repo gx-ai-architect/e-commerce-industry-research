@@ -1,0 +1,73 @@
+{
+  "packet_id": "PKT-REG-001",
+  "source": {
+    "type": "article",
+    "url": "https://www.hklaw.com/en/insights/publications/2026/02/supreme-court-strikes-down-ieepa-tariffs",
+    "title": "Supreme Court Strikes Down IEEPA Tariffs - Holland & Knight",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "SCOTUS struck down IEEPA tariffs in Learning Resources v. Trump (6-3), Feb 20, 2026. IEEPA does not authorize tariff imposition.",
+      "evidence": "In Learning Resources, Inc. v. Trump, 607 U.S. ___ (2026), the Supreme Court held 6-3 that IEEPA does not authorize the president to unilaterally set tariffs. Chief Justice Roberts wrote majority, joined by Sotomayor, Kagan, Gorsuch, Barrett, Jackson. Thomas, Kavanaugh, Alito dissented.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Official SCOTUS opinion 24-1287, confirmed by multiple legal analyses"
+      }
+    },
+    {
+      "claim": "IEEPA tariffs on China included 10% fentanyl tariff + reciprocal tariffs escalating to 125%. Estimated $75-85B collected under IEEPA since April 2025.",
+      "evidence": "Since April 2, 2025, the United States had collected an estimated $75-$85 billion in duties tied specifically to IEEPA actions. China took the heaviest hit, including a short window when rates escalated to a staggering 125%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple sources confirm collection figures"
+      }
+    },
+    {
+      "claim": "Section 301 tariffs (7.5-100% depending on product) and Section 232 tariffs remain fully in effect post-SCOTUS.",
+      "evidence": "The decision does not affect existing tariffs on Chinese goods imposed under Section 301 of the Trade Act or Section 232 of the Trade Extension Act. Section 301 exclusions for 164 products extended until November 10, 2026.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "USTR and CBP confirm Section 301/232 unaffected"
+      }
+    },
+    {
+      "claim": "Trump imposed Section 122 replacement tariff of 15% on all imports, effective Feb 24, 2026. Expires July 24, 2026 (150-day limit). Only Congress can extend.",
+      "evidence": "President Trump invoked Section 122 of the Trade Act of 1974, imposing a temporary 15% global import surcharge effective February 24, 2026. Section 122 tariffs must end in 150 days (July 24, 2026) unless Congress votes to extend them. The administration cannot extend Section 122 unilaterally.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed by Duane Morris, Covington, Freshfields analyses"
+      }
+    },
+    {
+      "claim": "Net tariff rate on typical Temu product NOW: Section 301 (7.5-25%) + Section 122 (15%) + MFN duty = approximately 30-45% effective rate. Pre-SCOTUS was 54-145%.",
+      "evidence": "Due to the multitude of existing duties, the effective tariff rate on many Chinese goods shipped to the US remains close to 30 percent. IEEPA invalidation cut the effective rate on Chinese imports by almost two thirds. Section 122 stacks on top of Section 301 tariffs, meaning some importers face combined rates exceeding 40%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Effective rate varies by product category. 30% is approximate average per Yale Budget Lab and PIIE estimates."
+      }
+    },
+    {
+      "claim": "New Section 301 investigations launched into 60+ economies to rebuild tariff levels. Treasury Secretary Bessent predicted tariffs would return to pre-SCOTUS levels by August 2026.",
+      "evidence": "USTR launched two Section 301 probes covering 60 different economies. Treasury Secretary Scott Bessent predicted that by August, U.S. tariffs would return to the levels in effect before the Supreme Court's ruling.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "CNBC March 11, 2026 report on new Section 301 investigations"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "tariff", "SCOTUS", "IEEPA", "Section 301", "Section 122"],
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  }
+}

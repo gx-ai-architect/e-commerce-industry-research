@@ -1,0 +1,45 @@
+{
+  "packet_id": "PKT-INV-005",
+  "source": {
+    "type": "article",
+    "url": "https://everyticker.com/quote/PDD/pdd-s-100-billion-ecosystem-gamble-margin-sacrifice-meets-geopolitical-perfect-storm-nasdaq-pdd",
+    "title": "PDD's RMB 100 Billion Merchant Support Program — The Largest Ecosystem Investment in E-Commerce History",
+    "retrieved_at": "2026-03-25T14:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD launched a RMB 100B ($14B) 'Hundred Billion Support Program' in Q2 2025 — the single largest merchant investment program in e-commerce history",
+      "evidence": "In Q2 2025, PDD launched the RMB 100 billion ($14 billion) support program including: RMB 10B fee reduction for merchants, logistics subsidies, quality merchant initiatives. Components: Duoduo Premium Produce, New Quality Supply, logistics support to remote regions. Co-CEO Zhao described 2025 as 'the year in which we made our largest investment in high-quality development.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Program details from earnings call transcripts and analyst reports. RMB 100B figure is a multi-year commitment, not single-year spend."
+      }
+    },
+    {
+      "claim": "The program has already driven a 40% surge in orders from remote regions, validating the 'free delivery to villages' initiative",
+      "evidence": "These measures have already driven a 40% surge in orders from remote regions and improved platform sustainability. Through logistics support initiatives, the platform waived shipping fees from transit warehouses to final destination for orders shipping to remote regions.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "40% figure from analyst reports citing PDD management commentary. Time period and baseline not specified. 'Remote regions' likely refers to tier-4/5 cities and rural China."
+      }
+    },
+    {
+      "claim": "PDD dedicated teams visited hundreds of manufacturing belts and dozens of agriculture specialty regions to help merchants shift from scale-first to quality-first",
+      "evidence": "Dedicated teams for the new quality merchant support program visited hundreds of manufacturing belts, assisting SME merchants with their transformation. In Q3 2025, the Duoduo Premium Produce team visited dozens of agriculture specialty regions to develop tailored solutions for merchants.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Q3 2025 earnings call commentary. Specific numbers ('hundreds', 'dozens') are management claims, not independently verified."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["merchant-support", "hundred-billion-program", "agriculture", "fee-reduction", "quality-supply"],
+    "source_tier": "secondary"
+  }
+}

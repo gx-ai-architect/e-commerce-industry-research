@@ -1,0 +1,54 @@
+{
+  "packet_id": "PKT-L07",
+  "source": {
+    "type": "dataset",
+    "url": "https://www.globaltimes.cn/page/202601/1353920.shtml",
+    "title": "China's express delivery industry reaches record-high business volume in 2025 (Global Times / State Post Bureau)",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "China's express delivery industry handled 216.51 billion parcels in 2025, up 11.8% YoY, with business revenue of CNY 1.8 trillion, up 6.1%.",
+      "evidence": "In 2025, the sector handled 216.51 billion parcels, representing a year-on-year increase of 11.8%. The industry's cumulative business revenue reached 1.8 trillion yuan, up 6.1%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "State Post Bureau data reported by Global Times. Growth moderated from 2024's 21% volume growth."
+      }
+    },
+    {
+      "claim": "China express carrier market share rankings (2024 volume): ZTO ~34B (19.4%), YTO ~26.6B, Yunda ~23.8B, STO ~22.7B, J&T ~19.8B, SF ~13.3B.",
+      "evidence": "ZTO led at ~34 billion parcels (market share dropped from 22.9% in 2023 to 19.4% in 2024). YTO Express ~26.6 billion, Yunda ~23.8 billion, STO Express ~22.7 billion, J&T Express ~19.8 billion, SF Express ~13.3 billion.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Rankings from BambooWorks and carrier disclosures. J&T confirmed 30B parcels for full-year 2025 with 22.2% YoY growth (PR Newswire)."
+      }
+    },
+    {
+      "claim": "Revenue per parcel continues declining across the industry, with ZTO's ASP down 1.7% for FY2025 overall despite a 2.9% increase in Q4 from product mix changes.",
+      "evidence": "Average selling price for the core express delivery business increased 2.9% in Q4, driven by product mix improvements. For full-year 2025, ASP declined slightly by 1.7%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "ZTO ASP data from earnings release. YTO August 2025 ASP was RMB 2.15, down 1.13% YoY."
+      }
+    },
+    {
+      "claim": "J&T Express hit record 30 billion parcel volume in 2025 with 22.2% YoY growth, gaining significant market share.",
+      "evidence": "J&T Express Hits Record 30 Billion Parcel Volume in 2025 with 22.2% YoY Growth.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "J&T Express press release via PR Newswire, January 2026"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "ZTO", "YTO", "Yunda", "STO", "J&T", "SF"],
+    "topic_tags": ["logistics", "parcel-volume", "carrier-market-share", "domestic", "China-express"],
+    "source_tier": "primary"
+  }
+}

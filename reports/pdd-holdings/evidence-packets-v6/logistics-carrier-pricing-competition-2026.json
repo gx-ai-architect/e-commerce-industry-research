@@ -1,0 +1,45 @@
+{
+  "packet_id": "PKT-L10",
+  "source": {
+    "type": "article",
+    "url": "https://thebambooworks.com/growing-profits-shrinking-market-share-test-ztos-strategy/",
+    "title": "Growing profits, shrinking market share test ZTO's strategy (BambooWorks)",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "China's State Post Bureau anti-involution policy (July 2025) has curbed destructive price wars among express carriers. Average delivery prices at YTO (RMB 2.19), STO (RMB 2.00), and Yunda (RMB 1.94, down 8.6% YoY) show pricing pressure remains but is moderating.",
+      "evidence": "Since the beginning of July 2025, when the State Post Bureau's Party Leadership Group convened a meeting to clearly express its stance against involution, the express delivery sector has continued to surge. The average price per delivery for YTO Express and STO Express dropped to 2.19 yuan and 2.00 yuan respectively, while Yunda Express's average price per delivery fell below 2 yuan, decreasing to 1.94 yuan, a year-on-year drop of 8.6%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Anti-involution policy from Morningstar; pricing data from carrier disclosures and Futunn"
+      }
+    },
+    {
+      "claim": "The six largest privately owned express delivery companies account for ~82% of China's parcel deliveries by volume (Q3 2024). YTO Express grew volume 22% YoY in Q2 2025 but core EBIT fell 13%.",
+      "evidence": "The six largest privately owned express delivery companies accounted for around 82% of China's parcel deliveries by volume in the third quarter of 2024. YTO Express saw parcel volume growth of 22% year-over-year in Q2 2025, though core EBIT fell 13%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Morningstar analyst reports on YTO and Yunda"
+      }
+    },
+    {
+      "claim": "YTO Express 2024 parcel volume ~26.6B (+25.3%), Yunda ~23.8B (+26.1%), STO ~22.7B (+29.8%). Volume growth does not translate to profit growth due to pricing pressure.",
+      "evidence": "YTO Express delivered around 26.6 billion parcels (+25.33% YoY), Yunda 23.8 billion (+26.14%), STO Express 22.7 billion (+29.83%). This led to an increasingly severe phenomenon in the express delivery industry, where growth in volume does not translate to profit.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "2024 volume figures from BambooWorks and carrier disclosures"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "ZTO", "YTO", "Yunda", "STO"],
+    "topic_tags": ["logistics", "carrier-pricing", "competition", "anti-involution", "domestic"],
+    "source_tier": "secondary"
+  }
+}

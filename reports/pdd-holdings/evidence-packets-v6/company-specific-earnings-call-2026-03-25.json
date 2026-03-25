@@ -1,0 +1,107 @@
+{
+  "packet_id": "PKT-CS-001",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/news-releases/",
+    "title": "PDD Holdings Q4/FY2025 Earnings Release & Call (March 25, 2026)",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "PDD Q4 2025 revenue grew 12% YoY to RMB 123.9 billion; FY2025 revenue grew 10% to RMB 431.8 billion",
+      "evidence": "In Q4, total revenue grew by 12% year-over-year to reach RMB 123.9 billion, while full-year 2025 revenue increased by 10% year-over-year to RMB 431.8 billion.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From official earnings release via StockTitan and investor.pddholdings.com"
+      }
+    },
+    {
+      "claim": "Transaction services revenue (19% YoY growth) outpaced online marketing services (5% YoY growth) in Q4, signaling Temu monetization acceleration",
+      "evidence": "Online marketing services revenue for Q4 was RMB 60 billion (up 5% YoY), while transaction services revenue reached RMB 63.9 billion (up 19% YoY).",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From official earnings release. Transaction services includes Temu commissions."
+      }
+    },
+    {
+      "claim": "Net income fell 11% in Q4 and 12% for FY2025, reflecting heavy investment phase",
+      "evidence": "Net income attributable to ordinary shareholders in the quarter was RMB 24,541.0 million (US$3,509.3 million), a decrease of 11% from RMB 27,446.6 million in the same quarter of 2024.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From official earnings release"
+      }
+    },
+    {
+      "claim": "PDD ended 2025 with RMB 422.3 billion ($58B+) in cash and short-term investments",
+      "evidence": "The company ended 2025 with RMB 422.3 billion in cash, cash equivalents and short-term investments as of December 31, 2025.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From official earnings release"
+      }
+    },
+    {
+      "claim": "Co-CEO Zhao: '2026 marks the beginning of our journey into the next decade' and 'supply chain investment is where we will place our greatest conviction'",
+      "evidence": "Co-Chairman and Co-CEO Jiazhen Zhao stated: '2026 marks the beginning of our journey into the next decade,' and 'Going into this new chapter, supply chain investment is where we will place our greatest conviction.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From earnings call transcript via Futunn and Yahoo Finance"
+      }
+    },
+    {
+      "claim": "Management will invest with 'all-in attitude' in supply chain, aiming to 'rebuild PDD Holdings' in next three years",
+      "evidence": "Management stated they would proceed 'with an all-in attitude' and 'invest more manpower and resources, doubling down on supply chain upgrades and modernization.' They believe 'in the next three years, we will have the opportunity to rebuild PDD Holdings.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From earnings call transcript"
+      }
+    },
+    {
+      "claim": "VP Finance Jun Liu explicitly warned supply chain investments will affect financial performance",
+      "evidence": "VP of Finance Jun Liu noted: 'These investments are firm and long-term, and will inevitably affect our financial performance.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From earnings call transcript"
+      }
+    },
+    {
+      "claim": "Two key supply chain initiatives highlighted: free delivery to villages and 'New Quality Supply' program",
+      "evidence": "Zhao highlighted two initiatives — free delivery to villages and New Quality Supply — as examples of foundational investments intended to support sustainable growth.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From earnings call transcript"
+      }
+    },
+    {
+      "claim": "PDD has zero capital return — no dividends, no buybacks, 0% buyback yield as of Feb 2026",
+      "evidence": "PDD Holdings does not pay a dividend. PDD Holdings' Buyback Yield % as of February 20, 2026 is 0.00%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From GuruFocus and StockAnalysis.com. Despite $58B+ cash pile, no capital return."
+      }
+    },
+    {
+      "claim": "Operating cash flow declined: RMB 106.9B FY2025 vs RMB 121.9B FY2024 (12% decline)",
+      "evidence": "Operating cash flow was RMB 24.1 billion in Q4 and RMB 106.9 billion for the full year, compared with RMB 29.5 billion in Q4 2024 and RMB 121.9 billion for 2024.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From official earnings release"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["earnings", "management-commentary", "supply-chain", "capital-return", "2026-strategy"]
+  }
+}

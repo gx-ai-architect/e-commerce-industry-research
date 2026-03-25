@@ -1,0 +1,45 @@
+{
+  "packet_id": "PKT-L05",
+  "source": {
+    "type": "dataset",
+    "url": "https://redstagfulfillment.com/how-many-packages-are-sent-under-de-minimis/",
+    "title": "How Many Packages Are De Minimis Shipments? Stats for 2026 (ShipMatrix data)",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "Temu US daily package volume dropped from ~1 million/day (late 2023-2024) to ~250,000-300,000/day after de minimis elimination, a ~70% decline.",
+      "evidence": "Temu and Shein were each shipping an estimated one million packages a day on average in the U.S. (ShipMatrix, late 2023). In July 2024 alone, each provided carriers with about 900,000 packages daily. Temu's marketplace platform now ships roughly 250,000-300,000 packages daily, covering electronics, home goods, and consumer products.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Peak volumes from ShipMatrix (WSJ Dec 2023, Supply Chain Dive Jul 2024). Current volumes from Red Stag Fulfillment 2026 analysis. The ~70% decline is computed from these data points."
+      }
+    },
+    {
+      "claim": "US total domestic parcel market hit record 23.9 billion shipments in 2025 (+0.4% volume, +4.1% revenue to $196B), per ShipMatrix.",
+      "evidence": "Total U.S. domestic parcel market revenue reached $196 billion, increasing 4.1% annually, with volume growing 0.4% to 23.9 billion parcels — a new all-time high.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "ShipMatrix data reported by Logistics Management"
+      }
+    },
+    {
+      "claim": "Temu delivery times have shifted to a 3-tier model: Express Local Warehouses (2-5 days), Semi-managed US sellers (5-10 days), and China-direct (10-25 days for remaining items).",
+      "evidence": "Temu's 2026 model operates across three distinct fulfillment tiers: Express Local Warehouses in Nashville TN, Leipzig Germany, Osaka Japan, Sydney Australia delivering within 2-5 business days; standard shipping 6-20 days; express options 4-9 days. Items labeled 'Local Warehouse' ship fastest. Stockouts at domestic facilities cause 3-5 additional days delay.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Delivery time ranges from NextSmartShip 2026 update, FletchApp, and CFC Fulfillment guides. Nashville, Leipzig, Osaka, Sydney locations from Alibaba/NextSmartShip."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["logistics", "parcel-volume", "delivery-times", "international"],
+    "source_tier": "secondary"
+  }
+}

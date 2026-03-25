@@ -1,0 +1,55 @@
+{
+  "packet_id": "PKT-REG-003",
+  "source": {
+    "type": "article",
+    "url": "https://www.euronews.com/next/2025/07/28/eu-commission-finds-temu-in-breach-of-online-platform-rules",
+    "title": "EU Commission finds Temu in breach of online platform rules - Euronews",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "EU DSA: Temu designated VLOP (45M+ monthly users, now 92M). Formal proceedings opened Oct 2024. Preliminary breach finding July 2025 for illegal products risk.",
+      "evidence": "Temu designated as VLOP with 45M+ monthly EU users. Now claims 92M monthly active users. EC opened formal proceedings October 2024. In July 2025 the Commission preliminarily found Temu in breach of DSA for not properly assessing risks of illegal products. Mystery shopping exercise found consumers very likely to find non-compliant products.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "European Commission official press release and Euronews reporting"
+      }
+    },
+    {
+      "claim": "DSA potential penalty: up to 6% of worldwide annual turnover. No DSA fines issued yet by EC as of March 2026. First fines expected late 2025 or early 2026.",
+      "evidence": "If confirmed to be in breach, the EU can fine Temu up to six percent of its total worldwide annual turnover. Despite dozens of ongoing investigations and multiple preliminary findings, the Commission has not yet issued a single DSA fine.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "EC enforcement tracker shows no final DSA fines as of March 2026"
+      }
+    },
+    {
+      "claim": "FSR: EC dawn raid on Temu Dublin HQ December 10, 2025. Investigation into possible non-EU subsidies. Second FSR dawn raid ever conducted by EC.",
+      "evidence": "On 10 December 2025, the EC reportedly raided Temu's premises in Ireland, as part of a probe into the company's possible non-EU subsidies. The Temu raid is the second of its kind. Court of Justice confirmed EC authority to request data stored outside EU, including on servers in China.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Van Doorne legal analysis and White & Case FSR Quarterly"
+      }
+    },
+    {
+      "claim": "FSR implementation report due July 14, 2026. EC may propose legislative changes including threshold adjustments.",
+      "evidence": "Under Article 52(2) of the FSR, by 14 July 2026, the EC is due to publish an FSR Report on its implementation and enforcement. Depending on findings, the EC may propose legislative changes to the FSR.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "FSR Article 52(2) statutory requirement"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "DSA", "FSR", "EU", "compliance"],
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  }
+}

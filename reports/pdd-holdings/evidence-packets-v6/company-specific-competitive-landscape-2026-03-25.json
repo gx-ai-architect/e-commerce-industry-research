@@ -1,0 +1,107 @@
+{
+  "packet_id": "PKT-CS-002",
+  "source": {
+    "type": "article",
+    "url": "multiple",
+    "title": "Competitive Landscape Analysis: Alibaba, JD, Douyin, Shein, Amazon Haul (March 2026)",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Alibaba Q4 2025 revenue grew 7% (10% ex-SunART/InTime); Taobao/Tmall grew 6% but faces fierce price competition",
+      "evidence": "Alibaba demonstrated solid performance in Q4 2025, with a 7% increase in total consolidated revenue. Excluding SunART and InTime, group revenue grew by 10% YoY. Non-GAAP net income reached 29.8 billion RMB, up 22%. Taobao and Tmall reported 6% YoY growth but face fierce competition from Pinduoduo and Douyin.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Investing.com earnings call transcript and Yahoo Finance analysis"
+      }
+    },
+    {
+      "claim": "Alibaba pivoting to AI/cloud as growth engine — Cloud revenue grew 36% YoY, AI workloads growing at triple-digit rates for 10 consecutive quarters",
+      "evidence": "Alibaba Cloud experienced a 36% year-over-year revenue growth in Q4 2025, primarily driven by demand for AI-related services, with AI workloads growing at triple-digit rates for ten consecutive quarters.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Investing.com earnings call transcript"
+      }
+    },
+    {
+      "claim": "Alibaba's quick commerce is bleeding money — commerce division EBITA fell 47% YoY in H1 FY2026 due to heavy instant retail investment",
+      "evidence": "In 2025, quick commerce weighed heavily on profitability due to high fulfillment costs, small basket sizes, and intense competition. The commerce division's adjusted EBITA for the half year ended Sept. 30, 2025, fell 47% year over year, due to heavy investment in quick commerce.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Motley Fool and Yahoo Finance analysis"
+      }
+    },
+    {
+      "claim": "JD Takeaway has ~5% food delivery market share, targeting 10% by 2026; Meituan dominates at 64-67%",
+      "evidence": "JD Takeaway has inched toward 5% of the market. This faces challenges from Meituan's 64-67% dominance. Investors are watching whether JD Takeaway can sustain its 5% share and grow it to 10% by 2026.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From MoonFox Data report and AInvest analysis"
+      }
+    },
+    {
+      "claim": "JD Takeaway could cost $4.8B in losses for 2025, wiping out 36% of JD's operating profit",
+      "evidence": "Analysts estimate the segment could incur RMB34 billion ($4.8 billion) in losses for 2025, wiping out 36% of JD.com's parent company's operating profit.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Analyst estimates from AInvest; actual results not yet confirmed"
+      }
+    },
+    {
+      "claim": "Douyin e-commerce GMV hit ~3.5T yuan in 2024 (+30% YoY), targeting 4.2T in 2025; first 10 months of 2025 exceeded 30% growth",
+      "evidence": "Douyin E-commerce's GMV in 2024 was approximately 3.5 trillion yuan (+30% YoY). 2025 target was 4.2 trillion yuan. For the first ten months of 2025, growth exceeded 30%, with annual GMV expected to surpass 4 trillion yuan.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From 36kr exclusive report and KR-Asia"
+      }
+    },
+    {
+      "claim": "Douyin shelf e-commerce grew 49% YoY and now contributes ~50% of GMV (up from 30% in 2023, 40% in 2024)",
+      "evidence": "Shelf e-commerce contributed 30% of GMV in 2023, 40% in 2024, and appears to have reached 50% in 2025. Shelf e-commerce GMV rose 49% YoY, outpacing overall platform growth.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From 36kr and Webull citing official Douyin information"
+      }
+    },
+    {
+      "claim": "Shein IPO stalled — FCA approved London listing but CSRC signoff not obtained; Hong Kong confidential filing as backup; valuation cut from $100B (2022) to potentially $30B",
+      "evidence": "In April 2025, Shein received FCA green light for London listing but still needs CSRC approval. Shein filed confidential IPO papers in Hong Kong as a parallel path. Valuation was $100B in 2022, slashed to $66B in 2023, and potentially as low as $30B now due to competition from Temu and rising costs.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Forge Global, Capital.com, and Motley Fool"
+      }
+    },
+    {
+      "claim": "Amazon Haul expanded to 25+ markets in 12 months, selection grew 400% to 1M+ items under $10, customer visits tripled since June 2025",
+      "evidence": "In 12 months, Haul expanded from U.S.-only to a global ultra-low price shopping destination in 25 locations. Selection grew by 400%, exceeding 1M items under $10. Customer visits tripled since June. Amazon removed 'beta' designation and launched Amazon Bazaar standalone app for 14 new markets.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From AboutAmazon.com official blog and Sherwood News"
+      }
+    },
+    {
+      "claim": "Douyin spent 19B+ yuan in merchant subsidies by Aug 2025; saved merchants 32B yuan in costs cumulatively in 2025",
+      "evidence": "Douyin's subsidies have shifted from subsidizing consumers to subsidizing merchants, with over 19 billion yuan in merchant subsidies by end of August 2025. In 2025, Douyin E-commerce cumulatively saved merchants over 32 billion yuan in costs.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From 36kr and KR-Asia reports"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "BABA", "JD", "Douyin", "Shein", "Amazon"],
+    "topic_tags": ["competitive-landscape", "market-share", "quick-commerce", "cross-border"]
+  }
+}

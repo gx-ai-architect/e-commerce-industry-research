@@ -1,0 +1,54 @@
+{
+  "packet_id": "PKT-L02",
+  "source": {
+    "type": "article",
+    "url": "https://chinesellers.substack.com/p/decode-the-new-temu",
+    "title": "Transformation of Temu's Ecosystem Behind the Semi-Managed Model",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "Temu's semi-managed model accounted for ~20% of GMV in 2024 and is growing rapidly, with up to 70% of platform traffic now directed toward semi-managed SKUs.",
+      "evidence": "The transaction volume of the semi-managed model accounted for 20% of Temu's GMV in 2024. TEMU now prioritizes semi-managed products in both homepage exposure and search results. According to internal estimates, up to 70% of platform traffic is shifting toward semi-managed SKUs.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "20% GMV figure from multiple industry sources. 70% traffic shift from internal estimates cited by ChineSellers and TechBuzzChina."
+      }
+    },
+    {
+      "claim": "Semi-managed orders now represent 80% of Temu US sales post-tariff, as the platform pivoted aggressively away from cross-border direct ship.",
+      "evidence": "Following the de minimis exemption's end, U.S. site traffic dropped 33% and daily GMV fell 50%, though semi-managed orders now represent 80% of sales.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "The 80% figure appears in AMZPrep article context. The 33% traffic drop and 50% GMV drop are directionally consistent with other reports but exact figures may be estimates."
+      }
+    },
+    {
+      "claim": "Temu's self-operated warehouses in the US projected to handle 15-20% of total US goods volume in 2025, rising to 20-25% by 2026.",
+      "evidence": "It is projected that by 2025, Temu's self-operated warehouses in the US will handle 15% to 20% of total US goods volume, and this proportion may increase to 20% to 25% by 2026.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Projection from Darwynn Fulfillment analysis. These are industry estimates, not Temu's official disclosure."
+      }
+    },
+    {
+      "claim": "Sources close to Temu's decision-makers said semi-managed services would match or surpass fully-managed in monthly sales within six months (as of mid-2025).",
+      "evidence": "Sources close to Temu's decision-makers revealed that 'in the next six months, semi-managed services will match or even surpass fully-managed services in monthly sales.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ChineSellers Substack citing insider sources. Timeline suggests this was achieved by late 2025."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["logistics", "semi-managed", "fulfillment-model", "tariffs"],
+    "source_tier": "secondary"
+  }
+}

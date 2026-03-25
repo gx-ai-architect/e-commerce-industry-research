@@ -1,0 +1,45 @@
+{
+  "packet_id": "PKT-INV-002",
+  "source": {
+    "type": "filing",
+    "url": "https://www.stocktitan.net/news/PDD/pdd-holdings-announces-fourth-quarter-2025-and-fiscal-year-2025-yypno24d08v2.html",
+    "title": "PDD Holdings FY2025 Valuation Analysis — Owner Earnings Computation",
+    "retrieved_at": "2026-03-25T14:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD FY2025 owner earnings (OCF minus capex minus SBC) are approximately RMB 98B ($13.6B), implying EV/owner-earnings of ~5.7x at today's price",
+      "evidence": "FY2025 operating cash flow: RMB 106,938.7M. FY2024 capex (purchase of property & equipment): RMB 967M (FY2025 capex not yet disclosed in detail; using FY2024 as proxy since quarterly CoR growth is decelerating). FY2025 SBC: RMB 7,937.0M. Owner earnings = 106,939 - ~1,000 - 7,937 = ~RMB 98,000M (~$13.6B at 7.2 RMB/USD). Market cap at $106.23/ADS: ~$150B. Net cash position: cash + ST investments RMB 422.3B + other non-current deposits ~RMB 104.7B = ~RMB 527B (~$73B). EV = $150B - $73B = ~$77B. EV/owner earnings = $77B / $13.6B = ~5.7x.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "OCF and SBC are from FY2025 earnings release. Capex uses FY2024 figure as proxy since FY2025 detailed cash flow statement not yet available (earnings released today). Net cash includes restricted cash and non-current time deposits. ADS share count ~1.4B equivalent (5.6B ordinary / 4 ADS ratio). The ~$73B net cash figure may overstate liquidity since restricted cash (RMB 73.8B) includes merchant deposits."
+      }
+    },
+    {
+      "claim": "PDD trades at approximately 10.9x trailing P/E on FY2025 GAAP net income, vs Alibaba at ~19x forward P/E and JD.com at ~9x forward P/E",
+      "evidence": "PDD FY2025 net income: RMB 99,364.5M (~$13.8B). At $106.23/ADS and ~1.4B ADS-equivalent shares, market cap ~$150B. P/E = $150B / $13.8B = ~10.9x. Alibaba forward P/E: 19.21x per analyst data. JD.com forward P/E: 9.15x per analyst data.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "PDD P/E computed from FY2025 actuals. BABA and JD forward P/Es from Nasdaq/analyst estimates as of March 2026. PDD's trailing P/E is not directly comparable to forward P/Es for BABA/JD — PDD's forward P/E would likely be higher given guided margin compression in 2026."
+      }
+    },
+    {
+      "claim": "Cash-to-market-cap ratio of ~49% creates an extraordinary margin of safety — nearly half the equity value is backed by liquid assets",
+      "evidence": "Cash + ST investments: RMB 422.3B (~$58.7B at 7.2 RMB/USD). Market cap: ~$150B. Cash/market cap = $58.7B / $150B = ~39%. Including non-current time deposits and debt securities (RMB 104.7B / ~$14.5B): total liquid assets ~$73.2B, or ~49% of market cap.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Cash and ST investment figure from balance sheet. Non-current assets include time deposits that are liquid but longer duration. The 49% figure includes these. Restricted cash (RMB 73.8B) is included in the RMB 422.3B figure but serves as merchant deposit collateral — not fully discretionary."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03-25",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["valuation", "owner-earnings", "EV", "P/E", "cash-position", "margin-of-safety"],
+    "source_tier": "primary"
+  }
+}

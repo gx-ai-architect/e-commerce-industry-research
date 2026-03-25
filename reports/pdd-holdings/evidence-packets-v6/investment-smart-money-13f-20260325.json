@@ -1,0 +1,45 @@
+{
+  "packet_id": "PKT-INV-007",
+  "source": {
+    "type": "dataset",
+    "url": "https://fintel.io/so/us/pdd",
+    "title": "PDD Holdings 13F Institutional Ownership — Smart Money Positioning Q2-Q4 2025",
+    "retrieved_at": "2026-03-25T14:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "Li Lu's Himalaya Capital initiated a $482M position in PDD in Q2 2025 and held through Q4 without changes — a strong Buffett-school endorsement",
+      "evidence": "Himalaya Capital opened a $482.3M position in PDD at ~$104.92/share in Q2 2025 (17.93% of portfolio). Held through Q3 (18.85% of portfolio) and Q4 (14.64% of portfolio — decline from price drop, not selling). As of Dec 31, 2025 13F filing (filed Feb 19, 2026), no shares were sold. Li Lu has 75% of Himalaya's $3.57B portfolio in just 3 stocks, with PDD as the third-largest.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Quiver Quantitative, ValuSider, and Motley Fool reporting on 13F filings. Li Lu is known as the 'Chinese Warren Buffett' and manages Munger family capital. His conviction buy at ~$105 aligns with current price."
+      }
+    },
+    {
+      "claim": "Institutional ownership is polarized: smart money value investors buying while momentum/growth funds exit in size",
+      "evidence": "NEW/INCREASED positions in 2025: Himalaya Capital +$482M (new), Arrowstreet Capital +$197M (new), FIL Ltd +$483M (+103%). DECREASED/EXITED: Tiger Global -100% exit, Mirae Asset -99.1% (-$4.1B), OCBC -97.8% (-$1.48B), FMR LLC -45.9% (-$1.33B), Goldman Sachs -41.9% (-$764M). In Q3 2025: 287 institutions added vs 316 decreased.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From 13F filings via Fintel and Quiver Quantitative. Q4 2025 filings (due Feb 14, 2026) are the most current. The pattern shows growth/momentum money leaving while value investors enter."
+      }
+    },
+    {
+      "claim": "Options market implied elevated volatility around the March 2026 earnings, with the $55 strike call showing unusually high implied volatility",
+      "evidence": "The March 20, 2026 $55.00 Call had some of the highest implied volatility of all equity options. Options activity pointed to elevated implied volatility ahead of the March 25 earnings release. PDD currently trades at 8x forward earnings per Li Lu portfolio analysis.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TradingView and Simply Wall St. The $55 strike (deeply ITM at $106 stock price) suggests this was a leveraged long bet, not a directional put. The 8x forward earnings is widely cited."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["13F", "institutional-ownership", "Li-Lu", "Himalaya-Capital", "smart-money", "options"],
+    "source_tier": "primary"
+  }
+}
