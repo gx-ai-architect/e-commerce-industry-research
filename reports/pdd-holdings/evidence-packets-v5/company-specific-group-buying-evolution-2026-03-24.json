@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-CS-006",
+  "source": {
+    "type": "article",
+    "url": "https://miracuves.com/blog/business-model-of-pinduoduo/",
+    "title": "Business Model of Pinduoduo: Complete Strategy Breakdown",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo's group-buying mechanic has evolved from simple social discounts to a demand-aggregation engine, but remains foundational to the business model in 2025-2026.",
+      "evidence": "By 2026, Pinduoduo is no longer just a discount marketplace. It is a demand-aggregation engine, a data-driven supply chain optimizer, and a social commerce blueprint for emerging markets. The team-purchase model works as a coordinated action mechanism - group pricing thresholds, invite mechanics, and reward loops turn browsing into coordinated action. The 2024-2026 phase focuses on AI-driven demand forecasting, supply-side digitization, and cross-border commerce via Temu.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From multiple industry analyses. Group-buying DNA persists but platform has evolved far beyond original mechanic."
+      }
+    },
+    {
+      "claim": "Pinduoduo serves 900+ million active buyers by 2025, holds approximately 27-30% of China's e-commerce GMV.",
+      "evidence": "As of 2025, Pinduoduo serves over 900 million active buyers, challenging Alibaba and JD.com. Pinduoduo now holds approximately 27-30% of China's e-commerce GMV, up from near zero in 2016.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "GMV share is estimated since PDD stopped disclosing exact GMV. 900M active buyers from businesstats.com. Multiple sources corroborate the 27-30% range."
+      }
+    },
+    {
+      "claim": "Pinduoduo crossed $48 billion in revenue in 2025, demonstrating social commerce at scale can outperform traditional e-commerce models.",
+      "evidence": "Pinduoduo crossed $48 billion in revenue in 2025. This growth is powered by high-frequency transactions, community-driven buying behavior, and a marketplace structure that scales without holding inventory.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From businesstats.com. Consistent with quarterly earnings data (RMB ~108B per quarter in Q3 2025)."
+      }
+    },
+    {
+      "claim": "Pinduoduo's C2M algorithmic loop: market demand -> platform algorithm -> factory production scheduling -> consumers. AI-driven forecasting deepened between 2024-2026.",
+      "evidence": "Pinduoduo's path is: market demand -> platform algorithm -> algorithm directly drives factory production scheduling -> factories directly reach consumers. Through its algorithmic advantages, Pinduoduo can quickly capture large demand and inform factories which styles, sizes, colours, and prices sell the fastest. Between 2024 and 2026, AI-driven forecasting tools deepened this alignment, with demand signals increasingly informing production planning.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ashleydudarenok.com and TechBuzzChina analyses"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["group-buying", "C2M", "demand-aggregation", "business-model-evolution"]
+  }
+}

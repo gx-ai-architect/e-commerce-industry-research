@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-BM-001",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "title": "PDD Holdings Q1-Q3 2025 and FY2024 Earnings Releases",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD revenue breakdown shows transaction services overtaking OMS in Q3 2025, reflecting Temu's growing scale",
+      "evidence": "Q1 2025: OMS RMB 48,722M (51%) / TS RMB 46,950M (49%). Q2 2025: OMS RMB 55,703M (54%) / TS RMB 48,282M (46%). Q3 2025: OMS RMB 53,348M (49%) / TS RMB 54,929M (51%). 9M 2025 total: OMS RMB 157,773M / TS RMB 150,161M. Total 9M revenue: RMB 307,934M.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "All figures directly from PDD Holdings quarterly earnings press releases filed with SEC."
+      }
+    },
+    {
+      "claim": "FY2024 revenue was RMB 393.8B with near-parity between OMS and transaction services",
+      "evidence": "FY2024: OMS RMB 197,934M (50.3%) / Transaction Services RMB 195,902M (49.7%). Total RMB 393,836M, up 59% YoY from RMB 247,639M in FY2023.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Q4 2024 / FY2024 earnings release."
+      }
+    },
+    {
+      "claim": "Transaction services revenue growth rate has decelerated sharply from 241% in FY2023 to ~6% in Q1 2025",
+      "evidence": "Transaction services YoY growth: FY2022->FY2023: 241% (RMB 27.6B to 94.1B). FY2023->FY2024: 108% (94.1B to 195.9B). Q1 2025: 6% YoY. Q2 2025: ~1% YoY. Q3 2025: 10% YoY. This deceleration reflects Temu's maturation and US tariff impacts.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Growth rates computed from sequential quarterly earnings releases."
+      }
+    },
+    {
+      "claim": "OMS growth also decelerating: from 29% FY2024 to single digits by Q3 2025",
+      "evidence": "OMS YoY growth: FY2023->FY2024: 29%. Q1 2025: 15%. Q2 2025: 13%. Q3 2025: 8%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Computed from quarterly earnings releases."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["revenue-decomposition", "business-model", "OMS-vs-TS"]
+  }
+}

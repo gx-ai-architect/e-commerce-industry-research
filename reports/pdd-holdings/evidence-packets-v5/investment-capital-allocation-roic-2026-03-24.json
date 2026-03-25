@@ -1,0 +1,45 @@
+{
+  "packet_id": "PKT-INV-001",
+  "source": {
+    "type": "dataset",
+    "url": "https://www.gurufocus.com/term/roic/PDD",
+    "title": "PDD Holdings ROIC and Capital Allocation Analysis",
+    "retrieved_at": "2026-03-24T12:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD Holdings generates extraordinarily high ROIC of 70-78% annualized, far exceeding its 10.5% WACC, indicating every dollar retained creates substantial value",
+      "evidence": "PDD Holdings' annualized ROIC for the quarter ended June 2025 was 78.08%. TTM ROIC is 70.85%. WACC is 10.54%. Using a more conservative methodology (Stock Analysis), ROIC is 16.74% and ROE is 30.53%. The wide variation reflects whether cash/investments are included in invested capital.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple sources confirm ROIC well above WACC. Conservative estimate (16.7%) still 1.6x WACC. High-end (78%) reflects asset-light platform model with minimal tangible invested capital."
+      }
+    },
+    {
+      "claim": "PDD has grown FCF from $6.9B (2022) to $13.2B (2023) to $16.6B (2024), demonstrating compounding capital efficiency",
+      "evidence": "PDD Holdings annual FCF: 2023 was $13.18B (+89.9% YoY), 2024 was $16.572B (+25.73% YoY). TTM FCF as of Sept 2025 was $15.623B. 5-year average FCF/share growth rate was 42.3%/year.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "FCF figures from MacroTrends and GuruFocus. TTM slight decline reflects heavy investment cycle in 2025."
+      }
+    },
+    {
+      "claim": "PDD's retained earnings have created massive market value — the Buffett $1 test is easily passed over the 2020-2024 period",
+      "evidence": "Revenue grew from ~$6B (2020) to $54B (2024). Operating income went from near-zero to ~$12-13B. Cash pile grew from ~$10B to $60B. Market cap, despite massive drawdown from peak, remains at ~$75-85B range. Cumulative retained earnings over FY2020-2024 easily exceed $30B while creating substantial enterprise value.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Approximate calculation based on cumulative net income and market cap changes. Exact retained earnings figure requires full balance sheet analysis. Market cap has declined from $200B+ peak, so the calculation is period-dependent."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["investment", "ROIC", "capital-allocation", "FCF", "buffett-test"],
+    "source_tier": "secondary"
+  }
+}

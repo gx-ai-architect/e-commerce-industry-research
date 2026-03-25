@@ -1,0 +1,54 @@
+{
+  "packet_id": "PKT-INV-006",
+  "source": {
+    "type": "article",
+    "url": "https://investor.pddholdings.com/corporate-governance/management",
+    "title": "PDD Holdings Leadership Transition and Management Quality",
+    "retrieved_at": "2026-03-24T12:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD formalized a dual leadership structure in Dec 2025: Chen Lei (international/R&D/Temu) and Jiazhen Zhao (domestic/agriculture/high-quality-development) as co-CEOs and co-Chairmen",
+      "evidence": "On December 19, 2025, PDD elevated Jiazhen Zhao to Co-Chairman alongside Lei Chen, formalizing dual leadership. Mi Wang named SVP Engineering, Jiong Li named Financial Director. Chen Lei: international strategy, R&D, Temu scaling. Jiazhen Zhao: domestic market, agricultural supply chain, 'High-Quality Development' transition.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Leadership changes confirmed by Investing.com, TipRanks, and PDD IR page. Role division from analyst reports."
+      }
+    },
+    {
+      "claim": "Colin Huang stepped down in March 2021 to pursue science/research but remains largest shareholder — his departure did NOT disrupt execution. Revenue grew from ~$9.1B (2020) to $54B (2024) under Chen Lei's operational leadership",
+      "evidence": "Huang stepped down as chairman March 17, 2021, entrusting voting rights to the Board. He extended share lockup by 3 years. He gave up super voting rights. Since his departure: revenue grew from ~$9.1B to $54B, operating income went from near-zero to ~$13B, cash grew from ~$10B to $60B. Huang donated 12.8% of shares to charitable entities, signaling permanent step-back.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Timeline from Wikipedia, Caixin, GlobeNewswire. Revenue/profit growth from earnings releases. The causal claim (departure didn't disrupt) is supported by the financial results."
+      }
+    },
+    {
+      "claim": "Chen Lei is a world-class technical leader: 1996 International Olympiad in Informatics gold medalist, Tsinghua BS, UW-Madison PhD in CS — he built PDD's algorithm infrastructure",
+      "evidence": "Chen Lei received gold medal at 1996 International Olympiad in Informatics in Veszprem, Hungary. Bachelor's degree in CS from Tsinghua University. PhD in CS from University of Wisconsin-Madison. Served as CTO 2016-2020, CEO 2020-2023, Chairman 2021-2025, Co-Chairman/Co-CEO since Dec 2025. Often credited with the technical infrastructure that allows PDD's algorithms to outpace competitors.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Biographical details confirmed by Crunchbase, Entrepreneur article, PDD IR management page."
+      }
+    },
+    {
+      "claim": "Post-transition strategy shifted from 'growth at all costs' to 'High-Quality Development' in late 2025 — emphasizing merchant subsidies and agricultural innovation over user acquisition subsidies",
+      "evidence": "In late 2025, the model shifted toward 'High-Quality Development,' emphasizing merchant subsidies and agricultural innovation over the aggressive user acquisition subsidies that defined PDD's early years. RMB 100B merchant support program launched. $10B fee reduction for merchants. Company maintained >25% net margin during this transition.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Strategic shift confirmed in earnings calls and analyst reports. The transition from growth-mode to quality-mode is a significant capital allocation signal."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["leadership", "management-quality", "Colin-Huang", "Chen-Lei", "strategy-transition"],
+    "source_tier": "primary"
+  }
+}

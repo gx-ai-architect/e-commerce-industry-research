@@ -1,0 +1,89 @@
+{
+  "packet_id": "PKT-qimai-pinduoduo-20260324",
+  "source": {
+    "type": "api",
+    "url": "https://itunes.apple.com/lookup?id=1044283059",
+    "title": "App Intelligence: pinduoduo (拼多多) - Ratings & Rankings",
+    "retrieved_at": "2026-03-24T16:44:12Z",
+    "collector": "qimai-appdata"
+  },
+  "extractions": [
+    {
+      "claim": "pinduoduo iOS App Store rating in US",
+      "evidence": "Rating: 2.4/5. (7,017 ratings). Current version: 2.4/5. Version: 8.0.0. Price: Free",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=us"
+      }
+    },
+    {
+      "claim": "pinduoduo iOS App Store rating in CN",
+      "evidence": "Rating: 2.9/5. (3,384,490 ratings). Current version: 2.9/5. Version: 8.0.0. Price: 免费",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=cn"
+      }
+    },
+    {
+      "claim": "pinduoduo iOS App Store rating in GB",
+      "evidence": "Rating: 2.5/5. (371 ratings). Current version: 2.5/5. Version: 8.0.0. Price: Free",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=gb"
+      }
+    },
+    {
+      "claim": "pinduoduo iOS App Store rating in DE",
+      "evidence": "Rating: 2.3/5. (133 ratings). Current version: 2.3/5. Version: 8.0.0. Price: Gratis",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=de"
+      }
+    },
+    {
+      "claim": "pinduoduo iOS App Store rating in JP",
+      "evidence": "Rating: 2.4/5. (1,497 ratings). Current version: 2.4/5. Version: 8.0.0. Price: 無料",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=jp"
+      }
+    },
+    {
+      "claim": "pinduoduo iOS App Store rating in BR",
+      "evidence": "Rating: 3.6/5. (35 ratings). Current version: 3.6/5. Version: 8.0.0. Price: Grátis",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "iTunes Lookup API, country=br"
+      }
+    },
+    {
+      "claim": "Qimai (七麦数据) coverage for pinduoduo",
+      "evidence": "Qimai (qimai.cn) tracks pinduoduo across 155 countries and 9 Chinese Android stores (Huawei, Xiaomi, OPPO, Vivo, Tencent MyApp, etc.). Free tier shows: current ranking, rating trend, category rank history. Paid tier adds: download estimates, DAU/MAU, revenue estimates, keyword rankings. For Chinese domestic rankings (critical for Pinduoduo), Qimai is the primary source since Google Play is not available in China. URL: https://www.qimai.cn/app/rank/index/brand/free/device/iphone/country/cn/genre/6024 (Shopping category, China, iPhone, Free)",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Qimai full API requires paid subscription. iTunes Lookup used as free alternative for iOS data."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": [
+      "pinduoduo",
+      "拼多多"
+    ],
+    "topic_tags": [
+      "app-intelligence",
+      "ratings",
+      "rankings",
+      "downloads",
+      "global"
+    ]
+  }
+}

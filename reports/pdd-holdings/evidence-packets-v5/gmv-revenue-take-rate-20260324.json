@@ -1,0 +1,54 @@
+{
+  "packet_id": "PKT-GMV-001",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "title": "PDD Holdings Q3 2025 Earnings Release",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "PDD Holdings TTM revenue through Q3 2025 is approximately $57.3B",
+      "evidence": "PDD Holdings revenue for the twelve months ending September 30, 2025 was $57.327B, a 9.63% increase year-over-year. Q3 2025 total revenues were RMB 108,276.5 million (US$15.2 billion), up 9% YoY.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Revenue data confirmed from PDD investor relations and MacroTrends. TTM calculated from quarterly filings."
+      }
+    },
+    {
+      "claim": "PDD FY2024 total revenue was RMB 393.8 billion ($54.0 billion), up 59% YoY",
+      "evidence": "Total revenues for fiscal year 2024 were RMB 393,834.6 million (US$53,965.7 million), an increase of 59% from RMB 247,639.0 million in 2023.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From PDD Holdings FY2024 earnings release and 20-F filing."
+      }
+    },
+    {
+      "claim": "PDD blended take rate rose from ~6.3% in 2023 to ~8.6% in 2024, driven by Temu's gross revenue recognition",
+      "evidence": "Analysts estimate PDD's blended take rate increased from 6.3% in 2023 to approximately 8.6% in 2024. Revenue CAGR of 17% outpaces GMV CAGR of 12%, implying continued take rate expansion. Transaction services revenue surged +124% in 2024, with Temu contributing ~70% of transaction services revenue.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Blended take rate = Total Revenue / Total GMV. The increase is partly artificial because Temu's fully-managed model books gross revenue (1P-like), inflating the numerator relative to a pure marketplace take rate. Domestic Pinduoduo take rate is estimated at ~4-5%."
+      }
+    },
+    {
+      "claim": "PDD cash and short-term investments reached RMB 423.8 billion ($59.5B) by Q3 2025, surpassing Alibaba",
+      "evidence": "By Q3 2025, PDD's cash and short-term investments reached RMB 423.8 billion ($59.5 billion), surpassing Alibaba's cash reserves for the first time.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Q3 2025 balance sheet data."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["gmv", "revenue", "take-rate", "monetization"],
+    "source_tier": "primary"
+  }
+}

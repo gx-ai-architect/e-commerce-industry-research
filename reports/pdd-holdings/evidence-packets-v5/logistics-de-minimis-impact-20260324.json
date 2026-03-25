@@ -1,0 +1,64 @@
+{
+  "packet_id": "PKT-logistics-005",
+  "source": {
+    "type": "article",
+    "url": "https://redstagfulfillment.com/how-many-packages-are-sent-under-de-minimis/",
+    "title": "How Many Packages Are De Minimis Shipments? Stats for 2026",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "US daily de minimis volume crashed ~85% from ~4M to ~600K packages/day after policy elimination",
+      "evidence": "Daily de minimis volume saw a decline 'upwards of 85%,' according to Chris Mabelitini, director of U.S. CBP's intellectual property rights and e-commerce division. Volume went from almost 4 million packages per day to around 600,000 per day.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "CBP official statement; represents aggregate China-US e-commerce decline"
+      }
+    },
+    {
+      "claim": "De minimis elimination increased per-package logistics costs by an estimated 30-50%",
+      "evidence": "The elimination of the exemption increased per-package logistics costs by an estimated 30% to 50%. Industry estimates suggest that SHEIN and Temu alone were shipping over one million packages per day to the US via air before the policy change.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Industry estimate from Supply Chain Dive and McKinsey analysis"
+      }
+    },
+    {
+      "claim": "Temu's US GMV recovered to 60%+ of pre-tariff levels by July 2025 after initial sharp decline",
+      "evidence": "By July 2025, Temu's GMV recovered to more than 60% of past levels, following a pattern of sharp drop followed by quick recovery consistent with earlier trade disruptions.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Analyst estimate; not official PDD disclosure"
+      }
+    },
+    {
+      "claim": "China-to-US e-commerce air exports fell 28% for full year 2025, with 50%+ declines in final months",
+      "evidence": "For full year 2025, China-to-US e-commerce air exports were down 28% compared to the prior year. E-commerce exports extended their steep decline, down more than 50% for a third consecutive month in December.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From S&P Global and aviation industry analysis"
+      }
+    },
+    {
+      "claim": "EU plans to eliminate EUR 150 de minimis threshold, moved forward from 2028 to 2026 with interim EUR 3/item fee starting July 1, 2026",
+      "evidence": "In the EU, plans to remove the EUR 150 de minimis threshold are being brought forward from 2028 to 2026. With an interim EUR 3 fee per item starting July 1, 2026, the 'Temu model' of shipping $5 trinkets becomes economically impossible.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "EU regulatory announcements; EUR 3 fee is proposed, may change"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["logistics", "de-minimis", "tariffs", "cross-border", "regulatory"],
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  }
+}

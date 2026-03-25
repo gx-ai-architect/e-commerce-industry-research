@@ -1,0 +1,45 @@
+{
+  "packet_id": "PKT-INV-008",
+  "source": {
+    "type": "dataset",
+    "url": "https://www.macrotrends.net/stocks/charts/PDD/pdd-holdings/free-cash-flow",
+    "title": "PDD Holdings Owner Earnings and FCF Trend Analysis",
+    "retrieved_at": "2026-03-24T12:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD's FCF has compounded at 42% annually over 5 years, reaching $16.6B in FY2024, before declining slightly to $15.6B TTM reflecting heavy investment cycle",
+      "evidence": "Annual FCF: FY2023 $13.18B (+89.9% YoY), FY2024 $16.572B (+25.7% YoY). TTM FCF (Sept 2025): $15.623B. 5-year average FCF/share growth: 42.3%/year. 3-year average FCF/share growth: 58.9%/year. FCF per share TTM: $10.52.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "FCF data from MacroTrends and GuruFocus. Growth rates confirmed."
+      }
+    },
+    {
+      "claim": "Owner earnings approximation: TTM FCF $15.6B minus SBC $1.4B = ~$14.2B true owner earnings. PDD's capex is minimal (asset-light model), so FCF closely approximates owner earnings.",
+      "evidence": "TTM FCF: $15.623B. Annual SBC (2024): $1.354B. Adjusted owner earnings: ~$14.3B. PDD is an asset-light platform — minimal PP&E requirements. Operating cash flow Q3 2025 alone was RMB 45.7B ($6.4B), significantly higher than RMB 27.5B in Q3 2024 (+66% YoY).",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Owner earnings is FCF minus SBC as a rough approximation. A more precise calculation would also adjust for working capital timing (merchant deposits create float income) and maintenance vs growth capex. Given PDD's minimal capex, FCF minus SBC is a reasonable proxy."
+      }
+    },
+    {
+      "claim": "PDD's operating cash flow surged 66% YoY in Q3 2025 to RMB 45.7B despite revenue growing only 9% — demonstrating powerful operating leverage even during investment cycle",
+      "evidence": "Q3 2025 operating cash flow: RMB 45,660.5M ($6.4B), vs RMB 27,522.3M in Q3 2024 — a 66% increase. Revenue grew 9% YoY to RMB 108.3B. Net income grew 17% YoY to RMB 29.3B. This divergence between revenue growth (9%) and OCF growth (66%) suggests improving cash conversion efficiency.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Figures from PDD Q3 2025 earnings release. The OCF surge may partly reflect working capital timing rather than pure operating improvement."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["owner-earnings", "FCF", "operating-leverage", "cash-conversion", "buffett-analysis"],
+    "source_tier": "primary"
+  }
+}

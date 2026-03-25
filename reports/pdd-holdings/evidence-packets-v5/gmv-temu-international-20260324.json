@@ -1,0 +1,63 @@
+{
+  "packet_id": "PKT-GMV-003",
+  "source": {
+    "type": "article",
+    "url": "https://backlinko.com/temu-stats",
+    "title": "Temu Revenue and Usage Statistics for 2026 (Backlinko / multiple sources)",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "Temu GMV grew from ~$15B in 2023 to ~$70.8B in 2024, a ~370% increase",
+      "evidence": "Globally, Temu's GMV grew from $14 billion in 2023 to $70.8 billion in 2024. After deducting cancelled and refunded orders, the net transaction volume in the first half of 2024 was $18-19 billion, more than the GMV over the whole of 2023.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Multiple sources converge on $70-71B for 2024. The jump from $15B to $71B reflects Temu's explosive expansion from 48 to 80+ countries."
+      }
+    },
+    {
+      "claim": "Temu H1 2025 GMV was approximately $35B, with Q1 up 15-20% YoY but Q2 down 20-30% due to de minimis changes",
+      "evidence": "Temu achieved a global GMV of approximately $35 billion in the first half of 2025. In Q1 2025, Temu's total merchandise volume increased by 15% to 20% YoY. However, the elimination of de minimis caused its total merchandise volume to fall by 20% to 30% in Q2.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Q2 2025 drop reflects US de minimis policy change impact. Q3 2025 GMV growth reportedly rebounded to nearly Q1 levels (~40% YoY). Full-year 2025 Temu GMV likely in $70-90B range depending on Q4 performance."
+      }
+    },
+    {
+      "claim": "Temu generated US$92.5B in online store revenue in 2025 per ECDB, with 35-40% projected growth in 2026",
+      "evidence": "Temu generated revenue of US$92,514m on its biggest online store temu.com in 2025, with projections indicating a 35-40% increase in 2026.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "ECDB figure of $92.5B likely represents GMV rather than net revenue, as PDD's total company revenue is only ~$57B TTM. ECDB methodology may conflate GMV with revenue for some platforms."
+      }
+    },
+    {
+      "claim": "Morgan Stanley projects Temu GMV reaching $130B by 2030, with profitability expected by 2025",
+      "evidence": "Analysts from Morgan Stanley predict that Temu's GMV will increase from $19 billion in 2023 to $53 billion in 2024, and believe Temu's GMV could reach $130 billion by 2030. Analysts predict Temu may achieve profitability by 2025, with operating profit expected to reach $9 billion by 2030.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Morgan Stanley's 2024 estimate of $53B was conservative vs actual ~$71B. This suggests their 2030 $130B target may also be conservative. The profitability timeline has been complicated by US tariff changes."
+      }
+    },
+    {
+      "claim": "25% of Temu's US GMV now comes from local warehouse inventory (semi-managed model)",
+      "evidence": "Roughly 25% of U.S. gross merchandise volume now comes from sellers stocking inventory in local U.S. and European warehouses, reflecting Temu's shift to reduce reliance on direct-from-China shipments.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Semi-managed model shifts Temu from 1P-like (fully managed) to 3P marketplace, which changes revenue recognition and take rate calculations."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["gmv", "temu", "international", "growth"],
+    "source_tier": "secondary"
+  }
+}

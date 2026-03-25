@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-CS-007",
+  "source": {
+    "type": "article",
+    "url": "https://backlinko.com/temu-stats",
+    "title": "Temu Revenue and Usage Statistics for 2026 - Backlinko",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Temu generated ~$92.5B revenue in 2025, with 70-75% YoY growth and projected 35-40% growth in 2026.",
+      "evidence": "Temu generated revenue of US$92,514m on its biggest online store temu.com in 2025. This represents a change of 70-75% from the previous year. Temu is expected to see a growth rate of 35-40% in 2026 compared to 2025.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "From ecdb.com. Note: this may be GMV rather than net revenue. PDD does not break out Temu revenue separately in filings."
+      }
+    },
+    {
+      "claim": "Temu US monthly active users declined 28% YoY to 133.6 million as of October 2025, amid tariff headwinds.",
+      "evidence": "As of October 2025, Temu has 133.6 million monthly active users in the US, showing a 28% year-over-year decrease. Facing heavy tariffs, Temu dramatically scaled back American ad spend, halting Google Shopping ads and slashing Facebook Ads by April 2025. Meanwhile, boosted European ad spend by 40% MoM in France and 20% in UK.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From mobiloud.com and backlinko.com statistics compilations"
+      }
+    },
+    {
+      "claim": "Temu's European GMV on track to surpass $15B in 2025 and could top $20B by end of 2026.",
+      "evidence": "Temu's European gross merchandise volume (GMV) is on track to surpass $15 billion in 2025 and could top $20 billion by the end of 2026, positioning the company as one of Europe's top online marketplaces.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Projection from market analysts, not from PDD filings"
+      }
+    },
+    {
+      "claim": "Temu faces legal/regulatory challenges: Arizona AG sued for data theft/counterfeits (Dec 2025), Texas banned on government devices (Jan 2026).",
+      "evidence": "In December 2025, Arizona attorney general Kris Mayes sued Temu for consumer data theft and selling counterfeit brands. In January 2026, Texas governor Greg Abbott prohibited state employees from using Temu on all government devices and networks.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Legal filings and government orders - public record"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["temu-growth", "GMV", "user-metrics", "regulatory-risk", "US-market"]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "packet_id": "PKT-REG-EU-001",
+  "source": {
+    "type": "article",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1913",
+    "title": "European Commission: Temu DSA breach finding + FSR investigation",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "EU Commission preliminarily found Temu in breach of DSA for failing to assess risks of illegal products (July 2025)",
+      "evidence": "On July 28, 2025, the European Commission said Temu is in breach of the DSA for not properly assessing the risks of illegal products. A mystery shopping exercise found consumers 'very likely to find non-compliant products' including baby toys and small electronics. Commissioner Virkkunen: 'Temu is far from assessing risks for its users at the standards required by the DSA.' Temu's risk assessment from October 2024 was called 'inaccurate' for relying on general industry info rather than platform-specific data.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Official EC press release IP/25/1913. Cross-referenced with Euronews, Fortune, and EC digital strategy page."
+      }
+    },
+    {
+      "claim": "DSA fine potential: up to 6% of worldwide annual turnover; ongoing investigation covers addictive design, recommendation transparency, researcher data access",
+      "evidence": "If findings confirmed, Temu could face fines up to 6% of total worldwide annual turnover. Investigation continues on other suspected DSA breaches: effectiveness of mitigation measures, use of addictive design features, transparency of recommendation systems, and access to data for researchers.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "6% penalty is statutory maximum under DSA Article 52. Multiple ongoing investigation threads confirmed by EC."
+      }
+    },
+    {
+      "claim": "FSR dawn raid on Temu's Dublin HQ (December 2025); EC investigating whether PDD received unfair Chinese government subsidies",
+      "evidence": "European Commission conducted dawn raid at Temu's European headquarters in Dublin under Foreign Subsidies Regulation. This was only the second FSR dawn raid ever. EC investigating whether Chinese e-commerce giant received unfair subsidies from Beijing. Court confirmed EC authority to request data stored outside EU, including on servers in China.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Reported by Lexology, Sourcing Journal. Dublin raid timing coincided with SAMR visit to Shanghai."
+      }
+    },
+    {
+      "claim": "EU €3 per-item customs duty on low-value parcels effective July 1, 2026; permanent standard tariff regime from 2028",
+      "evidence": "EU agreed €3 tax per item (by tariff classification) on all parcels under €150, effective July 1, 2026. Temporary measure until EU Customs Data Hub launches in 2028, when standard EU customs tariffs apply permanently. Additional €2 per-parcel handling fee under negotiation. In 2024, 4.6 billion low-value parcels entered EU — 12 million daily — with 91% from China.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "ECOFIN agreement December 2025. Confirmed by Euronews, SupplyChainBrain, vatcalc.com. Note: some sources say per-parcel, others per-item by tariff heading — per-item by tariff heading is the official EC position."
+      }
+    },
+    {
+      "claim": "65% of tested Temu products had defects; product safety is a key DSA enforcement vector",
+      "evidence": "On Temu, 65% of tested items had defects; on Shein, 73%. One in four products deemed potentially dangerous, including elevated heavy metals in clothing and toys with banned substances.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From European Parliament research service briefing and consumer testing organizations."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "DSA", "FSR", "EU-customs", "product-safety"],
+    "severity": "operational-to-structural",
+    "jurisdiction": "EU"
+  }
+}

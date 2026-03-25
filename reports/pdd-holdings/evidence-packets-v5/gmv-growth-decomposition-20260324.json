@@ -1,0 +1,45 @@
+{
+  "packet_id": "PKT-GMV-007",
+  "source": {
+    "type": "article",
+    "url": "https://visiblealpha.com/data-snapshot/pdd-holdings-set-for-rapid-growth-analysts-expect-strong-gains-in-gmv-and-profitability/",
+    "title": "GMV Growth Decomposition and Trajectory Analysis (multiple sources)",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "PDD's GMV growth is decelerating: from ~60% in 2023 to ~23% in 2024 to ~10-15% in 2025",
+      "evidence": "In 2023, Pinduoduo's GMV was RMB 4.05 trillion. In 2024, analysts expected GMV to rise by +23% YoY, reaching CN¥4.8 trillion. 2025 expected growth rate of 10-15%. PDD's GMV is expected to grow at a CAGR of 12%, and revenue at a CAGR of 17%. Revenue CAGR outpacing GMV CAGR implies continued take rate expansion.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Growth deceleration is structural as domestic market matures. Domestic Pinduoduo is transitioning from hypergrowth to steady-state. International (Temu) was the growth engine in 2023-2024 but is now facing tariff headwinds."
+      }
+    },
+    {
+      "claim": "Growth decomposition: Domestic GMV growth driven by ARPU increase (not new users), International driven by new markets",
+      "evidence": "Active buyers using Pinduoduo totaled 882 million in Q1 2022. Current estimates suggest 900M+. This implies domestic buyer growth is nearly exhausted (<3% growth). Average revenue per user continues to climb as users increase order frequency and purchase volume. Revenue growth decelerated from 59% in 2024 to ~10% in 2025 TTM.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "DECOMPOSITION:\n\nDomestic (Pinduoduo):\n- Users: ~900M, growing <3% (near saturation in China's 1.1B internet users)\n- ARPU: ~$780, growing ~10-15% (trade-up + frequency increase)\n- Domestic GMV growth: ~10-15% (ARPU-driven)\n\nInternational (Temu):\n- Users: 200-250M active, growing 20-30%\n- ARPU: ~$300-350 (lower than domestic due to newer markets)\n- Temu GMV growth: 15-40% (volatile due to tariffs, but structurally high)\n\nTotal GMV growth shifting from user-driven to ARPU-driven domestically, and market-expansion-driven internationally."
+      }
+    },
+    {
+      "claim": "Revenue growth trajectory: 113% (Q1 2024) -> 86% (Q2 2024) -> 44% (Q3 2024) -> 24% (Q4 2024) -> 10% (Q1 2025) -> 10% (Q2 2025) -> 9% (Q3 2025)",
+      "evidence": "Following a triple-digit surge in early 2024, revenue has settled into a robust 10-15% YoY growth range in late 2025. Q3 2025 total revenues were RMB 108,276.5 million, up 9% YoY. Annual revenue for 2024 was $53.95 billion, a 54.46% increase YoY. TTM revenue through Q3 2025 was $57.327B, a 9.63% increase YoY.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Revenue growth deceleration is steep but stabilizing around 9-10% in 2025. This partly reflects: (1) lapping high Temu growth base, (2) domestic merchant subsidy programs reducing take rates, (3) US tariff impact on Temu. The Q4 2025 earnings (March 25) will reveal whether the 9-10% floor holds."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["gmv", "growth", "decomposition", "trajectory", "deceleration"],
+    "source_tier": "secondary"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-CS-005",
+  "source": {
+    "type": "article",
+    "url": "https://techbuzzchina.substack.com/p/pinduoduo-enters-the-instant-retail",
+    "title": "Pinduoduo enters the instant retail market - TechBuzzChina",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo is investing over RMB 10 billion in instant retail, building 200 warehouses in Shanghai, targeting 20% market share in 2-3 years.",
+      "evidence": "Between May-June 2025, Pinduoduo held an internal meeting revealing the initial investment would exceed RMB 10 billion (Sept 2025 - Sept 2026), primarily for front-end warehouses and infrastructure. Pinduoduo is building 200 instant retail warehouses in Shanghai and plans to integrate Duoduo Maicai's existing facilities. They plan to achieve 20% market share within 2-3 years and target 20 million daily transactions before end of 2025.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzzChina and ChinaTalk reporting on internal meeting details"
+      }
+    },
+    {
+      "claim": "Duoduo Maicai GMV surged 340% YoY in July 2025 after Meituan Youxuan's exit from community group-buying.",
+      "evidence": "Duoduo Maicai experienced a significant decline in H1 2025 due to Temu focus, but following Meituan Youxuan's exit, experienced its first significant growth in July 2025, with GMV increasing by 340% year-over-year.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzzChina, though 340% growth is partly base effect from H1 decline"
+      }
+    },
+    {
+      "claim": "Meituan operates 6,000+ flash-express warehouses across 200 cities and acquired Dingdong for $717M in February 2026 to consolidate instant retail leadership.",
+      "evidence": "Meituan operates more than 6,000 flash-express warehouses across 200 cities with AI-enabled inventory rotation achieving 85% turnover. In February 2026, Meituan acquired Dingdong Maicai for $717 million, bringing over 1,000 micro-fulfillment centers and 7 million monthly transacting users. The deal was strategic: Alibaba and JD were reportedly among potential buyers.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed by hellochinatech.com, 36kr, and Yahoo Finance reporting"
+      }
+    },
+    {
+      "claim": "Goldman Sachs projects instant commerce TAM to reach RMB 1.5 trillion by 2030, food delivery RMB 2.4 trillion.",
+      "evidence": "According to Goldman Sachs' July 2025 research, the TAM for food delivery is projected to reach RMB 2.4 trillion by 2030, while instant commerce will grow to RMB 1.5 trillion. Meituan founder Wang Xing has stated instant retail will eventually account for over 10% of total e-commerce market.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Goldman Sachs research cited in Yahoo Finance and MoonFox Data reports"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "duoduo-maicai", "meituan"],
+    "topic_tags": ["instant-retail", "front-end-warehouses", "competition", "quick-commerce"]
+  }
+}

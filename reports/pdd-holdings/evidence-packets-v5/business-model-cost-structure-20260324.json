@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-BM-003",
+  "source": {
+    "type": "filing",
+    "url": "https://investor.pddholdings.com/news-releases",
+    "title": "PDD Holdings Quarterly Earnings Releases 2024-2025 - Cost Structure Analysis",
+    "retrieved_at": "2026-03-24T10:10:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD's gross margin is ~57% in 9M 2025, down from ~61% in FY2024, reflecting Temu fulfillment costs",
+      "evidence": "Gross profit and margin: FY2024: Revenue 393,836M - COGS 153,900M = GP 239,936M (60.9%). Q1 2025: 95,672M - 40,947M = 54,725M (57.2%). Q2 2025: 103,985M - 45,859M = 58,126M (55.9%). Q3 2025: 108,277M - 46,840M = 61,437M (56.7%). 9M 2025: 307,934M - 133,646M = 174,288M (56.6%).",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Revenue and COGS from earnings releases. Gross margin compression driven by higher fulfillment, bandwidth, and payment processing fees."
+      }
+    },
+    {
+      "claim": "Sales & marketing is PDD's largest operating expense, consuming ~30% of revenue in 9M 2025",
+      "evidence": "S&M expenses: Q1 2025: RMB 33,403M (34.9% of rev). Q2 2025: RMB 27,210M (26.2%). Q3 2025: RMB 30,323M (28.0%). 9M 2025: RMB 90,936M (29.5%). FY2024: RMB 93,404M (23.7%). The sharp increase in S&M as % of revenue reflects Temu user acquisition and Pinduoduo merchant subsidies.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Computed from quarterly earnings releases."
+      }
+    },
+    {
+      "claim": "R&D spending is modest at ~4% of revenue, reflecting PDD's lean engineering approach",
+      "evidence": "R&D expenses: 9M 2025: RMB 11,501M (3.7% of revenue). FY2024: RMB 13,117M (3.3%). This is low compared to Alibaba (~7%) and JD (~3.5%), reflecting PDD's focus on algorithm efficiency over infrastructure breadth.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "PDD R&D from earnings releases. Alibaba/JD comparisons are approximate from prior knowledge."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["cost-structure", "gross-margin", "sales-marketing", "R&D"]
+  }
+}

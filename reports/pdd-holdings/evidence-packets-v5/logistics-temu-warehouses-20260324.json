@@ -1,0 +1,64 @@
+{
+  "packet_id": "PKT-logistics-002",
+  "source": {
+    "type": "article",
+    "url": "https://amzprep.com/where-is-temu-warehouse-located/",
+    "title": "Temu Warehouse Locations: 2026 Directory of US, Europe & Global Distribution Centers",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "Temu operates 13 self-owned warehouses globally as of October 2025: 10 in Europe, 2 in US, 1 near US-Mexico border",
+      "evidence": "By October 2025, Temu operated 13 self-owned warehouses globally, including 10 in Europe, 2 in the United States, and one near the US-Mexico border.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Cross-referenced with multiple warehouse directory sources"
+      }
+    },
+    {
+      "claim": "US warehouse locations: Los Angeles/Rowland Heights (CA), Dallas (TX), Newark (NJ), and Georgia",
+      "evidence": "In the USA, Temu operates warehouses in Los Angeles, California; Dallas, Texas; and Newark, New Jersey. Temu has also established fulfillment centers in Georgia. Temu's California warehouse has been strategically positioned in Rowland Heights. The only confirmed specific address is WINIT America at 18501 Arenth Ave, Rowland Heights, CA 91748.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple sources confirm these locations; exact addresses not publicly disclosed except WINIT"
+      }
+    },
+    {
+      "claim": "European warehouses in 8 countries: UK, Germany, France, Italy, Spain, Netherlands, Poland, Turkey",
+      "evidence": "In Europe, Temu has established its own warehouses in eight countries: the UK, Germany, France, Italy, Spain, the Netherlands, Poland, and Turkey. Key locations include Rotterdam, Netherlands, and Frankfurt, Germany.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Corroborated by ecommercenews.eu and forestshipping.com"
+      }
+    },
+    {
+      "claim": "Temu targets 80% of European orders via local warehouses by 2026; 30-40% by end of 2025",
+      "evidence": "Warehouses positioned in the UK, Germany, Austria, Italy, Spain, and France are projected to handle 80% of European orders domestically by 2026. By the end of 2025, Temu expects its self-operated warehouses to handle over 30% of its cargo in the European market, potentially reaching 40% in key regions like the Netherlands, Germany, and Spain.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Target from Temu corporate communications; achievement not yet verified"
+      }
+    },
+    {
+      "claim": "Temu partnered with major European postal services for last-mile delivery",
+      "evidence": "Temu has entered partnerships with Royal Mail (UK), bpost (Belgium), DHL (Germany), La Poste (France), Correos (Spain), Austrian Post, and Poste Italiane for delivery across Europe.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Partnership announcements from ecommercenews.eu"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["logistics", "warehouses", "US", "Europe", "infrastructure"],
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  }
+}

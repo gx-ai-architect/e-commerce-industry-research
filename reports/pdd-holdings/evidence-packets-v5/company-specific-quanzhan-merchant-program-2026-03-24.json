@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-CS-009",
+  "source": {
+    "type": "article",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5190237",
+    "title": "Beyond Advertising: Mechanism Design for Platform-Wide Marketing Service QuanZhanTui - SSRN/ACM KDD 2025",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "QuanZhanTui is a novel platform-wide marketing system where merchants bid for impressions across ALL traffic (organic + paid), not just ad slots. Published as academic paper at ACM KDD 2025.",
+      "evidence": "QuanZhanTui enables sellers to bid for impressions across the platform's entire traffic, directly influencing platform-wide sales while keeping user experience uncompromised. The system uses a 'Liquid Payment Auction' (LPA) mechanism that optimizes balanced objectives between merchant welfare and user experience. This represents a paradigm shift from traditional ad-only bidding to a platform-wide impression system.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Peer-reviewed academic paper at ACM SIGKDD 2025. Authors appear to be PDD/Temu engineers and collaborating academics."
+      }
+    },
+    {
+      "claim": "PDD's RMB 100 billion merchant support program launched in early 2025 includes fee reductions, logistics subsidies, SME support, and agricultural merchant support.",
+      "evidence": "The program includes: (1) RMB 10 billion fee reduction component with drastically reduced store security deposits, (2) logistics subsidies that reduced remote-area shipping costs and drove 40% order growth from remote regions, (3) RMB 1 billion in subsidies and RMB 2 billion in traffic support for premium produce initiatives, (4) expanded support for SMEs, new quality merchants, and branded merchants.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From PDD earnings calls Q1-Q3 2025 and Webull/ainvest reporting"
+      }
+    },
+    {
+      "claim": "The 100B program caused significant margin compression: Q1 2025 operating profit fell to RMB 16.1B from RMB 26B, Q2 2025 operating profit fell 21% YoY.",
+      "evidence": "In Q1 2025, operating profit fell to RMB 16.1 billion from RMB 26 billion in Q1 2024. In Q2 2025, operating profit fell to RMB 25.79 billion, a 21% drop, as costs of revenues spiked 36%. Management described this as a 'timing mismatch between when expenses are recorded and when the long term returns materialize.'",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From official PDD earnings releases, confirmed by investing.com transcripts"
+      }
+    },
+    {
+      "claim": "PDD describes the 100B program as 'capital expenditure disguised as operating expense' - building intangible merchant loyalty assets not captured by accounting.",
+      "evidence": "The program isn't a one-time marketing blitz - it's described as a capital expenditure disguised as an operating expense, building intangible assets that traditional accounting doesn't capture. PDD's cash reserves remain robust at RMB 387.1-423.8 billion providing flexibility to reinvest without dilution.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "The 'capex disguised as opex' framing is from analyst commentary (BeyondSPX), not PDD management directly"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["QuanZhanTui", "merchant-support", "fee-reduction", "margin-compression", "advertising-mechanism"]
+  }
+}

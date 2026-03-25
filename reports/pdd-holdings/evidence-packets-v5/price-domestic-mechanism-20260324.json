@@ -1,0 +1,47 @@
+{
+  "packet_id": "PKT-PRICE-002",
+  "source": {
+    "type": "article",
+    "url": "https://news.futunn.com/en/post/8232735/why-are-things-from-pinduoduo-so-cheap-what-s-so",
+    "title": "Why Pinduoduo prices are lower: mechanisms and cost structure",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo achieves lower prices through 5 distinct mechanisms: (1) C2M factory-direct bypassing intermediaries, (2) tail goods/inventory liquidation from dealers, (3) lower logistics costs via postal/small carriers, (4) 百亿补贴 platform subsidies funded by seller-side monetization, (5) group buying demand aggregation reducing supplier uncertainty.",
+      "evidence": "Per Futunn/merchant analysis: PDD supplies include 'tail goods and inventory that needs to be cleaned up' bought at lower prices. Transportation costs are lower through partnerships with postal services and small logistics companies. C2M model directly links buyers with factories. 百亿补贴 program initially funded by zero-commission merchant acquisition. By 2025-2026, AI-driven forecasting deepened supply-demand alignment, reducing waste and tightening margins.",
+      "evidence_type": "qualitative",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple sources confirm these mechanisms. The merchant anecdote from 618 analysis (JD procurement asking why prices differ) confirms: 'JD has higher deduction rate than Taobao, and goods on PDD are not ours' — implying liquidation channel."
+      }
+    },
+    {
+      "claim": "Pinduoduo's seller-funded monetization model: platform charges sellers (advertising fees, visibility bidding, data-driven promotions) rather than buyers, maintaining low consumer prices while monetizing merchant competition. Take rate ~4-5% of GMV.",
+      "evidence": "Commissions plus advertising amount to roughly 4-5% of GMV for Alibaba and Pinduoduo, close to 10% for short-video marketplaces like Douyin. PDD shifts monetization to supply side through advertising fees, visibility bidding, and data-driven promotions.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Take rate data from WPIC 2026 platform analysis and multiple industry reports"
+      }
+    },
+    {
+      "claim": "PDD's pricing flywheel: Incentive -> Participation -> Demand clustering -> Supplier certainty -> Price compression -> Higher conversion -> Merchant competition -> Increased monetization -> Reinforced incentives. The system works because participation lowers uncertainty, lower uncertainty lowers cost.",
+      "evidence": "Described in Ashley Dudarenok's 2025-2026 analysis of Pinduoduo business model. Once demand becomes dense and predictable, supplier behavior changes, ad competition rises, and revenue scales through merchant services.",
+      "evidence_type": "qualitative",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Consistent across multiple analyst descriptions of PDD's model"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["pricing", "pricing-mechanism", "C2M", "group-buying", "百亿补贴", "monetization"],
+    "question_id": "why-prices-lower",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  }
+}

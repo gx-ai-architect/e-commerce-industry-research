@@ -1,0 +1,71 @@
+{
+  "packet_id": "PKT-CS-004",
+  "source": {
+    "type": "article",
+    "url": "https://techbuzzchina.substack.com/p/temus-phase-3-building-a-new-pinduoduo",
+    "title": "Temu's Phase 3: 'Building a new Pinduoduo' - TechBuzzChina",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "At PDD's December 2025 shareholder meeting, Co-Chairman Zhao Jiazhen announced they will 'recreate a Pinduoduo' in three years by 'heavily investing in China's supply chain.'",
+      "evidence": "At Pinduoduo's shareholders' meeting in December 2025, Co-Chairman Zhao Jiazhen announced that in the next three years, they will 'recreate a Pinduoduo' by 'heavily investing in China's supply chain.'",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzzChina reporting on the shareholder meeting, published January 2026"
+      }
+    },
+    {
+      "claim": "Temu's evolution has three clear phases: Phase 1 (C2M fully managed), Phase 2 (semi-managed/local marketplace since May 2024), Phase 3 (profitability in 2026+).",
+      "evidence": "Phase 1: C2M + fully managed services - manufacturers ship to Temu warehouses in Guangdong, Temu handles pricing, marketing, logistics. Phase 2: Semi-managed/local marketplace from May 2024, where sellers manage their own pricing and shipping. Phase 3: As Temu becomes profitable in 2026, it moves to the next stage of ecosystem building.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Framework from TechBuzzChina's analysis, corroborated by multiple sources"
+      }
+    },
+    {
+      "claim": "Temu achieved globally in three years what Pinduoduo took a decade to accomplish domestically.",
+      "evidence": "In these first two phases, Temu achieved globally in three years what Pinduoduo took a decade to accomplish domestically.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "TechBuzzChina analysis - directional comparison, not exact metric"
+      }
+    },
+    {
+      "claim": "~25% of Temu's US GMV now comes from sellers with local inventory in US/European warehouses, up from 0% at launch.",
+      "evidence": "Roughly 25% of U.S. gross merchandise volume (GMV) now comes from sellers stocking inventory in local U.S. and European warehouses. This shift reduces reliance on small shipments from China, helping Temu navigate import tariffs and deliver faster, more reliable service.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From backlinko.com Temu statistics for 2026"
+      }
+    },
+    {
+      "claim": "Temu now prioritizes semi-managed products: up to 70% of platform traffic shifting toward semi-managed SKUs.",
+      "evidence": "Temu now prioritizes Semi-Managed products in both homepage exposure and search results. According to internal estimates, up to 70% of platform traffic is shifting toward Semi-Managed SKUs.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From darwynnfulfillment.com analysis of Temu semi-managed model in 2025"
+      }
+    },
+    {
+      "claim": "American sellers still make up less than 1% of Temu's 300,000 total vendors despite the platform opening to all US sellers.",
+      "evidence": "While Temu recruited five of Amazon's top 25 merchants, American sellers still made up less than 1% of Temu's 300,000 total vendors.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From chinesellers.substack.com marketplace analysis"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["temu-phase3", "semi-managed", "local-sellers", "C2M", "supply-chain"]
+  }
+}

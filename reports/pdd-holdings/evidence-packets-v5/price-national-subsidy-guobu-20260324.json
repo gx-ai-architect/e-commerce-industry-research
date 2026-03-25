@@ -1,0 +1,47 @@
+{
+  "packet_id": "PKT-PRICE-008",
+  "source": {
+    "type": "article",
+    "url": "https://finance.sina.com.cn/roll/2025-12-29/doc-inheneyq4830627.shtml",
+    "title": "National subsidy (国补) 2026 policy: impact on e-commerce platform pricing",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "China's 2026 national trade-in subsidy (国补): 62.5B RMB allocated for phones, appliances, and cars. Phones/tablets/watches/glasses under 6,000 RMB get 15% subsidy (up to 500 RMB per item). Appliances get 15% subsidy (up to 1,500 RMB). Funded by ultra-long-term special government bonds.",
+      "evidence": "NDRC/MOF joint notice: 2026 国补 covers phones, tablets, smart watches, smart glasses (4 categories) at 15% of sale price, max 500 RMB per item, price cap 6,000 RMB. Home appliances (6 categories: fridge, washer, TV, AC, computer, water heater) at 15%, max 1,500 RMB. Cars: new energy 12% (max 20,000 RMB), fuel 10% (max 15,000 RMB). Same ID can only claim once per category nationwide.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Official NDRC document. 2024: 150B RMB, 2025: 300B RMB in ultra-long-term special bonds. 2026 continues with 62.5B RMB dedicated allocation."
+      }
+    },
+    {
+      "claim": "Platform participation in 国补: JD and Taobao fully integrated from launch. Pinduoduo initially 'missed the macro opportunity' (per Q4 2024 earnings call) but has since partnered with Shanghai, Jiangsu and other provinces. Subsidies stack with platform promotions.",
+      "evidence": "PDD acknowledged 'may have missed some macro opportunities' in Q4 2024 earnings call, referring to initial 国补 non-participation. By 2026, PDD has partnered with Shanghai, Jiangsu, etc. for 国补 access. Participating brands include Dyson, TCL, Xiaomi, Hisense. JD: search '家电588' or '手机588'. Taobao: search '补贴到手了'. All platforms allow stacking 国补 with platform coupons.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Sina Finance, JSW, and official platform announcements confirm participation details"
+      }
+    },
+    {
+      "claim": "iPhone pricing with stacked subsidies demonstrates platform competition: PDD百亿补贴 + 国补 brought iPhone 16 Pro 128GB to 5,398 RMB (32.5% off official 7,999 RMB). This stacking of platform + government subsidies is the most aggressive price compression mechanism in China's e-commerce.",
+      "evidence": "During 618 2025, iPhone 16 Pro 128GB on PDD百亿补贴 channel fell to 5,398 RMB after national subsidy stacking — a 2,601 RMB (32.5%) reduction from official 7,999 RMB. This represents the convergence of platform subsidy + government subsidy + merchant competition.",
+      "evidence_type": "data_point",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "36kr, Sina Finance confirm the stacked pricing on iPhone 16 Pro during 618 2025"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-01",
+    "company_tags": ["PDD", "pdd-holdings", "BABA", "JD"],
+    "topic_tags": ["pricing", "国补", "national-subsidy", "trade-in", "government-policy"],
+    "question_id": "national-subsidy-pricing-impact",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  }
+}

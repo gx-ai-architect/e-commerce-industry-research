@@ -1,0 +1,63 @@
+{
+  "packet_id": "PKT-GMV-008",
+  "source": {
+    "type": "dataset",
+    "url": "N/A - synthesized from PKT-GMV-001 through PKT-GMV-007",
+    "title": "GMV Triangulation Summary: 4 Independent Methods",
+    "retrieved_at": "2026-03-24T10:30:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "METHOD 1 (Revenue / Take Rate): Total GMV = $670-760B. Domestic ~$600-660B, Temu ~$70-100B.",
+      "evidence": "TTM Revenue: $57.3B. Blended take rate estimated 7.5-8.5% (up from 6.3% in 2023 to 8.6% in 2024, moderated in 2025 by merchant subsidies). GMV = $57.3B / 0.075 to $57.3B / 0.085 = $674B to $764B. Domestic: ~$38-40B revenue at ~6% domestic take rate = $633-667B. Temu: ~$17-19B revenue at ~20-25% effective take rate (fully managed) = $68-95B.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Key assumption: domestic take rate ~5-6% vs Temu 20-25%. Temu's high take rate reflects the fully-managed model where PDD buys inventory, marks up, and books gross revenue. The 20-25% is NOT a commission rate -- it's the gross margin on goods sold. If Temu shifts more to semi-managed (marketplace), effective take rate drops to ~10-15%, yielding higher implied GMV. Revenue split between domestic and Temu is not disclosed; estimated from analyst models."
+      }
+    },
+    {
+      "claim": "METHOD 2 (Third-Party Estimates): Total GMV = $700-820B. ECDB: $817B (2025). Analyst consensus domestic: RMB 4.5-4.8T ($620-660B) + Temu $70-90B = $690-750B.",
+      "evidence": "ECDB ranks Pinduoduo at $817B GMV in 2025. Domestic analyst consensus: RMB 4.5-4.8 trillion ($620-660B). Temu 2024 GMV: $70.8B, 2025 estimate: $70-95B (growth offset by tariff impact). 2024 total per ECDB: $715B.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "ECDB's $817B is at the top of the range. Analyst estimates for domestic GMV are well-clustered around RMB 4.5T. The variance comes mostly from Temu estimates."
+      }
+    },
+    {
+      "claim": "METHOD 3 (App Proxy / Buyer Math): Total domestic GMV = $650-700B. 900M buyers x $720-780 annual spend.",
+      "evidence": "900M+ annual active buyers on Pinduoduo. Annual average spend per buyer ~$780. Cross-check with order frequency: 900M x 6 orders/month x $10/order x 12 = $648B. Alternative: 900M x $780 = $702B.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "The $780 annual spend figure is a third-party estimate. Order frequency of ~6x/month is back-calculated from 2021 data (61B orders / 882M buyers / 12 months = 5.8). Frequency likely increased to ~6-7 by 2025. AOV of $10/order implies basket of 1.5-2 items at $6-7 each."
+      }
+    },
+    {
+      "claim": "METHOD 4 (Logistics Back-Calculation): Domestic GMV = RMB 3.5-5.5T ($480-760B) -- wide range due to parcel-to-GMV conversion uncertainty.",
+      "evidence": "China total express parcels 2025: ~200B. PDD is #1 platform by parcel volume, surpassing Taobao in 2023. Estimated PDD share: 30-35% of e-commerce parcels. E-commerce parcels = ~65% of total = ~130B. PDD parcels: 39-46B. At RMB 90-120 per parcel (accounting for multi-item orders): RMB 3.5-5.5T.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "This method has the widest confidence interval due to: (1) unknown exact PDD parcel share, (2) AOV per-parcel vs per-order ambiguity, (3) multi-item shipments. The range brackets consensus from below ($480B) to above ($760B), which at least confirms the order of magnitude."
+      }
+    },
+    {
+      "claim": "TRIANGULATED ESTIMATE: PDD Holdings total GMV (2025) = $700-800B. Domestic Pinduoduo: $620-680B (RMB 4.5-4.9T). Temu International: $70-95B. Duo Duo Grocery: $10-25B (not separately estimated).",
+      "evidence": "Method 1 (Revenue/Take Rate): $674-764B. Method 2 (Third-party): $690-817B. Method 3 (App Proxy): $650-700B domestic only. Method 4 (Logistics): $480-760B (wide). Central tendency of Methods 1-3: $700-760B. ECDB's $817B is the high end. Conservative base: $700B. Best estimate: $740-780B.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Confidence: MODERATE-HIGH. Three of four methods converge on $700-780B. The logistics method is too imprecise to narrow the range but doesn't contradict. Key uncertainty: Temu GMV is volatile due to tariff impacts, and could swing the total by $20-30B. Q4 2025 earnings (March 25) may provide clues via transaction services revenue growth."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "temu"],
+    "topic_tags": ["gmv", "triangulation", "synthesis", "estimate"],
+    "source_tier": "secondary"
+  }
+}

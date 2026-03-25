@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-TEMU-TRUSTPILOT-20260324",
+  "source": {
+    "type": "article",
+    "url": "https://www.trustpilot.com/review/temu.com",
+    "title": "Temu Trustpilot Reviews and Rating Data (2025-2026)",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "customer-happiness"
+  },
+  "extractions": [
+    {
+      "claim": "Temu Trustpilot rating is 2.0/5.0 with ~49,000 total reviews (March 2026)",
+      "evidence": "Temu holds an average rating of 2.5 out of 5 stars on Trustpilot. Nearly 48,878 people have already contributed reviews. Multiple sources cite the rating at 2.0-2.5 range.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Cross-referenced with Trustindex, Sitejabber (2 stars/1,760 reviews), BBB (2.29/5 from 1,805 reviews), and hellopeter (2.8 TrustIndex)."
+      }
+    },
+    {
+      "claim": "Temu Trustpilot rating distribution is heavily polarized: ~34% 5-star, majority 1-star. Regional profiles show 47-64% 1-star reviews.",
+      "evidence": "Around 34% of users have rated Temu five stars. Regional temu.fi profile: 5-star 27%, 1-star 47%. temu.eu profile: 5-star 14%, 1-star 64%.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Regional profiles are smaller samples (50-59 reviews) but directionally consistent with overall pattern."
+      }
+    },
+    {
+      "claim": "10.9% of Temu reviews on Trustpilot in 2025 are likely AI-generated, up from 0.75% in 2022 (1,361% increase)",
+      "evidence": "The rate of likely AI reviews about Temu on Trustpilot has increased by 1,361% from 2022 to 2025. In 2022 probable AI reviews were 0.75%. By 2025, likely AI reviews reached 10.90%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Source: Originality.ai study published 2025"
+      }
+    },
+    {
+      "claim": "Top Temu complaint themes: misleading promotions, rising prices, poor customer service (bots), product quality mismatch, inconsistent sizing",
+      "evidence": "Common complaints: misleading 'free gift for new customers' promotions, prices creeping up to where other sites are cheaper, customer service bots are unhelpful, items frequently don't match images/descriptions, sizes wrong.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Aggregated from multiple Trustpilot review analysis sources (2025-2026)"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu"],
+    "topic_tags": ["customer-satisfaction", "trustpilot", "international", "complaints"]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "packet_id": "PKT-BM-004",
+  "source": {
+    "type": "article",
+    "url": "https://www.bristlemoonresearch.com/p/pdd-holdings-pdd-amazons-greatest",
+    "title": "Multiple analyst estimates on PDD GMV and take rate (Bernstein, Morningstar, Momentum Works)",
+    "retrieved_at": "2026-03-24T10:20:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD's domestic (Pinduoduo) take rate estimated at ~4.2% in FY2023, up from 3.6% in FY2021 — still below Alibaba's ~5%",
+      "evidence": "Bernstein estimates PDD's take rate more than tripled between FY17 to FY21 to 3.6%, reaching 4.2% in FY23. One analyst thesis suggests PDD's main app could increase its take rate to 5% (matching Alibaba) with ~RMB 4.7T GMV. This would imply domestic revenue of ~RMB 220B.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Bernstein estimate cited in multiple analyst reports. Take rate = total revenue / GMV. PDD stopped disclosing GMV after FY2021 (last disclosed: RMB 2.44T in FY2021), so all subsequent GMV and take rate figures are analyst estimates."
+      }
+    },
+    {
+      "claim": "Temu's effective take rate is structurally different from Pinduoduo: 35-40% for fully managed, low double-digits for semi-managed",
+      "evidence": "Bernstein estimates Temu take rate around 35% of GMV under fully managed model (Temu buys at supply price, sets retail price, keeps the spread), and low double digits under semi-managed (merchant ships, Temu takes commission). Temu GMV estimates: ~$14-15B in 2023, $30-60B in 2024 (wide range), with semi-managed now ~34% of global transaction volume.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Temu does not disclose GMV or take rate. These are Bernstein analyst estimates. The wide range in GMV estimates ($30B-$60B for 2024) reflects genuine uncertainty."
+      }
+    },
+    {
+      "claim": "PDD stopped disclosing GMV after FY2021 — all subsequent GMV figures are analyst estimates with wide variance",
+      "evidence": "Last official GMV disclosure: Pinduoduo FY2021 GMV of RMB 2.44 trillion. PDD has not disclosed GMV since. Analyst estimates for FY2024 combined GMV range from $400B to $600B+ depending on methodology.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed via PDD's 20-F filings. GMV disclosure stopped after FY2021."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu", "Pinduoduo"],
+    "topic_tags": ["take-rate", "GMV", "monetization", "fully-managed", "semi-managed"]
+  }
+}

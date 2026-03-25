@@ -1,0 +1,62 @@
+{
+  "packet_id": "PKT-CS-001",
+  "source": {
+    "type": "article",
+    "url": "https://www.oreateai.com/blog/precise-targeting-strategies-on-the-pinduoduo-platform-and-guide-for-new-sellers-to-improve-traffic-conversion/",
+    "title": "Precise Targeting Strategies on the Pinduoduo Platform - Oreate AI Blog",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo's algorithm is fundamentally feed-discovery-first, not search-first. 70-80% of traffic comes from algorithmic recommendations, not user search.",
+      "evidence": "Brands report that on Pinduoduo, 70%-80% of traffic comes from recommendation feeds, while only 20-30% comes from user-initiated search. This is the inverse of Taobao's model where search defines intent. Pinduoduo hides heavy search prominence and pushes algorithmic discovery into the foreground.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Multiple merchant guides and industry analyses confirm the 70-80% recommendation traffic share. This is a structural difference from Taobao."
+      }
+    },
+    {
+      "claim": "Pinduoduo's audience tagging system collects 200+ data dimensions per user to build unique identity tag libraries.",
+      "evidence": "Pinduoduo's audience tagging system is built upon big data technology and features three main characteristics: dynamic updates, multi-dimensionality, and implicit presentation. The platform collects over 200 data dimensions such as users' geographic distribution, device information, browsing trajectories, purchase frequency, price sensitivity, etc., establishing unique identity tag libraries for each account.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From merchant-facing documentation and platform guides"
+      }
+    },
+    {
+      "claim": "Pinduoduo's free traffic allocation is directly tied to price competitiveness - lowest price gets highest organic traffic.",
+      "evidence": "Pinduoduo's traffic distribution logic is 'single-item low price' - the lower the price a merchant offers, the more traffic is allocated. As long as a price advantage is maintained, there is natural traffic without needing paid promotion. Mid-small merchants can redirect the 15% marketing spend into lower prices, creating price advantages that trigger algorithmic recommendation in a positive feedback loop.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed across multiple Chinese-language merchant guides (xinshawn.com, zhihu, 36kr)"
+      }
+    },
+    {
+      "claim": "Pinduoduo's cross-platform price comparison system uses image recognition and model number matching to detect price disparities in real-time.",
+      "evidence": "Pinduoduo's auto price-matching (zi dong gen jia) system identifies competing products using big data and image recognition of product detail pages. If it discovers another merchant selling the same model at a lower price, it can automatically lower the price. Products found to be 'abnormally high-priced' must be adjusted within 48 hours or store privileges are revoked.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed by home appliance executive quotes and platform policy documentation from June 2024 update"
+      }
+    },
+    {
+      "claim": "By 2026, Pinduoduo has entered an 'algorithm harvesting period' where every unit of traffic is measured by GMV conversion efficiency.",
+      "evidence": "By 2026, Pinduoduo has fully transitioned from 'traffic dividend period' to 'algorithm harvesting period.' The system evaluates whether each unit of traffic is worth its cost. Industry data shows category average click-through rates of 3%-5%. If a listing's main image CTR falls below 2%, the system classifies it as 'extremely low conversion efficiency' and stops allocating traffic.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From oqyj.com merchant operations guide for 2026"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["algorithm", "traffic-allocation", "recommendation-system", "price-comparison"]
+  }
+}

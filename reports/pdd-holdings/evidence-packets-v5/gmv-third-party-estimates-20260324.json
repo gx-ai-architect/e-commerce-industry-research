@@ -1,0 +1,54 @@
+{
+  "packet_id": "PKT-GMV-002",
+  "source": {
+    "type": "article",
+    "url": "https://www.ecommercebridge.com/amazon-pinduoduo-and-tiktok-lead-2025-gmv-ranking/",
+    "title": "Amazon, Pinduoduo And TikTok Lead 2025 GMV Ranking (ECDB data)",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "ECDB ranks Pinduoduo #2 globally by GMV at $817B in 2025, behind Amazon at $845B",
+      "evidence": "Amazon ($845bn), Pinduoduo ($817bn), and Douyin, operated by ByteDance ($648bn), topped the global e-commerce ranking by gross merchandise value (GMV) in 2025, according to ECDB data. Pinduoduo holds second place, while Douyin has moved up five positions over five years.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "ECDB (Electronic Commerce Data Base) is a recognized industry data source. The $817B figure includes both domestic Pinduoduo and Temu international. This is higher than some analyst estimates, suggesting ECDB may include higher domestic GMV assumptions."
+      }
+    },
+    {
+      "claim": "Pinduoduo domestic GMV estimated at RMB 4.5-4.8 trillion (~$620-660B) for 2024-2025",
+      "evidence": "Analysts expect PDD's main app GMV to be 4.5 trillion Yuan in 2025, growing at 10% CAGR in 2022-25. One thesis projects PDD's main app could achieve a 4.7 trillion Yuan GMV in 2025 (60% of Alibaba's). In 2024, analysts expected PDD's GMV to rise by +23% year over year, reaching CN¥4.8 trillion.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Multiple analyst estimates converge on RMB 4.5-4.8T range. At USD/CNY ~7.25, this is approximately $620-660B. Combined with Temu's ~$70-90B, total GMV is $690-750B. ECDB's $817B figure is at the upper end, possibly using more aggressive domestic assumptions or including Duo Duo Grocery GMV."
+      }
+    },
+    {
+      "claim": "Pinduoduo now holds approximately 27-30% of China's e-commerce GMV, up from near zero in 2016",
+      "evidence": "Pinduoduo now holds approximately 27-30% of China's e-commerce GMV -- up from near zero in 2016. Alibaba has fallen to approximately 40-45% GMV share, while JD.com holds ~15%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Market share figures are analyst estimates. China's total e-commerce GMV in 2025 is approximately RMB 16-17 trillion. 27-30% of RMB 16.5T = RMB 4.5-5.0T, consistent with other estimates."
+      }
+    },
+    {
+      "claim": "Pinduoduo 2024 GMV was $715.2B according to ECDB, with 25-30% YoY growth",
+      "evidence": "Pinduoduo's annual sales on its online store pinduoduo.com amounted to US$715,249m in 2024, representing a change of 25-30% from the previous year, with an expected growth rate of 10-15% in 2025.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "ECDB data. Note this likely includes both domestic and Temu, as ECDB tracks by company not platform. The growth deceleration from 25-30% to 10-15% is consistent with PDD's revenue growth deceleration."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["gmv", "scale", "ranking", "market-share"],
+    "source_tier": "secondary"
+  }
+}

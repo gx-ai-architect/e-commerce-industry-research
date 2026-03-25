@@ -1,0 +1,46 @@
+{
+  "packet_id": "PKT-REG-EU-002",
+  "source": {
+    "type": "article",
+    "url": "https://notesfrompoland.com/2026/01/15/poland-fines-zalando-and-temu-e8-8m-over-discount-manipulation/",
+    "title": "Poland UOKiK fine + France eco-tax law targeting Temu/Shein",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "Poland fined Temu 6 million zloty ($1.7M / ~EUR 1M) for misleading discount practices in January 2026",
+      "evidence": "Poland's UOKiK fined Temu nearly 6 million zloty ($1.7M) for providing lowest-price info only for selected product variants despite discount applying to entire product category. Zalando fined 31 million zloty in same action. Temu ceased disputed practices after intervention. Polish version managed by Irish entity WhaleCo Technology Limited.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Confirmed by Notes From Poland, Caixin Global, Bird & Bird, AIM Group. First UOKiK fines under EU Omnibus Directive price reduction rules."
+      }
+    },
+    {
+      "claim": "France passed anti-fast-fashion law with EUR 5 per-item eco-tax (2026), rising to EUR 10 by 2030, plus EUR 2-4 packaging tax on sub-2kg packages",
+      "evidence": "French Senate approved (337-1) on June 10, 2025. Eco-tax: EUR 5 per item in 2026, EUR 10 by 2030, max 50% of retail price. Additional packaging tax EUR 2-4 on packages under 2kg from outside EU. Advertising ban on ultra-fast fashion from January 1, 2026. Influencer fines up to EUR 100,000. Free returns banned on non-EU clothing.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From ESG News, Euronews, Manufacturing Digital. Law passed Senate overwhelmingly. Still requires joint committee and EC notification."
+      }
+    },
+    {
+      "claim": "France eco-tax specifically targets Temu's unit economics: EUR 5 tax on a EUR 5-10 item represents 50-100% price increase",
+      "evidence": "The eco-tax of EUR 5 per item is capped at 50% of retail price. For Temu's typical EUR 3-10 product range, this adds EUR 1.50-5 per item. Combined with the EUR 3 EU customs duty (July 2026) and packaging tax (EUR 2-4), a typical EUR 5 Temu item could face EUR 6-12 in additional costs — more than doubling the consumer price.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Calculated from statutory rates. Assumes France applies full eco-tax starting 2026. Note: France eco-tax is France-only, not EU-wide. EU customs duty is separate."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["regulatory", "consumer-protection", "eco-tax", "fast-fashion", "France", "Poland"],
+    "severity": "operational",
+    "jurisdiction": "EU"
+  }
+}

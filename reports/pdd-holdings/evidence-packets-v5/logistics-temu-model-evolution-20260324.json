@@ -1,0 +1,55 @@
+{
+  "packet_id": "PKT-logistics-001",
+  "source": {
+    "type": "article",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-10-logistics-in-times",
+    "title": "Temu Watch 10: Logistics in times of tariffs - TechBuzz China",
+    "retrieved_at": "2026-03-24T17:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "Temu has evolved through three logistics phases: fully-managed (2022-2023), semi-managed (2024-present), and Y2/third-party model (2025)",
+      "evidence": "Phase 1: Fully managed model where Temu handled all fulfillment. Phase 2: Semi-managed model launched 2024 for sellers with overseas warehouse inventory. Phase 3: Y2 model launched April 27, 2025 allowing merchants to control logistics, plus third-party platform model announced March 2025.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Corroborated across multiple sources including etowertech.com and 4seller.com"
+      }
+    },
+    {
+      "claim": "Temu's self-operated US warehouses projected to handle 15-20% of US volume in 2025, rising to 20-25% by 2026",
+      "evidence": "It is projected that by 2025, Temu's self-operated warehouses in the US will handle 15% to 20% of total US goods volume, and this proportion may increase to 20% to 25% by 2026. These self-operated warehouses primarily serve as a business buffer and for replenishing goods.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Industry analyst projection, not Temu official disclosure"
+      }
+    },
+    {
+      "claim": "90% of Temu's business relied on fully managed model using de minimis policy before changes",
+      "evidence": "90% of Temu's business relied on the fully managed model that used the de minimis policy. The change of the de minimis tax-free policy had a significant impact on both Temu and Shein in the North American market.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From industry analysis; explains urgency of logistics model pivot"
+      }
+    },
+    {
+      "claim": "Temu pre-shipped 3 months of inventory to US hubs before May 2 de minimis deadline",
+      "evidence": "Ahead of the May 2 end to the U.S. de minimis exemption, the company pre-shipped large volumes of popular items by sea and stocked three months of inventory in U.S. hubs.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From chinesellers.substack.com report on forward warehouse activation"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["logistics", "fulfillment-model", "semi-managed", "warehouses", "de-minimis"],
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  }
+}

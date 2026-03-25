@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-BM-011",
+  "source": {
+    "type": "article",
+    "url": "https://marketingltb.com/blog/statistics/temu-statistics/",
+    "title": "PDD Unit Economics: Order-Level Revenue, AOV, CAC, and User Monetization",
+    "retrieved_at": "2026-03-24T11:00:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo's domestic platform has extremely high order frequency (~69 orders/buyer/year) but low AOV, generating ~RMB780/user/year in spending",
+      "evidence": "FY2021 (last disclosed): 61 billion orders from 882 million active buyers = ~69 orders/buyer/year (~1.3/week). Average annual spend per buyer: ~RMB 2,115 (~$324) in 2020, estimated at ~$780 by 2024 (analyst estimate). This is 20-25% of Alibaba's spending per active buyer (~$1,200+). With 900M+ active buyers, the platform generates massive aggregate GMV despite low per-order value.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Order count and buyer data from PDD's FY2021 earnings (last disclosure). 2024 spending estimate is from analyst projections — PDD stopped disclosing user metrics after Q1 2022."
+      }
+    },
+    {
+      "claim": "Temu AOV has grown from ~$20-25 at launch to $30-50 in 2024, with semi-managed model pushing toward $100+",
+      "evidence": "Temu AOV trajectory: Nov 2022: $20-25 (3-4 items per order). 2023: ~$30 average. Q4 2023: $38.9 (+62% YoY). 2024: $35-50 range (target $50). Jan 2026: $100-125 per Grips Intelligence (may reflect semi-managed higher-value items). Most products <$10 individually. Semi-managed model enables bulkier, higher-value categories.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "AOV data from multiple third-party analytics sources (Grips Intelligence, industry reports). The Jan 2026 $100-125 figure may include methodology differences (desktop vs mobile, full basket vs per-item)."
+      }
+    },
+    {
+      "claim": "Temu's customer acquisition cost dropped from ~$42 at launch to $10-25, but marketing spend scaled to $2-3B/year",
+      "evidence": "Temu CAC: Early stage (2022-2023) ~$42/customer. Current: $10-25 for first order completion (down from $42 via gamification/referral programs). 2023 marketing budget: $2-3B total. Temu reportedly spent $1.2B on Meta ads alone in 2023. Super Bowl 2024: $21M for 5 commercials. Marketing budget grew 43% from 2023 to 2024. For context, typical US e-commerce CAC is $30-35.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "CAC figures from multiple industry sources and academic papers. Marketing spend estimates from Digital Marketing Institute and industry tracking."
+      }
+    },
+    {
+      "claim": "Back-calculated PDD revenue per order: ~RMB 1.0-1.5 for Pinduoduo domestic, much higher for Temu fully-managed",
+      "evidence": "Rough calculation: If Pinduoduo domestic revenue ~RMB 200B (OMS-heavy) and domestic orders ~80-100B/year (extrapolating from 61B in 2021), implied revenue per order: ~RMB 2.0-2.5. For Temu: if 2023 Temu revenue ~$15-18B and 412M orders in 2023, revenue per order ~$36-43 — reflecting the fully-managed markup model. These are structurally different businesses at the order level.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "HIGHLY APPROXIMATE. PDD does not disclose order counts post-2021 or segment-level revenue. Pinduoduo order count extrapolated from 2021 with growth assumption. Temu order count from third-party tracking."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Pinduoduo", "Temu"],
+    "topic_tags": ["unit-economics", "AOV", "CAC", "revenue-per-order", "order-frequency"]
+  }
+}

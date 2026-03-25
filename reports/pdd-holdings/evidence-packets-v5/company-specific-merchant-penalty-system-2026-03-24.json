@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-CS-008",
+  "source": {
+    "type": "article",
+    "url": "https://news.qq.com/rain/a/20240625A06PR500",
+    "title": "Pinduoduo Price Comparison System Evolution - QQ News / Jiemian",
+    "retrieved_at": "2026-03-24T10:00:00Z",
+    "collector": "company-specific"
+  },
+  "extractions": [
+    {
+      "claim": "Pinduoduo's June 2024 auto-price-matching update expanded platform authority to adjust prices on ALL merchant goods, not just promotional items.",
+      "evidence": "In June 2024, Pinduoduo updated its 'auto price-matching' (zi dong gen jia) service agreement, expanding the platform's authority to adjust prices on all of a merchant's goods (including existing inventory and future new items) based on cross-platform sales data. Previously, the platform could only modify activity prices for promotional items.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From cheaa.com (China Home Electronics Association) reporting and Jiemian news"
+      }
+    },
+    {
+      "claim": "Pinduoduo penalizes merchants using 'specification evasion' tactics - writing non-standard characters to avoid price comparison algorithms.",
+      "evidence": "For 'specification evasion' - where merchants deliberately use non-standard characters to avoid algorithmic price comparison (e.g., writing '5 jin-variant' instead of '5 jin' for weight) - privileges are revoked immediately upon detection and only restored 7 days after full correction. Products found 'abnormally high-priced' must be adjusted within 48 hours or store privileges are revoked.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From sina.com.cn tech reporting on PDD merchant crackdowns, July 2024"
+      }
+    },
+    {
+      "claim": "Temu merchant penalty controversy: July 2024, 279 merchants protested at Temu HQ claiming ~114 million yuan in excessive penalties.",
+      "evidence": "Temu's penalty system uses a tiered model based on product quality scores: 90-100 no penalty, 70-80 incurs 1.5x penalty, 60-70 incurs 2.5x, below 60 incurs 5x penalty charges. The platform did not clearly explain scoring standards. On July 29, 2024, merchants gathered at Temu headquarters with banners, collectively claiming approximately 114 million yuan in penalties across 279 merchants.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From shidaox.com investigation of Temu merchant protests"
+      }
+    },
+    {
+      "claim": "Amazon removed Temu from its price comparison system in mid-2024 because Temu's prices were so low they triggered unfair penalties on Amazon sellers.",
+      "evidence": "Amazon developed its own price comparison system and penalized or delisted sellers whose prices were much higher than competitors. Notably, Amazon removed Temu from its comparison system in mid-2024 because Temu's prices were so aggressively low that they triggered unfair penalties on many Amazon sellers.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From industry reporting - notable data point showing Temu's price disruption impact"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "temu"],
+    "topic_tags": ["price-comparison", "merchant-penalties", "auto-pricing", "competitive-dynamics"]
+  }
+}
