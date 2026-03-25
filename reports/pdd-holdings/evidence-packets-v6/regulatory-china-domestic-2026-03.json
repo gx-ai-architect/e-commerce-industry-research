@@ -1,0 +1,64 @@
+{
+  "packet_id": "PKT-REG-005",
+  "source": {
+    "type": "article",
+    "url": "https://www.scmp.com/tech/tech-trends/article/3337315/china-bans-e-commerce-platforms-forcing-lowest-prices-or-abusing-algorithms",
+    "title": "China bans e-commerce platforms from forcing lowest prices or abusing algorithms - SCMP",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "regulatory-policy-reader"
+  },
+  "extractions": [
+    {
+      "claim": "SAMR anti-cutthroat competition: New 29-article pricing rules effective April 10, 2026. Bans platforms from forcing lowest prices via traffic throttling, search demotion, or algorithm penalties.",
+      "evidence": "NDRC, SAMR, and CAC published 'Rules for Price Behavior on Internet Platforms' effective April 10, 2026, with 5-year validity through April 10, 2031. Article 15 prohibits price discrimination based on personal information analysis. Platforms banned from using data, algorithms, or platform rules to enforce lowest-price agreements. Traffic throttling and search ranking demotions to pressure merchants into predatory pricing are prohibited.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "SCMP and China Daily reporting on official NDRC/SAMR/CAC joint regulation"
+      }
+    },
+    {
+      "claim": "PDD tax investigation: 100+ regulator special team dispatched Jan 2026. Physical altercation between PDD employees and SAMR inspectors. Fine of only RMB 100,000 ($14,359).",
+      "evidence": "January 19, 2026: Bloomberg reported China broadened probe into PDD, dispatching 100+ regulators from SAMR and STA. Investigation partially triggered by physical violence between PDD employees and SAMR inspectors. Shanghai tax authority fined PDD subsidiary (Shanghai Xunmeng Information Technology) RMB 100,000 for failing to report Q3 2025 tax information on time. Shares surged 8% on clarity of modest fine.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Bloomberg and Caixin Global reporting. Fine confirmed by Shanghai tax authority."
+      }
+    },
+    {
+      "claim": "Livestream e-commerce regulations took effect January 8, 2026. Real-name registration, credit grading system, banned false advertising. Jointly issued by SAMR and CAC.",
+      "evidence": "Livestreaming E-commerce Supervision and Administration Measures took effect January 8, 2026, jointly issued by SAMR and CAC. Require real-name registration, credit grading system for marketers, ban on false advertising and selling illegal goods. Agencies representing livestreamers must standardize recruitment and product selection. Draft issued June 10, 2025.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "China Daily official reporting"
+      }
+    },
+    {
+      "claim": "Refund-only policy scrapped industry-wide. SAMR directed PDD to fix refund-only practice. Taobao, Pinduoduo, JD all dropped the policy.",
+      "evidence": "SAMR directed PDD to fix its refund-only practice (Bloomberg). Major platforms including Taobao, Pinduoduo, and JD fully scrapped the controversial 'refund-only' policy which allowed consumers to request refunds without returning goods after delivery.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "SCMP and China Daily reporting"
+      }
+    },
+    {
+      "claim": "Anti-Unfair Competition Law revisions effective October 15, 2025. Explicitly prohibit platforms from coercing merchants to sell below cost ('anti-involution' measures).",
+      "evidence": "Revisions to the Anti-Unfair Competition Law (AUCL), effective since October 15, 2025, introduce 'anti-involution' measures, including explicitly prohibiting platforms from coercing merchants to sell below cost.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Quarles Law Firm analysis of AUCL amendments"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Pinduoduo", "Temu"],
+    "topic_tags": ["regulatory", "China", "SAMR", "pricing", "algorithm", "tax", "livestream"],
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  }
+}

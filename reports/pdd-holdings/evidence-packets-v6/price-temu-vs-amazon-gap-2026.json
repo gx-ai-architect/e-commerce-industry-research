@@ -1,0 +1,50 @@
+{
+  "packet_id": "PKT-606",
+  "source": {
+    "type": "article",
+    "url": "https://www.omnisend.com/temu-vs-amazon-price-trust-report/",
+    "title": "Temu vs. Amazon: Price, Trust, and Competition (Omnisend Research Report)",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Temu is 40% cheaper than Amazon on close-match products (~$13.37 savings per item) but only 1% cheaper on identical branded products",
+      "evidence": "Omnisend research (Dec 2024-Jan 2025) examined 23 product categories, analyzing top 25 best-selling products in each. Close matches on Temu are 40% cheaper on average, saving ~$13.37 per product. For identical/branded products, price gap is minimal (1%). Products classified as: matches (77%), perfect matches (10%), global brand products (13%). Exception: Automotive products cost 12% less on Amazon than Temu.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Omnisend primary research with methodology documented. Data collected Dec 2024-Jan 2025 (pre-tariff). Full dataset available in .xlsx. Key insight: Temu's advantage is alternative/generic products, NOT identical branded goods.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    },
+    {
+      "claim": "Temu uses more aggressive discounting: 65% of listings discounted vs Amazon's 47%; max discount 98% vs Amazon's 67%",
+      "evidence": "Temu offers discounts on 65% of listings vs Amazon's 47%. Maximum discounts reach 98% on Temu vs 67% on Amazon. Fashion & Beauty is Temu's strongest category with nearly 94% product overlap and ~40% lower pricing. Trust gap remains: average Amazon product has ~50,000 reviews vs Temu's ~1,500.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Omnisend research. Review count gap (50K vs 1.5K) is a meaningful quality signal for consumers.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    },
+    {
+      "claim": "Post-tariff Temu pricing: prices rose 130-150% in May 2025, then recovered 18% by Sept 2025; SCOTUS ruling reduced but did not eliminate tariff burden",
+      "evidence": "Timeline: (1) Pre-May 2025: Temu 40% cheaper than Amazon on generic goods. (2) May 2025: Import surcharges of 130-150% added, more than doubling prices. US DAU dropped 58%. (3) Sept 2025: Best-sellers cut 18% avg (up to 60%) as Temu shifted to US warehouse fulfillment. (4) Feb 2026: SCOTUS struck IEEPA tariffs, cutting effective Chinese tariff rate by ~2/3. But de minimis exemption unresolved. (5) Mar 2026: 10% Section 122 replacement tariff in effect (expires July 2026). Net: Temu pricing partially recovered but not to pre-tariff levels for cross-border items.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Composite timeline from CNBC, BoF, Bloomberg, Yale Budget Lab, Marketplace.org. Each data point independently sourced.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "temu", "AMZN"],
+    "topic_tags": ["pricing", "price-comparison", "Temu-vs-Amazon", "tariff-impact"],
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  }
+}

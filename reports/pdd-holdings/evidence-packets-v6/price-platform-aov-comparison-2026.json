@@ -1,0 +1,60 @@
+{
+  "packet_id": "PKT-605",
+  "source": {
+    "type": "article",
+    "url": "https://www.businessofapps.com/data/china-ecommerce-market/",
+    "title": "China Shopping App Revenue and Usage Statistics 2026 (Business of Apps) + Multiple Chinese sources",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "Platform AOV hierarchy: JD.com (highest) > Taobao/Tmall > Douyin > Pinduoduo (lowest); PDD ~60-65% of orders under RMB 30",
+      "evidence": "AOV ranking remains JD > Taobao/Tmall > PDD. Approximately 60-65% of PDD orders are under RMB 30, vs 20-30% for Alibaba and JD. PDD primarily promotes products in the 1-200 yuan range vs Taobao/JD in the 200-1000 yuan range — forming differentiated ('staggered') competition. JD maintains advantage in 3C digital and home appliances (high AOV categories) through self-operated system, warehousing, and logistics.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Composite from multiple Chinese sources (woshipm.com, 36kr.com, QuestMobile). Exact 2025/2026 AOV figures not officially disclosed by any platform. The 60-65% under RMB 30 figure is widely cited but unverified against platform data.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    },
+    {
+      "claim": "2025 Double 11: total GMV RMB 1.619T (+14% YoY), average AOV RMB 279; market shares: Taobao/Tmall >50%, JD 18.9%, PDD 14.8%, Douyin 12.2%",
+      "evidence": "2025 Double 11 total online sales: RMB 1.619 trillion, +14% YoY, 5.798 billion packages, average order value RMB 279.21. Platform user scale on Nov 11: Taobao 508M (+4.2% YoY), PDD 414M (+2.5%), JD 227M (+9.8%). Market share: Taobao/Tmall dominant with >50%, JD second at 18.9%, PDD and Douyin at 14.8% and 12.2% respectively, narrowing gap with JD.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "QuestMobile 2025 Double 11 report. Industry-standard data source for Chinese app analytics.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    },
+    {
+      "claim": "All platforms strategically raising AOV as user growth plateaus; PDD shifting from pure low-price to branded goods via 百亿补贴",
+      "evidence": "With platform user counts plateauing, GMV growth now driven by raising AOV and purchase frequency rather than user acquisition. Even PDD, built on low prices, launched 'New Brand Plan' in 2018 to introduce branded goods and raise ARPU. 百亿补贴 Phase 1 targeted high-AOV branded goods (Apple, Dyson) specifically to reach Tier 1-2 city users. Both PDD and Douyin are increasing investment in high-AOV 3C digital categories as a fast path to GMV growth.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "36kr, Eastern Money, multiple Chinese industry analyses. Strategic direction confirmed by PDD earnings calls.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    },
+    {
+      "claim": "2024 GMV estimates: Taobao/Tmall ~RMB 8T, PDD ~RMB 5.2T, JD ~RMB 4.5T, Douyin ~RMB 3.5T",
+      "evidence": "From GMV data, 2024: Taobao/Tmall Group ~RMB 8 trillion, Pinduoduo ~RMB 5.2 trillion, JD.com ~RMB 4.5 trillion, Douyin ~RMB 3.5 trillion. Douyin's full-year GMV projected to exceed RMB 4 trillion in 2025, surpassing JD and approaching PDD.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Industry estimates from jiushuyun.com and Eastern Money. None of these platforms officially disclose GMV. Cross-referenced with parcel volume data.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo", "BABA", "JD", "douyin"],
+    "topic_tags": ["pricing", "AOV", "market-share", "GMV", "platform-comparison"],
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  }
+}

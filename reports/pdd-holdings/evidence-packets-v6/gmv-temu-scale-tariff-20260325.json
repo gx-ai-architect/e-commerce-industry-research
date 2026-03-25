@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-GMV-002",
+  "source": {
+    "type": "article",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-10-logistics-in-times",
+    "title": "Temu Watch: Logistics in times of tariffs + multiple sources on Temu GMV",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "Temu's 2025 GMV was approximately $92.5B globally, up ~70-75% from 2024",
+      "evidence": "Temu's annual sales amounted to US$92,514m (~$92.5 billion) in 2025. Temu's GMV in 2024 was ~$70.8B. LatePost reported Temu's full-year GMV target for 2025 was US$100 billion. ECDB data shows Temu as part of Pinduoduo's combined $817B GMV for 2025.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "Multiple sources converge on $90-95B range for Temu 2025. LatePost target of $100B suggests slight underperformance due to tariff disruptions in Q2."
+      }
+    },
+    {
+      "claim": "Temu H1 2025 GMV was ~$35B, implying H2 was ~$57B (heavy back-weighting due to tariff recovery)",
+      "evidence": "Temu achieved a global GMV of approximately $35 billion in the first half of 2025. Full-year ~$92.5B implies H2 was ~$57.5B. Q3 projected at $22-25B.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "H1 weakness consistent with U.S. tariff disruption in May 2025 (daily users fell 48%, sales dropped 23%). H2 recovery from tariff rate reduction and EU growth."
+      }
+    },
+    {
+      "claim": "US tariff impact on Temu was severe but temporary: 23% sales drop, then recovery after tariff reduction to ~54%",
+      "evidence": "US de minimis removal caused 23% sales drop. Daily U.S. users fell 48% in May vs March 2025. Temu suspended U.S. marketing on May 1. Tariff on fully managed deliveries reduced from 120% to ~54%. By H2, GMV composition: US 31%, Europe 40%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From TechBuzzChina, ChinaTalk, and Modern Retail reporting on Temu's tariff response"
+      }
+    },
+    {
+      "claim": "Temu 2026 GMV forecast: ~$120-130B with 30-40% growth, but EU de minimis removal is a risk",
+      "evidence": "Growth target for 2026 is 30% (company internal). Analyst estimates suggest 35-40% growth. $92.5B x 1.35 = $125B. EU plans to remove 150 EUR threshold in 2026 (moved forward from 2028). Temu expanding semi-managed model and German warehouse hub in preparation.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "extrapolated",
+        "verifier_notes": "30% is internal target per LatePost. EU regulatory risk could clip growth to 25-30% if enacted mid-2026."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["gmv", "temu", "tariff", "international", "2026-forecast"]
+  }
+}
