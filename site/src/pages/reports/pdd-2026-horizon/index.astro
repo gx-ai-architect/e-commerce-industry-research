@@ -17,7 +17,7 @@ let charts: Record<string, any> = {};
 try {
   reportMd = fs.readFileSync(reportPath, 'utf-8');
 } catch {
-  reportMd = '# Report Not Yet Generated\n\nRun the deep-research SKILL to generate the PDD Holdings V5 report.';
+  reportMd = '# Report Not Yet Generated\n\nRun the deep-research SKILL to generate the PDD 2026 Horizon report.';
 }
 
 try {
@@ -64,15 +64,13 @@ reportHtml = reportHtml.replace(/\[E(\d+)\]/g, '<sup><a href="#evidence-$1" id="
 const parts = reportHtml.split(/<div id="chart-placeholder-(\w[\w-]*)"><\/div>/);
 ---
 
-<Base title="PDD Holdings V6: Five Questions for 2026">
+<Base title="PDD Holdings: Five Questions for 2026">
   <nav class="report-nav">
     <a href={`${import.meta.env.BASE_URL}`}>&larr; All Reports</a>
     <span class="nav-sep">|</span>
-    <a href={`${import.meta.env.BASE_URL}reports/pdd-holdings-v5/`}>V5 Report</a>
+    <a href={`${import.meta.env.BASE_URL}reports/pdd-holdings-v4/`}>PDD Deep Dive (V4)</a>
     <span class="nav-sep">|</span>
-    <a href={`${import.meta.env.BASE_URL}reports/pdd-holdings-v4/`}>V4 Report</a>
-    <span class="nav-sep">|</span>
-    <a href={`${import.meta.env.BASE_URL}reports/pdd-holdings-v3/`}>V3 Report</a>
+    <a href={`${import.meta.env.BASE_URL}reports/china-ecommerce-industry/`}>China E-Commerce Industry</a>
   </nav>
 
   <article>
