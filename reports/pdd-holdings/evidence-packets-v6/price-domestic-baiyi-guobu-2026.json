@@ -1,0 +1,50 @@
+{
+  "packet_id": "PKT-603",
+  "source": {
+    "type": "article",
+    "url": "https://english.news.cn/20251231/ae22d11c32c94ce0a90ccc5aee117cf3/c.html",
+    "title": "China unveils 2026 subsidy scheme for home appliance trade-ins (Xinhua)",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "price-intelligence"
+  },
+  "extractions": [
+    {
+      "claim": "China's 2026 national subsidy (国补) allocates RMB 62.5B for consumer goods trade-ins; all major e-commerce platforms participate with auto-deduction at checkout",
+      "evidence": "On Jan 1, 2026, new round of state subsidies for 'large-scale equipment renewal and trade-in of consumer goods' officially launched. Central government allocated 62.5 billion yuan in special funds covering automobiles, home appliances, digital products, and livelihood infrastructure. First time policy unified and systematically promoted nationwide since 2024-2025 pilots. Subsidies connect directly to e-commerce platforms including JD.com, Tmall, Suning, and Pinduoduo via 'National Subsidy Zone' (国补专区). Subsidy automatically deducted at payment — no additional application required.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Xinhua (official state news agency) report. Primary government source.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    },
+    {
+      "claim": "2026 subsidy caps: max RMB 1,500/appliance (down from 2,000 in 2025), max RMB 500/digital product; only Level 1 energy-efficient appliances eligible",
+      "evidence": "2026 purchase subsidy notice clarified: subsidy cap for each home appliance is 1,500 yuan (down from 2,000 yuan in 2025). Each digital/smart product subsidy capped at 500 yuan. 2026 policy requires Level 1 energy-efficient home appliances only. Trade-in recycling value calculated separately from national subsidy — effectively stackable.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Ministry of Commerce + 4 department joint notice per Webull/feat.com. Subsidy stacking confirmed by SCMP.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    },
+    {
+      "claim": "PDD's domestic 百亿补贴 stacks with 国补 for electronics: iPhone 16 Pro 128GB at RMB 5,398 on PDD vs RMB 7,999 official price (32.5% discount) during 618 2025",
+      "evidence": "During 618 2025, iPhone 16 Pro 128GB on Pinduoduo 百亿补贴 channel cost 5,398 yuan after stacking national subsidies — reduction of 2,601 yuan from official price of 7,999 yuan (32.5% discount). iPhone 16 Pro Max 256GB at 7,558 yuan on Taobao; basically same price on PDD. JD.com self-operated flagship 'a bit conservative in terms of price.' The 国补 subsidy and platform 百亿补贴 subsidy stack independently — consumers get both.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "618 2025 pricing from Zhihu price comparison post. Cross-referenced with multiple Chinese media sources. Note: prices include both platform subsidy and government subsidy stacking.",
+        "verified_at": "2026-03-25T12:00:00Z"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "pinduoduo"],
+    "topic_tags": ["pricing", "百亿补贴", "国补", "subsidy-stacking", "domestic-pricing"],
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  }
+}

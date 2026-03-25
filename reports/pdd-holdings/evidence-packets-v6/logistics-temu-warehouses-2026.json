@@ -1,0 +1,63 @@
+{
+  "packet_id": "PKT-L01",
+  "source": {
+    "type": "article",
+    "url": "https://amzprep.com/where-is-temu-warehouse-located/",
+    "title": "Temu Warehouse Locations: 2026 Directory of US, Europe & Global Distribution Centers",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "logistics-fulfillment"
+  },
+  "extractions": [
+    {
+      "claim": "By October 2025, Temu operated 13 self-owned warehouses globally: 10 in Europe, 2 in the US, and 1 near the US-Mexico border. A 14th warehouse is planned in Rio de Janeiro, Brazil.",
+      "evidence": "By October 2025, Temu operated 13 self-owned warehouses globally, including 10 in Europe, 2 in the United States, and one near the US-Mexico border. The 14th self-owned warehouse project will be located in Rio de Janeiro, Brazil.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "AMZPrep 2026 directory listing, cross-referenced with multiple logistics industry sources"
+      }
+    },
+    {
+      "claim": "Temu's US warehouses are located in Rowland Heights, CA (West Coast hub) and Dallas, TX (central US hub), with additional fulfillment centers in Georgia.",
+      "evidence": "Temu's California warehouse has been strategically positioned in Rowland Heights to serve as the West Coast distribution hub. The Temu warehouse in Dallas functions as the central US distribution hub. The company has been expanding its warehouse network to include fulfillment centers in California, Georgia, and Texas.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "City-level warehouse locations confirmed by AMZPrep directory"
+      }
+    },
+    {
+      "claim": "Temu pre-shipped 3 months of inventory to US hubs by sea ahead of the May 2, 2025 de minimis exemption end.",
+      "evidence": "Ahead of the May 2 end to the U.S. de minimis exemption, the company pre-shipped large volumes of popular items by sea and stocked three months of inventory in U.S. hubs.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Inventory pre-positioning strategy reported by multiple sources"
+      }
+    },
+    {
+      "claim": "Temu's European warehouses span Rotterdam (Netherlands), Frankfurt (Germany), UK, Austria, Italy, Spain, and France, with a target to handle 80% of European orders domestically by 2026.",
+      "evidence": "Rotterdam, Netherlands, and Frankfurt have been established with maximum floor space and advanced integration. Warehouses positioned in the UK, Germany, Austria, Italy, Spain, and France are projected to handle 80% of European orders domestically by 2026.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "European warehouse locations from AMZPrep and ForestShipping. The 80% target is a projection, not confirmed achievement."
+      }
+    },
+    {
+      "claim": "Bulk shipping to UK third-party warehouses reduced per-item logistics costs by 40-60% compared to traditional air freight.",
+      "evidence": "The company reports that bulk shipping to UK third-party warehouses has reduced per-item logistics costs by 40-60 percent compared to traditional air freight, while improving delivery speeds.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Company-reported figure via Lengow blog on Temu localization strategy"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "Temu"],
+    "topic_tags": ["logistics", "warehouses", "fulfillment", "international"],
+    "source_tier": "secondary"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-GMV-001",
+  "source": {
+    "type": "filing",
+    "url": "https://www.stocktitan.net/news/PDD/pdd-holdings-announces-fourth-quarter-2025-and-fiscal-year-2025-yypno24d08v2.html",
+    "title": "PDD Holdings Q4 2025 and FY2025 Unaudited Financial Results",
+    "retrieved_at": "2026-03-25T12:00:00Z",
+    "collector": "gmv-scale-estimator"
+  },
+  "extractions": [
+    {
+      "claim": "PDD Holdings FY2025 total revenue was RMB 431.8B, up 10% YoY",
+      "evidence": "FY2025 revenue: RMB 431,845.7 million. Q4 2025 revenue: RMB 123,912.2 million (+12% YoY). FY2024 revenue: RMB 393.8B (implied from 10% growth).",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From official PDD Holdings earnings release dated March 25, 2026"
+      }
+    },
+    {
+      "claim": "FY2025 quarterly revenue segment breakdown shows Online Marketing Services (OMS) and Transaction Services (TS) roughly equal",
+      "evidence": "Q1: OMS RMB 48.7B (+15%) / TS RMB 47.0B (+6%). Q2: OMS RMB 55.7B (+13%) / TS RMB 48.3B (~flat). Q3: OMS RMB 53.3B (+8%) / TS RMB 54.9B (+10%). Q4: OMS RMB 60.0B (+5%) / TS RMB 63.9B (+19%). FY2025 total: OMS ~RMB 217.7B / TS ~RMB 214.2B.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Quarterly figures from Q1-Q4 2025 earnings releases. FY totals computed by summing quarters."
+      }
+    },
+    {
+      "claim": "Transaction Services revenue accelerated sharply in Q4 2025, suggesting Temu GMV ramp",
+      "evidence": "Q4 TS revenue grew 19% YoY vs Q2 flat and Q3 +10%. Q4 TS was RMB 63.9B, the largest quarter ever. TS growth accelerated from flat in Q2 to +19% in Q4.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "TS acceleration in Q4 consistent with Temu's recovery after tariff disruptions in Q2 2025 and geographic diversification to Europe"
+      }
+    },
+    {
+      "claim": "Net income fell 12% YoY to RMB 99.4B despite revenue growth, due to heavy investment",
+      "evidence": "FY2025 net income: RMB 99.4B (~$14.1B). Total costs of revenue rose 23% YoY. Q4 net income: RMB 24.5B, down 11% YoY.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From official earnings release. Cost increases driven by fulfillment fees, bandwidth, server costs, payment processing."
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["revenue", "segments", "FY2025", "quarterly-breakdown"]
+  }
+}

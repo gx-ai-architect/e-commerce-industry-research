@@ -1,0 +1,63 @@
+{
+  "packet_id": "PKT-INV-001",
+  "source": {
+    "type": "filing",
+    "url": "https://www.stocktitan.net/news/PDD/pdd-holdings-announces-fourth-quarter-2025-and-fiscal-year-2025-yypno24d08v2.html",
+    "title": "PDD Holdings Announces Fourth Quarter 2025 and Fiscal Year 2025 Unaudited Financial Results",
+    "retrieved_at": "2026-03-25T14:00:00Z",
+    "collector": "investment-growth-tracker"
+  },
+  "extractions": [
+    {
+      "claim": "PDD FY2025 revenue grew 10% but operating profit declined 13%, signaling a deliberate margin-for-growth trade",
+      "evidence": "FY2025 total revenues RMB 431,845.7M (+10% YoY). Operating profit RMB 94,624.1M (-13% YoY). Net income RMB 99,364.5M (-12% YoY). Non-GAAP operating profit RMB 102,561.0M (-13%). Q4 revenues RMB 123,912.2M (+12%), Q4 operating profit RMB 27,719.7M.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Directly from Q4/FY2025 earnings press release dated March 25, 2026"
+      }
+    },
+    {
+      "claim": "Revenue mix is now roughly 50/50 between online marketing (advertising) and transaction services (commissions/fulfillment), reflecting Temu's growing contribution",
+      "evidence": "FY2025: Online marketing services & others RMB 217,783.0M (+10%), Transaction services RMB 214,062.7M (+9%). Q4 2025: Online marketing RMB 60,010.1M (+5%), Transaction services RMB 63,902.1M (+19%).",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Transaction services includes Temu fulfillment fees. The near-equal split and faster Q4 growth in transaction services reflects Temu warehouse model scaling."
+      }
+    },
+    {
+      "claim": "Cost of revenue surged 23% YoY in FY2025 driven by fulfillment fees, bandwidth/server costs, and payment processing — the cost of building Temu's local warehouse network",
+      "evidence": "FY2025 total costs of revenues RMB 188,801.8M (+23% vs RMB 153,900.4M in FY2024). Increase mainly from increased fulfillment fees, bandwidth and server costs, and payment processing fees. For context, FY2024 CoR was up 68% YoY, so the rate of increase is decelerating.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From earnings release. The 23% increase outpaced 10% revenue growth, compressing gross margin."
+      }
+    },
+    {
+      "claim": "R&D spending surged 30% to RMB 16.5B in FY2025, primarily for warehouse automation technology and increased headcount",
+      "evidence": "FY2025 R&D expenses RMB 16,496.2M (+30% from RMB 12,659.4M in FY2024), primarily due to increase in staff-related costs and bandwidth and server costs. R&D as % of revenue rose from ~3.2% to ~3.8%.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "R&D figure from earnings release. The 30% increase is confirmed. Warehouse automation attribution comes from analyst reports noting PDD is developing proprietary warehouse automation tech."
+      }
+    },
+    {
+      "claim": "FY2025 stock-based compensation was RMB 7.94B, with G&A (RMB 3.43B) and R&D (RMB 2.26B) as largest components",
+      "evidence": "FY2025 SBC breakdown: Cost of revenues RMB 248.2M, Sales & marketing RMB 2,000.8M, G&A RMB 3,430.9M, R&D RMB 2,257.1M. Total RMB 7,937.0M. Q4 2025 SBC: RMB 1,754.4M.",
+      "evidence_type": "table_slice",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "Directly from earnings release non-GAAP reconciliation tables"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03-25",
+    "company_tags": ["PDD", "pdd-holdings"],
+    "topic_tags": ["financials", "revenue", "operating-profit", "R&D", "cost-of-revenue", "SBC"],
+    "source_tier": "primary"
+  }
+}

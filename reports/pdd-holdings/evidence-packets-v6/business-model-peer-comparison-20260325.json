@@ -1,0 +1,53 @@
+{
+  "packet_id": "PKT-BM-005",
+  "source": {
+    "type": "article",
+    "url": "https://www.kavout.com/market-lens/top-china-e-commerce-stocks-alibaba-vs-jd-vs-pdd",
+    "title": "Peer Comparison: PDD vs Alibaba vs JD.com - Financial Metrics 2025",
+    "retrieved_at": "2026-03-25T13:00:00Z",
+    "collector": "business-model-analyst"
+  },
+  "extractions": [
+    {
+      "claim": "PDD has the highest gross margin (56-61%) and operating margin (22-28%) among Chinese e-commerce peers, reflecting pure marketplace leverage",
+      "evidence": "FY2025 comparison: PDD gross margin 56.3% (down from 60.9%), operating margin 21.9% (down from 27.5%). Alibaba FY2025 (ended Mar 2025): gross margin ~39.9%, operating margin ~14-15%. JD.com: gross margin ~15.9% (Q2 2025), operating margin ~2.6% (TTM). PDD's margins are structurally superior due to pure 3P marketplace + C2M model.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "PDD from press release calculations. Alibaba from FY2025 annual report. JD.com from quarterly filings."
+      }
+    },
+    {
+      "claim": "PDD trades at lowest P/E multiple (~10x) despite highest margins, reflecting market discount for investment cycle uncertainty and geopolitical risk",
+      "evidence": "Forward P/E multiples (March 2026): PDD ~10x, JD.com ~9-10x, Alibaba ~19x. PDD has highest profitability (net margin ~23%) but trades at discount to Alibaba due to: (1) investment cycle uncertainty, (2) Temu tariff/regulatory risk, (3) no capital return program (no buyback, no dividend).",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "P/E multiples from Yahoo Finance and analyst consensus as of March 2026"
+      }
+    },
+    {
+      "claim": "Alibaba's take rate is recovering via 0.6% software service fee and Quanzhantui AI marketing tool, with CMR growing 12% in Q4 FY2025",
+      "evidence": "Alibaba Q4 FY2025 (Mar 2025 quarter): Customer management revenue grew 12% YoY, driven by improvement of take rate from increasing penetration of Quanzhantui and addition of 0.6% software service fees. Taobao Tmall Group revenue reached RMB 101.4B in Q4 FY2025, up 9%.",
+      "evidence_type": "direct_quote",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From Alibaba FY2025 annual results press release"
+      }
+    },
+    {
+      "claim": "JD.com's 1P model generates highest absolute revenue (~$187B) but lowest margins (~2.6% operating); growing 3P mix is the margin story",
+      "evidence": "JD.com FY2025 annual revenue ~$187.2B (+17.9% YoY). JD Retail operating margin improved to 4.5% (Q2) and 5.9% (Q3). Consolidated operating margin ~2.6% dragged by new business investments. JD's take rate comparison is not directly applicable due to 1P gross revenue recognition vs PDD/BABA net recognition.",
+      "evidence_type": "computed_metric",
+      "verification": {
+        "status": "supported",
+        "verifier_notes": "From JD.com quarterly earnings releases and MacroTrends financial data"
+      }
+    }
+  ],
+  "metadata": {
+    "freshness": "2026-03",
+    "company_tags": ["PDD", "pdd-holdings", "BABA", "alibaba", "JD", "jd-com"],
+    "topic_tags": ["peer-comparison", "margins", "valuation", "take-rate-comparison"]
+  }
+}
