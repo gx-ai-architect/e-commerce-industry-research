@@ -164,6 +164,8 @@ This directly targets PDD's core mechanism: the feed-first algorithm that reward
 
 PDD has the largest total liquid asset position of any e-commerce company globally and returns zero to shareholders [E8, E25, E26]. Management's Q4 call offered no change: "supply chain investment is where we will place our greatest conviction... with an all-in mindset" [E4].
 
+The most telling data point: **cash grew RMB 90.7B ($13B) in FY2025** — even during the year management described as "heavy investment." The RMB 100B merchant program is spread over multiple years, not a single-year burn. PDD is still a massive cash generator despite the investment rhetoric.
+
 ### Where Is the Money Going Instead?
 
 Five identified investment areas [E25, E27, E28]:
