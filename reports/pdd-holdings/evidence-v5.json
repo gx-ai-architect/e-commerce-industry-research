@@ -37,7 +37,7 @@
   {
     "id": "E6",
     "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial",
-    "quote": "Cash and cash equivalents plus short-term investments: RMB 423.8B ($59.5B at ~7.12 RMB/USD) as of September 30, 2025.",
+    "quote": "Cash, cash equivalents, short-term investments, and restricted cash: ~RMB 495B ($69.5B at ~7.12 RMB/USD) as of September 30, 2025. RMB 423.8B excluding restricted cash.",
     "date": "2025-11-21",
     "provenance": "auto:business-model"
   },
@@ -324,7 +324,7 @@
   {
     "id": "E47",
     "url": "https://investor.pddholdings.com/financial-information/quarterly-results",
-    "quote": "PDD has 0% buyback yield. No buyback or dividend announced. Largest net cash position (RMB 423.8B / $59.5B at ~7.12 RMB/USD) of any public tech company that doesn't return cash to shareholders.",
+    "quote": "PDD has 0% buyback yield. No buyback or dividend announced. Largest net cash position ($69.5B including restricted cash) of any public tech company that doesn't return cash to shareholders.",
     "date": "2026-03-24",
     "provenance": "auto:investment-tracker"
   },
