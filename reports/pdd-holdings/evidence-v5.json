@@ -37,7 +37,7 @@
   {
     "id": "E6",
     "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial",
-    "quote": "Cash and cash equivalents plus short-term investments: RMB 423.8B ($58B at ~7.3 RMB/USD) as of September 30, 2025.",
+    "quote": "Cash and cash equivalents plus short-term investments: RMB 423.8B ($59.5B at ~7.12 RMB/USD) as of September 30, 2025.",
     "date": "2025-11-21",
     "provenance": "auto:business-model"
   },
@@ -142,7 +142,7 @@
   {
     "id": "E21",
     "url": "https://investor.pddholdings.com/financial-information/quarterly-results",
-    "quote": "PDD gross margin ~57%. Pure marketplace model with no owned logistics, warehouses, or inventory. Domestic business estimated 60%+ gross margin.",
+    "quote": "PDD gross margin 60.9% (FY2024). Pure marketplace model with no owned logistics, warehouses, or inventory.",
     "date": "2025-11-21",
     "provenance": "auto:business-model"
   },
@@ -324,7 +324,7 @@
   {
     "id": "E47",
     "url": "https://investor.pddholdings.com/financial-information/quarterly-results",
-    "quote": "PDD has 0% buyback yield. No buyback or dividend announced. Largest net cash position ($58B) of any public tech company that doesn't return cash to shareholders.",
+    "quote": "PDD has 0% buyback yield. No buyback or dividend announced. Largest net cash position (RMB 423.8B / $59.5B at ~7.12 RMB/USD) of any public tech company that doesn't return cash to shareholders.",
     "date": "2026-03-24",
     "provenance": "auto:investment-tracker"
   },
@@ -457,7 +457,7 @@
   {
     "id": "E66",
     "url": "https://finance.yahoo.com/",
-    "quote": "Peer operating margins: PDD 22-27% vs Alibaba 11-16% vs JD 0-5%. PDD gross margin 57% vs Alibaba 40% vs JD 15%. Highest net margin (24-27%) in Chinese e-commerce.",
+    "quote": "Peer operating margins: PDD 27.5% (FY2024) vs Alibaba 11-16% vs JD 0-5%. PDD gross margin 60.9% vs Alibaba ~40% vs JD ~16%. Highest net margin (28.5% FY2024) in Chinese e-commerce.",
     "date": "2026-03-24",
     "provenance": "auto:business-model"
   },
