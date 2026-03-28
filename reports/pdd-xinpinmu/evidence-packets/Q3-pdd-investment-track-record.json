@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Can RMB 100B over 3 years generate positive ROI, and what are the unit economics of self-operated brand building?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD's 'Hundred Billion Subsidy' program (百亿补贴, launched 2019) successfully drove user acquisition into Tier 1/2 cities and accelerated GMV growth to 17.6% — outpacing Alibaba (8%) and JD (15.5%)",
+      "data": "The program invested tens of billions in direct subsidies to consumers. Specific ROI: PDD revenue grew from RMB 247.6B (2023) to RMB 393.8B (2024, +59%) to RMB 431.8B (2025, +10%). Net income went from RMB 60B (2023) to RMB 112.4B (2024, +87%) to RMB 99.4B (2025, -12%).",
+      "source_url": "https://m.thepaper.cn/newsDetail_forward_32020842",
+      "source_date": "2025-09",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD's 'Thousand Billion Support' plan (千亿扶持, April 2025) committed RMB 1,000B in resources over 3 years for merchant support — this preceded and is separate from Xinpinmu's RMB 100B",
+      "data": "Announced April 3, 2025. Includes fee reductions, traffic resources, and merchant subsidies. '100 Billion Merchant Rebate Plan' launched under Baiyi Butie. Impact: Q2 2025 revenue +7% YoY, net income -4% YoY. Analyst estimate: RMB 83-187B in incremental S&M costs for subsidies to maintain low-price positioning.",
+      "source_url": "https://stcn.com/article/detail/1663463.html",
+      "source_date": "2025-04",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Temu launch (Sep 2022) was PDD's largest capital deployment — cumulative losses undisclosed but estimated at tens of billions USD over 3 years",
+      "data": "PDD does not break out Temu P&L. Temu 2025 revenue estimated at ~$92.5B (site GMV). S&M expenses for consolidated PDD grew from RMB 111.3B (FY2024) to RMB 125.3B (FY2025). Temu US MAU fell 49% YoY by July 2025 after de minimis changes. GMV rebounded in Q3 2025 to ~40% YoY growth with Europe at 40% of GMV, US at 30%.",
+      "source_url": "https://marketingltb.com/blog/statistics/temu-statistics/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD's profits declined 38% YoY in Q1 2025 — the first major quarterly profit decline — attributed to Temu investments and merchant support programs",
+      "data": "Q1 2025 net income declined 38% YoY. Sales and marketing expenditures rose 37% in Q1 2025 vs prior year. Management guided that 'revenue and profit may show fluctuations in upcoming quarters, reflecting the company's willingness to reinvest aggressively.'",
+      "source_url": "https://www.pymnts.com/earnings/2025/temu-parent-ppd-profits-fall-38-percent-amid-tariff-pressures/",
+      "source_date": "2025-05",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    }
+  ]
+}

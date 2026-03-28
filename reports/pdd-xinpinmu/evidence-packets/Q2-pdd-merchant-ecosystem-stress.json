@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q2",
+  "question_id": "Q2",
+  "question": "What is the merchant ecosystem risk — how will self-operated brands coexist with existing marketplace sellers?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD's traffic allocation algorithm is price-driven, creating a 'cost compression → quality compromise' vicious cycle that Xinpinmu self-operated brands would exacerbate",
+      "data": "PDD's traffic distribution logic is single-product-low-price: the lower the price a merchant offers, the more traffic allocated. This forces merchants into a cycle of cost compression and quality compromise. Example cited: false eyelash industrial belt merchants saw per-box profit fall from RMB 0.80 to RMB 0.15, with some factories forced to shut down. Many PDD merchants lament: 'Stop full-site promotion and you get zero traffic; enter Billion Subsidy and it turns out you're just working for the platform.'",
+      "source_url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+      "source_date": "2026-03-26",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD is the ONLY top-10 internet platform with declining user base — users fell 10.6% YoY as of December 2025",
+      "data": "Per QuestMobile '2025 China Mobile Internet Annual Report': as of December 2025, PDD's deduplicated total users were 924M, down 10.6% YoY — the only company in the top-10 by user volume to see user decline. Monthly active growth decelerated from 21% in 2022 to 5% in Q2 2025. Penetration in lower-tier markets already at 89%.",
+      "source_url": "https://user.guancha.cn/main/content?id=1623007",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD faces severe multi-platform competition: JD Jingxi self-operated already serves 370M users, Douyin e-commerce GMV approaching RMB 4T",
+      "data": "JD's Jingxi self-operated (京喜自营) already serves 370M users, with 10x transaction growth in 2025 and 150M new users for JD. Douyin e-commerce first-10-months 2025 GMV growth exceeded 30%, full year expected to break RMB 4T, approaching PDD levels. Multi-platform operation ('PDD + Douyin + Tmall') has become mainstream, with single-platform models being phased out.",
+      "source_url": "https://www.21jingji.com/article/20260130/herald/50ea314a64d44c9664cf2c6a0132a9cc.html",
+      "source_date": "2026-01-30",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD launched RMB 100B 'Thousand Billion Support' plan in April 2025 to retain merchants — a defensive move acknowledging merchant discontent",
+      "data": "In April 2025, PDD launched the 'Thousand Billion Support' (千亿扶持) plan, committing to invest over RMB 100B in capital and traffic resources over 3 years. Measures include: reduced technical service fees, lowered security deposits, traffic subsidy tilts, and proactive reduction of merchant advertising monetization rate. PDD management guided that 2026 operating costs will rise and gross margins will continue declining due to these investments.",
+      "source_url": "https://finance.sina.com.cn/roll/2025-03-25/doc-ineqxtzu5093794.shtml",
+      "source_date": "2025-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Young merchant growth on PDD remains strong: 95-post merchants +31% YoY, 00-post merchants +44% YoY in 2025",
+      "data": "PDD's 'New Quality Supply One-Year Report' shows: industrial belt merchants growing rapidly, post-95 merchants +31% YoY, post-00 merchants +44% YoY, high-quality product SKU count +50%+ YoY. Agricultural product sales +47% YoY in H1 2025, with post-00 agricultural merchants +30% YoY.",
+      "source_url": "https://www.21jingji.com/article/20251124/herald/5d46d0f8c4230737864dace5920a6214.html",
+      "source_date": "2025-11-24",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

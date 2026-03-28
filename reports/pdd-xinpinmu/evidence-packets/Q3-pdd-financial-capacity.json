@@ -1,0 +1,72 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Can RMB 100B over 3 years generate positive ROI, and what are the unit economics of self-operated brand building?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD holds RMB 422.3B in cash, cash equivalents and short-term investments as of Dec 31, 2025, up 27% from RMB 331.6B at end of 2024",
+      "data": "Cash & equivalents: RMB 108.9B; Short-term investments: RMB 313.4B; Other non-current assets: RMB 104.7B. Total liquid assets exceed RMB 420B.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD generated RMB 106.9B operating cash flow in FY2025, down 12% YoY from FY2024's RMB 121.9B",
+      "data": "FY2025 operating cash flow: RMB 106,938.7M (US$15,292.0M). FY2024 operating cash flow: RMB 121,929.3M. Capex is minimal (<RMB 1B annually), so FCF is approximately equal to operating cash flow.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "RMB 100B over 3 years represents approximately 31% of projected 3-year FCF, assuming flat FCF at FY2025 levels",
+      "data": "At FY2025 FCF of ~RMB 107B/year, 3-year cumulative FCF would be ~RMB 321B. RMB 100B / RMB 321B = 31%. Even if FCF declines 20%, 3-year cumulative would be ~RMB 257B, making RMB 100B = 39% of FCF. The investment is financially feasible from cash flow alone, without touching existing cash reserves.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's capex is less than 1% of revenue, reflecting its asset-light model — Xinpinmu self-operated brands would represent a fundamental shift toward heavier capital deployment",
+      "data": "PDD's TTM capex was approximately $136M (< RMB 1B) against $60B+ in revenue. Free cash flow margin is ~30%. Unlike Amazon (FBA) or JD (own logistics), PDD has zero fulfillment infrastructure. The RMB 100B Xinpinmu investment would be 100x PDD's current annual capex.",
+      "source_url": "https://stockanalysis.com/stocks/pdd/statistics/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's FY2025 revenue was RMB 431.8B (+10% YoY) but net income declined 12% to RMB 99.4B, with cost of revenues growing 23% — double the revenue growth rate",
+      "data": "FY2025: Revenue RMB 431,845.7M (+10%); Cost of revenues RMB 188,801.8M (+23%); Operating profit RMB 94,624.1M (-13%); Net income RMB 99,364.5M (-12%). S&M expenses: RMB 125,287.9M (+13%); R&D: RMB 16,496.2M (+30%).",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's gross margin declined from 60.9% in FY2024 to 56.3% in FY2025, the first significant margin compression",
+      "data": "Gross margin compression of 4.6 percentage points in one year, driven by fulfillment fees, bandwidth/server costs, and payment processing fees. This decline occurred BEFORE Xinpinmu — self-operated brands would add inventory risk and lower gross margins further.",
+      "source_url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+      "source_date": "2026-03-26",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD stock-based compensation was RMB 7.9B in FY2025",
+      "data": "SBC: RMB 7,936.971M for FY2025. Non-GAAP operating profit (excluding SBC): RMB 29,474.1M in Q4 2025 vs GAAP operating profit of RMB 27,719.7M.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    }
+  ]
+}

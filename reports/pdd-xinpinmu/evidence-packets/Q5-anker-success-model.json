@@ -1,0 +1,27 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is the manufacturing cluster readiness - can Chinese OEM factories actually build global brands?",
+  "company": "Anker Innovations (安克创新) - Success Model",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Anker is the most successful Chinese OEM-to-brand transition case: founded 2011, now publicly listed with market cap ~$9.4B, projected 2025 revenue RMB 31.9B (+29% YoY)",
+      "data": "Anker Innovations (300866.SZ): Founded 2011 by former Google engineer Steven Yang. Listed on ChiNext. Market cap ~$9.4B (as of Jul 2025). Revenue trajectory: 2024 FY RMB 24.7B (+41%); 9M 2025 RMB 21.0B (+28%); TTM Sep 2025 RMB 29.3B (+32%). Projected 2025-27 revenues: RMB 31.9B / 40.4B / 49.8B (+29% / +27% / +23%). Distributed RMB 3.07B in cash dividends for 2020-2024 (45.7% of cumulative net profit).",
+      "source_url": "https://companiesmarketcap.com/anker-innovations/revenue/",
+      "source_date": "2025",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Anker's success factors - heavy R&D investment (50% of staff), IP portfolio (2,245+ rights), 146-country distribution - represent the bar that Xinpinmu brands must aspire to but few will reach",
+      "data": "Anker key success factors: (1) R&D-first: 50% of 3,615 employees are in R&D; (2) IP portfolio: 2,245+ intellectual property rights; (3) Global reach: 100M+ consumers across 146 countries; (4) Multi-channel: online channel revenue +25%, offline +34% (9M 2025); (5) Multiple sub-brands: OEM/ODM, licensed sub-brands, partnerships. Charging/Energy Storage revenue nearly tripled from 2020 to 2024 to RMB 12.67B. This took 14 years from founding to achieve - timeline far longer than Xinpinmu's 3-year plan.",
+      "source_url": "https://electroiq.com/stats/anker-innovations-statistics/",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    }
+  ]
+}

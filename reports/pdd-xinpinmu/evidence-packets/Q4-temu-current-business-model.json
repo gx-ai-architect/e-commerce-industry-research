@@ -1,0 +1,63 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu change Temu's competitive positioning internationally?",
+  "company": "PDD/Temu",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Temu's global GMV/sales reached approximately $92.5 billion in 2025, with projections of 35-40% growth in 2026",
+      "data": "Temu generated revenue of US$92,514m on temu.com in 2025, with projections indicating a 35-40% increase in 2026. First-half 2024 sales of $20B already exceeded entire 2023 performance of $18B. 2024 estimated at $70.8B.",
+      "source_url": "https://ecdb.com/resources/sample-data/retailer/temu",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Temu now operates almost entirely on semi-managed model, with 80% of orders from semi-managed sellers",
+      "data": "Semi-managed orders now represent 80% of sales. Up to 70% of platform traffic is shifting toward semi-managed SKUs. Temu prioritizes semi-managed products in both homepage exposure and search results.",
+      "source_url": "https://techbuzzchina.substack.com/p/temu-watch-10-logistics-in-times",
+      "source_date": "2025-10",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Temu operates 13 self-owned warehouses globally: 10 in Europe, 2 in US, 1 in Mexico",
+      "data": "Temu has built physical infrastructure with 13 self-owned warehouses globally (10 in Europe, 2 in US, 1 in Mexico). US warehouses projected to handle 15-20% of total US goods volume in 2025, rising to 20-25% by 2026. US warehouse locations: California/LA, Texas/Dallas-Fort Worth, New Jersey/Newark.",
+      "source_url": "https://amzprep.com/where-is-temu-warehouse-located/",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Temu achieved 24% cross-border e-commerce market share globally in 2025, matching Amazon",
+      "data": "According to International Post Corporation (IPC) data published January 2026, Temu increased its share of cross-border ecommerce sales to 24% in 2025, up from less than 1% in 2022. Temu became the most-used cross-border ecommerce seller alongside Amazon. Shein held 9%, AliExpress 8%.",
+      "source_url": "https://www.digitalcommerce360.com/2026/01/22/temu-vs-amazon-cross-border-ecommerce-sales-2025/",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu's EU GMV projected to exceed $15B in 2025 and $20B by end of 2026",
+      "data": "Temu's EU GMV is projected to exceed $15 billion in 2025 and could surpass $20 billion by the end of 2026, which would make it one of the top online marketplaces in Europe. By 2026, Temu is expected to be among the top 5 e-commerce platforms in Europe.",
+      "source_url": "https://cross-border-magazine.com/new-silk-road-temu-rise-in-eu/",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD Holdings FY2025 revenue grew 10% YoY to RMB 431.8B; net income fell 11% to RMB 99.4B",
+      "data": "Q4 2025 revenue: RMB 123.9B (+12% YoY). FY2025 revenue: RMB 431,845.7M (+10% YoY). Transaction services revenue: RMB 63.9B (+19% YoY). Marketing services grew only 5%. Net income fell from RMB 112.4B to RMB 99.4B. Operating margin fell to 24% from 25%. Cash position: RMB 422.3B (US$60.4B).",
+      "source_url": "https://investor.pddholdings.com/financial-information/quarterly-results",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    }
+  ]
+}

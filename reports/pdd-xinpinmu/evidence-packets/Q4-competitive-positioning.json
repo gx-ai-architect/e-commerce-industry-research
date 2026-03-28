@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu change Temu's competitive positioning internationally?",
+  "company": "Multiple",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Amazon Basics demonstrated how private labels can legitimize marketplaces — but also drew antitrust scrutiny",
+      "data": "Amazon Basics launched 2009, expanded to thousands of items across categories. 73% of ecommerce executives 'concerned' about competition from Amazon private labels. FTC 2023 lawsuit cited 'biasing search results to preference Amazon's own products.' EU Commission 2020 charged Amazon with using data to push own products. Amazon subsequently reduced from 30 to under 20 private label brands due to antitrust pressure. Key lesson for Xinpinmu: self-preferencing risk.",
+      "source_url": "https://www.sellersprite.com/en/blog/unpacking-amazon-basics-case-study-private-label",
+      "source_date": "2025-06",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Shein operates a hybrid model: private-label core (~65% GMV) + marketplace (~35% GMV), projected $60B revenue in FY2025",
+      "data": "Shein launched managed marketplace (35% of GMV in 2023) with low commissions (5-10% vs Amazon 20-40%). Over 13K merchants in semi-managed, 7K in fully managed. Revenue estimated $38B in 2024, projected $60B in FY2025. 600K+ items, 1K-3K new SKUs daily. Expanding into electronics via Newegg storefront. 2026 'Trust + Velocity' algorithm model. Shein X designer incubator for exclusive collections.",
+      "source_url": "https://sacra.com/c/shein/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "AliExpress Choice model focuses on quality control + local warehousing; Xiaomi partnership as model for branded goods",
+      "data": "AliExpress Choice integrates sales operations, payment, logistics, warehousing as one-stop solution. 6M sqm overseas warehouses. Achieved 95% of orders delivered within 48 hours with local pre-positioning. Xiaomi POCO F8 top-selling product Black Friday 2025, using local warehouses for TVs with 'Local+' branding. Four-dimensional model: POP self-operation + full hosting + semi-hosting + overseas hosting.",
+      "source_url": "https://www.alibabagroup.com/en-US/document-1696296090350911488",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Amazon Haul underperforming vs Temu/Shein: only 16% monthly purchase rate vs 28% for Temu, 23% for Shein",
+      "data": "24% of US consumers purchased from Amazon Haul at least once, but only 16% monthly. Temu: 28% monthly purchase rate. Shein: 23% monthly. Amazon Haul targets products up to EUR 20, deliberately forgoes fast delivery. Still a new entrant with limited traction.",
+      "source_url": "https://retailwire.com/discussion/amazon-haul-temu-shein/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Temu and Shein both announced price increases starting April 25, 2025 — conceding ultra-low-price model unsustainable under tariffs",
+      "data": "Both companies released almost identical statements announcing price increases starting April 25, effectively conceding that their ultra-low-price model cannot survive the coming tariff reality. Consumer spending fell 10%+ (Shein) and 20%+ (Temu) in week ending May 11 2025. Other retailers gained: Asos, Zara, Ollie's, Nordstrom Rack.",
+      "source_url": "https://www.marketplacepulse.com/articles/temu-and-shein-conceding-us-market-share",
+      "source_date": "2025-05",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

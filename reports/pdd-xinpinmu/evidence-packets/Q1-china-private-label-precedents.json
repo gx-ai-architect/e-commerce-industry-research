@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is the 'online Costco' private-label model viable for PDD, and how does it compare to precedents?",
+  "company": "JD.com / NetEase / Alibaba",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "JD Jingzao covers 600+ vertical categories, collaborates with 70%+ of China's industrial belts, but revenue is not separately disclosed",
+      "data": "JD Jingzao (京东京造) covers 600+ vertical categories. As of 2023, it collaborated with 70%+ of China's industrial belts (Shandong textiles, Jiangsu silk, Guangdong 3C electronics). JD's '1223' business plan for 2025 targeted 500+ quality demonstration factories within 3 years, 600% factory sales growth, 800% new SKU growth, 15% production cost reduction, 30% inventory days reduction. However, JD does NOT separately disclose JD Jingzao revenue. JD's strategy: no brand premium, compete on supply chain efficiency. In 2026, JD Jingzao launched AI toys (2nd batch) and gold phone cases (RMB 11,299-112,299, sold out).",
+      "source_url": "https://baike.baidu.com/item/%E4%BA%AC%E4%B8%9C%E4%BA%AC%E9%80%A0/23513189",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "NetEase Yanxuan is still operating but its segment revenue declined throughout 2025 before Q4 rebound; full-year innovative businesses revenue was RMB 6.8B",
+      "data": "NetEase Yanxuan is NOT shut down. It operates under 'Innovative Businesses and Others' segment. Quarterly trajectory in 2025: Q1 RMB 1.6B, Q2 ~RMB 1.7B, Q3 RMB 1.4B (down 18.9% YoY), Q4 RMB 2.0B (rebound). Full-year innovative businesses revenue: RMB 6.8B. Key problems: (1) fierce competition from PDD, Douyin, Xiaohongshu content e-commerce, (2) traffic anxiety vs. short-video platforms, (3) 'curated quality' positioning squeezed between price wars and content commerce, (4) explosive hit strategy no longer working. Q4 rebound driven by pet food, air freshener, and home categories - 11 billion-yuan product series.",
+      "source_url": "https://www.prnewswire.com/news-releases/netease-announces-fourth-quarter-and-fiscal-year-2025-unaudited-financial-results-302684830.html",
+      "source_date": "2026-02",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Alibaba's Taobao Xinxuan shut down in June 2022, rebranded to 'Miaomanfen' under Tmall Supermarket; Alibaba's self-operated DNA is fundamentally weak",
+      "data": "Taobao Xinxuan launched in May 2017, inspired by NetEase Yanxuan's ODM model. Shut down June 30, 2022, rebranded to 'Miaomanfen' (喵满分) under Tmall Supermarket. Failure reasons: (1) Internal constraints - could not sell clothing or food to avoid competing with Alibaba's major advertiser brands; could not label products as 'from MUJI manufacturer' unlike Yanxuan. (2) Frequent organizational restructuring - moved from Taobao business group to same-city retail group in 2020H1, then merged into B2C retail in 2021. (3) Alibaba's anti-self-operated DNA - Jack Ma's 2011 statement: 'self-procurement, self-selling, self-logistics model cannot last long.' Also, Alibaba's 'Maoxiang' (猫享) self-operated business also shut down September 30, 2023 after just one year.",
+      "source_url": "https://m.jiemian.com/article/7692885.html",
+      "source_date": "2022-07",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Chinese e-commerce private label track record is overwhelmingly negative: Taobao Xinxuan (shut down), Maoxiang (shut down), NetEase Yanxuan (shrinking), only JD Jingzao survives but undisclosed scale",
+      "data": "Comprehensive Chinese precedent analysis: Taobao Xinxuan - shut down June 2022. Maoxiang (Tmall self-operated) - shut down September 2023. NetEase Yanxuan - still operating but segment revenue declining (RMB 6.8B FY2025 for whole innovative segment, not just Yanxuan). JD Jingzao - still operating, 600+ categories, but revenue not disclosed and JD explicitly says 'not seeking brand premium.' Suning Jiwu - also scaled back. The pattern: Chinese platforms that attempted private labels have uniformly struggled, with the sole partial exception of JD which has self-operated logistics and inventory DNA.",
+      "source_url": "https://m.jiemian.com/article/7692885.html",
+      "source_date": "2022-07",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    }
+  ]
+}

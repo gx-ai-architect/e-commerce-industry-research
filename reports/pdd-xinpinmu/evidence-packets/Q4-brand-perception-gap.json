@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu change Temu's competitive positioning internationally?",
+  "company": "PDD/Temu",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Temu has a significant brand trust gap: 86% awareness but only 24% repeat purchase intent",
+      "data": "Brand awareness is 86%, but conversion to actual purchasers is 40%. Only 24% of first-time buyers likely to return. 44% of US adults have used Temu as of January 2025.",
+      "source_url": "https://pro.morningconsult.com/analysis/low-cost-retailers-temu-shein",
+      "source_date": "2025-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "42% of consumers believe Temu product quality is worse than US retailers; Trustpilot score 2.2/5",
+      "data": "42% of consumers who are aware of Temu believe product quality is worse than US retailers. Trustpilot score: 2.2/5 (from 49,061 reviews as of Oct 2025). Sitejabber: 2/5 stars from 1,760 reviews. Common complaints: flimsy products, cheap materials, items breaking after few uses. However, monthly shoppers have better perception: 31% said better quality, 32% said comparable.",
+      "source_url": "https://www.trustpilot.com/review/temu.com",
+      "source_date": "2025-10",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu iOS App Store rating is 4.7/5 across US and major European markets — contradicting review site scores",
+      "data": "Temu iOS rating: US 4.7/5 (2,072,215 ratings), UK 4.7/5 (368,806), Germany 4.7/5 (194,783), France 4.7/5 (184,616), Italy 4.7/5 (96,299), Spain 4.6/5 (73,281). This high app store rating contradicts the much lower Trustpilot (2.2/5) and Sitejabber (2/5) scores. App Store reviews may be influenced by in-app prompting of satisfied users.",
+      "source_url": "https://itunes.apple.com/lookup?id=1641486558",
+      "source_date": "2026-03-28",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Nearly half of Temu's income comes from high earners making over $190K/year",
+      "data": "Almost half of Temu's income comes from high earners who make over $190,000/year, suggesting the platform is attracting shoppers who could afford premium products, not just bargain hunters. This contradicts the narrative of Temu as purely a low-income shopping destination.",
+      "source_url": "https://marketingltb.com/blog/statistics/temu-statistics/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Temu's quality verification improving in 2026: 87K SKUs with 4.5+ star ratings, 99.3% authenticity for verified items",
+      "data": "As of early 2026, Temu features over 87,000 SKUs with >=4.5-star verified ratings, >=92% positive return-free feedback, and third-party lab certifications. 'Authorized Brand Store' and 'Temu Verified Partner' badges introduced. Forensic analysis of 1,042 units confirmed 99.3% authenticity for badged items. 24,000+ counterfeit listings removed in Q1 2026.",
+      "source_url": "https://www.alibaba.com/product-insights/top-10-high-value-temu-products-to-buy-in-2026-data-verified.html",
+      "source_date": "2026-02",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

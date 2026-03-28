@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Can RMB 100B over 3 years generate positive ROI, and what are the unit economics of self-operated brand building?",
+  "company": "Costco",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Costco's Kirkland Signature generated $90B in sales in 2025, up from $75B in 2024 — demonstrating that private label at scale is achievable but took 30+ years",
+      "data": "Kirkland Signature 2025 sales: $90B (reported at Costco's 2026 Annual Meeting). 2024 sales: ~$75B. Growth: ~$15B YoY. Kirkland accounts for ~32% of Costco's total sales across 10 major categories. The brand was launched in 1995 — it took 30 years to reach $90B scale.",
+      "source_url": "https://www.mojosalesandbranding.com/post/kirkland-signature-expansion-2026-brand-strategy",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Kirkland Signature gross margins are ~15%, which is 5-8 percentage points above national brand equivalents at Costco — private label earns nearly double the margin",
+      "data": "Costco caps markups at 14% for national brands and 15% for Kirkland Signature. Kirkland gross margins: 15%+. National brand gross margins at Costco: ~7-10%. Kirkland products are priced 20% below national brands while maintaining higher margins. This is possible because Costco eliminates brand marketing costs and middlemen.",
+      "source_url": "https://www.ainvest.com/news/kirkland-signature-valuation-catalyst-costco-private-label-dominance-reshaping-retail-economics-2508/",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Costco's overall gross margin is 10-12%, with Kirkland's 15% being the margin expansion driver — this is the ceiling for self-operated retail economics",
+      "data": "Costco consolidated gross margin: 12.61% (FY2024). Kirkland at 15% pulls the average up, while national brands at ~7-10% pull it down. Costco's model works because membership fees ($4.8B+ annually) subsidize low product margins. Without a membership fee analog, a pure retail self-operated model would need higher product margins.",
+      "source_url": "https://fangwallet.com/2025/08/19/how-costcos-private-label-drives-profit-and-global-growth/",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

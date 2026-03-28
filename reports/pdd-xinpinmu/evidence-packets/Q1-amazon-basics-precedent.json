@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is the 'online Costco' private-label model viable for PDD, and how does it compare to precedents?",
+  "company": "Amazon",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Amazon private label generated ~$1B+ per quarter but only 0.9% of US retail revenue in Q1 2024, declining from 1.0% YoY",
+      "data": "Amazon private label sales reached more than $1B in Q1 2024, roughly the size of Samsung on the platform. However, between Q1 2023 and Q1 2024, private label's share of Amazon US retail revenue declined from 1.0% to 0.9%, with declines in 16 of top 20 physical goods categories. AmazonBasics accounted for 57.8% of total Amazon private label sales as of 2019.",
+      "source_url": "https://www.momentumcommerce.com/amazons-private-label-market-share-shrinks-by-6-year-over-year-in-q1-2024/",
+      "source_date": "2024-06",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Amazon dramatically scaled back private labels under antitrust pressure, cutting from 45 brands to fewer than 20",
+      "data": "Amazon cut its overall number of private label brands from 45 (with 158,000 products as of 2019) to less than 20. It eliminated 27 of 30 in-house clothing brands (including Lark & Ro, Daily Ritual, Goodthreads) and dropped furniture brands Rivet and Stone & Beam. AmazonBasics remains. The pullback began in July 2022 following disappointing sales and FTC antitrust scrutiny.",
+      "source_url": "https://www.retaildive.com/news/amazon-reduce-private-label/690659/",
+      "source_date": "2025-03",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "FTC antitrust suit (trial Oct 2026) targets Amazon self-preferencing of private labels, creating precedent risk for platform-owned brands",
+      "data": "FTC claims Amazon dominates 'online superstore' market with ~82% share. Key allegation: Amazon favors its own products in search results and 'Buy Box' placements. Trial scheduled for October 2026. Base case (50% probability): consent decree requiring policy changes. Worst case (25%): forced separation of marketplace and fulfillment, with 10-15% revenue decline. This precedent suggests regulatory risk for any platform operating private labels alongside third-party merchants.",
+      "source_url": "https://truthonthemarket.com/2025/03/06/beyond-market-definition-key-economic-concepts-in-ftc-v-amazon/",
+      "source_date": "2025-03",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Amazon private label catalog centered on undifferentiated basics; fails to create brand loyalty or meaningful market share",
+      "data": "Amazon's current private label catalog is largely centered around less differentiated goods (basic collared shirts, basic exercise equipment, baby essentials) rather than niche products. The only categories bucking the overall decline are Health & Household, Baby Products, Beauty & Personal Care, and Sports & Outdoors. This suggests purely commodity private labels without quality differentiation struggle even with platform advantages.",
+      "source_url": "https://www.momentumcommerce.com/amazons-private-label-market-share-shrinks-by-6-year-over-year-in-q1-2024/",
+      "source_date": "2024-06",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

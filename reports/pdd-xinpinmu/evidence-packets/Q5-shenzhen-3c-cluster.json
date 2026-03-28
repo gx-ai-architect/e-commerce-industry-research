@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is the manufacturing cluster readiness - can Chinese OEM factories actually build global brands?",
+  "company": "Shenzhen 3C Electronics Cluster",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Shenzhen 3C cluster has produced multiple globally successful OEM-to-brand transitions: Anker (TTM revenue RMB 29.3B, +32% YoY), UGREEN (59.6% overseas revenue), Shokz (revenue grew dozens-fold in 7 years to become global #1 in bone conduction)",
+      "data": "Anker Innovations (300866.SZ): 2024 full-year revenue RMB 24.7B (+41% YoY); TTM as of Sep 2025 reached RMB 29.3B (+32% YoY). Net profit for 9M 2025: RMB 1.93B (+31% YoY). Sells to 100M+ consumers in 146 countries. 50% of 3,615 employees in R&D with 2,245+ IP rights. UGREEN: overseas revenue rose from 50.4% (2023) to 57.5% (2024) to 59.6% (9M 2025). Shokz (韶音): 7-year revenue growth of dozens-fold, became global #1 in bone conduction headphones.",
+      "source_url": "https://quartr.com/companies/anker-innovations-limited_19432",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Anker's OEM-to-brand journey followed a three-phase pattern typical of Shenzhen companies: (1) OEM/ODM, (2) platform partner/reseller, (3) self-operated brand",
+      "data": "Creality (创想三维), a Shenzhen 3D printer maker, exemplifies the typical pathway: Phase 1 (pre-2016): OEM/ODM manufacturing; Phase 2 (2016-2019): products sold via Amazon large sellers as intermediary; Phase 3 (2019+): self-operated brand on Amazon and independent site. Anker followed a similar trajectory from 2011 Amazon private-label to global consumer brand. By 2025, Anker and Baseus had independent site traffic share reaching 30% with 50% higher average order value.",
+      "source_url": "https://m.shushangyun.com/article-21638.html",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Shenzhen municipal government actively supports the cluster with smart terminal industry cluster action plans valid through 2026, pushing for high-end, intelligent, and internationalized development",
+      "data": "Shenzhen issued the 'Shenzhen Smart Terminal Industry Cluster Action Plan (2024-2025)' to promote high-end, intelligent, and internationalized development of the smart terminal industry cluster. Policy validity extends to December 31, 2026. The global 3C digital accessories market reached ~$1.03T in 2023, growing at 8.7% CAGR, expected to reach $1.5T by 2025.",
+      "source_url": "http://gxj.sz.gov.cn/gkmlpt/content/11/11241/post_11241690.html",
+      "source_date": "2025",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

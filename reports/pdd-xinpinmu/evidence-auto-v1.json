@@ -1,0 +1,1412 @@
+[
+  {
+    "id": "AUTO-1",
+    "url": "https://www.momentumcommerce.com/amazons-private-label-market-share-shrinks-by-6-year-over-year-in-q1-2024/",
+    "quote": "Amazon private label generated ~$1B+ per quarter but only 0.9% of US retail revenue in Q1 2024, declining from 1.0% YoY: Amazon private label sales reached more than $1B in Q1 2024, roughly the size of Samsung on the platform. However, between Q1 2023 and Q1 2024, private label's share of Amazon US retail revenue declined from 1.0% to 0.9%, with declines in 16 of top 20 physical goods categories. AmazonBasics accounted for 57.8% of total Amazon private label sales as of 2019.",
+    "date": "2024-06",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-2",
+    "url": "https://www.retaildive.com/news/amazon-reduce-private-label/690659/",
+    "quote": "Amazon dramatically scaled back private labels under antitrust pressure, cutting from 45 brands to fewer than 20: Amazon cut its overall number of private label brands from 45 (with 158,000 products as of 2019) to less than 20. It eliminated 27 of 30 in-house clothing brands (including Lark & Ro, Daily Ritual, Goodthreads) and dropped furniture brands Rivet and Stone & Beam. AmazonBasics remains. The pullback began in July 2022 following disappointing sales and FTC antitrust scrutiny.",
+    "date": "2025-03",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-3",
+    "url": "https://truthonthemarket.com/2025/03/06/beyond-market-definition-key-economic-concepts-in-ftc-v-amazon/",
+    "quote": "FTC antitrust suit (trial Oct 2026) targets Amazon self-preferencing of private labels, creating precedent risk for platform-owned brands: FTC claims Amazon dominates 'online superstore' market with ~82% share. Key allegation: Amazon favors its own products in search results and 'Buy Box' placements. Trial scheduled for October 2026. Base case (50% probability): consent decree requiring policy changes. Worst case (25%): forced separation of marketplace and fulfillment, with 10-15% revenue decline. This precedent suggests regulatory risk for any platform operating private labels alongside third-party merchants.",
+    "date": "2025-03",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-4",
+    "url": "https://www.momentumcommerce.com/amazons-private-label-market-share-shrinks-by-6-year-over-year-in-q1-2024/",
+    "quote": "Amazon private label catalog centered on undifferentiated basics; fails to create brand loyalty or meaningful market share: Amazon's current private label catalog is largely centered around less differentiated goods (basic collared shirts, basic exercise equipment, baby essentials) rather than niche products. The only categories bucking the overall decline are Health & Household, Baby Products, Beauty & Personal Care, and Sports & Outdoors. This suggests purely commodity private labels without quality differentiation struggle even with platform advantages.",
+    "date": "2024-06",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-5",
+    "url": "https://baike.baidu.com/item/%E4%BA%AC%E4%B8%9C%E4%BA%AC%E9%80%A0/23513189",
+    "quote": "JD Jingzao covers 600+ vertical categories, collaborates with 70%+ of China's industrial belts, but revenue is not separately disclosed: JD Jingzao (\u4eac\u4e1c\u4eac\u9020) covers 600+ vertical categories. As of 2023, it collaborated with 70%+ of China's industrial belts (Shandong textiles, Jiangsu silk, Guangdong 3C electronics). JD's '1223' business plan for 2025 targeted 500+ quality demonstration factories within 3 years, 600% factory sales growth, 800% new SKU growth, 15% production cost reduction, 30% inventory days reduction. However, JD does NOT separately disclose JD Jingzao revenue. JD's strategy: no brand premium, compete on supply chain efficiency. In 2026, JD Jingzao launched AI toys (2nd batch) and gold phone cases (RMB 11,299-112,299, sold out).",
+    "date": "2026-03",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-6",
+    "url": "https://www.prnewswire.com/news-releases/netease-announces-fourth-quarter-and-fiscal-year-2025-unaudited-financial-results-302684830.html",
+    "quote": "NetEase Yanxuan is still operating but its segment revenue declined throughout 2025 before Q4 rebound; full-year innovative businesses revenue was RMB 6.8B: NetEase Yanxuan is NOT shut down. It operates under 'Innovative Businesses and Others' segment. Quarterly trajectory in 2025: Q1 RMB 1.6B, Q2 ~RMB 1.7B, Q3 RMB 1.4B (down 18.9% YoY), Q4 RMB 2.0B (rebound). Full-year innovative businesses revenue: RMB 6.8B. Key problems: (1) fierce competition from PDD, Douyin, Xiaohongshu content e-commerce, (2) traffic anxiety vs. short-video platforms, (3) 'curated quality' positioning squeezed between price wars and content commerce, (4) explosive hit strategy no longer working. Q4 rebound driven by pet food, air freshener, and home categories - 11 billion-yuan product series.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-7",
+    "url": "https://m.jiemian.com/article/7692885.html",
+    "quote": "Alibaba's Taobao Xinxuan shut down in June 2022, rebranded to 'Miaomanfen' under Tmall Supermarket; Alibaba's self-operated DNA is fundamentally weak: Taobao Xinxuan launched in May 2017, inspired by NetEase Yanxuan's ODM model. Shut down June 30, 2022, rebranded to 'Miaomanfen' (\u55b5\u6ee1\u5206) under Tmall Supermarket. Failure reasons: (1) Internal constraints - could not sell clothing or food to avoid competing with Alibaba's major advertiser brands; could not label products as 'from MUJI manufacturer' unlike Yanxuan. (2) Frequent organizational restructuring - moved from Taobao business group to same-city retail group in 2020H1, then merged into B2C retail in 2021. (3) Alibaba's anti-self-operated DNA - Jack Ma's 2011 statement: 'self-procurement, self-selling, self-logistics model cannot last long.' Also, Alibaba's 'Maoxiang' (\u732b\u4eab) self-operated business also shut down September 30, 2023 after just one year.",
+    "date": "2022-07",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-8",
+    "url": "https://m.jiemian.com/article/7692885.html",
+    "quote": "Chinese e-commerce private label track record is overwhelmingly negative: Taobao Xinxuan (shut down), Maoxiang (shut down), NetEase Yanxuan (shrinking), only JD Jingzao survives but undisclosed scale: Comprehensive Chinese precedent analysis: Taobao Xinxuan - shut down June 2022. Maoxiang (Tmall self-operated) - shut down September 2023. NetEase Yanxuan - still operating but segment revenue declining (RMB 6.8B FY2025 for whole innovative segment, not just Yanxuan). JD Jingzao - still operating, 600+ categories, but revenue not disclosed and JD explicitly says 'not seeking brand premium.' Suning Jiwu - also scaled back. The pattern: Chinese platforms that attempted private labels have uniformly struggled, with the sole partial exception of JD which has self-operated logistics and inventory DNA.",
+    "date": "2022-07",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-9",
+    "url": "multiple sources - see individual packets",
+    "quote": "Comparative framework: Costco Kirkland is the gold standard ($90B, 33% of sales, 30 years), while Chinese e-commerce private labels have uniformly underperformed: PRECEDENT COMPARISON TABLE:\n\n1. Costco Kirkland Signature (1995-present)\n   - Revenue: $90B (FY2025), ~33% of total sales\n   - SKUs: 550+ (12.5% of assortment, 33% of revenue)\n   - Margin: 15% markup cap; 5-8pp margin premium vs national brands\n   - Time to scale: 30 years from 1995 launch to $90B\n   - Status: THRIVING - largest CPG brand in America\n   - Key factor: Membership model + quality parity + exclusivity + 30-year trust\n\n2. Amazon Basics/Private Label (2009-present)\n   - Revenue: ~$4B+/year estimated (~0.9% of US retail revenue)\n   - SKUs: Cut from 158,000 to much fewer; brands cut from 45 to <20\n   - Status: RETREATING under antitrust pressure and disappointing sales\n   - Key factor: Self-preferencing allegations + undifferentiated products\n\n3. JD Jingzao (2018-present)\n   - Revenue: Not disclosed (likely small)\n   - SKUs: 600+ categories, 70%+ industrial belt coverage\n   - Status: OPERATING but not prominently disclosed\n   - Key factor: JD has self-operated DNA; explicitly no brand premium\n\n4. NetEase Yanxuan (2016-present)\n   - Revenue: Segment ~RMB 6.8B FY2025 (includes other businesses)\n   - Status: DECLINING - revenue fell through most of 2025\n   - Key factor: Squeezed between price wars and content commerce\n\n5. Taobao Xinxuan (2017-2022)\n   - Revenue: Not disclosed\n   - Status: SHUT DOWN June 2022, rebranded to Miaomanfen\n   - Key factor: Internal restrictions killed it; Alibaba anti-self-operated DNA\n\n6. Alibaba Maoxiang (2022-2023)\n   - Revenue: Not disclosed\n   - Status: SHUT DOWN September 2023 after ~1 year\n   - Key factor: Alibaba platform model incompatible with self-operation\n\n7. PDD Xinpinmu (2026-)\n   - Planned investment: RMB 100B over 3 years\n   - Status: JUST LAUNCHED (March 25, 2026)\n   - Differentiators: Global distribution via Temu, deepest factory relationships via C2M, $42B cash war chest",
+    "date": "2026-03-28",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-10",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-03-27/doc-inhsmtim9418937.shtml",
+    "quote": "The critical difference between Costco's success and Chinese platform failures: Costco is a retailer that added private label, while Chinese platforms are marketplaces trying to become retailers: Costco was already a self-operated retailer (buying, storing, selling inventory) when it launched Kirkland - adding private label was a natural extension of existing capabilities. Chinese platforms (PDD, Alibaba, NetEase) are fundamentally marketplaces/platforms that connect buyers with third-party sellers - shifting to self-operation requires building entirely new capabilities (procurement, inventory, QC, returns). Only JD, which built self-operated logistics from day one, has maintained a private label that hasn't been shut down. PDD's Xinpinmu article explicitly notes this shift from 'platform that connects' to 'principal that operates.' This is a fundamentally different and harder transformation than what Costco did.",
+    "date": "2026-03-27",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-11",
+    "url": "https://www.bitget.com/amp/news/detail/12560605303380",
+    "quote": "PDD has three structural advantages that prior Chinese private label attempts lacked: (1) Temu global distribution, (2) RMB 422B cash, (3) deepest C2M factory network: Xinpinmu's structural advantages vs predecessors: (1) DISTRIBUTION: Temu operates in 90+ countries with ~$90-95B GMV - no prior Chinese private label had global distribution. Yanxuan/Jingzao/Xinxuan were all domestic-only. (2) CAPITAL: PDD has RMB 422.3B cash, allowing RMB 100B investment without debt. NetEase's total company revenue is only RMB 112.6B; Yanxuan was always a side project. (3) C2M DEPTH: PDD's core competency is connecting 10M+ merchants directly to factories across 100+ industrial belts. This is the deepest factory network of any platform. (4) DATA: PDD processes billions of price-sensitive transactions daily, giving unmatched insight into what consumers will buy at what price point.",
+    "date": "2026-03",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-12",
+    "url": "https://www.chowhound.com/2095034/costco-kirkland-signature-total-sales-2025/",
+    "quote": "Kirkland Signature generated $90B in sales in FY2025, ~33% of Costco's $270B merchandise sales, up from $50B in 2020: At Costco's 2026 Annual Meeting of Shareholders, Kirkland Signature was reported to have generated approximately $90 billion in sales in FY2025 (ended Aug 31, 2025), a $15B+ increase from FY2024's ~$86B. With group-wide merchandise sales of $270B, Kirkland accounts for roughly one-third of Costco's total sales. Growth trajectory: crossed $50B in 2020, reached $59B in FY2021 (31% of revenue), ~$86B in FY2024, and $90B in FY2025.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-13",
+    "url": "https://en.wikipedia.org/wiki/Costco",
+    "quote": "Kirkland Signature launched in 1995, unified 30 prior private-label names into one brand; now spans 550+ SKUs: Kirkland Signature was launched in 1995 by co-founder Jim Sinegal, who unified approximately 30 different private label names under a single brand. Named after Costco's original headquarters in Kirkland, Washington. Started with items like shampoo and vitamins. As of 2025, there are over 550 Kirkland Signature products representing just 12.5% of Costco's total assortment, yet generating ~33% of sales. 45 new KS items launched in Q1 FY2026 alone.",
+    "date": "2026-03",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-14",
+    "url": "https://www.ainvest.com/news/kirkland-signature-valuation-catalyst-costco-private-label-dominance-reshaping-retail-economics-2508/",
+    "quote": "Kirkland margins are 500-800 bps higher than national brands; Costco caps markup at 15% for KS vs 14% for national brands: Costco caps markups at 14% for non-Kirkland and 15% for Kirkland Signature products, with a target of 11% on total COGS. Private labels carry gross margins 5 to 8 percentage points above equivalent national brands according to analyst estimates. CFO Gary Millerchip stated growing Kirkland mix 'definitely creates some overall tailwind in our margin overall.' Costco's overall gross margin rate in Q2 FY2026 was 11.02%, up 17bps YoY. Costco's operating margin (14.2%) outpaces Walmart (5.4%) and Amazon (5.1%), partly driven by Kirkland.",
+    "date": "2025-08",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-15",
+    "url": "https://www.fool.com/investing/2026/03/17/how-kirkland-quietly-became-costcos-most-powerful/",
+    "quote": "Kirkland success factors: quality parity with premium brands, unified brand, exclusivity, supplier leverage, 30 years of trust building: Key success factors: (1) Quality positioning - products match or exceed national brands, often made by same premium manufacturers (Starbucks makes KS coffee, Duracell/Kimberly-Clark/Ocean Spray produce KS items). (2) Unified brand - one brand across all categories reduces customer confusion. (3) Exclusivity - only available at Costco, drives membership value. (4) Negotiating leverage - KS gives Costco credible alternatives in supplier negotiations. (5) 30 years of trust building since 1995. (6) Costco membership model provides known customer base and recurring revenue to absorb private-label risk.",
+    "date": "2026-03-17",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-16",
+    "url": "https://www.tastingtable.com/2042169/how-much-kirkland-products-make-sales-per-year/",
+    "quote": "Kirkland is now the largest CPG brand in America by sales, surpassing Nike and Procter & Gamble: Kirkland Signature is America's biggest consumer packaged goods brand measured by sales. The $86B figure (FY2024) is $40 billion more than Nike earned, and even Procter & Gamble made $2 billion less than Kirkland in the same period.",
+    "date": "2025-05",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-17",
+    "url": "https://www.financialcontent.com/article/predictstreet-2026-1-9-pdd-holdings-pdd-deep-dive-the-c2m-revolution-and-the-global-retail-battle-of-2026",
+    "quote": "PDD has deeper manufacturing cluster relationships than any Chinese platform, covering 100+ industrial belts with C2M model: PDD's C2M (Consumer-to-Manufacturer) model aggregates demand to inform factories which styles, sizes, colors, and prices sell fastest. Factory relationships span 100+ production clusters: Zhejiang handicrafts, Shenzhen electronics, Shandong snacks, Dongguan manufacturing, Foshan industrials. Temu fully-managed model routes through Guangdong warehouses. Key competitive advantage: PDD can provide single supply chain service to global market while enabling unlimited SKU expansion, rapid best-seller switching, near-zero small-batch trial cost, and efficient factory price adaptation.",
+    "date": "2026-01-09",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-18",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-03-27/doc-inhsmtim9418937.shtml",
+    "quote": "Temu's 90+ country presence and $900-950B estimated GMV in 2025 provides ready global distribution for Xinpinmu brands: Temu achieved presence in 90+ countries within 3 years, completing in 3 years what took PDD 10 years domestically. Estimated 2025 full-year GMV of $90-95 billion (900-950 billion yuan), up 80-90% YoY. This provides Xinpinmu with immediate global distribution channels unavailable to previous Chinese private label attempts (Yanxuan, Jingzao were domestic-only). Temu planning 2026 GMV growth of 50% YoY, targeting Q4 2026 breakeven.",
+    "date": "2026-03-27",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-19",
+    "url": "https://ppc.land/china-mandates-new-rules-targeting-platform-pricing-and-behavioral-tracking-compliance/",
+    "quote": "New Chinese regulations (effective Oct 2025 and Apr 2026) ban platform price coercion, potentially making private label strategy more defensible: China's revised Anti-Unfair Competition Law (effective Oct 15, 2025) prohibits platforms from using traffic throttling, search ranking demotions, or algorithm penalties to pressure merchants into predatory pricing. New pricing regulations (effective Apr 10, 2026) from NDRC/SAMR/CAC mandate transparent fee disclosures and prohibit price manipulation. This regulatory environment could benefit PDD's private label strategy: if platforms can no longer force lowest prices on merchants, owning the brand directly gives PDD more pricing control without regulatory exposure.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-20",
+    "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+    "quote": "Key risk: PDD's transition from light-asset (23% margin) to heavy-asset self-operated model inverts the business economics that made it profitable: PDD's core business model advantage is light-asset operations: no inventory, no warehouses, collecting merchant commission + advertising fees at 23% net margin. Self-operated brands require: product design, inventory management, quality control, warehousing, returns processing. This is the opposite of PDD's DNA. Even JD, which has 10+ years of self-operated logistics experience, does not separately disclose JD Jingzao profitability (suggesting it may not be material or profitable). PDD management acknowledged 'profit volatility will be the new normal.'",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-21",
+    "url": "https://finance.sina.com.cn/jjxw/2026-03-26/doc-inhshxnu0302453.shtml",
+    "quote": "'Low price + high quality' positioning is inherently contradictory and has failed at scale for every Chinese platform that attempted it: Multiple analysts flagged the 'low price + high quality' positioning as a paradox. PDD's brand identity is fundamentally built on 'cheapest prices.' Moving to 'quality brands' requires overcoming deep consumer perception. NetEase Yanxuan pursued exactly this positioning ('curated quality at fair prices') and saw revenue decline throughout 2025. The challenge: if Xinpinmu products are priced higher to reflect quality, they conflict with PDD's core user expectation; if priced at PDD-typical levels, margins may be insufficient to support brand-building investment.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-22",
+    "url": "https://www.caixinglobal.com/2026-03-25/pdd-bets-on-in-house-brands-in-100-billion-yuan-expansion-plan-102427400.html",
+    "quote": "PDD officially launched 'Xinpinmu' self-operated brand initiative on March 25, 2026, with RMB 15B initial injection and RMB 100B planned over 3 years: PDD Holdings announced formation of 'Xinpinmu' (New Pinmo), a new entity in Shanghai with RMB 15 billion initial cash injection. Over three years, PDD plans to invest RMB 100 billion ($14.5B) total to build self-operated brands integrating Pinduoduo + Temu supply chain resources, targeting both domestic and global markets across multiple categories.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-23",
+    "url": "https://www.caixinglobal.com/2026-03-25/pdd-bets-on-in-house-brands-in-100-billion-yuan-expansion-plan-102427400.html",
+    "quote": "PDD has RMB 422.3B cash reserves to fund the initiative, with FY2025 net profit of RMB 99.3B despite 12% profit decline: As of December 31, 2025, PDD held RMB 422.3 billion in cash, cash equivalents and short-term investments (up from RMB 331.6B at end of 2024). FY2025 revenue was RMB 431.8B (+10% YoY), non-GAAP net profit RMB 107.3B (-12% YoY). PDD surpassed Alibaba for the first time as the most profitable Chinese e-commerce company.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-24",
+    "url": "http://www.news.cn/tech/20260326/5f2bae4b8ee44941941aa1198437c82d/c.html",
+    "quote": "Xinpinmu represents a strategic shift from pure platform to supply chain owner, announced as part of 'recreate a PDD in 3 years' vision: At December 2025 shareholders' meeting, Co-Chairman Zhao Jiazhen announced 'recreate a Pinduoduo in 3 years' strategy. Xinpinmu is the first major execution step. The model involves PDD becoming the 'principal' (acting as buyer/brand owner) rather than just a marketplace connecting buyers and sellers. Three pillars: (1) form Xinpinmu entity investing RMB 100B, (2) deploy teams to industrial clusters with digital/manufacturing solutions, (3) launch comprehensive go-global brand services (product standards, warehousing, IP, legal, regulatory).",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-25",
+    "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+    "quote": "PDD's prior self-operated venture 'Fulishe' failed within 4 hours due to merchant backlash in 2023: PDD's previous self-operated venture 'Fulishe' (welfare shop) in 2023 faced severe merchant backlash. Merchants flooded the platform with complaints and coordinated 'refund-only' campaigns, forcing the store to close within 4 hours. This demonstrates significant merchant hostility toward platform self-competition.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-26",
+    "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+    "quote": "PDD's current 23% net margin derives from light-asset model; self-operated retail fundamentally changes this economics: PDD's current profitability (23.02% net margin) derives from light-asset operations: collecting merchant fees and advertising revenue without inventory costs. Self-operated retail fundamentally changes this economics while threatening existing merchant relationships. If Xinpinmu succeeds, it could cannibalize existing merchant revenue streams.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q1",
+    "question_id": "Q1",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-27",
+    "url": "https://www.momentumcommerce.com/amazons-private-label-market-share-shrinks-by-6-year-over-year-in-q1-2024/",
+    "quote": "Amazon's private label business peaked then was massively scaled back \u2014 cut from 30+ clothing brands to 3, now represents less than 1% of US retail revenue: Amazon eliminated 27 of 30 in-house clothing brands, retaining only Amazon Essentials, Amazon Collection, and Amazon Aware. Plans to cut total private label offerings to fewer than 20 brands. Between Q1 2023 and Q1 2024, Amazon private label share of US retail revenue shrank from 1.0% to 0.9%. Total private label sales ~$1B in Q1 2024.",
+    "date": "2024-05",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-28",
+    "url": "https://retailwire.com/discussion/did-amazon-execs-mislead-congress-about-how-it-uses-third-party-sellerss-data/",
+    "quote": "Amazon was accused by Congressional lawmakers of 'possibly lying to Congress' about using third-party seller data for private label products: In 2019 Congressional hearing, Amazon's Nate Sutton testified the company 'does not use any seller data to compete.' WSJ subsequently reported Amazon managers violated this policy. Reuters reported Amazon had 'explicit, detailed strategy to rip off third-party sellers in India, used their data to streamline knockoffs, and prioritized products in search results.' In 2021, lawmakers accused Amazon of potentially committing federal criminal violations by misleading Congress. Bezos in 2020 testified he 'couldn't guarantee' the policy had never been violated.",
+    "date": "2021-10",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-29",
+    "url": "https://www.techpolicy.press/tracker/ftc-v-amazoncom/",
+    "quote": "FTC antitrust lawsuit filed Sept 2023 specifically alleges Amazon ranks own products above competitors; trial set for October 2026: FTC sued Amazon alleging it 'illegally maintains its monopoly power' using 'interlocking anticompetitive and unfair strategies.' Class of 288 million Americans certified (Aug 2025). FTC alleges Amazon routinely ranks its own products ahead of competitors. Trial set for October 5, 2026. Amazon used Signal encrypted messaging to discuss antitrust matters. Key issue: Amazon's unique triple role as retailer + platform + producer creates conflict of interest distinct from traditional retailers using data.",
+    "date": "2025-09",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-30",
+    "url": "https://www.retailtouchpoints.com/topics/inventory-merchandising/amazon-makes-drastic-cuts-to-private-label-business-in-advance-of-potential-ftc-antitrust-probe",
+    "quote": "Amazon's private label retreat is itself evidence that platform self-competition creates untenable conflicts \u2014 even a company with Amazon's resources chose to pull back: Amazon 'began scaling back its private label business following disappointing sales and scrutiny from lawmakers' starting July 2022. Despite private labels being less than 1% of sales, the regulatory and merchant trust costs were significant enough to force retreat. Academic defense paper (2025) argues private labels are 'pro-competitive and IP-compliant' but the practical outcome was Amazon dramatically reducing the business.",
+    "date": "2023-01",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-31",
+    "url": "https://ecdb.com/resources/sample-data/retailer/jd",
+    "quote": "JD's 1P/3P GMV split was 27% self-operated / 73% third-party in 2024, showing how self-operated and marketplace can coexist but with persistent tension: In 2024, JD's 1P sales contributed 27% to total GMV, while 3P GMV accounted for 73%. JD is the largest self-operated online retailer in China with ~27.2% market share. The company adopts an 'asset-heavy 1P model with self-owned inventory and largely self-built logistics, complemented by an asset-light third-party model.'",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-32",
+    "url": "https://www.fkdmg.com/article/9717.html",
+    "quote": "JD self-operated stores receive 2-3x more traffic exposure than POP (third-party) stores, with 18% conversion rate vs ~7% for 3P: JD self-operated display positions: 6-8 per store on JD homepage vs 2-3 for POP stores. Self-operated store average conversion rate: 18%, which is 2.5x that of third-party stores. Products with 'JD Self-Operated' label have 40% higher natural search click-through rates.",
+    "date": "2025-06",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-33",
+    "url": "https://www.fkdmg.com/article/9717.html",
+    "quote": "JD is described as 'both referee and athlete' \u2014 POP merchants struggle to compete against self-operated products for traffic: E-commerce industry insider Zhouzhou stated: 'Although JD emphasizes equal treatment of self-operated and POP merchants, JD prioritizes traffic and resources for self-operated stores. Good POP merchants are also encouraged to convert to self-operated. JD is both referee and athlete, making it hard for POP merchants to truly mobilize enthusiasm, which directly impacts JD's ad and commission revenue.'",
+    "date": "2025-06",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-34",
+    "url": "https://www.morningstar.com/company-reports/1239361-jdcom-will-increase-investment-in-the-second-half-of-2025-to-drive-higher-topline-growth",
+    "quote": "JD is strategically moving low-margin products FROM 1P to 3P, suggesting self-operated model creates margin pressure: JD 'stopped selling nonstrategic low-margin products from the 1P business and is allowing 3P merchants and business partners to provide these products instead.' JD's GMV share of China's online retail fell from 30.7% in 2021 to 28.4% in 2024. In 2025, 3P daily goods/general merchandise reached 34% of revenue, a historical high.",
+    "date": "2025-08",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-35",
+    "url": "https://www.euobiz.cn/ecommerce/jingdong-chunxiao-jihua-2026.html",
+    "quote": "JD launched 350B yuan 'Spring Dawn Plan' in 2026 to support 3P merchants, indicating ongoing need to balance 1P/3P tensions: On March 11, 2026, JD announced its upgraded 'Spring Dawn Plan' (\u6625\u6653\u8ba1\u5212), investing over RMB 350B in resources across cost reduction, tech enablement, traffic support, and ecosystem protection for SME merchants. Ad subsidies upgraded from 'ten-billion level' to 'hundred-billion level'. JD introduced promotion ROI guarantee \u2014 if target not met, platform compensates 100% of the shortfall.",
+    "date": "2026-03-11",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-36",
+    "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+    "quote": "PDD's traffic allocation algorithm is price-driven, creating a 'cost compression \u2192 quality compromise' vicious cycle that Xinpinmu self-operated brands would exacerbate: PDD's traffic distribution logic is single-product-low-price: the lower the price a merchant offers, the more traffic allocated. This forces merchants into a cycle of cost compression and quality compromise. Example cited: false eyelash industrial belt merchants saw per-box profit fall from RMB 0.80 to RMB 0.15, with some factories forced to shut down. Many PDD merchants lament: 'Stop full-site promotion and you get zero traffic; enter Billion Subsidy and it turns out you're just working for the platform.'",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-37",
+    "url": "https://user.guancha.cn/main/content?id=1623007",
+    "quote": "PDD is the ONLY top-10 internet platform with declining user base \u2014 users fell 10.6% YoY as of December 2025: Per QuestMobile '2025 China Mobile Internet Annual Report': as of December 2025, PDD's deduplicated total users were 924M, down 10.6% YoY \u2014 the only company in the top-10 by user volume to see user decline. Monthly active growth decelerated from 21% in 2022 to 5% in Q2 2025. Penetration in lower-tier markets already at 89%.",
+    "date": "2026-03-27",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-38",
+    "url": "https://www.21jingji.com/article/20260130/herald/50ea314a64d44c9664cf2c6a0132a9cc.html",
+    "quote": "PDD faces severe multi-platform competition: JD Jingxi self-operated already serves 370M users, Douyin e-commerce GMV approaching RMB 4T: JD's Jingxi self-operated (\u4eac\u559c\u81ea\u8425) already serves 370M users, with 10x transaction growth in 2025 and 150M new users for JD. Douyin e-commerce first-10-months 2025 GMV growth exceeded 30%, full year expected to break RMB 4T, approaching PDD levels. Multi-platform operation ('PDD + Douyin + Tmall') has become mainstream, with single-platform models being phased out.",
+    "date": "2026-01-30",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-39",
+    "url": "https://finance.sina.com.cn/roll/2025-03-25/doc-ineqxtzu5093794.shtml",
+    "quote": "PDD launched RMB 100B 'Thousand Billion Support' plan in April 2025 to retain merchants \u2014 a defensive move acknowledging merchant discontent: In April 2025, PDD launched the 'Thousand Billion Support' (\u5343\u4ebf\u6276\u6301) plan, committing to invest over RMB 100B in capital and traffic resources over 3 years. Measures include: reduced technical service fees, lowered security deposits, traffic subsidy tilts, and proactive reduction of merchant advertising monetization rate. PDD management guided that 2026 operating costs will rise and gross margins will continue declining due to these investments.",
+    "date": "2025-03-25",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-40",
+    "url": "https://www.21jingji.com/article/20251124/herald/5d46d0f8c4230737864dace5920a6214.html",
+    "quote": "Young merchant growth on PDD remains strong: 95-post merchants +31% YoY, 00-post merchants +44% YoY in 2025: PDD's 'New Quality Supply One-Year Report' shows: industrial belt merchants growing rapidly, post-95 merchants +31% YoY, post-00 merchants +44% YoY, high-quality product SKU count +50%+ YoY. Agricultural product sales +47% YoY in H1 2025, with post-00 agricultural merchants +30% YoY.",
+    "date": "2025-11-24",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-41",
+    "url": "https://www.stocktitan.net/news/PDD/pdd-holdings-announces-fourth-quarter-2025-and-fiscal-year-2025-yypno24d08v2.html",
+    "quote": "PDD's entire revenue base (~RMB 432B in FY2025) is derived from third-party merchants, making merchant ecosystem health existential: PDD 20-F: 'For the fiscal year ended December 31, 2024, substantially all of our revenues were derived from third-party merchants.' FY2025 total revenue: RMB 431,845.7M (US$61,753.1M), +10% YoY. Revenue splits into online marketing services (ads) and transaction services (commissions).",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-42",
+    "url": "https://www.21jingji.com/article/20251124/herald/5d46d0f8c4230737864dace5920a6214.html",
+    "quote": "PDD has 14.2 million active merchants generating 55.3 million jobs as of 2025: Pinduoduo platform has 14.2M active merchants (1420\u4e07\u6d3b\u8dc3\u5546\u5bb6), spanning diverse categories and business types. Across merchant direct employment, warehouse/logistics employment, platform employees, and indirect employment, PDD has cumulatively generated 55.32M jobs domestically.",
+    "date": "2025-11-24",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-43",
+    "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+    "quote": "PDD Q3 2025 revenue breakdown: online marketing RMB 53.3B (+8% YoY), transaction services RMB 54.9B (+10% YoY) \u2014 both entirely from 3P merchants: Q3 2025: Online marketing services revenue RMB 53,347.6M vs RMB 49,351.0M in Q3 2024 (+8%). Transaction services revenue RMB 54,928.9M vs RMB 50,003.4M in Q3 2024 (+10%). Q1 2025: Online marketing RMB 48,722.2M (+15%), transaction services RMB 46,950.0M (+6%).",
+    "date": "2025-11-21",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-44",
+    "url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhsmnzu2055506.shtml",
+    "quote": "PDD announced Xinpinmu on March 25, 2026 with RMB 15B initial capital injection and RMB 100B planned over 3 years for self-operated brand building: Two Shanghai entities registered: Shanghai Xinpinmu Hongqiao E-commerce Co. (registered Feb 2, 2026, RMB 10B capital, Changning District) and Shanghai Xinpinmu Pudong E-commerce Co. (registered Feb 3, 2026, RMB 5B capital, Pudong). Total first tranche: RMB 15B. Three-year plan: RMB 100B.",
+    "date": "2026-03-27",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-45",
+    "url": "http://www.news.cn/tech/20260326/5f2bae4b8ee44941941aa1198437c82d/c.html",
+    "quote": "Xinpinmu integrates Pinduoduo + Temu supply chains to build self-operated brands targeting global markets across categories: Three core pillars: (1) Dedicated company with RMB 100B over 3 years covering domestic industrial belts, custom manufacturing solutions, cultivating self-operated brands; (2) Dedicated teams embedded in industrial belts providing product/tech/marketing integrated solutions; (3) Comprehensive brand go-global solutions including product standards, warehousing/logistics, IP services, legal aid, regulatory compliance.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-46",
+    "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+    "quote": "This marks PDD's first move from pure platform model to platform + self-operated hybrid, a fundamental business model shift: PDD previously operated as a pure marketplace, earning from merchant advertising and transaction commissions. Multiple analysts note this is PDD's first time 'going heavy' with self-operated retail, moving from 'super channel' to 'supply chain leader'. Commentary: 'Previously not doing self-operated was what made PDD the most profitable among the three major e-commerce players.'",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-47",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-03-27/doc-inhsmtim9418937.shtml",
+    "quote": "Industry analysts identify balancing self-operated brands with existing merchant interests as the core challenge of Xinpinmu: Multiple analyst and media assessments: (1) 'How to balance competition between self-operated brands and third-party merchants is a huge test.' (2) 'The balance of interests between the self-operated system and original platform merchants, and allocation of supply chain resources, tests the group's organizational coordination capability.' (3) 'Self-operated brands mean heavier asset operations and higher management thresholds \u2014 whether RMB 100B can achieve expected conversion within 3 years still needs market validation.' (4) Commentary: 'PDD says it wants low-price high-quality Xinpinmu, but low-price high-quality is itself a paradox.'",
+    "date": "2026-03-27",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-48",
+    "url": "http://www.news.cn/tech/20260326/5f2bae4b8ee44941941aa1198437c82d/c.html",
+    "quote": "PDD has NOT announced specific policies to protect existing marketplace merchants from Xinpinmu competition \u2014 no traffic ring-fencing, no category exclusions disclosed: Across all official announcements (Xinhua, 36kr, Sina, Securities Times, every financial outlet coverage of March 25 announcement), the three pillars of Xinpinmu focus on: (1) dedicated self-operated company, (2) industrial belt teams, (3) go-global solutions. No mention of: traffic allocation protections for existing merchants, category restrictions for self-operated brands, merchant advisory councils, or competitive safeguards. The 'Thousand Billion Support' plan (announced separately in April 2025) addresses merchant welfare but does not specifically address Xinpinmu competition.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-49",
+    "url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhsmnzu2055506.shtml",
+    "quote": "PDD's stated framing positions Xinpinmu as complementary to merchants (brand building for industrial belt producers) rather than competitive, but this framing has gaps: Official narrative: Xinpinmu will 'deeply bind with China's industrial belts,' helping OEM/ODM factories transition from contract manufacturing to branded products. Example: Shaodong, Hunan \u2014 produced 70%+ of China's school backpacks via OEM, PDD's support helped local merchants build branded products. MoC researcher Hong Yong: 'Through building brand advantages, products can form differentiation and premium capabilities, moving from price competition to value competition.' However, no mechanism disclosed for how Xinpinmu brands coexist with independent merchant brands in the same categories.",
+    "date": "2026-03-27",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-50",
+    "url": "https://www.stocktitan.net/news/PDD/pdd-holdings-announces-fourth-quarter-2025-and-fiscal-year-2025-yypno24d08v2.html",
+    "quote": "PDD's FY2025 cash position of RMB 422.3B and net profit of RMB 107.3B provide financial runway for self-operated investment without squeezing merchant subsidies \u2014 but margin guidance signals trade-offs: PDD ended 2025 with RMB 422.3B in cash. Non-GAAP net profit: RMB 107.3B (-12% YoY). Management guided 2026 operating costs will rise and gross margins will continue declining. Total costs of revenues already increased 23% YoY to RMB 188.8B in FY2025. The Xinpinmu RMB 100B/3yr commitment is ~25% of current cash reserves, implying significant capital commitment.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-51",
+    "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+    "quote": "Tax compliance crackdown specifically impacts PDD/Taobao SME merchants more than JD's self-operated model, adding to ecosystem stress: New rules since June 2025 require broader merchant income reporting; over 7,000 platforms complied, merchant tax contributions rose 12.7% YoY. Commentary: 'JD's mostly self-operated stores and Tmall's large brand merchants were already tax-compliant, relatively less impacted. Taobao and PDD's SME merchants will face the greatest shock, especially PDD merchants whose profits are already limited.'",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q2",
+    "question_id": "Q2",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-52",
+    "url": "https://www.mojosalesandbranding.com/post/kirkland-signature-expansion-2026-brand-strategy",
+    "quote": "Costco's Kirkland Signature generated $90B in sales in 2025, up from $75B in 2024 \u2014 demonstrating that private label at scale is achievable but took 30+ years: Kirkland Signature 2025 sales: $90B (reported at Costco's 2026 Annual Meeting). 2024 sales: ~$75B. Growth: ~$15B YoY. Kirkland accounts for ~32% of Costco's total sales across 10 major categories. The brand was launched in 1995 \u2014 it took 30 years to reach $90B scale.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-53",
+    "url": "https://www.ainvest.com/news/kirkland-signature-valuation-catalyst-costco-private-label-dominance-reshaping-retail-economics-2508/",
+    "quote": "Kirkland Signature gross margins are ~15%, which is 5-8 percentage points above national brand equivalents at Costco \u2014 private label earns nearly double the margin: Costco caps markups at 14% for national brands and 15% for Kirkland Signature. Kirkland gross margins: 15%+. National brand gross margins at Costco: ~7-10%. Kirkland products are priced 20% below national brands while maintaining higher margins. This is possible because Costco eliminates brand marketing costs and middlemen.",
+    "date": "2025-08",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-54",
+    "url": "https://fangwallet.com/2025/08/19/how-costcos-private-label-drives-profit-and-global-growth/",
+    "quote": "Costco's overall gross margin is 10-12%, with Kirkland's 15% being the margin expansion driver \u2014 this is the ceiling for self-operated retail economics: Costco consolidated gross margin: 12.61% (FY2024). Kirkland at 15% pulls the average up, while national brands at ~7-10% pull it down. Costco's model works because membership fees ($4.8B+ annually) subsidize low product margins. Without a membership fee analog, a pure retail self-operated model would need higher product margins.",
+    "date": "2025-08",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-55",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
+    "quote": "JD Retail's self-operated gross margin is approximately 14-19%, far below PDD's 56% marketplace gross margin \u2014 illustrating the structural margin cost of moving to self-operated: JD consolidated gross margin TTM Q3 2025: 14.43%. JD Retail segment gross margin Q3 2025: 19.3% (13th consecutive quarter of YoY expansion). JD Retail operating margin: 5.9% (Q3 2025). Compare to PDD gross margin: 56.3% (FY2025). The 37-42 percentage point gross margin gap represents the structural cost of 1P vs 3P.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-56",
+    "url": "https://www.tmogroup.asia/insights/chinese-online-marketplace-fees/",
+    "quote": "JD's 3P marketplace commission rates range from 0.6% to 8%, but the marketplace business is far more profitable per unit of revenue than 1P: Standard 3P commission: 2-8% by category. JD reduced POP merchant commissions to 0.6% as a strategic move to grow marketplace. JD Marketplace and Marketing Revenue grew 24% YoY in Q3 2025. JD's 1P sales = 27% of total GMV; 3P = 73% of GMV \u2014 but 1P revenue dominates the P&L due to full revenue recognition.",
+    "date": "2025-06",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-57",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
+    "quote": "JD's operating margin was negative 0.4% in Q3 2025 (consolidated) due to new business investments including food delivery \u2014 showing how self-operated expansions destroy margins: Q3 2025 consolidated operating margin: -0.4% vs +4.6% in Q3 2024. The decline was attributed to food delivery (commission-free for merchants) and JD Logistics investments. JD Retail itself achieved 5.9% operating margin, but new ventures dragged the whole company negative.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-58",
+    "url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+    "quote": "PDD holds RMB 422.3B in cash, cash equivalents and short-term investments as of Dec 31, 2025, up 27% from RMB 331.6B at end of 2024: Cash & equivalents: RMB 108.9B; Short-term investments: RMB 313.4B; Other non-current assets: RMB 104.7B. Total liquid assets exceed RMB 420B.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-59",
+    "url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+    "quote": "PDD generated RMB 106.9B operating cash flow in FY2025, down 12% YoY from FY2024's RMB 121.9B: FY2025 operating cash flow: RMB 106,938.7M (US$15,292.0M). FY2024 operating cash flow: RMB 121,929.3M. Capex is minimal (<RMB 1B annually), so FCF is approximately equal to operating cash flow.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-60",
+    "url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+    "quote": "RMB 100B over 3 years represents approximately 31% of projected 3-year FCF, assuming flat FCF at FY2025 levels: At FY2025 FCF of ~RMB 107B/year, 3-year cumulative FCF would be ~RMB 321B. RMB 100B / RMB 321B = 31%. Even if FCF declines 20%, 3-year cumulative would be ~RMB 257B, making RMB 100B = 39% of FCF. The investment is financially feasible from cash flow alone, without touching existing cash reserves.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-61",
+    "url": "https://stockanalysis.com/stocks/pdd/statistics/",
+    "quote": "PDD's capex is less than 1% of revenue, reflecting its asset-light model \u2014 Xinpinmu self-operated brands would represent a fundamental shift toward heavier capital deployment: PDD's TTM capex was approximately $136M (< RMB 1B) against $60B+ in revenue. Free cash flow margin is ~30%. Unlike Amazon (FBA) or JD (own logistics), PDD has zero fulfillment infrastructure. The RMB 100B Xinpinmu investment would be 100x PDD's current annual capex.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-62",
+    "url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+    "quote": "PDD's FY2025 revenue was RMB 431.8B (+10% YoY) but net income declined 12% to RMB 99.4B, with cost of revenues growing 23% \u2014 double the revenue growth rate: FY2025: Revenue RMB 431,845.7M (+10%); Cost of revenues RMB 188,801.8M (+23%); Operating profit RMB 94,624.1M (-13%); Net income RMB 99,364.5M (-12%). S&M expenses: RMB 125,287.9M (+13%); R&D: RMB 16,496.2M (+30%).",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-63",
+    "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+    "quote": "PDD's gross margin declined from 60.9% in FY2024 to 56.3% in FY2025, the first significant margin compression: Gross margin compression of 4.6 percentage points in one year, driven by fulfillment fees, bandwidth/server costs, and payment processing fees. This decline occurred BEFORE Xinpinmu \u2014 self-operated brands would add inventory risk and lower gross margins further.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-64",
+    "url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+    "quote": "PDD stock-based compensation was RMB 7.9B in FY2025: SBC: RMB 7,936.971M for FY2025. Non-GAAP operating profit (excluding SBC): RMB 29,474.1M in Q4 2025 vs GAAP operating profit of RMB 27,719.7M.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-65",
+    "url": "https://m.thepaper.cn/newsDetail_forward_32020842",
+    "quote": "PDD's 'Hundred Billion Subsidy' program (\u767e\u4ebf\u8865\u8d34, launched 2019) successfully drove user acquisition into Tier 1/2 cities and accelerated GMV growth to 17.6% \u2014 outpacing Alibaba (8%) and JD (15.5%): The program invested tens of billions in direct subsidies to consumers. Specific ROI: PDD revenue grew from RMB 247.6B (2023) to RMB 393.8B (2024, +59%) to RMB 431.8B (2025, +10%). Net income went from RMB 60B (2023) to RMB 112.4B (2024, +87%) to RMB 99.4B (2025, -12%).",
+    "date": "2025-09",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-66",
+    "url": "https://stcn.com/article/detail/1663463.html",
+    "quote": "PDD's 'Thousand Billion Support' plan (\u5343\u4ebf\u6276\u6301, April 2025) committed RMB 1,000B in resources over 3 years for merchant support \u2014 this preceded and is separate from Xinpinmu's RMB 100B: Announced April 3, 2025. Includes fee reductions, traffic resources, and merchant subsidies. '100 Billion Merchant Rebate Plan' launched under Baiyi Butie. Impact: Q2 2025 revenue +7% YoY, net income -4% YoY. Analyst estimate: RMB 83-187B in incremental S&M costs for subsidies to maintain low-price positioning.",
+    "date": "2025-04",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-67",
+    "url": "https://marketingltb.com/blog/statistics/temu-statistics/",
+    "quote": "Temu launch (Sep 2022) was PDD's largest capital deployment \u2014 cumulative losses undisclosed but estimated at tens of billions USD over 3 years: PDD does not break out Temu P&L. Temu 2025 revenue estimated at ~$92.5B (site GMV). S&M expenses for consolidated PDD grew from RMB 111.3B (FY2024) to RMB 125.3B (FY2025). Temu US MAU fell 49% YoY by July 2025 after de minimis changes. GMV rebounded in Q3 2025 to ~40% YoY growth with Europe at 40% of GMV, US at 30%.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-68",
+    "url": "https://www.pymnts.com/earnings/2025/temu-parent-ppd-profits-fall-38-percent-amid-tariff-pressures/",
+    "quote": "PDD's profits declined 38% YoY in Q1 2025 \u2014 the first major quarterly profit decline \u2014 attributed to Temu investments and merchant support programs: Q1 2025 net income declined 38% YoY. Sales and marketing expenditures rose 37% in Q1 2025 vs prior year. Management guided that 'revenue and profit may show fluctuations in upcoming quarters, reflecting the company's willingness to reinvest aggressively.'",
+    "date": "2025-05",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-69",
+    "url": "https://www.gurufocus.com/term/roic/PDD",
+    "quote": "PDD's ROIC is 70-78%, among the highest of any large-cap company globally, reflecting its asset-light marketplace model: Annualized ROIC for Q2 2025: 78.08%. TTM ROIC: 70.85%. WACC: 10.54%. PDD generates 7x its cost of capital in returns. This extraordinary ROIC is a function of the asset-light marketplace model \u2014 self-operated brands would structurally compress ROIC by increasing invested capital.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-70",
+    "url": "https://stockanalysis.com/stocks/pdd/statistics/",
+    "quote": "PDD's valuation multiples are compressed: P/E 10.5x, EV/EBITDA 6.6x, EV/FCF 5.4x \u2014 the market is already pricing in execution risk on new investments: Trailing PE: 10.53; Forward PE: 8.44; EV/EBITDA: 6.63; EV/FCF: 5.37. Market cap fell below $150B from November 2025 peak, down 30%+. The market assigns PDD a deep value multiple despite 70%+ ROIC, suggesting skepticism about capital allocation decisions.",
+    "date": "2026-03",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-71",
+    "url": "https://finance.yahoo.com/news/pdd-holdings-inc-nasdaq-pdd-130014053.html",
+    "quote": "Colin Huang retains ~31% of shares outstanding with super-voting Class B shares, giving him outsized control over capital allocation: Founder Colin Huang holds approximately 31% of total shares outstanding (including Class B super-voting shares with 10 votes per share). Economic ownership estimated at 17-28% depending on methodology. Tencent is second largest at 14%. Insider ownership total: 4.53%. Institutional ownership: ~11%.",
+    "date": "2025-08",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-72",
+    "url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+    "quote": "SCENARIO ANALYSIS: For RMB 100B investment to achieve 15% ROI (PDD's WACC ~10.5%), Xinpinmu would need to generate ~RMB 15B annual operating profit at steady state: Calculation: RMB 100B invested over 3 years. At 15% ROI target: need RMB 15B/year operating profit. If Xinpinmu operates at JD-like 1P margins (operating margin ~6%), it would need RMB 250B in annual revenue. If it achieves Kirkland-like margins (15% gross, ~8% operating), it needs RMB 188B revenue. For context, PDD's total FY2025 revenue was RMB 432B. Xinpinmu would need to reach 44-58% of PDD's current revenue to justify the investment at a 15% ROI.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-73",
+    "url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
+    "quote": "SCENARIO ANALYSIS: At a more modest 5% operating margin (below JD Retail's 5.9%), Xinpinmu would need RMB 300B in annual revenue to generate RMB 15B operating profit \u2014 equivalent to 70% of PDD's current revenue: 5% operating margin scenario: RMB 15B / 5% = RMB 300B revenue needed. This is comparable to JD Retail's ~RMB 750B revenue at 5.9% operating margin generating ~RMB 44B operating profit. The challenge: JD built its 1P business over 20+ years with massive logistics infrastructure investments totaling tens of billions USD.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-74",
+    "url": "https://www.chinadaily.com.cn/a/202601/21/WS69701457a310d6866eb34d48.html",
+    "quote": "China's private label market is in a 'golden growth phase' \u2014 FMCG private label share reached 2% of sales in Q3 2025, growing 44% over 2 years, suggesting large runway: Bain & Company / Worldpanel 14th China Shopper Report 2025: private-label goods = 2% of FMCG sales in Q3 2025, up 44% over prior 2 years. Global private label market projected to reach $1.6T by 2034. Chinese retailers (Walmart China Marketside, Wumart) expanding private label portfolios. Private labels entered 'golden growth phase' as retailers leverage shopper insights and integrated supply chains.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-75",
+    "url": "https://pdf.dfcfw.com/pdf/H3_AP202503101644243002_1.pdf",
+    "quote": "Broker consensus projects PDD domestic platform (\u4e3b\u7ad9) revenue CAGR of 21% from 2023-2026, with monetization rate rising from 4.8% to 5.1% \u2014 Xinpinmu could accelerate monetization if executed well: Domestic platform revenue projections: 2023 RMB 170B \u2192 2026E RMB 304.5B, 3Y CAGR 21%. Monetization rate: 2024 4.8% \u2192 2026E 5.1%. Self-operated brands could boost monetization by capturing full product margin (15%+) rather than just take rate (3-5%), but at the cost of much higher working capital and operational complexity.",
+    "date": "2025-03",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-76",
+    "url": "https://news.pedaily.cn/202603/562090.shtml",
+    "quote": "Xinpinmu has already incorporated two entities in Shanghai with combined registered capital of RMB 15B as Phase 1: \u4e0a\u6d77\u65b0\u62fc\u59c6\u9e3f\u4e54\u7535\u5b50\u5546\u52a1\u6709\u9650\u516c\u53f8: incorporated Feb 2, 2026, registered in Changning District, registered capital RMB 10B. \u4e0a\u6d77\u65b0\u62fc\u59c6\u6734\u52a8\u7535\u5b50\u5546\u52a1\u6709\u9650\u516c\u53f8: incorporated Feb 3, 2026, Pudong New Area, registered capital RMB 5B. Total Phase 1: RMB 15B.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-77",
+    "url": "https://www.stcn.com/article/detail/3698669.html",
+    "quote": "Xinpinmu integrates Pinduoduo + Temu supply chain resources for self-operated brand building across global markets and multiple product categories: Three pillars: (1) Establish specialized company, invest RMB 100B over 3 years, cover domestic industrial belts, launch customized manufacturing solutions, cultivate self-operated brands across multiple categories; (2) Deploy teams into industrial belts for product/tech/marketing integrated solutions; (3) Full brand-going-global solution: product standards, warehousing/logistics, IP services, legal aid, regulatory review.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-78",
+    "url": "https://finance.sina.com.cn/jjxw/2026-03-26/doc-inhshxnu0302453.shtml",
+    "quote": "Co-CEO Zhao Jiazhen framed Xinpinmu as 'recreating another Pinduoduo' \u2014 a 3-year horizon to build PDD's next major growth engine: Quote: '2026 is the starting point for the next phase. We will invest more Thousand Billion Support, continue to invest heavily in China's supply chain. We believe in the next three years, there will be an opportunity to recreate another Pinduoduo.' This framing implies management expects Xinpinmu to eventually match PDD's current scale \u2014 an extremely ambitious target.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-79",
+    "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+    "quote": "Analyst concern: self-operated brands will fundamentally increase PDD's cost structure, potentially eroding its competitive advantage in profitability: Commentary from Sina Finance: 'Self-operated Xinpinmu could be PDD's breakthrough path. But going all-in on self-operated will inevitably increase cost pressure, and the company's formerly industry-crushing profitability may be unsustainable.' The core tension: heavy supply chain investment vs maintaining 'extreme value-for-money' appeal to consumers.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q3",
+    "question_id": "Q3",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-80",
+    "url": "https://finance.yahoo.com/news/temu-slashes-ad-spend-ahead-175427671.html",
+    "quote": "Temu's global ad budget was ~$4.3B in 2024, running ~$1B/month, then slashed dramatically in 2025: 2024 global ad budget ~$4.3B (36Kr report). ~$1B/month run rate. April 2025 total ad spend collapsed to $66M (Europe 49%, LatAm 16%). US ad spend cut 31% daily across FB/IG/TikTok/Snap/YouTube. Google Shopping spend went to zero by April 12. Only 6 Meta ads running in US by mid-April. US paid traffic dropped 77%. Etsy CEO said Temu/Shein were 'almost single-handedly' driving up ad costs for everyone.",
+    "date": "2025-04",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-81",
+    "url": "https://www.mobiloud.com/blog/temu-statistics",
+    "quote": "Temu shifting from paid to organic growth: organic search traffic rose 4.3% MoM while paid fell 6% in early 2025: Between January and February 2025, Temu's organic search traffic rose 4.3% month-over-month, while paid search traffic fell 6.04%. This predated the tariff-driven ad cuts and suggests a strategic pivot toward organic/brand-driven growth \u2014 which Xinpinmu's owned brands would further support.",
+    "date": "2025-03",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-82",
+    "url": "https://sensortower.com/blog/temus-us-kickoff-strong-remains-top-ranked-app",
+    "quote": "Temu US install base recovered from 68M (June 2025) to 91M (October 2025) despite minimal ad spend: US install base dropped to 68M users in June 2025 after tariff shock and ad pullback. Recovered to 91M by October 2025. App open rate fell from 82% to 64%. Temu and Shein still ranked #1 and #2 globally for retail app downloads in 2025, despite US decline.",
+    "date": "2025-10",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-83",
+    "url": "https://pro.morningconsult.com/analysis/low-cost-retailers-temu-shein",
+    "quote": "Temu has a significant brand trust gap: 86% awareness but only 24% repeat purchase intent: Brand awareness is 86%, but conversion to actual purchasers is 40%. Only 24% of first-time buyers likely to return. 44% of US adults have used Temu as of January 2025.",
+    "date": "2025-01",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-84",
+    "url": "https://www.trustpilot.com/review/temu.com",
+    "quote": "42% of consumers believe Temu product quality is worse than US retailers; Trustpilot score 2.2/5: 42% of consumers who are aware of Temu believe product quality is worse than US retailers. Trustpilot score: 2.2/5 (from 49,061 reviews as of Oct 2025). Sitejabber: 2/5 stars from 1,760 reviews. Common complaints: flimsy products, cheap materials, items breaking after few uses. However, monthly shoppers have better perception: 31% said better quality, 32% said comparable.",
+    "date": "2025-10",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-85",
+    "url": "https://itunes.apple.com/lookup?id=1641486558",
+    "quote": "Temu iOS App Store rating is 4.7/5 across US and major European markets \u2014 contradicting review site scores: Temu iOS rating: US 4.7/5 (2,072,215 ratings), UK 4.7/5 (368,806), Germany 4.7/5 (194,783), France 4.7/5 (184,616), Italy 4.7/5 (96,299), Spain 4.6/5 (73,281). This high app store rating contradicts the much lower Trustpilot (2.2/5) and Sitejabber (2/5) scores. App Store reviews may be influenced by in-app prompting of satisfied users.",
+    "date": "2026-03-28",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-86",
+    "url": "https://marketingltb.com/blog/statistics/temu-statistics/",
+    "quote": "Nearly half of Temu's income comes from high earners making over $190K/year: Almost half of Temu's income comes from high earners who make over $190,000/year, suggesting the platform is attracting shoppers who could afford premium products, not just bargain hunters. This contradicts the narrative of Temu as purely a low-income shopping destination.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-87",
+    "url": "https://www.alibaba.com/product-insights/top-10-high-value-temu-products-to-buy-in-2026-data-verified.html",
+    "quote": "Temu's quality verification improving in 2026: 87K SKUs with 4.5+ star ratings, 99.3% authenticity for verified items: As of early 2026, Temu features over 87,000 SKUs with >=4.5-star verified ratings, >=92% positive return-free feedback, and third-party lab certifications. 'Authorized Brand Store' and 'Temu Verified Partner' badges introduced. Forensic analysis of 1,042 units confirmed 99.3% authenticity for badged items. 24,000+ counterfeit listings removed in Q1 2026.",
+    "date": "2026-02",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-88",
+    "url": "https://www.sellersprite.com/en/blog/unpacking-amazon-basics-case-study-private-label",
+    "quote": "Amazon Basics demonstrated how private labels can legitimize marketplaces \u2014 but also drew antitrust scrutiny: Amazon Basics launched 2009, expanded to thousands of items across categories. 73% of ecommerce executives 'concerned' about competition from Amazon private labels. FTC 2023 lawsuit cited 'biasing search results to preference Amazon's own products.' EU Commission 2020 charged Amazon with using data to push own products. Amazon subsequently reduced from 30 to under 20 private label brands due to antitrust pressure. Key lesson for Xinpinmu: self-preferencing risk.",
+    "date": "2025-06",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-89",
+    "url": "https://sacra.com/c/shein/",
+    "quote": "Shein operates a hybrid model: private-label core (~65% GMV) + marketplace (~35% GMV), projected $60B revenue in FY2025: Shein launched managed marketplace (35% of GMV in 2023) with low commissions (5-10% vs Amazon 20-40%). Over 13K merchants in semi-managed, 7K in fully managed. Revenue estimated $38B in 2024, projected $60B in FY2025. 600K+ items, 1K-3K new SKUs daily. Expanding into electronics via Newegg storefront. 2026 'Trust + Velocity' algorithm model. Shein X designer incubator for exclusive collections.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-90",
+    "url": "https://www.alibabagroup.com/en-US/document-1696296090350911488",
+    "quote": "AliExpress Choice model focuses on quality control + local warehousing; Xiaomi partnership as model for branded goods: AliExpress Choice integrates sales operations, payment, logistics, warehousing as one-stop solution. 6M sqm overseas warehouses. Achieved 95% of orders delivered within 48 hours with local pre-positioning. Xiaomi POCO F8 top-selling product Black Friday 2025, using local warehouses for TVs with 'Local+' branding. Four-dimensional model: POP self-operation + full hosting + semi-hosting + overseas hosting.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-91",
+    "url": "https://retailwire.com/discussion/amazon-haul-temu-shein/",
+    "quote": "Amazon Haul underperforming vs Temu/Shein: only 16% monthly purchase rate vs 28% for Temu, 23% for Shein: 24% of US consumers purchased from Amazon Haul at least once, but only 16% monthly. Temu: 28% monthly purchase rate. Shein: 23% monthly. Amazon Haul targets products up to EUR 20, deliberately forgoes fast delivery. Still a new entrant with limited traction.",
+    "date": "2025-12",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-92",
+    "url": "https://www.marketplacepulse.com/articles/temu-and-shein-conceding-us-market-share",
+    "quote": "Temu and Shein both announced price increases starting April 25, 2025 \u2014 conceding ultra-low-price model unsustainable under tariffs: Both companies released almost identical statements announcing price increases starting April 25, effectively conceding that their ultra-low-price model cannot survive the coming tariff reality. Consumer spending fell 10%+ (Shein) and 20%+ (Temu) in week ending May 11 2025. Other retailers gained: Asos, Zara, Ollie's, Nordstrom Rack.",
+    "date": "2025-05",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-93",
+    "url": "https://ecdb.com/resources/sample-data/retailer/temu",
+    "quote": "Temu's global GMV/sales reached approximately $92.5 billion in 2025, with projections of 35-40% growth in 2026: Temu generated revenue of US$92,514m on temu.com in 2025, with projections indicating a 35-40% increase in 2026. First-half 2024 sales of $20B already exceeded entire 2023 performance of $18B. 2024 estimated at $70.8B.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-94",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-10-logistics-in-times",
+    "quote": "Temu now operates almost entirely on semi-managed model, with 80% of orders from semi-managed sellers: Semi-managed orders now represent 80% of sales. Up to 70% of platform traffic is shifting toward semi-managed SKUs. Temu prioritizes semi-managed products in both homepage exposure and search results.",
+    "date": "2025-10",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-95",
+    "url": "https://amzprep.com/where-is-temu-warehouse-located/",
+    "quote": "Temu operates 13 self-owned warehouses globally: 10 in Europe, 2 in US, 1 in Mexico: Temu has built physical infrastructure with 13 self-owned warehouses globally (10 in Europe, 2 in US, 1 in Mexico). US warehouses projected to handle 15-20% of total US goods volume in 2025, rising to 20-25% by 2026. US warehouse locations: California/LA, Texas/Dallas-Fort Worth, New Jersey/Newark.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-96",
+    "url": "https://www.digitalcommerce360.com/2026/01/22/temu-vs-amazon-cross-border-ecommerce-sales-2025/",
+    "quote": "Temu achieved 24% cross-border e-commerce market share globally in 2025, matching Amazon: According to International Post Corporation (IPC) data published January 2026, Temu increased its share of cross-border ecommerce sales to 24% in 2025, up from less than 1% in 2022. Temu became the most-used cross-border ecommerce seller alongside Amazon. Shein held 9%, AliExpress 8%.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-97",
+    "url": "https://cross-border-magazine.com/new-silk-road-temu-rise-in-eu/",
+    "quote": "Temu's EU GMV projected to exceed $15B in 2025 and $20B by end of 2026: Temu's EU GMV is projected to exceed $15 billion in 2025 and could surpass $20 billion by the end of 2026, which would make it one of the top online marketplaces in Europe. By 2026, Temu is expected to be among the top 5 e-commerce platforms in Europe.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-98",
+    "url": "https://investor.pddholdings.com/financial-information/quarterly-results",
+    "quote": "PDD Holdings FY2025 revenue grew 10% YoY to RMB 431.8B; net income fell 11% to RMB 99.4B: Q4 2025 revenue: RMB 123.9B (+12% YoY). FY2025 revenue: RMB 431,845.7M (+10% YoY). Transaction services revenue: RMB 63.9B (+19% YoY). Marketing services grew only 5%. Net income fell from RMB 112.4B to RMB 99.4B. Operating margin fell to 24% from 25%. Cash position: RMB 422.3B (US$60.4B).",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-99",
+    "url": "https://www.whitecase.com/insight-alert/united-states-begins-restrain-cross-border-e-commerce",
+    "quote": "US de minimis exemption permanently revoked for China/HK May 2025, then globally Aug 2025: China/HK de minimis revoked May 2, 2025, causing 85% drop in low-value parcel volume (4M daily to 600K). Global suspension effective Aug 29, 2025. Postal shipments: Phase 1 (Aug 29 2025 - Feb 28 2026) flat $80-$200/item duty; Phase 2 (from Mar 1 2026) full ad valorem tariffs. One Big Beautiful Bill Act (July 4 2025) phases out exemption entirely by July 2027. Pre-reform: 1.36B de minimis entries annually, ~2/3 from China.",
+    "date": "2025-08",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-100",
+    "url": "https://taxation-customs.ec.europa.eu/news/e-commerce-150-eur-customs-duty-exemption-threshold-be-removed-2026-2025-11-13_en",
+    "quote": "EU will impose flat EUR 3 customs duty per parcel on sub-EUR150 imports from July 1, 2026: EU Council gave final approval Feb 11 2026. Flat EUR 3 customs duty on all parcels under EUR 150 entering EU, effective July 1 2026. Additional EUR 2 handling fee per consignment from Nov 2026. 4.6B shipments under EUR 150 entered EU in 2024, 91% from China. EUR 150 exemption abolished. Permanent regime via EU Customs Data Hub in 2028 with standard tariffs. Romania already imposed ~EUR 5 fee from Jan 1, 2026.",
+    "date": "2026-02-11",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-101",
+    "url": "https://www.cnbc.com/2025/04/16/temu-cuts-us-ad-spend-drops-in-app-store-rank-after-trump-tariffs-.html",
+    "quote": "Temu US daily users fell 48% in May 2025 vs March 2025 after de minimis changes; app ranking crashed from #3 to #85: Daily US users fell ~48% in May 2025 vs March 2025 (Reuters). App Store ranking collapsed from #3 to #85 in two weeks. Downloads fell 62% (SimilarWeb). US MAU fell 49% YoY in July 2025. Install base dropped to 68M in June 2025 but recovered to 91M by October 2025. US user engagement declined from 27% (Sep 2023) to 19% (Apr 2025).",
+    "date": "2025-04",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-102",
+    "url": "https://techbuzzchina.substack.com/p/temu-watch-10-logistics-in-times",
+    "quote": "Xinpinmu with local warehousing could circumvent trade barriers by shifting from cross-border direct shipping to bulk import + local fulfillment: Temu is already shifting: US storefront now shows only locally fulfilled products. Self-operated warehouses handle 15-20% of US volume in 2025, projected 20-25% by 2026. Semi-managed model requires merchants to ship in bulk to US warehouses. 13 self-owned warehouses globally. Preparing for EU changes with German warehouse as central hub. Xinpinmu's owned brands with pre-positioned inventory in local warehouses would pay standard import duties on bulk shipments rather than per-parcel tariffs.",
+    "date": "2025-10",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-103",
+    "url": "https://www.caixinglobal.com/2026-03-25/pdd-bets-on-in-house-brands-in-100-billion-yuan-expansion-plan-102427400.html",
+    "quote": "PDD launched Xinpinmu (\u65b0\u62fc\u59c6) on March 25, 2026, as a self-operated brand initiative with RMB 100B ($14.5B) three-year investment plan: PDD announced establishment of 'Xinpinmu' on March 25, 2026, alongside Q4 2025 earnings. Set up Shanghai entity with initial RMB 15B cash injection. Plans to invest RMB 100B ($14.5B) over three years. Co-chairman Zhao Jiazhen described it as the 'Rebuilding Pinduoduo' plan, aiming to create another Pinduoduo by 2029.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-104",
+    "url": "https://www.chinadaily.com.cn/a/202603/26/WS69c408aaa310d6866eb3fdd5.html",
+    "quote": "Xinpinmu will develop curated in-house brands combining PDD domestic supply chain with Temu overseas reach: The venture will develop curated in-house brands across markets and categories, combining PDD's domestic supply chain with Temu's overseas reach. Plans to offer 'go-global' services to China's industrial-belt merchants, including customized manufacturing, product standards, warehousing and logistics, IP support, legal assistance and regulatory-compliance help.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-105",
+    "url": "https://techbuzzchina.substack.com/p/temus-phase-3-building-a-new-pinduoduo",
+    "quote": "Xinpinmu builds on Temu's Phase 3 strategy of 'recreating another Pinduoduo' via C2M model: In December 2025, PDD said it wanted to 'recreate another Pinduoduo' over the next three years. Strategy builds on C2M (consumer-to-manufacturer) model: market demand \u2192 platform algorithm \u2192 factory production scheduling \u2192 consumers. The supply chain is the only real determining variable. PDD aims to enable merchants to leap from scale to quality and brand. China is the only country possessing all UN industrial categories, enabling end-to-end production within China.",
+    "date": "2026-01-12",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-106",
+    "url": "https://www.investing.com/news/stock-market-news/pdd-holdings-nomura-upgrades-to-buy-on-attractive-valuation-temu-strength-4584095",
+    "quote": "Nomura upgraded PDD to Buy citing Xinpinmu will help Temu cope with regulatory scrutiny on Chinese products: Nomura upgraded PDD to Buy from Neutral, target price $136.0, noting stock trading at 'merely' 8.6x 2026 forward P/E. Nomura said New Pin Mu initiative will help Temu better cope with increased scrutiny and regulation on Chinese products in western countries.",
+    "date": "2026-03-26",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-107",
+    "url": "https://www.caixinglobal.com/2026-03-25/pdd-bets-on-in-house-brands-in-100-billion-yuan-expansion-plan-102427400.html",
+    "quote": "Xinpinmu represents strategic shift from marketplace platform to building/owning brands \u2014 different from rivals focused on AI and food delivery: The move marks a bold strategic shift as PDD forges its own path when many rivals are focusing on artificial intelligence and food delivery. Management signaled weaker profitability reflects deliberate long-term investments in supply chains and ecosystem growth.",
+    "date": "2026-03-25",
+    "provenance": "auto:thesis-agent-Q4",
+    "question_id": "Q4",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-108",
+    "url": "https://companiesmarketcap.com/anker-innovations/revenue/",
+    "quote": "Anker is the most successful Chinese OEM-to-brand transition case: founded 2011, now publicly listed with market cap ~$9.4B, projected 2025 revenue RMB 31.9B (+29% YoY): Anker Innovations (300866.SZ): Founded 2011 by former Google engineer Steven Yang. Listed on ChiNext. Market cap ~$9.4B (as of Jul 2025). Revenue trajectory: 2024 FY RMB 24.7B (+41%); 9M 2025 RMB 21.0B (+28%); TTM Sep 2025 RMB 29.3B (+32%). Projected 2025-27 revenues: RMB 31.9B / 40.4B / 49.8B (+29% / +27% / +23%). Distributed RMB 3.07B in cash dividends for 2020-2024 (45.7% of cumulative net profit).",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-109",
+    "url": "https://electroiq.com/stats/anker-innovations-statistics/",
+    "quote": "Anker's success factors - heavy R&D investment (50% of staff), IP portfolio (2,245+ rights), 146-country distribution - represent the bar that Xinpinmu brands must aspire to but few will reach: Anker key success factors: (1) R&D-first: 50% of 3,615 employees are in R&D; (2) IP portfolio: 2,245+ intellectual property rights; (3) Global reach: 100M+ consumers across 146 countries; (4) Multi-channel: online channel revenue +25%, offline +34% (9M 2025); (5) Multiple sub-brands: OEM/ODM, licensed sub-brands, partnerships. Charging/Energy Storage revenue nearly tripled from 2020 to 2024 to RMB 12.67B. This took 14 years from founding to achieve - timeline far longer than Xinpinmu's 3-year plan.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-110",
+    "url": "https://www.chinanews.com.cn/cj/2026/03-25/10592777.shtml",
+    "quote": "Xinpinmu has visited 100+ manufacturing clusters including Yiwu cosmetics, Shenzhen electronics, Shandong snacks, Shaodong luggage, Pinghu down jackets, and Weihai fishing gear, and plans to invest RMB 100B over 3 years with RMB 15B initial injection: PDD formally announced Xinpinmu on March 25, 2026. The 'New Quality Supply' teams have visited 100+ premium manufacturing clusters. The company established a new dedicated company in Shanghai with initial cash injection of RMB 15B, with plans for total RMB 100B investment over three years to integrate 'Pinduoduo + Temu' supply chain resources for self-operated brand model targeting global markets.",
+    "date": "2026-03",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-111",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-03-27/doc-inhsmtim9418937.shtml",
+    "quote": "PDD identifies a common pattern across clusters: mature production capabilities and manufacturing standards exist, but brand operations capability and global channels are missing: Xinpinmu strategy explicitly addresses the 'smile curve' problem: assembly and manufacturing sit in a low-profit value trough while technology/patents and brand/services capture highest value. PDD co-chairman Zhao Jiazhen stated these clusters share a common characteristic: 'production capabilities are already mature, manufacturing standards are in place, what's missing is brand operations capability and global channels.'",
+    "date": "2026-03-27",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-112",
+    "url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhsmnzu2055506.shtml",
+    "quote": "Shaodong luggage cluster produces 70%+ of China's student backpacks with annual output value exceeding RMB 26B, and has already begun OEM-to-brand transition with PDD's prior support: Shaodong, Hunan produces over 70% of China's student backpacks with annual output value exceeding RMB 26B. Previously relied heavily on OEM with severe homogenization. Under PDD's earlier 'Hundred Billion Subsidy' plan, local merchants used platform data analytics for product R&D, spawning hit brands like 'Cooleni' (\u9177\u4e50\u5c3c) and attracting international IPs like Snoopy to establish production bases in Shaodong. Zhao Jiazhen stated: 'Shaodong's story will be replicated across all manufacturing clusters.'",
+    "date": "2026-03-27",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-113",
+    "url": "https://www.jiemian.com/article/7692885.html",
+    "quote": "Taobao Xinxuan (\u6dd8\u5b9d\u5fc3\u9009), Alibaba's self-operated lifestyle brand launched in 2017, was discontinued by 2022 and merged into 'Miaomanfen' (\u55b5\u6ee1\u5206) under Tmall Supermarket - a clear failure of the platform self-operated brand model: Taobao Xinxuan launched May 2017. In H1 2020, moved from Taobao business group to new local retail group; months later, head Zhang Di departed. In 2021, merged into Tmall Supermarket under B2C retail group. The official store announced suspension of operations and rebranding to 'Miaomanfen' (\u55b5\u6ee1\u5206) under Tmall Supermarket, ending the Taobao Xinxuan brand. Alibaba then launched 'Tao Yanxuan' (\u6dd8\u4e25\u9009) in March 2025 as a new attempt - a quality curation service built on Tao Factory (\u6dd8\u5de5\u5382), signaling Alibaba hasn't given up but acknowledges prior failure.",
+    "date": "2022-07",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-114",
+    "url": "https://finance.sina.cn/stock/jdts/2026-03-24/detail-inhsamhw1756867.d.html",
+    "quote": "JD Jingzao (\u4eac\u4e1c\u4eac\u9020) remains active with 200M+ user base by 2025, entering 'phase 3' of growth, but has never disclosed standalone revenue - success is ambiguous: By 2025, JD Jingzao entered its third growth phase (from '1 to 10') with 200M+ user base. Partnered with 70%+ of domestic industrial belts (Shandong textiles, Jiangsu silk, Guangdong 3C). In 2025, proposed '1223' business development plan. Recent products include AI plush toys, AI alarm clocks, and Au99.99 gold phone cases. Actively integrating JD's self-developed JoyAI (100x token usage growth YoY). However: specific standalone revenue figures have never been disclosed separately in JD's financials.",
+    "date": "2026-03-24",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-115",
+    "url": "https://www.ichaoqi.com/zhuanlan/2025/0126/71964.html",
+    "quote": "NetEase Yanxuan (\u7f51\u6613\u4e25\u9009) missed its 2018 RMB 20B GMV target, faces traffic anxiety, and struggles against Pinduoduo, Douyin, and traditional platforms - demonstrating difficulty of the curated brand model: NetEase founder Ding Lei set a 2018 GMV target of RMB 20B for Yanxuan - missed it (Yanxuan + Kaola combined reached only RMB 19.2B). By 2025, Yanxuan faces 'traffic anxiety' as it competes not just with Alibaba/JD/PDD but with content e-commerce platforms (Douyin, Xiaohongshu). Q3 2024: Yanxuan Pro membership grew 56% YoY, and pet/home cleaning categories achieved double-digit sales growth, but 'breakthrough remains the key challenge heading into 2025.' The brand is caught between idealistic quality positioning and price-war reality.",
+    "date": "2025-01",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-116",
+    "url": "https://36kr.com/p/1619407372416512",
+    "quote": "Xiaomi ecosystem invested in 400 companies (2016-2020) with ~330 still active as of 2021 (book value RMB 57.9B), but successful companies tend to 'escape' Xiaomi to build own brands due to low margins: Xiaomi invested in 400 ecosystem chain companies (2016-2020) using 'minority stake, no control' model. As of Q2 2021, 330+ ecosystem enterprises with book value RMB 57.9B. Key pattern: successful companies 'escape' Xiaomi - Huami's Xiaomi wearable revenue share dropped from 92.1% (2016) to 66.9% (2018), then Xiaomi wearable shipments dropped 45.3% while Huami own-brand shipments grew 88.9% by Q3 2021. GGV Capital's Hans Tung: 'Xiaomi helped companies scale volume, but with low margins - they inevitably needed to build own brands for higher profits.' Whether ecosystem companies can survive independently remains an 'unanswerable pain point.'",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-117",
+    "url": "https://wap.zhengguannews.cn/html/zgh/321704.html",
+    "quote": "Alibaba's newest attempt 'Tao Yanxuan' (March 2025) already faces quality control concerns - one product labeled as premium cotton was found to contain only 4.8% cotton: Tao Yanxuan launched March 2025 covering 16 major categories. However, quality control issues emerged immediately: one product labeled as premium cotton was found to contain only 4.8% cotton content. A source factory merchant noted: 'raw material price fluctuations, rising labor costs, and supply chain instability all increase production costs and compress profit margins' - making it difficult to maintain quality-price ratio.",
+    "date": "2025-04",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-118",
+    "url": "https://caifuhao.eastmoney.com/news/20260106085904408607950",
+    "quote": "Pinghu is China's largest down jacket manufacturing base with 2,000+ garment factories, annual sales exceeding RMB 50B, producing 8 out of every 10 down jackets sold nationally: Pinghu (Zhejiang) has 2,000+ garment factories focused on down jacket manufacturing. Annual sales exceed RMB 50B. '8 out of every 10 down jackets sold nationally come from Pinghu.' Geographic advantage: 1-hour drive from Suzhou, Hangzhou, Shanghai, and Ningbo.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-119",
+    "url": "https://finance.sina.com.cn/roll/2026-02-07/doc-inhkxucp7554010.shtml",
+    "quote": "Pinghu factories are transitioning from pure OEM to design/R&D/sales integration, providing design samples for top brands like Bosideng and Septwolves: Pinghu down jacket enterprises have shifted from pure OEM toward integrated design, R&D, and sales. Many now provide design samples for domestic tier-1 brands including Bosideng (\u6ce2\u53f8\u767b) and Septwolves (\u4e03\u5339\u72fc). Product innovation includes 'down jacket + outdoor jacket' fusion products and 'bamboo weave + down' fashion pieces combining intangible cultural heritage with modern design.",
+    "date": "2026-02-07",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-120",
+    "url": "https://caifuhao.eastmoney.com/news/20251009150823278931150",
+    "quote": "Pinghu's overseas brand efforts are still nascent: one merchant sold only 1,200 down jackets overseas in 2025 for ~RMB 8M revenue, but market expansion is accelerating: One Pinghu brand sold down jackets in 19 countries through 80+ boutiques, selling 1,200 pieces in 2025 for ~RMB 8M revenue - demonstrating demand but very small scale. In early 2026, three Pinghu enterprises attended the 45th Russian Fashion Fair, bringing 160+ sample pieces that became show highlights. Mid-sized Pinghu enterprises previously focused on domestic sales are now directly engaging overseas markets via 'Jiaxing Quality Products, Industry Going Overseas' platform.",
+    "date": "2025-10",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-121",
+    "url": "https://caifuhao.eastmoney.com/news/20260306084433018375480",
+    "quote": "Pinghu won national recognition for quality management in 2025, entering SAMR 'Quality Strong County' program with down jacket quality grading standards: In September 2025, Pinghu was selected for SAMR's (State Administration for Market Regulation) 'Quality Strong County Top 100 Quality Improvement' initiative. Down jacket industry entered cross-regional quality chain linkage projects. New quality grading standards were introduced. China Feather Industrial Association established a 'Global Down Traceability System' for source governance.",
+    "date": "2026-03-06",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-122",
+    "url": "https://www.sohu.com/a/979639620_116457",
+    "quote": "China's snack market exceeded RMB 800B in 2026, but competition has shifted from price wars to value competition, with the domestic quantitative retail channel (\u91cf\u8d29\u96f6\u98df) disrupting traditional distribution: 2026 Chinese snack market exceeded RMB 800B. Competition has evolved from pure price wars to comprehensive value competition. The quantitative retail (\u91cf\u8d29\u96f6\u98df) model directly connects brands with factories, releasing 20-30% margin previously retained by distributors. Key player: 'Haoxianglai' (\u597d\u60f3\u6765) under Wanchen Group has 15,000+ terminal stores across Shandong, Hebei and other provinces, with 50+ regional distribution centers and 900K+ sqm of smart warehousing.",
+    "date": "2026",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-123",
+    "url": "https://www.echinagov.com/news/guotao/Article-sSCe-1.html",
+    "quote": "Shandong has strong raw material advantages and industrial cluster effects for food production, but export-specific data for Shandong snacks is sparse - suggesting the cluster is primarily domestic-oriented: Shandong is recognized for 'raw material advantages, process expertise, and industrial cluster effects' in food production. Recommended as priority sourcing region for restaurants/food companies seeking 'flavor, cost, and supply chain resilience balance.' However, search results yielded minimal data on Shandong snack exports specifically - coverage focused overwhelmingly on domestic quantitative retail channel transformation and brand upgrading. This suggests Shandong snacks cluster is primarily domestic-market oriented, raising questions about readiness for Xinpinmu's global brand ambitions.",
+    "date": "2026",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-124",
+    "url": "https://quartr.com/companies/anker-innovations-limited_19432",
+    "quote": "Shenzhen 3C cluster has produced multiple globally successful OEM-to-brand transitions: Anker (TTM revenue RMB 29.3B, +32% YoY), UGREEN (59.6% overseas revenue), Shokz (revenue grew dozens-fold in 7 years to become global #1 in bone conduction): Anker Innovations (300866.SZ): 2024 full-year revenue RMB 24.7B (+41% YoY); TTM as of Sep 2025 reached RMB 29.3B (+32% YoY). Net profit for 9M 2025: RMB 1.93B (+31% YoY). Sells to 100M+ consumers in 146 countries. 50% of 3,615 employees in R&D with 2,245+ IP rights. UGREEN: overseas revenue rose from 50.4% (2023) to 57.5% (2024) to 59.6% (9M 2025). Shokz (\u97f6\u97f3): 7-year revenue growth of dozens-fold, became global #1 in bone conduction headphones.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-125",
+    "url": "https://m.shushangyun.com/article-21638.html",
+    "quote": "Anker's OEM-to-brand journey followed a three-phase pattern typical of Shenzhen companies: (1) OEM/ODM, (2) platform partner/reseller, (3) self-operated brand: Creality (\u521b\u60f3\u4e09\u7ef4), a Shenzhen 3D printer maker, exemplifies the typical pathway: Phase 1 (pre-2016): OEM/ODM manufacturing; Phase 2 (2016-2019): products sold via Amazon large sellers as intermediary; Phase 3 (2019+): self-operated brand on Amazon and independent site. Anker followed a similar trajectory from 2011 Amazon private-label to global consumer brand. By 2025, Anker and Baseus had independent site traffic share reaching 30% with 50% higher average order value.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-126",
+    "url": "http://gxj.sz.gov.cn/gkmlpt/content/11/11241/post_11241690.html",
+    "quote": "Shenzhen municipal government actively supports the cluster with smart terminal industry cluster action plans valid through 2026, pushing for high-end, intelligent, and internationalized development: Shenzhen issued the 'Shenzhen Smart Terminal Industry Cluster Action Plan (2024-2025)' to promote high-end, intelligent, and internationalized development of the smart terminal industry cluster. Policy validity extends to December 31, 2026. The global 3C digital accessories market reached ~$1.03T in 2023, growing at 8.7% CAGR, expected to reach $1.5T by 2025.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-127",
+    "url": "https://wiki.mbalib.com/wiki/%E5%BE%AE%E7%AC%91%E6%9B%B2%E7%BA%BF%E7%90%86%E8%AE%BA",
+    "quote": "The 'Smiling Curve' theory remains highly relevant: Chinese manufacturing sits at the low-value middle of the value chain, with R&D and brand/marketing at the high-value ends: Smiling Curve (proposed by Acer founder Stan Shih, 1992): In the value chain, added value is concentrated at two ends - design/R&D (left) and marketing/sales (right), while manufacturing in the middle has lowest added value. Since joining WTO, China positioned at the curve's bottom via cheap production factors for OEM work. Most profits flow to developed countries. Recommended strategies to move up: (1) product upgrading/market expansion for economies of scale; (2) vertical integration; (3) shortening sales channels for higher added value.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-128",
+    "url": "https://seller.alibaba.com/blogs/2026/sea/ce-export-strategy-demand-quality-paradox",
+    "quote": "CE and FDA certifications have shifted from competitive differentiators to mandatory entry requirements for Chinese OEM exporters, creating a significant barrier: Quality control and international safety certifications (UL, CE) are now 'non-negotiable entry barriers, not just competitive advantages' for the $1.2T global consumer electronics market by 2026. North American and European buyers account for 65%+ of total international inquiries and require certified products. Chinese manufacturers face language barriers, lack of information, and are often too small for dedicated certification teams. Tariffs on electronics components including li-ion batteries rose in 2025 (25% tariff on lithium battery parts newly introduced).",
+    "date": "2026",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-129",
+    "url": "https://www.uscc.gov/sites/default/files/2025-11/Made_in_China_2025--Evaluating_Chinas_Performance.pdf",
+    "quote": "Made in China 2025 broadly succeeded at the sector level according to USCC assessment, but individual company brand-building success is far more uneven: U.S.-China Economic and Security Review Commission (Nov 2025) evaluated MIC2025 across key technology sectors: 'China broadly succeeded in reaching its ambitious targets' in terms of global market share and top global companies. However, at the individual company level, no widely cited success rate exists for OEM-to-brand transitions. A thriving consulting industry has emerged specifically to help SMEs navigate the transition, suggesting both demand and difficulty. One firm claims serving 170+ enterprises, helping 30+ become segment leaders - implying roughly 18% 'leadership' success rate among clients.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "context"
+  },
+  {
+    "id": "AUTO-130",
+    "url": "https://www.china-briefing.com/news/chinas-manufacturing-upgrade-plan-2026-miit-blueprint/",
+    "quote": "By 2025, 70%+ of large Chinese manufacturing firms have substantially completed digital networking and built smart factories, providing infrastructure for brand-quality production: By 2025, more than 70% of large manufacturing firms in China have substantially completed digital networking and built demonstrator 'smart factories.' China's Feb 2026 manufacturing PMI rose to 52.1 (highest since Dec 2020), with output growing the most since June 2024 and foreign demand seeing its sharpest rise since September 2020. The government's 'anti-involution' campaign aims to consolidate overcapacity sectors.",
+    "date": "2026",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-131",
+    "url": "https://www.163.com/dy/article/KMKNUT2A05198SOQ.html",
+    "quote": "China's luggage/bag exports reached 368M tons in 2025 but export value declined 13.5% YoY to $29.9B, indicating deepening price competition and lack of brand premium: 2025 full-year Chinese luggage/bag exports: 368M tons (+1.6% YoY in volume) but $29.9B (-13.5% YoY in value). Volume up but value down sharply demonstrates the exact 'smiling curve' problem: manufacturing scale without brand pricing power. Average export price per unit declining significantly.",
+    "date": "2026-01",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "contradicts"
+  },
+  {
+    "id": "AUTO-132",
+    "url": "https://www.chinanews.com/cj/2025/04-25/10405786.shtml",
+    "quote": "Weihai produces 60%+ of the world's fishing rods (4M rods/year, RMB 10B+ annual output), exports to 150+ countries, but high-end market brand power remains dominated by Japanese/European players: Weihai fishing gear annual output value exceeds RMB 10B, annual rod production ~40M rods, 60%+ global market share. '6 out of every 10 fishing rods sold globally are produced in Weihai.' ~50% of output is exported to 150+ countries. However, the industry shows 'strong manufacturing, weak branding' - Japanese and European brands still dominate high-end market pricing power.",
+    "date": "2025-04",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-133",
+    "url": "https://news.qq.com/rain/a/20251007A022O200",
+    "quote": "Weihai launched China's first fishing gear regional brand collective trademark in Oct 2024; 'Weihai Fishing Gear' was named a MIIT China Consumer Name Product in 2025: 'Weihai Fishing Gear' collective trademark officially launched October 2024 - first of its kind in China's fishing gear industry. In April 2025, MIIT included 'Weihai Fishing Gear' in the first batch of 'China Consumer Name Products.' This regional brand strategy supports individual companies' branding efforts.",
+    "date": "2025-10",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-134",
+    "url": "https://www.fengkouapp.com/news.html?id=1170059005679374336&type=news",
+    "quote": "Chinese brands like Handing (\u6c49\u9f0e) and Guangwei (\u5149\u5a01) are successfully transitioning from OEM to branded exports via e-commerce: Handing generates RMB 300M+ annually on Amazon: KastKing, Seasir, Handing (\u6c49\u9f0e), and Huashi (\u5316\u6c0f) are leading Chinese fishing gear brands going overseas via cross-border e-commerce, focusing on lure fishing sub-categories. Handing generates RMB 300M+ in annual Amazon sales. Guangwei's carbon fiber fishing rods have entered European high-end markets. Guangwei is publicly listed (300699.SZ) and launches 50+ iterative products annually targeting specific market segments.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-135",
+    "url": "https://www.manilatimes.net/2025/11/08/tmt-newswire/pr-newswire/xinhua-silk-road-smart-technology-whole-industrial-chain-empower-fishing-rods-manufacturing-in-e-chinas-weihai/2219468",
+    "quote": "Weihai achieved world's first fully automated fishing rod production line, reducing manpower by 80%, with RMB 20M+ investment and 40+ patents: Shandong Handing Industrial Automation built the world's first full-automatic fishing rod production line, enabling unmanned operation across 30+ production processes. Total investment exceeded RMB 20M, with 40+ independent patents. Reduced manpower by 80%. Guangwei designers are actively developing new products targeting Southeast Asian markets, using upgraded carbon fiber grades with 10% weight reduction and 15% strength increase.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-136",
+    "url": "https://www.weihai.gov.cn/art/2025/9/29/art_60663_5851445.html",
+    "quote": "2025 international procurement event in Weihai completed 280+ business negotiations with buyers from 20+ countries, RMB 23M in initial intent deals for high-end products: 2025 'Ten Thousand Enterprises Going Overseas' fishing gear international procurement event held in Weihai: buyers from 20+ countries engaged in one-on-one matchmaking. 280+ business negotiations completed on the day. Initial intent deal value: RMB 23M, covering carbon fiber rods, smart fishing reels, and other high-end products.",
+    "date": "2025-09-29",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-137",
+    "url": "https://mpa.zj.gov.cn/art/2020/11/3/art_1228989352_58923708.html",
+    "quote": "Yiwu is China's first national-level cosmetics (color cosmetics) production base, with 170+ manufacturers accounting for 30% of Zhejiang province's total: Yiwu is certified by the China Light Industry Federation as 'China's Cosmetics (Color Cosmetics) Base' - the first national-level production base focused on color cosmetics. Currently has 170+ cosmetics production enterprises (30% of Zhejiang province total). Via Yiwu International Trade City, 1,200+ business entities operate, with nearly 80% of national cosmetics manufacturers having agents there, forming a complete 'production + trade' dual-driven industrial chain.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-138",
+    "url": "https://zhuanlan.zhihu.com/p/1941419561892177576",
+    "quote": "H1 2025 Chinese mass-market cosmetics exports reached RMB 18.7B ($2.6B), up 12% YoY, with US, UK, Indonesia, Netherlands and Japan as top destinations: Customs data shows H1 2025 Chinese mass-market cosmetics exports reached RMB 18.7B (~$2.6B), up 12% YoY. Top export destinations: US, UK, Indonesia, Netherlands, Japan.",
+    "date": "2025",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "secondary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-139",
+    "url": "https://news.hangzhou.com.cn/zjnews/content/2026-02/19/content_9179939.htm",
+    "quote": "Yiwu cosmetics enterprises are transitioning from OEM to brand, exemplified by 'Sweet Beauty' brand targeting overseas consumers: In Yiwu International Trade City Area 3, 'Sweet Beauty' brand represents the identity transformation from OEM to brand. Founder Sun Min stated the brand 'hits overseas consumers' compound demand for fashion, fun, and high cost-performance.' Yiwu's 2025 import/export volume exceeded RMB 836.5B.",
+    "date": "2026-02-19",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "tertiary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-140",
+    "url": "https://zjic.zj.gov.cn/ywdh/ggkf/202511/t20251104_23787279.shtml",
+    "quote": "Zhejiang provincial government issued specific cosmetics trade facilitation pilot policies for Yiwu with 12 measures across 4 areas: Zhejiang Provincial Drug Administration issued 'Implementation Plan for Supporting Yiwu Cosmetics Import/Export Trade Facilitation Reform Pilot,' with 12 specific measures across 4 areas to create a nationally leading cosmetics trade facilitation zone. The 2025 Zhejiang provincial plan explicitly proposes accelerating 'Zhejiang Export Famous Brands' going overseas.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  },
+  {
+    "id": "AUTO-141",
+    "url": "https://www.yw.gov.cn/art/2025/11/14/art_1229142865_1832389.html",
+    "quote": "Yiwu targets incubating 100+ original design merchants and training 30,000+ merchants by end of 2026: Yiwu's target by end of 2026: incubate 100+ original design merchants, train 30,000+ merchants. In 2026, Zhejiang plans to dispatch 2,000+ business groups bringing 20,000 enterprises to go overseas and compete for orders.",
+    "date": "2025-11",
+    "provenance": "auto:thesis-agent-Q5",
+    "question_id": "Q5",
+    "source_tier": "primary",
+    "evidence_direction": "supports"
+  }
+]

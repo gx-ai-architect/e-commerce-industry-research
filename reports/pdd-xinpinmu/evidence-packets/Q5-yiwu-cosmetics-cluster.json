@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is the manufacturing cluster readiness - can Chinese OEM factories actually build global brands?",
+  "company": "Yiwu Cosmetics Cluster",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Yiwu is China's first national-level cosmetics (color cosmetics) production base, with 170+ manufacturers accounting for 30% of Zhejiang province's total",
+      "data": "Yiwu is certified by the China Light Industry Federation as 'China's Cosmetics (Color Cosmetics) Base' - the first national-level production base focused on color cosmetics. Currently has 170+ cosmetics production enterprises (30% of Zhejiang province total). Via Yiwu International Trade City, 1,200+ business entities operate, with nearly 80% of national cosmetics manufacturers having agents there, forming a complete 'production + trade' dual-driven industrial chain.",
+      "source_url": "https://mpa.zj.gov.cn/art/2020/11/3/art_1228989352_58923708.html",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "H1 2025 Chinese mass-market cosmetics exports reached RMB 18.7B ($2.6B), up 12% YoY, with US, UK, Indonesia, Netherlands and Japan as top destinations",
+      "data": "Customs data shows H1 2025 Chinese mass-market cosmetics exports reached RMB 18.7B (~$2.6B), up 12% YoY. Top export destinations: US, UK, Indonesia, Netherlands, Japan.",
+      "source_url": "https://zhuanlan.zhihu.com/p/1941419561892177576",
+      "source_date": "2025",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Yiwu cosmetics enterprises are transitioning from OEM to brand, exemplified by 'Sweet Beauty' brand targeting overseas consumers",
+      "data": "In Yiwu International Trade City Area 3, 'Sweet Beauty' brand represents the identity transformation from OEM to brand. Founder Sun Min stated the brand 'hits overseas consumers' compound demand for fashion, fun, and high cost-performance.' Yiwu's 2025 import/export volume exceeded RMB 836.5B.",
+      "source_url": "https://news.hangzhou.com.cn/zjnews/content/2026-02/19/content_9179939.htm",
+      "source_date": "2026-02-19",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Zhejiang provincial government issued specific cosmetics trade facilitation pilot policies for Yiwu with 12 measures across 4 areas",
+      "data": "Zhejiang Provincial Drug Administration issued 'Implementation Plan for Supporting Yiwu Cosmetics Import/Export Trade Facilitation Reform Pilot,' with 12 specific measures across 4 areas to create a nationally leading cosmetics trade facilitation zone. The 2025 Zhejiang provincial plan explicitly proposes accelerating 'Zhejiang Export Famous Brands' going overseas.",
+      "source_url": "https://zjic.zj.gov.cn/ywdh/ggkf/202511/t20251104_23787279.shtml",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Yiwu targets incubating 100+ original design merchants and training 30,000+ merchants by end of 2026",
+      "data": "Yiwu's target by end of 2026: incubate 100+ original design merchants, train 30,000+ merchants. In 2026, Zhejiang plans to dispatch 2,000+ business groups bringing 20,000 enterprises to go overseas and compete for orders.",
+      "source_url": "https://www.yw.gov.cn/art/2025/11/14/art_1229142865_1832389.html",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

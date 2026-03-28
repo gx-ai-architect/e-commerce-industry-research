@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q2",
+  "question_id": "Q2",
+  "question": "What is the merchant ecosystem risk — how will self-operated brands coexist with existing marketplace sellers?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Industry analysts identify balancing self-operated brands with existing merchant interests as the core challenge of Xinpinmu",
+      "data": "Multiple analyst and media assessments: (1) 'How to balance competition between self-operated brands and third-party merchants is a huge test.' (2) 'The balance of interests between the self-operated system and original platform merchants, and allocation of supply chain resources, tests the group's organizational coordination capability.' (3) 'Self-operated brands mean heavier asset operations and higher management thresholds — whether RMB 100B can achieve expected conversion within 3 years still needs market validation.' (4) Commentary: 'PDD says it wants low-price high-quality Xinpinmu, but low-price high-quality is itself a paradox.'",
+      "source_url": "https://finance.sina.com.cn/tech/roll/2026-03-27/doc-inhsmtim9418937.shtml",
+      "source_date": "2026-03-27",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD has NOT announced specific policies to protect existing marketplace merchants from Xinpinmu competition — no traffic ring-fencing, no category exclusions disclosed",
+      "data": "Across all official announcements (Xinhua, 36kr, Sina, Securities Times, every financial outlet coverage of March 25 announcement), the three pillars of Xinpinmu focus on: (1) dedicated self-operated company, (2) industrial belt teams, (3) go-global solutions. No mention of: traffic allocation protections for existing merchants, category restrictions for self-operated brands, merchant advisory councils, or competitive safeguards. The 'Thousand Billion Support' plan (announced separately in April 2025) addresses merchant welfare but does not specifically address Xinpinmu competition.",
+      "source_url": "http://www.news.cn/tech/20260326/5f2bae4b8ee44941941aa1198437c82d/c.html",
+      "source_date": "2026-03-26",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's stated framing positions Xinpinmu as complementary to merchants (brand building for industrial belt producers) rather than competitive, but this framing has gaps",
+      "data": "Official narrative: Xinpinmu will 'deeply bind with China's industrial belts,' helping OEM/ODM factories transition from contract manufacturing to branded products. Example: Shaodong, Hunan — produced 70%+ of China's school backpacks via OEM, PDD's support helped local merchants build branded products. MoC researcher Hong Yong: 'Through building brand advantages, products can form differentiation and premium capabilities, moving from price competition to value competition.' However, no mechanism disclosed for how Xinpinmu brands coexist with independent merchant brands in the same categories.",
+      "source_url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhsmnzu2055506.shtml",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD's FY2025 cash position of RMB 422.3B and net profit of RMB 107.3B provide financial runway for self-operated investment without squeezing merchant subsidies — but margin guidance signals trade-offs",
+      "data": "PDD ended 2025 with RMB 422.3B in cash. Non-GAAP net profit: RMB 107.3B (-12% YoY). Management guided 2026 operating costs will rise and gross margins will continue declining. Total costs of revenues already increased 23% YoY to RMB 188.8B in FY2025. The Xinpinmu RMB 100B/3yr commitment is ~25% of current cash reserves, implying significant capital commitment.",
+      "source_url": "https://www.stocktitan.net/news/PDD/pdd-holdings-announces-fourth-quarter-2025-and-fiscal-year-2025-yypno24d08v2.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Tax compliance crackdown specifically impacts PDD/Taobao SME merchants more than JD's self-operated model, adding to ecosystem stress",
+      "data": "New rules since June 2025 require broader merchant income reporting; over 7,000 platforms complied, merchant tax contributions rose 12.7% YoY. Commentary: 'JD's mostly self-operated stores and Tmall's large brand merchants were already tax-compliant, relatively less impacted. Taobao and PDD's SME merchants will face the greatest shock, especially PDD merchants whose profits are already limited.'",
+      "source_url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+      "source_date": "2026-03-26",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

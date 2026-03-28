@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Can RMB 100B over 3 years generate positive ROI, and what are the unit economics of self-operated brand building?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "SCENARIO ANALYSIS: For RMB 100B investment to achieve 15% ROI (PDD's WACC ~10.5%), Xinpinmu would need to generate ~RMB 15B annual operating profit at steady state",
+      "data": "Calculation: RMB 100B invested over 3 years. At 15% ROI target: need RMB 15B/year operating profit. If Xinpinmu operates at JD-like 1P margins (operating margin ~6%), it would need RMB 250B in annual revenue. If it achieves Kirkland-like margins (15% gross, ~8% operating), it needs RMB 188B revenue. For context, PDD's total FY2025 revenue was RMB 432B. Xinpinmu would need to reach 44-58% of PDD's current revenue to justify the investment at a 15% ROI.",
+      "source_url": "https://www.globenewswire.com/news-release/2026/03/25/3262038/0/en/PDD-Holdings-Announces-Fourth-Quarter-2025-and-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "SCENARIO ANALYSIS: At a more modest 5% operating margin (below JD Retail's 5.9%), Xinpinmu would need RMB 300B in annual revenue to generate RMB 15B operating profit — equivalent to 70% of PDD's current revenue",
+      "data": "5% operating margin scenario: RMB 15B / 5% = RMB 300B revenue needed. This is comparable to JD Retail's ~RMB 750B revenue at 5.9% operating margin generating ~RMB 44B operating profit. The challenge: JD built its 1P business over 20+ years with massive logistics infrastructure investments totaling tens of billions USD.",
+      "source_url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "China's private label market is in a 'golden growth phase' — FMCG private label share reached 2% of sales in Q3 2025, growing 44% over 2 years, suggesting large runway",
+      "data": "Bain & Company / Worldpanel 14th China Shopper Report 2025: private-label goods = 2% of FMCG sales in Q3 2025, up 44% over prior 2 years. Global private label market projected to reach $1.6T by 2034. Chinese retailers (Walmart China Marketside, Wumart) expanding private label portfolios. Private labels entered 'golden growth phase' as retailers leverage shopper insights and integrated supply chains.",
+      "source_url": "https://www.chinadaily.com.cn/a/202601/21/WS69701457a310d6866eb34d48.html",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "BREAKEVEN ANALYSIS: If Xinpinmu captures just 5% of PDD's estimated domestic GMV (~RMB 4T), self-operated revenue would be ~RMB 200B — potentially viable at Kirkland-type margins",
+      "data": "PDD domestic GMV estimated at RMB 3.5-4.5T (not disclosed). At 5% penetration: RMB 175-225B self-operated revenue. At 15% gross margin (Kirkland benchmark): RMB 26-34B gross profit. At 8% operating margin: RMB 14-18B operating profit — roughly meeting the 15% ROI hurdle. But this assumes PDD can achieve Kirkland-level efficiency with a brand built from scratch in 3 years, which is ambitious.",
+      "source_url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhsmnzu2055506.shtml",
+      "source_date": "2026-03-27",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "low"
+    },
+    {
+      "claim": "Broker consensus projects PDD domestic platform (主站) revenue CAGR of 21% from 2023-2026, with monetization rate rising from 4.8% to 5.1% — Xinpinmu could accelerate monetization if executed well",
+      "data": "Domestic platform revenue projections: 2023 RMB 170B → 2026E RMB 304.5B, 3Y CAGR 21%. Monetization rate: 2024 4.8% → 2026E 5.1%. Self-operated brands could boost monetization by capturing full product margin (15%+) rather than just take rate (3-5%), but at the cost of much higher working capital and operational complexity.",
+      "source_url": "https://pdf.dfcfw.com/pdf/H3_AP202503101644243002_1.pdf",
+      "source_date": "2025-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

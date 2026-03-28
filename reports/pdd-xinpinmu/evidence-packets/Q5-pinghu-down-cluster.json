@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is the manufacturing cluster readiness - can Chinese OEM factories actually build global brands?",
+  "company": "Pinghu Down Jacket Cluster",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Pinghu is China's largest down jacket manufacturing base with 2,000+ garment factories, annual sales exceeding RMB 50B, producing 8 out of every 10 down jackets sold nationally",
+      "data": "Pinghu (Zhejiang) has 2,000+ garment factories focused on down jacket manufacturing. Annual sales exceed RMB 50B. '8 out of every 10 down jackets sold nationally come from Pinghu.' Geographic advantage: 1-hour drive from Suzhou, Hangzhou, Shanghai, and Ningbo.",
+      "source_url": "https://caifuhao.eastmoney.com/news/20260106085904408607950",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Pinghu factories are transitioning from pure OEM to design/R&D/sales integration, providing design samples for top brands like Bosideng and Septwolves",
+      "data": "Pinghu down jacket enterprises have shifted from pure OEM toward integrated design, R&D, and sales. Many now provide design samples for domestic tier-1 brands including Bosideng (波司登) and Septwolves (七匹狼). Product innovation includes 'down jacket + outdoor jacket' fusion products and 'bamboo weave + down' fashion pieces combining intangible cultural heritage with modern design.",
+      "source_url": "https://finance.sina.com.cn/roll/2026-02-07/doc-inhkxucp7554010.shtml",
+      "source_date": "2026-02-07",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Pinghu's overseas brand efforts are still nascent: one merchant sold only 1,200 down jackets overseas in 2025 for ~RMB 8M revenue, but market expansion is accelerating",
+      "data": "One Pinghu brand sold down jackets in 19 countries through 80+ boutiques, selling 1,200 pieces in 2025 for ~RMB 8M revenue - demonstrating demand but very small scale. In early 2026, three Pinghu enterprises attended the 45th Russian Fashion Fair, bringing 160+ sample pieces that became show highlights. Mid-sized Pinghu enterprises previously focused on domestic sales are now directly engaging overseas markets via 'Jiaxing Quality Products, Industry Going Overseas' platform.",
+      "source_url": "https://caifuhao.eastmoney.com/news/20251009150823278931150",
+      "source_date": "2025-10",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Pinghu won national recognition for quality management in 2025, entering SAMR 'Quality Strong County' program with down jacket quality grading standards",
+      "data": "In September 2025, Pinghu was selected for SAMR's (State Administration for Market Regulation) 'Quality Strong County Top 100 Quality Improvement' initiative. Down jacket industry entered cross-regional quality chain linkage projects. New quality grading standards were introduced. China Feather Industrial Association established a 'Global Down Traceability System' for source governance.",
+      "source_url": "https://caifuhao.eastmoney.com/news/20260306084433018375480",
+      "source_date": "2026-03-06",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Can RMB 100B over 3 years generate positive ROI, and what are the unit economics of self-operated brand building?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Xinpinmu has already incorporated two entities in Shanghai with combined registered capital of RMB 15B as Phase 1",
+      "data": "上海新拼姆鸿乔电子商务有限公司: incorporated Feb 2, 2026, registered in Changning District, registered capital RMB 10B. 上海新拼姆朴动电子商务有限公司: incorporated Feb 3, 2026, Pudong New Area, registered capital RMB 5B. Total Phase 1: RMB 15B.",
+      "source_url": "https://news.pedaily.cn/202603/562090.shtml",
+      "source_date": "2026-03-25",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu integrates Pinduoduo + Temu supply chain resources for self-operated brand building across global markets and multiple product categories",
+      "data": "Three pillars: (1) Establish specialized company, invest RMB 100B over 3 years, cover domestic industrial belts, launch customized manufacturing solutions, cultivate self-operated brands across multiple categories; (2) Deploy teams into industrial belts for product/tech/marketing integrated solutions; (3) Full brand-going-global solution: product standards, warehousing/logistics, IP services, legal aid, regulatory review.",
+      "source_url": "https://www.stcn.com/article/detail/3698669.html",
+      "source_date": "2026-03-25",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Co-CEO Zhao Jiazhen framed Xinpinmu as 'recreating another Pinduoduo' — a 3-year horizon to build PDD's next major growth engine",
+      "data": "Quote: '2026 is the starting point for the next phase. We will invest more Thousand Billion Support, continue to invest heavily in China's supply chain. We believe in the next three years, there will be an opportunity to recreate another Pinduoduo.' This framing implies management expects Xinpinmu to eventually match PDD's current scale — an extremely ambitious target.",
+      "source_url": "https://finance.sina.com.cn/jjxw/2026-03-26/doc-inhshxnu0302453.shtml",
+      "source_date": "2026-03-26",
+      "source_tier": "tertiary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Analyst concern: self-operated brands will fundamentally increase PDD's cost structure, potentially eroding its competitive advantage in profitability",
+      "data": "Commentary from Sina Finance: 'Self-operated Xinpinmu could be PDD's breakthrough path. But going all-in on self-operated will inevitably increase cost pressure, and the company's formerly industry-crushing profitability may be unsustainable.' The core tension: heavy supply chain investment vs maintaining 'extreme value-for-money' appeal to consumers.",
+      "source_url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+      "source_date": "2026-03-26",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}
