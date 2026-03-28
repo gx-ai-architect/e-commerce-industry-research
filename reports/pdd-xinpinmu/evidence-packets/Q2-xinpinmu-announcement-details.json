@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q2",
+  "question_id": "Q2",
+  "question": "What is the merchant ecosystem risk — how will self-operated brands coexist with existing marketplace sellers?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD announced Xinpinmu on March 25, 2026 with RMB 15B initial capital injection and RMB 100B planned over 3 years for self-operated brand building",
+      "data": "Two Shanghai entities registered: Shanghai Xinpinmu Hongqiao E-commerce Co. (registered Feb 2, 2026, RMB 10B capital, Changning District) and Shanghai Xinpinmu Pudong E-commerce Co. (registered Feb 3, 2026, RMB 5B capital, Pudong). Total first tranche: RMB 15B. Three-year plan: RMB 100B.",
+      "source_url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhsmnzu2055506.shtml",
+      "source_date": "2026-03-27",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu integrates Pinduoduo + Temu supply chains to build self-operated brands targeting global markets across categories",
+      "data": "Three core pillars: (1) Dedicated company with RMB 100B over 3 years covering domestic industrial belts, custom manufacturing solutions, cultivating self-operated brands; (2) Dedicated teams embedded in industrial belts providing product/tech/marketing integrated solutions; (3) Comprehensive brand go-global solutions including product standards, warehousing/logistics, IP services, legal aid, regulatory compliance.",
+      "source_url": "http://www.news.cn/tech/20260326/5f2bae4b8ee44941941aa1198437c82d/c.html",
+      "source_date": "2026-03-26",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "This marks PDD's first move from pure platform model to platform + self-operated hybrid, a fundamental business model shift",
+      "data": "PDD previously operated as a pure marketplace, earning from merchant advertising and transaction commissions. Multiple analysts note this is PDD's first time 'going heavy' with self-operated retail, moving from 'super channel' to 'supply chain leader'. Commentary: 'Previously not doing self-operated was what made PDD the most profitable among the three major e-commerce players.'",
+      "source_url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+      "source_date": "2026-03-26",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is the 'online Costco' private-label model viable for PDD, and how does it compare to precedents?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD officially launched 'Xinpinmu' self-operated brand initiative on March 25, 2026, with RMB 15B initial injection and RMB 100B planned over 3 years",
+      "data": "PDD Holdings announced formation of 'Xinpinmu' (New Pinmo), a new entity in Shanghai with RMB 15 billion initial cash injection. Over three years, PDD plans to invest RMB 100 billion ($14.5B) total to build self-operated brands integrating Pinduoduo + Temu supply chain resources, targeting both domestic and global markets across multiple categories.",
+      "source_url": "https://www.caixinglobal.com/2026-03-25/pdd-bets-on-in-house-brands-in-100-billion-yuan-expansion-plan-102427400.html",
+      "source_date": "2026-03-25",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD has RMB 422.3B cash reserves to fund the initiative, with FY2025 net profit of RMB 99.3B despite 12% profit decline",
+      "data": "As of December 31, 2025, PDD held RMB 422.3 billion in cash, cash equivalents and short-term investments (up from RMB 331.6B at end of 2024). FY2025 revenue was RMB 431.8B (+10% YoY), non-GAAP net profit RMB 107.3B (-12% YoY). PDD surpassed Alibaba for the first time as the most profitable Chinese e-commerce company.",
+      "source_url": "https://www.caixinglobal.com/2026-03-25/pdd-bets-on-in-house-brands-in-100-billion-yuan-expansion-plan-102427400.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu represents a strategic shift from pure platform to supply chain owner, announced as part of 'recreate a PDD in 3 years' vision",
+      "data": "At December 2025 shareholders' meeting, Co-Chairman Zhao Jiazhen announced 'recreate a Pinduoduo in 3 years' strategy. Xinpinmu is the first major execution step. The model involves PDD becoming the 'principal' (acting as buyer/brand owner) rather than just a marketplace connecting buyers and sellers. Three pillars: (1) form Xinpinmu entity investing RMB 100B, (2) deploy teams to industrial clusters with digital/manufacturing solutions, (3) launch comprehensive go-global brand services (product standards, warehousing, IP, legal, regulatory).",
+      "source_url": "http://www.news.cn/tech/20260326/5f2bae4b8ee44941941aa1198437c82d/c.html",
+      "source_date": "2026-03-26",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's prior self-operated venture 'Fulishe' failed within 4 hours due to merchant backlash in 2023",
+      "data": "PDD's previous self-operated venture 'Fulishe' (welfare shop) in 2023 faced severe merchant backlash. Merchants flooded the platform with complaints and coordinated 'refund-only' campaigns, forcing the store to close within 4 hours. This demonstrates significant merchant hostility toward platform self-competition.",
+      "source_url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+      "source_date": "2026-03-26",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD's current 23% net margin derives from light-asset model; self-operated retail fundamentally changes this economics",
+      "data": "PDD's current profitability (23.02% net margin) derives from light-asset operations: collecting merchant fees and advertising revenue without inventory costs. Self-operated retail fundamentally changes this economics while threatening existing merchant relationships. If Xinpinmu succeeds, it could cannibalize existing merchant revenue streams.",
+      "source_url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+      "source_date": "2026-03-26",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

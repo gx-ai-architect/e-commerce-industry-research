@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Can RMB 100B over 3 years generate positive ROI, and what are the unit economics of self-operated brand building?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD's ROIC is 70-78%, among the highest of any large-cap company globally, reflecting its asset-light marketplace model",
+      "data": "Annualized ROIC for Q2 2025: 78.08%. TTM ROIC: 70.85%. WACC: 10.54%. PDD generates 7x its cost of capital in returns. This extraordinary ROIC is a function of the asset-light marketplace model — self-operated brands would structurally compress ROIC by increasing invested capital.",
+      "source_url": "https://www.gurufocus.com/term/roic/PDD",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's valuation multiples are compressed: P/E 10.5x, EV/EBITDA 6.6x, EV/FCF 5.4x — the market is already pricing in execution risk on new investments",
+      "data": "Trailing PE: 10.53; Forward PE: 8.44; EV/EBITDA: 6.63; EV/FCF: 5.37. Market cap fell below $150B from November 2025 peak, down 30%+. The market assigns PDD a deep value multiple despite 70%+ ROIC, suggesting skepticism about capital allocation decisions.",
+      "source_url": "https://stockanalysis.com/stocks/pdd/statistics/",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Colin Huang retains ~31% of shares outstanding with super-voting Class B shares, giving him outsized control over capital allocation",
+      "data": "Founder Colin Huang holds approximately 31% of total shares outstanding (including Class B super-voting shares with 10 votes per share). Economic ownership estimated at 17-28% depending on methodology. Tencent is second largest at 14%. Insider ownership total: 4.53%. Institutional ownership: ~11%.",
+      "source_url": "https://finance.yahoo.com/news/pdd-holdings-inc-nasdaq-pdd-130014053.html",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

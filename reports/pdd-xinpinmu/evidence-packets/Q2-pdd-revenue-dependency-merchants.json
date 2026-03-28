@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q2",
+  "question_id": "Q2",
+  "question": "What is the merchant ecosystem risk — how will self-operated brands coexist with existing marketplace sellers?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD's entire revenue base (~RMB 432B in FY2025) is derived from third-party merchants, making merchant ecosystem health existential",
+      "data": "PDD 20-F: 'For the fiscal year ended December 31, 2024, substantially all of our revenues were derived from third-party merchants.' FY2025 total revenue: RMB 431,845.7M (US$61,753.1M), +10% YoY. Revenue splits into online marketing services (ads) and transaction services (commissions).",
+      "source_url": "https://www.stocktitan.net/news/PDD/pdd-holdings-announces-fourth-quarter-2025-and-fiscal-year-2025-yypno24d08v2.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD has 14.2 million active merchants generating 55.3 million jobs as of 2025",
+      "data": "Pinduoduo platform has 14.2M active merchants (1420万活跃商家), spanning diverse categories and business types. Across merchant direct employment, warehouse/logistics employment, platform employees, and indirect employment, PDD has cumulatively generated 55.32M jobs domestically.",
+      "source_url": "https://www.21jingji.com/article/20251124/herald/5d46d0f8c4230737864dace5920a6214.html",
+      "source_date": "2025-11-24",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD Q3 2025 revenue breakdown: online marketing RMB 53.3B (+8% YoY), transaction services RMB 54.9B (+10% YoY) — both entirely from 3P merchants",
+      "data": "Q3 2025: Online marketing services revenue RMB 53,347.6M vs RMB 49,351.0M in Q3 2024 (+8%). Transaction services revenue RMB 54,928.9M vs RMB 50,003.4M in Q3 2024 (+10%). Q1 2025: Online marketing RMB 48,722.2M (+15%), transaction services RMB 46,950.0M (+6%).",
+      "source_url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-third-quarter-2025-unaudited-financial/",
+      "source_date": "2025-11-21",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

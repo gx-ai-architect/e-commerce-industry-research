@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "Is the 'online Costco' private-label model viable for PDD, and how does it compare to precedents?",
+  "company": "Costco",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Kirkland Signature generated $90B in sales in FY2025, ~33% of Costco's $270B merchandise sales, up from $50B in 2020",
+      "data": "At Costco's 2026 Annual Meeting of Shareholders, Kirkland Signature was reported to have generated approximately $90 billion in sales in FY2025 (ended Aug 31, 2025), a $15B+ increase from FY2024's ~$86B. With group-wide merchandise sales of $270B, Kirkland accounts for roughly one-third of Costco's total sales. Growth trajectory: crossed $50B in 2020, reached $59B in FY2021 (31% of revenue), ~$86B in FY2024, and $90B in FY2025.",
+      "source_url": "https://www.chowhound.com/2095034/costco-kirkland-signature-total-sales-2025/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Kirkland Signature launched in 1995, unified 30 prior private-label names into one brand; now spans 550+ SKUs",
+      "data": "Kirkland Signature was launched in 1995 by co-founder Jim Sinegal, who unified approximately 30 different private label names under a single brand. Named after Costco's original headquarters in Kirkland, Washington. Started with items like shampoo and vitamins. As of 2025, there are over 550 Kirkland Signature products representing just 12.5% of Costco's total assortment, yet generating ~33% of sales. 45 new KS items launched in Q1 FY2026 alone.",
+      "source_url": "https://en.wikipedia.org/wiki/Costco",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Kirkland margins are 500-800 bps higher than national brands; Costco caps markup at 15% for KS vs 14% for national brands",
+      "data": "Costco caps markups at 14% for non-Kirkland and 15% for Kirkland Signature products, with a target of 11% on total COGS. Private labels carry gross margins 5 to 8 percentage points above equivalent national brands according to analyst estimates. CFO Gary Millerchip stated growing Kirkland mix 'definitely creates some overall tailwind in our margin overall.' Costco's overall gross margin rate in Q2 FY2026 was 11.02%, up 17bps YoY. Costco's operating margin (14.2%) outpaces Walmart (5.4%) and Amazon (5.1%), partly driven by Kirkland.",
+      "source_url": "https://www.ainvest.com/news/kirkland-signature-valuation-catalyst-costco-private-label-dominance-reshaping-retail-economics-2508/",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Kirkland success factors: quality parity with premium brands, unified brand, exclusivity, supplier leverage, 30 years of trust building",
+      "data": "Key success factors: (1) Quality positioning - products match or exceed national brands, often made by same premium manufacturers (Starbucks makes KS coffee, Duracell/Kimberly-Clark/Ocean Spray produce KS items). (2) Unified brand - one brand across all categories reduces customer confusion. (3) Exclusivity - only available at Costco, drives membership value. (4) Negotiating leverage - KS gives Costco credible alternatives in supplier negotiations. (5) 30 years of trust building since 1995. (6) Costco membership model provides known customer base and recurring revenue to absorb private-label risk.",
+      "source_url": "https://www.fool.com/investing/2026/03/17/how-kirkland-quietly-became-costcos-most-powerful/",
+      "source_date": "2026-03-17",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Kirkland is now the largest CPG brand in America by sales, surpassing Nike and Procter & Gamble",
+      "data": "Kirkland Signature is America's biggest consumer packaged goods brand measured by sales. The $86B figure (FY2024) is $40 billion more than Nike earned, and even Procter & Gamble made $2 billion less than Kirkland in the same period.",
+      "source_url": "https://www.tastingtable.com/2042169/how-much-kirkland-products-make-sales-per-year/",
+      "source_date": "2025-05",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

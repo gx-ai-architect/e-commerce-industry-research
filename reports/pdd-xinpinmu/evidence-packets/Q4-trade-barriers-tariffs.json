@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu change Temu's competitive positioning internationally?",
+  "company": "PDD/Temu",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "US de minimis exemption permanently revoked for China/HK May 2025, then globally Aug 2025",
+      "data": "China/HK de minimis revoked May 2, 2025, causing 85% drop in low-value parcel volume (4M daily to 600K). Global suspension effective Aug 29, 2025. Postal shipments: Phase 1 (Aug 29 2025 - Feb 28 2026) flat $80-$200/item duty; Phase 2 (from Mar 1 2026) full ad valorem tariffs. One Big Beautiful Bill Act (July 4 2025) phases out exemption entirely by July 2027. Pre-reform: 1.36B de minimis entries annually, ~2/3 from China.",
+      "source_url": "https://www.whitecase.com/insight-alert/united-states-begins-restrain-cross-border-e-commerce",
+      "source_date": "2025-08",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "EU will impose flat EUR 3 customs duty per parcel on sub-EUR150 imports from July 1, 2026",
+      "data": "EU Council gave final approval Feb 11 2026. Flat EUR 3 customs duty on all parcels under EUR 150 entering EU, effective July 1 2026. Additional EUR 2 handling fee per consignment from Nov 2026. 4.6B shipments under EUR 150 entered EU in 2024, 91% from China. EUR 150 exemption abolished. Permanent regime via EU Customs Data Hub in 2028 with standard tariffs. Romania already imposed ~EUR 5 fee from Jan 1, 2026.",
+      "source_url": "https://taxation-customs.ec.europa.eu/news/e-commerce-150-eur-customs-duty-exemption-threshold-be-removed-2026-2025-11-13_en",
+      "source_date": "2026-02-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu US daily users fell 48% in May 2025 vs March 2025 after de minimis changes; app ranking crashed from #3 to #85",
+      "data": "Daily US users fell ~48% in May 2025 vs March 2025 (Reuters). App Store ranking collapsed from #3 to #85 in two weeks. Downloads fell 62% (SimilarWeb). US MAU fell 49% YoY in July 2025. Install base dropped to 68M in June 2025 but recovered to 91M by October 2025. US user engagement declined from 27% (Sep 2023) to 19% (Apr 2025).",
+      "source_url": "https://www.cnbc.com/2025/04/16/temu-cuts-us-ad-spend-drops-in-app-store-rank-after-trump-tariffs-.html",
+      "source_date": "2025-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu with local warehousing could circumvent trade barriers by shifting from cross-border direct shipping to bulk import + local fulfillment",
+      "data": "Temu is already shifting: US storefront now shows only locally fulfilled products. Self-operated warehouses handle 15-20% of US volume in 2025, projected 20-25% by 2026. Semi-managed model requires merchants to ship in bulk to US warehouses. 13 self-owned warehouses globally. Preparing for EU changes with German warehouse as central hub. Xinpinmu's owned brands with pre-positioned inventory in local warehouses would pay standard import duties on bulk shipments rather than per-parcel tariffs.",
+      "source_url": "https://techbuzzchina.substack.com/p/temu-watch-10-logistics-in-times",
+      "source_date": "2025-10",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

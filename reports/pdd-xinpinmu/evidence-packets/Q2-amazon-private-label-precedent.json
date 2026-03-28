@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q2",
+  "question_id": "Q2",
+  "question": "What is the merchant ecosystem risk — how will self-operated brands coexist with existing marketplace sellers?",
+  "company": "Amazon",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Amazon's private label business peaked then was massively scaled back — cut from 30+ clothing brands to 3, now represents less than 1% of US retail revenue",
+      "data": "Amazon eliminated 27 of 30 in-house clothing brands, retaining only Amazon Essentials, Amazon Collection, and Amazon Aware. Plans to cut total private label offerings to fewer than 20 brands. Between Q1 2023 and Q1 2024, Amazon private label share of US retail revenue shrank from 1.0% to 0.9%. Total private label sales ~$1B in Q1 2024.",
+      "source_url": "https://www.momentumcommerce.com/amazons-private-label-market-share-shrinks-by-6-year-over-year-in-q1-2024/",
+      "source_date": "2024-05",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Amazon was accused by Congressional lawmakers of 'possibly lying to Congress' about using third-party seller data for private label products",
+      "data": "In 2019 Congressional hearing, Amazon's Nate Sutton testified the company 'does not use any seller data to compete.' WSJ subsequently reported Amazon managers violated this policy. Reuters reported Amazon had 'explicit, detailed strategy to rip off third-party sellers in India, used their data to streamline knockoffs, and prioritized products in search results.' In 2021, lawmakers accused Amazon of potentially committing federal criminal violations by misleading Congress. Bezos in 2020 testified he 'couldn't guarantee' the policy had never been violated.",
+      "source_url": "https://retailwire.com/discussion/did-amazon-execs-mislead-congress-about-how-it-uses-third-party-sellerss-data/",
+      "source_date": "2021-10",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "FTC antitrust lawsuit filed Sept 2023 specifically alleges Amazon ranks own products above competitors; trial set for October 2026",
+      "data": "FTC sued Amazon alleging it 'illegally maintains its monopoly power' using 'interlocking anticompetitive and unfair strategies.' Class of 288 million Americans certified (Aug 2025). FTC alleges Amazon routinely ranks its own products ahead of competitors. Trial set for October 5, 2026. Amazon used Signal encrypted messaging to discuss antitrust matters. Key issue: Amazon's unique triple role as retailer + platform + producer creates conflict of interest distinct from traditional retailers using data.",
+      "source_url": "https://www.techpolicy.press/tracker/ftc-v-amazoncom/",
+      "source_date": "2025-09",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Amazon's private label retreat is itself evidence that platform self-competition creates untenable conflicts — even a company with Amazon's resources chose to pull back",
+      "data": "Amazon 'began scaling back its private label business following disappointing sales and scrutiny from lawmakers' starting July 2022. Despite private labels being less than 1% of sales, the regulatory and merchant trust costs were significant enough to force retreat. Academic defense paper (2025) argues private labels are 'pro-competitive and IP-compliant' but the practical outcome was Amazon dramatically reducing the business.",
+      "source_url": "https://www.retailtouchpoints.com/topics/inventory-merchandising/amazon-makes-drastic-cuts-to-private-label-business-in-advance-of-potential-ftc-antitrust-probe",
+      "source_date": "2023-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

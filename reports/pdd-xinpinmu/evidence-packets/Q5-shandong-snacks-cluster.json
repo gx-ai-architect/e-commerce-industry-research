@@ -1,0 +1,27 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is the manufacturing cluster readiness - can Chinese OEM factories actually build global brands?",
+  "company": "Shandong Snacks Cluster",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "China's snack market exceeded RMB 800B in 2026, but competition has shifted from price wars to value competition, with the domestic quantitative retail channel (量贩零食) disrupting traditional distribution",
+      "data": "2026 Chinese snack market exceeded RMB 800B. Competition has evolved from pure price wars to comprehensive value competition. The quantitative retail (量贩零食) model directly connects brands with factories, releasing 20-30% margin previously retained by distributors. Key player: 'Haoxianglai' (好想来) under Wanchen Group has 15,000+ terminal stores across Shandong, Hebei and other provinces, with 50+ regional distribution centers and 900K+ sqm of smart warehousing.",
+      "source_url": "https://www.sohu.com/a/979639620_116457",
+      "source_date": "2026",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Shandong has strong raw material advantages and industrial cluster effects for food production, but export-specific data for Shandong snacks is sparse - suggesting the cluster is primarily domestic-oriented",
+      "data": "Shandong is recognized for 'raw material advantages, process expertise, and industrial cluster effects' in food production. Recommended as priority sourcing region for restaurants/food companies seeking 'flavor, cost, and supply chain resilience balance.' However, search results yielded minimal data on Shandong snack exports specifically - coverage focused overwhelmingly on domestic quantitative retail channel transformation and brand upgrading. This suggests Shandong snacks cluster is primarily domestic-market oriented, raising questions about readiness for Xinpinmu's global brand ambitions.",
+      "source_url": "https://www.echinagov.com/news/guotao/Article-sSCe-1.html",
+      "source_date": "2026",
+      "source_tier": "tertiary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

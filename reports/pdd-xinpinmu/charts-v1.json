@@ -1,0 +1,38 @@
+{
+  "precedent_outcomes": {
+    "type": "bar",
+    "title": "Private Label Precedent Outcomes (Revenue, RMB B)",
+    "yLabel": "Revenue (RMB B)",
+    "bars": [
+      {"label": "Kirkland (Costco)", "value": 630, "color": "#22c55e"},
+      {"label": "Amazon Basics", "value": 28, "color": "#f59e0b"},
+      {"label": "JD Jingzao", "value": 1, "color": "#94a3b8"},
+      {"label": "Yanxuan (NetEase)", "value": 6.8, "color": "#ef4444"},
+      {"label": "Xinxuan (Alibaba)", "value": 1, "color": "#dc2626"},
+      {"label": "Maoxiang (Alibaba)", "value": 1, "color": "#dc2626"},
+      {"label": "Fulishe (PDD)", "value": 1, "color": "#dc2626"}
+    ]
+  },
+  "roi_scenarios": {
+    "type": "bar",
+    "title": "Revenue Required for 15% ROI on RMB 100B (RMB B)",
+    "yLabel": "Revenue Required (RMB B)",
+    "bars": [
+      {"label": "Kirkland-like 8%", "value": 188, "color": "#22c55e"},
+      {"label": "JD-like 6%", "value": 250, "color": "#f59e0b"},
+      {"label": "Below-JD 5%", "value": 300, "color": "#ef4444"},
+      {"label": "PDD FY2025 Total", "value": 432, "color": "#94a3b8"}
+    ]
+  },
+  "temu_tariff_impact": {
+    "type": "bar",
+    "title": "Temu Before/After De Minimis Revocation",
+    "yLabel": "Value",
+    "bars": [
+      {"label": "Parcels pre (M/day)", "value": 4.0, "color": "#22c55e"},
+      {"label": "Parcels post (M/day)", "value": 0.6, "color": "#ef4444"},
+      {"label": "US installs peak (M)", "value": 91, "color": "#22c55e"},
+      {"label": "US installs low (M)", "value": 68, "color": "#ef4444"}
+    ]
+  }
+}

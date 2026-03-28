@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu change Temu's competitive positioning internationally?",
+  "company": "PDD/Temu",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Temu's global ad budget was ~$4.3B in 2024, running ~$1B/month, then slashed dramatically in 2025",
+      "data": "2024 global ad budget ~$4.3B (36Kr report). ~$1B/month run rate. April 2025 total ad spend collapsed to $66M (Europe 49%, LatAm 16%). US ad spend cut 31% daily across FB/IG/TikTok/Snap/YouTube. Google Shopping spend went to zero by April 12. Only 6 Meta ads running in US by mid-April. US paid traffic dropped 77%. Etsy CEO said Temu/Shein were 'almost single-handedly' driving up ad costs for everyone.",
+      "source_url": "https://finance.yahoo.com/news/temu-slashes-ad-spend-ahead-175427671.html",
+      "source_date": "2025-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu reportedly loses ~$30 per order on average, reflecting massive subsidies for user acquisition",
+      "data": "WIRED reported Temu loses an average of $30 per order. Industry observers flagged profitability concerns given subsidy scale. PDD stock fell ~30% from November 2025 peak. Revenue growth slowed from 59% in 2024 to single digits.",
+      "source_url": "https://japm.substack.com/p/whats-happening-to-temu",
+      "source_date": "2025-07",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "low"
+    },
+    {
+      "claim": "Temu shifting from paid to organic growth: organic search traffic rose 4.3% MoM while paid fell 6% in early 2025",
+      "data": "Between January and February 2025, Temu's organic search traffic rose 4.3% month-over-month, while paid search traffic fell 6.04%. This predated the tariff-driven ad cuts and suggests a strategic pivot toward organic/brand-driven growth — which Xinpinmu's owned brands would further support.",
+      "source_url": "https://www.mobiloud.com/blog/temu-statistics",
+      "source_date": "2025-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Temu US install base recovered from 68M (June 2025) to 91M (October 2025) despite minimal ad spend",
+      "data": "US install base dropped to 68M users in June 2025 after tariff shock and ad pullback. Recovered to 91M by October 2025. App open rate fell from 82% to 64%. Temu and Shein still ranked #1 and #2 globally for retail app downloads in 2025, despite US decline.",
+      "source_url": "https://sensortower.com/blog/temus-us-kickoff-strong-remains-top-ranked-app",
+      "source_date": "2025-10",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

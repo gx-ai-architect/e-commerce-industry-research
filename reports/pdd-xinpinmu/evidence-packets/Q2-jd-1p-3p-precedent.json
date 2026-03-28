@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q2",
+  "question_id": "Q2",
+  "question": "What is the merchant ecosystem risk — how will self-operated brands coexist with existing marketplace sellers?",
+  "company": "JD.com",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "JD's 1P/3P GMV split was 27% self-operated / 73% third-party in 2024, showing how self-operated and marketplace can coexist but with persistent tension",
+      "data": "In 2024, JD's 1P sales contributed 27% to total GMV, while 3P GMV accounted for 73%. JD is the largest self-operated online retailer in China with ~27.2% market share. The company adopts an 'asset-heavy 1P model with self-owned inventory and largely self-built logistics, complemented by an asset-light third-party model.'",
+      "source_url": "https://ecdb.com/resources/sample-data/retailer/jd",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "JD self-operated stores receive 2-3x more traffic exposure than POP (third-party) stores, with 18% conversion rate vs ~7% for 3P",
+      "data": "JD self-operated display positions: 6-8 per store on JD homepage vs 2-3 for POP stores. Self-operated store average conversion rate: 18%, which is 2.5x that of third-party stores. Products with 'JD Self-Operated' label have 40% higher natural search click-through rates.",
+      "source_url": "https://www.fkdmg.com/article/9717.html",
+      "source_date": "2025-06",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "JD is described as 'both referee and athlete' — POP merchants struggle to compete against self-operated products for traffic",
+      "data": "E-commerce industry insider Zhouzhou stated: 'Although JD emphasizes equal treatment of self-operated and POP merchants, JD prioritizes traffic and resources for self-operated stores. Good POP merchants are also encouraged to convert to self-operated. JD is both referee and athlete, making it hard for POP merchants to truly mobilize enthusiasm, which directly impacts JD's ad and commission revenue.'",
+      "source_url": "https://www.fkdmg.com/article/9717.html",
+      "source_date": "2025-06",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "JD is strategically moving low-margin products FROM 1P to 3P, suggesting self-operated model creates margin pressure",
+      "data": "JD 'stopped selling nonstrategic low-margin products from the 1P business and is allowing 3P merchants and business partners to provide these products instead.' JD's GMV share of China's online retail fell from 30.7% in 2021 to 28.4% in 2024. In 2025, 3P daily goods/general merchandise reached 34% of revenue, a historical high.",
+      "source_url": "https://www.morningstar.com/company-reports/1239361-jdcom-will-increase-investment-in-the-second-half-of-2025-to-drive-higher-topline-growth",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "JD launched 350B yuan 'Spring Dawn Plan' in 2026 to support 3P merchants, indicating ongoing need to balance 1P/3P tensions",
+      "data": "On March 11, 2026, JD announced its upgraded 'Spring Dawn Plan' (春晓计划), investing over RMB 350B in resources across cost reduction, tech enablement, traffic support, and ecosystem protection for SME merchants. Ad subsidies upgraded from 'ten-billion level' to 'hundred-billion level'. JD introduced promotion ROI guarantee — if target not met, platform compensates 100% of the shortfall.",
+      "source_url": "https://www.euobiz.cn/ecommerce/jingdong-chunxiao-jihua-2026.html",
+      "source_date": "2026-03-11",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

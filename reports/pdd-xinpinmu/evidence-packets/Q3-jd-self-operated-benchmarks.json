@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Can RMB 100B over 3 years generate positive ROI, and what are the unit economics of self-operated brand building?",
+  "company": "JD.com",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "JD Retail's self-operated gross margin is approximately 14-19%, far below PDD's 56% marketplace gross margin — illustrating the structural margin cost of moving to self-operated",
+      "data": "JD consolidated gross margin TTM Q3 2025: 14.43%. JD Retail segment gross margin Q3 2025: 19.3% (13th consecutive quarter of YoY expansion). JD Retail operating margin: 5.9% (Q3 2025). Compare to PDD gross margin: 56.3% (FY2025). The 37-42 percentage point gross margin gap represents the structural cost of 1P vs 3P.",
+      "source_url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "JD's 3P marketplace commission rates range from 0.6% to 8%, but the marketplace business is far more profitable per unit of revenue than 1P",
+      "data": "Standard 3P commission: 2-8% by category. JD reduced POP merchant commissions to 0.6% as a strategic move to grow marketplace. JD Marketplace and Marketing Revenue grew 24% YoY in Q3 2025. JD's 1P sales = 27% of total GMV; 3P = 73% of GMV — but 1P revenue dominates the P&L due to full revenue recognition.",
+      "source_url": "https://www.tmogroup.asia/insights/chinese-online-marketplace-fees/",
+      "source_date": "2025-06",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    },
+    {
+      "claim": "JD's operating margin was negative 0.4% in Q3 2025 (consolidated) due to new business investments including food delivery — showing how self-operated expansions destroy margins",
+      "data": "Q3 2025 consolidated operating margin: -0.4% vs +4.6% in Q3 2024. The decline was attributed to food delivery (commission-free for merchants) and JD Logistics investments. JD Retail itself achieved 5.9% operating margin, but new ventures dragged the whole company negative.",
+      "source_url": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2025-results",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    }
+  ]
+}

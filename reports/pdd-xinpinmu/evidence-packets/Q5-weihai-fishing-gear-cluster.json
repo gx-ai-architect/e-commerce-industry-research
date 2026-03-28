@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What is the manufacturing cluster readiness - can Chinese OEM factories actually build global brands?",
+  "company": "Weihai Fishing Gear Cluster",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Weihai produces 60%+ of the world's fishing rods (4M rods/year, RMB 10B+ annual output), exports to 150+ countries, but high-end market brand power remains dominated by Japanese/European players",
+      "data": "Weihai fishing gear annual output value exceeds RMB 10B, annual rod production ~40M rods, 60%+ global market share. '6 out of every 10 fishing rods sold globally are produced in Weihai.' ~50% of output is exported to 150+ countries. However, the industry shows 'strong manufacturing, weak branding' - Japanese and European brands still dominate high-end market pricing power.",
+      "source_url": "https://www.chinanews.com/cj/2025/04-25/10405786.shtml",
+      "source_date": "2025-04",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Weihai launched China's first fishing gear regional brand collective trademark in Oct 2024; 'Weihai Fishing Gear' was named a MIIT China Consumer Name Product in 2025",
+      "data": "'Weihai Fishing Gear' collective trademark officially launched October 2024 - first of its kind in China's fishing gear industry. In April 2025, MIIT included 'Weihai Fishing Gear' in the first batch of 'China Consumer Name Products.' This regional brand strategy supports individual companies' branding efforts.",
+      "source_url": "https://news.qq.com/rain/a/20251007A022O200",
+      "source_date": "2025-10",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Chinese brands like Handing (汉鼎) and Guangwei (光威) are successfully transitioning from OEM to branded exports via e-commerce: Handing generates RMB 300M+ annually on Amazon",
+      "data": "KastKing, Seasir, Handing (汉鼎), and Huashi (化氏) are leading Chinese fishing gear brands going overseas via cross-border e-commerce, focusing on lure fishing sub-categories. Handing generates RMB 300M+ in annual Amazon sales. Guangwei's carbon fiber fishing rods have entered European high-end markets. Guangwei is publicly listed (300699.SZ) and launches 50+ iterative products annually targeting specific market segments.",
+      "source_url": "https://www.fengkouapp.com/news.html?id=1170059005679374336&type=news",
+      "source_date": "2025",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Weihai achieved world's first fully automated fishing rod production line, reducing manpower by 80%, with RMB 20M+ investment and 40+ patents",
+      "data": "Shandong Handing Industrial Automation built the world's first full-automatic fishing rod production line, enabling unmanned operation across 30+ production processes. Total investment exceeded RMB 20M, with 40+ independent patents. Reduced manpower by 80%. Guangwei designers are actively developing new products targeting Southeast Asian markets, using upgraded carbon fiber grades with 10% weight reduction and 15% strength increase.",
+      "source_url": "https://www.manilatimes.net/2025/11/08/tmt-newswire/pr-newswire/xinhua-silk-road-smart-technology-whole-industrial-chain-empower-fishing-rods-manufacturing-in-e-chinas-weihai/2219468",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "2025 international procurement event in Weihai completed 280+ business negotiations with buyers from 20+ countries, RMB 23M in initial intent deals for high-end products",
+      "data": "2025 'Ten Thousand Enterprises Going Overseas' fishing gear international procurement event held in Weihai: buyers from 20+ countries engaged in one-on-one matchmaking. 280+ business negotiations completed on the day. Initial intent deal value: RMB 23M, covering carbon fiber rods, smart fishing reels, and other high-end products.",
+      "source_url": "https://www.weihai.gov.cn/art/2025/9/29/art_60663_5851445.html",
+      "source_date": "2025-09-29",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}
