@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q5",
+  "question_id": "Q5",
+  "question": "What are the realistic financial scenarios for Xinpinmu, and how should investors think about its impact on PDD's valuation?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD Holdings FY2025: revenue RMB 431.8B (+10% YoY), net income RMB 99.4B (-11.6% YoY), gross margin 60.9%, operating margin 27.5%, net margin 28.5%, with RMB 422.3B cash/equivalents/short-term investments",
+      "data": "FY2025 revenue: RMB 431,845.7M (+10% YoY). Q4 revenue: RMB 123,912.2M (+12% YoY). Q4 non-GAAP operating profit: RMB 29,474.1M. FY2025 net income: RMB 99.36B (-11.62% YoY). Gross margin: 60.9%. Operating margin: 27.5%. Net margin: 28.5%. Cash/equivalents/ST investments: RMB 422.3B (Dec 31, 2025). Operating cash flow TTM: $16.7B. Capex TTM: -$135.85M. Free cash flow: $16.15B. FY2025 total cost of revenues +23% YoY.",
+      "source_url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-fourth-quarter-2025-and-fiscal-year-2025",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD trades at ~9.4x forward P/E with market cap ~$145B, enterprise value ~$85B after netting ~$58B cash, meaning ~40% of market cap is cash; this is among the cheapest large-cap e-commerce valuations globally",
+      "data": "Market cap: $144.76B. Enterprise value: $84.3-86.7B. Cash: $59.52B, debt: $1.5B, net cash: $58.03B ($40.87/share). Net cash = ~40% of market cap. Forward P/E: 9.4x. Trailing P/E: 9.7x. Earnings yield: double-digit. Free cash flow: $16.15B TTM. Stock trading ~$98-107 range around earnings (March 2026).",
+      "source_url": "https://stockanalysis.com/stocks/pdd/statistics/",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD does not break out Pinduoduo vs Temu profitability, making traditional SOTP analysis difficult; revenue is reported only as Online Marketing Services (advertising) and Transaction Services (fulfillment/processing fees)",
+      "data": "PDD does not disclose segment-level profitability for Pinduoduo domestic vs Temu international. Revenue categories: Online Marketing Services (merchant advertising) and Transaction Services (Temu fulfillment/processing + Duo Duo Grocery). No publicly available analyst report with rigorous SOTP breakout separating Pinduoduo and Temu. Analysts like DBS and Morningstar value on consolidated basis using blended P/E multiples. Huatai used SOTP but methodology not disclosed in search results.",
+      "source_url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-23-the-financial-fortress-on-shifting-sands-a-deep-dive-into-pdd-holdings-pdd-in-2026",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    }
+  ]
+}
