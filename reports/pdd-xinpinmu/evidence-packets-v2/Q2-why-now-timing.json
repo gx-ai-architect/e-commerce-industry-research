@@ -1,0 +1,72 @@
+{
+  "agent": "thesis-agent-Q2",
+  "question_id": "Q2",
+  "question": "What is the deep strategic logic behind Xinpinmu -- why NOW, and what does it mean for PDD's business model transformation?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD's revenue growth decelerated sharply from 131% (Q1 2024) to 10% (FY2025), with quarterly growth hitting single digits (7-9%) in mid-2025, creating urgent need for a new growth engine.",
+      "data": "Revenue growth trajectory: Q1 2024: 131%, Q2 2024: 86%, Q3 2024: 44%, Q4 2024: 24%, Q1 2025: 10%, Q2 2025: 7%, Q3 2025: 9%, Q4 2025: 12%. FY2025 revenue: RMB 4,318B (+10% YoY). FY2025 net profit: RMB 993B (-12% YoY, non-GAAP).",
+      "source_url": "https://mp.ofweek.com/digitaleconomy/a356714974597",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's domestic user base has essentially plateaued at ~872 million, leaving virtually no room for user-driven growth. This forces the company to seek revenue per user and value chain improvements.",
+      "data": "PDD domestic user base: 872 million as of Q1 2025, growing only 3 million over two years. With China's internet population around 1.1 billion, PDD has penetrated approximately 80% of the addressable market.",
+      "source_url": "https://mp.ofweek.com/digitaleconomy/a356714974597",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "De minimis tariff elimination in May 2025 devastated Temu's US business (sales -23% YoY, DAU -58%), forcing PDD to rethink its cross-border model from direct-from-China shipping to local warehousing with branded products.",
+      "data": "US de minimis exemption eliminated August 29, 2025 (announced May 2025). Impact on Temu: US sales down 23% YoY in May 2025, DAU dropped 58%. Temu pivoted from 70% fully-managed to under 30%, built 13 self-owned warehouses globally (10 Europe, 2 US, 1 Mexico). Goldman Sachs estimates Temu 2026 global GMV will exceed $100B. Temu's US GMV share dropped below 40% of total.",
+      "source_url": "https://www.ainvest.com/news/temu-viability-post-de-minimis-era-strategic-reassessment-investors-2512/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD accumulated RMB 422.3 billion in cash/equivalents/short-term investments by end of 2025, up 27% YoY — providing massive firepower for the RMB 100B Xinpinmu investment without external financing.",
+      "data": "Cash position as of Dec 31, 2025: RMB 422.3B (vs RMB 331.6B at end of 2024, +27% YoY). The RMB 100B three-year Xinpinmu commitment represents approximately 24% of total cash reserves. First tranche of RMB 15B is just 3.6% of cash.",
+      "source_url": "https://www.ithome.com/0/932/666.htm",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's gross margin compressed from peak levels to 56.3%, total costs surged 23% YoY (to RMB 188.8B), and R&D spending jumped 30% (to RMB 16.5B) — confirming the company entered a deliberate reinvestment phase before Xinpinmu was even announced.",
+      "data": "FY2025 financials: Total costs RMB 188.8B (+23% YoY, exceeding revenue growth of 10%). R&D: RMB 16.5B (+30%). Sales & marketing: RMB 125.3B (+13%). Net profit non-GAAP declined 12% YoY. Management statement: 'future profit margins will continue to fluctuate across quarters — this is the new normal.'",
+      "source_url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhsiqkt8920571.shtml",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "The announcement was paired with earnings on March 25, 2026, because PDD's governance restructure in December 2025 — making Zhao Jiazhen co-chairman/co-CEO — was the prerequisite. Zhao's mandate was explicitly 'three years to rebuild Pinduoduo.'",
+      "data": "December 2025: PDD annual shareholder meeting appointed Zhao Jiazhen as co-chairman and co-CEO alongside Chen Lei. Zhao immediately issued 'focus, heavy investment in supply chain upgrade, high-quality development' as the group strategy, with the explicit target of '力争三年再造一个拼多多' (strive to rebuild another PDD in three years). The Q4 2025 earnings release (March 25, 2026) was the first earnings under this new governance structure.",
+      "source_url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhsmnzu2055506.shtml",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD internal consensus is that 2026 is the 'critical window' for Chinese supply chain transformation — making this a now-or-never moment to capture manufacturing capacity being displaced by tariff disruptions and geopolitical shifts.",
+      "data": "Zhao Jiazhen: '2026年国内供应链迎来了转型升级的关键窗口期' (2026 marks the critical window for domestic supply chain transformation and upgrade). Context: tariff wars have disrupted global trade patterns, Chinese factories face 'double squeeze' from developed country re-industrialization and developing country competition, and excess manufacturing capacity needs new outlets.",
+      "source_url": "https://www.nbd.com.cn/articles/2026-03-25/4308268.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

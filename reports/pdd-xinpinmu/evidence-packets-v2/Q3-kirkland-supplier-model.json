@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Is Xinpinmu complementary or competitive with existing PDD merchants — and what does Duan Yongping's 'brand licensing' model actually look like in practice?",
+  "company": "Costco (Kirkland Signature reference model)",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Kirkland Signature generated $90 billion in sales in fiscal year 2025, accounting for roughly one-third of Costco's $270 billion total merchandise sales",
+      "data": "According to Costco's 2026 Annual Meeting of Shareholders, Kirkland Signature brought in about $90 billion in sales in FY2025 (ended Aug 31, 2025), a $15B+ increase year-over-year. Around 600 products carry the Kirkland label globally.",
+      "source_url": "https://www.fool.com/investing/2026/03/17/how-kirkland-quietly-became-costcos-most-powerful/",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Kirkland suppliers are overwhelmingly major national brand manufacturers who simultaneously sell their own branded products on Costco shelves — creating a dual-manufacturing model, not a displacement model",
+      "data": "Duracell makes Kirkland batteries (confirmed by CEO Craig Jelinek, 2016). Kimberly-Clark (Huggies) makes Kirkland diapers (confirmed by CFO Richard Galanti, 2017). Starbucks roasts Kirkland coffee (branded 'Custom roasted by Starbucks'). Reynolds makes Kirkland aluminum foil (dual-branded). Bumble Bee makes Kirkland tuna. These suppliers produce both their own brand AND Kirkland simultaneously.",
+      "source_url": "https://www.cnn.com/2022/08/06/business/costco-kirkland-signature-trader-joes-store-brands",
+      "source_date": "2022-08",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Despite dual manufacturing, there IS tension: national brands are not pleased when Kirkland launches competing products, and brands like Kind, Planters, Pampers have been edged out by Kirkland alternatives",
+      "data": "CFO Richard Galanti acknowledged: 'Costco hasn't lost any relationships with suppliers by launching its own Kirkland products, but those brands are not usually pleased when Costco introduces one.' Brands edged out include Kind, Planters, Kimberly-Clark's Huggies, and P&G's Pampers in certain categories. In 2025, Lululemon sued Costco over alleged Kirkland dupes of its apparel.",
+      "source_url": "https://www.fooddive.com/news/costcos-kirkland-signature-growth-pressures-name-brands/504687/",
+      "source_date": "2025-2026",
+      "source_tier": "primary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Costco's Kirkland model is NOT a profit-sharing arrangement — Costco caps markup at 14-15% and passes savings to members. Suppliers accept because Costco's volume is too large to ignore",
+      "data": "CFO Gary Millerchip in Q2 2026 earnings call: Kirkland items offer '15% to 20% value compared to the national brand alternative, with equal or better quality.' Costco maintains markup cap of 14% (15% for KS). Suppliers participate because Costco is too big a revenue stream to ignore, even though they're effectively creating their own competition.",
+      "source_url": "https://www.ainvest.com/news/costco-turned-kirkland-signature-86-billion-brand-defying-retail-norms-2505/",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Kirkland's market share is accelerating: private-label brands now command 20.7% of US retail spending (record share), and Costco is expanding Kirkland aggressively in 2026 as a tariff hedge",
+      "data": "Costco launched ~30 new Kirkland items in Q2 2026 alone. CEO Ron Vachris confirmed it 'makes sense to lean in on Kirkland Signature because that's where Costco has the most control of the supply chain.' Since 2021, private-label unit sales increased >2% while national brand unit sales declined ~7%.",
+      "source_url": "https://www.mojosalesandbranding.com/post/kirkland-signature-expansion-2026-brand-strategy",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    }
+  ]
+}

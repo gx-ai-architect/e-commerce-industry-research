@@ -1,0 +1,63 @@
+{
+  "agent": "thesis-agent-Q2",
+  "question_id": "Q2",
+  "question": "What is the deep strategic logic behind Xinpinmu -- why NOW, and what does it mean for PDD's business model transformation?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Huang Zheng articulated PDD's founding vision as 'Costco + Disney' in his IPO letter dated June 30, 2018, describing Pinduoduo as a combination of high-quality products at good prices (Costco) with entertainment/fun (Disney), driven by distributed intelligent agent networks.",
+      "data": "Huang Zheng's IPO shareholder letter (2018-06-30): 'It will be a Costco and Disney (combining high-quality products at good prices with entertainment) driven by distributed intelligent agent networks rather than centralized AI systems.' He positioned Pinduoduo as 'a platform creating a multi-dimensional space where virtual networks and the real world merge, enabling users to purchase affordably while gaining happiness.'",
+      "source_url": "https://m.huxiu.com/article/250351.html",
+      "source_date": "2018-06",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Huang Zheng admitted in June 2018 that the Disney component was still nascent, comparing PDD to having built 'only a merry-go-round' in what aspired to be a Disneyland.",
+      "data": "Huang Zheng to media (2018-06): '就好像我们想造一个迪士尼乐园，但是现在只造了一个旋转木马，还处在比较初级的阶段' (We want to build Disneyland, but we've only built a merry-go-round — still at a very early stage).",
+      "source_url": "https://www.itopmarketing.com/info15021",
+      "source_date": "2018-06",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "In his 2021 farewell shareholder letter, Huang Zheng reiterated the Costco+Disney vision, saying it would become 'more concrete and vivid', while acknowledging PDD was still in the 'early stage' of multi-value plus multi-fun.",
+      "data": "Huang Zheng 2021 shareholder letter: 'Costco+Disney的愿景将会更具象、更生动地展现在面前。虽然当前还只是多实惠、多乐趣的初级阶段，但我们已经能够感受到多实惠叠加上多乐趣后带来的性质性的微妙的不同。'",
+      "source_url": "https://zhuanlan.zhihu.com/p/366044281",
+      "source_date": "2021-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "By 2023, PDD had quietly shifted its positioning from 'multi-value + multi-fun' (多实惠+多乐趣) to 'multi-value + good service' (多实惠+好服务), effectively deprioritizing the 'Disney' component in favor of operational excellence.",
+      "data": "As of Q1 2023 earnings, PDD adjusted its positioning from '多实惠+多乐趣' to '多实惠+好服务'. This shift coincided with the post-Huang Zheng era under Chen Lei's leadership.",
+      "source_url": "https://www.itopmarketing.com/info15021",
+      "source_date": "2023-11",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Xinpinmu represents the fulfillment of the 'Costco' half of Huang Zheng's founding vision — Duan Yongping explicitly called it 'essentially Costco's model' and predicted it would be 'remarkably powerful in 10 years' with ~4,000 SKUs.",
+      "data": "Duan Yongping on Xueqiu (2026-03): '这个其实就是Costco的样子。拼多多如果线上品牌只有4000个左右的SKU的话，10年后会是相当厉害的。' He further explained that PDD need not compete with merchants — it should select representative products for its own brand and license the brand to factories while overseeing quality.",
+      "source_url": "https://www.tmtpost.com/7932274.html",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Duan Yongping's Costco parallel is grounded in Costco's first-decade strategy: Costco spent its first 10 years (1983-1993) not aggressively expanding but polishing ~4,000 SKUs, compressing costs, stabilizing quality, and building trust — exactly what he predicts for Xinpinmu.",
+      "data": "Duan Yongping analyzed that Costco 1983-1993 spent a decade refining 4,000 SKUs rather than rushing to open stores. He proposes Xinpinmu should follow the same discipline: 'only select representative products for its brand, authorize the brand to factories, and oversee quality standards.'",
+      "source_url": "https://www.tmtpost.com/7932274.html",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

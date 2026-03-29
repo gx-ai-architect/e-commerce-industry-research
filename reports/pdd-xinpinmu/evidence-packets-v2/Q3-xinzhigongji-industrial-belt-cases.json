@@ -1,0 +1,63 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Is Xinpinmu complementary or competitive with existing PDD merchants — and what does Duan Yongping's 'brand licensing' model actually look like in practice?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD's 新质供给 (New Quality Supply) program, launched April 2025 with RMB 1,000B in funding + traffic resources, is the PRECURSOR to Xinpinmu — Xinpinmu is its corporate evolution, not a brand-new initiative",
+      "data": "In April 2025, PDD launched '千亿扶持' (Thousand Billion Support Plan), committing RMB 1,000B+ over three years in capital and traffic resources to push industrial belts toward '新质供给'. First batch of 1,000+ industrial belt merchants saw: average order value UP 47%, repeat purchase rate jumped from 23% to 40%.",
+      "source_url": "https://mp.ofweek.com/digitaleconomy/a256714563597",
+      "source_date": "2025-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's 新质供给 teams have embedded in 100+ manufacturing clusters across China, working at raw material and component levels — this is operational depth that competitors lack",
+      "data": "新质供给 teams visited: 义乌美妆与饰品 (Yiwu cosmetics/jewelry), 深圳数码 (Shenzhen electronics), 山东零食 (Shandong snacks), 邵东箱包 (Shaodong bags), 平湖羽绒 (Pinghu down), 威海钓具 (Weihai fishing gear), 惠州零食, 佛山童装 (Foshan children's wear), 曹县汉服 (Caoxi hanfu), among 100+ clusters.",
+      "source_url": "https://c.m.163.com/news/a/KP1FAVKU0511I947.html",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Shaodong bags case study: produced 70%+ of China's student backpacks but was trapped in OEM mode. Under PDD's data-driven product development support, multiple hit brands emerged, transforming from 'OEM hinterland' to 'brand highland'",
+      "data": "邵东生产了全国七成以上的学生书包，但长期以代工为主。在拼多多的扶持下，当地商家借助平台的数据分析，进行精准的产品研发，先后涌现出了多个爆款品牌，推动邵东完成了从'代工腹地'向'品牌高地'的产业转变。",
+      "source_url": "https://c.m.163.com/news/a/KP1FAVKU0511I947.html",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Factory-level case studies show PDD empowerment model in action: Yiwu ice tray maker went from low-margin commodity to RMB 60M annual sales through micro-innovation; Weihai fishing rod makers used carbon fiber cost reduction to create competitive brands",
+      "data": "义乌95后张小杰 (Yiwu Gen-Z entrepreneur): used platform data for product micro-innovation, developed a press-type ice cube tray that achieved RMB 60M annual sales. 威海'钓迷'品牌创始人张荣波: leveraged carbon fiber material cost drops to develop RMB 100-level fishing rods. '创威'品牌创始人孙中文: built own carbon cloth factory, used e-commerce sales data for reverse-customization of raw materials, compressed inventory lead time from 45 days to 15 days.",
+      "source_url": "https://www.guancha.cn/economy/2026_03_27_811617.shtml",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Pinghu down jacket factory case: grew annual PDD sales from RMB 10M (2021) to RMB 47M (2024) through dual strategy of licensed brand (雅鹿) + own brand development. Factory owner praised PDD's simple rules and factory-friendly model",
+      "data": "平湖本土企业'艾菩诺鸶'，通过拿下'雅鹿'品牌授权与打造自主品牌'两条腿'走路，在拼多多上的年销售额从2021年的1000万元增长至2024年的4700万元。深刻感受到平台规则简洁、对工厂友好、运营成本低的红利。",
+      "source_url": "https://t.cj.sina.com.cn/articles/view/1589153251/5eb88de300102jtj2",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "PDD platform merchant demographics show rapid growth: Gen-Z (post-95) merchants grew 31% YoY, post-00 merchants grew 44% YoY, quality product SKUs grew 50%+ YoY",
+      "data": "平台产业带商家数量快速增长，95后商家数量同比增长31%，00后商家数量同比增长44%，优质产品SKU数量同比增长超五成。This suggests PDD is attracting new factory merchants, not displacing existing ones.",
+      "source_url": "https://www.21jingji.com/article/20251124/herald/5d46d0f8c4230737864dace5920a6214.html",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

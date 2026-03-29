@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu specifically solve Temu's tariff problem, and what does the full value chain look like?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Xinpinmu established as separate company in Shanghai, RMB 15B first-tranche investment, RMB 100B over 3 years for self-operated brand building",
+      "data": "On March 25, 2026, PDD announced formation of 'Xinpinmu' (新拼姆). Name combines 'Pin' from Pinduoduo and 'mu' from Temu. Registered as a new dedicated company in Shanghai. First cash injection: RMB 15 billion (~$2.1B). Total planned investment over 3 years: RMB 100 billion (~$14B). Described as first step in 'three-year plan to recreate a PDD.'",
+      "source_url": "https://www.nbd.com.cn/articles/2026-03-25/4308268.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu fundamentally restructures the value chain: PDD moves from marketplace platform to brand owner and supply chain operator",
+      "data": "Core model change: Factories produce under contract (OEM/ODM), PDD owns the brand, defines product standards, handles packaging/branding/overseas marketing/warehousing/logistics/after-sales. Factories earn stable contract manufacturing fees. PDD captures brand premium and supply chain efficiency gains. This is NOT a replacement for Temu - it is a complement. Temu handles long-tail marketplace demand, Xinpinmu builds quality benchmarks with curated self-operated brands.",
+      "source_url": "https://www.36kr.com/p/3739655245738761",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu value chain for a product sold internationally: Factory -> PDD brand packaging -> bulk ocean shipment -> overseas warehouse -> Temu listing -> local delivery",
+      "data": "Three core initiatives: (1) Dedicated company covering domestic industrial belts with customized manufacturing solutions, cultivating self-operated brands across categories; (2) Specialized teams embedded in industrial belts providing integrated product/technology/marketing solutions; (3) Full-service brand overseas solutions including product standards, warehousing logistics, IP services, legal assistance, regulatory compliance review. Factory is responsible for production; PDD handles brand packaging, product definition, overseas marketing, warehousing logistics, after-sales service.",
+      "source_url": "https://finance.sina.com.cn/tech/roll/2026-03-27/doc-inhsmtim9418937.shtml",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu covers 100+ industrial clusters including Weihai fishing gear, Shenzhen electronics, Pinghu down jackets, Yiwu cosmetics, Shaodong school bags",
+      "data": "Specific industrial belts mentioned: Weihai fishing gear (威海钓具), Shenzhen digital/electronics (深圳数码), Pinghu down jackets (平湖羽绒), Yiwu cosmetics (义乌美妆), Shaodong school bags (邵东书包 - produces 70%+ of China's student backpacks). These clusters have mature manufacturing capabilities and standards but lack brand building and global distribution channels - exactly the gap Xinpinmu aims to fill.",
+      "source_url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhsmnzv8326230.shtml",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Duan Yongping (Step & VIVO founder) compared Xinpinmu to an 'online Costco' with ~4,000 curated SKUs",
+      "data": "Duan Yongping stated on Xueqiu: 'This is essentially a Costco. If PDD's online brand has only about 4,000 SKUs, in 10 years it will be formidable.' The Costco comparison implies: extreme SKU curation, low markup, platform trust replacing brand premium, and deep supply chain control. Costco's first 10 years: 1 store to ~200 stores, 10M+ members, all built around 4,000 SKUs.",
+      "source_url": "https://www.tmtpost.com/7932274.html",
+      "source_date": "2026-03-27",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "three_models": {
+    "type": "bar",
+    "title": "Gross Margin by Self-Operated Model Type",
+    "yLabel": "Gross Margin (%)",
+    "bars": [
+      {"label": "JD Distributor", "value": 17, "color": "#ef4444"},
+      {"label": "Kirkland (capped)", "value": 15, "color": "#f59e0b"},
+      {"label": "Xiaomi IoT", "value": 24, "color": "#3b82f6"},
+      {"label": "Xinpinmu (est.)", "value": 25, "color": "#8b5cf6"},
+      {"label": "UGREEN", "value": 37, "color": "#22c55e"},
+      {"label": "Anker DTC", "value": 45, "color": "#059669"}
+    ]
+  },
+  "value_chain_cost": {
+    "type": "bar",
+    "title": "Landed Cost: $10 Product, China to US",
+    "yLabel": "Total Landed Cost ($)",
+    "bars": [
+      {"label": "Old Temu (air parcel)", "value": 122, "color": "#ef4444"},
+      {"label": "Xinpinmu (bulk+warehouse)", "value": 16, "color": "#22c55e"}
+    ]
+  },
+  "margin_benchmarks": {
+    "type": "bar",
+    "title": "Xinpinmu Scenario Analysis: Operating Profit (RMB B)",
+    "yLabel": "Annual Operating Profit (RMB B)",
+    "bars": [
+      {"label": "Bear (15% GM)", "value": 0.5, "color": "#ef4444"},
+      {"label": "Base (22% GM)", "value": 1.5, "color": "#f59e0b"},
+      {"label": "Bull (30% GM)", "value": 5, "color": "#22c55e"}
+    ]
+  }
+}

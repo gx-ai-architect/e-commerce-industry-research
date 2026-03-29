@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Is Xinpinmu complementary or competitive with existing PDD merchants — and what does Duan Yongping's 'brand licensing' model actually look like in practice?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Xinpinmu was formally announced March 25, 2026 alongside PDD's 2025 Q4/full-year earnings. Two companies registered in Shanghai in early February 2026 with combined RMB 150 billion registered capital",
+      "data": "上海新拼姆鸿乔电子商务有限公司 registered Feb 2, 2026 in Changning District, registered capital RMB 100B. 上海新拼姆朴动电子商务有限公司 registered Feb 3, 2026 in Pudong, registered capital RMB 50B. Total first-tranche: RMB 150B cash. Three-year plan: RMB 1,000B total investment.",
+      "source_url": "https://finance.sina.com.cn/tob/2026-03-25/doc-inhseyvw3603075.shtml",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Co-CEO Zhao Jiazhen positioned Xinpinmu as integrating Pinduoduo + Temu supply chain resources to systematically incubate self-operated brands for global markets — 'three years to recreate another PDD'",
+      "data": "Zhao Jiazhen: '2026年国内供应链迎来了转型升级的关键窗口期，拼多多将举全集团之力，公司上下力出一孔，争取在三年内推动新拼姆实现国产自营品牌的高质量转型，带动中国供应链实现转型升级和价值跃迁。' Zhao was named co-chairman + co-CEO on Dec 19, 2025.",
+      "source_url": "https://www.stcn.com/article/detail/3698669.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu's three core measures: (1) specialized company with customized manufacturing solutions across industrial belts, (2) dedicated teams embedded in production clusters for end-to-end support, (3) comprehensive brand-going-global solutions",
+      "data": "Three measures announced: 其一，成立专项公司推出定制化制造方案；其二，组建专项团队深入产业带提供一体化方案；其三，推出全方位的品牌出海解决方案。This extends PDD's existing 新质供给 program with formal corporate structure and massive capital commitment.",
+      "source_url": "https://www.chinanews.com.cn/cj/2026/03-25/10592777.shtml",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD 2025 full-year revenue was RMB 431.8B (+10% YoY), but net profit declined 12% to RMB 99.4B due to heavy investment — sales & marketing expenses RMB 125.3B (+13%), R&D expenses RMB 16.5B (+30%)",
+      "data": "Q4 2025 revenue: RMB 123.9B. Q4 net profit: RMB 24.5B (-11% YoY). Full-year net profit: RMB 99.4B (-12%). CFO Liu Jun warned investments 'will inevitably impact financial performance.' This signals profit sacrifice for strategic repositioning.",
+      "source_url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhsmnzu2055506.shtml",
+      "source_date": "2026-03-27",
+      "source_tier": "primary",
+      "evidence_direction": "context",
+      "confidence": "high"
+    }
+  ]
+}

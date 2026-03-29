@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Is Xinpinmu complementary or competitive with existing PDD merchants — and what does Duan Yongping's 'brand licensing' model actually look like in practice?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Duan Yongping explicitly compared Xinpinmu to Costco's Kirkland model, predicting that if PDD limits to ~4,000 SKUs, it will be 'formidable' in 10 years",
+      "data": "Duan Yongping posted on Xueqiu (雪球): '这个其实就是Costco的样子。拼多多如果线上品牌只有4000个左右的SKU的话，10年后会是相当厉害的。' ('This is essentially the Costco model. If PDD's online brand has only about 4,000 SKUs, it will be quite formidable in 10 years.')",
+      "source_url": "https://www.tmtpost.com/7932274.html",
+      "source_date": "2026-03-25",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Duan Yongping articulated a 'brand licensing to factories' model: PDD doesn't steal merchant business, but nurtures hit-product companies, supervises quality, and licenses the Xinpinmu brand to qualifying factories",
+      "data": "Duan Yongping's key statement: '拼多多不需要抢客户生意，只要扶植爆品公司就好，监督质量，达到标准就可以把自己的品牌授权给厂家。只需要选出某些有代表性的产品用来打自己的品牌就可以了。' ('PDD doesn't need to steal clients' business, just nurture hit-product companies. Supervise quality, and if they meet standards, license the brand to them. Just select representative products to build the brand.')",
+      "source_url": "https://t.cj.sina.com.cn/articles/view/1589153251/5eb88de300102jtj2",
+      "source_date": "2026-03-27",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Industry analysts interpret Xinpinmu as a 'per-SKU authorization model' where platform provides standards/quality certification and factories produce — complementary rather than competitive because platform handles 'standard answers' (standardized products) while merchants handle 'subjective questions' (non-standard/personalized products)",
+      "data": "Analysis from Sina Finance: '这种单SKU授权模式，也在一定程度上缓和了平台自营与商家之间的博弈：平台只提供标品的"标准答案"，商家则去完成非标与个性的"主观题"，形成一种"协同供应"的互补生态。' The authorization model targets individual SKUs, not entire factory relationships — platform provides standardized product 'answers,' merchants provide non-standard/personalized product 'answers.'",
+      "source_url": "https://t.cj.sina.com.cn/articles/view/1589153251/5eb88de300102jtj2",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Xinpinmu may be similar to PDD's existing 'black label' (黑标) model — giving quality-certified merchants/SKUs traffic exposure and brand endorsement rather than building a separate supply chain",
+      "data": "Analysis: '这种模式可能更类似于拼多多国内的黑标模式，给一些优秀的商家或者SKU曝光流量，提高转化率。' This suggests Xinpinmu is an evolution of existing quality certification programs, not a fundamentally new model.",
+      "source_url": "https://t.cj.sina.com.cn/articles/view/1589153251/5eb88de300102jtj2",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}
