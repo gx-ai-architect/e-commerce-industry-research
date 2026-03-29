@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu specifically solve Temu's tariff problem, and what does the full value chain look like?",
+  "company": "PDD Holdings / Temu",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "US eliminated de minimis exemption for China/HK imports effective May 2, 2025, ending Temu's zero-tariff model",
+      "data": "Executive order signed April 2, 2025. All postal items from China/HK under $800 now subject to duty: initially 30% or $25/item (rising to $50 after June 1). Later escalated to $100/item (May 2) then $200/item (June 1). Post-trade deal (May 14, 2025): 54% tariff on formerly de-minimis goods, or $100 per postal parcel.",
+      "source_url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-closes-de-minimis-exemptions-to-combat-chinas-role-in-americas-synthetic-opioid-crisis/",
+      "source_date": "2025-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "US eliminated de minimis for ALL countries effective August 29, 2025, with per-item duties based on IEEPA tariff rate brackets",
+      "data": "Global de minimis rates: $80/item for countries with <16% IEEPA rate, $160/item for 16-25%, $200/item for >25%. From February 28, 2026 onward, only ad valorem methodology (not per-item flat fee) may be used.",
+      "source_url": "https://www.internationaltradeinsights.com/2025/04/cbp-implements-new-duty-rates-for-de-minimis-shipments-from-china/",
+      "source_date": "2025-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "A $10 Temu item that cost $10 pre-tariff now costs $15.40-$24.50 depending on rate regime",
+      "data": "Pre-May 2025: $10 item = $10 final cost (0% tariff via de minimis). May 2025 at 120-145%: $10 item = $22-$24.50. Trade truce at 54%: $10 item = ~$15.40. Concrete example: CNBC reported a $18.47 dress became $44.68 after $26.21 import charges (142% surcharge). A $12.44 bathing suit became $31.12 (150% fee).",
+      "source_url": "https://www.cnbc.com/2025/04/28/temu-adds-import-charges-after-trump-tariffs.html",
+      "source_date": "2025-04",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "US Supreme Court ruled IEEPA does not authorize emergency tariffs (Feb 20, 2026), but de minimis suspension continues",
+      "data": "February 20, 2026: US Supreme Court ruled IEEPA does not authorize the emergency tariffs imposed in 2025. However, executive order continued suspension of duty-free de minimis treatment globally with revised duty rates.",
+      "source_url": "https://smartasset.com/taxes/de-minimis-trump",
+      "source_date": "2026-02",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "New US law signed July 2025 permanently eliminates de minimis for all commercial shipments from all countries, effective July 1, 2027",
+      "data": "A new law signed in July 2025 will eliminate the de minimis exemption for all commercial shipments from all countries, effective July 1, 2027 - marking a permanent, legislative (not executive order) end to low-value import duty exemptions.",
+      "source_url": "https://time.com/7285316/us-china-trump-tariff-rates-de-minimis-low-value-imports/",
+      "source_date": "2025-07",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu specifically solve Temu's tariff problem, and what does the full value chain look like?",
+  "company": "PDD Holdings / Temu",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "EU Council agreed to impose EUR 3 flat customs duty on all parcels under EUR 150, effective July 1, 2026",
+      "data": "On December 12, 2025, the European Council formally agreed to a fixed EUR 3 customs duty per item category on small parcels entering the EU from July 1, 2026. The duty applies to each distinct tariff sub-heading in a parcel (e.g., silk blouse + wool blouse = EUR 6). Covers IOSS-registered non-EU sellers who account for 93% of cross-border e-commerce imports.",
+      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/12/customs-council-agrees-to-levy-customs-duty-on-small-parcels-as-of-1-july-2026/",
+      "source_date": "2025-12",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "EU will add an additional EUR 2 handling fee per consignment starting November 2026, and EUR 0.50 for warehouse-routed parcels",
+      "data": "European Commission proposed EUR 2 handling fee for direct-to-consumer parcels from outside the EU, and EUR 0.50 for parcels first routed to EU warehouses before shipping to end consumers. This creates a direct financial incentive for the warehouse-first (bulk import) model. Combined impact: EUR 3 duty + EUR 2 handling fee = EUR 5 per parcel for direct cross-border; EUR 3 duty + EUR 0.50 = EUR 3.50 for warehouse-routed.",
+      "source_url": "https://www.vatcalc.com/eu/eu-mulls-customs-admin-tax-on-non-eu-sellers/",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "EUR 3 flat duty is temporary; from 2028 all imports under EUR 150 will face standard tariff-based duties when EU Customs Data Hub launches",
+      "data": "The EUR 3 duty is explicitly temporary (July 2026 - July 2028, extendable). When the EU Customs Data Hub becomes operational, the EUR 150 threshold disappears entirely and all imports will be subject to standard product-level tariff rates. EU standard tariff rates on Chinese goods range from 10-20% depending on category.",
+      "source_url": "https://www.avalara.com/blog/en/europe/2025/11/eu-end-150-customs-duty-exemption-2026.html",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "EUR 3 flat duty destroys margins on ultra-low-price items (EUR 20 product example: profit wiped out)",
+      "data": "A EUR 20 trinket with ~15% margin (EUR 3 profit) loses all profit after EUR 2 handling fee + EUR 2+ customs duty. 91% of small shipments into the EU originate from China. 4.6 billion such packages entered the EU in 2024, nearly double 2023 figures. 65% of parcels are estimated to be undervalued to fall below the EUR 150 line.",
+      "source_url": "https://www.cnabke.com/en/blogs/oumeng-2026-150euro-package-duty-change.html",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "EU regulatory design explicitly incentivizes warehouse-first model over direct cross-border shipping",
+      "data": "The EUR 2 direct-to-consumer handling fee vs EUR 0.50 warehouse-routed fee creates a EUR 1.50/parcel cost advantage for the bulk-import-to-warehouse model. This regulatory design directly rewards the Xinpinmu-type value chain (factory -> bulk ship -> EU warehouse -> local delivery) over the old Temu model (factory -> air parcel -> direct to consumer).",
+      "source_url": "https://www.vatcalc.com/eu/eu-mulls-customs-admin-tax-on-non-eu-sellers/",
+      "source_date": "2025-11",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

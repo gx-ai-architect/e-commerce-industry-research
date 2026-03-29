@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q2",
+  "question_id": "Q2",
+  "question": "What is the deep strategic logic behind Xinpinmu -- why NOW, and what does it mean for PDD's business model transformation?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "PDD's C2M strategy has evolved through four distinct phases: (1) New Brand Alliance 1.0 in 2018, (2) Upgraded New Brand Alliance 2.0 in 2020, (3) Temu international expansion 2022-2025, and (4) Xinpinmu self-operated brands in 2026.",
+      "data": "Phase 1 (2018): 'New Brand Plan' (新品牌计划) launched to support 1,000 factories with R&D guidance, big data, and traffic. Phase 2 (2020): Upgraded to 2.0 with targets of 100 industrial clusters, 100,000 custom products, and RMB 1 trillion in sales by 2025; partners expanded from 1,000 to 5,000; added Hundred Billion Subsidy resources. Phase 3 (2022-2025): Temu expansion to 90+ countries in 3 years. Phase 4 (2026): Xinpinmu — platform-owned brands, RMB 100B investment over 3 years.",
+      "source_url": "https://c.m.163.com/news/a/KP1FAVKU0511I947.html",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "PDD's C2M model created concrete results before Xinpinmu: by 2020, C2M orders had reached 460 million, and multiple factory brands (Beiyingshuang, Kailin, Jiaweishi, Sanhe) had exceeded RMB 100M annual sales on the platform.",
+      "data": "PDD's New Brand Plan had accumulated 4.6 billion C2M orders by 2020. Factory-to-consumer brands like 贝婴爽 (baby care), 凯琴 (appliances), 家卫士 (home cleaning), 三禾 (cookware) each achieved annual sales exceeding RMB 100M. PDD also co-created the '蓓丽' brand with Pechoin (百雀羚).",
+      "source_url": "https://www.cls.cn/detail/604722",
+      "source_date": "2020-10",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Xinpinmu marks a qualitative shift from PDD's prior C2M work: the platform moves from 'helping factories build their own brands' to 'owning the brand and licensing it to factories' — from enabler to brand owner.",
+      "data": "Previous model: PDD provided traffic, data, and subsidies; factories retained brand ownership. Xinpinmu model: PDD creates and owns the brands, sets quality standards, and authorizes factories to produce under PDD's brand. Duan Yongping: 'PDD doesn't need to compete with merchants — it should select representative products, brand them, and license the brand to factories while overseeing quality.'",
+      "source_url": "https://t.cj.sina.com.cn/articles/view/1589153251/5eb88de300102jtj2",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "The C2M evolution reveals a consistent strategic arc: PDD spent 7 years (2018-2025) building deep relationships with Chinese industrial clusters before taking the step of owning brands — Xinpinmu is not a pivot but the culmination of this groundwork.",
+      "data": "Central University of Finance and Economics professor Liu Chunsheng: '拼多多正试图从供应链搬运工转向对供应链的深度嵌入与重塑' (PDD is shifting from supply chain 'mover' to deep embedding and reshaping of the supply chain). This is described as leveraging 'industrial leverage' through deep penetration of industrial clusters. The dedicated Xinpinmu teams have already deployed to agriculture regions and manufacturing hubs.",
+      "source_url": "https://finance.sina.com.cn/tech/roll/2026-03-27/doc-inhsmtim9418937.shtml",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

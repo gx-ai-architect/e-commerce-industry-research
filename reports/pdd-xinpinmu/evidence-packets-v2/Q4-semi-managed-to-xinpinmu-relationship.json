@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu specifically solve Temu's tariff problem, and what does the full value chain look like?",
+  "company": "PDD Holdings / Temu",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Temu now operates three parallel models: fully-managed, semi-managed, and third-party (3P) marketplace",
+      "data": "Fully-managed: PDD controls pricing, logistics, customer service (original Temu model). Semi-managed: merchant ships to local warehouse, manages own pricing, PDD handles marketplace (launched 2024). Third-party: seller independently selects products, sets prices, ships directly (newest model). Up to 70% of platform traffic is shifting toward Semi-Managed SKUs.",
+      "source_url": "https://smartbuy.alibaba.com/tips/temu-3-business-models",
+      "source_date": "2025-09",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu is a FOURTH model: PDD-owned brand, factory contract manufacturing, PDD handles everything from product definition to after-sales",
+      "data": "Xinpinmu is not a replacement for Temu but a complement and 'advanced extension' (进阶与补充). Core difference: Temu continues platform marketplace logic, Xinpinmu integrates Pinduoduo+Temu supply chain resources into brand self-operation. PDD moves from 'matchmaker' (撮合者) to direct participant in manufacturing and brand incubation. Nationwide factories and industrial clusters transition from 'platform recruitment targets' to 'self-operated brand cooperation partners.'",
+      "source_url": "https://news.qq.com/rain/a/20260326A08MIG00",
+      "source_date": "2026-03-26",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Semi-managed model was the bridge: it taught PDD warehouse operations and local fulfillment, setting the stage for Xinpinmu's 1P model",
+      "data": "Timeline of PDD's supply chain evolution: (1) 2022-2024: Fully-managed cross-border model (factory -> PDD air freight -> consumer). (2) 2024: Semi-managed model launches (merchant ships to local warehouse). (3) 2025: US/EU de minimis death forces acceleration of local fulfillment. (4) 2026: Xinpinmu launches as self-operated brand model. Each step added more supply chain capability. Semi-managed taught PDD how to run warehouses; Xinpinmu adds brand ownership and product definition on top.",
+      "source_url": "https://www.darwynnfulfillment.com/temu-semi-managed-model-2025/",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Temu EU GMV projected to exceed $15B in 2025, potentially $20B by end of 2026; EU accounts for 40% of Temu GMV vs 31% for US",
+      "data": "EU market share: 40% of Temu GMV with 80-100% growth. US market: 31% of Temu GMV but growth slowing due to tariff policies. Temu total revenue 2025: ~$92.5B on temu.com. Analysts project operating income of $775M by 2026 with warehouse efficiency gains. Revenue projection: 35-40% increase in 2026.",
+      "source_url": "https://cross-border-magazine.com/new-silk-road-temu-rise-in-eu/",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "context",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Xinpinmu also addresses regulatory compliance risk by separating brand operations from marketplace platform",
+      "data": "Industry analysts note: 'Xinpinmu's establishment is also a proactive strategy to address compliance pressures during Temu's rapid expansion, achieving risk isolation and functional optimization through business separation' (通过业务分拆实现风险隔离与职能优化). Future structure: Temu platform marketplace + Xinpinmu self-operated brands = complementary, with Temu handling long-tail demand and Xinpinmu setting quality benchmarks.",
+      "source_url": "https://www.cifnews.com/article/184492",
+      "source_date": "2026-03-26",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

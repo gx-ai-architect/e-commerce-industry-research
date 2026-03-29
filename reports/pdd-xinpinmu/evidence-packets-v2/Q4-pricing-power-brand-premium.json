@@ -1,0 +1,45 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu specifically solve Temu's tariff problem, and what does the full value chain look like?",
+  "company": "PDD Holdings",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Private label brands deliver 25-30% higher gross margins vs national brands, with consumers increasingly accepting quality parity",
+      "data": "Private-label sales projected to reach $277B in 2025 (up from $271B in 2024, +3.9% YoY). 74% of consumers say private-label brands are just as good as name brands (2025 Ipsos study). Gen Z private-label adoption growing at ~5% YoY. Premium private labels price just $1-3 below national brands. Private labels deliver 25-30% higher gross margins compared to national brands.",
+      "source_url": "https://originalpricing.com/private-label-pricing/",
+      "source_date": "2025-09",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Xinpinmu's pricing model: platform trust premium replaces traditional brand premium, enabling 'quality matching brands, prices below white-label'",
+      "data": "Chinese media analysis: 'Xinpinmu mechanism essentially uses the platform's trust premium to feed back to the production end' (用平台的信任溢价去反哺生产端). The target is 'quality matching brands, prices below white-label' (品质对标品牌、价格低于白牌). This means Xinpinmu products can be priced HIGHER than generic Temu goods (capturing brand premium) while still being LOWER than established brands.",
+      "source_url": "https://www.ichaoqi.com/xinchao/2026/0327/81246.html",
+      "source_date": "2026-03-27",
+      "source_tier": "tertiary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Higher ASP from Xinpinmu branding dilutes tariff impact as a percentage of product value",
+      "data": "Tariff math: If a generic Temu product sells for $5 with 54% tariff = $2.70 duty (54% of price). If a Xinpinmu-branded equivalent sells for $12 with 25% standard duty rate (via bulk import formal entry) = $3.00 duty (25% of price). The absolute duty is similar but the branded product has much higher margin to absorb it. Additionally, bulk import avoids the $100 per-parcel postal fee entirely, which is the true killer for the old model.",
+      "source_url": "https://techbuzzchina.substack.com/p/temu-watch-10-logistics-in-times",
+      "source_date": "2025-06",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Xinpinmu's core strategic insight: move from 'capacity export' to 'industrial capability export' - from low-margin OEM to brand-owner economics",
+      "data": "PDD framing: 'pushing Chinese manufacturing from capacity export (产能出海) to industrial capability export (产业能力出海).' Zhao Jiachen (co-CEO): 'Next phase, the company's strategic focus is not business diversification, but fully focusing on high-quality supply chain development.' Chen Lei: 'E-commerce platforms should not be simple transaction platforms, they should do more, creating more value for all participants across the supply chain.'",
+      "source_url": "http://www.news.cn/tech/20260326/5f2bae4b8ee44941941aa1198437c82d/c.html",
+      "source_date": "2026-03-26",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}

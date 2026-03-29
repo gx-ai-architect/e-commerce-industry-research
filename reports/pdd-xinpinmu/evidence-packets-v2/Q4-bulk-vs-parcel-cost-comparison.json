@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu specifically solve Temu's tariff problem, and what does the full value chain look like?",
+  "company": "PDD Holdings / Temu",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Air freight per-parcel cost from China to US is $6-$10 via consolidated methods, vs ocean freight at $0.10-$0.30/kg for dense cargo in containers",
+      "data": "Air freight: standard $5-$8/kg, express $8-$12/kg, small parcels under 1kg $15-$30. Consolidated/hybrid air freight: $6-$10 per parcel. Ocean FCL: $2,100-$5,000 per 40ft container (China to US), translating to ~$0.10-$0.30/kg for dense cargo. Ocean LCL: $0.50-$1.00/kg. Air freight is 4-6x more expensive than ocean per unit.",
+      "source_url": "https://www.shapiro.com/shipping-rate-trends/china-to-us/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu's bulk shipping to UK warehouses reduced per-item logistics costs by 40-60% compared to air freight",
+      "data": "Temu reports that bulk shipping to UK third-party warehouses has reduced per-item logistics costs by 40-60% compared to traditional air freight, while also improving delivery speeds from weeks to days.",
+      "source_url": "https://ecommercenews.eu/temu-80-of-european-sales-via-local-warehouses/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Cross-border air freight from China to US declined ~50% after de minimis revocation, with projections of 90% decline at 145% tariff rates",
+      "data": "E-commerce accounted for ~50% of China-to-US airfreight volume in 2024. ~100,000 tons/month of de minimis traffic moving across Pacific. One firm estimated ~90% reduction in parcels at 145% tariffs. Air rates from Hong Kong to US spiked 50% to $7.95/kg in mid-April 2025 rush before May 2 deadline.",
+      "source_url": "https://www.freightwaves.com/news/air-cargo-industry-jolted-by-trump-tariffs-on-chinese-e-commerce",
+      "source_date": "2025-05",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Industry consensus: permanent shift from air freight to ocean shipping for Chinese e-commerce",
+      "data": "'We can expect to see these companies begin shipping most items in bulk rather than single parcels, which will reduce speed to market and increase the amount of inventory held in the U.S. This could mean a permanent shift from air freight to ocean shipping.' - industry expert quoted by FreightWaves",
+      "source_url": "https://www.freightwaves.com/news/new-trump-tariffs-could-decimate-china-e-commerce-airfreight-demand",
+      "source_date": "2025-04",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Landed cost comparison for a typical $10 product: old Temu model vs bulk import model",
+      "data": "OLD MODEL (cross-border parcel): Product $10 + air freight ~$7/parcel + tariff 54% ($5.40) + $100 per-parcel fee = ~$122.40 landed cost. BULK IMPORT MODEL: Product $10 + ocean freight ~$0.50/unit + standard Section 301 tariff ~25% ($2.50) + no per-parcel fee + US warehouse pick/pack ~$3 = ~$16 landed cost. The per-parcel fee alone makes the old model uneconomical. MATH: Even at the trade-truce 54% rate, the $100 per-parcel postal fee is the killer for sub-$20 items.",
+      "source_url": "https://techbuzzchina.substack.com/p/temu-watch-10-logistics-in-times",
+      "source_date": "2025-06",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

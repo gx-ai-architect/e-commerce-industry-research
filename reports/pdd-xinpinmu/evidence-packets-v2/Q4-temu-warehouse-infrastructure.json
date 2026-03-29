@@ -1,0 +1,54 @@
+{
+  "agent": "thesis-agent-Q4",
+  "question_id": "Q4",
+  "question": "How does Xinpinmu specifically solve Temu's tariff problem, and what does the full value chain look like?",
+  "company": "PDD Holdings / Temu",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Temu operates 13 self-owned warehouses globally: 10 EU, 2 US, 1 Mexico (as of Oct 2025)",
+      "data": "13 self-owned warehouses: EU (Germany, France, Spain, Netherlands, Italy, Austria, UK - 10 total), US (Rowland Heights CA, Dallas TX - 2), Mexico border ('Jitu Warehouse' - 120,000 sqm - 1). 14th planned for Rio de Janeiro, Brazil. Also operates 165,000 sqm logistics center in Gimpo, South Korea.",
+      "source_url": "https://amzprep.com/where-is-temu-warehouse-located/",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu targets 80% of European orders fulfilled via local warehouses by 2026",
+      "data": "Temu announced goal of 80% of all European orders shipped from local warehouses. Started using local warehouses in Europe in December 2024. UK target: 50% local fulfillment by end of 2025. EU warehouse locations: Rotterdam, Frankfurt (largest/most advanced), plus UK, Germany, Austria, Italy, Spain, France.",
+      "source_url": "https://ecommercenews.eu/temu-80-of-european-sales-via-local-warehouses/",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu US self-operated warehouses projected to handle only 15-20% of US volume in 2025, rising to 20-25% by 2026",
+      "data": "Self-operated warehouses in US handle 15-20% of total US goods volume (2025 projection), rising to 20-25% by 2026. Self-operated warehousing will NOT become the primary delivery method in the US market. Primary function: storing best-selling products, providing initial support for semi-managed merchants. This suggests Xinpinmu-branded products would be the primary use case for these warehouses.",
+      "source_url": "https://amzprep.com/where-is-temu-warehouse-located/",
+      "source_date": "2026-01",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Amazon operates 150+ US fulfillment centers and 600+ total US logistics sites - dwarfing Temu's 2 US warehouses",
+      "data": "Amazon: 150+ US fulfillment centers, 600+ total logistics sites, 1,200+ globally. 35 FCs in California alone, 28 in Texas, 17 in New Jersey. 92% of Prime members within one-day ground zone. $15B plan for 80 new sites in 2025. 750K robotics units. By comparison, Temu has 2 US warehouses. This scale gap means Xinpinmu can only serve a small, curated product selection in the US initially.",
+      "source_url": "https://redstagfulfillment.com/how-many-amazon-warehouses-are-there/",
+      "source_date": "2026-02",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "high"
+    },
+    {
+      "claim": "Temu partnerships with major logistics providers for European local fulfillment",
+      "data": "Temu has forged partnerships with DHL, FedEx, Royal Mail, and bpostgroup for local delivery. This suggests Temu does not need to build last-mile delivery from scratch - it can leverage existing infrastructure. The Xinpinmu model would ship bulk to Temu warehouses, then hand off to these local carriers for delivery.",
+      "source_url": "https://blog.lengow.com/temus-localization-strategy-in-europe/",
+      "source_date": "2025-10",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    }
+  ]
+}

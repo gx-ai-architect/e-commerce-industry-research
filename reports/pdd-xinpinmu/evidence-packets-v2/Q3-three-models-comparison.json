@@ -1,0 +1,36 @@
+{
+  "agent": "thesis-agent-Q3",
+  "question_id": "Q3",
+  "question": "Is Xinpinmu complementary or competitive with existing PDD merchants — and what does Duan Yongping's 'brand licensing' model actually look like in practice?",
+  "company": "Cross-platform comparison (JD / Amazon / Costco / PDD)",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "THREE DISTINCT SELF-OPERATED MODELS exist with radically different merchant conflict profiles: (1) JD distributor model — high conflict, (2) Amazon Basics private label — high conflict + antitrust risk, (3) Kirkland/Xinpinmu brand licensor — potentially lower conflict",
+      "data": "Model 1 (JD): Buy inventory from existing brands, resell via owned logistics. Compete with 3P merchants on same SKUs. Result: search preference for self-operated, merchant fines for cross-platform pricing, regulatory action. Model 2 (Amazon): Use platform data to identify categories, create competing private-label products. Result: FTC antitrust suit, EU settlement, $1.4B excess profit allegation. Model 3 (Kirkland/Xinpinmu): Partner with factories to produce under platform brand. Factory remains the producer and beneficiary. Result: tension exists but is structurally different — the factory IS the supplier, not a displaced competitor.",
+      "source_url": "multiple sources synthesized",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "KEY DIFFERENCE: In JD/Amazon models, existing merchants are DISPLACED. In Kirkland/Xinpinmu model, existing factories are UPGRADED — they become branded suppliers rather than losing business to a platform competitor",
+      "data": "Costco: Duracell makes Kirkland batteries AND sells Duracell on same shelves. PDD vision (Duan Yongping): '扶植爆品公司就好，监督质量，达到标准就可以把自己的品牌授权给厂家' — nurture hit-product companies, license brand to factories that meet standards. The factory GAINS brand power rather than losing market share. However, this is the ASPIRATIONAL model — execution may differ. Costco's own experience shows national brands DO lose shelf space over time.",
+      "source_url": "multiple sources synthesized",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "CRITICAL CAVEAT: Even Kirkland, the 'gentler' model, creates real tension — brands like Kind, Planters, Pampers have been displaced. The key question for Xinpinmu is whether the PER-SKU authorization model can limit conflict better than category-wide private label",
+      "data": "Costco's Kirkland pressure on national brands is well-documented. LaunchPad Inc. founder Jeremy Smith advises clients: 'Assume a KS version of your product will come into the market.' Lululemon sued Costco in 2025 over Kirkland dupes. However, PDD's proposed 'per-SKU authorization' model differs: authorization targets individual products, not categories. Platform handles 'standard answers' (标品), merchants handle 'non-standard/personalized' (非标). If executed this way, conflict is structurally limited to standardizable commodity products.",
+      "source_url": "https://t.cj.sina.com.cn/articles/view/1589153251/5eb88de300102jtj2",
+      "source_date": "2026-03-27",
+      "source_tier": "secondary",
+      "evidence_direction": "contradicts",
+      "confidence": "medium"
+    }
+  ]
+}

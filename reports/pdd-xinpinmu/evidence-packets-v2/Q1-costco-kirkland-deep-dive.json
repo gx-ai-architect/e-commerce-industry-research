@@ -1,0 +1,99 @@
+{
+  "agent": "thesis-agent-Q1",
+  "question_id": "Q1",
+  "question": "What does 'online Costco' actually mean for Xinpinmu, and why is the Kirkland model the right comparison (not JD's 1P model)?",
+  "company": "Costco (reference model)",
+  "collected_at": "2026-03-28",
+  "findings": [
+    {
+      "claim": "Kirkland Signature generated $90 billion in sales in FY2025, representing roughly one-third of Costco's $270 billion total merchandise sales",
+      "data": "According to Costco's 2026 Annual Meeting of Shareholders, Kirkland Signature brought in about $90 billion in sales in 2025, a $15 billion increase vs. 2024's $86 billion. This makes Kirkland larger than all but a few CPG giants (Nestle, P&G, PepsiCo, Unilever).",
+      "source_url": "https://www.chowhound.com/2095034/costco-kirkland-signature-total-sales-2025/",
+      "source_date": "2025-10",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Kirkland Signature has grown from launch (1995, ~24 items) to $90B in 30 years, consistently outpacing overall Costco sales growth",
+      "data": "Launched October 1995 with about two dozen items (cookies, juice, diapers, sweaters, tires). Replaced ~24 separate private-label brands. FY2021: $59B (31% of revenue). FY2024: $86B. FY2025: $90B. In Q3 FY2025, Kirkland sales outpaced overall sales growth, lifting brand penetration by 50 basis points YoY.",
+      "source_url": "https://storebrands.com/costco-marks-30-years-kirkland-signature",
+      "source_date": "2025-10",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Costco stocks only ~4,000 SKUs total, of which Kirkland Signature represents ~400-600 products — radical curation vs. supermarket's 30,000-40,000",
+      "data": "Costco stocks approximately 3,700-4,000 active SKUs. Kirkland Signature covers around 400-600 products globally (sources vary on exact count). A typical supermarket carries 30,000-40,000 items. Walmart carries 120,000+. Costco has 1,000+ Kirkland trademarks filed worldwide.",
+      "source_url": "https://cruisingcostco.wordpress.com/2025/03/20/facts-about-kirkland-signature-the-costco-store-brand/",
+      "source_date": "2025-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Kirkland's quality standard is 'equal or better than national brands' at 20%+ savings, with strict markup caps (14% regular items, 15% Kirkland)",
+      "data": "Company rule: no regular item marked up more than 14% over cost, no Kirkland item more than 15%. Target: 11% on total COGS. Kirkland must be 'equal or better quality than national brands' with at least 20% price savings. CFO Millerchip Q2 2026: 'KS items typically offering 15% to 20% value compared to the national brand alternative, with equal or better quality.'",
+      "source_url": "https://www.thestreet.com/retail/costco-quietly-made-changes-to-kirkland-signature-brand",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Private-label products carry gross margins 5-8 percentage points above equivalent national brands, making Kirkland Costco's margin engine",
+      "data": "Private labels carry gross margins 5 to 8 percentage points above equivalent national brands. Kirkland delivers 15%+ margins, nearly double national brands on the same shelf. Costco's operating margin (14.2%) outpaces Walmart's (5.4%) and Amazon's (5.1%). Gross margin FY2026 Q1: 12.88%, up from 12.67% in FY2025 Q2.",
+      "source_url": "https://www.ainvest.com/news/kirkland-signature-valuation-catalyst-costco-private-label-dominance-reshaping-retail-economics-2508/",
+      "source_date": "2025-08",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Costco's Kirkland supplier model: partners with premium national brand manufacturers (Starbucks, Duracell), who produce Kirkland versions — eliminating middlemen",
+      "data": "Costco gives brand-name suppliers the chance to make the Kirkland version. Examples: Starbucks roasts Kirkland coffee, Duracell produces Kirkland batteries, Einstein Bros makes Kirkland bagels. Costco has abandoned Kirkland categories (cosmetics, soda, toothpaste) when national brands perform significantly better. CEO Ron Vachris personally signs off on each new Kirkland addition.",
+      "source_url": "https://retailwire.com/discussion/why-has-kirkland-signature-been-so-successful/",
+      "source_date": "2025-09",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Costco vertically integrates key supply chains — built its own poultry processing plant in 2017 to control the chicken supply chain end-to-end",
+      "data": "Costco went all-in on poultry by setting up their own chicken processing plant in 2017. By owning the whole chicken supply chain, Costco dodges price hikes and keeps rotisserie chicken at $4.99. In 2026, Costco is increasing domestic sourcing for Kirkland to counter tariffs.",
+      "source_url": "https://eightception.com/costco-supply-chain-challenges-solutions/",
+      "source_date": "2025-11",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Costco's limited SKU strategy produces extraordinary capital efficiency: $850K+ revenue per employee (vs. $348K industry average), 33.7% ROIC (vs. Walmart's 17.1%)",
+      "data": "Each U.S. employee contributes an estimated $850,000+ in annual revenue, whereas the warehouse club and supercenter industry average is about $348,000 — over double the sales per employee. Costco's ROIC stands at 33.7% versus Walmart's 17.1%. The limited SKU approach drives faster inventory turns and less handling.",
+      "source_url": "https://www.mmcginvest.com/post/costco-wholesale-s-u-s-operations-in-2025-footprint-and-performance",
+      "source_date": "2025-12",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    },
+    {
+      "claim": "Costco's 4,000 SKUs allocate 3/4 to food and daily necessities (high-frequency, essential) and 1/4 to discretionary categories (apparel, electronics, toys)",
+      "data": "Costco将仅有的4000个SKU中的3/4都分配给了食物和日常必须品等高频、刚需类商品，仅有1/4分配给服饰家居、电器玩具等更低频、可选的商品。This 75/25 split ensures the curated assortment covers core household needs while maintaining the 'treasure hunt' appeal.",
+      "source_url": "https://www.tmtpost.com/7932274.html",
+      "source_date": "2026-03",
+      "source_tier": "secondary",
+      "evidence_direction": "supports",
+      "confidence": "medium"
+    },
+    {
+      "claim": "In Q2 2026, Costco launched 30 new Kirkland items and is accelerating domestic sourcing to offset tariff pressures while protecting price gaps vs. national brands",
+      "data": "CEO Ron Vachris: company leaning in on Kirkland because that's where Costco has 'the most control of the supply chain.' CFO Millerchip: 'We are continuing to work on supply chain efficiencies, and Kirkland Signature penetration continues to improve.' 30 new items launched in Q2 2026 alone. Increasing domestic sourcing to address tariff-related cost pressures.",
+      "source_url": "https://simplywall.st/stocks/us/consumer-retailing/nasdaq-cost/costco-wholesale/news/costco-fuel-and-kirkland-shifts-aim-to-deepen-member-loyalty",
+      "source_date": "2026-03",
+      "source_tier": "primary",
+      "evidence_direction": "supports",
+      "confidence": "high"
+    }
+  ]
+}
